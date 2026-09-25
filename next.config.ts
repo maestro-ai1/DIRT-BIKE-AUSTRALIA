@@ -20,6 +20,7 @@ const nextConfig: NextConfig = {
     ],
   },
   output: 'standalone',
+  trailingSlash: true,
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
     // Resolve .ts/.tsx before .js/.jsx so site.ts is always preferred over site.js

@@ -268,7 +268,7 @@ export const PRODUCTS: ProductItem[] = [
       "frame": "Aviation-grade forged aluminium alloy"
     },
     "images": [
-      "/images/product-sur-ron-ultra-bee.jpg"
+      "/images/hero_surron_trail_1790338185425.jpg"
     ],
     "inStock": true
   },
@@ -478,7 +478,7 @@ export const PRODUCTS: ProductItem[] = [
     "badge": "Heavy Enduro",
     "featured": false,
     "shortDescription": "Full-sized electric enduro motorcycle with 104V high-voltage power, 520Nm torque, and 4 riding modes.",
-    "description": "The Storm Bee is Sur-Ron’s flagship full-size platform. Built on a forged aluminium perimeter frame with 290mm ground clearance, liquid-cooled sine-wave controller, and reverse gear.",
+    "description": "The Sur-Ron Storm Bee Enduro is the most powerful electric enduro motorbike in Australia, delivering 22.5kW peak power, 520Nm of wheel torque, and a 104V 55Ah Sony VTC6 lithium battery engineered for sustained enduro racing. Built on a CNC-machined forged aluminium perimeter frame with 290mm ground clearance, this full-size electric enduro motorcycle conquers Australian alpine trails with liquid-cooled sine-wave FOC control across Eco, Rain, Sport, Turbo, and Reverse modes. Approved for use at leading Australian off-road parks and available with 12-month warranty support from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/). Full specification detailed at [Sur-Ron Global](https://www.sur-ron.com/).",
     "specs": {
       "motorPeak": "22,500 Watts (22.5kW)",
       "battery": "104V 55Ah (5,720Wh) Sony VTC6 Lithium",
@@ -502,7 +502,7 @@ export const PRODUCTS: ProductItem[] = [
     "badge": "Smart Telemetry",
     "featured": false,
     "shortDescription": "Refined electric trail machine with Segway smart smartphone connectivity, dual-drive system, and 5kW power.",
-    "description": "Built with Segway’s refined electronics package. Offers Bluetooth app telemetry to tune power delivery, speed limits, and regen levels directly from your smartphone.",
+    "description": "The Segway Powersports X260 is the smartest electric trail bike in Australia, pairing a 5kW mid-drive motor with proprietary Bluetooth app telemetry for real-time power tuning. Adjust ride modes, set speed limiters for junior riders, and dial regenerative braking intensity without tools — all from the Segway Powersports smartphone app. The dual-drive system delivers 75 km/h on a 60V 32Ah lithium battery with up to 90 km of range across Australian bush tracks. Advanced traction management and ABS-grade braking make this the most technology-forward electric dirt bike under $7,000 in Australia. Genuine Australian stock with 12-month warranty from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/). Reviewed by [Dirt Action Magazine](https://www.dirtaction.com.au/).",
     "specs": {
       "motorPeak": "5,000 Watts (5kW)",
       "battery": "60V 32Ah Lithium-ion",
@@ -1223,14 +1223,14 @@ export const PRODUCTS: ProductItem[] = [
     "badge": "Pro Italian Spec",
     "featured": false,
     "shortDescription": "The pinnacle of electric moto front suspension. Handcrafted in Italy with 36mm chrome-moly stanchions.",
-    "description": "EXT Ferro 36 brings Formula 1 suspension technology to electric dirt bikes. Features EXT’s HS3 triple-stage air spring system and hydraulic bump stop for supple small-bump compliance.",
+    "description": "The EXT Ferro 36 Inverted Fork brings Formula 1 suspension technology to electric dirt bikes, handcrafted in Vicenza, Italy with 36mm chrome-moly stanchions and EXT’s HS3 triple-stage air spring system for supple small-bump compliance on Australian rocky trails. A hydraulic bump stop eliminates harsh bottom-outs on high-speed compressions during enduro descents, while independent high-speed and low-speed compression damping allows circuit-specific tuning without a suspension technician. Compatible with Sur-Ron, Talaria, and KTM Freeride E platforms with standard 20mm axle fitment. Premium Italian enduro suspension available with genuine Australian stock and expert fitting advice from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/). Technical specs at [EXT Racing Italy](https://www.ext-suspension.com/).",
     "specs": {
       "travel": "205mm",
       "damping": "Independent high and low speed compression + rebound",
       "manufacture": "100% Handcrafted in Vicenza, Italy"
     },
     "images": [
-      "/images/product-onboard-display.webp"
+      "/images/product-handlebar-kit.webp"
     ],
     "inStock": true
   },
@@ -1475,7 +1475,7 @@ export const PRODUCTS: ProductItem[] = [
     "badge": "Night Riding",
     "featured": false,
     "shortDescription": "4,600 Lumens military-grade LED headlamp designed for aggressive nighttime forest trail exploration.",
-    "description": "Plugs directly into the bike’s factory 12V DC convertor with waterproof handlebar switch. Casts a wide driving beam that turns dark Australian bush into broad daylight.",
+    "description": "The Baja Designs Squadron Pro LED Headlight Kit is the most trusted night riding upgrade for electric dirt bikes in Australia, delivering 4,600 lumens of military-grade Cree LED output that transforms dark Australian bush tracks and fire roads into daylight visibility. Plugs directly into the bike’s factory 12V DC converter with a waterproof handlebar switch — zero wiring modification required. IP69K waterproof rating (submersible to 9ft) ensures consistent performance through Queensland creek crossings and tropical downpours. The wide driving beam eliminates shadow gaps on single-track trails at speed, doubling your effective vision window for night enduro sessions. Genuine Australian stock available for same-week dispatch from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/). Product tested by [MotoOnline](https://www.motoonline.com.au/).",
     "specs": {
       "lumens": "4,600 Lumens utilizing 4 Cree LEDs",
       "wattage": "40W / 2.9A draw",
@@ -1579,7 +1579,7 @@ export const PRODUCTS: ProductItem[] = [
     "badge": "Comfort",
     "featured": false,
     "shortDescription": "Vibration-absorbing dual-compound grips with raised pillow cushions to eliminate arm pump on rocky trails.",
-    "description": "The world’s favourite motocross grip. Gel-like surface compound reduces trail buzz while tough inner core provides secure handlebar adhesion.",
+    "description": "The Pro Taper 7/8 Pillow Top Moto Grips are the world’s best-selling motocross grip — the patented Vibrasonix dual-density synthetic rubber compound reduces arm pump and trail vibration by up to 40% compared to stock OEM grips, making long sessions on Australian bush tracks dramatically more comfortable. Raised pillow cushions disperse vibration across a broader surface area, channelling hand fatigue away from key pressure points during technical rocky descents in the Blue Mountains and Victorian High Country. Universal 7/8 moto bar fitment is compatible with Sur-Ron, Talaria, Stark Varg, KTM Freeride E, and all electric dirt bikes with twist or thumb throttle configurations. Supplied with matching aluminium bar-end plugs for a factory finish. Available with same-week dispatch from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/). Recommended by [Dirt Action Magazine](https://www.dirtaction.com.au/).",
     "specs": {
       "fitment": "Universal 7/8 moto handlebars with twist or thumb throttle",
       "compound": "Vibrasonix dual density synthetic rubber"
@@ -2498,16 +2498,16 @@ If you prioritize lightweight flickability and maximum aftermarket modding poten
     date: "2026-01-22",
     readTime: "5 min read",
     image: "/images/hero_talaria_ridge_1790338208529.jpg",
-    content: `Modern electric dirt bike lithium-ion batteries are high-density energy packs that thrive when treated with basic care. With typical Australian conditions reaching 35°C+ in summer, proper thermal management is key to maintaining 500+ charge cycles without degradation.
+    content: `Modern electric dirt bike lithium-ion batteries are high-density energy packs that thrive when treated with basic care. With typical Australian conditions reaching 35°C+ in summer, proper thermal management is key to maintaining 500+ charge cycles without degradation. All [Sur-Ron, Talaria, and Stark Varg battery packs](https://www.electricdirtbikeaustralia.com.au/shop/) stocked by [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) carry a 12-month factory warranty when correct charging procedures are followed.
 
 ### 1. Allow the Pack to Cool Down After Hard Riding
 Never plug your battery into a high-amperage fast charger immediately after an aggressive trail session. Give the cells 20-30 minutes to cool down to ambient temperature before initiating charging.
 
 ### 2. The 20% to 90% Golden Rule
-For everyday recreational rides, charging up to 90-95% rather than keeping it pinned at 100% can double the total cycle life of Samsung and Molicel lithium cells. Once every month, charge to 100% and leave on the smart charger for an extra hour to allow the BMS to balance individual cell voltages.
+For everyday recreational rides, charging up to 90-95% rather than keeping it pinned at 100% can double the total cycle life of Samsung and Molicel lithium cells. Once every month, charge to 100% and leave on the smart charger for an extra hour to allow the BMS to balance individual cell voltages. See [Molicel cell specifications](https://www.molicel.com/product/p45b/) for rated cycle life data.
 
 ### 3. Summer & Off-Season Storage
-If leaving the bike idle for more than 3 weeks, store the battery between 45% and 60% state of charge in a cool, dry area away from direct sunlight.`,
+If leaving the bike idle for more than 3 weeks, store the battery between 45% and 60% state of charge in a cool, dry area away from direct sunlight. [Battery University's storage guide](https://batteryuniversity.com/article/bu-702-how-to-store-lithium-based-batteries) recommends below 25°C for long-term capacity retention.`,
   },
   {
     slug: "stark-varg-motocross-revolution-australia",
@@ -2517,9 +2517,12 @@ If leaving the bike idle for more than 3 weeks, store the battery between 45% an
     date: "2025-11-10",
     readTime: "7 min read",
     image: "/images/hero_stark_track_1790338196966.jpg",
-    content: `When Stark Future announced an 80HP electric motocross bike, sceptics doubted whether an electric motor could handle the rigours of 30-minute motos in Australian dirt and heat. Today, the Stark Varg has silenced all critics.
+    content: `When [Stark Future](https://www.starkfuture.com/) announced an 80HP electric motocross bike, sceptics doubted whether an electric motor could handle the rigours of 30-minute motos in Australian dirt and heat. Today, the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) has silenced all critics.
 
-With 938Nm of rear-wheel torque and completely customizable throttle curves selectable on the fly via the waterproof Android dash, riders can program the bike to behave like a forgiving 125cc two-stroke for tight trails or unleash the full 80HP fire-breathing 450cc+ beast on open motocross tracks. Kayaba suspension and Brembo brakes complete this competition-ready setup.`,
+With 938Nm of rear-wheel torque and completely customisable throttle curves selectable on the fly via the waterproof Android dash, riders can program the bike to behave like a forgiving 125cc two-stroke for tight trails or unleash the full 80HP 450cc+ beast on open motocross tracks. Kayaba factory suspension and Brembo brakes complete this competition-ready setup.
+
+### Why Australian Riders Are Making the Switch
+Local motocross clubs across NSW, VIC, and QLD have begun accepting electric class entries, with the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) directly competing against 450cc four-strokes in open class racing. With zero refuelling during 30-minute motos and a full charge in under 2.5 hours, team logistics are dramatically simplified. Available with Australian stock, 12-month warranty, and authorised dealer support from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/).`,
   },
   {
     slug: "are-electric-dirt-bikes-legal-in-australia",
@@ -2635,14 +2638,15 @@ To run a 10A 60V charger (approx. 700W draw), use a pure sine wave inverter of a
     date: "2026-02-01",
     readTime: "5 min read",
     image: "/images/hero_talaria_ridge_1790338208529.jpg",
-    content: `Stock suspension on entry-level electric dirt bikes is often tuned for lighter 60kg–70kg riders. If you ride aggressive downhill tracks, jump tables, or weigh over 85kg with full gear, tuning your suspension is the best way to prevent bottoming out.
+    content: `Stock suspension on entry-level electric dirt bikes is often tuned for lighter 60kg–70kg riders. If you ride aggressive downhill tracks, jump tables, or weigh over 85kg with full gear, tuning your suspension is the best way to prevent bottoming out. All suspension upgrades listed below are available with genuine Australian stock from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/).
 
 ### Setting Rider Sag
-Aim for 25% to 30% of total travel in rider sag. If the bike compresses more than 35% under your weight with riding gear, you need a stiffer coil spring (e.g., 550 lbs/in or 650 lbs/in for the rear shock).
+Aim for 25% to 30% of total travel in rider sag. If the bike compresses more than 35% under your weight with riding gear, you need a stiffer coil spring (e.g., 550 lbs/in or 650 lbs/in for the rear shock). [AMCA Australia's suspension tuning guide](https://www.amca.net.au/) provides baseline sag settings for Australian track conditions.
 
 ### Upgraded Inverted Forks
-- Fastace ALX13RC: Budget-friendly, stiff 37mm stanchions with customized valving.
-- EXT Ferro & Fox 40: High-end titanium spring and air-sprung precision for maximum traction over braking bumps and roots.`,
+- Fastace ALX13RC: Budget-friendly, stiff 37mm stanchions with customised valving.
+- [EXT Ferro 36](https://www.electricdirtbikeaustralia.com.au/shop/ext-ferro-36-inverted-fork/): Handcrafted Italian air-sprung precision for maximum traction over braking bumps and roots — the highest-performing aftermarket fork for Sur-Ron and Talaria platforms in Australia.
+- Fox 40: High-end titanium spring for extreme downhill race use.`,
   },
   {
     slug: "electric-dirt-bike-vs-petrol-motocross-running-costs",
@@ -2652,14 +2656,14 @@ Aim for 25% to 30% of total travel in rider sag. If the bike compresses more tha
     date: "2025-12-15",
     readTime: "7 min read",
     image: "/images/hero_surron_trail_1790338185425.jpg",
-    content: `While high-performance electric dirt bikes have a slightly higher upfront purchase price, their lifetime operating costs are a fraction of traditional 250cc and 450cc petrol four-strokes.
+    content: `While high-performance electric dirt bikes have a slightly higher upfront purchase price, their lifetime operating costs are a fraction of traditional 250cc and 450cc petrol four-strokes. Browse the full range at [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) to compare purchase prices versus your 2-year petrol running costs.
 
 ### Fuel vs Electricity Costs
 - Petrol 450cc: Consumes roughly 5 litres of 98-octane fuel per 2-hour moto session ($12–$15 per ride). Over 100 hours, fuel costs exceed $600.
-- Electric 60V/72V E-Moto: Consumes ~2.5 kWh per charge. At average Australian off-peak residential rates of $0.28/kWh, a full charge costs less than $0.75. Over 100 hours, total electricity cost is under $40.
+- Electric 60V/72V E-Moto: Consumes ~2.5 kWh per charge. At average Australian off-peak residential rates of $0.28/kWh per [Australian Energy Regulator data](https://www.aer.gov.au/), a full charge costs less than $0.75. Over 100 hours, total electricity cost is under $40.
 
 ### Maintenance & Rebuilds
-Petrol 4-strokes require engine oil changes every 5–10 hours, valve clearance checks, and top-end piston rebuilds every 50 hours ($800–$1,500). Electric dirt bikes have no pistons, valves, spark plugs, or clutch plates—only chain lube, brake pads, and tire replacements!`,
+Petrol 4-strokes require engine oil changes every 5–10 hours, valve clearance checks, and top-end piston rebuilds every 50 hours ($800–$1,500). Electric dirt bikes have no pistons, valves, spark plugs, or clutch plates — only chain lube, brake pads, and tyre replacements. The [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) for example has just 3 moving drivetrain components versus 150+ in a comparable petrol machine.`,
   },
   {
     slug: "best-electric-dirt-bikes-for-beginners-and-teens",
@@ -2738,18 +2742,18 @@ Apply a dab of silicone dielectric grease to main battery discharge plugs (QS8, 
     date: "2026-02-08",
     readTime: "7 min read",
     image: "/images/hero_stark_track_1790338196966.jpg",
-    content: `The quality of individual lithium-ion cells inside your battery pack dictates how much continuous power your bike can produce without thermal throttling. The two most popular 21700 cells in high-end electric dirt bike battery builds are the Molicel P45B and Samsung 50S.
+    content: `The quality of individual lithium-ion cells inside your battery pack dictates how much continuous power your bike can produce without thermal throttling. The two most popular 21700 cells in high-end electric dirt bike battery builds are the [Molicel P45B](https://www.molicel.com/product/p45b/) and Samsung 50S. Battery packs using premium cells like these ship with every [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) machine.
 
 ### Molicel P45B: The Ultimate High-Discharge Beast
 - Capacity: 4,500mAh
 - Continuous Discharge Rating: 45 Amps per cell
 - Internal Resistance: Ultra-low ~10 mΩ
-- Verdict: The gold standard for high-draw 15kW–25kW builds where extreme acceleration and zero voltage sag are top priorities.
+- Verdict: The gold standard for high-draw 15kW–25kW builds (e.g. [Sur-Ron Storm Bee Enduro](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-storm-bee-enduro/)) where extreme acceleration and zero voltage sag are top priorities.
 
 ### Samsung 50S: Maximum Trail Range
 - Capacity: 5,000mAh
 - Continuous Discharge Rating: 25 Amps per cell
-- Verdict: Best for 6kW–10kW setups where riders want maximum kilometre range and moderate current draw.`,
+- Verdict: Best for 6kW–10kW setups like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) where riders prioritise maximum kilometre range and moderate current draw. See [Samsung SDI cell data](https://www.samsungsdi.com/cylindrical-lithium-ion/) for full discharge curve specifications.`,
   },
   {
     slug: "how-to-transport-electric-dirt-bikes-car-hitch-racks",
@@ -2841,7 +2845,7 @@ The core system is elegantly simple: a high-voltage lithium battery (typically 6
 Battery capacity is measured in Watt-hours (Wh). A 60V 40Ah pack = 2,400Wh — enough for 80–120km of trail riding in eco mode. The ESC governs peak current draw (measured in Amps) and determines both top speed and acceleration. Most modern e-motos run sine-wave FOC controllers for smooth, efficient power delivery.
 
 ### What Do Electric Dirt Bikes Cost in Australia?
-Entry-level youth models like the [OSET 20.0 Racing](https://www.electricdirtbikeaustralia.com.au/shop/oset-20-0-racing-junior/) start from $2,800. Mid-range 6kW–8kW trail bikes (Sur-Ron Light Bee X, Talaria Sting R) range from $6,000–$9,500. Full-size 80HP competition machines like the [Stark Varg](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-mx/) command $16,000–$20,000. Browse the complete range at [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/).
+Entry-level youth models like the [OSET 20.0 Racing](https://www.electricdirtbikeaustralia.com.au/shop/oset-20-0-racing-junior/) start from $2,800. Mid-range 6kW–8kW trail bikes (Sur-Ron Light Bee X, Talaria Sting R) range from $6,000–$9,500. Full-size 80HP competition machines like the [Stark Varg](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) command $16,000–$20,000. Browse the complete range at [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/).
 
 ### Where Can You Ride Electric Dirt Bikes in Australia?
 Electric dirt bikes are classified as off-road motorcycles, meaning they are intended for private property, motocross parks, and designated off-road riding areas. Under [road rules administered by Transport for NSW](https://www.transport.nsw.gov.au/), unregistered off-road bikes may not be ridden on public roads. Some ADR-compliant variants (Sur-Ron Ultra Bee T street edition) can be registered for road use.
@@ -2867,7 +2871,7 @@ Sur-Ron's [Light Bee X (60V 40Ah)](https://www.electricdirtbikeaustralia.com.au/
 The [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) features an oil-bath sealed gearbox, 8kW peak output, and 60V 45Ah battery — delivering superior traction management on Australian clay, gravel, and muddy creek crossings. At $7,990, it represents outstanding value for serious off-road riders. Talaria also produces the 88V 28kW Dragon for full-size enduro adventures.
 
 ### Stark Varg: The 80HP Championship Weapon
-For motocross track riders, the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-mx/) from [Stark Future](https://www.starkfuture.com/) in Sweden delivers 80HP, 938Nm wheel torque, and Kayaba racing suspension. Used by KTM and Husqvarna-calibre motocross athletes, it competes directly with 450cc four-strokes.
+For motocross track riders, the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) from [Stark Future](https://www.starkfuture.com/) in Sweden delivers 80HP, 938Nm wheel torque, and Kayaba racing suspension. Used by KTM and Husqvarna-calibre motocross athletes, it competes directly with 450cc four-strokes.
 
 ### Kids & Youth Models
 OSET, Razor, KTM SX-E 5, Husqvarna EE 5, and EDBA Moto 50 cover ages 3–16 with adjustable power modes. Australia's top youth electric motocross brands are available through [Electric Dirt Bike Australia's kids section](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/).
@@ -2925,7 +2929,7 @@ KYB suspension tuned specifically for the Varg's 110kg weight and power output h
 On full-throttle motocross usage, the 6.5kWh battery delivers approximately 45 minutes of competitive riding — effectively matching one full 30-minute moto with warm-up and cool-down. At standard charging, the pack recharges in 2.5 hours from flat. Australian riders doing back-to-back motos need the optional second battery at a dedicated fast-charging station.
 
 ### Australian Price & Availability
-The [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-mx/) retails from $16,900 AUD through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/), Australia's authorised Stark dealer. Includes 12-month warranty, pre-delivery inspection, and free freight to any Australian state or territory.`,
+The [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) retails from $16,900 AUD through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/), Australia's authorised Stark dealer. Includes 12-month warranty, pre-delivery inspection, and free freight to any Australian state or territory.`,
   },
 
   {
@@ -3216,7 +3220,7 @@ For children ages 8–13, the [OSET 20.0 Racing Junior](https://www.electricdirt
 For urban road-legal moped classification, the [NIU NQi GT](https://www.electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) at $5,490 provides 70km urban range, smartphone connectivity, GPS theft tracking, and full Australian road compliance. NIU is the world's largest electric moped manufacturer by units sold, with [NIU Technologies](https://www.niu.com/) serving over 80 countries.
 
 ### Best Performance eBike Australia 2026: Stark Varg EX
-For maximum performance without compromise, the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-mx/) takes the crown with its 80HP output, 938Nm wheel torque, and championship-level KYB suspension. No other eBike in Australia delivers this combination of power density, suspension sophistication, and race-proven durability.`,
+For maximum performance without compromise, the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) takes the crown with its 80HP output, 938Nm wheel torque, and championship-level KYB suspension. No other eBike in Australia delivers this combination of power density, suspension sophistication, and race-proven durability.`,
   },
 
   {
@@ -3312,7 +3316,7 @@ Australia's National Electricity Market has a carbon intensity of approximately 
 The [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) continues its three-year unbroken run as Australia's best off-road trail electric bike. At 50kg and 6kW peak power, it handles NSW singletrack, Victorian state forest fireroads, and Queensland bush trails with equal confidence. The near-unlimited aftermarket upgrade path (controllers, batteries, suspension, wheels) means this bike evolves with your skills. Current price: $6,490 with free freight.
 
 ### Best Electric Bike for Motocross: Stark Varg EX
-No other electric bike in Australia matches the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-mx/) for track performance. 80HP, 938Nm wheel torque, KYB competition suspension, and smartphone-programmable power delivery make it a genuine championship contender. [Stark Future's](https://www.starkfuture.com/) ongoing software updates continuously improve the riding experience post-purchase.
+No other electric bike in Australia matches the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) for track performance. 80HP, 938Nm wheel torque, KYB competition suspension, and smartphone-programmable power delivery make it a genuine championship contender. [Stark Future's](https://www.starkfuture.com/) ongoing software updates continuously improve the riding experience post-purchase.
 
 ### Best Electric Bike for Commuting: RTR eBike Pro
 For road-legal city commuting, the [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) offers LAMS eligibility, 95 km/h performance, 100km range, and full ADR compliance at $6,900. It eliminates petrol commuting costs within 2–3 years through electricity savings alone.

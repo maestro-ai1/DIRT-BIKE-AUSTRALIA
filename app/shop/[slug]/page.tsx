@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${product.name} | Electric Dirt Bike Australia`,
-    description: `${product.shortDescription} Genuine Australian stock, 12-month factory warranty. Free freight over $1,500.`,
+    description: (() => { const raw = `${product.shortDescription} AU stock, 12-month warranty.`; return raw.length > 155 ? raw.slice(0, 152) + '...' : raw; })(),
     alternates: {
       canonical: `https://${SITE.domain}/shop/${product.slug}/`,
     },
