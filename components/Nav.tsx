@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ShoppingBag, Search, ChevronDown, Menu, X, Zap } from 'lucide-react';
-import { SITE, BRANDS } from '@/src/config/site';
+import { SITE, BRANDS, CATEGORIES } from '@/src/config/site';
 import { useCart } from '@/lib/cartContext';
 
 export function Nav() {
@@ -12,6 +12,7 @@ export function Nav() {
   const { itemCount, setIsCartOpen } = useCart();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [brandsDropdownOpen, setBrandsDropdownOpen] = useState(false);
+  const [shopDropdownOpen, setShopDropdownOpen] = useState(false);
 
   const isActive = (path: string) => {
     if (path === '/' && pathname === '/') return true;
@@ -53,14 +54,56 @@ export function Nav() {
               Home
             </Link>
 
-            <Link
-              href="/shop/"
-              className={`transition-colors hover:text-sky-600 ${
-                isActive('/shop/') ? 'text-sky-600 font-bold' : ''
-              }`}
+            {/* Shop Hover Dropdown */}
+            <div
+              className="relative"
+              onMouseEnter={() => setShopDropdownOpen(true)}
+              onMouseLeave={() => setShopDropdownOpen(false)}
             >
-              Shop
-            </Link>
+              <Link
+                href="/shop/"
+                onClick={() => setShopDropdownOpen(false)}
+                className={`flex items-center gap-1 transition-colors hover:text-sky-600 py-2 ${
+                  isActive('/shop/') ? 'text-sky-600 font-bold' : ''
+                }`}
+              >
+                <span>Shop</span>
+                <ChevronDown className={`w-4 h-4 transition-transform ${shopDropdownOpen ? 'rotate-180 text-sky-600' : ''}`} />
+              </Link>
+
+              {shopDropdownOpen && (
+                <div className="absolute top-full left-0 w-72 bg-white border border-slate-200 rounded-xl shadow-xl shadow-slate-900/10 p-2 animate-in fade-in slide-in-from-top-1 duration-150 z-50">
+                  <div className="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1">
+                    Shop by Category
+                  </div>
+                  {CATEGORIES.map((cat) => (
+                    <Link
+                      key={cat.slug}
+                      href={`/shop/?category=${cat.slug}`}
+                      onClick={() => setShopDropdownOpen(false)}
+                      className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-sky-50 transition-colors group"
+                    >
+                      <div className="w-10 h-10 rounded-lg overflow-hidden shrink-0 border border-slate-100">
+                        <img src={cat.image} alt={cat.name} className="w-full h-full object-cover object-center" />
+                      </div>
+                      <div>
+                        <div className="text-sm font-bold text-slate-800 group-hover:text-sky-600 transition-colors">{cat.name}</div>
+                        <div className="text-[11px] text-slate-400 line-clamp-1">{cat.title}</div>
+                      </div>
+                    </Link>
+                  ))}
+                  <div className="border-t border-slate-100 pt-1 mt-1">
+                    <Link
+                      href="/shop/"
+                      onClick={() => setShopDropdownOpen(false)}
+                      className="block px-3 py-2 text-xs font-bold text-sky-600 hover:bg-sky-50 rounded-lg text-center"
+                    >
+                      View All {CATEGORIES.reduce((n, _) => n, 0) > 0 ? '' : ''}Products →
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
 
             {/* Brands Hover / Click Dropdown */}
             <div
@@ -191,13 +234,27 @@ export function Nav() {
           >
             Home
           </Link>
-          <Link
-            href="/shop/"
-            onClick={() => setMobileMenuOpen(false)}
-            className="block py-2 text-base font-semibold text-slate-800 hover:text-sky-600 border-b border-slate-100"
-          >
-            Shop All Bikes
-          </Link>
+          <div className="py-2 border-b border-slate-100">
+            <Link
+              href="/shop/"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-base font-semibold text-slate-800 hover:text-sky-600 mb-2"
+            >
+              Shop All Products →
+            </Link>
+            <div className="grid grid-cols-2 gap-2">
+              {CATEGORIES.map((cat) => (
+                <Link
+                  key={cat.slug}
+                  href={`/shop/?category=${cat.slug}`}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className="px-3 py-1.5 bg-slate-50 hover:bg-sky-50 text-xs font-semibold rounded-lg text-slate-700 hover:text-sky-600"
+                >
+                  {cat.name}
+                </Link>
+              ))}
+            </div>
+          </div>
           <div className="py-2 border-b border-slate-100">
             <span className="block text-xs font-bold uppercase tracking-wider text-slate-400 mb-2">
               Trending Brands
