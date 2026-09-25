@@ -50,7 +50,7 @@ export function HeroSlider() {
   const slide = SLIDES[current];
 
   return (
-    <section className="relative w-full min-h-[580px] sm:min-h-[640px] lg:min-h-[700px] flex items-center bg-slate-950 overflow-hidden">
+    <section className="relative w-full min-h-[500px] sm:min-h-[560px] lg:min-h-[620px] flex items-center bg-slate-950 overflow-hidden">
       {/* Background Slides */}
       {SLIDES.map((s, idx) => (
         <div
@@ -61,12 +61,12 @@ export function HeroSlider() {
           style={{
             backgroundImage: `url(${s.image})`,
             backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundPosition: 'center 30%',
           }}
         >
-          {/* Measured Scrim Gradient for WCAG AA readability */}
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/80 to-slate-950/40" />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-black/30" />
+          {/* Gradient scrim — left reads clearly, right image shows bright */}
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent" />
         </div>
       ))}
 

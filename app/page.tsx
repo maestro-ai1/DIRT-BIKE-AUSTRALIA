@@ -139,7 +139,7 @@ export default function HomePage() {
       </section>
 
       {/* 3. Trending Brands Bar */}
-      <section className="py-12 bg-white border-b border-slate-100">
+      <section className="py-8 bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
@@ -182,10 +182,10 @@ export default function HomePage() {
       </section>
 
       {/* 4. Featured Electric Dirt Bikes Grid */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-14 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-sky-600">
                 High-Performance Lineup
@@ -215,11 +215,12 @@ export default function HomePage() {
                 className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col group"
               >
                 {/* Image Container with 4:3 Aspect Ratio and Badges */}
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
                   <img
                     src={product.images[0]}
                     alt={product.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 left-3 flex flex-col gap-1">
                     <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-orange-600 text-white shadow-xs">
@@ -289,10 +290,10 @@ export default function HomePage() {
       </section>
 
       {/* 5. Accessories & Batteries Section */}
-      <section className="py-20 bg-white">
+      <section className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
+
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
             <div>
               <span className="text-xs font-bold uppercase tracking-wider text-orange-600">
                 Power Upgrades &amp; Protection
@@ -319,11 +320,12 @@ export default function HomePage() {
                 key={product.slug}
                 className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all flex flex-col group"
               >
-                <div className="relative aspect-4/3 bg-slate-50 overflow-hidden">
+                <div className="relative aspect-[4/3] bg-slate-50 overflow-hidden">
                   <img
                     src={product.images[0]}
                     alt={product.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    loading="lazy"
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 left-3">
                     <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-sky-600 text-white">
@@ -370,7 +372,7 @@ export default function HomePage() {
       </section>
 
       {/* 6. Brand Authority & Mittagong NSW 2575 Facility Section */}
-      <section className="py-20 bg-slate-900 text-white relative overflow-hidden">
+      <section className="py-14 bg-slate-900 text-white relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             
@@ -471,9 +473,9 @@ export default function HomePage() {
       <TrustpilotSection />
 
       {/* 8. FAQ Section */}
-      <section className="py-20 bg-white" id="faq">
+      <section className="py-14 bg-white" id="faq">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <span className="text-xs font-bold uppercase tracking-wider text-sky-600">
               Clear Answers
             </span>

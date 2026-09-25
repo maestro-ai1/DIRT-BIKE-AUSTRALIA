@@ -229,19 +229,20 @@ export function ShopCatalogClient({
         </div>
       ) : (
         <>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {paginatedProducts.map((p) => (
               <div
                 key={p.slug}
-                className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between group"
+                className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col justify-between group"
               >
                 <div>
                   {/* 4:3 Image Container */}
-                  <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                  <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
                     <img
                       src={p.images[0]}
                       alt={p.name}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-3 left-3 flex flex-col gap-1">
                       <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-orange-600 text-white shadow-xs">
@@ -259,18 +260,18 @@ export function ShopCatalogClient({
                   </div>
 
                   {/* Info */}
-                  <div className="p-5">
-                    <h3 className="text-base font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-1 mb-1">
+                  <div className="p-4">
+                    <h3 className="text-sm font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-1 mb-1">
                       <Link href={`/shop/${p.slug}/`}>
                         {p.name}
                       </Link>
                     </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-4">
+                    <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-3">
                       {p.shortDescription}
                     </p>
 
                     {p.specs?.motorPeak && (
-                      <div className="text-[11px] bg-slate-50 p-2 rounded-lg text-slate-600 mb-3 flex items-center justify-between">
+                      <div className="text-[11px] bg-slate-50 p-2 rounded-lg text-slate-600 mb-2 flex items-center justify-between">
                         <span className="text-slate-400">Peak Output:</span>
                         <span className="font-bold text-slate-900">{p.specs.motorPeak}</span>
                       </div>
@@ -279,7 +280,7 @@ export function ShopCatalogClient({
                 </div>
 
                 {/* Price & Cart Action */}
-                <div className="p-5 pt-0">
+                <div className="p-4 pt-0">
                   <div className="pt-3 border-t border-slate-100 flex items-center justify-between mb-3">
                     <div>
                       <div className="text-base sm:text-lg font-mono font-extrabold text-slate-900">

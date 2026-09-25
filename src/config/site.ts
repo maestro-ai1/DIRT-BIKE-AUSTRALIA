@@ -268,7 +268,7 @@ export const PRODUCTS: ProductItem[] = [
       "frame": "Aviation-grade forged aluminium alloy"
     },
     "images": [
-      "/images/hero_surron_trail_1790338185425.jpg"
+      "/images/product-sur-ron-ultra-bee.jpg"
     ],
     "inStock": true
   },
