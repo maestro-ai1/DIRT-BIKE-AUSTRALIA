@@ -7,13 +7,10 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: '*',
         allow: '/',
-        disallow: ['/thank-you-contact/', '/thank-you-order/', '/thank-you-wholesale/', '/admin/'],
-      },
-      {
-        userAgent: ['GPTBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web', 'PerplexityBot', 'Applebot', 'Amazonbot', 'Bytespider', 'CCBot', 'Google-Extended', 'Meta-ExternalAgent', 'cohere-ai'],
-        allow: '/',
+        disallow: ['/admin/', '/api/'],
       },
     ],
     sitemap: `https://${SITE.domain}/sitemap.xml`,
+    host: `https://${SITE.domain}`,
   };
 }

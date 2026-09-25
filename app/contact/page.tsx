@@ -3,8 +3,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { SITE, CONTACT } from '@/src/config/site';
-import { Phone, Mail, MapPin, MessageSquare, Clock, Send, CheckCircle, ShieldCheck } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare, Clock, Send, CheckCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
+import { waLink } from '@/lib/whatsapp';
 
 export default function ContactPage() {
   const router = useRouter();
@@ -15,6 +16,20 @@ export default function ContactPage() {
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
+
+  const [waName, setWaName] = useState('');
+  const [waMessage, setWaMessage] = useState('');
+
+  const handleWhatsAppInquiry = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!waMessage.trim()) return;
+    const text = waName.trim()
+      ? `Hi, I'm ${waName}. ${waMessage}`
+      : waMessage;
+    window.open(waLink(CONTACT.whatsapp, text), '_blank');
+    setWaName('');
+    setWaMessage('');
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -146,6 +161,43 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
+
+            {/* WhatsApp Quick Inquiry */}
+            <div className="bg-[#075E54] p-6 rounded-3xl shadow-sm space-y-4">
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-full bg-[#25D366] flex items-center justify-center shrink-0">
+                  <MessageSquare className="w-4 h-4 text-white" />
+                </div>
+                <div>
+                  <h3 className="text-white font-bold text-sm leading-tight">Quick WhatsApp Inquiry</h3>
+                  <p className="text-white/60 text-[11px]">Message sent directly to our WhatsApp</p>
+                </div>
+              </div>
+              <form onSubmit={handleWhatsAppInquiry} className="space-y-3">
+                <input
+                  type="text"
+                  value={waName}
+                  onChange={(e) => setWaName(e.target.value)}
+                  placeholder="Your name (optional)"
+                  className="w-full px-3.5 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/40 text-xs focus:outline-none focus:ring-2 focus:ring-[#25D366]"
+                />
+                <textarea
+                  required
+                  rows={3}
+                  value={waMessage}
+                  onChange={(e) => setWaMessage(e.target.value)}
+                  placeholder="Type your message or question here..."
+                  className="w-full px-3.5 py-2.5 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/40 text-xs focus:outline-none focus:ring-2 focus:ring-[#25D366] resize-none"
+                />
+                <button
+                  type="submit"
+                  className="w-full py-3 px-4 bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold rounded-xl text-sm flex items-center justify-center gap-2 transition-colors"
+                >
+                  <Send className="w-4 h-4" />
+                  Send via WhatsApp
+                </button>
+              </form>
+            </div>
           </div>
 
           {/* Right Column: Contact Message Form */}
@@ -156,7 +208,7 @@ export default function ContactPage() {
                   Send a Message to Our Workshop
                 </h2>
                 <p className="text-xs text-slate-500">
-                  Fill in your details below and a team member will get back to you within 2-4 business hours.
+                  Fill in your details and we'll get back to you within 2–4 business hours. Email delivery activates once SMTP is configured.
                 </p>
               </div>
 

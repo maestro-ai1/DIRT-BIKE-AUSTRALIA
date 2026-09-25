@@ -32,7 +32,6 @@ export function CartDrawer() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
-  const [address, setAddress] = useState('');
   const [suburbState, setSuburbState] = useState('');
   const [notes, setNotes] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -109,9 +108,9 @@ export function CartDrawer() {
           ref: orderRef,
           channel: 'email',
           customerName: name,
-          email,
+          email: email || `${phone.replace(/\D/g, '')}@whatsapp.customer`,
           phone,
-          address,
+          address: 'Via online checkout',
           suburbState,
           items: items.map((i) => ({ name: i.name, qty: i.qty, price: i.price, slug: i.slug })),
           subtotal,
@@ -352,19 +351,6 @@ export function CartDrawer() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
                   <label className="block font-semibold text-slate-700 mb-1">
-                    Email Address *
-                  </label>
-                  <input
-                    type="email"
-                    required
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    placeholder="you@email.com.au"
-                    className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:outline-none"
-                  />
-                </div>
-                <div>
-                  <label className="block font-semibold text-slate-700 mb-1">
                     Mobile / WhatsApp *
                   </label>
                   <input
@@ -376,43 +362,43 @@ export function CartDrawer() {
                     className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:outline-none"
                   />
                 </div>
+                <div>
+                  <label className="block font-semibold text-slate-700 mb-1">
+                    Suburb & Postcode *
+                  </label>
+                  <input
+                    type="text"
+                    required
+                    value={suburbState}
+                    onChange={(e) => setSuburbState(e.target.value)}
+                    placeholder="e.g. Sydney NSW 2000"
+                    className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:outline-none"
+                  />
+                </div>
               </div>
 
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">
-                  Street Delivery Address
+                  Email <span className="font-normal text-slate-400">(optional)</span>
                 </label>
                 <input
-                  type="text"
-                  value={address}
-                  onChange={(e) => setAddress(e.target.value)}
-                  placeholder="Street address for freight delivery"
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="for order confirmation email"
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:outline-none"
                 />
               </div>
 
               <div>
                 <label className="block font-semibold text-slate-700 mb-1">
-                  Suburb, State & Postcode
-                </label>
-                <input
-                  type="text"
-                  value={suburbState}
-                  onChange={(e) => setSuburbState(e.target.value)}
-                  placeholder="e.g. Mittagong NSW 2575"
-                  className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:outline-none"
-                />
-              </div>
-
-              <div>
-                <label className="block font-semibold text-slate-700 mb-1">
-                  Order Notes / Rider Queries
+                  Notes <span className="font-normal text-slate-400">(optional)</span>
                 </label>
                 <textarea
                   rows={2}
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
-                  placeholder="Questions about suspension setup or freight timing"
+                  placeholder="Any questions or special requests?"
                   className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:outline-none"
                 />
               </div>
@@ -483,10 +469,30 @@ export function CartDrawer() {
 
             <button
               type="button"
-              onClick={() => setCheckoutMode('checkout')}
-              className="w-full py-3.5 px-4 bg-sky-600 hover:bg-sky-500 text-white font-extrabold rounded-xl text-sm flex items-center justify-center gap-2 shadow-lg shadow-sky-600/30 transition-transform active:scale-95"
+              onClick={() => {
+                const ref = `EDBA-${Math.floor(10000 + Math.random() * 89999)}`;
+                const url = waOrderLink({
+                  ref,
+                  items: items.map((i) => ({ name: i.name, qty: i.qty, price: i.price })),
+                  total: totalWithCrypto,
+                  paymentMethod: 'Crypto / PayID / Bank Transfer',
+                  customerName: 'Website Customer',
+                  notes: 'Please contact me to confirm my order and arrange payment.',
+                });
+                window.open(url, '_blank');
+              }}
+              className="w-full py-3.5 px-4 bg-[#25D366] hover:bg-[#20BA5A] text-white font-extrabold rounded-xl text-sm flex items-center justify-center gap-2 shadow-lg shadow-emerald-600/30 transition-transform active:scale-95"
             >
-              <span>Proceed to Checkout</span>
+              <MessageSquare className="w-5 h-5" />
+              <span>Order via WhatsApp · Instant</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setCheckoutMode('checkout')}
+              className="w-full py-3 px-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-sm flex items-center justify-center gap-2 transition-colors"
+            >
+              <span>Fill Order Form</span>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>

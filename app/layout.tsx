@@ -7,6 +7,7 @@ import { Nav } from '@/components/Nav';
 import { Footer } from '@/components/Footer';
 import { CartDrawer } from '@/components/CartDrawer';
 import { RecentSalesPopup } from '@/components/RecentSalesPopup';
+import { WhatsAppLiveChat } from '@/components/WhatsAppLiveChat';
 
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${SITE.domain}`),
@@ -80,6 +81,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
           <CartDrawer />
           <RecentSalesPopup />
+          <WhatsAppLiveChat />
         </CartProvider>
       </body>
     </html>

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
-import { Zap, ShieldCheck, FileText, ArrowRight, CheckCircle, Gauge, Battery, Compass } from 'lucide-react';
+import { Zap, ShieldCheck, FileText, ArrowRight, CheckCircle, Gauge, Battery, Compass, Baby, Bike, MapPin, Star, BookOpen, Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'Top Electric Motor Bikes Australia | Road-Legal & Dual Sport Models',
@@ -98,6 +98,29 @@ export default function ElectricMotorBikesPage() {
           <span>/</span>
           <span className="text-slate-900 font-bold">Electric Motor Bikes</span>
         </nav>
+
+        {/* Sub-Category Navigation */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-3 mb-10">
+          {[
+            { href: '/electric-motor-bikes/kids/', icon: Baby, label: 'Kids Bikes', tag: '12K+/mo', color: 'text-emerald-500' },
+            { href: '/electric-motor-bikes/rtr-ebike/', icon: Bike, label: 'RTR eBike', tag: 'KD 7', color: 'text-sky-500' },
+            { href: '/electric-motor-bikes/commuter-mopeds/', icon: Zap, label: 'Commuter Mopeds', tag: 'Road Legal', color: 'text-orange-500' },
+            { href: '/electric-motor-bikes/perth/', icon: MapPin, label: 'Perth', tag: 'Easy Win', color: 'text-purple-500' },
+            { href: '/electric-motor-bikes/melbourne/', icon: MapPin, label: 'Melbourne', tag: '5K+/mo', color: 'text-pink-500' },
+            { href: '/electric-motor-bikes/best-electric-bikes-australia/', icon: Star, label: 'Best eBikes Guide', tag: 'KD 8–12', color: 'text-yellow-500' },
+            { href: '/electric-motor-bikes/e-bike-laws-australia/', icon: Scale, label: 'AU Laws & FAQ', tag: 'All States', color: 'text-teal-500' },
+          ].map(({ href, icon: Icon, label, tag, color }) => (
+            <Link
+              key={href}
+              href={href}
+              className="bg-white border border-slate-200 rounded-xl p-3 flex flex-col items-center gap-1.5 text-center hover:border-sky-400 hover:shadow-sm transition-all group"
+            >
+              <Icon className={`w-5 h-5 ${color} group-hover:scale-110 transition-transform`} />
+              <span className="text-[11px] font-bold text-slate-800 leading-tight">{label}</span>
+              <span className="text-[9.5px] font-semibold text-slate-400 bg-slate-50 px-2 py-0.5 rounded-full">{tag}</span>
+            </Link>
+          ))}
+        </div>
 
         {/* Hero Banner */}
         <div className="bg-slate-900 text-white rounded-3xl p-6 sm:p-12 mb-12 border border-slate-800 shadow-xl relative overflow-hidden">

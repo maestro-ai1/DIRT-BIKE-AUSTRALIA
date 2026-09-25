@@ -1,42 +1,44 @@
 import { MetadataRoute } from 'next';
-import { PRODUCTS, CATEGORIES, POSTS, SITE } from '@/src/config/site';
+import { SITE, PRODUCTS, POSTS } from '@/src/config/site';
+
+const BASE = `https://${SITE.domain}`;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = `https://${SITE.domain}`;
   const now = new Date().toISOString();
 
-  // Static Pages
-  const staticRoutes: MetadataRoute.Sitemap = [
-    { url: `${baseUrl}/`, lastModified: now, changeFrequency: 'daily', priority: 1.0 },
-    { url: `${baseUrl}/shop/`, lastModified: now, changeFrequency: 'daily', priority: 0.9 },
-    { url: `${baseUrl}/accessories/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/brands/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/electric-motor-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
-    { url: `${baseUrl}/about/`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${baseUrl}/contact/`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
-    { url: `${baseUrl}/faq/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
-    { url: `${baseUrl}/shipping-and-delivery/`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${baseUrl}/returns-policy/`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${baseUrl}/warranty-and-service/`, lastModified: now, changeFrequency: 'monthly', priority: 0.5 },
-    { url: `${baseUrl}/blog/`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
-    { url: `${baseUrl}/search/`, lastModified: now, changeFrequency: 'weekly', priority: 0.6 },
+  const staticPages: MetadataRoute.Sitemap = [
+    { url: `${BASE}/`, lastModified: now, changeFrequency: 'weekly', priority: 1.0 },
+    { url: `${BASE}/shop/`, lastModified: now, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${BASE}/blog/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/about/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/contact/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    // Category pages
+    { url: `${BASE}/electric-dirt-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/electric-motor-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/accessories/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    // Electric motor bike sub-pages
+    { url: `${BASE}/electric-motor-bikes/kids/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-motor-bikes/rtr-ebike/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-motor-bikes/commuter-mopeds/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-motor-bikes/best-electric-bikes-australia/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-motor-bikes/e-bike-laws-australia/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/electric-motor-bikes/melbourne/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/electric-motor-bikes/perth/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
   ];
 
-  // Product Pages
-  const productRoutes: MetadataRoute.Sitemap = PRODUCTS.map((p) => ({
-    url: `${baseUrl}/shop/${p.slug}/`,
+  const productPages: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({
+    url: `${BASE}/shop/${product.slug}/`,
     lastModified: now,
-    changeFrequency: 'weekly',
-    priority: 0.85,
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
   }));
 
-  // Blog Posts
-  const blogRoutes: MetadataRoute.Sitemap = POSTS.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}/`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.65,
+  const blogPages: MetadataRoute.Sitemap = POSTS.map((post) => ({
+    url: `${BASE}/blog/${post.slug}/`,
+    lastModified: post.date ? new Date(post.date).toISOString() : now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.7,
   }));
 
-  return [...staticRoutes, ...productRoutes, ...blogRoutes];
+  return [...staticPages, ...productPages, ...blogPages];
 }

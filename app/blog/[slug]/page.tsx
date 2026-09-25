@@ -166,9 +166,31 @@ export default async function BlogPostPage({ params }: Props) {
                 </h2>
               );
             }
+            // Render inline [text](url) markdown links
+            const linkRegex = /\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g;
+            const parts: React.ReactNode[] = [];
+            let last = 0;
+            let m: RegExpExecArray | null;
+            while ((m = linkRegex.exec(paragraph)) !== null) {
+              if (m.index > last) parts.push(paragraph.slice(last, m.index));
+              const isInternal = m[2].includes('electricdirtbikeaustralia.com.au');
+              parts.push(
+                <a
+                  key={m.index}
+                  href={m[2]}
+                  target={isInternal ? '_self' : '_blank'}
+                  rel={isInternal ? undefined : 'noopener noreferrer'}
+                  className="text-sky-600 underline hover:text-sky-800 font-medium"
+                >
+                  {m[1]}
+                </a>
+              );
+              last = m.index + m[0].length;
+            }
+            if (last < paragraph.length) parts.push(paragraph.slice(last));
             return (
               <p key={index} className="text-slate-700 leading-relaxed">
-                {paragraph}
+                {parts.length > 0 ? parts : paragraph}
               </p>
             );
           })}
