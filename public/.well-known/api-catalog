@@ -1,0 +1,44 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://electricdirtbikeaustralia.com.au/",
+      "https://www.iana.org/assignments/link-relations/service-doc": [
+        { "href": "https://electricdirtbikeaustralia.com.au/faq/" }
+      ],
+      "title": "Electric Dirt Bike Australia — Powerful Electric Dirt Bikes"
+    },
+    {
+      "anchor": "https://electricdirtbikeaustralia.com.au/shop/",
+      "type": "text/html",
+      "title": "Electric Dirt Bike Australia Product Catalog"
+    },
+    {
+      "anchor": "https://electricdirtbikeaustralia.com.au/accessories/",
+      "type": "text/html",
+      "title": "Electric Dirt Bike Australia Accessories & Batteries"
+    },
+    {
+      "anchor": "https://electricdirtbikeaustralia.com.au/api/products",
+      "type": "application/json",
+      "title": "Electric Dirt Bike Australia Products API"
+    },
+    {
+      "anchor": "https://electricdirtbikeaustralia.com.au/api/categories",
+      "type": "application/json",
+      "title": "Electric Dirt Bike Australia Categories API"
+    },
+    {
+      "anchor": "https://electricdirtbikeaustralia.com.au/api/search",
+      "type": "application/json",
+      "title": "Electric Dirt Bike Australia Search API"
+    },
+    {
+      "anchor": "https://electricdirtbikeaustralia.com.au/api/mcp",
+      "type": "application/json",
+      "https://www.iana.org/assignments/link-relations/service-desc": [
+        { "href": "https://electricdirtbikeaustralia.com.au/.well-known/mcp/server-card.json" }
+      ],
+      "title": "Electric Dirt Bike Australia MCP Server"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "name": "Electric Dirt Bike Australia",
+  "url": "https://electricdirtbikeaustralia.com.au",
+  "description": "Australia's specialist for Sur-Ron, Talaria, Stark Varg electric dirt bikes, 72V batteries, and fast chargers.",
+  "skills": [
+    {
+      "name": "search-products",
+      "type": "commerce",
+      "description": "Search electric dirt bikes and accessories by keyword, brand, or price in AUD",
+      "url": "https://electricdirtbikeaustralia.com.au/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "browse-catalog",
+      "type": "navigation",
+      "description": "Browse the full product catalog of electric dirt bikes and power upgrades",
+      "url": "https://electricdirtbikeaustralia.com.au/shop/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "order-draft",
+      "type": "commerce",
+      "description": "Create a prefilled order draft for Australian dirt bikes. Human rider completes payment and dispatch details.",
+      "url": "https://electricdirtbikeaustralia.com.au/api/mcp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "product-education",
+      "type": "content",
+      "description": "Educational blog content comparing Sur-Ron vs Talaria and battery maintenance guides",
+      "url": "https://electricdirtbikeaustralia.com.au/blog/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "contact",
+      "type": "support",
+      "description": "Contact Mittagong NSW 2575 workshop for technical questions or support",
+      "url": "https://electricdirtbikeaustralia.com.au/contact/",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

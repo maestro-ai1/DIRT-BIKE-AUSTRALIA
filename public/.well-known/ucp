@@ -1,0 +1,53 @@
+{
+  "ucp": "1.0",
+  "protocol_version": "1.0",
+  "spec": "https://ucp.dev/specification/overview/",
+  "schema": "https://ucp.dev/schema/v1.json",
+  "site": "https://electricdirtbikeaustralia.com.au",
+  "name": "Electric Dirt Bike Australia",
+  "description": "Australia's premier destination for high-power electric motocross, trail dirt bikes, and 72V batteries.",
+  "services": [
+    {
+      "id": "product-catalog",
+      "type": "catalog",
+      "url": "https://electricdirtbikeaustralia.com.au/shop/",
+      "description": "Full product catalog"
+    },
+    {
+      "id": "mcp-server",
+      "type": "mcp",
+      "url": "https://electricdirtbikeaustralia.com.au/api/mcp",
+      "description": "MCP Streamable HTTP server"
+    },
+    {
+      "id": "order",
+      "type": "commerce",
+      "url": "https://wa.me/61420128746",
+      "description": "Place orders via WhatsApp or website form"
+    },
+    {
+      "id": "accessories",
+      "type": "accessories",
+      "url": "https://electricdirtbikeaustralia.com.au/accessories/",
+      "description": "72V lithium batteries and smart fast chargers"
+    }
+  ],
+  "capabilities": ["browse", "search", "inquiry", "wholesale", "content", "mcp"],
+  "endpoints": {
+    "mcp": "https://electricdirtbikeaustralia.com.au/api/mcp",
+    "catalog": "https://electricdirtbikeaustralia.com.au/shop/",
+    "contact": "https://electricdirtbikeaustralia.com.au/contact/",
+    "agent_skills": "https://electricdirtbikeaustralia.com.au/.well-known/agent-skills/index.json",
+    "mcp_server_card": "https://electricdirtbikeaustralia.com.au/.well-known/mcp/server-card.json",
+    "api_catalog": "https://electricdirtbikeaustralia.com.au/.well-known/api-catalog",
+    "llms_txt": "https://electricdirtbikeaustralia.com.au/llms.txt"
+  },
+  "currency": "AUD",
+  "minimum_order_usd": "500",
+  "payment_methods": ["crypto-BTC", "crypto-USDT", "payid", "bank-transfer"],
+  "legal": {
+    "age_restriction": "none",
+    "product_type": "Electric Dirt Bikes & Accessories",
+    "compliance": "Off-road and private property recreation in Australia"
+  }
+}

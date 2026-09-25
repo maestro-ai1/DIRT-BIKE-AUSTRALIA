@@ -1,0 +1,141 @@
+import React from 'react';
+import Link from 'next/link';
+import { notFound } from 'next/navigation';
+import { PRODUCTS, SITE, SHOP, CONTACT } from '@/src/config/site';
+import { JsonLd } from '@/components/JsonLd';
+import { Metadata } from 'next';
+import { ProductDetailClient } from './ProductDetailClient';
+import { getProductFaqs } from '@/lib/productFaqs';
+
+interface Props {
+  params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return PRODUCTS.map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const product = PRODUCTS.find((p) => p.slug === slug);
+  if (!product) return {};
+
+  return {
+    title: `${product.name} | Electric Dirt Bike Australia`,
+    description: `${product.shortDescription} Genuine Australian stock, 12-month factory warranty. Free freight over $1,500.`,
+    alternates: {
+      canonical: `https://${SITE.domain}/shop/${product.slug}/`,
+    },
+    openGraph: {
+      title: `${product.name} - Electric Dirt Bike Australia`,
+      description: product.shortDescription,
+      images: [
+        {
+          url: `https://${SITE.domain}${product.images[0]}`,
+          width: 1200,
+          height: 900,
+          alt: product.name,
+        },
+      ],
+    },
+    other: {
+      'og:updated_time': new Date().toISOString(),
+    },
+  };
+}
+
+export default async function ProductDetailPage({ params }: Props) {
+  const { slug } = await params;
+  const product = PRODUCTS.find((p) => p.slug === slug);
+
+  if (!product) {
+    notFound();
+  }
+
+  const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category === product.category || p.brand === product.brand)).slice(0, 3);
+  const faqs = getProductFaqs(product);
+
+  // Schema.org Product, Offer, Brand, BreadcrumbList, FAQPage
+  const schemaData = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Product',
+      name: product.name,
+      description: product.description,
+      image: `https://${SITE.domain}${product.images[0]}`,
+      sku: `EDBA-${product.slug.toUpperCase()}`,
+      brand: {
+        '@type': 'Brand',
+        name: product.brand,
+      },
+      offers: {
+        '@type': 'Offer',
+        priceCurrency: 'AUD',
+        price: product.price,
+        priceValidUntil: '2027-12-31',
+        itemCondition: 'https://schema.org/NewCondition',
+        availability: product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/PreOrder',
+        seller: {
+          '@type': 'Organization',
+          name: SITE.name,
+        },
+      },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        {
+          '@type': 'ListItem',
+          position: 1,
+          name: 'Home',
+          item: `https://${SITE.domain}/`,
+        },
+        {
+          '@type': 'ListItem',
+          position: 2,
+          name: 'Shop',
+          item: `https://${SITE.domain}/shop/`,
+        },
+        {
+          '@type': 'ListItem',
+          position: 3,
+          name: product.name,
+          item: `https://${SITE.domain}/shop/${product.slug}/`,
+        },
+      ],
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqs.map((f) => ({
+        '@type': 'Question',
+        name: f.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: f.answer,
+        },
+      })),
+    },
+  ];
+
+  return (
+    <div className="py-10 bg-slate-50 min-h-screen">
+      <JsonLd data={schemaData} />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Breadcrumb Navigation */}
+        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-8 font-medium">
+          <Link href="/" className="hover:text-sky-600">Home</Link>
+          <span>/</span>
+          <Link href="/shop/" className="hover:text-sky-600">Shop</Link>
+          <span>/</span>
+          <span className="text-slate-900 font-bold truncate max-w-xs">{product.name}</span>
+        </nav>
+
+        {/* Client Product View */}
+        <ProductDetailClient product={product} related={related} />
+      </div>
+    </div>
+  );
+}

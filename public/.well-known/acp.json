@@ -1,0 +1,30 @@
+{
+  "protocol": {
+    "name": "acp",
+    "version": "0.1.0"
+  },
+  "name": "Electric Dirt Bike Australia",
+  "description": "Australia's specialist for Sur-Ron, Talaria, Stark Varg electric dirt bikes, batteries, and chargers.",
+  "api_base_url": "https://electricdirtbikeaustralia.com.au",
+  "homepage": "https://electricdirtbikeaustralia.com.au",
+  "transports": ["https"],
+  "capabilities": {
+    "services": ["product-catalog", "accessories", "blog", "faq", "mcp-server"],
+    "ordering": "human-assisted",
+    "payment_methods": ["crypto-BTC", "crypto-USDT", "payid", "bank-transfer"],
+    "currency": "AUD",
+    "minimum_order_usd": "500",
+    "free_shipping_threshold_usd": "1500"
+  },
+  "contact": {
+    "whatsapp": "https://wa.me/61420128746",
+    "email": "sales@electricdirtbikeaustralia.com.au"
+  },
+  "legal": {
+    "age_restriction": "none",
+    "region": "Australia",
+    "ships_to": "Australia",
+    "product_type": "Electric Dirt Bikes & Accessories",
+    "compliance": "Off-road and private property recreation"
+  }
+}

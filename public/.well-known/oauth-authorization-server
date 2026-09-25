@@ -1,0 +1,26 @@
+{
+  "issuer": "https://electricdirtbikeaustralia.com.au",
+  "authorization_endpoint": null,
+  "token_endpoint": null,
+  "jwks_uri": null,
+  "grant_types_supported": [],
+  "response_types_supported": [],
+  "scopes_supported": [],
+  "note": "Electric Dirt Bike Australia has no protected APIs. All resources publicly accessible.",
+  "public_resources": [
+    "https://electricdirtbikeaustralia.com.au/shop/",
+    "https://electricdirtbikeaustralia.com.au/accessories/",
+    "https://electricdirtbikeaustralia.com.au/blog/",
+    "https://electricdirtbikeaustralia.com.au/faq/",
+    "https://electricdirtbikeaustralia.com.au/llms.txt",
+    "https://electricdirtbikeaustralia.com.au/.well-known/api-catalog",
+    "https://electricdirtbikeaustralia.com.au/.well-known/agent-skills/index.json",
+    "https://electricdirtbikeaustralia.com.au/.well-known/mcp/server-card.json"
+  ],
+  "agent_auth": {
+    "register_uri": null,
+    "identity_types_supported": ["none"],
+    "credential_types_supported": ["none"],
+    "notes": "No registration required. All content publicly accessible to agents."
+  }
+}

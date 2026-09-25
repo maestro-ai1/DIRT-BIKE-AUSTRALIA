@@ -1,0 +1,101 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/server-card/v1.json",
+  "serverInfo": {
+    "name": "Electric Dirt Bike Australia",
+    "version": "1.0.0",
+    "description": "Australia's premier destination for high-performance electric dirt bikes, Stark Varg motocross, Sur-Ron, Talaria, 72V batteries, and fast chargers.",
+    "homepage": "https://electricdirtbikeaustralia.com.au",
+    "contact": {
+      "email": "sales@electricdirtbikeaustralia.com.au",
+      "whatsapp": "+61420128746"
+    }
+  },
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "https://electricdirtbikeaustralia.com.au/api/mcp"
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "search_products",
+        "description": "Search products by keyword, category, max_price",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string" },
+            "category": { "type": "string" },
+            "max_price": { "type": "number" }
+          }
+        }
+      },
+      {
+        "name": "get_product",
+        "description": "Get full product details by slug",
+        "inputSchema": {
+          "type": "object",
+          "required": ["slug"],
+          "properties": {
+            "slug": { "type": "string" }
+          }
+        }
+      },
+      {
+        "name": "list_categories",
+        "description": "List all product categories",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "get_policies",
+        "description": "Get shipping, payment, returns policies",
+        "inputSchema": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      {
+        "name": "create_order_draft",
+        "description": "Create prefilled order URL. Human completes — never captures payment.",
+        "inputSchema": {
+          "type": "object",
+          "required": ["items"],
+          "properties": {
+            "items": { "type": "array" },
+            "notes": { "type": "string" }
+          }
+        }
+      }
+    ],
+    "resources": [
+      {
+        "name": "product-catalog",
+        "description": "Full product catalog",
+        "uri": "https://electricdirtbikeaustralia.com.au/shop/"
+      },
+      {
+        "name": "accessories",
+        "description": "Batteries and chargers",
+        "uri": "https://electricdirtbikeaustralia.com.au/accessories/"
+      },
+      {
+        "name": "blog",
+        "description": "Educational content",
+        "uri": "https://electricdirtbikeaustralia.com.au/blog/"
+      }
+    ],
+    "commerce": {
+      "ordering": "human-assisted-whatsapp-or-form",
+      "payment": ["crypto-BTC", "crypto-USDT", "payid", "bank-transfer"],
+      "currency": "AUD",
+      "minimumOrder": "500",
+      "freeShipping": "1500"
+    }
+  },
+  "legal": {
+    "ageRestriction": "none",
+    "productType": "Off-Road Electric Dirt Bikes & Accessories",
+    "compliance": "Off-road and private property recreation use across Australian states. Australian statutory warranty."
+  }
+}

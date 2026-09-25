@@ -1,0 +1,42 @@
+# Electric Dirt Bike Australia
+
+> Australia's authorised specialist for high-power electric motocross, off-road dirt bikes, 72V lithium battery packs, and smart fast chargers.
+
+Electric Dirt Bike Australia operates a dedicated prep and warehouse facility in Mittagong, Southern Highlands NSW 2575 (ABN 98 611 685 977). All stock is 100% genuine Australian stock with comprehensive statutory warranties, pre-delivery inspection (PDI), and nationwide tailgate crate freight.
+
+- Location: Unit 4, 18-20 Bowral Rd, Mittagong NSW 2575, Australia
+- Phone: +61 420 128 746 / 0420 128 746
+- WhatsApp Rider Support: +61 420 128 746
+- Order Email: orders@electricdirtbikeaustralia.com.au
+- Minimum Order: $500 AUD
+- Free Freight Threshold: Orders above $1,500 AUD receive 100% free Australia-wide freight
+- Flat Shipping: $200 AUD for orders below $1,500 AUD
+- Alt-Payment Discount: 10% instant discount on Bitcoin (BTC), Tether (USDT), Ethereum (ETH), and PayID checkouts
+
+## Product Catalog & Inventory
+- [Electric Dirt Bikes Catalog](https://electricdirtbikeaustralia.com.au/shop/): Explore high-performance trail and competition electric dirt bikes.
+- [Sur-Ron Light Bee X](https://electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/): 6kW peak lightweight 50kg trail machine with 60V 40Ah battery.
+- [Talaria Sting R MX4](https://electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/): 8kW sealed oil-bath gearbox drivetrain with 60V 45Ah high-discharge pack.
+- [Stark Varg EX 80HP Motocross](https://electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/): 80HP electric competition motocross bike with 938Nm torque and KYB suspension.
+- [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/): 12.5kW mid-weight enduro electric bike with traction control.
+- [RFN Ares Rally Pro](https://electricdirtbikeaustralia.com.au/shop/rfn-ares-rally-pro/): 74V dual-ergonomics modular trials and enduro platform.
+- [Super73-RX Mojave](https://electricdirtbikeaustralia.com.au/shop/super73-rx-mojave/): Dual-sport urban adventure electric moto scrambler.
+
+## Power Upgrades & Accessories
+- [72V 42Ah Lithium Battery Upgrade](https://electricdirtbikeaustralia.com.au/shop/72v-42ah-lithium-battery-upgrade/): Molicel 21700 high-discharge battery pack with Bluetooth Smart BMS.
+- [15A Smart Fast Charger (60V/72V)](https://electricdirtbikeaustralia.com.au/shop/15a-fast-charger-60v-72v/): Fast alloy charger cutting recharge times under 2 hours.
+- [Billet Heavy Duty Skid Plate](https://electricdirtbikeaustralia.com.au/shop/heavy-duty-skid-plate/): 5mm 6061 alloy bash plate for Sur-Ron and Talaria.
+- [Dunlop Geomax Off-Road Tyres](https://electricdirtbikeaustralia.com.au/shop/dunlop-geomax-dirt-tyre-set/): Competition loamy and hard-pack dirt tyres with 3mm HD tubes.
+
+## Information & Policies
+- [About Us & Facility Map](https://electricdirtbikeaustralia.com.au/about/): Mittagong NSW 2575 warehouse, testing grounds, and Australian business credentials.
+- [Shipping & Freight Policy](https://electricdirtbikeaustralia.com.au/shipping-and-delivery/): Heavy-vehicle tailgate freight terms, transit crate packaging, and delivery timetables.
+- [Warranty & Workshop Support](https://electricdirtbikeaustralia.com.au/warranty-and-service/): 12-Month Australian Factory Warranty terms and claims.
+- [Frequently Asked Questions](https://electricdirtbikeaustralia.com.au/faq/): Legality, battery management, and ordering information.
+- [Contact Workshop](https://electricdirtbikeaustralia.com.au/contact/): Phone, WhatsApp, email, and showroom consultation.
+
+## Optional Agent Resources
+- [API Catalog](https://electricdirtbikeaustralia.com.au/.well-known/api-catalog): Linkset JSON listing live API endpoints.
+- [Agent Skills Index](https://electricdirtbikeaustralia.com.au/.well-known/agent-skills/index.json): Skills declarations for commerce and navigation agents.
+- [MCP Server Card](https://electricdirtbikeaustralia.com.au/.well-known/mcp/server-card.json): Model Context Protocol streamable-http capabilities.
+- [Auth Document](https://electricdirtbikeaustralia.com.au/auth.md): Agent authentication and public resource discovery.

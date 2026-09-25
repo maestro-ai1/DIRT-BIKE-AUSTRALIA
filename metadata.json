@@ -1,0 +1,6 @@
+{
+  "name": "Electric Dirt Bike Australia",
+  "description": "Australia's premier destination for high-performance electric dirt bikes, Stark Varg, Sur-Ron, Talaria, accessories, batteries, and chargers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

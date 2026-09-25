@@ -1,0 +1,66 @@
+// lib/mailer.ts — nodemailer lazy singleton (WebForge v10 standard)
+import nodemailer from 'nodemailer';
+import { FORMS } from '@/src/config/site';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+let transporter: any = null;
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+function getTransporter(): any {
+  if (transporter) return transporter;
+
+  const host = process.env.EMAIL_SERVER_HOST;
+  const port = parseInt(process.env.EMAIL_SERVER_PORT || '465', 10);
+  const user = process.env.EMAIL_SERVER_USER;
+  const pass = process.env.EMAIL_SERVER_PASSWORD;
+  const secure = process.env.EMAIL_SERVER_SECURE === 'true' || port === 465;
+
+  if (!host || !user || !pass) {
+    return null;
+  }
+
+  try {
+    transporter = nodemailer.createTransport({
+      host,
+      port,
+      secure,
+      auth: { user, pass },
+    });
+  } catch {
+    transporter = null;
+  }
+
+  return transporter;
+}
+
+export async function sendMail(opts: {
+  to: string;
+  subject: string;
+  html: string;
+  text: string;
+  replyTo?: string;
+}): Promise<{ sent: true } | { sent: false; reason: 'not-configured' | 'error'; error?: string }> {
+  const mailClient = getTransporter();
+
+  if (!mailClient) {
+    // Unconfigured in dev or pending credentials — gracefully returns false without crashing
+    return { sent: false, reason: 'not-configured' };
+  }
+
+  const from = process.env.EMAIL_FROM || FORMS.smtpFrom || 'noreply@electricdirtbikeaustralia.com.au';
+
+  try {
+    await mailClient.sendMail({
+      from,
+      to: opts.to,
+      subject: opts.subject,
+      html: opts.html,
+      text: opts.text,
+      replyTo: opts.replyTo,
+    });
+    return { sent: true };
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : String(err);
+    return { sent: false, reason: 'error', error: message };
+  }
+}
