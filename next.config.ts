@@ -22,6 +22,13 @@ const nextConfig: NextConfig = {
   output: 'standalone',
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
+    // Resolve .ts/.tsx before .js/.jsx so site.ts is always preferred over site.js
+    const exts: string[] = config.resolve.extensions ?? [];
+    config.resolve.extensions = [
+      '.ts', '.tsx',
+      ...exts.filter((e: string) => e !== '.ts' && e !== '.tsx'),
+    ];
+
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
     // Do not modify—file watching is disabled to prevent flickering during agent edits.
     if (dev && process.env.DISABLE_HMR === 'true') {

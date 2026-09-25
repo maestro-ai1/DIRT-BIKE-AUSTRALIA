@@ -72,7 +72,7 @@ export function CartDrawer() {
           customerName: name,
           email: email || `${phone.replace(/\D/g, '')}@whatsapp.customer`,
           phone: phone || 'WhatsApp',
-          address: address || 'Via WhatsApp consultation',
+          address: 'Via WhatsApp consultation',
           suburbState: suburbState || 'Australia',
           items: items.map((i) => ({ name: i.name, qty: i.qty, price: i.price, slug: i.slug })),
           subtotal,
