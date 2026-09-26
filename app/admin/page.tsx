@@ -16,7 +16,7 @@ export default function AdminDashboardPage() {
 }
 
 function Dashboard() {
-  const { getAuthHeaders, lock } = useAdminPasscode();
+  const { getAuthHeaders, lock, isUnlocked } = useAdminPasscode();
   const [ordersCount, setOrdersCount] = useState(0);
   const [pendingCount, setPendingCount] = useState(0);
   const [enquiriesCount, setEnquiriesCount] = useState(0);
@@ -24,6 +24,7 @@ function Dashboard() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    if (!isUnlocked) return;
     const fetchStats = async () => {
       try {
         const [ordRes, enqRes] = await Promise.all([
@@ -46,7 +47,7 @@ function Dashboard() {
       finally { setLoading(false); }
     };
     fetchStats();
-  }, []);
+  }, [isUnlocked]);
 
   return (
     <div className="min-h-screen bg-black text-white">

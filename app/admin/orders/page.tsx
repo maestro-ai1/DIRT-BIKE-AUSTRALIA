@@ -25,7 +25,7 @@ const STATUS_STYLE: Record<string, string> = {
 };
 
 function OrdersList() {
-  const { getAuthHeaders, lock } = useAdminPasscode();
+  const { getAuthHeaders, lock, isUnlocked } = useAdminPasscode();
   const [orders, setOrders] = useState<StoredOrder[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<string>('all');
@@ -42,7 +42,7 @@ function OrdersList() {
     finally { setLoading(false); }
   };
 
-  useEffect(() => { fetchOrders(); }, []);
+  useEffect(() => { if (isUnlocked) fetchOrders(); }, [isUnlocked]);
 
   const handleDelete = async (id: string) => {
     if (!confirm('Delete this order?')) return;

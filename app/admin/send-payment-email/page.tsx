@@ -31,7 +31,7 @@ const TEMPLATES: Record<string, (ref: string, amount: string) => string> = {
 function Composer() {
   const searchParams = useSearchParams();
   const refParam = searchParams.get('ref') || '';
-  const { getAuthHeaders } = useAdminPasscode();
+  const { getAuthHeaders, isUnlocked } = useAdminPasscode();
 
   const [order, setOrder] = useState<StoredOrder | null>(null);
   const [loading, setLoading] = useState(true);
@@ -42,7 +42,7 @@ function Composer() {
   const [sent, setSent] = useState(false);
 
   useEffect(() => {
-    if (!refParam) return;
+    if (!refParam || !isUnlocked) return;
     const load = async () => {
       setLoading(true);
       try {
@@ -60,7 +60,7 @@ function Composer() {
       finally { setLoading(false); }
     };
     load();
-  }, [refParam]);
+  }, [refParam, isUnlocked]);
 
   if (!refParam) {
     return (
