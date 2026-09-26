@@ -5,7 +5,7 @@
   "jwks_uri": null,
   "grant_types_supported": [],
   "response_types_supported": [],
-  "scopes_supported": [],
+  "scopes_supported": ["public"],
   "note": "Electric Dirt Bike Australia has no protected APIs. All resources publicly accessible.",
   "public_resources": [
     "https://electricdirtbikeaustralia.com.au/shop/",
@@ -19,11 +19,11 @@
   ],
   "agent_auth": {
     "skill": "https://electricdirtbikeaustralia.com.au/auth.md",
-    "register_uri": null,
+    "register_uri": "https://electricdirtbikeaustralia.com.au/api/agent/identity",
     "identity_types_supported": ["anonymous"],
     "anonymous": {
-      "credential_types_supported": ["none"],
-      "claim_uri": null
+      "credential_types_supported": [],
+      "claim_uri": "https://electricdirtbikeaustralia.com.au/api/agent/identity"
     }
   }
 }
