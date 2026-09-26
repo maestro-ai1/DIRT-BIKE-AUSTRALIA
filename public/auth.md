@@ -1,11 +1,33 @@
 # auth.md
 
-## Site: Electric Dirt Bike Australia — High-Performance Electric Moto
+You are an agent. Electric Dirt Bike Australia is a fully public catalog — no registration, authentication, or credentials are required. All resources are openly accessible to AI agents.
+
+## Service
+
+**Electric Dirt Bike Australia** — `https://electricdirtbikeaustralia.com.au`
+
+Australia's specialist retailer for Sur-Ron, Talaria, and Stark Varg electric dirt bikes, motocross accessories, and 72V battery systems. All catalog, pricing, and technical data is publicly accessible.
 
 ## Agent Registration
-No authentication required. All catalog, search, and informational resources are publicly accessible.
+
+No registration required. Agents may access all resources anonymously without providing identity or credentials.
+
+```json
+{
+  "agent_auth": {
+    "skill": "https://electricdirtbikeaustralia.com.au/auth.md",
+    "register_uri": null,
+    "identity_types_supported": ["anonymous"],
+    "anonymous": {
+      "credential_types_supported": ["none"],
+      "claim_uri": null
+    }
+  }
+}
+```
 
 ## Public Resources
+
 | Resource | URL |
 |---|---|
 | Product Catalog | https://electricdirtbikeaustralia.com.au/shop/ |
@@ -16,19 +38,8 @@ No authentication required. All catalog, search, and informational resources are
 | Contact & Workshop | https://electricdirtbikeaustralia.com.au/contact/ |
 | Products API | https://electricdirtbikeaustralia.com.au/api/products |
 | MCP Streamable HTTP | https://electricdirtbikeaustralia.com.au/api/mcp |
-
-## Authentication
-
-```json
-{
-  "agent_auth": {
-    "register_uri": null,
-    "identity_types_supported": ["none"],
-    "credential_types_supported": ["none"],
-    "notes": "No authentication required. All resources are public."
-  }
-}
-```
+| AI Catalog (llms.txt) | https://electricdirtbikeaustralia.com.au/llms.txt |
 
 ## Ordering
-Human-in-the-loop required. Agents may browse the catalog, inspect vehicle specs, and prepare pre-filled order drafts via the MCP `create_order_draft` tool. Final payments and freight dispatch agreements are completed by a human rider via the website checkout or WhatsApp rider helpline.
+
+Human-in-the-loop required. Agents may browse the catalog, inspect vehicle specs, and prepare pre-filled order drafts via the MCP `create_order_draft` tool. Final payments and freight dispatch are completed by a human rider via the website checkout or WhatsApp rider helpline (+61 XXX XXX XXX).
