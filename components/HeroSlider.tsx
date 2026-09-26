@@ -18,7 +18,7 @@ const SLIDES = [
     badge: 'Sur-Ron · Talaria · Stark Varg',
   },
   {
-    image: '/images/hero-2-sur-ron-electric-off-road-australia.jpg',
+    image: '/images/hero-2-sur-ron-electric-off-road-australia.webp',
     imageType: 'image/jpeg',
     alt: 'Sur-Ron Storm Bee electric dirt bike flying over Australian trail — high-performance electric off-road bike with 74V battery and 6500W peak power',
     tag: 'REVOLUTIONARY MOTOCROSS PERFORMANCE',

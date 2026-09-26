@@ -74,7 +74,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Ambient Electric Dirt Bike Theme Cover Backdrop */}
         <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
           <img
-            src="/images/theme_dirtbike_cover.jpg"
+            src="/images/theme_dirtbike_cover.webp"
             alt="Electric dirt bike Australia — off-road trail riding background"
             width={1920}
             height={1080}
