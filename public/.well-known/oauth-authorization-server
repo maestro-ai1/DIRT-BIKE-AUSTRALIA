@@ -20,8 +20,10 @@
   "agent_auth": {
     "skill": "https://electricdirtbikeaustralia.com.au/auth.md",
     "register_uri": null,
-    "identity_types_supported": ["none"],
-    "credential_types_supported": ["none"],
-    "notes": "No registration required. All content publicly accessible to agents."
+    "identity_types_supported": ["anonymous"],
+    "anonymous": {
+      "credential_types_supported": ["none"],
+      "claim_uri": null
+    }
   }
 }
