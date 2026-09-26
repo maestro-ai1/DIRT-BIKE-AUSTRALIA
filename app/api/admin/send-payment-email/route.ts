@@ -57,7 +57,7 @@ export async function POST(request: Request) {
       subject: `Payment Instructions: ${orderRef} | ${SITE.name}`,
       html: emailHtml,
       text: `Payment instructions for order ${orderRef}.\nTotal: ${amount}\n\nDetails:\n${details}`,
-      replyTo: CONTACT.orderEmail || CONTACT.email,
+      replyTo: CONTACT.email,
     });
 
     await updateOrderStatus(orderRef, 'payment-sent');

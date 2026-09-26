@@ -20,8 +20,8 @@ export const SITE = {
 
 export const CONTACT = {
   email: 'sales@electricdirtbikeaustralia.com.au',
-  orderEmail: 'orders@electricdirtbikeaustralia.com.au',
-  supportEmail: 'support@electricdirtbikeaustralia.com.au',
+  orderEmail: 'sales@electricdirtbikeaustralia.com.au',
+  supportEmail: 'sales@electricdirtbikeaustralia.com.au',
   phone: '+61420128746',
   phoneDisplay: '+61 420 128 746',
   whatsapp: '+61420128746',
@@ -46,9 +46,9 @@ export const SHOP = {
 
 export const FORMS = {
   provider: 'smtp',
-  smtpFrom: 'noreply@electricdirtbikeaustralia.com.au',
+  smtpFrom: 'sales@electricdirtbikeaustralia.com.au',
   web3formsKey: '',
-  resendFrom: 'orders@electricdirtbikeaustralia.com.au',
+  resendFrom: 'sales@electricdirtbikeaustralia.com.au',
 };
 
 export interface PaymentMethodConfig {
@@ -67,7 +67,7 @@ export const REPLY = {
   headerTagline: 'Australia’s Authorised Electric Dirt Bike Dealer · Southern Highlands NSW 2575',
   dispatchLine: 'Insured heavy-vehicle express dispatch direct from Mittagong NSW 2575 with real-time tracking.',
   bizNumber: { label: 'ABN', value: '98 611 685 977' },
-  channels: { email: 'orders@electricdirtbikeaustralia.com.au', whatsapp: '+61420128746', whatsappCountryCode: '61' },
+  channels: { email: 'sales@electricdirtbikeaustralia.com.au', whatsapp: '+61420128746', whatsappCountryCode: '61' },
   deadlineHours: 48,
   paymentMethods: [
     {

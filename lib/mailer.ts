@@ -48,7 +48,14 @@ export async function sendMail(opts: {
     return { sent: false, reason: 'not-configured' };
   }
 
-  const from = process.env.EMAIL_FROM || FORMS.smtpFrom || 'noreply@electricdirtbikeaustralia.com.au';
+  // Zoho SMTP only allows FROM = the authenticated user (or a configured alias).
+  // Always derive from EMAIL_SERVER_USER so Zoho never rejects the envelope.
+  const fromAddr =
+    process.env.EMAIL_SERVER_USER ||
+    process.env.EMAIL_FROM ||
+    FORMS.smtpFrom ||
+    'sales@electricdirtbikeaustralia.com.au';
+  const from = `Electric Dirt Bike Australia <${fromAddr}>`;
 
   try {
     await mailClient.sendMail({

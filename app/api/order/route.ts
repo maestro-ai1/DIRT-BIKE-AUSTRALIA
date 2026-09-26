@@ -82,12 +82,15 @@ export async function POST(request: Request) {
         },
       });
 
-      await sendMail({
+      const custResult = await sendMail({
         to: email,
         subject: `Order Confirmation: ${orderRef} | ${SITE.name}`,
         html: customerHtml,
         text: `Thank you for your order ${orderRef}. Total: $${total} AUD. Please watch for your payment instructions email.`,
       });
+      if (!custResult.sent) {
+        console.error(`[order/${orderRef}] Customer email failed:`, custResult);
+      }
     }
 
     // 2. Send Admin Alert Email
@@ -110,13 +113,16 @@ export async function POST(request: Request) {
       },
     });
 
-    await sendMail({
-      to: CONTACT.orderEmail || CONTACT.email,
-      subject: `🚨 [New Order] ${orderRef} - ${customerName} ($${total} AUD)`,
+    const adminResult = await sendMail({
+      to: CONTACT.email,
+      subject: `[New Order] ${orderRef} - ${customerName} ($${total} AUD)`,
       html: adminNotificationHtml,
       text: `New order ${orderRef} from ${customerName} for $${total} AUD.`,
       replyTo: email,
     });
+    if (!adminResult.sent) {
+      console.error(`[order/${orderRef}] Admin notification email failed:`, adminResult);
+    }
 
     return NextResponse.json({ success: true, orderRef, orderId: stored.id });
   } catch (err: unknown) {

@@ -40,13 +40,16 @@ export async function POST(request: Request) {
       },
     });
 
-    await sendMail({
+    const mailResult = await sendMail({
       to: CONTACT.email,
-      subject: `[Enquiry #${saved.id}] ${subject || 'New Rider Question'} from ${name}`,
+      subject: `[Enquiry] ${subject || 'New Rider Question'} from ${name}`,
       html: adminEmailHtml,
       text: `New enquiry from ${name} (${email}):\n\n${message}`,
       replyTo: email,
     });
+    if (!mailResult.sent) {
+      console.error(`[contact] Email to admin failed:`, mailResult);
+    }
 
     return NextResponse.json({ success: true, enquiryId: saved.id });
   } catch (err: unknown) {
