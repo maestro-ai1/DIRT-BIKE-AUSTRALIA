@@ -69,12 +69,13 @@ export function buildEmailHtml(opts: {
       }
 
       if (row.block) {
+        const blockContent = row.html || (row.value ? escapeHtml(row.value).replace(/\n/g, '<br>') : '');
         return `
         <tr>
           <td colspan="2" style="padding:12px 0;font-size:14px;color:#334155;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">
             <div style="font-weight:600;color:#0f172a;margin-bottom:4px;">${escapeHtml(row.label)}:</div>
-            <div style="background:#f1f5f9;padding:12px;border-radius:6px;border-left:4px solid ${accent};white-space:pre-wrap;font-family:${row.mono ? 'ui-monospace,Menlo,monospace' : 'inherit'};">
-              ${row.html || (row.value ? escapeHtml(row.value) : '')}
+            <div style="background:#f1f5f9;padding:12px;border-radius:6px;border-left:4px solid ${accent};font-family:${row.mono ? 'ui-monospace,Menlo,monospace' : 'inherit'};">
+              ${blockContent}
             </div>
           </td>
         </tr>`;
