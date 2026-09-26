@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(`https://${SITE.domain}`),
   title: {
     default: `${SITE.name} | Electric Bikes, Batteries & Accessories`,
-    template: `%s | ${SITE.name}`,
+    template: '%s',
   },
   description: 'Australia\'s premier destination for high-performance electric dirt bikes, Stark Varg, Sur-Ron, Talaria, 72V batteries, and fast chargers. Dispatched from NSW 2575.',
   openGraph: {
