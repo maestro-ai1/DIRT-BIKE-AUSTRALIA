@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: { absolute: 'Buy Electric Dirt Bikes Australia | Sur-Ron, Talaria & Stark Varg' },
-  description: 'Buy electric dirt bikes in Australia — Sur-Ron, Talaria & Stark Varg. Genuine AU stock, 12-month warranty, 10% crypto discount, free delivery over $1,500 from NSW.',
+  description: 'Buy electric dirt bikes in Australia — Sur-Ron, Talaria & Stark Varg. Genuine AU stock, 12-month warranty, free delivery over $1,500 from NSW.',
   keywords: 'electric dirt bike australia, buy electric dirt bike, electric dirt bikes for sale, sur ron australia, talaria sting, stark varg australia, off road electric bike, electric enduro bike',
   alternates: {
     canonical: `https://${SITE.domain}/`,
