@@ -3,10 +3,10 @@ import { NextRequest, NextResponse } from 'next/server';
 export function middleware(request: NextRequest) {
   const accept = request.headers.get('accept') ?? '';
 
-  // Markdown content negotiation — rewrite agents to /api/llms-txt which serves text/markdown
-  // Using rewrite (not redirect) so the response URL stays the same and Content-Type is controlled
-  // by the API route handler (not overridden by Vercel CDN's static file MIME detection).
-  if (accept.includes('text/markdown') && !request.nextUrl.pathname.startsWith('/api/llms-txt')) {
+  // Markdown content negotiation for /llms.txt — rewrite to /api/llms-txt which serves text/markdown.
+  // Only applies to /llms.txt specifically; other .md files (auth.md etc.) must be served as-is
+  // so agent tools like isitagentready.com see the correct H1 heading in those files.
+  if (accept.includes('text/markdown') && request.nextUrl.pathname === '/llms.txt') {
     const rewriteUrl = new URL('/api/llms-txt', request.url);
     return NextResponse.rewrite(rewriteUrl, {
       headers: {
