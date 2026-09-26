@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React from 'react';
 import Link from 'next/link';
@@ -64,7 +64,7 @@ export function Footer() {
             <ul className="space-y-2.5 text-xs text-slate-400 font-medium">
               <li>
                 <Link href="/faq/" className="hover:text-white transition-colors">
-                  FAQ’s
+                  FAQ\'s
                 </Link>
               </li>
               <li>

@@ -117,7 +117,7 @@ export function ShopCatalogClient({
 
         {/* Categories Tabs */}
         <div>
-          <span className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+          <span className="block text-[11px] font-bold uppercase tracking-wider text-slate-600 mb-2">
             Categories
           </span>
           <div className="flex flex-wrap gap-1.5">
@@ -151,7 +151,7 @@ export function ShopCatalogClient({
 
         {/* Brands Filter */}
         <div className="pt-2 border-t border-slate-100">
-          <span className="block text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+          <span className="block text-[11px] font-bold uppercase tracking-wider text-slate-600 mb-2">
             Filter by Brand
           </span>
           <div className="flex flex-wrap gap-1.5">
@@ -241,7 +241,10 @@ export function ShopCatalogClient({
                     <img
                       src={p.images[0]}
                       alt={p.name}
+                      width={800}
+                      height={600}
                       loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-3 left-3 flex flex-col gap-1">
@@ -272,7 +275,7 @@ export function ShopCatalogClient({
 
                     {p.specs?.motorPeak && (
                       <div className="text-[11px] bg-slate-50 p-2 rounded-lg text-slate-600 mb-2 flex items-center justify-between">
-                        <span className="text-slate-400">Peak Output:</span>
+                        <span className="text-slate-600">Peak Output:</span>
                         <span className="font-bold text-slate-900">{p.specs.motorPeak}</span>
                       </div>
                     )}

@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'RTR eBike Australia — Road-Legal Electric Commuter Range | Free Delivery',
-  description: 'Shop the full RTR eBike Australia range. Road-legal 250W electric commuters — no licence, no registration required. Free AU-wide delivery. 12-month warranty.',
+  title: 'RTR eBike Australia — Buy Online, Free AU Delivery | EDBA',
+  description: 'Shop the RTR eBike Australia range. Road-legal electric commuters — no licence, no registration required. Free delivery over $1,500. 12-month AU warranty. Genuine stock from Mittagong NSW.',
+  keywords: 'rtr ebike australia, rtr ebike, rtr electric bike australia, rtr ebike buy australia, road legal electric bike australia no licence',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/rtr-ebike/`,
+  },
+  openGraph: {
+    title: 'RTR eBike Australia — Free AU Delivery | EDBA',
+    description: 'RTR eBike road-legal range. No licence needed. Free delivery over $1,500. 12-month AU warranty from Mittagong NSW.',
+    url: `https://${SITE.domain}/electric-motor-bikes/rtr-ebike/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
 };
 

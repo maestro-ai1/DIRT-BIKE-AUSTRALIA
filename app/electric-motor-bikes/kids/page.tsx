@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Baby, Star } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Kids Electric Motorbikes Australia | Childs Electric Motorcycle Ages 3–16',
-  description: 'Shop Australia\'s best kids electric motorbikes. From toddler starter bikes to competition-spec KTM SX-E 5 for ages 4–10. Free AU-wide freight. 12-month warranty.',
+  title: 'Kids Electric Bikes & Motorbikes Australia — Junior Range Ages 3–16 | EDBA',
+  description: 'Shop kids electric bikes and motorbikes in Australia. Ages 3–16. Junior dirt bikes, balance bikes, childs electric motorcycle — free delivery over $1,500. 12-month AU warranty. Safe, fun, and parent-controlled.',
+  keywords: 'kids electric bike australia, kids electric motorbike australia, childs electric motorcycle australia, electric motorbike for kids, kids electric dirt bike, junior electric bike australia',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/kids/`,
+  },
+  openGraph: {
+    title: 'Kids Electric Bikes & Motorbikes Australia — Ages 3–16',
+    description: 'Junior electric dirt bikes, balance bikes & childs motorcycles for ages 3–16. Free delivery over $1,500. 12-month AU warranty. Safe & parent-controlled.',
+    url: `https://${SITE.domain}/electric-motor-bikes/kids/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
 };
 

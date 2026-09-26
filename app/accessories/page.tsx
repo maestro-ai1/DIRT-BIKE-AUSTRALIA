@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { BatteryCharging, Zap, ShieldCheck, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Batteries, Fast Chargers & Parts for Electric Dirt Bikes',
-  description: 'High-discharge 72V Molicel battery packs, 15A smart fast chargers, and heavy-duty protection accessories for Sur-Ron and Talaria electric dirt bikes.',
+  title: 'Electric Dirt Bike Accessories Australia — 72V Batteries, Fast Chargers & Parts | EDBA',
+  description: 'Shop electric dirt bike accessories in Australia. 72V Molicel lithium batteries, fast chargers, Sur-Ron & Talaria OEM parts, skid plates & performance upgrades. Free shipping over $1,500 AUD.',
+  keywords: 'electric dirt bike accessories australia, 72v battery australia, fast charger 72v, sur ron accessories, talaria accessories, electric dirt bike parts australia, 72v battery upgrade sur ron talaria',
   alternates: {
     canonical: `https://${SITE.domain}/accessories/`,
+  },
+  openGraph: {
+    title: 'Electric Dirt Bike Accessories Australia — 72V Batteries & Parts',
+    description: '72V Molicel batteries, fast chargers, Sur-Ron & Talaria parts. Free shipping over $1,500 AUD. Genuine stock from Mittagong NSW.',
+    url: `https://${SITE.domain}/accessories/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
   other: {
     'og:updated_time': new Date().toISOString(),
@@ -56,10 +65,10 @@ export default function AccessoriesPage() {
               Power Upgrades &amp; Protection
             </span>
             <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
-              High-Drain Lithium Batteries, Fast Chargers &amp; Spares
+              Electric Dirt Bike Accessories Australia — 72V Batteries, Fast Chargers &amp; Parts
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Equip your Sur-Ron or Talaria with custom 72V Molicel battery packs, high-amperage 15A alloy fast chargers, and Aussie bush-tested bash plates. Enjoy 10% instant discount when paying with Crypto or PayID.
+              Upgrade your Sur-Ron or Talaria with 72V Molicel lithium battery packs, high-amperage 15A alloy fast chargers, OEM spare parts, and Aussie bush-tested bash plates. All genuine AU stock — free shipping over $1,500 AUD and 10% off with Crypto or PayID.
             </p>
           </div>
         </div>

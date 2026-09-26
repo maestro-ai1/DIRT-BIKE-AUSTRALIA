@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Truck, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Electric Motor Bikes Melbourne VIC | Same-Week Delivery to Victoria',
-  description: 'Buy electric motor bikes in Melbourne and Victoria. Same-week delivery from NSW warehouse. Sur-Ron, Talaria, NIU, Stealth & more. Free freight. 12-month warranty.',
+  title: 'Electric Motor Bikes Melbourne VIC — Buy Online, Free Delivery | EDBA',
+  description: 'Buy electric motor bikes in Melbourne, Victoria. Sur-Ron, Talaria, Stark Varg & more. Free insured delivery to Melbourne VIC on orders over $1,500. Same-week dispatch from Mittagong NSW. 12-month AU warranty.',
+  keywords: 'electric motor bikes melbourne, electric bikes melbourne, buy electric bike melbourne, electric dirt bike delivery melbourne, electric bikes for sale melbourne victoria',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/melbourne/`,
+  },
+  openGraph: {
+    title: 'Electric Motor Bikes Melbourne VIC — Free Delivery | EDBA',
+    description: 'Sur-Ron, Talaria & Stark Varg delivered free to Melbourne VIC on orders over $1,500. Same-week dispatch from NSW.',
+    url: `https://${SITE.domain}/electric-motor-bikes/melbourne/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
 };
 

@@ -20,21 +20,37 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = PRODUCTS.find((p) => p.slug === slug);
   if (!product) return {};
 
+  const priceStr = `AUD $${product.price.toLocaleString()}`;
+  const candidateTitle = `Buy ${product.name} in Australia | ${priceStr} | EDBA`;
+  const title = candidateTitle.length <= 60 ? candidateTitle : `${product.name} Australia | ${priceStr} | EDBA`;
+
+  const descRaw = `${product.shortDescription} Genuine AU stock, 12-month factory warranty. Free delivery Australia-wide from Mittagong NSW 2575.`;
+  const description = descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw;
+
+  const brandLower = product.brand.toLowerCase();
+  const nameLower = product.name.toLowerCase();
+  const keywords = `${nameLower} australia, buy ${nameLower} australia, ${nameLower} for sale, ${brandLower} australia, ${nameLower} price australia, electric dirt bike for sale australia`;
+
   return {
-    title: product.name,
-    description: (() => { const raw = `${product.shortDescription} AU stock, 12-month warranty.`; return raw.length > 155 ? raw.slice(0, 152) + '...' : raw; })(),
+    title,
+    description,
+    keywords,
     alternates: {
       canonical: `https://${SITE.domain}/shop/${product.slug}/`,
     },
     openGraph: {
-      title: `${product.name} - Electric Dirt Bike Australia`,
-      description: product.shortDescription,
+      title: `${product.name} — Electric Dirt Bike Australia`,
+      description: descRaw.slice(0, 155),
+      url: `https://${SITE.domain}/shop/${product.slug}/`,
+      siteName: 'Electric Dirt Bike Australia',
+      locale: 'en_AU',
+      type: 'website',
       images: [
         {
           url: `https://${SITE.domain}${product.images[0]}`,
           width: 1200,
           height: 900,
-          alt: product.name,
+          alt: `${product.name} — Electric Dirt Bike Australia`,
         },
       ],
     },

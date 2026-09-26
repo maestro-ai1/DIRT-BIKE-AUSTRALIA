@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React from 'react';
 import { useSearchParams } from 'next/navigation';
@@ -27,7 +27,7 @@ export function ThankYouOrderClient() {
     'This order is confirmed once payment is received.',
     `Use your order number — ${orderRef} — as the payment reference.`,
     'Ships within 2 business days of payment confirmation.',
-    "Refund or re-ship within 7 days if there's a problem.",
+    "Refund or re-ship within 7 days if there\'s a problem.",
   ];
 
   return (

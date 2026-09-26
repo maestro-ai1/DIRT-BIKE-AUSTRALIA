@@ -1,0 +1,59 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "name": "Electric Dirt Bike Australia",
+    "url": "https://electricdirtbikeaustralia.com.au",
+    "description": "Australia's authorised dealer for Sur-Ron, Talaria, and Stark Varg electric dirt bikes. Genuine stock, 12-month AU warranty, free delivery Australia-wide from Mittagong NSW 2575.",
+    "language": "en-AU",
+    "areaServed": "AU"
+  },
+  "entries": [
+    {
+      "id": "urn:air:electricdirtbikeaustralia.com.au:catalog:products",
+      "displayName": "Electric Dirt Bike Product Catalogue",
+      "description": "Full catalogue of electric dirt bikes, motocross bikes, accessories and 72V batteries available for purchase in Australia.",
+      "type": "text/plain",
+      "url": "https://electricdirtbikeaustralia.com.au/llms.txt",
+      "representativeQueries": [
+        "What electric dirt bikes are available in Australia?",
+        "How much does a Sur-Ron Light Bee X cost in Australia?",
+        "Does EDBA stock Talaria Sting R parts and accessories?",
+        "What is the fastest electric dirt bike for sale in Australia?",
+        "Are there electric dirt bikes for kids in Australia?"
+      ]
+    },
+    {
+      "id": "urn:air:electricdirtbikeaustralia.com.au:api:sitemap",
+      "displayName": "Sitemap XML",
+      "description": "Full XML sitemap of all product pages, blog posts and category pages on electricdirtbikeaustralia.com.au",
+      "type": "application/xml",
+      "url": "https://electricdirtbikeaustralia.com.au/sitemap.xml",
+      "representativeQueries": [
+        "What pages does Electric Dirt Bike Australia have?",
+        "List all product pages on EDBA"
+      ]
+    },
+    {
+      "id": "urn:air:electricdirtbikeaustralia.com.au:mcp:server",
+      "displayName": "WebMCP Server",
+      "description": "MCP server exposing product catalogue, pricing, and enquiry capabilities for AI agents.",
+      "type": "application/json",
+      "url": "https://electricdirtbikeaustralia.com.au/.well-known/mcp.json",
+      "representativeQueries": [
+        "What MCP tools does Electric Dirt Bike Australia expose?",
+        "Can I query EDBA product data via MCP?"
+      ]
+    },
+    {
+      "id": "urn:air:electricdirtbikeaustralia.com.au:openapi:catalog",
+      "displayName": "API Catalog",
+      "description": "OpenAPI specification for the Electric Dirt Bike Australia product and enquiry API.",
+      "type": "application/json",
+      "url": "https://electricdirtbikeaustralia.com.au/.well-known/api-catalog",
+      "representativeQueries": [
+        "What API endpoints does EDBA expose?",
+        "How do I submit a wholesale enquiry to Electric Dirt Bike Australia?"
+      ]
+    }
+  ]
+}

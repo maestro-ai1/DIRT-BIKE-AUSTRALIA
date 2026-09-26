@@ -19,15 +19,32 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = POSTS.find((p) => p.slug === slug);
   if (!post) return {};
 
+  const title = `${post.title} | EDBA Blog`;
+  const descRaw = `${post.excerpt} Expert electric dirt bike guides from Electric Dirt Bike Australia — Mittagong NSW.`;
+  const description = descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw;
+
+  const categoryKeywords: Record<string, string> = {
+    Comparisons: 'electric dirt bike comparison australia, sur ron vs talaria, best electric dirt bike australia',
+    Guides: 'electric dirt bike guide australia, 72v battery upgrade, electric bike maintenance australia',
+    Innovations: 'electric motocross australia, stark varg australia, electric dirt bike news',
+    'Legal & Safety': 'are electric dirt bikes legal australia, electric bike laws australia, electric dirt bike registration',
+  };
+  const keywords = categoryKeywords[post.category] ?? 'electric dirt bike australia, electric bike guide, sur ron talaria australia';
+
   return {
-    title: post.title,
-    description: post.excerpt,
+    title,
+    description,
+    keywords,
     alternates: {
       canonical: `https://${SITE.domain}/blog/${post.slug}/`,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
+      url: `https://${SITE.domain}/blog/${post.slug}/`,
+      siteName: 'Electric Dirt Bike Australia',
+      locale: 'en_AU',
+      type: 'article',
       images: [
         {
           url: `https://${SITE.domain}${post.image}`,

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
@@ -6,8 +6,10 @@ import { ArrowRight, ChevronLeft, ChevronRight, Zap, ShieldCheck, Truck } from '
 
 const SLIDES = [
   {
-    image: '/images/hero_surron_trail_1790338185425.jpg',
-    tag: 'AUSTRALIA’S #1 ELECTRIC DIRT BIKE DEALER',
+    image: '/images/hero-1-electric-dirt-bike-australia.avif',
+    imageType: 'image/avif',
+    alt: 'Electric dirt bike rider tearing up Australian bush track — Sur-Ron Light Bee X electric off-road bike with instant torque delivery',
+    tag: 'AUSTRALIA\'S #1 ELECTRIC DIRT BIKE DEALER',
     isH1: true,
     title: 'Electric Dirt Bike Australia | Brand New Electric Bike | Powerful Electric Dirt bikes',
     subtitle: 'Engineered for Australian bush tracks, steep climbs, and extreme enduro terrain. Genuine stock, factory warranty, and ready for immediate nationwide dispatch.',
@@ -16,7 +18,9 @@ const SLIDES = [
     badge: 'Sur-Ron · Talaria · Stark Varg',
   },
   {
-    image: '/images/hero_stark_track_1790338196966.jpg',
+    image: '/images/hero-2-sur-ron-electric-off-road-australia.jpg',
+    imageType: 'image/jpeg',
+    alt: 'Sur-Ron Storm Bee electric dirt bike flying over Australian trail — high-performance electric off-road bike with 74V battery and 6500W peak power',
     tag: 'REVOLUTIONARY MOTOCROSS PERFORMANCE',
     isH1: false,
     title: 'Stark Varg EX 80HP · Instant 938Nm Rear-Wheel Torque',
@@ -26,7 +30,9 @@ const SLIDES = [
     badge: 'Pro Competition MX',
   },
   {
-    image: '/images/hero_talaria_ridge_1790338208529.jpg',
+    image: '/images/hero-3-talaria-electric-enduro-australia.jpg',
+    imageType: 'image/jpeg',
+    alt: 'Talaria Sting R electric enduro bike conquering rocky Australian terrain — 8kW oil-bath gearbox, 45Ah high-discharge battery, built for extreme off-road',
     tag: 'TALARIA STING R & HIGH-OUTPUT BATTERIES',
     isH1: false,
     title: 'Factory 8kW Drivetrain with Oil-Bath Gearbox',
@@ -51,19 +57,24 @@ export function HeroSlider() {
 
   return (
     <section className="relative w-full min-h-[500px] sm:min-h-[560px] lg:min-h-[620px] flex items-center bg-slate-950 overflow-hidden">
-      {/* Background Slides */}
+      {/* Background Slides — real <img> elements so browser preload scanner can discover and prioritise LCP image */}
       {SLIDES.map((s, idx) => (
         <div
           key={idx}
           className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
             idx === current ? 'opacity-100 scale-100' : 'opacity-0 scale-105 pointer-events-none'
           }`}
-          style={{
-            backgroundImage: `url(${s.image})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center 30%',
-          }}
         >
+          <img
+            src={s.image}
+            alt={s.alt}
+            width={1920}
+            height={1080}
+            className="absolute inset-0 w-full h-full object-cover"
+            style={{ objectPosition: 'center 30%' }}
+            loading={idx === 0 ? 'eager' : 'lazy'}
+            fetchPriority={idx === 0 ? 'high' : 'low'}
+          />
           {/* Gradient scrim — left reads clearly, right image shows bright */}
           <div className="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/50 to-transparent" />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent" />
@@ -148,7 +159,7 @@ export function HeroSlider() {
           type="button"
           aria-label="Previous Hero Slide"
           onClick={() => setCurrent((prev) => (prev - 1 + SLIDES.length) % SLIDES.length)}
-          className="p-2 rounded-full bg-slate-900/80 hover:bg-sky-600 text-white border border-slate-700 transition-colors backdrop-blur-md"
+          className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full bg-slate-900/80 hover:bg-sky-600 text-white border border-slate-700 transition-colors backdrop-blur-md"
         >
           <ChevronLeft className="w-4 h-4" />
         </button>
@@ -161,10 +172,12 @@ export function HeroSlider() {
               type="button"
               aria-label={`Go to slide ${i + 1}`}
               onClick={() => setCurrent(i)}
-              className={`h-2 rounded-full transition-all ${
-                i === current ? 'w-6 bg-sky-400' : 'w-2 bg-slate-600 hover:bg-slate-400'
-              }`}
-            />
+              className="min-w-[44px] min-h-[44px] flex items-center justify-center"
+            >
+              <span className={`block rounded-full transition-all ${
+                i === current ? 'w-6 h-2 bg-sky-400' : 'w-2 h-2 bg-slate-600 hover:bg-slate-400'
+              }`} />
+            </button>
           ))}
         </div>
 
@@ -172,7 +185,7 @@ export function HeroSlider() {
           type="button"
           aria-label="Next Hero Slide"
           onClick={() => setCurrent((prev) => (prev + 1) % SLIDES.length)}
-          className="p-2 rounded-full bg-slate-900/80 hover:bg-sky-600 text-white border border-slate-700 transition-colors backdrop-blur-md"
+          className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full bg-slate-900/80 hover:bg-sky-600 text-white border border-slate-700 transition-colors backdrop-blur-md"
         >
           <ChevronRight className="w-4 h-4" />
         </button>

@@ -7,10 +7,19 @@ import { BlogCatalogClient } from './BlogCatalogClient';
 import { BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Dirt Bike Guides, Tech Reviews & Riding News | Blog',
-  description: 'Expert technical guides, Sur-Ron vs Talaria comparisons, 72V battery upgrades, legal regulations, and maintenance advice from our Mittagong NSW workshop.',
+  title: 'Electric Dirt Bike Blog Australia — Guides, Reviews & Riding Tips | EDBA',
+  description: 'Expert electric dirt bike guides for Australian riders. Sur-Ron vs Talaria comparison, 72V battery upgrades, are electric dirt bikes legal in Australia, speed guides, and maintenance tips from our Mittagong NSW workshop.',
+  keywords: 'electric dirt bike blog australia, sur ron vs talaria sting, are electric dirt bikes legal australia, how fast does sur ron go, electric dirt bike review, 72v battery upgrade guide, electric bike laws australia',
   alternates: {
     canonical: `https://${SITE.domain}/blog/`,
+  },
+  openGraph: {
+    title: 'Electric Dirt Bike Blog Australia — Guides, Reviews & Tips',
+    description: 'Sur-Ron vs Talaria, battery upgrades, legality guides & riding tips from Australia\'s electric dirt bike specialists in Mittagong NSW.',
+    url: `https://${SITE.domain}/blog/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
   other: {
     'og:updated_time': new Date().toISOString(),
@@ -57,10 +66,10 @@ export default function BlogIndexPage() {
               <span>Australian E-Moto Knowledge Base ({POSTS.length} Articles)</span>
             </div>
             <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
-              Electric Dirt Bike Guides, Tech Reviews &amp; News
+              Electric Dirt Bike Blog — Guides, Reviews &amp; Riding Tips Australia
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl">
-              In-depth comparison guides, battery maintenance practices, Australian road &amp; trail regulations, and controller tuning from our dedicated testing facility in Mittagong NSW 2575.
+              In-depth comparison guides (Sur-Ron vs Talaria), 72V battery upgrade tips, Australian road &amp; trail legality regulations, speed data, and controller tuning from our dedicated testing facility in Mittagong NSW 2575.
             </p>
           </div>
         </div>

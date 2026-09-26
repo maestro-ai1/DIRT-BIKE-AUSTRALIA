@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { ArrowRight, CheckCircle, AlertTriangle, Scale, MapPin, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Are E-Bikes Legal in Australia? NSW, VIC, QLD & WA Laws 2026 | Complete Guide',
-  description: 'Complete guide to Australian e-bike laws 2026. Are e-bikes legal? Do electric bikes need registration in NSW, VIC, QLD, WA? Number plates, licences, age limits explained.',
+  title: 'E-Bike Laws Australia 2026 — Are Electric Dirt Bikes Legal? State-by-State Guide | EDBA',
+  description: 'Complete guide to electric dirt bike and e-bike laws in Australia 2026. Are electric dirt bikes legal in Australia? Road registration, licence requirements, and off-road rules for NSW, VIC, QLD, WA & SA explained.',
+  keywords: 'e-bike laws australia, are electric dirt bikes legal australia, electric bike registration australia, electric dirt bike road legal australia, electric bike licence requirements australia, electric dirt bike nsw law',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/e-bike-laws-australia/`,
+  },
+  openGraph: {
+    title: 'E-Bike Laws Australia 2026 — Are Electric Dirt Bikes Legal?',
+    description: 'State-by-state guide: Are electric dirt bikes legal in Australia? Road registration, licence & off-road rules for NSW, VIC, QLD, WA & SA.',
+    url: `https://${SITE.domain}/electric-motor-bikes/e-bike-laws-australia/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'article',
   },
 };
 

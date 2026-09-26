@@ -87,6 +87,11 @@ export function ProductDetailClient({
             <img
               src={product.images[selectedImage] || product.images[0]}
               alt={product.name}
+              width={1200}
+              height={900}
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
               className="w-full h-full object-cover object-center"
             />
             <div className="absolute top-4 left-4 flex flex-col gap-1.5">
@@ -116,7 +121,7 @@ export function ProductDetailClient({
                     selectedImage === i ? 'border-sky-600 ring-2 ring-sky-600/30' : 'border-slate-200 opacity-70 hover:opacity-100'
                   }`}
                 >
-                  <img src={img} alt={`${product.name} view ${i + 1}`} className="w-full h-full object-cover" />
+                  <img src={img} alt={`${product.name} view ${i + 1}`} width={320} height={240} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 </button>
               ))}
             </div>
@@ -380,6 +385,10 @@ export function ProductDetailClient({
                   <img
                     src={item.images[0]}
                     alt={item.name}
+                    width={800}
+                    height={600}
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform"
                   />
                   <div className="absolute top-3 left-3">

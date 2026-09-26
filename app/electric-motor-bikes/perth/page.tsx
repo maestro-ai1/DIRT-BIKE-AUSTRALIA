@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass, Truck, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Electric Motor Bikes Perth WA | Fast Overnight Freight to Western Australia',
-  description: 'Buy electric motor bikes in Perth, WA. Fast overnight freight from our NSW warehouse to Perth. Free delivery on orders over $1,500. Sur-Ron, Talaria, NIU & more.',
+  title: 'Electric Motor Bikes Perth WA — Buy Online, Free Delivery to Perth | EDBA',
+  description: 'Buy electric motor bikes in Perth, Western Australia. Sur-Ron, Talaria, Stark Varg & more. Free insured freight to Perth WA on orders over $1,500. Fast dispatch from Mittagong NSW. 12-month AU warranty.',
+  keywords: 'electric motor bikes perth, electric bikes perth wa, buy electric bike perth, electric dirt bike delivery perth, electric bikes for sale perth western australia',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/perth/`,
+  },
+  openGraph: {
+    title: 'Electric Motor Bikes Perth WA — Free Delivery | EDBA',
+    description: 'Sur-Ron, Talaria & Stark Varg delivered free to Perth WA on orders over $1,500. Genuine AU stock from Mittagong NSW.',
+    url: `https://${SITE.domain}/electric-motor-bikes/perth/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
 };
 

@@ -28,11 +28,13 @@ export function TrustpilotSection() {
   return (
     <section className="py-16 sm:py-20 bg-slate-50 border-t border-b border-slate-200/80" id="reviews">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+        {/* Hidden heading maintains correct H1→H2→H3 heading hierarchy for screen readers */}
+        <h2 className="sr-only">Customer Reviews</h2>
+
         {/* Header Block with Trustpilot Green Accents */}
         <div className="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200/80 shadow-sm mb-10">
           <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-6 sm:gap-8">
-            
+
             {/* Left: Overall Score */}
             <div className="space-y-1.5">
               <div className="flex items-center gap-2">
@@ -168,9 +170,9 @@ export function TrustpilotSection() {
                 </div>
 
                 {/* Review Title */}
-                <h4 className="text-sm sm:text-base font-bold text-slate-900 mb-2 leading-snug line-clamp-1">
+                <h3 className="text-sm sm:text-base font-bold text-slate-900 mb-2 leading-snug line-clamp-1">
                   &ldquo;{rev.title}&rdquo;
-                </h4>
+                </h3>
 
                 {/* Comment Body */}
                 <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-4 line-clamp-4">

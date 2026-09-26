@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, FileText, ArrowRight, CheckCircle, Gauge, Battery, Compass, Baby, Bike, MapPin, Star, BookOpen, Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Top Electric Motor Bikes in Australia | Road-Legal & Dual Sport',
-  description: 'Explore the top electric motor bikes in Australia. Compare high-power dual-sport, street-scrambler, and enduro electric motorcycles with Australian warranty and free freight over $1,500.',
+  title: 'Electric Motorbikes Australia — Dirt, Commuter & Kids Range | EDBA',
+  description: 'Browse electric motorbikes in Australia. Off-road dirt bikes, commuter mopeds, kids\' bikes — Sur-Ron, Talaria, E-Ride Pro, RTR eBike & more. Free shipping over $1,500. Nationwide delivery from Mittagong NSW.',
+  keywords: 'electric motorbike australia, electric motor bike, electric motorcycle australia, electric motocross motorcycle, electric commuter bike australia, electric motor bikes for sale australia',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/`,
+  },
+  openGraph: {
+    title: 'Electric Motorbikes Australia — Dirt, Commuter & Kids Range',
+    description: 'Off-road dirt bikes, commuter mopeds, kids bikes — Sur-Ron, Talaria, E-Ride Pro & more. Free shipping over $1,500. Genuine AU stock from Mittagong NSW.',
+    url: `https://${SITE.domain}/electric-motor-bikes/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
   other: {
     'og:updated_time': new Date().toISOString(),
@@ -132,7 +141,7 @@ export default function ElectricMotorBikesPage() {
               Top Electric Motor Bikes in Australia
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Explore Australia’s most capable electric motor bikes. From road-capable dual-sport enduro platforms like the Sur-Ron Ultra Bee to Australian-engineered Stealth hyper-bikes and street scramblers, find the ideal machine backed by local NSW workshop support and nationwide crate freight.
+              Explore Australia\'s most capable electric motor bikes. From road-capable dual-sport enduro platforms like the Sur-Ron Ultra Bee to Australian-engineered Stealth hyper-bikes and street scramblers, find the ideal machine backed by local NSW workshop support and nationwide crate freight.
             </p>
             <div className="flex flex-wrap gap-4 pt-2 text-xs text-slate-300">
               <span className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">

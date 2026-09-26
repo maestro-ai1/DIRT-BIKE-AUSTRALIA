@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+﻿import { NextResponse } from 'next/server';
 import { after } from 'next/server';
 import { saveOrder } from '@/lib/orderStore';
 import { sendMail } from '@/lib/mailer';
@@ -92,7 +92,7 @@ export async function POST(request: Request) {
             afterRows: termsHtml,
             ctaButtons: [
               {
-                label: "I've Paid — Upload Confirmation →",
+                label: "I\'ve Paid — Upload Confirmation →",
                 url: `https://${SITE.domain}/confirm/?ref=${encodeURIComponent(orderRef)}`,
                 style: 'primary',
               },
@@ -121,7 +121,7 @@ export async function POST(request: Request) {
         }
 
         // 2. Admin notification — encode order data in the link so the reply portal
-        //    works even when the order can't be retrieved from the store (no Redis yet)
+        //    works even when the order can\'t be retrieved from the store (no Redis yet)
         const adminParams = new URLSearchParams({
           ref: orderRef,
           n: customerName || '',

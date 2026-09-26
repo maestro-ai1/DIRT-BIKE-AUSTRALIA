@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -24,7 +24,7 @@ export default function ContactPage() {
     e.preventDefault();
     if (!waMessage.trim()) return;
     const text = waName.trim()
-      ? `Hi, I'm ${waName}. ${waMessage}`
+      ? `Hi, I\'m ${waName}. ${waMessage}`
       : waMessage;
     window.open(waLink(CONTACT.whatsapp, text), '_blank');
     setWaName('');
@@ -208,7 +208,7 @@ export default function ContactPage() {
                   Send a Message to Our Workshop
                 </h2>
                 <p className="text-xs text-slate-500">
-                  Fill in your details and we'll get back to you within 2–4 business hours. Email delivery activates once SMTP is configured.
+                  Fill in your details and we\'ll get back to you within 2–4 business hours. Email delivery activates once SMTP is configured.
                 </p>
               </div>
 

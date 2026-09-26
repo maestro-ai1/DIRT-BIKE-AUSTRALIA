@@ -7,6 +7,7 @@ import { SearchClient } from './SearchClient';
 export const metadata: Metadata = {
   title: 'Search Electric Dirt Bikes & Accessories',
   description: 'Search our full inventory of Sur-Ron, Talaria, Stark Varg electric dirt bikes, batteries, chargers, and guides.',
+  robots: { index: false, follow: true },
   alternates: {
     canonical: `https://${SITE.domain}/search/`,
   },

@@ -6,8 +6,9 @@ import { JsonLd } from '@/components/JsonLd';
 import { RotateCcw, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Returns & Refunds Policy',
-  description: 'Our Australian Consumer Law compliant returns and exchange policy for electric dirt bikes, batteries, and accessories.',
+  title: 'Returns & Refund Policy — Electric Dirt Bikes Australia | EDBA',
+  description: 'Australian Consumer Law compliant returns and refund policy for electric dirt bikes, 72V batteries, and accessories. 7-day returns, 12-month warranty coverage from Mittagong NSW 2575.',
+  keywords: 'electric dirt bike return policy australia, electric bike refund australia, australian consumer law electric bike',
   alternates: {
     canonical: `https://${SITE.domain}/returns-policy/`,
   },
@@ -84,7 +85,7 @@ export default function ReturnsPolicyPage() {
               3. Transit Damage Claims
             </h2>
             <p>
-              Every shipment is fully insured. If the external transport crate arrives with visible damage, please note it on the driver’s consignment note and notify us with photos within 24 hours at {CONTACT.email}.
+              Every shipment is fully insured. If the external transport crate arrives with visible damage, please note it on the driver\'s consignment note and notify us with photos within 24 hours at {CONTACT.email}.
             </p>
           </section>
         </div>

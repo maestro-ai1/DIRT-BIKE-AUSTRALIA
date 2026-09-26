@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Electric Commuter Mopeds & E-Bikes Australia | Road-Legal, LAMS Approved',
-  description: 'Shop road-legal electric mopeds and commuter e-bikes in Australia. LAMS approved for L & P-plates. NIU, Super Soco, Vmoto & more. Free freight. 12-month warranty.',
+  title: 'Electric Commuter Mopeds Australia — Road-Legal, LAMS Approved | EDBA',
+  description: 'Shop road-legal electric mopeds and commuter e-bikes in Australia. LAMS approved, free delivery over $1,500, 12-month warranty. Electric motorbike road legal — commuter range available now.',
+  keywords: 'electric commuter moped australia, road legal electric motorbike australia, electric moped australia, lams electric motorbike, electric motor bike road legal australia, commuter electric bike australia',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/commuter-mopeds/`,
+  },
+  openGraph: {
+    title: 'Electric Commuter Mopeds Australia — Road-Legal, LAMS Approved',
+    description: 'Road-legal electric mopeds for Australian commuters. LAMS approved, free delivery over $1,500. Genuine AU stock from Mittagong NSW.',
+    url: `https://${SITE.domain}/electric-motor-bikes/commuter-mopeds/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
 };
 

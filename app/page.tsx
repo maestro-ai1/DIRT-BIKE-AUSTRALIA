@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { HeroSlider } from '@/components/HeroSlider';
 import { TrustpilotSection } from '@/components/TrustpilotSection';
@@ -8,10 +8,19 @@ import { Zap, ShieldCheck, Truck, ArrowRight, Award, BatteryCharging, Wrench, Ch
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: { absolute: 'Electric Dirt Bike Australia | Brand New Electric Bike | Powerful Electric Dirt bikes' },
-  description: 'Australia’s leading specialist for Sur-Ron, Talaria, Stark Varg electric dirt bikes, high-output 72V batteries, and fast chargers. Dispatched from NSW 2575.',
+  title: { absolute: 'Buy Electric Dirt Bikes Australia | Sur-Ron, Talaria & Stark Varg' },
+  description: 'Buy electric dirt bikes in Australia. Sur-Ron Light Bee X, Talaria Sting R, Stark Varg & more — genuine AU stock, 12-month warranty, 10% crypto discount, free shipping over $1,500. Dispatched from Mittagong NSW 2575.',
+  keywords: 'electric dirt bike australia, buy electric dirt bike, electric dirt bikes for sale, sur ron australia, talaria sting, stark varg australia, off road electric bike, electric enduro bike',
   alternates: {
     canonical: `https://${SITE.domain}/`,
+  },
+  openGraph: {
+    title: 'Electric Dirt Bike Australia — Buy Sur-Ron, Talaria & Stark Varg',
+    description: 'Australia\'s electric dirt bike specialists. Sur-Ron, Talaria, Stark Varg — genuine stock, 12-month AU warranty, free shipping over $1,500.',
+    url: `https://${SITE.domain}/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
   other: {
     'og:updated_time': new Date().toISOString(),
@@ -144,7 +153,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
               <div className="text-xs font-bold uppercase tracking-wider text-sky-600 mb-1">
-                Australia’s Most Purchased
+                Australia\'s Most Purchased
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
                 Trending Electric Dirt Bike Brands
@@ -219,7 +228,10 @@ export default function HomePage() {
                   <img
                     src={product.images[0]}
                     alt={product.name}
+                    width={800}
+                    height={600}
                     loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 left-3 flex flex-col gap-1">
@@ -252,11 +264,11 @@ export default function HomePage() {
                     {/* Key Specs Row */}
                     <div className="grid grid-cols-2 gap-2 text-[11px] bg-slate-50 p-2.5 rounded-lg border border-slate-100 mb-4 text-slate-600">
                       <div>
-                        <span className="text-slate-400 block text-[9px] uppercase font-bold">Power</span>
+                        <span className="text-slate-600 block text-[10px] uppercase font-bold">Power</span>
                         <span className="font-bold text-slate-900">{product.specs.motorPeak || 'High Torque'}</span>
                       </div>
                       <div>
-                        <span className="text-slate-400 block text-[9px] uppercase font-bold">Battery</span>
+                        <span className="text-slate-600 block text-[10px] uppercase font-bold">Battery</span>
                         <span className="font-bold text-slate-900">{product.specs.battery?.split(' ')[0] || 'Lithium'}</span>
                       </div>
                     </div>
@@ -275,6 +287,7 @@ export default function HomePage() {
 
                     <Link
                       href={`/shop/${product.slug}/`}
+                      aria-label={`View specs for ${product.name}`}
                       className="px-3.5 py-2 bg-sky-600 hover:bg-sky-500 text-white rounded-lg text-xs font-bold transition-colors shadow-xs"
                     >
                       View Specs
@@ -324,7 +337,10 @@ export default function HomePage() {
                   <img
                     src={product.images[0]}
                     alt={product.name}
+                    width={800}
+                    height={600}
                     loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 left-3">
@@ -358,6 +374,7 @@ export default function HomePage() {
 
                     <Link
                       href={`/shop/${product.slug}/`}
+                      aria-label={`View details for ${product.name}`}
                       className="px-3 py-1.5 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors"
                     >
                       Details

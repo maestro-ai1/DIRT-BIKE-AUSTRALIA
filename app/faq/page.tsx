@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { HelpCircle, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions',
-  description: 'Everything you need to know about off-road electric dirt bikes in Australia, legality, 10% crypto discount, shipping logistics, and warranty.',
+  title: 'Electric Dirt Bike FAQ Australia — Legality, Cost, Speed & Warranty | EDBA',
+  description: 'Answers to the most common electric dirt bike questions in Australia. Are electric dirt bikes legal? How much do they cost? How fast does a Sur-Ron go? Battery life, registration, crypto discount & more.',
+  keywords: 'are electric dirt bikes legal in australia, how much does electric dirt bike cost australia, how fast does sur ron go, electric dirt bike battery life, electric bike registration australia, electric dirt bike faq',
   alternates: {
     canonical: `https://${SITE.domain}/faq/`,
+  },
+  openGraph: {
+    title: 'Electric Dirt Bike FAQ Australia — Legality, Cost & Speed Guide',
+    description: 'Are electric dirt bikes legal in Australia? How much do they cost? How fast does a Sur-Ron go? All answered by EDBA specialists.',
+    url: `https://${SITE.domain}/faq/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
   other: {
     'og:updated_time': new Date().toISOString(),

@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import React, { useState } from 'react';
 import { X, Send } from 'lucide-react';
@@ -7,7 +7,7 @@ import { CONTACT } from '@/src/config/site';
 
 const AGENT_NAME = 'Electric Dirt Bike Agent';
 const WELCOME_MSG =
-  "👋 G'day! Welcome to Electric Dirt Bike Australia. How can we help you today?";
+  "👋 G\'day! Welcome to Electric Dirt Bike Australia. How can we help you today?";
 
 function WAIcon() {
   return (

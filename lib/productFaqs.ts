@@ -1,4 +1,4 @@
-// lib/productFaqs.ts — Generates 5 high-converting, high-search-volume SEO FAQs for each product
+﻿// lib/productFaqs.ts — Generates 5 high-converting, high-search-volume SEO FAQs for each product
 
 export interface ProductFaq {
   question: string;
@@ -83,7 +83,7 @@ export function getProductFaqs(product: {
     },
     {
       question: `Will installing the ${product.name} affect my electric dirt bike factory warranty?`,
-      answer: `Installing genuine performance parts and protection upgrades supplied by Electric Dirt Bike Australia does not void your statutory rights. All components are factory-approved upgrades designed to work safely within the bike's electrical and mechanical tolerances.`,
+      answer: `Installing genuine performance parts and protection upgrades supplied by Electric Dirt Bike Australia does not void your statutory rights. All components are factory-approved upgrades designed to work safely within the bike\'s electrical and mechanical tolerances.`,
     },
     {
       question: `What tools are needed to install the ${product.name} at home?`,

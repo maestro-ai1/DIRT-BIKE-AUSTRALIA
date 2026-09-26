@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { SITE, CONTACT, BRAND } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,10 +6,19 @@ import { JsonLd } from '@/components/JsonLd';
 import { MapPin, ShieldCheck, Wrench, Truck, Award, CheckCircle, Navigation, Phone, Mail } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Us | Mittagong NSW 2575 Headquarters',
-  description: 'Learn about Electric Dirt Bike Australia, our dedicated Southern Highlands NSW 2575 prep facility, genuine Australian stock, and our commitment to riders.',
+  title: 'About Electric Dirt Bike Australia — Authorised AU Dealer | Mittagong NSW 2575',
+  description: 'Electric Dirt Bike Australia is an authorised dealer for Sur-Ron, Talaria, Stark Varg & Stealth. Based in Mittagong NSW 2575. ABN 98 611 685 977. Genuine stock, 12-month AU warranty, nationwide delivery.',
+  keywords: 'electric dirt bike australia dealer, authorised electric dirt bike dealer australia, electric dirt bike australia reviews, electric bikes australia, sur ron authorised dealer australia',
   alternates: {
     canonical: `https://${SITE.domain}/about/`,
+  },
+  openGraph: {
+    title: 'About Electric Dirt Bike Australia — Authorised AU Dealer',
+    description: 'Authorised dealer for Sur-Ron, Talaria & Stark Varg. Based in Mittagong NSW 2575. ABN 98 611 685 977. Genuine AU stock, 12-month warranty.',
+    url: `https://${SITE.domain}/about/`,
+    siteName: 'Electric Dirt Bike Australia',
+    locale: 'en_AU',
+    type: 'website',
   },
   other: {
     'og:updated_time': new Date().toISOString(),
@@ -80,10 +89,10 @@ export default function AboutPage() {
               Southern Highlands NSW 2575 Headquarters
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Pioneering High-Performance Electric Off-Road Moto in Australia
+              Australia\'s Authorised Electric Dirt Bike Dealer — Mittagong NSW 2575
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Founded in {BRAND.foundingYear}, Electric Dirt Bike Australia is the country’s dedicated high-power electric motocross and trail motorcycle specialist. We test, crate, and dispatch bikes across Australia from our Mittagong NSW facility.
+              Founded in {BRAND.foundingYear}, Electric Dirt Bike Australia is the country\'s dedicated authorised dealer for high-power electric dirt bikes, motocross and trail motorcycles. We test, crate, and dispatch Sur-Ron, Talaria, Stark Varg, and E-Ride Pro bikes across Australia from our Mittagong NSW 2575 facility.
             </p>
 
             {/* ABN strictly on About us and Footer per user instructions */}
@@ -100,7 +109,7 @@ export default function AboutPage() {
           
           <div className="lg:col-span-7 space-y-6 text-slate-700 text-sm leading-relaxed">
             <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight">
-              Our Journey: From Passion to Australia’s Premier Electric Moto Destination
+              Our Journey: From Passion to Australia\'s Premier Electric Moto Destination
             </h2>
 
             <p>
@@ -128,7 +137,7 @@ export default function AboutPage() {
             </h3>
 
             <p>
-              Shipping high-powered electric dirt bikes requires specialized handling. We partner with Australia’s premier heavy-freight carriers equipped with hydraulic tailgate trucks. Each bike is securely bolted inside a steel-reinforced transit crate, ensuring it arrives at your home or depot in immaculate, showroom condition. All bike orders over $1,500 AUD include <strong>100% FREE freight</strong> across Australian mainland metropolitan and regional centers.
+              Shipping high-powered electric dirt bikes requires specialized handling. We partner with Australia\'s premier heavy-freight carriers equipped with hydraulic tailgate trucks. Each bike is securely bolted inside a steel-reinforced transit crate, ensuring it arrives at your home or depot in immaculate, showroom condition. All bike orders over $1,500 AUD include <strong>100% FREE freight</strong> across Australian mainland metropolitan and regional centers.
             </p>
           </div>
 
