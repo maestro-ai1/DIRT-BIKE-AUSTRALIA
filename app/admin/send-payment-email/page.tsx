@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { PasscodeGate } from '@/components/admin/PasscodeGate';
 import { useAdminPasscode } from '@/lib/useAdminPasscode';
 import { StoredOrder } from '@/lib/orderStore';
-import { ArrowLeft, Send, CheckCircle, MessageSquare, Clipboard } from 'lucide-react';
+import { ArrowLeft, Send, CheckCircle, MessageSquare, Clipboard, AlertTriangle } from 'lucide-react';
 import { SITE, CONTACT, REPLY } from '@/src/config/site';
 
 export default function SendPaymentEmailPage() {
@@ -40,6 +40,7 @@ function Composer() {
   const { getAuthHeaders, isUnlocked } = useAdminPasscode();
 
   const [order, setOrder] = useState<StoredOrder | null>(null);
+  const [urlFallback, setUrlFallback] = useState(false);
   const [loading, setLoading] = useState(true);
   const [paymentMethod, setPaymentMethod] = useState('payid');
   const [instructions, setInstructions] = useState('');
@@ -63,11 +64,53 @@ function Composer() {
           setPaymentMethod(method);
           const amt = `$${o.total.toLocaleString()} AUD`;
           setInstructions(TEMPLATES[method]?.(o.ref, amt) ?? '');
+        } else {
+          // Order not in store — reconstruct from URL params embedded in the admin email link
+          const name = searchParams.get('n') || '';
+          const email = searchParams.get('e') || '';
+          const phone = searchParams.get('p') || '';
+          const total = parseFloat(searchParams.get('t') || '0');
+          const method = searchParams.get('m') || 'payid';
+          const addr = searchParams.get('a') || '';
+          const itemParams = searchParams.getAll('i');
+          const items = itemParams.map((s) => {
+            const parts = s.split('|');
+            return { qty: parseInt(parts[0] || '1', 10), name: parts[1] || 'Item', price: parseFloat(parts[2] || '0') };
+          });
+
+          if (name && email) {
+            const reconstructed: StoredOrder = {
+              id: `url-${refParam}`,
+              ref: refParam,
+              confirmToken: '',
+              channel: 'email',
+              status: 'pending',
+              customerName: name,
+              email,
+              phone,
+              address: '',
+              suburbState: addr,
+              items: items.length > 0 ? items : [{ name: 'Order items', qty: 1, price: total }],
+              subtotal: total,
+              discount: 0,
+              shipping: 0,
+              total,
+              paymentMethod: method,
+              createdAt: new Date().toISOString(),
+            };
+            setOrder(reconstructed);
+            setUrlFallback(true);
+            setRecipientEmail(email);
+            setPaymentMethod(method);
+            const amt = `$${total.toLocaleString()} AUD`;
+            setInstructions(TEMPLATES[method]?.(refParam, amt) ?? '');
+          }
         }
       } catch { /* ignore */ }
       finally { setLoading(false); }
     };
     load();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [refParam, isUnlocked]);
 
   if (!refParam) {
@@ -84,8 +127,11 @@ function Composer() {
 
   if (!order) {
     return (
-      <div className="min-h-screen bg-black flex items-center justify-center text-gray-500 text-sm">
-        Order not found: {refParam}. <Link href="/admin/orders/" className="text-sky-400 ml-1 underline">Back to orders →</Link>
+      <div className="min-h-screen bg-black flex items-center justify-center text-gray-500 text-sm px-4">
+        <div className="text-center space-y-3 max-w-sm">
+          <p>Order {refParam} not found.</p>
+          <p className="text-xs text-gray-600">If you arrived here from the email notification, make sure you clicked the link in that email (it includes the order data). <Link href="/admin/orders/" className="text-sky-400 underline">Back to orders →</Link></p>
+        </div>
       </div>
     );
   }
@@ -145,6 +191,13 @@ function Composer() {
       </div>
 
       <div className="max-w-2xl mx-auto px-4 py-6 space-y-5">
+
+        {urlFallback && (
+          <div className="flex items-start gap-2 p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-amber-400 text-xs">
+            <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
+            <span>Order loaded from your notification email link. To see all orders in the list, add <strong>UPSTASH_REDIS_REST_URL</strong> and <strong>UPSTASH_REDIS_REST_TOKEN</strong> to your Vercel environment variables.</span>
+          </div>
+        )}
 
         <div>
           <div className="text-lg font-extrabold text-white">Send Payment Details</div>

@@ -38,7 +38,7 @@ export async function POST(request: Request) {
               <div style="font-size:13px;color:#0f172a;font-weight:700;">Order Reference: ${ref}</div>
               <div style="font-size:12px;color:#475569;margin-top:4px;">Action: Log in to the admin portal and mark as Paid.</div>
             </div>
-            <a href="https://${CONTACT.email.split('@')[1]}/admin/orders/" style="display:inline-block;margin-top:16px;padding:10px 20px;background:#0284c7;color:#fff;text-decoration:none;font-weight:700;font-size:13px;border-radius:8px;">Open Admin Portal</a>
+            <a href="https://${SITE.domain}/admin/orders/" style="display:inline-block;margin-top:16px;padding:10px 20px;background:#0284c7;color:#fff;text-decoration:none;font-weight:700;font-size:13px;border-radius:8px;">Open Admin Portal</a>
           </div>
         </div>`,
       text: `Payment proof uploaded for order ${ref}. Screenshot attached.`,
