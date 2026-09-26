@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Star, Trophy } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Best Electric Bikes Australia 2026 — Expert Buyer\'s Guide | Sur-Ron, Talaria, NIU',
+  title: 'Best Electric Bikes in Australia 2026 — Expert Buyer\'s Guide',
   description: 'Australia\'s best electric bikes for 2026. Expert reviews of the Sur-Ron Light Bee X, Talaria Sting R, Stealth B-52 & more. Compare by use case, budget and skill level.',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/best-electric-bikes-australia/`,
@@ -132,14 +132,14 @@ export default function BestElectricBikesAustraliaPage() {
               if (!product) return null;
               return (
                 <div key={cat.slug} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs hover:shadow-lg transition-all group">
-                  <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                  <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                     <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                     <div className="absolute top-3 left-3">
                       <span className="flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] font-bold bg-yellow-500 text-slate-900 shadow">
                         <Trophy className="w-3 h-3" />{cat.award}
                       </span>
                     </div>
-                  </div>
+                  </Link>
                   <div className="p-5 space-y-3">
                     <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">{cat.title}</div>
                     <h3 className="font-bold text-sm text-slate-900 leading-snug group-hover:text-sky-600">
@@ -187,12 +187,12 @@ export default function BestElectricBikesAustraliaPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {topProducts.map((product) => (
               <div key={product.slug} className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group">
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                   <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute top-3 left-3">
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-white">{product.brand}</span>
                   </div>
-                </div>
+                </Link>
                 <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
                   <h3 className="text-xs font-bold text-slate-900 group-hover:text-sky-600 transition-colors leading-snug line-clamp-2">
                     <Link href={`/shop/${product.slug}/`}>{product.name}</Link>

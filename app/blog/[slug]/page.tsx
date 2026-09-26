@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
 
   return {
-    title: `${post.title} | Electric Dirt Bike Australia`,
+    title: post.title,
     description: post.excerpt,
     alternates: {
       canonical: `https://${SITE.domain}/blog/${post.slug}/`,

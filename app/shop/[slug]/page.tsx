@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!product) return {};
 
   return {
-    title: `${product.name} | Electric Dirt Bike Australia`,
+    title: product.name,
     description: (() => { const raw = `${product.shortDescription} AU stock, 12-month warranty.`; return raw.length > 155 ? raw.slice(0, 152) + '...' : raw; })(),
     alternates: {
       canonical: `https://${SITE.domain}/shop/${product.slug}/`,

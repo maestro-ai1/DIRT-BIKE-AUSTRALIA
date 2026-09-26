@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { POSTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -7,7 +7,7 @@ import { BlogCatalogClient } from './BlogCatalogClient';
 import { BookOpen } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike Guides, Tech Reviews & News Australia | Blog',
+  title: 'Dirt Bike Guides, Tech Reviews & Riding News | Blog',
   description: 'Expert technical guides, Sur-Ron vs Talaria comparisons, 72V battery upgrades, legal regulations, and maintenance advice from our Mittagong NSW workshop.',
   alternates: {
     canonical: `https://${SITE.domain}/blog/`,

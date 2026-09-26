@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { PRODUCTS, BRANDS, CATEGORIES, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -7,7 +7,7 @@ import { Zap, Filter, ArrowRight, ShieldCheck, Truck } from 'lucide-react';
 import { ShopCatalogClient } from './ShopCatalogClient';
 
 export const metadata: Metadata = {
-  title: 'Shop Electric Dirt Bikes & Accessories Australia',
+  title: 'Shop Electric Dirt Bikes & Accessories',
   description: 'Explore Australia’s premier collection of Sur-Ron, Talaria, Stark Varg electric dirt bikes, high-output lithium batteries, and fast chargers. Free freight over $1,500.',
   alternates: {
     canonical: `https://${SITE.domain}/shop/`,

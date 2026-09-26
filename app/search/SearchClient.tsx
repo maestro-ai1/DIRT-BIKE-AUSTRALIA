@@ -95,14 +95,14 @@ export function SearchClient({
                   key={p.slug}
                   className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all flex flex-col justify-between group"
                 >
-                  <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                  <Link href={`/shop/${p.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                     <img src={p.images[0]} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                     <div className="absolute top-3 left-3">
                       <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-orange-600 text-white">
                         {p.badge}
                       </span>
                     </div>
-                  </div>
+                  </Link>
 
                   <div className="p-4 flex-1 flex flex-col justify-between">
                     <div>

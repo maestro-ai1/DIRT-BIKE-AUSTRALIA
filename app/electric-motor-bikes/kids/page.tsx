@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -182,7 +182,7 @@ export default function KidsElectricMotorbikeePage() {
                 key={product.slug}
                 className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group"
               >
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                   <img
                     src={product.images[0]}
                     alt={product.name}
@@ -197,7 +197,7 @@ export default function KidsElectricMotorbikeePage() {
                       Save ${(product.compareAtPrice - product.price).toLocaleString()}
                     </div>
                   )}
-                </div>
+                </Link>
 
                 <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
                   <div>

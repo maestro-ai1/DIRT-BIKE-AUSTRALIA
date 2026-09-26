@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { SITE, CONTACT } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { RotateCcw, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Returns Policy | Electric Dirt Bike Australia',
+  title: 'Returns & Refunds Policy',
   description: 'Our Australian Consumer Law compliant returns and exchange policy for electric dirt bikes, batteries, and accessories.',
   alternates: {
     canonical: `https://${SITE.domain}/returns-policy/`,

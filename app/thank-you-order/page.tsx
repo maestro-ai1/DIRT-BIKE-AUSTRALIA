@@ -1,9 +1,9 @@
-import React, { Suspense } from 'react';
+﻿import React, { Suspense } from 'react';
 import { Metadata } from 'next';
 import { ThankYouOrderClient } from './ThankYouOrderClient';
 
 export const metadata: Metadata = {
-  title: 'Order Confirmed | Electric Dirt Bike Australia',
+  title: 'Order Confirmed',
   description: 'Your order has been received. Complete payment to confirm dispatch.',
   robots: { index: false, follow: true },
 };

@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, FileText, ArrowRight, CheckCircle, Gauge, Battery, Compass, Baby, Bike, MapPin, Star, BookOpen, Scale } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Top Electric Motor Bikes Australia | Road-Legal & Dual Sport Models',
+  title: 'Top Electric Motor Bikes in Australia | Road-Legal & Dual Sport',
   description: 'Explore the top electric motor bikes in Australia. Compare high-power dual-sport, street-scrambler, and enduro electric motorcycles with Australian warranty and free freight over $1,500.',
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/`,
@@ -202,7 +202,7 @@ export default function ElectricMotorBikesPage() {
                 className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group"
               >
                 {/* Image Frame */}
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                   <img
                     src={product.images[0]}
                     alt={product.name}
@@ -221,7 +221,7 @@ export default function ElectricMotorBikesPage() {
                       Save ${(product.compareAtPrice - product.price).toLocaleString()}
                     </div>
                   )}
-                </div>
+                </Link>
 
                 {/* Content */}
                 <div className="p-5 flex-1 flex flex-col justify-between space-y-4">

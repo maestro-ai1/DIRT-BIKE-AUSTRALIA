@@ -464,7 +464,7 @@ export const PRODUCTS: ProductItem[] = [
       "wheels": "21-inch front / 18-inch rear off-road knobby"
     },
     "images": [
-      "/images/product-talaria-sting-r-mx4.jpg"
+      "/images/product-electric-enduro-72v.webp"
     ],
     "inStock": true
   },
@@ -697,7 +697,7 @@ export const PRODUCTS: ProductItem[] = [
       "frame": "Full High-Modulus Carbon Fiber"
     },
     "images": [
-      "/images/product-stark-varg-mx.jpg"
+      "/images/product-electric-enduro-72v.webp"
     ],
     "inStock": true
   },
@@ -719,7 +719,7 @@ export const PRODUCTS: ProductItem[] = [
       "controls": "Parental App Bluetooth Limiter"
     },
     "images": [
-      "/images/product-ktm-sx-e-5.webp"
+      "/images/product-oset-20-0-junior.jpg"
     ],
     "inStock": true
   },
@@ -835,7 +835,7 @@ export const PRODUCTS: ProductItem[] = [
       "weight": "105 kg"
     },
     "images": [
-      "/images/product-stark-varg-mx.jpg"
+      "/images/product-sur-ron-storm-bee.webp"
     ],
     "inStock": true
   },
@@ -1013,7 +1013,7 @@ export const PRODUCTS: ProductItem[] = [
       "cables": "Heavy gauge silicone wire with genuine Anderson / Sur-Ron plug"
     },
     "images": [
-      "/images/product-fast-charger-10a.jpg"
+      "/images/product-dual-port-charger.webp"
     ],
     "inStock": true
   },
@@ -1057,7 +1057,7 @@ export const PRODUCTS: ProductItem[] = [
       "casing": "Anodised black extruded aluminium"
     },
     "images": [
-      "/images/product-fast-charger-5a.webp"
+      "/images/product-fast-charger-10a.jpg"
     ],
     "inStock": true
   },
@@ -1100,7 +1100,7 @@ export const PRODUCTS: ProductItem[] = [
       "connectorB": "QS8 Anti-Spark Gold Plated"
     },
     "images": [
-      "/images/product-bms.webp"
+      "/images/product-72v-controller.webp"
     ],
     "inStock": true
   },
@@ -1120,7 +1120,7 @@ export const PRODUCTS: ProductItem[] = [
       "sparkProtection": "Built-in sacrificial pre-charge resistor"
     },
     "images": [
-      "/images/product-bms.webp"
+      "/images/product-72v-controller.webp"
     ],
     "inStock": true
   },
@@ -1209,7 +1209,7 @@ export const PRODUCTS: ProductItem[] = [
       "weight": "4.2 kg"
     },
     "images": [
-      "/images/product-onboard-display.webp"
+      "/images/product-handlebar-kit.webp"
     ],
     "inStock": true
   },

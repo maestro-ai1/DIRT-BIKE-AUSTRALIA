@@ -1,9 +1,9 @@
-import { Suspense } from 'react';
+﻿import { Suspense } from 'react';
 import type { Metadata } from 'next';
 import { ConfirmClient } from './ConfirmClient';
 
 export const metadata: Metadata = {
-  title: 'Upload Payment Proof | Electric Dirt Bike Australia',
+  title: 'Upload Payment Proof',
   robots: { index: false, follow: false },
 };
 

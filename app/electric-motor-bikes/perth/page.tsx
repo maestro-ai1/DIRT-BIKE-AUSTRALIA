@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { PRODUCTS, SITE, CONTACT } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -144,12 +144,12 @@ export default function ElectricMotorBikesPerthPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {products.map((product) => (
               <div key={product.slug} className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group">
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                   <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute top-3 left-3">
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-white">{product.brand}</span>
                   </div>
-                </div>
+                </Link>
                 <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
                   <h3 className="text-xs font-bold text-slate-900 group-hover:text-sky-600 transition-colors leading-snug line-clamp-2">
                     <Link href={`/shop/${product.slug}/`}>{product.name}</Link>

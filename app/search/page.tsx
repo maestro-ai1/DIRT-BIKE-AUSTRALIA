@@ -1,11 +1,11 @@
-import React, { Suspense } from 'react';
+﻿import React, { Suspense } from 'react';
 import Link from 'next/link';
 import { SITE, PRODUCTS, POSTS } from '@/src/config/site';
 import { Metadata } from 'next';
 import { SearchClient } from './SearchClient';
 
 export const metadata: Metadata = {
-  title: 'Search Dirt Bikes, Batteries & Spares | Electric Dirt Bike Australia',
+  title: 'Search Electric Dirt Bikes & Accessories',
   description: 'Search our full inventory of Sur-Ron, Talaria, Stark Varg electric dirt bikes, batteries, chargers, and guides.',
   alternates: {
     canonical: `https://${SITE.domain}/search/`,

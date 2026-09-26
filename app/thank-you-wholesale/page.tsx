@@ -1,10 +1,10 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Wholesale Application Received | Electric Dirt Bike Australia',
+  title: 'Wholesale Application Received',
   robots: {
     index: false,
     follow: true,

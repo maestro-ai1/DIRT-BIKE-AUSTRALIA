@@ -1,10 +1,10 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { Metadata } from 'next';
 import { Compass, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Page Not Found | Electric Dirt Bike Australia',
+  title: 'Page Not Found',
   description: 'The requested page could not be found.',
   robots: {
     index: false,

@@ -8,7 +8,7 @@ import { Zap, ShieldCheck, Truck, ArrowRight, Award, BatteryCharging, Wrench, Ch
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike Australia | Brand New Electric Bike | Powerful Electric Dirt bikes',
+  title: { absolute: 'Electric Dirt Bike Australia | Brand New Electric Bike | Powerful Electric Dirt bikes' },
   description: 'Australia’s leading specialist for Sur-Ron, Talaria, Stark Varg electric dirt bikes, high-output 72V batteries, and fast chargers. Dispatched from NSW 2575.',
   alternates: {
     canonical: `https://${SITE.domain}/`,
@@ -215,7 +215,7 @@ export default function HomePage() {
                 className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col group"
               >
                 {/* Image Container with 4:3 Aspect Ratio and Badges */}
-                <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+                <Link href={`/shop/${product.slug}/`} className="block relative aspect-[4/3] bg-slate-100 overflow-hidden">
                   <img
                     src={product.images[0]}
                     alt={product.name}
@@ -235,7 +235,7 @@ export default function HomePage() {
                       Save ${(product.compareAtPrice - product.price).toLocaleString()}
                     </div>
                   )}
-                </div>
+                </Link>
 
                 {/* Details */}
                 <div className="p-5 flex-1 flex flex-col justify-between">
@@ -320,7 +320,7 @@ export default function HomePage() {
                 key={product.slug}
                 className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all flex flex-col group"
               >
-                <div className="relative aspect-[4/3] bg-slate-50 overflow-hidden">
+                <Link href={`/shop/${product.slug}/`} className="block relative aspect-[4/3] bg-slate-50 overflow-hidden">
                   <img
                     src={product.images[0]}
                     alt={product.name}
@@ -332,7 +332,7 @@ export default function HomePage() {
                       {product.badge}
                     </span>
                   </div>
-                </div>
+                </Link>
 
                 <div className="p-5 flex-1 flex flex-col justify-between">
                   <div>

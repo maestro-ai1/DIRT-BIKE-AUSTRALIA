@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { BatteryCharging, Zap, ShieldCheck, ArrowRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike Batteries & Fast Chargers Australia',
+  title: 'Batteries, Fast Chargers & Parts for Electric Dirt Bikes',
   description: 'High-discharge 72V Molicel battery packs, 15A smart fast chargers, and heavy-duty protection accessories for Sur-Ron and Talaria electric dirt bikes.',
   alternates: {
     canonical: `https://${SITE.domain}/accessories/`,
@@ -72,7 +72,7 @@ export default function AccessoriesPage() {
               className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group"
             >
               <div>
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                <Link href={`/shop/${p.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                   <img
                     src={p.images[0]}
                     alt={p.name}
@@ -83,7 +83,7 @@ export default function AccessoriesPage() {
                       {p.badge}
                     </span>
                   </div>
-                </div>
+                </Link>
 
                 <div className="p-5">
                   <h3 className="text-base font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-1 mb-2">

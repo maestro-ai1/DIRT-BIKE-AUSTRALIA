@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { SITE, SHOP, CONTACT } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Truck, ShieldCheck, Clock, MapPin, PackageCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Shipping & Delivery Australia | Electric Dirt Bike Australia',
+  title: 'Shipping & Delivery Across Australia',
   description: 'Learn about our Australia-wide insured freight, free delivery on orders over $1,500 AUD, tailgate delivery, and crate tracking from Mittagong NSW.',
   alternates: {
     canonical: `https://${SITE.domain}/shipping-and-delivery/`,

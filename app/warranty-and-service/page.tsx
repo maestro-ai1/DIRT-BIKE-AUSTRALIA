@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { SITE, CONTACT } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { ShieldCheck, Wrench, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Warranty & Service | Electric Dirt Bike Australia',
+  title: 'Warranty & After-Sales Service',
   description: '12-Month Australian Factory Warranty terms, replacement parts support, and workshop service guidelines for electric dirt bikes in NSW.',
   alternates: {
     canonical: `https://${SITE.domain}/warranty-and-service/`,

@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
-import { ShoppingBag, X, CheckCircle, Zap } from 'lucide-react';
+import { X, CheckCircle, Zap } from 'lucide-react';
 import Link from 'next/link';
 
 interface SaleNotification {

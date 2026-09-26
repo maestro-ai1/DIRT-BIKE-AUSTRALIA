@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -115,13 +115,13 @@ export default function RtrEbikePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {rtrProducts.map((product) => (
               <div key={product.slug} className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group">
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
+                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
                   <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
                   <div className="absolute top-3 left-3 flex flex-col gap-1">
                     <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-white">{product.brand}</span>
                     <span className="px-2.5 py-0.5 rounded-md text-[10px] font-bold bg-sky-600 text-white">{product.badge}</span>
                   </div>
-                </div>
+                </Link>
                 <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
                   <div>
                     <h3 className="text-base font-bold text-slate-900 group-hover:text-sky-600 transition-colors leading-snug mb-1.5">
@@ -162,9 +162,9 @@ export default function RtrEbikePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
               {relatedProducts.map((product) => (
                 <div key={product.slug} className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-md transition-all group">
-                  <div className="aspect-4/3 bg-slate-100 overflow-hidden">
+                  <Link href={`/shop/${product.slug}/`} className="block aspect-4/3 bg-slate-100 overflow-hidden">
                     <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                  </div>
+                  </Link>
                   <div className="p-4 space-y-2">
                     <h3 className="text-xs font-bold text-slate-900 line-clamp-2 group-hover:text-sky-600"><Link href={`/shop/${product.slug}/`}>{product.name}</Link></h3>
                     <div className="text-sm font-mono font-extrabold text-slate-900">${product.price.toLocaleString()} AUD</div>

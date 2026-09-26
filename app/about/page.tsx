@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { MapPin, ShieldCheck, Wrench, Truck, Award, CheckCircle, Navigation, Phone, Mail } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'About Electric Dirt Bike Australia | Mittagong NSW 2575 Headquarters',
+  title: 'About Us | Mittagong NSW 2575 Headquarters',
   description: 'Learn about Electric Dirt Bike Australia, our dedicated Southern Highlands NSW 2575 prep facility, genuine Australian stock, and our commitment to riders.',
   alternates: {
     canonical: `https://${SITE.domain}/about/`,

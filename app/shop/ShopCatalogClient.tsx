@@ -237,7 +237,7 @@ export function ShopCatalogClient({
               >
                 <div>
                   {/* 4:3 Image Container */}
-                  <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">
+                  <Link href={`/shop/${p.slug}/`} className="block relative aspect-[4/3] bg-slate-100 overflow-hidden">
                     <img
                       src={p.images[0]}
                       alt={p.name}
@@ -257,7 +257,7 @@ export function ShopCatalogClient({
                         Save ${(p.compareAtPrice - p.price).toLocaleString()}
                       </div>
                     )}
-                  </div>
+                  </Link>
 
                   {/* Info */}
                   <div className="p-4">

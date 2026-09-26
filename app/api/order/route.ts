@@ -54,7 +54,7 @@ export async function POST(request: Request) {
       const methodLabel =
         paymentMethod === 'crypto'        ? 'Crypto (BTC / USDT / ETH)' :
         paymentMethod === 'payid'         ? 'PayID (Instant Bank Rail)'  :
-        paymentMethod === 'bank-transfer' ? 'Bank Transfer (EFT)'        :
+        paymentMethod === 'bank-transfer' ? 'Bank Transfer (EFT/OSKO)'   :
         paymentMethod;
 
       const waText = encodeURIComponent(

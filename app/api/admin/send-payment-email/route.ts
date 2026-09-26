@@ -45,7 +45,7 @@ export async function POST(request: Request) {
     // Payment method label
     const methodLabels: Record<string, string> = {
       payid: 'PayID (Instant)',
-      'bank-transfer': 'Bank Transfer (EFT)',
+      'bank-transfer': 'Bank Transfer (EFT/OSKO)',
       crypto: 'Crypto (BTC / USDT / ETH)',
     };
     const methodLabel = methodLabels[paymentMethod] || paymentMethod;

@@ -12,6 +12,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/blog/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
     { url: `${BASE}/about/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/contact/`, lastModified: now, changeFrequency: 'monthly', priority: 0.6 },
+    { url: `${BASE}/brands/`, lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/faq/`, lastModified: now, changeFrequency: 'monthly', priority: 0.65 },
+    { url: `${BASE}/shipping-and-delivery/`, lastModified: now, changeFrequency: 'monthly', priority: 0.55 },
+    { url: `${BASE}/returns-policy/`, lastModified: now, changeFrequency: 'monthly', priority: 0.55 },
+    { url: `${BASE}/warranty-and-service/`, lastModified: now, changeFrequency: 'monthly', priority: 0.55 },
     // Category pages
     { url: `${BASE}/electric-dirt-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
     { url: `${BASE}/electric-motor-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },

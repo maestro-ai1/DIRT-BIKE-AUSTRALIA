@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { FAQ, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { HelpCircle, ChevronRight } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Frequently Asked Questions | Electric Dirt Bike Australia',
+  title: 'Frequently Asked Questions',
   description: 'Everything you need to know about off-road electric dirt bikes in Australia, legality, 10% crypto discount, shipping logistics, and warranty.',
   alternates: {
     canonical: `https://${SITE.domain}/faq/`,

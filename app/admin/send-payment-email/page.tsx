@@ -30,7 +30,7 @@ const TEMPLATES: Record<string, (ref: string, amount: string) => string> = {
 
 const METHOD_LABEL: Record<string, string> = {
   payid: 'PayID (Instant)',
-  'bank-transfer': 'Bank Transfer (EFT)',
+  'bank-transfer': 'Bank Transfer (EFT/OSKO)',
   crypto: 'Crypto (BTC / USDT / ETH)',
 };
 
@@ -44,6 +44,7 @@ function Composer() {
   const [paymentMethod, setPaymentMethod] = useState('payid');
   const [instructions, setInstructions] = useState('');
   const [notes, setNotes] = useState('');
+  const [recipientEmail, setRecipientEmail] = useState('');
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
 
@@ -57,6 +58,7 @@ function Composer() {
           const data = await res.json();
           const o = data.order as StoredOrder;
           setOrder(o);
+          setRecipientEmail(o.email);
           const method = o.paymentMethod || 'payid';
           setPaymentMethod(method);
           const amt = `$${o.total.toLocaleString()} AUD`;
@@ -117,7 +119,7 @@ function Composer() {
         headers: { ...getAuthHeaders(), 'Content-Type': 'application/json' },
         body: JSON.stringify({
           orderRef: order.ref,
-          customerEmail: order.email,
+          customerEmail: recipientEmail || order.email,
           customerName: order.customerName,
           amount,
           paymentMethod,
@@ -171,8 +173,11 @@ function Composer() {
           <div className="grid grid-cols-2 gap-3">
             <div>
               <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1">Customer Email</label>
-              <input readOnly value={order.email}
-                className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-xs text-gray-400 cursor-default truncate" />
+              <input
+                type="email"
+                value={recipientEmail}
+                onChange={(e) => setRecipientEmail(e.target.value)}
+                className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-xs text-gray-300 focus:border-sky-500 focus:outline-none truncate" />
             </div>
             <div>
               <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1">Customer Phone</label>
@@ -195,7 +200,7 @@ function Composer() {
               className="w-full px-3 py-2.5 bg-[#1a1a1a] border border-white/15 rounded-lg text-sm text-white focus:outline-none focus:border-sky-500"
             >
               <option value="payid">PayID (Instant Bank Rail)</option>
-              <option value="bank-transfer">Bank Transfer (EFT)</option>
+              <option value="bank-transfer">Bank Transfer (EFT/OSKO)</option>
               <option value="crypto">Crypto (BTC / USDT / ETH)</option>
             </select>
           </div>
@@ -339,7 +344,7 @@ function Composer() {
         {sent ? (
           <div className="flex items-center gap-3 p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl text-emerald-400 text-sm font-bold">
             <CheckCircle className="w-5 h-5 shrink-0" />
-            Email sent to {order.email}
+            Email sent to {recipientEmail || order.email}
           </div>
         ) : (
           <button
@@ -349,7 +354,7 @@ function Composer() {
             className="w-full py-4 bg-sky-600 hover:bg-sky-500 disabled:opacity-40 text-white font-extrabold text-sm rounded-2xl flex items-center justify-center gap-2 transition-colors shadow-lg shadow-sky-600/20"
           >
             <Send className="w-4 h-4" />
-            {sending ? 'Sending…' : `SEND TO ${order.email.toUpperCase()}`}
+            {sending ? 'Sending…' : `SEND TO ${(recipientEmail || order.email).toUpperCase()}`}
           </button>
         )}
 

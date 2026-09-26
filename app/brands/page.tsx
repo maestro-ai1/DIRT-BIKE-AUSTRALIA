@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Link from 'next/link';
 import { BRANDS, SITE, PRODUCTS } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ArrowRight, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike Brands Australia | Sur-Ron, Talaria, Stark Varg',
+  title: 'Dirt Bike Brands in Australia | Sur-Ron, Talaria, Stark Varg',
   description: 'Explore leading electric dirt bike brands available in Australia: Sur-Ron, Talaria, Stark Varg, RFN, Segway, and Super73. Factory warranty and NSW support.',
   alternates: {
     canonical: `https://${SITE.domain}/brands/`,
