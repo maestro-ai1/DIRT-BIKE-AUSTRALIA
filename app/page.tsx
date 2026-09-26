@@ -9,7 +9,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: { absolute: 'Buy Electric Dirt Bikes Australia | Sur-Ron, Talaria & Stark Varg' },
-  description: 'Buy electric dirt bikes in Australia. Sur-Ron Light Bee X, Talaria Sting R, Stark Varg & more — genuine AU stock, 12-month warranty, 10% crypto discount, free shipping over $1,500. Dispatched from Mittagong NSW 2575.',
+  description: 'Buy electric dirt bikes in Australia — Sur-Ron, Talaria & Stark Varg. Genuine AU stock, 12-month warranty, 10% crypto discount, free delivery over $1,500 from NSW.',
   keywords: 'electric dirt bike australia, buy electric dirt bike, electric dirt bikes for sale, sur ron australia, talaria sting, stark varg australia, off road electric bike, electric enduro bike',
   alternates: {
     canonical: `https://${SITE.domain}/`,
@@ -21,6 +21,20 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'website',
+    images: [
+      {
+        url: `https://${SITE.domain}/images/theme_dirtbike_cover.jpg`,
+        width: 1200,
+        height: 630,
+        alt: 'Electric Dirt Bike Australia — Sur-Ron, Talaria & Stark Varg',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Electric Dirt Bike Australia — Buy Sur-Ron, Talaria & Stark Varg',
+    description: 'Buy electric dirt bikes in Australia — Sur-Ron, Talaria & Stark Varg. Genuine AU stock, 12-month warranty, free delivery.',
+    images: [`https://${SITE.domain}/images/theme_dirtbike_cover.jpg`],
   },
   other: {
     'og:updated_time': new Date().toISOString(),
