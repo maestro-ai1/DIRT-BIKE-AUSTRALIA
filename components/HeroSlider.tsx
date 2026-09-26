@@ -113,7 +113,7 @@ export function HeroSlider() {
           <div className="flex flex-wrap items-center gap-4">
             <Link
               href={slide.ctaLink}
-              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-sky-500 hover:bg-sky-400 text-white font-bold text-sm tracking-wide shadow-lg shadow-sky-500/30 hover:shadow-sky-400/40 transition-all active:scale-95"
+              className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-sky-700 hover:bg-sky-600 text-white font-bold text-sm tracking-wide shadow-lg shadow-sky-700/40 hover:shadow-sky-600/40 transition-all active:scale-95"
             >
               <span>{slide.ctaText}</span>
               <ArrowRight className="w-4 h-4" />

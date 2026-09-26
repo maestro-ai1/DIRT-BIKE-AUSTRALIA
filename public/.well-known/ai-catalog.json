@@ -38,7 +38,7 @@
       "displayName": "WebMCP Server",
       "description": "MCP server exposing product catalogue, pricing, and enquiry capabilities for AI agents.",
       "type": "application/json",
-      "url": "https://electricdirtbikeaustralia.com.au/.well-known/mcp.json",
+      "url": "https://electricdirtbikeaustralia.com.au/.well-known/mcp/server-card.json",
       "representativeQueries": [
         "What MCP tools does Electric Dirt Bike Australia expose?",
         "Can I query EDBA product data via MCP?"
@@ -47,8 +47,8 @@
     {
       "id": "urn:air:electricdirtbikeaustralia.com.au:openapi:catalog",
       "displayName": "API Catalog",
-      "description": "OpenAPI specification for the Electric Dirt Bike Australia product and enquiry API.",
-      "type": "application/json",
+      "description": "Link catalog of Electric Dirt Bike Australia product and enquiry API endpoints.",
+      "type": "application/linkset+json",
       "url": "https://electricdirtbikeaustralia.com.au/.well-known/api-catalog",
       "representativeQueries": [
         "What API endpoints does EDBA expose?",

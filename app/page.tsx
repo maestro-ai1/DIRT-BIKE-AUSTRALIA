@@ -152,7 +152,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
-              <div className="text-xs font-bold uppercase tracking-wider text-sky-600 mb-1">
+              <div className="text-xs font-bold uppercase tracking-wider text-sky-700 mb-1">
                 Australia\'s Most Purchased
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
@@ -161,7 +161,7 @@ export default function HomePage() {
             </div>
             <Link
               href="/brands/"
-              className="text-xs font-bold text-sky-600 hover:text-sky-800 flex items-center gap-1 group"
+              className="text-xs font-bold text-sky-700 hover:text-sky-800 flex items-center gap-1 group"
             >
               <span>Explore All Brands</span>
               <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
@@ -196,7 +196,7 @@ export default function HomePage() {
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-sky-600">
+              <span className="text-xs font-bold uppercase tracking-wider text-sky-700">
                 High-Performance Lineup
               </span>
               <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
@@ -493,7 +493,7 @@ export default function HomePage() {
       <section className="py-14 bg-white" id="faq">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
-            <span className="text-xs font-bold uppercase tracking-wider text-sky-600">
+            <span className="text-xs font-bold uppercase tracking-wider text-sky-700">
               Clear Answers
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
@@ -522,7 +522,7 @@ export default function HomePage() {
 
           <div className="mt-8 text-center text-xs text-slate-500">
             Have a question not listed here?{' '}
-            <Link href="/contact/" className="text-sky-600 font-bold hover:underline">
+            <Link href="/contact/" className="text-sky-700 font-bold hover:underline">
               Contact our Mittagong sales &amp; service team
             </Link>
           </div>
