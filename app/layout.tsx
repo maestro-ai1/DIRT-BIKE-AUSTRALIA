@@ -78,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             alt="Electric dirt bike Australia — off-road trail riding background"
             width={1920}
             height={1080}
-            loading="lazy"
+            loading="eager"
             decoding="async"
             className="w-full h-full object-cover object-center opacity-[0.15] sm:opacity-[0.18] scale-105 transition-opacity"
           />
