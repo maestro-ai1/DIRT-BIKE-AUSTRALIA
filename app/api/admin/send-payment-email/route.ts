@@ -19,21 +19,36 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing payment dispatch parameters' }, { status: 400 });
     }
 
+    const waConfirmText = encodeURIComponent(
+      `Hi! I have completed payment for order ${orderRef}. Amount: ${amount}. Please confirm receipt. Thank you!`
+    );
+
     const emailHtml = buildEmailHtml({
       title: `Payment Instructions for Order ${orderRef}`,
       preheader: `Please complete payment for ${orderRef} to secure your vehicle allocation.`,
       refBadge: orderRef,
-      intro: `Hi ${customerName}, thank you for your order with ${SITE.name}. Please follow the instructions below to complete your payment.`,
+      intro: `Hi ${customerName}, thank you for your order with ${SITE.name}. Please follow the payment instructions below to confirm your order.`,
       rows: [
         { label: 'Order Reference', value: orderRef, mono: true },
         { label: 'Amount Due', value: amount, highlight: true, mono: true },
-        { label: 'Selected Payment Method', value: paymentMethod },
-        { label: 'Payment Account & Transfer Details', value: details, block: true, mono: true },
+        { label: 'Payment Method', value: paymentMethod },
+        { label: 'Payment Details', value: details, block: true, mono: true },
       ],
-      afterRows: paymentTermsHtml(orderRef, paymentMethod),
+      afterRows: paymentTermsHtml(orderRef, paymentMethod) + `
+      <div style="margin-top:16px;padding:14px;background:#f0f9ff;border-radius:8px;border:1px solid #bae6fd;">
+        <div style="font-weight:700;color:#0f172a;font-size:13px;margin-bottom:6px;">Once paid — send us your payment screenshot:</div>
+        <div style="font-size:13px;color:#334155;">
+          📧 Email: <a href="mailto:sales@electricdirtbikeaustralia.com.au" style="color:#0284c7;font-weight:600;">sales&#64;electricdirtbikeaustralia.com.au</a><br>
+          💬 WhatsApp: <strong>+61 420 128 746</strong>
+        </div>
+      </div>`,
+      cta: {
+        label: 'Upload Payment Proof →',
+        url: `https://${SITE.domain}/confirm/?ref=${encodeURIComponent(orderRef)}`,
+      },
       secondaryCta: {
-        label: 'Contact Support via WhatsApp',
-        url: `https://${SITE.domain}/contact/`,
+        label: 'Confirm via WhatsApp',
+        url: `https://wa.me/61420128746?text=${waConfirmText}`,
       },
     });
 

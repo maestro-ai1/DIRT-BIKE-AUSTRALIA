@@ -5,6 +5,7 @@ import { X, Trash2, Plus, Minus, ArrowRight, ShieldCheck, Truck, Zap, MessageSqu
 import { useCart } from '@/lib/cartContext';
 import { SITE, SHOP, REPLY, CONTACT } from '@/src/config/site';
 import { waOrderLink } from '@/lib/whatsapp';
+import { generateOrderRef } from '@/lib/order';
 import { useRouter } from 'next/navigation';
 
 export function CartDrawer() {
@@ -45,8 +46,8 @@ export function CartDrawer() {
     e.preventDefault();
     if (!name.trim() || items.length === 0) return;
 
-    const orderRef = `EDBA-${Math.floor(10000 + Math.random() * 89999)}`;
-    
+    const orderRef = generateOrderRef();
+
     // WebForge Rule: window.open() MUST be called synchronously before await to avoid popup blockers
     const waUrl = waOrderLink({
       ref: orderRef,
@@ -89,7 +90,7 @@ export function CartDrawer() {
 
     clearCart();
     setIsCartOpen(false);
-    router.push(`/thank-you-order/?ref=${orderRef}`);
+    router.push(`/thank-you-order/?ref=${orderRef}&method=${paymentMethod}&total=${currentTotal}`);
   };
 
   // Handle Direct Order Form Submit
@@ -98,7 +99,7 @@ export function CartDrawer() {
     if (!name.trim() || !email.trim() || items.length === 0) return;
 
     setIsSubmitting(true);
-    const orderRef = `EDBA-${Math.floor(10000 + Math.random() * 89999)}`;
+    const orderRef = generateOrderRef();
 
     try {
       const res = await fetch('/api/order/', {
@@ -125,7 +126,7 @@ export function CartDrawer() {
       if (res.ok) {
         clearCart();
         setIsCartOpen(false);
-        router.push(`/thank-you-order/?ref=${orderRef}&email=${encodeURIComponent(email)}&method=${paymentMethod}`);
+        router.push(`/thank-you-order/?ref=${orderRef}&email=${encodeURIComponent(email)}&method=${paymentMethod}&total=${currentTotal}`);
       }
     } catch {
       // fallback
@@ -470,7 +471,7 @@ export function CartDrawer() {
             <button
               type="button"
               onClick={() => {
-                const ref = `EDBA-${Math.floor(10000 + Math.random() * 89999)}`;
+                const ref = generateOrderRef();
                 const url = waOrderLink({
                   ref,
                   items: items.map((i) => ({ name: i.name, qty: i.qty, price: i.price })),

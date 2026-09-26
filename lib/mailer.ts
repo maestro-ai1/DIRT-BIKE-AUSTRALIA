@@ -39,6 +39,7 @@ export async function sendMail(opts: {
   html: string;
   text: string;
   replyTo?: string;
+  attachments?: Array<{ filename: string; content: Buffer; contentType: string }>;
 }): Promise<{ sent: true } | { sent: false; reason: 'not-configured' | 'error'; error?: string }> {
   const mailClient = getTransporter();
 
@@ -57,6 +58,11 @@ export async function sendMail(opts: {
       html: opts.html,
       text: opts.text,
       replyTo: opts.replyTo,
+      attachments: opts.attachments?.map((a) => ({
+        filename: a.filename,
+        content: a.content,
+        contentType: a.contentType,
+      })),
     });
     return { sent: true };
   } catch (err: unknown) {

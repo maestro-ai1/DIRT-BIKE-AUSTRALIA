@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { saveOrder } from '@/lib/orderStore';
 import { sendMail } from '@/lib/mailer';
 import { buildEmailHtml } from '@/lib/emailTemplate';
+import { generateOrderRef } from '@/lib/order';
 import { CONTACT, SITE, REPLY } from '@/src/config/site';
 
 export async function POST(request: Request) {
@@ -28,7 +29,7 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing required order details' }, { status: 400 });
     }
 
-    const orderRef = ref || `EDBA-${Math.floor(10000 + Math.random() * 89999)}`;
+    const orderRef = ref || generateOrderRef();
 
     const stored = await saveOrder({
       ref: orderRef,

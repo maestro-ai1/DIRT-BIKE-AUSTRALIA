@@ -1,5 +1,14 @@
-// lib/order.ts — Payment methods and terms logic (Single source of truth)
+// lib/order.ts — Payment methods, terms, and order ref logic
 import { REPLY, SITE } from '@/src/config/site';
+
+// Short alphanumeric order reference: XX9999 (2 letters + 4 digits)
+export function generateOrderRef(): string {
+  const alpha = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
+  const l1 = alpha[Math.floor(Math.random() * alpha.length)];
+  const l2 = alpha[Math.floor(Math.random() * alpha.length)];
+  const digits = String(Math.floor(1000 + Math.random() * 9000));
+  return `${l1}${l2}${digits}`;
+}
 
 export interface PaymentMethodConfig {
   id: string;

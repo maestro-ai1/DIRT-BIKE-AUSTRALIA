@@ -1,24 +1,18 @@
 import React, { Suspense } from 'react';
-import Link from 'next/link';
 import { Metadata } from 'next';
-import { SITE, CONTACT } from '@/src/config/site';
-import { CheckCircle, Mail, ArrowRight, ShieldCheck } from 'lucide-react';
 import { ThankYouOrderClient } from './ThankYouOrderClient';
 
 export const metadata: Metadata = {
-  title: 'Order Received | Electric Dirt Bike Australia',
-  description: 'Thank you for your order. Watch your inbox for payment details.',
-  robots: {
-    index: false,
-    follow: true,
-  },
+  title: 'Order Confirmed | Electric Dirt Bike Australia',
+  description: 'Your order has been received. Complete payment to confirm dispatch.',
+  robots: { index: false, follow: true },
 };
 
 export default function ThankYouOrderPage() {
   return (
-    <div className="py-16 bg-slate-50 min-h-[75vh] flex items-center justify-center">
-      <div className="max-w-xl mx-auto px-4 w-full">
-        <Suspense fallback={<div className="p-8 text-center text-slate-500">Loading order status...</div>}>
+    <div className="py-12 bg-slate-100 min-h-screen px-4">
+      <div className="max-w-2xl mx-auto w-full">
+        <Suspense fallback={<div className="p-8 text-center text-slate-500 text-sm">Loading…</div>}>
           <ThankYouOrderClient />
         </Suspense>
       </div>

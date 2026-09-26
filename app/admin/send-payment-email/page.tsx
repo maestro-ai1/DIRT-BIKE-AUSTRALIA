@@ -1,20 +1,19 @@
 'use client';
 
 import React, { useState, useEffect, Suspense } from 'react';
-import { useSearchParams, useRouter } from 'next/navigation';
+import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { PasscodeGate } from '@/components/admin/PasscodeGate';
 import { useAdminPasscode } from '@/lib/useAdminPasscode';
 import { StoredOrder } from '@/lib/orderStore';
-import { WhatsAppSendPanel } from '@/components/admin/WhatsAppSendPanel';
-import { Send, ArrowLeft, CheckCircle, RefreshCw, MessageSquare } from 'lucide-react';
-import { paymentMethodParts, paymentTermsLines, instructionsParts } from '@/lib/order';
-import { waPaymentDetailsMessage } from '@/lib/whatsapp';
+import { Send, ArrowLeft, CheckCircle, MessageSquare, Copy, Check } from 'lucide-react';
+import { paymentTermsLines } from '@/lib/order';
+import { REPLY, SITE } from '@/src/config/site';
 
 export default function SendPaymentEmailPage() {
   return (
     <PasscodeGate>
-      <Suspense fallback={<div className="p-8 text-center text-slate-500">Loading composer...</div>}>
+      <Suspense fallback={<div className="p-8 text-center text-slate-500 text-sm">Loading…</div>}>
         <Composer />
       </Suspense>
     </PasscodeGate>
@@ -22,280 +21,227 @@ export default function SendPaymentEmailPage() {
 }
 
 function Composer() {
-  const router = useRouter();
   const searchParams = useSearchParams();
   const refParam = searchParams.get('ref') || '';
   const { getAuthHeaders } = useAdminPasscode();
 
   const [order, setOrder] = useState<StoredOrder | null>(null);
   const [loading, setLoading] = useState(true);
-  const [mode, setMode] = useState<'template' | 'paste'>('template');
-  const [pastedDetails, setPastedDetails] = useState('');
+  const [details, setDetails] = useState('');
   const [sending, setSending] = useState(false);
-  const [sentSuccess, setSentSuccess] = useState(false);
+  const [sent, setSent] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (!refParam) return;
-    const fetchOrder = async () => {
+    const load = async () => {
       setLoading(true);
       try {
-        const res = await fetch(`/api/admin/orders/${refParam}/`, {
-          headers: getAuthHeaders(),
-        });
+        const res = await fetch(`/api/admin/orders/${refParam}/`, { headers: getAuthHeaders() });
         if (res.ok) {
           const data = await res.json();
-          setOrder(data.order);
-          // Set initial template details
-          const method = data.order?.paymentMethod || 'crypto';
-          if (method === 'crypto') {
-            setPastedDetails('BTC Address: bc1q8w4edba98611685977australia99182\nUSDT (TRC20): TEdba98611685977AusDirtBikeMotto118\nNetwork Confirmation: 1 block required for dispatch queue.');
-          } else if (method === 'payid') {
-            setPastedDetails('PayID: sales@electricdirtbikeaustralia.com.au\nAccount Name: Electric Dirt Bike Australia Pty Ltd\nBank: Commonwealth Bank of Australia (CBA)');
+          const o = data.order as StoredOrder;
+          setOrder(o);
+          // Pre-fill based on payment method
+          if (o.paymentMethod === 'crypto') {
+            setDetails('BTC: [paste wallet address here]\nUSDT (TRC20): [paste address here]\nReference: ' + o.ref);
+          } else if (o.paymentMethod === 'payid') {
+            setDetails('PayID: sales@electricdirtbikeaustralia.com.au\nAccount Name: Electric Dirt Bike Australia Pty Ltd\nBank: Commonwealth Bank');
           } else {
-            setPastedDetails('BSB: 062-815\nAccount Number: 1048 2914\nAccount Name: Electric Dirt Bike Australia Pty Ltd\nReference: ' + data.order.ref);
+            setDetails('BSB: 062-815\nAccount: 1048 2914\nAccount Name: Electric Dirt Bike Australia Pty Ltd\nReference: ' + o.ref);
           }
         }
-      } catch {
-        // ignore
-      } finally {
-        setLoading(false);
-      }
+      } catch { /* ignore */ }
+      finally { setLoading(false); }
     };
-    fetchOrder();
+    load();
   }, [refParam]);
 
-  if (!refParam) {
-    return (
-      <div className="p-12 text-center text-slate-500">
-        Please select an order from the dashboard to send payment instructions.
-      </div>
-    );
-  }
+  if (!refParam) return <div className="p-12 text-center text-slate-400 text-sm">Select an order from the orders list.</div>;
+  if (loading) return <div className="p-12 text-center text-slate-400 text-sm">Loading order…</div>;
+  if (!order) return <div className="p-12 text-center text-slate-400 text-sm">Order not found: {refParam}</div>;
 
-  if (loading) {
-    return <div className="p-12 text-center text-slate-500">Loading order details...</div>;
-  }
+  const amount = `$${order.total.toLocaleString()} AUD`;
+  const terms = paymentTermsLines(order.ref, order.paymentMethod);
 
-  if (!order) {
-    return (
-      <div className="p-12 text-center text-slate-500">
-        Order not found: {refParam}
-      </div>
-    );
-  }
+  const waMessage = encodeURIComponent(
+    `*${SITE.name}*\n*Payment Details — Order ${order.ref}*\n\nHi ${order.customerName},\n\n*Amount Due:* ${amount}\n*Payment Method:* ${order.paymentMethod.toUpperCase()}\n\n*Details:*\n${details}\n\n*Terms:*\n• Payment within 48hrs to secure your order\n• Use ${order.ref} as your reference\n• Ships within 2 business days\n\nOnce paid, send us a screenshot here or email sales@electricdirtbikeaustralia.com.au`
+  );
+  const waLink = `https://wa.me/${order.phone.replace(/\D/g, '').replace(/^0/, '61') || '61420128746'}?text=${waMessage}`;
 
-  const parts = paymentMethodParts(order.paymentMethod, `$${order.total.toLocaleString()} AUD`, order.ref);
-  const fullInstructions = instructionsParts(parts.opening, pastedDetails, parts.closing);
-  const waText = waPaymentDetailsMessage(order.ref, order.customerName, `$${order.total.toLocaleString()} AUD`, parts.label, pastedDetails);
-
-  const handleSendEmail = async () => {
+  const handleSend = async () => {
     setSending(true);
     try {
       const res = await fetch('/api/admin/send-payment-email/', {
         method: 'POST',
-        headers: getAuthHeaders(),
+        headers: { ...getAuthHeaders(), 'Content-Type': 'application/json' },
         body: JSON.stringify({
           orderRef: order.ref,
           customerEmail: order.email,
           customerName: order.customerName,
-          amount: `$${order.total.toLocaleString()} AUD`,
-          paymentMethod: parts.label,
-          details: pastedDetails,
+          amount,
+          paymentMethod: order.paymentMethod,
+          details,
         }),
       });
+      if (res.ok) setSent(true);
+    } catch { /* ignore */ }
+    finally { setSending(false); }
+  };
 
-      if (res.ok) {
-        setSentSuccess(true);
-      }
-    } catch {
-      // ignore
-    } finally {
-      setSending(false);
-    }
+  const copyWa = () => {
+    const raw = decodeURIComponent(waMessage);
+    navigator.clipboard.writeText(raw).catch(() => {});
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
   };
 
   return (
-    <div className="py-10 bg-slate-100 min-h-screen">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
-        
+    <div className="min-h-screen bg-slate-100 py-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-5">
+
         {/* Header */}
         <div className="flex items-center justify-between">
-          <Link
-            href="/admin/orders/"
-            className="inline-flex items-center gap-2 text-xs font-bold text-slate-600 hover:text-slate-900"
-          >
+          <Link href="/admin/orders/" className="flex items-center gap-1.5 text-xs font-bold text-slate-500 hover:text-slate-900">
             <ArrowLeft className="w-4 h-4" />
-            <span>Back to Orders List</span>
+            Back to Orders
           </Link>
-
-          <span className="font-mono text-xs font-bold bg-white px-3 py-1 rounded-md border border-slate-200">
-            Order: {order.ref}
+          <span className="font-mono text-xs font-bold bg-white px-3 py-1 rounded-lg border border-slate-200">
+            {order.ref}
           </span>
         </div>
 
-        {/* 2-Column Composer */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          
-          {/* Left: Input Editor (Span 6) */}
-          <div className="lg:col-span-6 space-y-6">
-            <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-xs space-y-4">
-              <div className="flex items-center justify-between border-b pb-3">
-                <h2 className="font-extrabold text-slate-900 text-base">
-                  Payment Details Composer
-                </h2>
-                <div className="flex items-center gap-1 bg-slate-100 p-1 rounded-lg text-xs font-semibold">
-                  <button
-                    type="button"
-                    onClick={() => setMode('template')}
-                    className={`px-3 py-1 rounded-md ${
-                      mode === 'template' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
-                    }`}
-                  >
-                    Template
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setMode('paste')}
-                    className={`px-3 py-1 rounded-md ${
-                      mode === 'paste' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
-                    }`}
-                  >
-                    Paste Raw
-                  </button>
-                </div>
-              </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
 
-              {/* Order Meta Info */}
-              <div className="grid grid-cols-2 gap-3 text-xs bg-slate-50 p-3 rounded-xl border border-slate-200/80">
-                <div>
-                  <span className="text-slate-400 block font-semibold">Customer:</span>
-                  <span className="font-bold text-slate-900">{order.customerName}</span>
-                </div>
-                <div>
-                  <span className="text-slate-400 block font-semibold">Email:</span>
-                  <span className="font-bold text-slate-900">{order.email}</span>
-                </div>
-                <div>
-                  <span className="text-slate-400 block font-semibold">Total Due:</span>
-                  <span className="font-bold text-sky-600 font-mono">${order.total.toLocaleString()} AUD</span>
-                </div>
-                <div>
-                  <span className="text-slate-400 block font-semibold">Selected Rail:</span>
-                  <span className="font-bold text-slate-900 capitalize">{order.paymentMethod}</span>
-                </div>
-              </div>
-
-              {/* Editable Payment Details Box */}
+          {/* LEFT — Input */}
+          <div className="space-y-4">
+            {/* Order summary strip */}
+            <div className="bg-white rounded-2xl border border-slate-200 p-4 flex items-center justify-between">
               <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
-                  Payment Details / Wallet / BSB &amp; Account
-                </label>
-                <textarea
-                  rows={5}
-                  value={pastedDetails}
-                  onChange={(e) => setPastedDetails(e.target.value)}
-                  className="w-full px-3.5 py-2.5 bg-slate-50 border border-slate-300 rounded-xl font-mono text-xs focus:ring-2 focus:ring-sky-500 focus:outline-none"
-                  placeholder="Paste bank transfer account details or crypto address..."
-                />
+                <div className="font-extrabold text-slate-900">{order.customerName}</div>
+                <div className="text-xs text-slate-500">{order.email}</div>
               </div>
+              <div className="text-right">
+                <div className="font-mono font-extrabold text-sky-600 text-lg">{amount}</div>
+                <div className="text-[11px] text-slate-400 capitalize">{order.paymentMethod}</div>
+              </div>
+            </div>
 
-              {sentSuccess ? (
-                <div className="p-4 bg-emerald-50 border border-emerald-200 rounded-xl flex items-center gap-3 text-emerald-800 text-xs font-semibold">
-                  <CheckCircle className="w-5 h-5 text-emerald-600 shrink-0" />
-                  <span>Branded Light Email successfully dispatched to {order.email}! Order status set to Payment-Sent.</span>
+            {/* Paste Box */}
+            <div className="bg-white rounded-2xl border border-slate-200 p-5 space-y-3">
+              <label className="block text-xs font-extrabold text-slate-700 uppercase tracking-wide">
+                Payment Details
+              </label>
+              <textarea
+                rows={7}
+                value={details}
+                onChange={(e) => setDetails(e.target.value)}
+                placeholder="Paste bank details, PayID, or crypto address here…"
+                className="w-full px-4 py-3 bg-slate-50 border border-slate-300 rounded-xl font-mono text-xs focus:ring-2 focus:ring-sky-500 focus:outline-none resize-none"
+              />
+
+              {sent ? (
+                <div className="flex items-center gap-2 p-3 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-800 font-semibold">
+                  <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
+                  Email sent to {order.email}
                 </div>
               ) : (
                 <button
                   type="button"
-                  onClick={handleSendEmail}
-                  disabled={sending}
-                  className="w-full py-3 px-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-xs sm:text-sm flex items-center justify-center gap-2 transition-colors shadow-md shadow-sky-600/20"
+                  onClick={handleSend}
+                  disabled={sending || !details.trim()}
+                  className="w-full py-3 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold rounded-xl text-sm flex items-center justify-center gap-2 transition-colors shadow-md shadow-sky-600/20"
                 >
                   <Send className="w-4 h-4" />
-                  <span>{sending ? 'Sending Branded Email...' : `Send Branded Email to ${order.email}`}</span>
+                  {sending ? 'Sending…' : `Send Email to ${order.email}`}
                 </button>
               )}
             </div>
 
-            {/* WhatsApp Send Panel */}
-            <WhatsAppSendPanel
-              customerPhone={order.phone}
-              customerName={order.customerName}
-              messageText={waText}
-            />
+            {/* WhatsApp */}
+            <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-4 space-y-3">
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-2 text-emerald-900 font-bold text-sm">
+                  <MessageSquare className="w-4 h-4 text-emerald-600" />
+                  WhatsApp — {order.customerName}
+                </div>
+                <button type="button" onClick={copyWa} className="flex items-center gap-1 text-xs text-emerald-700 font-semibold hover:text-emerald-900">
+                  {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
+                  {copied ? 'Copied!' : 'Copy text'}
+                </button>
+              </div>
+              <a
+                href={waLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 w-full py-2.5 bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-xs rounded-xl transition-colors"
+              >
+                <MessageSquare className="w-4 h-4" />
+                Open WhatsApp Chat
+              </a>
+            </div>
           </div>
 
-          {/* Right: Live Light Shell Preview (Span 6) */}
-          <div className="lg:col-span-6 space-y-2">
-            <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
-              Live Customer Email Preview (Light Shell)
-            </span>
-            <div className="bg-[#F4F0EA] p-4 rounded-3xl border border-slate-200 shadow-sm overflow-hidden">
-              <div className="bg-white rounded-2xl border border-slate-200 shadow-md overflow-hidden max-w-lg mx-auto text-xs">
-                
-                {/* Header Band */}
-                <div className="bg-[#0f172a] p-5 border-b-4 border-sky-500 text-white">
-                  <div className="font-extrabold text-base tracking-tight">
-                    ELECTRIC DIRT BIKE AUSTRALIA
-                  </div>
-                  <div className="text-[10px] text-slate-400 mt-0.5">
-                    Australia’s Authorised Dealer · Southern Highlands NSW 2575
-                  </div>
+          {/* RIGHT — Live Preview */}
+          <div className="space-y-2">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Live Email Preview</span>
+            <div className="bg-[#F4F0EA] p-3 rounded-3xl border border-slate-200 shadow-sm">
+              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden text-xs max-w-full">
+                {/* Header band */}
+                <div className="bg-[#0f172a] px-5 py-4 border-b-4 border-sky-500">
+                  <div className="font-extrabold text-white text-sm">{SITE.name}</div>
+                  <div className="text-slate-400 text-[10px] mt-0.5">{REPLY.headerTagline}</div>
                 </div>
 
                 {/* Body */}
-                <div className="p-6 space-y-4">
+                <div className="p-5 space-y-3">
                   <div className="flex items-center justify-between">
-                    <h3 className="font-extrabold text-slate-900 text-sm">
-                      Payment Details for Order {order.ref}
-                    </h3>
-                    <span className="px-2 py-0.5 border border-sky-500 text-sky-600 font-mono text-[10px] rounded-full font-bold">
-                      {order.ref}
-                    </span>
+                    <div className="font-extrabold text-slate-900 text-sm">Payment Details</div>
+                    <span className="px-2 py-0.5 border border-sky-500 text-sky-600 font-mono text-[10px] rounded-full font-bold">{order.ref}</span>
                   </div>
 
-                  <p className="text-slate-600 leading-relaxed text-xs">
-                    Hi {order.customerName}, thank you for your order with Electric Dirt Bike Australia. Please complete payment using the details below.
+                  <p className="text-slate-600 text-xs leading-relaxed">
+                    Hi {order.customerName}, please complete your payment using the details below to dispatch your order.
                   </p>
 
-                  {/* Highlight Row */}
-                  <div className="p-3 bg-slate-50 border-t-2 border-b-2 border-sky-500 flex items-center justify-between">
-                    <span className="font-bold text-slate-800">Total Amount Due</span>
-                    <span className="font-mono text-lg font-extrabold text-sky-600">
-                      ${order.total.toLocaleString()} AUD
-                    </span>
+                  {/* Amount highlight */}
+                  <div className="flex items-center justify-between p-3 bg-slate-50 border-t-2 border-b-2 border-sky-500">
+                    <span className="font-bold text-slate-800 text-xs">Amount Due</span>
+                    <span className="font-mono font-extrabold text-sky-600 text-base">{amount}</span>
                   </div>
 
-                  {/* Payment Details Block */}
-                  <div className="space-y-1">
-                    <span className="font-bold text-slate-900">Payment Instructions:</span>
-                    <pre className="p-3 bg-slate-100 rounded-lg text-xs font-mono text-slate-800 whitespace-pre-wrap border-l-4 border-sky-500">
-                      {fullInstructions}
+                  {/* Payment details block */}
+                  <div>
+                    <div className="font-bold text-slate-900 text-[11px] mb-1">Payment Instructions:</div>
+                    <pre className="bg-slate-100 p-3 rounded-lg font-mono text-[10px] text-slate-800 whitespace-pre-wrap border-l-4 border-sky-500 leading-relaxed">
+                      {details || '(paste payment details on the left)'}
                     </pre>
                   </div>
 
-                  {/* Terms List */}
-                  <div className="bg-slate-50 p-3 rounded-lg border text-[11px] text-slate-600 space-y-1">
-                    <div className="font-bold text-slate-900 uppercase">Order Terms:</div>
-                    <ul className="list-disc pl-4 space-y-0.5">
-                      {paymentTermsLines(order.ref, order.paymentMethod).map((t, i) => (
-                        <li key={i}>{t}</li>
-                      ))}
+                  {/* Terms */}
+                  <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 space-y-1 text-[10px] text-slate-600">
+                    <div className="font-bold text-slate-900 uppercase text-[9px] tracking-wider">Order Terms</div>
+                    <ul className="list-disc pl-3.5 space-y-0.5">
+                      {terms.map((t, i) => <li key={i}>{t}</li>)}
                     </ul>
+                  </div>
+
+                  {/* Action buttons preview */}
+                  <div className="flex gap-2 pt-1">
+                    <div className="px-3 py-1.5 bg-sky-600 text-white font-bold text-[10px] rounded-lg">Upload Payment Proof</div>
+                    <div className="px-3 py-1.5 bg-[#25D366] text-white font-bold text-[10px] rounded-lg">Confirm via WhatsApp</div>
                   </div>
                 </div>
 
-                {/* Light Footer */}
-                <div className="bg-[#F7F4F0] p-4 border-t border-slate-200 text-[10px] text-slate-500 text-center">
-                  Electric Dirt Bike Australia · Mittagong NSW 2575 · ABN 98 611 685 977
+                {/* Footer */}
+                <div className="bg-[#F7F4F0] px-5 py-3 border-t border-slate-200 text-[9px] text-slate-400 text-center">
+                  {SITE.name} · {REPLY.headerTagline}
                 </div>
-
               </div>
             </div>
           </div>
 
         </div>
-
       </div>
     </div>
   );
