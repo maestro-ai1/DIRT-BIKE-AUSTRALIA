@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { ShoppingBag, Search, ChevronDown, Menu, X, Zap } from 'lucide-react';
+import { ShoppingBag, Search, ChevronDown, Menu, X } from 'lucide-react';
 import { SITE, BRANDS, CATEGORIES } from '@/src/config/site';
 import { useCart } from '@/lib/cartContext';
 
@@ -30,8 +30,11 @@ export function Nav() {
             href="/"
             className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 rounded-lg p-1"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-sky-600 via-sky-500 to-orange-500 flex items-center justify-center text-white shadow-md shadow-sky-500/20 group-hover:scale-105 transition-transform">
-              <Zap className="w-5 h-5 fill-current text-white" />
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-gradient-to-tr from-sky-700 via-sky-500 to-orange-500 flex items-center justify-center shadow-md shadow-sky-500/25 group-hover:scale-105 transition-transform">
+              <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[18px] h-[18px] sm:w-5 sm:h-5" aria-hidden="true">
+                <circle cx="10" cy="10" r="7" stroke="white" strokeWidth="2.5"/>
+                <path d="M12.5 3.5L9 10L12.5 10L7.5 16.5" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-base sm:text-lg tracking-tight text-slate-900 group-hover:text-sky-600 transition-colors leading-none">
