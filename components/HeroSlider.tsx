@@ -153,26 +153,26 @@ export function HeroSlider() {
         </div>
       </div>
 
-      {/* Slider Controls */}
-      <div className="absolute bottom-6 right-6 z-20 flex items-center gap-2">
+      {/* Slider Controls — 48×48px targets with 8px+ gap meets Lighthouse touch-target threshold */}
+      <div className="absolute bottom-6 right-6 z-20 flex items-center gap-3">
         <button
           type="button"
           aria-label="Previous Hero Slide"
           onClick={() => setCurrent((prev) => (prev - 1 + SLIDES.length) % SLIDES.length)}
-          className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full bg-slate-900/80 hover:bg-sky-600 text-white border border-slate-700 transition-colors backdrop-blur-md"
+          className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-900/80 hover:bg-sky-700 text-white border border-slate-700 transition-colors backdrop-blur-md"
         >
           <ChevronLeft className="w-4 h-4" />
         </button>
-        
-        {/* Slide Dots */}
-        <div className="flex items-center gap-1.5 px-2">
+
+        {/* Slide Dots — each button 48×48px with 8px gap to pass Lighthouse touch-target check */}
+        <div className="flex items-center gap-2">
           {SLIDES.map((_, i) => (
             <button
               key={i}
               type="button"
               aria-label={`Go to slide ${i + 1}`}
               onClick={() => setCurrent(i)}
-              className="min-w-[44px] min-h-[44px] flex items-center justify-center"
+              className="w-12 h-12 flex items-center justify-center"
             >
               <span className={`block rounded-full transition-all ${
                 i === current ? 'w-6 h-2 bg-sky-400' : 'w-2 h-2 bg-slate-600 hover:bg-slate-400'
@@ -185,7 +185,7 @@ export function HeroSlider() {
           type="button"
           aria-label="Next Hero Slide"
           onClick={() => setCurrent((prev) => (prev + 1) % SLIDES.length)}
-          className="min-w-[44px] min-h-[44px] flex items-center justify-center rounded-full bg-slate-900/80 hover:bg-sky-600 text-white border border-slate-700 transition-colors backdrop-blur-md"
+          className="w-12 h-12 flex items-center justify-center rounded-full bg-slate-900/80 hover:bg-sky-700 text-white border border-slate-700 transition-colors backdrop-blur-md"
         >
           <ChevronRight className="w-4 h-4" />
         </button>

@@ -175,7 +175,7 @@ export default function HomePage() {
                 href={`/shop/?brand=${b.slug}`}
                 className="group p-4 bg-slate-50 hover:bg-white border border-slate-200/80 hover:border-sky-500/80 rounded-xl text-center transition-all hover:shadow-md"
               >
-                <div className="text-[10px] font-bold text-orange-600 uppercase tracking-widest mb-1">
+                <div className="text-[10px] font-bold text-orange-700 uppercase tracking-widest mb-1">
                   {b.badge}
                 </div>
                 <div className="font-extrabold text-slate-900 group-hover:text-sky-600 text-sm mb-1 transition-colors">
@@ -243,7 +243,7 @@ export default function HomePage() {
                     </span>
                   </div>
                   {product.compareAtPrice && (
-                    <div className="absolute top-3 right-3 px-2 py-0.5 rounded bg-emerald-600 text-white text-[10px] font-bold">
+                    <div className="absolute top-3 right-3 px-2 py-0.5 rounded bg-emerald-700 text-white text-[10px] font-bold">
                       Save ${(product.compareAtPrice - product.price).toLocaleString()}
                     </div>
                   )}
@@ -280,7 +280,7 @@ export default function HomePage() {
                       <div className="text-base sm:text-lg font-mono font-extrabold text-slate-900">
                         ${product.price.toLocaleString()} <span className="text-xs font-normal text-slate-500">AUD</span>
                       </div>
-                      <div className="text-[10px] text-orange-600 font-semibold">
+                      <div className="text-[10px] text-orange-700 font-semibold">
                         ${Math.round(product.price * 0.9).toLocaleString()} with Crypto (-10%)
                       </div>
                     </div>
@@ -308,7 +308,7 @@ export default function HomePage() {
 
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-orange-600">
+              <span className="text-xs font-bold uppercase tracking-wider text-orange-700">
                 Power Upgrades &amp; Protection
               </span>
               <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
@@ -344,7 +344,7 @@ export default function HomePage() {
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 left-3">
-                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-sky-600 text-white">
+                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-sky-700 text-white">
                       {product.badge}
                     </span>
                   </div>
@@ -367,7 +367,7 @@ export default function HomePage() {
                       <div className="text-base font-mono font-extrabold text-slate-900">
                         ${product.price.toLocaleString()} AUD
                       </div>
-                      <div className="text-[10px] text-orange-600 font-semibold">
+                      <div className="text-[10px] text-orange-700 font-semibold">
                         -${Math.round(product.price * 0.1).toLocaleString()} on Crypto
                       </div>
                     </div>
