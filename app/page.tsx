@@ -181,7 +181,7 @@ export default function HomePage() {
                 <div className="font-extrabold text-slate-900 group-hover:text-sky-600 text-sm mb-1 transition-colors">
                   {b.name}
                 </div>
-                <div className="text-[11px] text-slate-400 truncate">
+                <div className="text-[11px] text-slate-600 truncate">
                   {b.popularModels[0]}
                 </div>
               </Link>

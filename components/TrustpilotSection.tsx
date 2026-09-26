@@ -84,7 +84,7 @@ export function TrustpilotSection() {
                 </div>
                 <span className="w-8 text-right font-mono font-semibold">4%</span>
               </div>
-              <div className="flex items-center gap-2 text-slate-400">
+              <div className="flex items-center gap-2 text-slate-600">
                 <span className="w-12 font-medium">3-Star</span>
                 <div className="flex-1 h-2 bg-slate-100 rounded-full overflow-hidden">
                   <div className="h-full bg-slate-300 rounded-full w-[0%]" />
@@ -164,7 +164,7 @@ export function TrustpilotSection() {
                       </div>
                     ))}
                   </div>
-                  <span className="text-[11px] text-slate-400 font-medium">
+                  <span className="text-[11px] text-slate-500 font-medium">
                     {rev.date}
                   </span>
                 </div>
