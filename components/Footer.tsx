@@ -178,7 +178,7 @@ export function Footer() {
             </span>
           </div>
 
-          <div className="flex items-center gap-4 text-slate-500">
+          <div className="flex items-center gap-4 text-slate-400">
             <Link href="/about/" className="hover:text-slate-300">
               About Us
             </Link>
@@ -190,7 +190,7 @@ export function Footer() {
         </div>
 
         {/* Legal Disclaimer Box */}
-        <div className="mt-8 pt-4 border-t border-slate-900/60 text-[11px] text-slate-500 leading-relaxed text-center">
+        <div className="mt-8 pt-4 border-t border-slate-900/60 text-[11px] text-slate-400 leading-relaxed text-center">
           Notice: High-powered electric dirt bikes are intended strictly for off-road recreation, closed circuit tracks, and private property use across Australian states and territories. Always wear Australian standard certified helmets and full safety gear.
         </div>
 

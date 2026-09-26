@@ -141,7 +141,7 @@ export function RecentSalesPopup() {
     <div
       role="status"
       aria-live="polite"
-      className="fixed bottom-4 left-4 z-40 max-w-sm w-[calc(100vw-32px)] sm:w-88 bg-white/95 backdrop-blur-md rounded-2xl p-3.5 shadow-2xl border border-slate-200/90 animate-in slide-in-from-bottom-5 duration-300 transition-all select-none"
+      className="fixed bottom-4 left-4 z-40 w-[calc(100vw-96px)] max-w-xs sm:w-80 bg-white/95 backdrop-blur-md rounded-2xl p-3.5 shadow-2xl border border-slate-200/90 animate-in slide-in-from-bottom-5 duration-300 transition-all select-none"
     >
       <div className="flex items-start gap-3">
         {/* Icon Avatar */}
@@ -150,7 +150,7 @@ export function RecentSalesPopup() {
         </div>
 
         {/* Content */}
-        <div className="flex-1 min-w-0 pr-1">
+        <div className="flex-1 min-w-0">
           <div className="flex items-center justify-between gap-1 mb-0.5">
             <span className="text-[11px] font-bold text-slate-900 truncate">
               {currentNotification.customer} from {currentNotification.location}
@@ -178,12 +178,12 @@ export function RecentSalesPopup() {
           </div>
         </div>
 
-        {/* Close Button */}
+        {/* Close Button — 48×48px touch target to satisfy Lighthouse tap-targets audit */}
         <button
           type="button"
           onClick={() => setVisible(false)}
           aria-label="Dismiss recent purchase popup"
-          className="text-slate-400 hover:text-slate-600 p-1 -mr-1 -mt-1 rounded-md"
+          className="w-12 h-12 flex items-center justify-center text-slate-400 hover:text-slate-600 -mr-3 -mt-3 rounded-md shrink-0"
         >
           <X className="w-3.5 h-3.5" />
         </button>
