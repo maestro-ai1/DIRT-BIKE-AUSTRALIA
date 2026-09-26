@@ -50,8 +50,8 @@ export function Nav() {
           <nav className="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-700">
             <Link
               href="/"
-              className={`transition-colors hover:text-sky-600 ${
-                isActive('/') ? 'text-sky-600 font-bold' : ''
+              className={`transition-colors hover:text-sky-700 ${
+                isActive('/') ? 'text-sky-700 font-bold' : ''
               }`}
             >
               Home
@@ -66,8 +66,8 @@ export function Nav() {
               <Link
                 href="/shop/"
                 onClick={() => setShopDropdownOpen(false)}
-                className={`flex items-center gap-1 transition-colors hover:text-sky-600 py-2 ${
-                  isActive('/shop/') ? 'text-sky-600 font-bold' : ''
+                className={`flex items-center gap-1 transition-colors hover:text-sky-700 py-2 ${
+                  isActive('/shop/') ? 'text-sky-700 font-bold' : ''
                 }`}
               >
                 <span>Shop</span>
@@ -99,7 +99,7 @@ export function Nav() {
                     <Link
                       href="/shop/"
                       onClick={() => setShopDropdownOpen(false)}
-                      className="block px-3 py-2 text-xs font-bold text-sky-600 hover:bg-sky-50 rounded-lg text-center"
+                      className="block px-3 py-2 text-xs font-bold text-sky-700 hover:bg-sky-50 rounded-lg text-center"
                     >
                       View All {CATEGORIES.reduce((n, _) => n, 0) > 0 ? '' : ''}Products →
                     </Link>
@@ -117,8 +117,8 @@ export function Nav() {
               <button
                 type="button"
                 onClick={() => setBrandsDropdownOpen((prev) => !prev)}
-                className={`flex items-center gap-1 transition-colors hover:text-sky-600 py-2 ${
-                  isActive('/brands/') ? 'text-sky-600 font-bold' : ''
+                className={`flex items-center gap-1 transition-colors hover:text-sky-700 py-2 ${
+                  isActive('/brands/') ? 'text-sky-700 font-bold' : ''
                 }`}
                 aria-expanded={brandsDropdownOpen}
               >
@@ -150,7 +150,7 @@ export function Nav() {
                       <Link
                         href="/brands/"
                         onClick={() => setBrandsDropdownOpen(false)}
-                        className="block px-3 py-2 text-xs font-bold text-sky-600 hover:bg-sky-50 rounded-lg text-center"
+                        className="block px-3 py-2 text-xs font-bold text-sky-700 hover:bg-sky-50 rounded-lg text-center"
                       >
                         View All Brands Guide →
                       </Link>
@@ -162,8 +162,8 @@ export function Nav() {
 
             <Link
               href="/accessories/"
-              className={`transition-colors hover:text-sky-600 ${
-                isActive('/accessories/') ? 'text-sky-600 font-bold' : ''
+              className={`transition-colors hover:text-sky-700 ${
+                isActive('/accessories/') ? 'text-sky-700 font-bold' : ''
               }`}
             >
               Accessories
@@ -171,8 +171,8 @@ export function Nav() {
 
             <Link
               href="/blog/"
-              className={`transition-colors hover:text-sky-600 ${
-                isActive('/blog/') ? 'text-sky-600 font-bold' : ''
+              className={`transition-colors hover:text-sky-700 ${
+                isActive('/blog/') ? 'text-sky-700 font-bold' : ''
               }`}
             >
               Blog
@@ -180,8 +180,8 @@ export function Nav() {
 
             <Link
               href="/contact/"
-              className={`transition-colors hover:text-sky-600 ${
-                isActive('/contact/') ? 'text-sky-600 font-bold' : ''
+              className={`transition-colors hover:text-sky-700 ${
+                isActive('/contact/') ? 'text-sky-700 font-bold' : ''
               }`}
             >
               Contact Us

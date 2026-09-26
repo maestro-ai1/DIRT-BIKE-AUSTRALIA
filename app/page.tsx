@@ -288,7 +288,7 @@ export default function HomePage() {
                     <Link
                       href={`/shop/${product.slug}/`}
                       aria-label={`View specs for ${product.name}`}
-                      className="px-3.5 py-2 bg-sky-600 hover:bg-sky-500 text-white rounded-lg text-xs font-bold transition-colors shadow-xs"
+                      className="px-3.5 py-2 bg-sky-700 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors shadow-xs"
                     >
                       View Specs
                     </Link>
@@ -432,7 +432,7 @@ export default function HomePage() {
               <div className="pt-2 flex flex-wrap items-center gap-4">
                 <Link
                   href="/about/"
-                  className="px-6 py-3 bg-sky-500 hover:bg-sky-400 text-white font-bold text-xs rounded-xl transition-colors"
+                  className="px-6 py-3 bg-sky-700 hover:bg-sky-600 text-white font-bold text-xs rounded-xl transition-colors"
                 >
                   Our Mittagong Facility &amp; Location Map →
                 </Link>
