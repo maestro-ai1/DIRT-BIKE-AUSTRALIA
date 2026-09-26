@@ -12,7 +12,7 @@
       "id": "urn:air:electricdirtbikeaustralia.com.au:catalog:products",
       "displayName": "Electric Dirt Bike Product Catalogue",
       "description": "Full catalogue of electric dirt bikes, motocross bikes, accessories and 72V batteries available for purchase in Australia.",
-      "type": "text/plain",
+      "type": "text/markdown",
       "url": "https://electricdirtbikeaustralia.com.au/llms.txt",
       "representativeQueries": [
         "What electric dirt bikes are available in Australia?",
