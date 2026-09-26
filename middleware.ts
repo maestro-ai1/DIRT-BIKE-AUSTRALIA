@@ -3,15 +3,14 @@ import { NextRequest, NextResponse } from 'next/server';
 export function middleware(request: NextRequest) {
   const accept = request.headers.get('accept') ?? '';
 
-  // Markdown content negotiation — redirect agents to /llms.txt (served as text/markdown via next.config.ts)
-  // This satisfies the "Markdown for Agents" check on isitagentready.com and Cloudflare Agent standards
-  if (accept.includes('text/markdown') && !request.nextUrl.pathname.startsWith('/llms')) {
-    const markdownUrl = new URL('/llms.txt', request.url);
-    return NextResponse.redirect(markdownUrl, {
-      status: 302,
+  // Markdown content negotiation — rewrite agents to /api/llms-txt which serves text/markdown
+  // Using rewrite (not redirect) so the response URL stays the same and Content-Type is controlled
+  // by the API route handler (not overridden by Vercel CDN's static file MIME detection).
+  if (accept.includes('text/markdown') && !request.nextUrl.pathname.startsWith('/api/llms-txt')) {
+    const rewriteUrl = new URL('/api/llms-txt', request.url);
+    return NextResponse.rewrite(rewriteUrl, {
       headers: {
         'Vary': 'Accept',
-        'Cache-Control': 'no-store',
       },
     });
   }
