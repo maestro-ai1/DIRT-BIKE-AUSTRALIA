@@ -285,24 +285,24 @@ function Composer() {
                   <span className="px-2 py-0.5 border border-sky-500 text-sky-600 font-mono text-[10px] rounded-full font-bold">{order.ref}</span>
                 </div>
                 <p className="text-slate-600 text-[11px] leading-relaxed">
-                  Hi {order.customerName}, please complete your payment using the details below to dispatch your order.
+                  Hi {order.customerName}, please use the details below to complete your payment and secure your order.
                 </p>
+                {/* Amount row */}
                 <div className="flex justify-between items-center p-3 bg-slate-50 border-t-2 border-b-2 border-sky-500">
                   <span className="font-bold text-slate-800 text-[11px]">Amount Due</span>
                   <span className="font-mono font-extrabold text-sky-600 text-base">{amount}</span>
                 </div>
+                {/* Instructions — exactly what the customer receives */}
                 <pre className="bg-slate-100 p-3 rounded-lg font-mono text-[10px] text-slate-800 whitespace-pre-wrap border-l-4 border-sky-500 leading-relaxed">
-                  {instructions || '(instructions will appear here)'}
+                  {instructions || '(type your payment details above — they will appear here)'}
                 </pre>
-                <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 text-[10px] text-slate-600 space-y-1">
-                  <div className="font-bold text-slate-900 uppercase text-[9px] tracking-wider mb-1">Payment Terms</div>
-                  <div>• Pay within 48hrs to secure your order</div>
-                  <div>• Use <span className="font-mono font-bold">{order.ref}</span> as your reference</div>
-                  <div>• Send screenshot to {CONTACT.email} or WhatsApp {CONTACT.phoneDisplay}</div>
+                {/* Terms */}
+                <div className="bg-slate-900 p-3 rounded-lg text-[10px] space-y-1">
+                  <div className="font-bold text-slate-400 uppercase text-[9px] tracking-wider mb-1">Payment Terms</div>
+                  <div className="text-slate-300">• Pay within 48 hours to secure your order</div>
+                  <div className="text-slate-300">• Use <span className="font-mono text-sky-400 font-bold">{order.ref}</span> as your reference</div>
+                  <div className="text-slate-300">• Once paid, send your receipt to <span className="text-sky-400">{CONTACT.email}</span></div>
                 </div>
-                {notes && (
-                  <div className="text-[10px] text-slate-500 italic border-t border-slate-100 pt-2">{notes}</div>
-                )}
               </div>
               <div className="bg-[#F7F4F0] px-5 py-3 border-t border-slate-200 text-[9px] text-slate-400 text-center">
                 {SITE.name} · {REPLY.headerTagline}
