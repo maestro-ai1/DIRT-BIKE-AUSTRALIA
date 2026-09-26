@@ -6,19 +6,27 @@ import Link from 'next/link';
 import { PasscodeGate } from '@/components/admin/PasscodeGate';
 import { useAdminPasscode } from '@/lib/useAdminPasscode';
 import { StoredOrder } from '@/lib/orderStore';
-import { Send, ArrowLeft, CheckCircle, MessageSquare, Copy, Check } from 'lucide-react';
-import { paymentTermsLines } from '@/lib/order';
-import { REPLY, SITE } from '@/src/config/site';
+import { ArrowLeft, Send, CheckCircle, MessageSquare, Clipboard } from 'lucide-react';
+import { SITE, CONTACT, REPLY } from '@/src/config/site';
 
 export default function SendPaymentEmailPage() {
   return (
     <PasscodeGate>
-      <Suspense fallback={<div className="p-8 text-center text-slate-500 text-sm">Loading…</div>}>
+      <Suspense fallback={<div className="min-h-screen bg-black flex items-center justify-center text-gray-500 text-sm">Loading…</div>}>
         <Composer />
       </Suspense>
     </PasscodeGate>
   );
 }
+
+const TEMPLATES: Record<string, (ref: string, amount: string) => string> = {
+  payid: (ref, amount) =>
+    `Please send ${amount} via PayID:\n\nPayID: ${CONTACT.email}\nAccount Name: ${SITE.name} Pty Ltd\nBank: Commonwealth Bank (CBA)\nReference: ${ref}\n\nPayID clears instantly 24/7.`,
+  'bank-transfer': (ref, amount) =>
+    `Please transfer ${amount} to:\n\nBSB: 062-815\nAccount: 1048 2914\nAccount Name: ${SITE.name} Pty Ltd\nReference: ${ref}\n\nEFT clears within 24–48 business hours.`,
+  crypto: (ref, amount) =>
+    `Please send ${amount} in crypto (BTC, USDT or ETH):\n\nBitcoin (BTC): [paste wallet address]\nUSDT (TRC20): [paste wallet address]\nUSDT (ERC20): [paste wallet address]\nReference: ${ref}\n\n10% discount already applied.`,
+};
 
 function Composer() {
   const searchParams = useSearchParams();
@@ -27,10 +35,11 @@ function Composer() {
 
   const [order, setOrder] = useState<StoredOrder | null>(null);
   const [loading, setLoading] = useState(true);
-  const [details, setDetails] = useState('');
+  const [paymentMethod, setPaymentMethod] = useState('payid');
+  const [instructions, setInstructions] = useState('');
+  const [notes, setNotes] = useState('');
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
-  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (!refParam) return;
@@ -42,14 +51,10 @@ function Composer() {
           const data = await res.json();
           const o = data.order as StoredOrder;
           setOrder(o);
-          // Pre-fill based on payment method
-          if (o.paymentMethod === 'crypto') {
-            setDetails('BTC: [paste wallet address here]\nUSDT (TRC20): [paste address here]\nReference: ' + o.ref);
-          } else if (o.paymentMethod === 'payid') {
-            setDetails('PayID: sales@electricdirtbikeaustralia.com.au\nAccount Name: Electric Dirt Bike Australia Pty Ltd\nBank: Commonwealth Bank');
-          } else {
-            setDetails('BSB: 062-815\nAccount: 1048 2914\nAccount Name: Electric Dirt Bike Australia Pty Ltd\nReference: ' + o.ref);
-          }
+          const method = o.paymentMethod || 'payid';
+          setPaymentMethod(method);
+          const amount = `$${o.total.toLocaleString()} AUD`;
+          setInstructions(TEMPLATES[method]?.(o.ref, amount) ?? '');
         }
       } catch { /* ignore */ }
       finally { setLoading(false); }
@@ -57,19 +62,49 @@ function Composer() {
     load();
   }, [refParam]);
 
-  if (!refParam) return <div className="p-12 text-center text-slate-400 text-sm">Select an order from the orders list.</div>;
-  if (loading) return <div className="p-12 text-center text-slate-400 text-sm">Loading order…</div>;
-  if (!order) return <div className="p-12 text-center text-slate-400 text-sm">Order not found: {refParam}</div>;
+  if (!refParam) {
+    return (
+      <div className="min-h-screen bg-black flex items-center justify-center text-gray-500 text-sm">
+        No order selected. <Link href="/admin/orders/" className="text-sky-400 ml-1 underline">Go to orders →</Link>
+      </div>
+    );
+  }
+
+  if (loading) {
+    return <div className="min-h-screen bg-black flex items-center justify-center text-gray-500 text-sm">Loading order {refParam}…</div>;
+  }
+
+  if (!order) {
+    return (
+      <div className="min-h-screen bg-black flex items-center justify-center text-gray-500 text-sm">
+        Order not found: {refParam}. <Link href="/admin/orders/" className="text-sky-400 ml-1 underline">Back to orders →</Link>
+      </div>
+    );
+  }
 
   const amount = `$${order.total.toLocaleString()} AUD`;
-  const terms = paymentTermsLines(order.ref, order.paymentMethod);
 
-  const waMessage = encodeURIComponent(
-    `*${SITE.name}*\n*Payment Details — Order ${order.ref}*\n\nHi ${order.customerName},\n\n*Amount Due:* ${amount}\n*Payment Method:* ${order.paymentMethod.toUpperCase()}\n\n*Details:*\n${details}\n\n*Terms:*\n• Payment within 48hrs to secure your order\n• Use ${order.ref} as your reference\n• Ships within 2 business days\n\nOnce paid, send us a screenshot here or email sales@electricdirtbikeaustralia.com.au`
+  const fillTemplate = () => {
+    setInstructions(TEMPLATES[paymentMethod]?.(order.ref, amount) ?? '');
+  };
+
+  const pasteFromClipboard = async () => {
+    try {
+      const text = await navigator.clipboard.readText();
+      setInstructions(text);
+    } catch {
+      /* clipboard unavailable — focus the textarea so user can paste manually */
+      (document.getElementById('instructions-field') as HTMLTextAreaElement)?.focus();
+    }
+  };
+
+  const waText = encodeURIComponent(
+    `*${SITE.name}*\n*Payment Details — Order ${order.ref}*\n\nHi ${order.customerName},\n\n*Amount Due:* ${amount}\n*Payment Method:* ${paymentMethod.replace('-', ' ').toUpperCase()}\n\n*Instructions:*\n${instructions}\n\n*Terms:*\n• Pay within 48hrs to secure your order\n• Use ${order.ref} as your reference\n• Ships within 2 business days\n\nSend your payment screenshot to ${CONTACT.email} or reply here.`
   );
-  const waLink = `https://wa.me/${order.phone.replace(/\D/g, '').replace(/^0/, '61') || '61420128746'}?text=${waMessage}`;
+  const waLink = `https://wa.me/${(order.phone || CONTACT.whatsapp).replace(/\D/g, '').replace(/^0/, '61')}?text=${waText}`;
 
   const handleSend = async () => {
+    if (!instructions.trim()) return;
     setSending(true);
     try {
       const res = await fetch('/api/admin/send-payment-email/', {
@@ -80,8 +115,8 @@ function Composer() {
           customerEmail: order.email,
           customerName: order.customerName,
           amount,
-          paymentMethod: order.paymentMethod,
-          details,
+          paymentMethod,
+          details: instructions,
         }),
       });
       if (res.ok) setSent(true);
@@ -89,159 +124,233 @@ function Composer() {
     finally { setSending(false); }
   };
 
-  const copyWa = () => {
-    const raw = decodeURIComponent(waMessage);
-    navigator.clipboard.writeText(raw).catch(() => {});
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
   return (
-    <div className="min-h-screen bg-slate-100 py-8">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 space-y-5">
+    <div className="min-h-screen bg-black text-white">
+      {/* Top bar */}
+      <div className="border-b border-white/10 px-4 py-3 flex items-center justify-between">
+        <Link href="/admin/orders/" className="flex items-center gap-1.5 text-xs font-bold text-gray-400 hover:text-white transition-colors">
+          <ArrowLeft className="w-4 h-4" />
+          All Orders
+        </Link>
+        <span className="font-mono text-xs font-bold text-gray-400">{order.ref}</span>
+      </div>
 
-        {/* Header */}
-        <div className="flex items-center justify-between">
-          <Link href="/admin/orders/" className="flex items-center gap-1.5 text-xs font-bold text-slate-500 hover:text-slate-900">
-            <ArrowLeft className="w-4 h-4" />
-            Back to Orders
-          </Link>
-          <span className="font-mono text-xs font-bold bg-white px-3 py-1 rounded-lg border border-slate-200">
-            {order.ref}
-          </span>
+      <div className="max-w-2xl mx-auto px-4 py-6 space-y-5">
+
+        <div>
+          <div className="text-lg font-extrabold text-white">Send Payment Details</div>
+          <div className="text-xs text-gray-500 mt-0.5">Fill in the details, review the preview below, then send.</div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-
-          {/* LEFT — Input */}
-          <div className="space-y-4">
-            {/* Order summary strip */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-4 flex items-center justify-between">
-              <div>
-                <div className="font-extrabold text-slate-900">{order.customerName}</div>
-                <div className="text-xs text-slate-500">{order.email}</div>
-              </div>
-              <div className="text-right">
-                <div className="font-mono font-extrabold text-sky-600 text-lg">{amount}</div>
-                <div className="text-[11px] text-slate-400 capitalize">{order.paymentMethod}</div>
-              </div>
-            </div>
-
-            {/* Paste Box */}
-            <div className="bg-white rounded-2xl border border-slate-200 p-5 space-y-3">
-              <label className="block text-xs font-extrabold text-slate-700 uppercase tracking-wide">
-                Payment Details
-              </label>
-              <textarea
-                rows={7}
-                value={details}
-                onChange={(e) => setDetails(e.target.value)}
-                placeholder="Paste bank details, PayID, or crypto address here…"
-                className="w-full px-4 py-3 bg-slate-50 border border-slate-300 rounded-xl font-mono text-xs focus:ring-2 focus:ring-sky-500 focus:outline-none resize-none"
+        {/* Pre-filled order fields */}
+        <div className="bg-[#111111] border border-white/10 rounded-2xl p-4 space-y-3">
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1">Order #</label>
+              <input
+                readOnly
+                value={order.ref}
+                className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-xs font-mono text-gray-300 cursor-default"
               />
+            </div>
+            <div>
+              <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1">Amount Due</label>
+              <input
+                readOnly
+                value={amount}
+                className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-xs font-mono font-bold text-sky-400 cursor-default"
+              />
+            </div>
+          </div>
 
-              {sent ? (
-                <div className="flex items-center gap-2 p-3 bg-emerald-50 border border-emerald-200 rounded-xl text-xs text-emerald-800 font-semibold">
-                  <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
-                  Email sent to {order.email}
-                </div>
-              ) : (
+          <div>
+            <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1">Customer Name</label>
+            <input
+              readOnly
+              value={order.customerName}
+              className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-xs text-gray-300 cursor-default"
+            />
+          </div>
+
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1">Customer Email</label>
+              <input
+                readOnly
+                value={order.email}
+                className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-xs text-gray-400 cursor-default truncate"
+              />
+            </div>
+            <div>
+              <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1">Customer Phone</label>
+              <input
+                readOnly
+                value={order.phone || '—'}
+                className="w-full px-3 py-2 bg-white/5 border border-white/10 rounded-lg text-xs text-gray-400 cursor-default"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Payment method */}
+        <div className="bg-[#111111] border border-white/10 rounded-2xl p-4 space-y-4">
+          <div>
+            <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1.5">Payment Method</label>
+            <select
+              value={paymentMethod}
+              onChange={(e) => {
+                setPaymentMethod(e.target.value);
+                setInstructions(TEMPLATES[e.target.value]?.(order.ref, amount) ?? '');
+              }}
+              className="w-full px-3 py-2.5 bg-[#1a1a1a] border border-white/15 rounded-lg text-sm text-white focus:outline-none focus:border-sky-500"
+            >
+              <option value="payid">PayID (Instant Bank Rail)</option>
+              <option value="bank-transfer">Bank Transfer (EFT)</option>
+              <option value="crypto">Crypto (BTC / USDT / ETH)</option>
+            </select>
+          </div>
+
+          {/* Instructions */}
+          <div>
+            <div className="flex items-center justify-between mb-1.5">
+              <label className="text-[10px] font-extrabold uppercase tracking-widest text-gray-500">Instructions</label>
+              <div className="flex items-center gap-1.5">
                 <button
                   type="button"
-                  onClick={handleSend}
-                  disabled={sending || !details.trim()}
-                  className="w-full py-3 bg-sky-600 hover:bg-sky-500 disabled:opacity-50 text-white font-bold rounded-xl text-sm flex items-center justify-center gap-2 transition-colors shadow-md shadow-sky-600/20"
+                  onClick={fillTemplate}
+                  className="px-3 py-1 bg-sky-500 hover:bg-sky-400 text-white text-[10px] font-extrabold rounded-md transition-colors"
                 >
-                  <Send className="w-4 h-4" />
-                  {sending ? 'Sending…' : `Send Email to ${order.email}`}
+                  TEMPLATE
                 </button>
-              )}
-            </div>
-
-            {/* WhatsApp */}
-            <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-4 space-y-3">
-              <div className="flex items-center justify-between">
-                <div className="flex items-center gap-2 text-emerald-900 font-bold text-sm">
-                  <MessageSquare className="w-4 h-4 text-emerald-600" />
-                  WhatsApp — {order.customerName}
-                </div>
-                <button type="button" onClick={copyWa} className="flex items-center gap-1 text-xs text-emerald-700 font-semibold hover:text-emerald-900">
-                  {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
-                  {copied ? 'Copied!' : 'Copy text'}
+                <button
+                  type="button"
+                  onClick={pasteFromClipboard}
+                  className="px-3 py-1 border border-white/20 text-gray-400 hover:text-white text-[10px] font-extrabold rounded-md transition-colors flex items-center gap-1"
+                >
+                  <Clipboard className="w-3 h-3" /> PASTE
                 </button>
               </div>
-              <a
-                href={waLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 w-full py-2.5 bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold text-xs rounded-xl transition-colors"
-              >
-                <MessageSquare className="w-4 h-4" />
-                Open WhatsApp Chat
-              </a>
             </div>
+            <textarea
+              id="instructions-field"
+              rows={7}
+              value={instructions}
+              onChange={(e) => setInstructions(e.target.value)}
+              placeholder="Auto-filled from payment method — edit freely."
+              className="w-full px-3 py-2.5 bg-[#1a1a1a] border border-white/15 rounded-lg font-mono text-xs text-gray-300 focus:outline-none focus:border-sky-500 resize-none leading-relaxed"
+            />
+            <div className="text-[10px] text-gray-600 mt-1">Auto-filled from the payment method — edit freely.</div>
           </div>
 
-          {/* RIGHT — Live Preview */}
-          <div className="space-y-2">
-            <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">Live Email Preview</span>
-            <div className="bg-[#F4F0EA] p-3 rounded-3xl border border-slate-200 shadow-sm">
-              <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden text-xs max-w-full">
-                {/* Header band */}
-                <div className="bg-[#0f172a] px-5 py-4 border-b-4 border-sky-500">
-                  <div className="font-extrabold text-white text-sm">{SITE.name}</div>
-                  <div className="text-slate-400 text-[10px] mt-0.5">{REPLY.headerTagline}</div>
-                </div>
-
-                {/* Body */}
-                <div className="p-5 space-y-3">
-                  <div className="flex items-center justify-between">
-                    <div className="font-extrabold text-slate-900 text-sm">Payment Details</div>
-                    <span className="px-2 py-0.5 border border-sky-500 text-sky-600 font-mono text-[10px] rounded-full font-bold">{order.ref}</span>
-                  </div>
-
-                  <p className="text-slate-600 text-xs leading-relaxed">
-                    Hi {order.customerName}, please complete your payment using the details below to dispatch your order.
-                  </p>
-
-                  {/* Amount highlight */}
-                  <div className="flex items-center justify-between p-3 bg-slate-50 border-t-2 border-b-2 border-sky-500">
-                    <span className="font-bold text-slate-800 text-xs">Amount Due</span>
-                    <span className="font-mono font-extrabold text-sky-600 text-base">{amount}</span>
-                  </div>
-
-                  {/* Payment details block */}
-                  <div>
-                    <div className="font-bold text-slate-900 text-[11px] mb-1">Payment Instructions:</div>
-                    <pre className="bg-slate-100 p-3 rounded-lg font-mono text-[10px] text-slate-800 whitespace-pre-wrap border-l-4 border-sky-500 leading-relaxed">
-                      {details || '(paste payment details on the left)'}
-                    </pre>
-                  </div>
-
-                  {/* Terms */}
-                  <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 space-y-1 text-[10px] text-slate-600">
-                    <div className="font-bold text-slate-900 uppercase text-[9px] tracking-wider">Order Terms</div>
-                    <ul className="list-disc pl-3.5 space-y-0.5">
-                      {terms.map((t, i) => <li key={i}>{t}</li>)}
-                    </ul>
-                  </div>
-
-                  {/* Action buttons preview */}
-                  <div className="flex gap-2 pt-1">
-                    <div className="px-3 py-1.5 bg-sky-600 text-white font-bold text-[10px] rounded-lg">Upload Payment Proof</div>
-                    <div className="px-3 py-1.5 bg-[#25D366] text-white font-bold text-[10px] rounded-lg">Confirm via WhatsApp</div>
-                  </div>
-                </div>
-
-                {/* Footer */}
-                <div className="bg-[#F7F4F0] px-5 py-3 border-t border-slate-200 text-[9px] text-slate-400 text-center">
-                  {SITE.name} · {REPLY.headerTagline}
-                </div>
-              </div>
+          {/* Payment terms — always included */}
+          <div className="border border-white/10 rounded-xl p-3">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-[10px] font-extrabold uppercase tracking-widest text-gray-500">Payment Terms</span>
+              <span className="text-[10px] text-gray-600 italic">always included</span>
             </div>
+            <ul className="space-y-1.5 text-xs text-gray-400">
+              <li>• Complete payment within 48 hours to confirm this order.</li>
+              <li>• Use your order number — <span className="font-mono text-sky-400">{order.ref}</span> — as the payment reference.</li>
+              <li>• Once paid, send a screenshot to <span className="text-sky-400">{CONTACT.email}</span> or WhatsApp {CONTACT.phoneDisplay}.</li>
+            </ul>
           </div>
 
+          {/* Notes */}
+          <div>
+            <label className="block text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-1.5">Notes (Optional)</label>
+            <textarea
+              rows={2}
+              value={notes}
+              onChange={(e) => setNotes(e.target.value)}
+              placeholder="e.g. estimated dispatch date"
+              className="w-full px-3 py-2.5 bg-[#1a1a1a] border border-white/15 rounded-lg text-xs text-gray-300 focus:outline-none focus:border-sky-500 resize-none"
+            />
+          </div>
         </div>
+
+        {/* Email preview */}
+        <div>
+          <div className="text-[10px] font-extrabold uppercase tracking-widest text-gray-500 mb-3">Email Preview</div>
+          <div className="bg-[#F4F0EA] p-3 rounded-2xl border border-white/5">
+            <div className="bg-white rounded-xl border border-slate-200 overflow-hidden text-xs max-w-full">
+              {/* Header */}
+              <div className="bg-[#0f172a] px-5 py-4 border-b-4 border-sky-500">
+                <div className="font-extrabold text-white text-sm">{SITE.name}</div>
+                <div className="text-slate-400 text-[10px] mt-0.5">{REPLY.headerTagline}</div>
+              </div>
+              {/* Body */}
+              <div className="p-5 space-y-3">
+                <div className="flex items-center justify-between">
+                  <div className="font-extrabold text-slate-900 text-sm">Payment Details — {order.ref}</div>
+                  <span className="px-2 py-0.5 border border-sky-500 text-sky-600 font-mono text-[10px] rounded-full font-bold">{order.ref}</span>
+                </div>
+                <p className="text-slate-600 text-[11px] leading-relaxed">
+                  Hi {order.customerName}, please complete your payment using the details below to dispatch your order.
+                </p>
+                <div className="flex justify-between items-center p-3 bg-slate-50 border-t-2 border-b-2 border-sky-500">
+                  <span className="font-bold text-slate-800 text-[11px]">Amount Due</span>
+                  <span className="font-mono font-extrabold text-sky-600 text-base">{amount}</span>
+                </div>
+                <pre className="bg-slate-100 p-3 rounded-lg font-mono text-[10px] text-slate-800 whitespace-pre-wrap border-l-4 border-sky-500 leading-relaxed">
+                  {instructions || '(instructions will appear here)'}
+                </pre>
+                <div className="bg-slate-50 p-3 rounded-lg border border-slate-200 text-[10px] text-slate-600 space-y-1">
+                  <div className="font-bold text-slate-900 uppercase text-[9px] tracking-wider mb-1">Payment Terms</div>
+                  <div>• Pay within 48hrs to secure your order</div>
+                  <div>• Use <span className="font-mono font-bold">{order.ref}</span> as your reference</div>
+                  <div>• Send screenshot to {CONTACT.email} or WhatsApp {CONTACT.phoneDisplay}</div>
+                </div>
+                {notes && (
+                  <div className="text-[10px] text-slate-500 italic border-t border-slate-100 pt-2">{notes}</div>
+                )}
+              </div>
+              <div className="bg-[#F7F4F0] px-5 py-3 border-t border-slate-200 text-[9px] text-slate-400 text-center">
+                {SITE.name} · {REPLY.headerTagline}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Send actions */}
+        {sent ? (
+          <div className="flex items-center gap-3 p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-2xl text-emerald-400 text-sm font-bold">
+            <CheckCircle className="w-5 h-5 shrink-0" />
+            Email sent to {order.email}
+          </div>
+        ) : (
+          <button
+            type="button"
+            onClick={handleSend}
+            disabled={sending || !instructions.trim()}
+            className="w-full py-4 bg-sky-600 hover:bg-sky-500 disabled:opacity-40 text-white font-extrabold text-sm rounded-2xl flex items-center justify-center gap-2 transition-colors shadow-lg shadow-sky-600/20"
+          >
+            <Send className="w-4 h-4" />
+            {sending ? 'Sending…' : `SEND TO ${order.email.toUpperCase()}`}
+          </button>
+        )}
+
+        {/* WhatsApp */}
+        <div className="space-y-2">
+          <div className="text-[10px] font-extrabold uppercase tracking-widest text-gray-600 text-center">or send via WhatsApp</div>
+          <a
+            href={waLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full py-3.5 bg-[#25D366] hover:bg-[#20BA5A] text-white font-extrabold text-sm rounded-2xl transition-colors"
+          >
+            <MessageSquare className="w-4 h-4" />
+            WhatsApp {order.customerName}
+          </a>
+
+          {/* WA message preview */}
+          <div className="bg-[#111111] border border-white/10 rounded-2xl p-4">
+            <div className="text-[10px] font-extrabold uppercase tracking-widest text-gray-600 mb-2">WhatsApp Message Preview</div>
+            <pre className="text-[11px] text-gray-400 whitespace-pre-wrap leading-relaxed font-sans">
+              {decodeURIComponent(waText)}
+            </pre>
+          </div>
+        </div>
+
       </div>
     </div>
   );
