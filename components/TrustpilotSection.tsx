@@ -124,7 +124,7 @@ export function TrustpilotSection() {
               onClick={() => handleFilterChange('5star')}
               className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-colors whitespace-nowrap ${
                 filter === '5star'
-                  ? 'bg-[#00b67a] text-white shadow-sm'
+                  ? 'bg-[#006644] text-white shadow-sm'
                   : 'bg-slate-100 text-slate-600 hover:text-slate-900'
               }`}
             >
@@ -135,7 +135,7 @@ export function TrustpilotSection() {
               onClick={() => handleFilterChange('verified')}
               className={`px-3 py-1.5 text-xs font-semibold rounded-lg transition-colors whitespace-nowrap ${
                 filter === 'verified'
-                  ? 'bg-sky-600 text-white shadow-sm'
+                  ? 'bg-sky-700 text-white shadow-sm'
                   : 'bg-slate-100 text-slate-600 hover:text-slate-900'
               }`}
             >
@@ -264,7 +264,7 @@ export function TrustpilotSection() {
             href="https://www.trustpilot.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 text-xs font-bold text-white bg-[#00b67a] hover:bg-[#009e6a] rounded-lg transition-colors shrink-0 shadow-xs"
+            className="px-4 py-2 text-xs font-bold text-slate-900 bg-[#00b67a] hover:bg-[#009e6a] rounded-lg transition-colors shrink-0 shadow-xs"
           >
             Visit Our Trustpilot Page
           </a>

@@ -235,7 +235,7 @@ export default function HomePage() {
                     className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute top-3 left-3 flex flex-col gap-1">
-                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-orange-600 text-white shadow-xs">
+                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-orange-700 text-white shadow-xs">
                       {product.badge}
                     </span>
                     <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-900/80 text-white backdrop-blur-xs">
@@ -321,7 +321,7 @@ export default function HomePage() {
 
             <Link
               href="/accessories/"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-orange-600 hover:bg-orange-500 text-white font-bold text-xs transition-colors shrink-0 shadow-sm"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-orange-700 hover:bg-orange-600 text-white font-bold text-xs transition-colors shrink-0 shadow-sm"
             >
               <span>All Accessories →</span>
             </Link>

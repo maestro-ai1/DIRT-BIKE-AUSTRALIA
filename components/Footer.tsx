@@ -156,7 +156,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar: Payments & Disclaimers */}
-        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <div className="text-center md:text-left">
             © {new Date().getFullYear()} {SITE.name}. All rights reserved. Mittagong NSW 2575 Australia.
           </div>

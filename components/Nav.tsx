@@ -40,7 +40,7 @@ export function Nav() {
               <span className="font-extrabold text-base sm:text-lg tracking-tight text-slate-900 group-hover:text-sky-600 transition-colors leading-none">
                 ELECTRIC DIRT BIKE
               </span>
-              <span className="text-[10px] sm:text-xs font-bold tracking-widest text-orange-600 uppercase mt-0.5">
+              <span className="text-[10px] sm:text-xs font-bold tracking-widest text-orange-700 uppercase mt-0.5">
                 AUSTRALIA
               </span>
             </div>
