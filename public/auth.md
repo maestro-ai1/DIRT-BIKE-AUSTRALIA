@@ -19,7 +19,7 @@ No registration required. Agents may access all resources anonymously without pr
     "register_uri": "https://electricdirtbikeaustralia.com.au/api/agent/identity/",
     "identity_types_supported": ["anonymous"],
     "anonymous": {
-      "credential_types_supported": [],
+      "credential_types_supported": ["service_signed_identity"],
       "claim_uri": "https://electricdirtbikeaustralia.com.au/api/agent/identity/"
     }
   }
