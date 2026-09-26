@@ -20,6 +20,12 @@ export function escapeHtml(str: string): string {
     .replace(/'/g, '&#039;');
 }
 
+export interface CtaButton {
+  label: string;
+  url: string;
+  style?: 'primary' | 'green' | 'dark';
+}
+
 export function buildEmailHtml(opts: {
   title: string;
   preheader?: string;
@@ -29,6 +35,7 @@ export function buildEmailHtml(opts: {
   afterRows?: string;
   cta?: { label: string; url: string };
   secondaryCta?: { label: string; url: string };
+  ctaButtons?: CtaButton[];
   footer?: string;
   primaryColor?: string;
 }): string {
@@ -165,8 +172,28 @@ export function buildEmailHtml(opts: {
             </td>
           </tr>` : ''}
 
-          <!-- Action Buttons -->
-          ${opts.cta || opts.secondaryCta ? `
+          <!-- Stacked CTA Buttons (ctaButtons array) -->
+          ${opts.ctaButtons && opts.ctaButtons.length > 0 ? `
+          <tr>
+            <td style="padding:8px 32px 28px 32px;">
+              <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
+                ${opts.ctaButtons.map((btn) => {
+                  const bg = btn.style === 'green' ? '#16a34a' : btn.style === 'dark' ? '#1e293b' : accent;
+                  return `
+                <tr>
+                  <td style="padding-bottom:10px;">
+                    <a href="${btn.url}" target="_blank" style="display:block;width:100%;box-sizing:border-box;padding:14px 20px;background-color:${bg};color:#ffffff;text-decoration:none;font-weight:700;font-size:14px;border-radius:8px;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;text-align:center;">
+                      ${escapeHtml(btn.label)}
+                    </a>
+                  </td>
+                </tr>`;
+                }).join('')}
+              </table>
+            </td>
+          </tr>` : ''}
+
+          <!-- Action Buttons (legacy cta/secondaryCta) -->
+          ${(opts.cta || opts.secondaryCta) && !opts.ctaButtons ? `
           <tr>
             <td style="padding:10px 32px 28px 32px;">
               <table role="presentation" border="0" cellpadding="0" cellspacing="0">

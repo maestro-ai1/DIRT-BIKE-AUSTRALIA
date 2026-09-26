@@ -49,44 +49,67 @@ export async function POST(request: Request) {
       notes,
     });
 
-    // 1. Send Order Confirmation to Customer (Mandatory Light Shell — NO bank details)
+    // 1. Customer confirmation email — compact invoice with action buttons
     if (email && email.includes('@')) {
-      const itemsListHtml = items
-        .map((i: { name: string; qty: number; price: number }) => `<div>• <strong>${i.qty}x</strong> ${i.name} — $${(i.price * i.qty).toLocaleString()} AUD</div>`)
-        .join('');
+      const methodLabel =
+        paymentMethod === 'crypto'        ? 'Crypto (BTC / USDT / ETH)' :
+        paymentMethod === 'payid'         ? 'PayID (Instant Bank Rail)'  :
+        paymentMethod === 'bank-transfer' ? 'Bank Transfer (EFT)'        :
+        paymentMethod;
+
+      const waText = encodeURIComponent(
+        `Hi! I have completed payment for order *${orderRef}*. Amount: $${total.toLocaleString()} AUD via ${methodLabel}. Please confirm receipt. Thank you!`
+      );
+
+      const termsHtml = `
+      <div style="background:#0f172a;border-radius:10px;padding:20px 22px;margin:16px 0;">
+        <div style="color:#94a3b8;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:12px;">Before Your Order Ships</div>
+        <ul style="margin:0;padding:0;list-style:none;color:#e2e8f0;font-size:13px;line-height:1.6;">
+          <li style="padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06);">&#10003;&nbsp; This order is confirmed once payment is received.</li>
+          <li style="padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06);font-weight:700;color:#fff;">&#10003;&nbsp; Use your order number — <span style="font-family:monospace;color:#38bdf8;">${orderRef}</span> — as the payment reference.</li>
+          <li style="padding:5px 0;border-bottom:1px solid rgba(255,255,255,0.06);">&#10003;&nbsp; Ships within 2 business days of payment confirmation.</li>
+          <li style="padding:5px 0;">&#10003;&nbsp; Refund or re-ship within 7 days if there is a problem.</li>
+        </ul>
+        <div style="margin-top:14px;padding-top:12px;border-top:1px solid rgba(255,255,255,0.08);font-size:12px;color:#94a3b8;">
+          Once paid — send your payment screenshot to confirm dispatch:<br>
+          <span style="color:#38bdf8;">&#9993;&nbsp;sales&#64;electricdirtbikeaustralia.com.au</span>&nbsp;&nbsp;&#9993;&nbsp;<span style="color:#4ade80;">WhatsApp +61 420 128 746</span>
+        </div>
+      </div>`;
 
       const customerHtml = buildEmailHtml({
-        title: `Your Order ${orderRef} Has Been Received`,
-        preheader: `Thank you for ordering with ${SITE.name}. Next step: watch for payment details.`,
+        title: `Order ${orderRef} — Payment Awaited`,
+        preheader: `Hi ${customerName}, your order is in. Complete payment to dispatch your bike.`,
         refBadge: orderRef,
-        intro: `Hi ${customerName}, thank you for choosing ${SITE.name}. We have logged your order and our dispatch team in Mittagong NSW 2575 is currently allocating your vehicle crate.`,
         rows: [
-          { label: 'Order Reference', value: orderRef, mono: true },
-          { label: 'Selected Payment Rail', value: paymentMethod.toUpperCase() },
-          { label: 'Purchased Items', html: itemsListHtml },
-          { label: 'Subtotal', value: `$${subtotal.toLocaleString()} AUD`, mono: true },
-          { label: 'Discount', value: `-$${discount.toLocaleString()} AUD`, mono: true },
-          { label: 'Shipping', value: shipping === 0 ? 'FREE Aus Freight' : `$${shipping} AUD` },
-          { label: 'Total Amount Due', value: `$${total.toLocaleString()} AUD`, highlight: true, mono: true },
+          { label: 'Amount Due', value: `$${total.toLocaleString()} AUD`, highlight: true, mono: true },
+          { label: 'Payment Method', value: methodLabel },
+          { label: 'Customer', value: customerName },
         ],
-        afterRows: `
-        <div style="background:#f8fafc;padding:16px;border-radius:8px;border-left:4px solid ${REPLY.brand.primary};margin-top:12px;">
-          <div style="font-weight:700;color:#0f172a;margin-bottom:4px;">Next Step: Payment Instructions</div>
-          <div style="color:#475569;font-size:13px;line-height:1.5;">
-            Our team will dispatch a separate payment email with our verified Australian bank details (or cryptocurrency address) and your freight reservation code shortly.
-          </div>
-        </div>`,
-        cta: {
-          label: 'Visit Electric Dirt Bike Australia',
-          url: `https://${SITE.domain}/`,
-        },
+        afterRows: termsHtml,
+        ctaButtons: [
+          {
+            label: "I've Paid — Upload Confirmation →",
+            url: `https://${SITE.domain}/confirm/?ref=${encodeURIComponent(orderRef)}`,
+            style: 'primary',
+          },
+          {
+            label: 'Confirm via WhatsApp →',
+            url: `https://wa.me/61420128746?text=${waText}`,
+            style: 'green',
+          },
+          {
+            label: 'Reply to us →',
+            url: `mailto:sales@electricdirtbikeaustralia.com.au?subject=Order%20${encodeURIComponent(orderRef)}`,
+            style: 'dark',
+          },
+        ],
       });
 
       const custResult = await sendMail({
         to: email,
-        subject: `Order Confirmation: ${orderRef} | ${SITE.name}`,
+        subject: `Order ${orderRef} Confirmed | ${SITE.name}`,
         html: customerHtml,
-        text: `Thank you for your order ${orderRef}. Total: $${total} AUD. Please watch for your payment instructions email.`,
+        text: `Order ${orderRef} confirmed. Amount Due: $${total} AUD via ${methodLabel}.\n\nTo confirm dispatch: send payment screenshot to sales@electricdirtbikeaustralia.com.au or WhatsApp +61 420 128 746.\n\nUpload proof: https://${SITE.domain}/confirm/?ref=${orderRef}`,
       });
       if (!custResult.sent) {
         console.error(`[order/${orderRef}] Customer email failed:`, custResult);

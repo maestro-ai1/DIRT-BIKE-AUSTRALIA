@@ -3,7 +3,7 @@
 import React from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { Upload, MessageSquare, CheckCircle } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
 import { REPLY } from '@/src/config/site';
 
 export function ThankYouOrderClient() {
@@ -22,12 +22,6 @@ export function ThankYouOrderClient() {
   const amountFormatted = total
     ? `$${Number(total).toLocaleString('en-AU')} AUD`
     : 'As quoted';
-
-  const waText = encodeURIComponent(
-    `Hi! Order *${orderRef}* placed for ${amountFormatted} via ${methodLabel}. ` +
-    `Ready to arrange payment — please send through the details. Thanks!`
-  );
-  const waLink = `https://wa.me/61420128746?text=${waText}`;
 
   const terms = [
     'This order is confirmed once payment is received.',
@@ -87,24 +81,6 @@ export function ThankYouOrderClient() {
         {/* Body */}
         <div className="px-6 py-5 space-y-5">
 
-          {/* "Send screenshot" instruction */}
-          <div className="bg-sky-50 border border-sky-200 rounded-xl px-4 py-3">
-            <p className="text-[13px] font-bold text-sky-900 leading-snug">
-              Once you have paid — send us a screenshot of your payment to confirm dispatch:
-            </p>
-            <div className="mt-2 space-y-1">
-              <p className="text-[12px] text-slate-600">
-                📧&nbsp;
-                <a href="mailto:sales@electricdirtbikeaustralia.com.au" className="font-semibold text-sky-700 hover:underline">
-                  sales&#64;electricdirtbikeaustralia.com.au
-                </a>
-              </p>
-              <p className="text-[12px] text-slate-600">
-                💬&nbsp;<span className="font-semibold text-slate-800">WhatsApp: +61 420 128 746</span>
-              </p>
-            </div>
-          </div>
-
           {/* Terms */}
           <ul className="space-y-2.5">
             {terms.map((t, i) => (
@@ -116,30 +92,6 @@ export function ThankYouOrderClient() {
               </li>
             ))}
           </ul>
-
-          {/* Divider */}
-          <div className="border-t border-slate-100" />
-
-          {/* Action Buttons */}
-          <div className="space-y-2.5">
-            <Link
-              href={`/confirm/?ref=${encodeURIComponent(orderRef)}`}
-              className="flex items-center justify-center gap-2 w-full py-3.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-sm transition-colors shadow shadow-sky-600/20"
-            >
-              <Upload className="w-4 h-4" />
-              I've Paid — Upload Confirmation →
-            </Link>
-
-            <a
-              href={waLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full py-3.5 bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold rounded-xl text-sm transition-colors shadow shadow-emerald-600/15"
-            >
-              <MessageSquare className="w-4 h-4" />
-              Confirm via WhatsApp →
-            </a>
-          </div>
 
           {/* Footer note */}
           {customerEmail && (
