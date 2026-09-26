@@ -1,13 +1,8 @@
 User-agent: *
-Disallow: /thank-you-contact/
-Disallow: /thank-you-order/
-Disallow: /thank-you-wholesale/
-Disallow: /admin/
-Sitemap: https://electricdirtbikeaustralia.com.au/sitemap.xml
+Allow: /
 
 Content-Signal: search=yes, ai-input=yes, ai-train=no
 
-# AI crawlers — welcome to index product and content pages
 User-agent: GPTBot
 Allow: /
 
@@ -43,6 +38,8 @@ Allow: /
 
 User-agent: cohere-ai
 Allow: /
+
+Sitemap: https://electricdirtbikeaustralia.com.au/sitemap.xml
 
 # Agent-readable resources
 # llms.txt: https://electricdirtbikeaustralia.com.au/llms.txt
