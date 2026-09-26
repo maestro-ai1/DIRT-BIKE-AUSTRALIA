@@ -18,6 +18,7 @@
     "https://electricdirtbikeaustralia.com.au/.well-known/mcp/server-card.json"
   ],
   "agent_auth": {
+    "skill": "https://electricdirtbikeaustralia.com.au/auth.md",
     "register_uri": null,
     "identity_types_supported": ["none"],
     "credential_types_supported": ["none"],
