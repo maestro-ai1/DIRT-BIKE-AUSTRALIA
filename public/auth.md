@@ -1,4 +1,4 @@
-# auth.md
+# Auth.md
 
 ## Site: Electric Dirt Bike Australia — High-Performance Electric Moto
 
