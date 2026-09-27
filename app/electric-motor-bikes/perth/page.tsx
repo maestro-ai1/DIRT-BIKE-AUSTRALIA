@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass, Truck, MapPin } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Electric Motor Bikes Perth WA — Buy Online, Free Delivery to Perth | EDBA',
   description: 'Buy electric motor bikes in Perth, Western Australia. Sur-Ron, Talaria, Stark Varg & more. Free insured freight to Perth WA on orders over $1,500. Fast dispatch from Mittagong NSW. 12-month AU warranty.',
@@ -181,17 +182,14 @@ export default function ElectricMotorBikesPerthPage() {
         {/* FAQ */}
         <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">Electric Bikes Perth — FAQ</h2>
-          <div className="divide-y divide-slate-100 space-y-4">
+          <div className="space-y-3">
             {[
               { q: 'Do you ship electric motor bikes to Perth and Western Australia?', a: 'Yes. We ship to all Perth suburbs and regional WA. All orders over $1,500 ship free with insured heavy-vehicle freight and real-time tracking. Standard delivery time to Perth metro is 5–8 business days.' },
               { q: 'Are electric bikes legal in Perth and Western Australia?', a: 'Pedal-assist e-bikes under 250W and 25 km/h are legal on WA roads and shared paths with no registration or licence required. Electric mopeds and motorcycles over 250W require registration under WA DoT rules. Off-road electric dirt bikes are for private property and designated off-road venues.' },
               { q: 'Can I pick up an electric bike from a Perth store?', a: 'We currently dispatch from our Mittagong NSW warehouse. Customers in Perth can arrange freight delivery to any address. Contact us on WhatsApp for ETA confirmation before ordering. Perth delivery is typically 5–8 business days by road freight.' },
               { q: 'Where can I ride an electric dirt bike in Perth?', a: 'Off-road electric dirt bikes are permitted at designated off-road vehicle parks around Perth including the Gnangara Off-Road Vehicle Area, Bullsbrook, and other private property with landowner permission. Check with WA DMIRS for current approved sites.' },
             ].map((item, i) => (
-              <div key={i} className="pt-4 space-y-1.5">
-                <h3 className="font-bold text-sm text-slate-900">{i + 1}. {item.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{item.a}</p>
-              </div>
+              <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}
           </div>
         </div>

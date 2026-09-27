@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, FileText, ArrowRight, CheckCircle, Gauge, Battery, Compass, Baby, Bike, MapPin, Star, BookOpen, Scale } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Electric Motorbikes Australia — Dirt, Commuter & Kids Range | EDBA',
   description: 'Browse electric motorbikes in Australia. Off-road dirt bikes, commuter mopeds, kids\' bikes — Sur-Ron, Talaria, E-Ride Pro, RTR eBike & more. Free shipping over $1,500. Nationwide delivery from Mittagong NSW.',
@@ -309,42 +310,22 @@ export default function ElectricMotorBikesPage() {
             </p>
           </div>
 
-          <div className="divide-y divide-slate-100 space-y-4">
-            <div className="pt-4 space-y-1.5">
-              <h3 className="font-bold text-sm text-slate-900">
-                1. What is the difference between an electric dirt bike and an electric motor bike in Australia?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          <div className="space-y-3">
+            <FaqItem question="1. What is the difference between an electric dirt bike and an electric motor bike in Australia?">
                 Electric dirt bikes (such as the Light Bee X or Talaria Sting R) are purpose-built for closed-circuit trail riding, motocross tracks, and private bush tracks. Electric motor bikes include dual-sport and street-homologated platforms (like the Sur-Ron Ultra Bee ADR and Storm Bee) that feature complete lighting harnesses, mirrors, horns, and VIN tags for public road registration under state motorcycle licensing.
-              </p>
-            </div>
+              </FaqItem>
 
-            <div className="pt-4 space-y-1.5">
-              <h3 className="font-bold text-sm text-slate-900">
-                2. Can electric motor bikes be charged from standard Australian household power points?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <FaqItem question="2. Can electric motor bikes be charged from standard Australian household power points?">
                 Yes! Every electric motor bike sold by Electric Dirt Bike Australia includes a smart fast charger fitted with a standard Australian 240V 10A/15A wall plug. You can plug it into any regular household power outlet in your garage, shed, or pit area without needing high-voltage EV station infrastructure.
-              </p>
-            </div>
+              </FaqItem>
 
-            <div className="pt-4 space-y-1.5">
-              <h3 className="font-bold text-sm text-slate-900">
-                3. What kind of maintenance is required compared to petrol motorcycles?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <FaqItem question="3. What kind of maintenance is required compared to petrol motorcycles?">
                 Electric motor bikes eliminate engine oil changes, air filter washing, spark plug replacements, carburetor cleaning, and top-end rebuilds. Routine maintenance is limited to keeping the drive chain lubricated and tensioned, checking brake pad wear, monitoring tyre pressures, and ensuring battery storage voltage guidelines are followed.
-              </p>
-            </div>
+              </FaqItem>
 
-            <div className="pt-4 space-y-1.5">
-              <h3 className="font-bold text-sm text-slate-900">
-                4. What warranty and genuine replacement parts support is provided in Australia?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            <FaqItem question="4. What warranty and genuine replacement parts support is provided in Australia?">
                 All electric motor bikes sold by Electric Dirt Bike Australia include a 12-Month Comprehensive Australian Factory Warranty covering the motor, controller, battery, frame, and wiring harness. We stock genuine replacement parts locally in our Mittagong NSW 2575 warehouse for rapid dispatch nationwide.
-              </p>
-            </div>
+              </FaqItem>
           </div>
         </div>
 

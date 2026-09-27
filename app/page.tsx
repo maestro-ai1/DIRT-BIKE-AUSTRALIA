@@ -7,6 +7,7 @@ import { PRODUCTS, BRANDS, CATEGORIES, FAQ, SITE, CONTACT, BRAND, SHOP } from '@
 import { Zap, ShieldCheck, Truck, ArrowRight, Award, BatteryCharging, Wrench, ChevronRight, CheckCircle, Flame } from 'lucide-react';
 import { Metadata } from 'next';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: { absolute: 'Buy Electric Dirt Bikes Australia | Sur-Ron, Talaria & Stark Varg' },
   description: 'Buy electric dirt bikes in Australia — Sur-Ron, Talaria & Stark Varg. Genuine AU stock, 12-month warranty, free delivery over $1,500 from NSW.',
@@ -518,19 +519,11 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-3">
             {FAQ.map((item, idx) => (
-              <div
-                key={idx}
-                className="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 transition-all hover:bg-slate-100/80"
-              >
-                <h3 className="text-base font-bold text-slate-900 mb-2">
-                  {item.question}
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                  {item.answer}
-                </p>
-              </div>
+              <FaqItem key={idx} question={item.question}>
+                {item.answer}
+              </FaqItem>
             ))}
           </div>
 

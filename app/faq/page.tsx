@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { HelpCircle, ChevronRight } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Electric Dirt Bike FAQ Australia — Legality, Cost, Speed & Warranty | EDBA',
   description: 'Answers to the most common electric dirt bike questions in Australia. Are electric dirt bikes legal? How much do they cost? How fast does a Sur-Ron go? Battery life, registration, crypto discount & more.',
@@ -85,17 +86,9 @@ export default function FaqPage() {
 
         <div className="space-y-4">
           {FAQ.map((item, idx) => (
-            <div
-              key={idx}
-              className="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200/90 shadow-xs"
-            >
-              <h2 className="text-base sm:text-lg font-bold text-slate-900 mb-2">
-                {item.question}
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                {item.answer}
-              </p>
-            </div>
+            <FaqItem key={idx} as="h2" question={item.question}>
+              {item.answer}
+            </FaqItem>
           ))}
         </div>
 

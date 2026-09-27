@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Baby, Star } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Kids Electric Bikes & Motorbikes Australia — Junior Range Ages 3–16 | EDBA',
   description: 'Shop kids electric bikes and motorbikes in Australia. Ages 3–16. Junior dirt bikes, balance bikes, childs electric motorcycle — free delivery over $1,500. 12-month AU warranty. Safe, fun, and parent-controlled.',
@@ -254,17 +255,14 @@ export default function KidsElectricMotorbikeePage() {
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">Kids Electric Motorbikes Australia — FAQ</h2>
             <p className="text-xs sm:text-sm text-slate-500 mt-1">Everything Australian parents need to know before buying a kids electric motorbike.</p>
           </div>
-          <div className="divide-y divide-slate-100 space-y-4">
+          <div className="space-y-3">
             {[
               { q: 'What age is suitable for a kids electric motorbike in Australia?', a: 'Kids electric motorbikes are available for ages 3 and up. Toddler starter models (250W, 6 km/h) suit ages 3–6. Competition-spec KTM SX-E 5 and Husqvarna EE 5 are designed for ages 4–10 with parent-adjustable power modes. OSET trials bikes suit ages 6–14, and teen-friendly platforms like the Razor MX650 are ideal from ages 13+.' },
               { q: 'Do Australian kids need a licence to ride an electric motorbike?', a: 'No licence is required for private property and designated off-road riding regardless of age. For road use, state laws vary — bikes under 250W and 25 km/h pedal-assist generally require no licence, while higher-powered bikes require motorcycle licensing. All kids bikes in our range are sold for off-road use only unless noted as road-legal.' },
               { q: 'Which kids electric motorbike is best for a 5 year old?', a: 'The KTM SX-E 5 and Husqvarna EE 5 are specifically engineered for ages 4–10 with 3 parent-selectable power modes starting at 20% power. The OSET 20.0 Racing is the leading choice for trials riding with its infinite variable speed dial. Both brands are used in official junior competition series worldwide.' },
               { q: 'How long does a childs electric motorbike battery last per charge?', a: 'Ride time varies by model and power setting. The KTM SX-E 5 provides 35–80 minutes depending on the power mode selected. The OSET 20.0 Racing lasts up to 3 hours. The Razor MX650 delivers approximately 40–45 minutes per charge. All chargers included use standard Australian 240V wall plugs.' },
             ].map((item, i) => (
-              <div key={i} className="pt-4 space-y-1.5">
-                <h3 className="font-bold text-sm text-slate-900">{i + 1}. {item.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{item.a}</p>
-              </div>
+              <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}
           </div>
         </div>

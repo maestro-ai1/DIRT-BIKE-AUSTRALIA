@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, MapPin } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'RTR eBike Australia — Buy Online, Free AU Delivery | EDBA',
   description: 'Shop the RTR eBike Australia range. Road-legal electric commuters — no licence, no registration required. Free delivery over $1,500. 12-month AU warranty. Genuine stock from Mittagong NSW.',
@@ -188,17 +189,14 @@ export default function RtrEbikePage() {
         {/* FAQ */}
         <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight border-b border-slate-100 pb-4">RTR eBike Australia — FAQ</h2>
-          <div className="divide-y divide-slate-100 space-y-4">
+          <div className="space-y-3">
             {[
               { q: 'Does an RTR eBike require registration in Australia?', a: 'No. RTR eBike models are 250W EN15194-compliant pedal-assist e-bikes — classified as bicycles under Australian law. No registration, licence, or number plate is required in any Australian state or territory.' },
               { q: 'How far can an RTR eBike travel on one charge?', a: 'The RTR eBike Pro delivers up to 80 km per charge in eco mode on its 36V 15Ah battery. The RTR eBike S Classic achieves up to 70 km on its 36V 13Ah pack. Real-world range in mixed city riding with moderate assist is typically 50–65 km.' },
               { q: 'Can I ride an RTR eBike on shared paths in Australia?', a: 'Yes. As a pedal-assist e-bike under 250W and 25 km/h, RTR eBikes are permitted on dedicated cycling paths, shared paths, and roads in all Australian states and territories under current e-bike regulations.' },
               { q: 'What warranty is included with an RTR eBike in Australia?', a: 'All RTR eBike models purchased through Electric Dirt Bike Australia include a 12-Month Comprehensive Australian Factory Warranty covering the motor, battery, controller, and frame from our Mittagong NSW warehouse.' },
             ].map((item, i) => (
-              <div key={i} className="pt-4 space-y-1.5">
-                <h3 className="font-bold text-sm text-slate-900">{i + 1}. {item.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{item.a}</p>
-              </div>
+              <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}
           </div>
         </div>

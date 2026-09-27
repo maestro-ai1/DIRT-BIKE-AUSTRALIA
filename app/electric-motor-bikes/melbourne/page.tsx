@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Truck, MapPin } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Electric Motor Bikes Melbourne VIC — Buy Online, Free Delivery | EDBA',
   description: 'Buy electric motor bikes in Melbourne, Victoria. Sur-Ron, Talaria, Stark Varg & more. Free insured delivery to Melbourne VIC on orders over $1,500. Same-week dispatch from Mittagong NSW. 12-month AU warranty.',
@@ -205,17 +206,14 @@ export default function ElectricMotorBikesMelbournePage() {
         {/* FAQ */}
         <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">Electric Bikes Melbourne — FAQ</h2>
-          <div className="divide-y divide-slate-100 space-y-4">
+          <div className="space-y-3">
             {[
               { q: 'Do you deliver electric bikes to Melbourne?', a: 'Yes. We deliver to all Melbourne suburbs and regional Victoria in 2–4 business days from Mittagong NSW. All orders over $1,500 ship free with insured crate freight and real-time tracking.' },
               { q: 'Are electric bikes legal in Melbourne and Victoria?', a: 'Pedal-assist e-bikes under 250W and 25 km/h are legal on Melbourne roads, bike lanes, and shared paths without registration or a licence. Electric motorcycles over 250W require VicRoads registration and a motorcycle licence.' },
               { q: 'What are the e-bike laws in Victoria?', a: 'VIC e-bike regulations follow the national standard: pedal-assist ≤250W and ≤25 km/h is road-legal without rego. Throttle-only or higher-power electric bikes require motorcycle registration. Off-road parks and private property have no power limits.' },
               { q: 'Where can I ride an electric dirt bike near Melbourne?', a: 'Popular off-road areas near Melbourne include Broadford Motorcycle Park, Touratech Trails in the Dandenongs, private farm properties in Gippsland, and the Otway Ranges tracks for licensed off-road riders. Always check local land manager permissions before riding.' },
             ].map((item, i) => (
-              <div key={i} className="pt-4 space-y-1.5">
-                <h3 className="font-bold text-sm text-slate-900">{i + 1}. {item.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{item.a}</p>
-              </div>
+              <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}
           </div>
         </div>

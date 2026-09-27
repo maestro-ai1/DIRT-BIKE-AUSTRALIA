@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Electric Dirt Bikes Australia — Off-Road Trail & Enduro Performance | EDBA',
   description: 'Shop electric dirt bikes in Australia. Sur-Ron Light Bee X, Talaria Sting R, Stark Varg, E-Ride Pro & more. Off-road performance, free delivery over $1,500 AUD. 12-month AU warranty. From $3,990.',
@@ -278,31 +279,16 @@ export default function ElectricDirtBikesPage() {
               Electric Dirt Bikes in Australia — Frequently Asked Questions
             </h2>
           </div>
-          <div className="divide-y divide-slate-100 space-y-4">
-            <div className="pt-4 space-y-1.5">
-              <h3 className="font-bold text-sm text-slate-900">
-                1. What are the best electric dirt bikes available in Australia?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+          <div className="space-y-3">
+            <FaqItem question="1. What are the best electric dirt bikes available in Australia?">
                 The top electric dirt bikes in Australia include the Sur-Ron Light Bee X for lightweight trail riding, the Sur-Ron Ultra Bee for high-power enduro, the Talaria Sting R MX4 for sealed oil-bath trail performance, the Stark Varg EX 80HP for championship motocross, and the Stealth B-52 Bomber for heavy-duty Australian bush riding.
-              </p>
-            </div>
-            <div className="pt-4 space-y-1.5">
-              <h3 className="font-bold text-sm text-slate-900">
-                2. Are electric dirt bikes road legal in Australia?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              </FaqItem>
+            <FaqItem question="2. Are electric dirt bikes road legal in Australia?">
                 Pure off-road electric dirt bikes without ADR compliance fittings are intended for private property and designated off-road parks only. Some models can be ordered with ADR lighting kits for road registration under LAMS in NSW, VIC, QLD, and WA.
-              </p>
-            </div>
-            <div className="pt-4 space-y-1.5">
-              <h3 className="font-bold text-sm text-slate-900">
-                3. How long does the battery last on an electric dirt bike?
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              </FaqItem>
+            <FaqItem question="3. How long does the battery last on an electric dirt bike?">
                 Battery range varies by riding style and terrain. Trail riding typically yields 40–90 km per charge on mid-size platforms. All bikes include a 240V Australian smart fast charger for overnight or quick top-up charging.
-              </p>
-            </div>
+              </FaqItem>
           </div>
         </div>
 

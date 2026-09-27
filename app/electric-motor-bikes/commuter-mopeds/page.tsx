@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Electric Commuter Mopeds Australia — Road-Legal, LAMS Approved | EDBA',
   description: 'Shop road-legal electric mopeds and commuter e-bikes in Australia. LAMS approved, free delivery over $1,500, 12-month warranty. Electric motorbike road legal — commuter range available now.',
@@ -176,17 +177,14 @@ export default function CommuterMopedsPage() {
         {/* FAQ */}
         <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight border-b border-slate-100 pb-4">Electric Mopeds Australia — FAQ</h2>
-          <div className="divide-y divide-slate-100 space-y-4">
+          <div className="space-y-3">
             {[
               { q: 'Do electric mopeds require registration in Australia?', a: 'Electric mopeds over 250W or capable of exceeding 25 km/h require road registration as a motorcycle or moped. LAMS-approved models like the NIU NQi GT and Vmoto TC-Max can be registered in all Australian states. Pedal-assist e-bikes under 250W require no registration.' },
               { q: 'What licence is needed for an electric moped in Australia?', a: 'LAMS-approved electric mopeds require a motorcycle learner permit or full motorcycle licence. L-plate and P-plate riders can ride LAMS-approved models in all states. RTR eBike (250W pedal-assist) models require no licence.' },
               { q: 'Are electric mopeds allowed in bike lanes in Australia?', a: 'Pedal-assist e-bikes under 250W (like the RTR eBike range) are permitted in bike lanes and shared paths. Registered electric mopeds over 250W must use the road and follow the same road rules as petrol motorcycles.' },
               { q: 'How far does an electric moped travel on one charge in Australia?', a: 'Range varies by model. The NIU NQi GT dual-battery model achieves 100 km. The Super Soco CPx delivers up to 90 km. The Vmoto TC-Max reaches 120 km. RTR eBike commuters deliver 70–80 km per charge.' },
             ].map((item, i) => (
-              <div key={i} className="pt-4 space-y-1.5">
-                <h3 className="font-bold text-sm text-slate-900">{i + 1}. {item.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{item.a}</p>
-              </div>
+              <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}
           </div>
         </div>

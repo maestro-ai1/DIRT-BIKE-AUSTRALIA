@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Star, Trophy } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'Best Electric Bikes Australia 2026 — Top 10 Expert Ranked | EDBA',
   description: 'Australia\'s best electric bikes for 2026. Expert-ranked: Sur-Ron Light Bee X, Talaria Sting R, Stark Varg, Stealth B-52 & more. Compare by use case, budget & skill level. Buy from Australia\'s authorised dealer.',
@@ -224,17 +225,14 @@ export default function BestElectricBikesAustraliaPage() {
         {/* FAQ */}
         <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">Best Electric Bikes Australia — FAQ</h2>
-          <div className="divide-y divide-slate-100 space-y-4">
+          <div className="space-y-3">
             {[
               { q: 'What is the best electric bike in Australia in 2026?', a: 'The best electric bike depends on your use case. For off-road trail riding: Sur-Ron Light Bee X ($6,490). For commuting: RTR eBike Pro ($3,490, no licence needed). For competition: Talaria Sting R MX4 ($8,990). For kids: KTM SX-E 5 ($7,990 for ages 4–10). For road use: NIU NQi GT electric moped ($5,990, LAMS approved).' },
               { q: 'What is the best e-bike for commuting in Australia?', a: 'The RTR eBike Pro is the best commuter e-bike in Australia for most riders — 250W road-legal, 80 km range, Shimano 7-speed, no licence, no registration required. For speed above 25 km/h on roads, the NIU NQi GT delivers 70 km/h and requires a motorcycle learner permit under LAMS.' },
               { q: 'What is the best electric dirt bike in Australia?', a: 'The Sur-Ron Light Bee X at $6,490 is Australia\'s best-selling electric dirt bike — 47 kg, 6,000W peak, 75 km/h, and the most supported platform with local parts availability. For competition riders, the Talaria Sting R MX4 at $8,990 offers superior suspension and range.' },
               { q: 'How do I choose the best electric bike for my needs in Australia?', a: 'Consider: (1) Road use vs off-road — 250W pedal-assist needs no licence for roads; off-road bikes require private property. (2) Rider age — dedicated youth platforms for under 16. (3) Budget — $3,000–$9,000 covers the best middle-range. (4) Use frequency — SLA batteries for occasional use, lithium for daily riding. (5) Warranty — EDBA includes 12-month AU warranty on all models.' },
             ].map((item, i) => (
-              <div key={i} className="pt-4 space-y-1.5">
-                <h3 className="font-bold text-sm text-slate-900">{i + 1}. {item.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{item.a}</p>
-              </div>
+              <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}
           </div>
         </div>

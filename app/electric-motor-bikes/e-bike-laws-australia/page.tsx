@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { ArrowRight, CheckCircle, AlertTriangle, Scale, MapPin, ShieldCheck } from 'lucide-react';
 
+import { FaqItem } from '@/components/FaqItem';
 export const metadata: Metadata = {
   title: 'E-Bike Laws Australia 2026 — Are Electric Dirt Bikes Legal? State-by-State Guide | EDBA',
   description: 'Complete guide to electric dirt bike and e-bike laws in Australia 2026. Are electric dirt bikes legal in Australia? Road registration, licence requirements, and off-road rules for NSW, VIC, QLD, WA & SA explained.',
@@ -273,7 +274,7 @@ export default function EBikeLawsAustraliaPage() {
         {/* FAQ */}
         <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">E-Bike Laws Australia 2026 — FAQ</h2>
-          <div className="divide-y divide-slate-100 space-y-4">
+          <div className="space-y-3">
             {[
               { q: 'Are electric bikes legal in Australia?', a: 'Yes. Pedal-assist e-bikes with ≤250W continuous motor output that only assist to 25 km/h are legal in all Australian states as bicycles — requiring no licence, registration, or number plate. Higher-powered electric bikes are classified as motorcycles and require registration and a licence.' },
               { q: 'Do electric bikes need registration in Australia?', a: 'No, for road-legal e-bikes. Compliant pedal-assist e-bikes (≤250W, ≤25 km/h) require no registration in any Australian state. Electric motorcycles, mopeds, and throttle-only e-bikes exceeding these limits require registration with your state roads authority.' },
@@ -281,10 +282,7 @@ export default function EBikeLawsAustraliaPage() {
               { q: 'What are the e-bike laws in Victoria?', a: 'In Victoria, pedal-assist e-bikes (pedelecs) ≤250W that cut out at 25 km/h require no registration, no licence, and no number plates. Bikes exceeding these limits must be registered with VicRoads as mopeds or motorcycles.' },
               { q: 'Are electric dirt bikes legal in Australia?', a: 'Off-road electric dirt bikes are legal for use on private property and designated off-road parks in all Australian states. They cannot be ridden on public roads without motorcycle registration. Popular off-road parks and motocross circuits accommodate these bikes with separate track days.' },
             ].map((item, i) => (
-              <div key={i} className="pt-4 space-y-1.5">
-                <h3 className="font-bold text-sm text-slate-900">{i + 1}. {item.q}</h3>
-                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">{item.a}</p>
-              </div>
+              <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}
           </div>
         </div>
