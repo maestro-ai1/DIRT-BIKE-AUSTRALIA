@@ -16,11 +16,11 @@ import {
   Clock,
   ArrowRight,
   ChevronRight,
-  ChevronDown,
   Share2,
   HelpCircle,
 } from 'lucide-react';
 import { getProductFaqs } from '@/lib/productFaqs';
+import { FaqItem } from '@/components/FaqItem';
 
 interface Product {
   slug: string;
@@ -48,7 +48,6 @@ export function ProductDetailClient({
   const [qty, setQty] = useState(1);
   const [selectedImage, setSelectedImage] = useState(0);
   const [copiedLink, setCopiedLink] = useState(false);
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const faqs = getProductFaqs(product);
   const cryptoPrice = Math.round(product.price * (1 - SHOP.cryptoDiscount / 100));
@@ -319,35 +318,12 @@ export function ProductDetailClient({
           </span>
         </div>
 
-        <div className="divide-y divide-slate-100 space-y-2">
-          {faqs.map((faq, idx) => {
-            const isOpen = openFaq === idx;
-            return (
-              <div key={idx} className="pt-2">
-                <button
-                  type="button"
-                  onClick={() => setOpenFaq(isOpen ? null : idx)}
-                  className="w-full flex items-center justify-between py-3 text-left focus:outline-none focus-visible:ring-2 focus-visible:ring-sky-500 rounded-lg group"
-                >
-                  <span className="text-sm sm:text-base font-bold text-slate-900 group-hover:text-sky-600 transition-colors pr-4">
-                    {idx + 1}. {faq.question}
-                  </span>
-                  <div className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 transition-transform ${
-                    isOpen ? 'rotate-180 bg-sky-50 text-sky-600' : 'bg-slate-100 text-slate-500'
-                  }`}>
-                    <ChevronDown className="w-4 h-4" />
-                  </div>
-                </button>
-                {isOpen && (
-                  <div className="pb-4 pt-1 pr-6 text-xs sm:text-sm text-slate-600 leading-relaxed animate-in fade-in duration-200">
-                    <p className="bg-slate-50 p-4 rounded-xl border border-slate-100">
-                      {faq.answer}
-                    </p>
-                  </div>
-                )}
-              </div>
-            );
-          })}
+        <div className="space-y-3">
+          {faqs.map((faq, idx) => (
+            <FaqItem key={idx} question={`${idx + 1}. ${faq.question}`} defaultOpen={idx === 0}>
+              {faq.answer}
+            </FaqItem>
+          ))}
         </div>
 
         <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
