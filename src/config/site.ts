@@ -14,7 +14,7 @@ export const SITE = {
   trustColor: '#00b67a',   // Trustpilot Green
   darkHeader: '#0f172a',   // Slate 900
   gscVerification: 'REPLACE_WITH_GSC_VERIFICATION_CODE',
-  bingVerification: 'REPLACE_WITH_BING_VERIFICATION_CODE',
+  bingVerification: 'ED04A0517174266DEB977A65D448A32D',
   indexNowKey: 'edba98611685977indexnow',
   cartKey: 'edba-cart',
 };
