@@ -21,9 +21,10 @@
     "skill": "https://electricdirtbikeaustralia.com.au/auth.md",
     "register_uri": "https://electricdirtbikeaustralia.com.au/api/agent/identity/",
     "identity_types_supported": ["anonymous"],
+    "claim_uri": "https://electricdirtbikeaustralia.com.au/api/agent/claim/",
     "anonymous": {
       "credential_types_supported": ["service_signed_identity"],
-      "claim_uri": "https://electricdirtbikeaustralia.com.au/api/agent/identity/"
+      "claim_uri": "https://electricdirtbikeaustralia.com.au/api/agent/claim/"
     }
   }
 }
