@@ -3363,6 +3363,446 @@ For children ages 8–13, the [OSET 20.0 Racing](https://www.electricdirtbikeaus
 ### Conclusion: Buying Electric in Australia in 2026
 The Australian electric bike market offers genuine choices across every category, budget, and skill level. The common threads across all category winners are factory warranty support, locally available parts, and authorised dealer backup. [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) stocks every category winner listed above with 12-month Australian warranty, free freight over $1,500, and expert pre-purchase advice via WhatsApp.`,
   },
+  {
+    slug: "how-fast-do-electric-dirt-bikes-go",
+    title: "How Fast Do Electric Dirt Bikes Go?",
+    excerpt: "Real top speeds for Sur-Ron, Talaria and Stark Varg compared.",
+    category: "Comparisons",
+    date: "2026-09-20",
+    readTime: "5 min read",
+    image: "/images/hero-2-sur-ron-electric-off-road-australia.jpg",
+    content: `Top speed is the single most-asked question from first-time buyers, but the honest answer depends heavily on gearing, rider weight, and terrain. Here's how the current [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/) range actually performs on Australian trails, not just on a spec sheet.
+
+### Sur-Ron Light Bee X and Ultra Bee
+The [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) is electronically limited to around 68km/h in its stock trail mode, which is where most riders leave it for singletrack and fire roads. The higher-output [Sur-Ron Ultra Bee](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) pushes closer to 90km/h thanks to its larger 74V pack and higher-RPM motor, though that speed is realistically only reached on open, flat ground.
+
+### Talaria Sting R MX4
+The [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) sits in a similar band to the Ultra Bee, with its 8kW peak output and sealed oil-bath gearbox giving strong mid-range acceleration rather than an outright top-end advantage. Most owners report the bike feels faster than its GPS-verified top speed because of how hard it pulls out of corners.
+
+### Stark Varg EX 80HP
+The [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) is in a different class entirely — its 80HP motocross-tuned powertrain is built for track lap times, not outright top speed, with fully customisable throttle maps that let riders dial in acceleration curves rather than chase a single number.
+
+### Why Top Speed Isn't the Full Story
+Weight, suspension travel, and torque delivery matter more than a headline top speed figure for most Australian off-road riding. All models above are genuine Australian stock through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/), backed by a 12-month factory warranty and dispatched from our Mittagong NSW facility. Off-road models are intended for private property and designated off-road parks.`,
+  },
+  {
+    slug: "electric-dirt-bike-cost-australia-price-guide",
+    title: "Electric Dirt Bike Cost in Australia (2026)",
+    excerpt: "Electric dirt bike prices in Australia by category and brand.",
+    category: "Guides",
+    date: "2026-09-20",
+    readTime: "5 min read",
+    image: "/images/theme_dirtbike_cover.jpg",
+    content: `Electric dirt bike prices in Australia vary enormously depending on power output, brand, and intended rider, from entry-level kids bikes through to full motocross-spec machines. Here's a realistic breakdown by category from the current [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/) range.
+
+### Entry-Level and Kids Bikes: $699–$3,690
+Budget models like the [Razor MX650](https://www.electricdirtbikeaustralia.com.au/shop/razor-mx650-electric-kids/) and beginner bikes such as the [EDBA Moto 50](https://www.electricdirtbikeaustralia.com.au/shop/edba-moto-50-kids-beginner/) sit at the lower end, purpose-built for younger or lighter riders learning the basics on private property.
+
+### Mid-Range Trail Bikes: $6,000–$8,000
+This is where most adult buyers land. The [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) and [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) both sit in this bracket, offering genuine trail performance with factory-backed reliability.
+
+### High-Performance and Motocross: $9,000+
+Machines like the [Stark Varg EX 80HP](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) and full-size enduro platforms such as the [Talaria Dragon](https://www.electricdirtbikeaustralia.com.au/shop/talaria-dragon-enduro/) command a premium for their motocross-grade suspension, brakes, and power delivery.
+
+### What's Included in the Price
+Every bike sold through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) includes a 12-month comprehensive Australian factory warranty, pre-delivery inspection, and dispatch direct from our Mittagong NSW facility — with free freight on orders over $1,500. Financing and a 10% discount for crypto payments (BTC/USDT/ETH) are also available at checkout.`,
+  },
+  {
+    slug: "electric-dirt-bike-licence-requirements-australia",
+    title: "Electric Dirt Bike Licence Rules in Australia",
+    excerpt: "Licence rules for off-road electric dirt bikes across Australian states.",
+    category: "Legal & Safety",
+    date: "2026-09-21",
+    readTime: "5 min read",
+    image: "/images/hero-3-talaria-electric-enduro-australia.jpg",
+    content: `Whether you need a licence depends entirely on where you're riding, not on the fact that the bike is electric. This is one of the most common questions we get at [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/), so here's the practical breakdown.
+
+### Private Property and Off-Road Parks
+Riding a purpose-built off-road electric dirt bike like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) or [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) on private property or a designated off-road park does not require a motorcycle licence in any Australian state, since these bikes are not registered for road use in this configuration.
+
+### Road Registration Changes Everything
+Some models can be ordered with ADR-compliant lighting kits for road registration under LAMS (Learner Approved Motorcycle Scheme) in NSW, VIC, QLD, and WA. Once a bike is registered for road use, standard motorcycle licensing rules apply, including a learner permit or full motorcycle licence depending on the state and rider's age.
+
+### State-by-State Variation
+Rules on off-road vehicle parks, minimum rider age, and helmet requirements vary between states and local councils, so always check with your state's transport authority or the specific off-road park's own rules before riding. Our [FAQ page](https://www.electricdirtbikeaustralia.com.au/faq/) covers the most commonly asked legal questions in more detail.
+
+### Our Recommendation
+Off-road electric dirt bikes purchased through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) are supplied for use on private property and designated off-road parks only. If road use is your goal, speak to our Mittagong team about ADR-compliant options before ordering.`,
+  },
+  {
+    slug: "electric-dirt-bike-battery-lifespan-replacement-cost",
+    title: "Electric Dirt Bike Battery Lifespan & Cost",
+    excerpt: "Realistic battery lifespan and replacement pricing for 60V and 72V packs.",
+    category: "Guides",
+    date: "2026-09-21",
+    readTime: "6 min read",
+    image: "/images/product-72v-60ah-battery.jpg",
+    content: `Battery lifespan is usually measured in charge cycles rather than years, and with correct charging habits, most 60V and 72V lithium packs sold through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/accessories/) will comfortably outlast the bike's other wear components.
+
+### Typical Cycle Life
+Quality lithium-ion packs using Samsung or Molicel cells typically deliver 500 to 800 full charge cycles before dropping below 80% of original capacity, which for a moderate rider translates to roughly 3 to 5 years of regular weekend riding. Our [battery charging and maintenance guide](https://www.electricdirtbikeaustralia.com.au/blog/how-to-charge-maintain-electric-dirt-bike-batteries/) covers how to maximise this figure.
+
+### What Shortens Battery Life
+Consistently charging to 100% and leaving the pack sitting fully charged, riding in extreme heat without cooldown periods, and deep-discharging the battery below 10% repeatedly are the three biggest factors that accelerate degradation.
+
+### Replacement Costs in Australia
+A genuine replacement 60V 40Ah pack for a Sur-Ron typically costs between $1,200 and $1,800, while higher-capacity 72V packs like our [72V 50Ah Long Range Battery](https://www.electricdirtbikeaustralia.com.au/shop/72v-50ah-long-range-battery/) sit higher due to increased cell count. Buying a genuine, correctly BMS-matched replacement rather than a generic import protects both performance and warranty status.
+
+### Warranty Coverage
+All batteries sold through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) carry a 12-month factory warranty against cell and BMS defects when charged according to the manufacturer's guidelines, with genuine stock dispatched from our Mittagong NSW facility.`,
+  },
+  {
+    slug: "can-you-ride-electric-dirt-bike-in-rain",
+    title: "Can You Ride an Electric Dirt Bike in the Rain?",
+    excerpt: "What electric dirt bikes can handle in wet Australian conditions.",
+    category: "Guides",
+    date: "2026-09-22",
+    readTime: "4 min read",
+    image: "/images/hero_talaria_ridge_1790338208529.jpg",
+    content: `Modern electric dirt bikes are built with sealed electronics and IP-rated connectors specifically because off-road riding means mud, creek crossings, and unpredictable Australian weather. Short answer: yes, but with some sensible precautions.
+
+### Sealed Components Are the Standard
+Bikes like the [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) use a sealed oil-bath gearbox specifically to handle mud, water crossings, and dust ingress far better than an exposed belt-drive system. Battery packs and controllers on all models we stock use sealed connectors rated for wet-weather off-road use.
+
+### What to Avoid
+Fully submerging the bike, pressure-washing directly into the motor housing or battery compartment, and charging a wet battery pack before it has dried are the main things to avoid. Light rain, muddy trails, and shallow creek crossings are all within normal operating conditions for these bikes.
+
+### Post-Ride Care Matters Most
+Our [pre-ride and post-wash maintenance guide](https://www.electricdirtbikeaustralia.com.au/blog/complete-pre-ride-and-post-wash-maintenance-guide/) covers the correct way to clean a bike after a wet ride without forcing water into sealed bearings or electrical connectors.
+
+### Bottom Line
+Every bike dispatched by [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) from our Mittagong NSW facility is built for genuine Australian off-road conditions, backed by a 12-month factory warranty. If you're regularly riding in wet terrain, our team can advise on the best model and protective upgrades for your conditions.`,
+  },
+  {
+    slug: "electric-dirt-bike-finance-payment-plans-australia",
+    title: "Electric Dirt Bike Finance Options in Australia",
+    excerpt: "Payment options for buying an electric dirt bike in Australia in 2026.",
+    category: "Guides",
+    date: "2026-09-22",
+    readTime: "4 min read",
+    image: "/images/hero_surron_trail_1790338185425.jpg",
+    content: `Buying an electric dirt bike is a meaningful purchase, and Australian riders increasingly ask about flexible payment options before committing to a model. Here's how checkout works at [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/).
+
+### Standard Payment Methods
+Bank transfer (EFT/OSKO) and PayID are the two most common payment methods for orders placed through our website or via our Mittagong sales team, with funds typically clearing same-day for OSKO-enabled banks.
+
+### The Crypto Discount
+Paying with Bitcoin, USDT, or ETH unlocks an automatic 10% discount on any bike or accessory in our range — a straightforward way to reduce the total cost on higher-value models like the [Stark Varg EX 80HP](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) or [Sur-Ron Ultra Bee](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/).
+
+### Financing Through Third-Party Providers
+While Electric Dirt Bike Australia doesn't operate an in-house finance product, many customers arrange third-party consumer finance or novated leasing independently and then pay us directly via bank transfer once approved. Speak to our team via [WhatsApp](https://www.electricdirtbikeaustralia.com.au/contact/) if you'd like a formal quote to take to a lender.
+
+### Getting a Quote
+Every quote includes the bike price, freight (free over $1,500), and any applicable crypto discount, so you know the exact total before paying. All bikes carry a 12-month factory warranty and are dispatched from our Mittagong NSW facility.`,
+  },
+  {
+    slug: "sur-ron-horsepower-power-specs-explained",
+    title: "How Much Horsepower Does a Sur-Ron Have?",
+    excerpt: "Sur-Ron motor power, torque, and real-world performance explained.",
+    category: "Comparisons",
+    date: "2026-09-23",
+    readTime: "4 min read",
+    image: "/images/product-sur-ron-ultra-bee.jpg",
+    content: `Sur-Ron doesn't officially quote horsepower in the same way petrol dirt bikes do, since electric motors deliver torque differently — but here's how the numbers translate for riders comparing specs.
+
+### Light Bee X: Roughly 8HP Continuous, Higher Peak
+The [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) produces 6kW of peak power, which converts to roughly 8HP, though the instant torque delivery (up to 250Nm at the rear wheel) makes it feel considerably stronger off the line than a petrol bike with similar horsepower.
+
+### Ultra Bee: Significantly More Power
+The [Sur-Ron Ultra Bee](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) steps up to 12.5kW peak output — around 17HP equivalent — paired with a larger 74V 55Ah battery, making it noticeably stronger on hill climbs and technical enduro terrain.
+
+### Why Torque Matters More Than Horsepower
+Because electric motors deliver maximum torque from zero RPM, a Sur-Ron with modest horsepower figures can out-accelerate a much higher-horsepower petrol bike in short bursts, which is why raw HP comparisons can be misleading for electric dirt bikes.
+
+### Genuine Australian Stock
+Both models are available through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/), our authorised Sur-Ron dealership, with 12-month factory warranty and dispatch from Mittagong NSW.`,
+  },
+  {
+    slug: "what-age-can-kids-ride-electric-dirt-bikes",
+    title: "What Age Can Kids Ride Electric Dirt Bikes?",
+    excerpt: "Age-appropriate electric dirt bike models for kids from 3 to teens.",
+    category: "Guides",
+    date: "2026-09-23",
+    readTime: "5 min read",
+    image: "/images/product-oset-20-0-junior.jpg",
+    content: `Choosing the right electric dirt bike for a child comes down to age, height, and riding experience rather than a single cut-off number. Here's how our range at [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/) breaks down by age group.
+
+### Ages 3–6: First Bike
+The [EDBA Moto 50](https://www.electricdirtbikeaustralia.com.au/shop/edba-moto-50-kids-beginner/) is purpose-built for toddlers and young children learning balance and throttle control, with a speed-limited setting parents can adjust as confidence grows.
+
+### Ages 4–10: Stepping Up
+The [KTM SX-E 5](https://www.electricdirtbikeaustralia.com.au/shop/ktm-sx-e-5-youth-electric/) and [Husqvarna EE 5](https://www.electricdirtbikeaustralia.com.au/shop/husqvarna-ee-5-youth-electric/) are engineered specifically for this age bracket, with three parent-adjustable power modes that let the bike grow with the rider's skill.
+
+### Ages 8–13: Competition-Ready
+For children ready for structured competition, the [OSET 20.0 Racing](https://www.electricdirtbikeaustralia.com.au/shop/oset-20-0-racing-junior/) is the globally recognised junior trials benchmark, used in formal junior championships and offering genuine competition-grade handling.
+
+### Safety First
+Regardless of age, all young riders should wear a properly fitted helmet, gloves, and boots, and ride only on private property or designated off-road areas under adult supervision. Our [kids electric bike buying guide](https://www.electricdirtbikeaustralia.com.au/blog/kids-electric-bike-buying-guide-australia/) covers sizing and safety gear in more depth, and every bike carries a 12-month Australian warranty.`,
+  },
+  {
+    slug: "electric-bike-registration-nsw-guide",
+    title: "Electric Bike Registration Rules in NSW",
+    excerpt: "NSW rules for registering an electric dirt bike or e-bike for road use.",
+    category: "Legal & Safety",
+    date: "2026-09-24",
+    readTime: "5 min read",
+    image: "/images/hero-1-electric-dirt-bike-australia.avif",
+    content: `NSW has specific rules around what makes an electric two-wheeler road-legal, and the answer differs significantly depending on power output and whether the bike has ADR-compliant road equipment fitted.
+
+### Pedal-Assist E-Bikes: No Registration Needed
+Pedal-assist e-bikes with a continuous motor output of 250W or less that only assist up to 25km/h, such as the [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/), are legally classified as bicycles in NSW and require no registration, licence, or number plate.
+
+### Off-Road Electric Dirt Bikes: Private Property Only
+Purpose-built off-road models like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) or [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) are not supplied with road-registration equipment and are intended for private property and designated off-road parks in NSW.
+
+### Road Registration Pathway
+Some models can be ordered with an ADR-compliant lighting and mirror kit, which then allows registration under the NSW Learner Approved Motorcycle Scheme (LAMS), subject to the rider holding an appropriate motorcycle licence. Transport for NSW's website has the current registration requirements for these configurations.
+
+### Talk to Our Team First
+Because requirements can change and vary by local council for off-road parks, we recommend speaking with our Mittagong-based team before ordering if road registration is your end goal. All bikes through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) carry a 12-month factory warranty regardless of configuration.`,
+  },
+  {
+    slug: "how-noisy-are-electric-dirt-bikes-decibel-levels",
+    title: "How Noisy Are Electric Dirt Bikes?",
+    excerpt: "Real decibel comparisons between electric and petrol dirt bikes.",
+    category: "Guides",
+    date: "2026-09-24",
+    readTime: "4 min read",
+    image: "/images/product-talaria-sting-r-mx4.jpg",
+    content: `Noise is one of the biggest practical advantages electric dirt bikes hold over petrol equivalents, and it's a major reason many private landowners and off-road parks now welcome electric riders where petrol bikes are restricted.
+
+### Typical Decibel Readings
+A petrol 250cc motocross bike typically produces 95–110 decibels at full throttle, comparable to a chainsaw or jackhammer. By contrast, models like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) and [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) typically measure between 60 and 75 decibels — closer to normal conversation or a vacuum cleaner.
+
+### Why This Matters for Access
+Many private property owners and some off-road parks are more receptive to electric bikes specifically because of noise, since low-decibel operation reduces neighbour complaints and wildlife disturbance, which has historically been a major barrier to off-road riding access in populated areas.
+
+### The Trade-Off
+The near-silent operation does mean other trail users, wildlife, and even pedestrians may not hear you approaching, so a horn or bell and situational awareness become more important safety habits than with a loud petrol bike.
+
+### Genuine Australian Stock
+Every model in the [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/) range is dispatched from Mittagong NSW with a 12-month factory warranty, giving riders quiet, low-impact off-road performance without sacrificing power.`,
+  },
+  {
+    slug: "electric-dirt-bike-resale-value-australia",
+    title: "Electric Dirt Bike Resale Value in Australia",
+    excerpt: "What affects resale value for electric dirt bikes in the AU market.",
+    category: "Guides",
+    date: "2026-09-25",
+    readTime: "5 min read",
+    image: "/images/product-sur-ron-storm-bee.webp",
+    content: `As the Australian electric dirt bike market matures, resale value has become a genuine consideration for buyers weighing up their first purchase. Several factors consistently drive stronger resale outcomes.
+
+### Brand Recognition Matters
+Established names like Sur-Ron, Talaria, and Stark Varg — all stocked through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/) — tend to hold value better than lesser-known imports, simply because parts availability and buyer confidence remain strong years after purchase.
+
+### Battery Condition Is the Biggest Factor
+Because the battery is the most expensive component to replace, its condition heavily influences resale price. Bikes maintained according to our [battery charging and maintenance guide](https://www.electricdirtbikeaustralia.com.au/blog/how-to-charge-maintain-electric-dirt-bike-batteries/) — avoiding deep discharges and excessive heat exposure — typically command noticeably higher resale prices.
+
+### Service History and Genuine Parts
+Buyers increasingly ask for proof of authorised-dealer purchase and any service or replacement part history. Bikes bought through authorised Australian dealers with documented 12-month warranty coverage are viewed as lower-risk purchases than grey-market imports with no local parts support.
+
+### Buying to Protect Resale Value
+Choosing a genuine, authorised-dealer bike from the outset — with full factory warranty and Australian parts backup — is the single biggest lever buyers have over long-term resale value. [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) dispatches all stock from Mittagong NSW with full documentation for exactly this reason.`,
+  },
+  {
+    slug: "rfn-ares-rally-pro-review-dual-ergonomics",
+    title: "RFN Ares Rally Pro: Dual-Ergonomics Review",
+    excerpt: "A full review of the RFN Ares Rally Pro's dual-mode ergonomics system.",
+    category: "Innovations",
+    date: "2026-09-25",
+    readTime: "6 min read",
+    image: "/images/product-electric-enduro-72v.webp",
+    content: `The [RFN Ares Rally Pro](https://www.electricdirtbikeaustralia.com.au/shop/rfn-ares-rally-pro/) stands out in the Australian electric dirt bike market for one specific reason: a patented dual-ergonomics system that transforms the bike between two distinct riding geometries.
+
+### What Makes the Dual-Ergonomics System Different
+Most electric dirt bikes commit to a single geometry, forcing riders to choose between a compact trail setup or a full-size enduro stance. The Ares Rally Pro's adjustable frame geometry lets riders reconfigure the bike between these two modes without swapping components, making it genuinely versatile for households with riders of different heights or experience levels.
+
+### Power and Battery
+Running a 74V 35Ah battery pack for 12.5kW of peak output, the Ares Rally Pro sits comfortably in the same performance bracket as the Sur-Ron Ultra Bee and Talaria Sting R MX4, with enough torque for technical hill climbs and rocky Australian terrain.
+
+### Who It Suits
+The dual-ergonomics feature makes this an especially strong option for families sharing one bike between a taller adult and a smaller or less experienced rider, or for riders who switch between tight technical trails and faster open terrain regularly.
+
+### Australian Availability
+The RFN Ares Rally Pro is available through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/rfn-ares-rally-pro/) with genuine Australian stock, a 12-month factory warranty, and dispatch from our Mittagong NSW facility.`,
+  },
+  {
+    slug: "segway-x260-vs-x160-electric-dirt-bike-comparison",
+    title: "Segway X260 vs X160: Which Suits You?",
+    excerpt: "Comparing the Segway X260 and X160 electric dirt bikes.",
+    category: "Comparisons",
+    date: "2026-09-26",
+    readTime: "5 min read",
+    image: "/images/product-electric-fat-tire-60v.webp",
+    content: `Segway's Powersports division has expanded into electric dirt bikes with two distinct models available through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/), each targeting a different rider profile.
+
+### Segway X260: Full-Size Performance
+The [Segway X260 Electric Dirt eBike](https://www.electricdirtbikeaustralia.com.au/shop/segway-x260-dirt-ebike/) is built as a full-size adult trail machine, with fat-tyre stability and a power delivery designed for varied Australian terrain, from packed fire trails to looser bush tracks.
+
+### Segway X160: Compact and Approachable
+The [Segway X160 Compact Youth Dirt Bike](https://www.electricdirtbikeaustralia.com.au/shop/segway-x160-compact/) is a smaller-frame option better suited to teenage riders, smaller adults, or anyone stepping up from a kids bike who isn't ready for a full-size machine yet.
+
+### Choosing Between Them
+Rider height and experience level are the deciding factors here rather than price. Taller or more experienced riders will find the X260 more capable on faster, rougher terrain, while the X160's lower seat height and more manageable power delivery make it a genuinely useful stepping-stone bike.
+
+### Buying Through an Authorised Dealer
+Both models are genuine Australian stock through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/), backed by a 12-month factory warranty and dispatched from our Mittagong NSW facility with pre-delivery inspection included.`,
+  },
+  {
+    slug: "best-off-road-parks-trails-australia-electric-dirt-bike",
+    title: "Best Off-Road Parks for Electric Dirt Bikes",
+    excerpt: "Where to legally ride electric dirt bikes across Australian states.",
+    category: "Guides",
+    date: "2026-09-26",
+    readTime: "5 min read",
+    image: "/images/product-stark-varg-mx.jpg",
+    content: `Finding legal, well-maintained places to ride is one of the most common questions we hear from new electric dirt bike owners. Here's a starting point by state, though we always recommend checking current access rules directly with each park.
+
+### New South Wales
+Riders near our Mittagong base often use dedicated motocross parks and private property across the Southern Highlands and Sydney basin, with several clubs now explicitly welcoming quiet electric bikes like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) where petrol bikes face noise restrictions.
+
+### Victoria and Queensland
+Both states have established off-road vehicle park networks with designated trail systems, and electric bikes are increasingly permitted at facilities that previously restricted access due to noise complaints from neighbouring properties.
+
+### Private Property Remains the Simplest Option
+For many owners, riding on their own or a friend's private property remains the most straightforward and flexible option, with no permit or park-specific rules to navigate — just standard safety practices and any relevant local council regulations.
+
+### Always Check Current Rules
+Off-road park rules change, and access can vary by season or council decision, so confirming current requirements directly with the park before visiting is essential. Every bike from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) is supplied for use on private property and designated off-road parks, with full 12-month warranty support from our Mittagong NSW team.`,
+  },
+  {
+    slug: "electric-dirt-bike-servicing-cost-guide-australia",
+    title: "Electric Dirt Bike Servicing Costs Explained",
+    excerpt: "Annual servicing and running costs for electric dirt bikes explained.",
+    category: "Guides",
+    date: "2026-09-27",
+    readTime: "5 min read",
+    image: "/images/product-bike-stand.jpg",
+    content: `One of the most underrated advantages of electric dirt bikes is how little ongoing servicing they actually require compared to petrol equivalents. Here's a realistic annual budget for a well-maintained bike.
+
+### No Oil Changes, No Spark Plugs
+Unlike petrol dirt bikes, electric models like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) have no engine oil, spark plugs, air filters, or carburettors to service, eliminating a major recurring cost that petrol owners face every 10–20 hours of riding.
+
+### What You Do Need to Budget For
+Consumables like tyres, brake pads, and chain and sprocket wear (on gearbox-driven models like the [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/)) still wear out with use, typically costing $150–$400 annually for a moderately ridden bike, depending on terrain.
+
+### Suspension Servicing
+Fork and shock servicing is recommended annually for heavily used bikes, similar to petrol dirt bikes, and typically costs $150–$300 through a qualified suspension technician depending on the components fitted.
+
+### Comparing Total Running Costs
+Our [electric vs petrol running costs comparison](https://www.electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-vs-petrol-motocross-running-costs/) breaks down the full annual cost difference in detail. All bikes from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) carry a 12-month factory warranty covering manufacturing defects, dispatched from our Mittagong NSW workshop.`,
+  },
+  {
+    slug: "electric-dirt-bike-weight-comparison-guide",
+    title: "Electric Dirt Bike Weight Comparison",
+    excerpt: "Comparing electric dirt bike weights and what they mean for riders.",
+    category: "Comparisons",
+    date: "2026-09-27",
+    readTime: "5 min read",
+    image: "/images/product-talaria-xxx.jpg",
+    content: `Weight is a genuinely important spec for electric dirt bikes, but the lightest bike isn't automatically the best choice — it depends on rider experience, terrain, and how the weight is distributed.
+
+### The Lightweight Class
+The [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) weighs around 50kg dry, making it exceptionally flickable on tight singletrack and easy for lighter or less experienced riders to manage, including picking the bike up solo after a low-speed tip-over.
+
+### The Mid-Weight Class
+Bikes like the [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) carry more weight due to their sealed gearbox and larger battery, which translates to more planted, stable handling at speed and on rougher terrain, at the cost of some low-speed agility.
+
+### Full-Size and Motocross-Class Weight
+Machines like the [Stark Varg EX 80HP](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) and full-size enduro platforms carry motocross-grade suspension and componentry, putting them closer to petrol 450cc bikes in overall mass — appropriate for experienced riders who want that planted, track-ready feel.
+
+### Matching Weight to Rider
+Lighter riders, beginners, and anyone prioritising manoeuvrability on tight trails are usually better served by the lightweight class, while experienced riders tackling faster or rougher terrain often prefer the stability of a heavier platform. Our Mittagong team at [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) can help match weight class to your riding style before you buy.`,
+  },
+  {
+    slug: "electric-dirt-bike-tyres-knobby-vs-trials-guide",
+    title: "Electric Dirt Bike Tyres: Knobby vs Trials",
+    excerpt: "Choosing the right tyre type for your electric dirt bike and terrain.",
+    category: "Guides",
+    date: "2026-09-28",
+    readTime: "5 min read",
+    image: "/images/product-knobby-tyre-set.jpg",
+    content: `Tyre choice affects an electric dirt bike's handling more than almost any other single upgrade, and different tyre patterns suit dramatically different Australian terrain types.
+
+### Knobby Tyres for Loose and Muddy Terrain
+An aggressive knobby set like the [Dunlop Geomax MX33](https://www.electricdirtbikeaustralia.com.au/shop/dunlop-geomax-dirt-tyre-set/) or the [Maxxis MaxxCross combo](https://www.electricdirtbikeaustralia.com.au/shop/maxxis-maxxcross-tyre-combo/) digs into loose dirt, mud, and sand for maximum traction, making it the standard choice for motocross tracks and looser bush trails.
+
+### Trials Tyres for Technical and Rocky Terrain
+Trials-pattern tyres prioritise grip on hard-pack, rock, and roots over straight-line traction in loose dirt, and are the better choice for technical enduro riding where controlled, low-speed traction matters more than outright drive.
+
+### Matching Tyres to Your Riding
+If most of your riding happens on packed fire trails or hard-pack terrain, a trials-oriented tyre will last longer and grip better. If you're regularly riding loose dirt, sand, or genuine motocross tracks, a knobby pattern like the Dunlop Geomax is the better investment.
+
+### Fitting and Warranty
+All tyre and wheel upgrades available through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/accessories/) are genuine Australian stock, and fitting a non-standard tyre does not void your bike's 12-month factory warranty provided it's correctly matched to the wheel size. Our Mittagong team can advise on the right pattern for your local trails.`,
+  },
+  {
+    slug: "electric-dirt-bike-insurance-australia-guide",
+    title: "Electric Dirt Bike Insurance in Australia",
+    excerpt: "Insurance options and considerations for electric dirt bike owners.",
+    category: "Legal & Safety",
+    date: "2026-09-28",
+    readTime: "4 min read",
+    image: "/images/hero_stark_track_1790338196966.jpg",
+    content: `Insurance isn't legally required for unregistered off-road electric dirt bikes used on private property, but that doesn't mean it isn't worth considering, especially for higher-value machines.
+
+### Off-Road Bikes and Standard Insurance
+Because bikes like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) are typically unregistered for road use, standard compulsory third-party (CTP) motor vehicle insurance doesn't apply. Specialist off-road or recreational vehicle insurance policies are available through several Australian insurers and can cover theft, accidental damage, and transit damage.
+
+### Higher-Value Models Warrant a Closer Look
+For premium machines like the [Stark Varg EX 80HP](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/), the replacement cost alone makes specialist insurance worth pricing out, particularly if the bike is transported regularly or stored somewhere with theft risk.
+
+### Road-Registered Models
+If you've had a bike fitted with an ADR-compliant road kit and registered it, standard CTP and comprehensive motorcycle insurance apply the same way they would to any other registered motorcycle in your state.
+
+### Protecting Your Purchase
+Regardless of insurance, buying through an authorised dealer like [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) ensures your bike is covered by a genuine 12-month factory warranty from day one, with full documentation and support from our Mittagong NSW team if you ever need to make an insurance claim.`,
+  },
+  {
+    slug: "best-electric-dirt-bike-lighting-kits-night-riding",
+    title: "Best Lighting Kits for Night Riding",
+    excerpt: "Upgrading your electric dirt bike's lighting for safe night riding.",
+    category: "Guides",
+    date: "2026-09-28",
+    readTime: "4 min read",
+    image: "/images/product-sur-ron-headlight.webp",
+    content: `Most stock electric dirt bikes come with minimal or no lighting, since they're designed primarily for daytime off-road use — but a proper lighting upgrade opens up early morning and evening riding safely.
+
+### Why Stock Lighting Falls Short
+Many electric dirt bikes ship with a small indicator LED at best, which is inadequate for genuine night visibility on unlit trails or private property after dark.
+
+### High-Output LED Headlight Kits
+A dedicated kit like the [Baja Designs Squadron Pro LED Headlight](https://www.electricdirtbikeaustralia.com.au/shop/baja-designs-squadron-headlight/) delivers genuine trail-illuminating output, letting riders see rocks, roots, and terrain changes with enough warning to react safely at speed.
+
+### Power Draw Considerations
+Because electric dirt bikes run everything off the main battery pack, a high-output lighting kit will draw additional power and modestly reduce total range — worth factoring in in for longer night rides, particularly on smaller-capacity packs.
+
+### Fitting and Warranty
+Lighting upgrades from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/accessories/) are genuine Australian stock designed to integrate cleanly with our range, and correct installation does not affect your bike's 12-month factory warranty. Our Mittagong team can advise on wiring and mounting for your specific model.`,
+  },
+  {
+    slug: "rtr-ebike-vs-super-soco-cpx-commuter-comparison",
+    title: "RTR eBike vs Super Soco CPx: Best Commuter?",
+    excerpt: "Comparing the RTR eBike Pro and Super Soco CPx for daily commuting.",
+    category: "Comparisons",
+    date: "2026-09-28",
+    readTime: "6 min read",
+    image: "/images/product-rtr-ebike-pro.jpg",
+    content: `Road-legal electric commuting has grown fast in Australia, and two of the most popular options through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/) sit at genuinely different points on the spectrum.
+
+### RTR eBike Pro: No Licence Required
+The [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) is a 250W pedal-assist e-bike, meaning it's classified as a bicycle in every Australian state — no licence, registration, or number plate needed, and it's permitted in bike lanes and on shared paths.
+
+### Super Soco CPx: A Genuine Moped
+The [Super Soco CPx Electric Moped](https://www.electricdirtbikeaustralia.com.au/shop/super-soco-cpx-electric-moped/) is a road-registered 3kW electric moped, requiring registration and at minimum a car or moped licence depending on your state, but delivering significantly higher top speed and range for longer commutes.
+
+### Which Suits Your Commute
+If your commute is under 15km on mostly flat, shared-path-friendly routes, the RTR eBike Pro's zero-licence simplicity is hard to beat. If you're commuting further, need consistent higher speeds on suburban roads, or want a genuine moped riding position, the Super Soco CPx is the better fit.
+
+### Running Costs and Warranty
+Both models carry a 12-month factory warranty and are dispatched from our Mittagong NSW facility, with electricity costs for either running a small fraction of equivalent petrol scooter fuel costs. Our [e-bike laws Australia guide](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/) covers the full legal breakdown by state.`,
+  },
 ];
 
 export const COMPLIANCE = {
