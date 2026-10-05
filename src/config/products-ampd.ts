@@ -24,7 +24,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "On Sale",
     "featured": false,
     "shortDescription": "Ampd Bros fat tyre electric bike with 250W continuous, 48V 20Ah, range up to 80km.",
-    "description": "The ACE Adventure Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 20Ah; range up to 80km. Also listed: wheels 20\"; suspension Adjustable Front; brakes 2 Piston Hydraulic, 203mm rotors; maximum load 180kg. Frames: Step Over, Step Through. Colours: Matte Black, Titanium, Dune, Pale Pink, Ice White. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The ACE Adventure Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 20Ah; range up to 80km. Also listed: wheels 20\"; suspension Adjustable Front; brakes 2 Piston Hydraulic, 203mm rotors; maximum load 180kg. Frames: Step Over, Step Through. Colours: Matte Black, Titanium, Dune, Pale Pink, Ice White. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 20Ah",
@@ -41,7 +41,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Frames: Step Over, Step Through. Colours: Matte Black, Titanium, Dune, Pale Pink, Ice White.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/ace-adventure-fat-tyre-electric-bike-1.jpg",
@@ -52,8 +52,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/ace-adventure-fat-tyre-electric-bike"
   },
   {
@@ -66,7 +66,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "On Sale",
     "featured": false,
     "shortDescription": "Ampd Bros fat tyre electric bike with 250W continuous, 48V 25Ah, range up to 100km.",
-    "description": "The ACE PRO Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 25Ah; range up to 100km. Also listed: wheels 20\"; suspension Dual Front & Rear; brakes 4 Piston Hydraulic, 203mm rotors; maximum load 180kg. Frames: Step Over, Step Through. Colours: Titanium, Bronze Eclipse, Matte Black, Jungle Eclipse, Raw, Midnight Black, Mint Metallic, Ice White. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The ACE PRO Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 25Ah; range up to 100km. Also listed: wheels 20\"; suspension Dual Front & Rear; brakes 4 Piston Hydraulic, 203mm rotors; maximum load 180kg. Frames: Step Over, Step Through. Colours: Titanium, Bronze Eclipse, Matte Black, Jungle Eclipse, Raw, Midnight Black, Mint Metallic, Ice White. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 25Ah",
@@ -83,7 +83,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Frames: Step Over, Step Through. Colours: Titanium, Bronze Eclipse, Matte Black, Jungle Eclipse, Raw, Midnight Black, Mint Metallic, Ice White.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-1.jpg",
@@ -94,8 +94,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/ace-pro-dual-suspension-fat-tyre-electric-bike"
   },
   {
@@ -134,7 +134,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
     "legalNote": "See the supplier specifications. Check your state rules before riding on public roads.",
     "supplierUrl": "https://ampdbros.com.au/products/ace-x-demon-dual-motor-fat-electric-bike"
   },
@@ -147,7 +147,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "Mini Fat Bike",
     "featured": false,
     "shortDescription": "Ampd Bros mini electric fat bike with 250W continuous, 48V 15Ah, range up to 60km.",
-    "description": "The ACE Mini Electric Bike is a mini electric fat bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 16\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Frames: Step Over, Step Through. Colours: Matte Black, Titanium, Combat Green, Pale Pink, Matte Silver, Mint Metallic. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The ACE Mini Electric Bike is a mini electric fat bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 16\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Frames: Step Over, Step Through. Colours: Matte Black, Titanium, Combat Green, Pale Pink, Matte Silver, Mint Metallic. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 15Ah",
@@ -163,7 +163,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Frames: Step Over, Step Through. Colours: Matte Black, Titanium, Combat Green, Pale Pink, Matte Silver, Mint Metallic.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/ace-mini-electric-fat-bike-1.jpg",
@@ -174,8 +174,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/ace-mini-electric-fat-bike"
   },
   {
@@ -187,7 +187,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "Mini Fat Bike",
     "featured": false,
     "shortDescription": "Ampd Bros mini electric fat bike with 250W continuous, 48V 15Ah, range up to 60km.",
-    "description": "The ACE-X Mini PRO Electric Bike is a mini electric fat bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 16\"; suspension Dual Front & Rear; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Matte Black, Matte Silver, Dune. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The ACE-X Mini PRO Electric Bike is a mini electric fat bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 16\"; suspension Dual Front & Rear; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Matte Black, Matte Silver, Dune. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 15Ah",
@@ -204,7 +204,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Colours: Matte Black, Matte Silver, Dune.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/ace-x-mini-pro-electric-bike-1.jpg",
@@ -215,8 +215,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/ace-x-mini-pro-electric-bike"
   },
   {
@@ -228,7 +228,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "Beach Cruiser",
     "featured": false,
     "shortDescription": "Ampd Bros electric beach cruiser with 250W continuous, 48V 20Ah, range up to 80km.",
-    "description": "The CHUBBIE 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 20Ah; range up to 80km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 180mm rotors; maximum load 120kg. Colours: Matte Black, Slate, Army Green. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The CHUBBIE 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 20Ah; range up to 80km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 180mm rotors; maximum load 120kg. Colours: Matte Black, Slate, Army Green. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 20Ah",
@@ -244,7 +244,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Colours: Matte Black, Slate, Army Green.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/chubbie-v3-electric-beach-cruiser-1.jpg",
@@ -255,8 +255,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/chubbie-v3-electric-beach-cruiser"
   },
   {
@@ -268,7 +268,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "Beach Cruiser",
     "featured": false,
     "shortDescription": "Ampd Bros electric beach cruiser with 250W continuous, 48V 20Ah, range up to 80km.",
-    "description": "The CHUBBIE-S 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 20Ah; range up to 80km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 180mm rotors; maximum load 120kg. Colours: Matte Black, Coral, Slate. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The CHUBBIE-S 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 20Ah; range up to 80km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 180mm rotors; maximum load 120kg. Colours: Matte Black, Coral, Slate. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 20Ah",
@@ -284,7 +284,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Colours: Matte Black, Coral, Slate.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/chubbie-s-v3-electric-beach-cruiser-1.jpg",
@@ -295,8 +295,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/chubbie-s-v3-electric-beach-cruiser"
   },
   {
@@ -308,7 +308,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "Fat Tyre E-Bike",
     "featured": false,
     "shortDescription": "Ampd Bros fat tyre electric bike with 250W continuous, 48V 15Ah, range up to 60km.",
-    "description": "The Stubbie S3 Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 20\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Dune, Matte Black, Combat Green. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The Stubbie S3 Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 20\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Dune, Matte Black, Combat Green. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 15Ah",
@@ -324,7 +324,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Colours: Dune, Matte Black, Combat Green.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/the-original-stubbie-fat-tyre-electric-bike-1.jpg",
@@ -335,8 +335,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/the-original-stubbie-fat-tyre-electric-bike"
   },
   {
@@ -348,7 +348,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "Fat Tyre E-Bike",
     "featured": false,
     "shortDescription": "Ampd Bros fat tyre electric bike with 250W continuous, 48V 15Ah, range up to 60km.",
-    "description": "The Stubbie-S S3 Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 20\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Matte Black, Ice White, Lavender, Ocean Mist. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The Stubbie-S S3 Electric Bike is a fat tyre electric bike supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 20\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Matte Black, Ice White, Lavender, Ocean Mist. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 15Ah",
@@ -364,7 +364,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Colours: Matte Black, Ice White, Lavender, Ocean Mist.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/the-original-stubbie-s-electric-bike-1.jpg",
@@ -375,8 +375,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/the-original-stubbie-s-electric-bike"
   },
   {
@@ -389,7 +389,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "On Sale",
     "featured": false,
     "shortDescription": "Ampd Bros electric beach cruiser with 250W continuous, 48V 15Ah, range up to 60km.",
-    "description": "The RIPTIDE 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Titanium, Army Green, Matte Black. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The RIPTIDE 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Titanium, Army Green, Matte Black. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 15Ah",
@@ -405,7 +405,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Colours: Titanium, Army Green, Matte Black.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/riptide-electric-beach-cruiser-bike-1.jpg",
@@ -416,8 +416,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/riptide-electric-beach-cruiser-bike"
   },
   {
@@ -429,7 +429,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "badge": "Beach Cruiser",
     "featured": false,
     "shortDescription": "Ampd Bros electric beach cruiser with 250W continuous, 48V 15Ah, range up to 60km.",
-    "description": "The RIPTIDE-S 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Ice White, Midnight Metallic, Pale Pink, Mint Metallic. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
+    "description": "The RIPTIDE-S 3 Electric Bike is an electric beach cruiser supplied by Ampd Bros. Key specifications: 250W continuous; 48V 15Ah; range up to 60km. Also listed: wheels 26\"; brakes 2 Piston Hydraulic, 160mm rotors; maximum load 120kg. Colours: Ice White, Midnight Metallic, Pale Pink, Mint Metallic. Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout. Warranty: 2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes).",
     "specs": {
       "motorPeak": "250W continuous",
       "battery": "48V 15Ah",
@@ -445,7 +445,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
       "parentalControls": "Yes",
       "options": "Colours: Ice White, Midnight Metallic, Pale Pink, Mint Metallic.",
       "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order."
+      "legal": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout."
     },
     "images": [
       "/images/ampd/riptide-s-electric-beach-cruiser-bike-1.jpg",
@@ -456,8 +456,8 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "2-year Ampd Bros nationwide warranty on adult e-bikes (6 months if used for hire or commercial purposes)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
-    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
+    "legalNote": "Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.",
     "supplierUrl": "https://ampdbros.com.au/products/riptide-s-electric-beach-cruiser-bike"
   },
   {
@@ -496,7 +496,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "1-year Ampd Bros nationwide warranty on kids e-bikes",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
     "legalNote": "Designed for off-road, private property use only. Supervise children and check the manual and your state rules.",
     "supplierUrl": "https://ampdbros.com.au/products/evo-racing-16-electric-bike"
   },
@@ -536,7 +536,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "1-year Ampd Bros nationwide warranty on kids e-bikes",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
     "legalNote": "Designed for off-road, private property use only. Supervise children and check the manual and your state rules.",
     "supplierUrl": "https://ampdbros.com.au/products/evo-racing-18-kids-electric-bike"
   },
@@ -576,7 +576,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "1-year Ampd Bros nationwide warranty on kids e-bikes",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
     "legalNote": "Designed for off-road, private property use only. Supervise children and check the manual and your state rules.",
     "supplierUrl": "https://ampdbros.com.au/products/evo-racing-20-electric-bike"
   },
@@ -614,7 +614,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "1-year Ampd Bros nationwide warranty on kids e-bikes",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
     "legalNote": "Designed and intended strictly for private property, off-road use.",
     "supplierUrl": "https://ampdbros.com.au/products/lil-rippa-16-kids-fat-electric-bike"
   },
@@ -648,7 +648,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "1-year or 3,000 km RFN warranty (supplier terms)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
     "legalNote": "Children’s bike for supervised riding. Check the manual and your state rules before riding anywhere other than private property.",
     "supplierUrl": "https://ampdbros.com.au/products/rfn-warrior-kids-sx-e500-electric-bike"
   },
@@ -683,7 +683,7 @@ export const AMPD_PRODUCTS: AmpdProduct[] = [
     "inStock": true,
     "source": "ampd-bros",
     "warranty": "1-year or 3,000 km RFN warranty (supplier terms)",
-    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.",
+    "shipping": "Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.",
     "legalNote": "Sold by the supplier as the road variant of the RFN Ares Rally. Registration and licence rules depend on your state, so confirm them before riding on public roads.",
     "supplierUrl": "https://ampdbros.com.au/products/ares-rally-endurance-road-electric-dirt-bike"
   }

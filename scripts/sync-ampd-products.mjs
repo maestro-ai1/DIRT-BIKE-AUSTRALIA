@@ -45,8 +45,8 @@ const WARRANTY = {
   kids: '1-year Ampd Bros nationwide warranty on kids e-bikes',
   rfn: '1-year or 3,000 km RFN warranty (supplier terms)',
 };
-const SHIPPING = 'Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days. Message us for a freight quote to your postcode.';
-const CONFIG_NOTE = 'Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Message us to confirm frame, colour and configuration before you order.';
+const SHIPPING = 'Supplied and shipped by Ampd Bros from Burleigh Heads on the Gold Coast, QLD. Bikes travel by Toll Ipec with a signature required on delivery. Supplier delivery estimates for bikes: QLD 2-6 days, NSW 5-10 days, VIC/SA/ACT 6-14 days, NT 6-14 days, WA/TAS up to 16 days.';
+const CONFIG_NOTE = 'Available as a 250W road-compliant model (pedal assist limited to 25 km/h, throttle limited to 6 km/h walk assist) or as an off-road model for private property only. The model is chosen at purchase and cannot be modified later. Add your frame, colour and road-compliant or off-road choice in the order note at checkout.';
 
 const dec = (s) => s.replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, "'").replace(/&nbsp;/g, ' ').replace(/&quot;/g, '"');
 const lines = (h) => h.replace(/<script[\s\S]*?<\/script>/gi, ' ').replace(/<style[\s\S]*?<\/style>/gi, ' ').replace(/<(br|\/p|\/li|\/h\d|\/tr|\/td|\/th|\/div|\/dt|\/dd)[^>]*>/gi, '\n').replace(/<[^>]+>/g, ' ').split('\n').map((s) => dec(s).replace(/[ \t]+/g, ' ').trim()).filter(Boolean);

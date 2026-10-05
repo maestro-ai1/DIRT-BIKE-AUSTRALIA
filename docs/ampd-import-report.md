@@ -48,9 +48,9 @@ These differ from Electric Dirt Bike Australia's own terms, so the product pages
 
 ## Please confirm before you deploy
 1. **Prices.** Ampd retail prices are used as-is. Set different EDBA prices if you want them (edit the script or the generated file).
-2. **Fulfilment.** The pages say bikes are supplied and shipped by Ampd Bros from the Gold Coast. If EDBA will hold stock in NSW or ship differently, the wording in `scripts/sync-ampd-products.mjs` (SHIPPING) needs to change.
-3. **Freight rules.** Ampd offers free shipping over $100 and charges $199 for motorcycles over 50 kg (RFN Ares). EDBA's "free freight over $1,500" is NOT applied to these bikes, and the pages say "message us for a freight quote". Decide what EDBA charges.
-4. **Configuration choice.** The supplier sells each e-bike as a road-compliant or off-road model. EDBA's cart has no option for that, so the pages ask buyers to message you to confirm frame, colour and configuration.
+2. **Fulfilment wording.** The pages say bikes are supplied by Ampd Bros from the Gold Coast, with the supplier's delivery estimates. If EDBA will hold stock in NSW or ship differently, change SHIPPING in `scripts/sync-ampd-products.mjs`.
+3. **Freight.** Decided: freight is not discussed on these pages. Every product goes through the normal EDBA add-to-cart and order system.
+4. **Configuration choice.** The supplier sells each e-bike as a road-compliant or off-road model. Buyers are told to put their frame, colour and configuration in the cart's order note at checkout.
 5. **Lil Rippa top speed.** The supplier's product page says 38 km/h and its spec page says 35 km/h. The spec page value (35 km/h) is used.
 6. **Stock levels.** The pages show "In Stock" if any variant is available. Some colours or frames may be sold out at the supplier.
 7. **Brand terms.** Ampd Bros is listed as a new brand ("Ampd Bros", Gold Coast, 2019). Edit the brand text in the script if you want different wording.
