@@ -78,7 +78,7 @@ export default function AccessoriesPage() {
         </div>
 
         {/* Product Grid */}
-        <ProductPager groups={[{ items: accessories }]} topUp={false} />
+        <ProductPager groups={[{ id: 'accessories-list', heading: 'Electric Dirt Bike Batteries, Chargers & Performance Parts', blurb: '72V lithium batteries, fast chargers, controllers, suspension, brakes and protection with Australian plugs and local support.', items: accessories }]} topUp={false} />
 
         <AuthorityLinks path="/accessories/" className="mt-12" />
       </div>

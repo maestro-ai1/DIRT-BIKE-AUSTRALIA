@@ -6,8 +6,8 @@ import { JsonLd } from '@/components/JsonLd';
 import { Truck, ShieldCheck, Clock, MapPin, PackageCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Free Shipping & Delivery Across Australia — Electric Dirt Bikes | EDBA',
-  description: 'Free insured freight on electric dirt bike orders over $1,500 AUD Australia-wide. Tailgate truck delivery to your door from Mittagong NSW 2575. Nationwide delivery to Sydney, Melbourne, Brisbane, Perth, Adelaide.',
+  title: 'Free Shipping Australia-Wide | Electric Dirt Bike Delivery Times',
+  description: 'Free insured freight on electric dirt bike orders over $1,500 AUD. Tailgate delivery Australia-wide from Mittagong NSW 2575 to Sydney, Melbourne, Brisbane and Perth.',
   keywords: 'electric dirt bike free shipping australia, electric bike delivery australia, free freight electric bike australia, electric dirt bike delivery time australia',
   alternates: {
     canonical: `https://${SITE.domain}/shipping-and-delivery/`,

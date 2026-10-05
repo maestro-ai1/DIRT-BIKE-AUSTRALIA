@@ -22,7 +22,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const priceStr = `AUD $${product.price.toLocaleString()}`;
   const candidateTitle = `Buy ${product.name} in Australia | ${priceStr} | EDBA`;
-  const title = candidateTitle.length <= 60 ? candidateTitle : `${product.name} Australia | ${priceStr} | EDBA`;
+  const mid = `${product.name} Australia | ${priceStr} | EDBA`;
+  // Keep titles inside what Google shows: drop the brand tail, then the 'Australia', when the product name is long.
+  const title = candidateTitle.length <= 60 ? candidateTitle : mid.length <= 68 ? mid : `${product.name} Australia | ${priceStr}`.length <= 68 ? `${product.name} Australia | ${priceStr}` : `${product.name} | ${priceStr}`;
 
   const ampProduct = (product as { source?: string; warranty?: string }).source === 'ampd-bros';
   const ampWarranty = (product as { warranty?: string }).warranty?.match(/^(\d+-year(?: or [\d,]+ km)?)/i)?.[1];

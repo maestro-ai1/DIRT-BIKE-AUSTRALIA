@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = POSTS.find((p) => p.slug === slug);
   if (!post) return {};
 
-  const title = `${post.title} | EDBA Blog`;
+  const title = post.title.length + 11 <= 70 ? `${post.title} | EDBA Blog` : post.title;
   const descRaw = `${post.excerpt} Expert electric dirt bike guides from Electric Dirt Bike Australia — Mittagong NSW.`;
   const description = descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw;
 
@@ -221,9 +221,9 @@ export default async function BlogPostPage({ params }: Props) {
               <span className="text-[11px] font-bold uppercase tracking-wider text-orange-400">
                 Recommended Bike for Australian Trails
               </span>
-              <h3 className="text-lg font-bold text-white mt-1">
+              <p className="text-lg font-bold text-white mt-1">
                 {featuredBike.name}
-              </h3>
+              </p>
               <p className="text-xs text-slate-300 mt-1">
                 {featuredBike.shortDescription}
               </p>

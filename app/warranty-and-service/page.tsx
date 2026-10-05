@@ -6,8 +6,8 @@ import { JsonLd } from '@/components/JsonLd';
 import { ShieldCheck, Wrench, CheckCircle } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: '12-Month Electric Dirt Bike Warranty Australia — After-Sales Service | EDBA',
-  description: '12-month Australian factory warranty on all electric dirt bikes. Covers motor, controller, battery, and frame. Genuine replacement parts stocked in Mittagong NSW 2575. After-sales service for Sur-Ron, Talaria & Stark Varg.',
+  title: '12-Month Electric Dirt Bike Warranty Australia | Service & Parts',
+  description: '12-month Australian factory warranty on all electric dirt bikes: motor, controller, battery and frame. Genuine parts and after-sales service from Mittagong NSW.',
   keywords: 'electric dirt bike warranty australia, sur ron warranty australia, talaria warranty australia, electric bike warranty 12 months, electric dirt bike after sales service nsw',
   alternates: {
     canonical: `https://${SITE.domain}/warranty-and-service/`,

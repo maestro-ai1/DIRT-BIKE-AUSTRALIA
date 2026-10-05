@@ -6,8 +6,8 @@ import { JsonLd } from '@/components/JsonLd';
 import { RotateCcw, ShieldCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Returns & Refund Policy — Electric Dirt Bikes Australia | EDBA',
-  description: 'Australian Consumer Law compliant returns and refund policy for electric dirt bikes, 72V batteries, and accessories. 7-day returns, 12-month warranty coverage from Mittagong NSW 2575.',
+  title: 'Returns & Refund Policy | Electric Dirt Bikes Australia',
+  description: 'Australian Consumer Law returns and refund policy for electric dirt bikes, 72V batteries and accessories. 7-day returns and 12-month warranty cover.',
   keywords: 'electric dirt bike return policy australia, electric bike refund australia, australian consumer law electric bike',
   alternates: {
     canonical: `https://${SITE.domain}/returns-policy/`,

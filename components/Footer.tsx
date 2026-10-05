@@ -68,7 +68,7 @@ export function Footer() {
 
           {/* Customer support */}
           <nav className="col-span-1 md:col-span-3" aria-label="Customer support">
-            <h4 className="text-slate-900 font-bold uppercase tracking-wider mb-2.5">Support &amp; Guides</h4>
+            <p className="text-slate-900 font-bold uppercase tracking-wider mb-2.5">Support &amp; Guides</p>
             <ul className="space-y-1.5 font-medium">
               {SUPPORT_LINKS.map((l) => (
                 <li key={l.href}>
@@ -82,7 +82,7 @@ export function Footer() {
 
           {/* Shop */}
           <nav className="col-span-1 md:col-span-3" aria-label="Shop">
-            <h4 className="text-slate-900 font-bold uppercase tracking-wider mb-2.5">Shop</h4>
+            <p className="text-slate-900 font-bold uppercase tracking-wider mb-2.5">Shop</p>
             <ul className="space-y-1.5 font-medium">
               {SHOP_LINKS.map((l) => (
                 <li key={l.href}>

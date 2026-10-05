@@ -19,17 +19,17 @@ export interface PageSeo {
 
 export const PAGE_SEO: Record<string, PageSeo> = {
   '/': {
-    title: 'Electric Dirt Bike for Sale Australia | Sur-Ron, Talaria & Stark Varg',
-    description: 'Buy an electric dirt bike in Australia: Sur-Ron, Talaria, Stark Varg, electric motorbikes & kids bikes. AU stock, 12-month warranty, free freight over $1,500.',
-    ogTitle: 'Electric Dirt Bike Australia — Electric Dirt Bikes for Sale | Sur-Ron, Talaria & Stark Varg',
+    title: 'Electric Dirt Bikes for Sale Australia | Best Sur-Ron & Electric Bikes',
+    description: 'Buy electric dirt bikes in Australia: Sur-Ron, Talaria, Stark Varg, kids and electric motorbikes. Free freight over $1,500, 12-month warranty, 10% off with crypto.',
+    ogTitle: 'Electric Dirt Bikes for Sale Australia | Best Sur-Ron & Electric Bikes',
     ogDescription: 'Electric dirt bikes for sale in Australia. Sur-Ron, Talaria, Stark Varg, electric motorbikes & kids electric bikes. Genuine stock, 12-month AU warranty, free shipping over $1,500.',
-    h1: 'Electric Dirt Bike Australia — Electric Dirt Bikes for Sale',
+    h1: 'Electric Dirt Bikes for Sale in Australia: Shop the Best Electric Bikes',
     keywords: 'electric dirt bike for sale, electric dirt bikes for sale, electric dirt bike australia, buy electric dirt bike, electric dirt bikes australia, electric motorbike australia, kids electric bike',
     main: 'electric dirt bike for sale', // 170/mo KD13 Transactional (+ electric dirt bikes for sale 110, electric dirt bike australia for sale 70)
     primary: ['electric dirt bike australia', 'electric dirt bikes australia', 'electric dirtbike australia'], // 1,300 / 320 / 90
   },
   '/shop/': {
-    title: 'Electric Dirt Bikes for Sale Australia — Shop All Models | EDBA',
+    title: 'Electric Dirt Bikes for Sale Australia | Shop All Models, Free Freight',
     description: 'Buy electric dirt bikes, motorbikes, kids bikes, batteries & parts in Australia. 70+ models: Sur-Ron, Talaria, Stark Varg & more. Free shipping over $1,500.',
     ogTitle: 'Electric Dirt Bikes for Sale Australia — Shop All Models',
     ogDescription: 'Buy electric dirt bikes online. Sur-Ron, Talaria, Stark Varg, Stealth & more. Free shipping over $1,500. 12-month AU warranty.',
@@ -38,7 +38,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric dirt bikes', 'electric dirt bikes australia'],
   },
   '/electric-dirt-bikes/': {
-    title: 'Electric Dirt Bikes for Sale Australia — Off-Road, Trail & Enduro | EDBA',
+    title: 'Electric Dirt Bikes for Sale Australia | Off-Road, Trail & Enduro',
     description: 'Shop electric dirt bikes for sale in Australia: adult, off-road & trail bikes from Sur-Ron, Talaria, Stark Varg & E-Ride Pro. Free freight over $1,500.',
     ogTitle: 'Electric Dirt Bikes for Sale Australia — Off-Road, Trail & Enduro',
     ogDescription: 'Adult electric dirt bikes and off-road electric bikes. Sur-Ron, Talaria, Stark Varg & more. Free freight over $1,500. 12-month AU warranty.',
@@ -48,7 +48,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric dirt bike', 'electric dirt bikes', 'electric dirtbike', 'e dirt bike', 'electric dirt bike for adults', 'electric off road bike'], // 6,600 / 1,000 / 1,000 / 1,000 / 320 / 590
   },
   '/electric-motor-bikes/': {
-    title: 'Electric Motorbikes for Sale Australia — Dirt, Commuter & Kids | EDBA',
+    title: 'Electric Motorbikes for Sale Australia | Dirt, Commuter & Kids',
     description: 'Buy electric motorbikes & motorcycles in Australia: off-road, road-legal mopeds & kids range. Free shipping over $1,500. Nationwide delivery from NSW.',
     ogTitle: 'Electric Motorbikes for Sale Australia — Dirt, Commuter & Kids',
     ogDescription: 'Electric motorbikes and motorcycles for sale: off-road, road-legal mopeds and kids bikes. Free shipping over $1,500. Delivered from Mittagong NSW.',
@@ -58,7 +58,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric motorbike', 'electric motorbike australia', 'electric motorcycle', 'electric motorcycle australia', 'electric motor bike', 'electric motor bikes'], // 6,600 / 1,300 / 1,900 / 1,900 / 1,000 / 1,000
   },
   '/electric-motor-bikes/kids/': {
-    title: 'Kids Electric Bikes & Motorbikes for Sale Australia — Ages 3–16 | EDBA',
+    title: 'Kids Electric Bikes & Motorbikes for Sale Australia | Ages 3–16',
     description: 'Shop kids electric bikes & motorbikes in Australia: childs electric motorcycles & childrens electric dirt bikes, ages 3–16. Free freight over $1,500.',
     ogTitle: 'Kids Electric Bikes & Motorbikes for Sale Australia — Ages 3–16',
     ogDescription: 'Kids electric bikes, childs electric motorcycles and childrens electric dirt bikes for ages 3–16. 12-month AU warranty. Free freight over $1,500.',
@@ -68,7 +68,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['kids electric bike', 'childs electric motorcycle', 'childrens electric dirt bike', 'kids electric motorbike', 'childrens electric motorbike', 'children electric bike', 'kids electric dirt bike'], // 4,400 / 2,400 / 1,300 / 1,300 / 1,300 / 1,000 / 590
   },
   '/electric-motor-bikes/rtr-ebike/': {
-    title: 'RTR eBike for Sale Australia — Buy RTR E Bike Online | EDBA',
+    title: 'RTR eBike for Sale Australia | Buy RTR E Bike Online, No Licence',
     description: 'Buy the RTR eBike in Australia. Road-legal RTR e bike commuters: no licence or registration. Free delivery over $1,500. 12-month AU warranty. Stock from NSW.',
     ogTitle: 'RTR eBike for Sale Australia — Buy RTR E Bike Online',
     ogDescription: 'RTR eBike road-legal range. No licence needed. Free delivery over $1,500. 12-month AU warranty from Mittagong NSW.',
@@ -77,7 +77,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['rtr e bike', 'rtr ebike', 'rtr electric bike', 'rtr bike'], // 1,600 / 880 / 320 / 320, KD 5-17
   },
   '/electric-motor-bikes/commuter-mopeds/': {
-    title: 'Electric Mopeds for Sale Australia — Road-Legal, LAMS Approved | EDBA',
+    title: 'Electric Mopeds for Sale Australia | Road-Legal, LAMS Approved',
     description: 'Buy an electric moped in Australia: road-legal, LAMS-approved electric mopeds & commuter e-bikes. Free delivery over $1,500, 12-month warranty. Stock from NSW.',
     ogTitle: 'Electric Mopeds for Sale Australia — Road-Legal, LAMS Approved',
     ogDescription: 'Road-legal electric mopeds for Australian commuters. LAMS approved, free delivery over $1,500. Genuine AU stock from Mittagong NSW.',
@@ -96,7 +96,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['best electric bike australia', 'best electric bikes australia'], // 1,300 / 590
   },
   '/electric-motor-bikes/e-bike-laws-australia/': {
-    title: 'Electric Bike Laws Australia 2026 — Are Electric Dirt Bikes Legal? State-by-State Guide | EDBA',
+    title: 'Electric Bike Laws Australia 2026 | Are Electric Dirt Bikes Legal?',
     description: 'Electric bike laws in Australia 2026: are electric dirt bikes legal? Road registration, licence and off-road rules for NSW, VIC, QLD, WA & SA explained.',
     ogTitle: 'Electric Bike Laws Australia 2026 — Are Electric Dirt Bikes Legal?',
     ogDescription: 'State-by-state guide to electric bike laws in Australia: registration, licence & off-road rules for NSW, VIC, QLD, WA & SA.',
@@ -105,7 +105,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric bike laws australia', 'electric bike laws qld', 'electric bike regulations nsw'],
   },
   '/electric-motor-bikes/melbourne/': {
-    title: 'Electric Bikes for Sale Melbourne — Motorbikes & Mopeds, Free Delivery | EDBA',
+    title: 'Electric Bikes for Sale Melbourne | Motorbikes, Mopeds, Free Delivery',
     description: 'Buy electric bikes, motorbikes & mopeds in Melbourne VIC. Free insured delivery over $1,500 from Mittagong NSW. 12-month AU warranty. Sur-Ron, Talaria & more.',
     ogTitle: 'Electric Bikes for Sale Melbourne — Motorbikes & Mopeds, Free Delivery',
     ogDescription: 'Electric bikes, motorbikes and mopeds delivered to Melbourne VIC. Free delivery over $1,500. 12-month AU warranty.',
@@ -115,7 +115,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric bikes melbourne', 'electric moped melbourne', 'electric motorbike melbourne'], // 1,900 / 1,300 / 50
   },
   '/electric-motor-bikes/perth/': {
-    title: 'Electric Bikes for Sale Perth — Motorbikes & Mopeds, Free Delivery | EDBA',
+    title: 'Electric Bikes for Sale Perth | Motorbikes, Mopeds, Free Delivery',
     description: 'Buy electric bikes, motorbikes & mopeds in Perth WA. Free insured freight over $1,500 from Mittagong NSW. 12-month AU warranty. Sur-Ron, Talaria & more.',
     ogTitle: 'Electric Bikes for Sale Perth — Motorbikes & Mopeds, Free Delivery',
     ogDescription: 'Electric bikes, motorbikes and mopeds delivered to Perth WA. Free freight over $1,500. 12-month AU warranty.',
@@ -125,7 +125,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric bikes perth', 'electric moped perth', 'electric motorbike perth'], // 1,900 / 590 / 170
   },
   '/accessories/': {
-    title: 'Electric Bike Parts & Dirt Bike Accessories Australia — 72V Batteries & Chargers | EDBA',
+    title: 'E-Bike Parts, 72V Batteries & Chargers Australia | Buy Online',
     description: 'Buy e bike parts in Australia: 72V Molicel batteries, fast chargers, Sur-Ron & Talaria electric dirt bike parts & upgrades. Free shipping over $1,500.',
     ogTitle: 'Electric Bike Parts & Dirt Bike Accessories Australia — 72V Batteries & Chargers',
     ogDescription: '72V Molicel batteries, fast chargers, Sur-Ron & Talaria parts. Free shipping over $1,500 AUD. Genuine stock from Mittagong NSW.',
@@ -134,7 +134,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric bike parts australia', 'ebike battery australia', 'electric dirt bike parts'], // 110 / 40 (inferred) / 20 (inferred)
   },
   '/brands/': {
-    title: 'Electric Bike Brands Australia — Sur-Ron, Talaria, Stark Varg, E-Ride Pro | EDBA',
+    title: 'Electric Bike Brands Australia | Sur-Ron, Talaria, Stark Varg & More',
     description: 'Electric bike brands in Australia: Sur-Ron, Talaria, Stark Varg, Stealth, E-Ride Pro & more. Genuine AU stock, factory warranty and parts support from NSW.',
     ogTitle: 'Electric Bike Brands Australia — Sur-Ron, Talaria, Stark Varg, E-Ride Pro',
     ogDescription: 'Sur-Ron, Talaria, Stark Varg, Stealth & E-Ride Pro. Genuine AU stock, factory warranty from Mittagong NSW 2575.',
@@ -143,7 +143,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric bike brands australia', 'e ride pro australia'], // 90 / 170
   },
   '/blog/': {
-    title: 'Electric Dirt Bike Blog Australia — Guides, Reviews & Riding Tips | EDBA',
+    title: 'Electric Dirt Bike Blog Australia | Guides, Reviews & Riding Tips',
     description: 'Electric dirt bike and e-bike guides for Australian riders: laws, kids bikes, batteries, speed, cost and maintenance from our Mittagong NSW workshop.',
     ogTitle: 'Electric Dirt Bike Blog Australia — Guides, Reviews & Tips',
     ogDescription: 'Electric bike laws, kids bikes, battery upgrades & riding tips from Australia\'s electric dirt bike specialists in Mittagong NSW.',
@@ -152,7 +152,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric dirt bike', 'electric bike laws australia'],
   },
   '/faq/': {
-    title: 'Electric Dirt Bike FAQ Australia — E-Ride Pro, Laws, Price & Delivery | EDBA',
+    title: 'Electric Dirt Bike FAQ Australia | Laws, Price, Delivery & Warranty',
     description: 'Where to buy an electric dirt bike, price, kids bikes, E-Ride Pro, electric bike laws, delivery to Brisbane, Sydney & Melbourne, warranty and crypto discount.',
     ogTitle: 'Electric Dirt Bike FAQ Australia — E-Ride Pro, Laws, Price & Delivery',
     ogDescription: 'Where to buy an electric dirt bike, price, kids bikes, E-Ride Pro, laws and delivery across Australia, answered by EDBA specialists.',
@@ -161,7 +161,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['brisbane electric bikes', 'electric bikes in brisbane', 'electric bike laws australia'],
   },
   '/electric-bikes/': {
-    title: 'Electric Bikes for Sale Australia — E-Bikes, E-Motos & Mopeds | EDBA',
+    title: 'Electric Bikes for Sale Australia | E-Bikes, E-Motos & Mopeds',
     description: 'Buy electric bikes in Australia: RTR eBikes, Super73 e-motos and electric mopeds. Road-legal & off-road e-bikes, 12-month AU warranty. Free freight over $1,500.',
     ogTitle: 'Electric Bikes for Sale Australia — E-Bikes, E-Motos & Mopeds',
     ogDescription: 'RTR eBikes, Super73 e-motos and road-legal electric mopeds. 12-month AU warranty. Free freight over $1,500.',
@@ -172,7 +172,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   },
   // ---- New category and city pages (additive URLs) ----
   '/electric-motocross-bikes/': {
-    title: 'Electric Motocross Bikes for Sale Australia — Stark Varg, Sur-Ron Storm Bee | EDBA',
+    title: 'Electric Motocross Bikes for Sale Australia | Stark Varg & Sur-Ron',
     description: 'Buy an electric motocross bike in Australia: Stark Varg, Sur-Ron Storm Bee MX, Stealth H-52, Velimotor VMX12. 12-month AU warranty. Free freight over $1,500.',
     ogTitle: 'Electric Motocross Bikes for Sale Australia — Stark Varg, Sur-Ron Storm Bee',
     ogDescription: 'Competition electric motocross bikes: Stark Varg, Sur-Ron Storm Bee MX, Stealth H-52 and Velimotor VMX12. 12-month AU warranty, free freight over $1,500.',
@@ -182,7 +182,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric motocross motorcycle', 'electric motocross bike', 'e motocross bike', 'electric mx bike'], // 880 / 720 / 260 / 90
   },
   '/electric-motorcycles/': {
-    title: 'Electric Motorcycles for Sale Australia — Road-Legal & Off-Road | EDBA',
+    title: 'Electric Motorcycles for Sale Australia | Road-Legal & Off-Road',
     description: 'Buy an electric motorcycle in Australia: road-registered motorcycles and mopeds plus off-road models. 12-month AU warranty. Free freight over $1,500.',
     ogTitle: 'Electric Motorcycles for Sale Australia — Road-Legal & Off-Road',
     ogDescription: 'Road-registered electric motorcycles and mopeds plus off-road electric motorcycles. 12-month AU warranty. Free freight over $1,500.',
@@ -192,7 +192,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric motorcycle', 'electric motorcycle australia', 'electric motorcycles australia', 'electric motorcycles', 'e motorcycle'], // 1,900 / 1,900 / 590 / 720 / 880
   },
   '/electric-motor-bikes/sydney/': {
-    title: 'Electric Bikes for Sale Sydney — E-Bikes, Motorbikes & Mopeds | EDBA',
+    title: 'Electric Bikes for Sale Sydney | E-Bikes, Motorbikes & Mopeds',
     description: 'Buy electric bikes, motorbikes, mopeds & dirt bikes for Sydney NSW from our Southern Highlands workshop. Free insured freight over $1,500. 12-month AU warranty.',
     ogTitle: 'Electric Bikes for Sale Sydney — E-Bikes, Motorbikes & Mopeds',
     ogDescription: 'E-bikes, electric motorbikes, mopeds and dirt bikes for Sydney from Mittagong NSW. Free freight over $1,500. 12-month AU warranty.',
@@ -202,7 +202,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['ebike sydney', 'electric bikes sydney', 'ebikes sydney', 'e bikes sydney'], // 1,600 / 880 / 480 / 390
   },
   '/electric-motor-bikes/brisbane/': {
-    title: 'Electric Bikes for Sale Brisbane — E-Bikes, Motorbikes & Mopeds | EDBA',
+    title: 'Electric Bikes for Sale Brisbane | E-Bikes, Motorbikes & Mopeds',
     description: 'Buy electric bikes, motorbikes, mopeds & dirt bikes delivered to Brisbane QLD from Mittagong NSW. Free insured freight over $1,500. 12-month AU warranty.',
     ogTitle: 'Electric Bikes for Sale Brisbane — E-Bikes, Motorbikes & Mopeds',
     ogDescription: 'E-bikes, electric motorbikes, mopeds and dirt bikes delivered to Brisbane. Free freight over $1,500. 12-month AU warranty.',
@@ -213,7 +213,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   },
   // ---- Categories for demand the shop did not serve before (products supplied by Ampd Bros) ----
   '/electric-fat-tyre-bikes/': {
-    title: 'Electric Fat Bikes & Beach Cruisers for Sale Australia — Fat Tyre E-Bikes | EDBA',
+    title: 'Electric Fat Tyre Bikes for Sale Australia | Fat Bikes & Beach Cruisers',
     description: 'Buy an electric fat bike in Australia: fat tyre e-bikes and beach cruisers from Ampd Bros (ACE, Stubbie, Chubbie, Riptide). Road-compliant or off-road.',
     ogTitle: 'Electric Fat Bikes & Beach Cruisers for Sale Australia — Fat Tyre E-Bikes',
     ogDescription: 'Fat tyre electric bikes and beach cruisers: ACE, Stubbie, Chubbie and Riptide from Ampd Bros. Road-compliant 250W or off-road models.',
@@ -223,7 +223,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric fat bike', 'best fat tyre electric bike australia', 'fat bike australia', 'electric fat tyre bike', 'fat tyre electric bike australia', 'e bike cruiser'], // 720 / 320 / 210 / 210 / 140 / 390
   },
   '/electric-mini-bikes/': {
-    title: 'Mini Electric Bikes for Sale Australia — Mini E Bikes & Mini Fat Bikes | EDBA',
+    title: 'Mini Electric Bikes for Sale Australia | Mini E-Bikes & Fat Bikes',
     description: 'Buy a mini electric bike in Australia: ACE Mini and ACE-X Mini Pro compact fat tyre e-bikes from Ampd Bros. 16-inch wheels, 48V 15Ah battery.',
     ogTitle: 'Mini Electric Bikes for Sale Australia — Mini E Bikes & Mini Fat Bikes',
     ogDescription: 'Compact mini electric fat bikes: ACE Mini and ACE-X Mini Pro from Ampd Bros. Step-through and step-over frames.',
@@ -233,7 +233,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['mini e bike', 'electric mini bike', 'mini electric bike', 'mini ebike'], // 1,000 / 590 / 590 / 590
   },
   '/electric-bikes/cheap/': {
-    title: 'Cheap Electric Bikes for Sale Australia — Affordable E-Bikes & Kids Bikes | EDBA',
+    title: 'Cheap Electric Bikes Australia | Affordable E-Bikes & Kids Bikes',
     description: 'Shop cheap electric bikes in Australia: affordable e-bikes, fat tyre bikes and kids electric bikes with warranty. Pay with crypto or PayID for 10% off.',
     ogTitle: 'Cheap Electric Bikes for Sale Australia — Affordable E-Bikes & Kids Bikes',
     ogDescription: 'Affordable electric bikes, fat tyre e-bikes and kids electric bikes. Warranty included. 10% off with crypto or PayID.',

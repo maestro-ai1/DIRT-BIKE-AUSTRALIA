@@ -15,11 +15,12 @@ import { BrandMark } from '@/components/BrandMark';
 import { PRODUCT_GRID_4, toCard, isDarkPhoto } from '@/lib/productCard';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 const seo = seoFor('/');
-// Home shows five questions only (the full list stays on /faq/). The FAQPage schema below uses these same five so it matches the visible page.
+// Home shows six questions only (the full list stays on /faq/). The FAQPage schema below uses these same six so it matches the visible page.
 const HOME_FAQ_QUESTIONS = [
   'Where can I buy an electric dirt bike for sale in Australia?',
   'Do you sell electric motorbikes and electric motorcycles for sale in Australia?',
   'Do you sell kids electric bikes and childs electric motorcycles?',
+  'How much does an electric dirt bike cost in Australia?',
   'Are electric dirt bikes legal to ride in Australia?',
   'How are electric dirt bikes shipped across Australia?',
 ];

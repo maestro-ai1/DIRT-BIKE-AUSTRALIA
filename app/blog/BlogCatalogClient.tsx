@@ -54,6 +54,9 @@ export function BlogCatalogClient({ posts }: { posts: BlogPost[] }) {
     return filteredPosts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
   }, [filteredPosts, currentPage]);
 
+  // Every article is rendered in the HTML so each post keeps a crawlable internal link; only the current page/filter is shown.
+  const visibleSlugs = useMemo(() => new Set(paginatedPosts.map((p) => p.slug)), [paginatedPosts]);
+
   const handlePageChange = (newPage: number) => {
     if (newPage >= 1 && newPage <= totalPages) {
       setCurrentPage(newPage);
@@ -160,10 +163,12 @@ export function BlogCatalogClient({ posts }: { posts: BlogPost[] }) {
       ) : (
         <>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {paginatedPosts.map((post) => (
+            {posts.map((post) => (
               <article
                 key={post.slug}
-                className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all flex flex-col justify-between group"
+                className={`bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all flex flex-col justify-between group ${
+                  visibleSlugs.has(post.slug) ? '' : 'hidden'
+                }`}
               >
                 <div>
                   <div className="relative aspect-[4/3] bg-slate-100 overflow-hidden">

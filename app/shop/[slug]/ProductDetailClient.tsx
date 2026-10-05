@@ -377,9 +377,9 @@ export function ProductDetailClient({
       {related.length > 0 && (
         <div className="space-y-6">
           <div className="flex items-center justify-between">
-            <h3 className="text-xl font-extrabold text-slate-900 tracking-tight">
+            <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">
               Complementary Dirt Bikes &amp; Accessories
-            </h3>
+            </h2>
             <Link href="/shop/" className="text-xs font-bold text-sky-600 hover:text-sky-800">
               Browse All →
             </Link>

@@ -78,6 +78,9 @@ export default function ShopPage() {
         </div>
 
         {/* Client Interactive Filter & Catalog */}
+        <h2 className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight mb-4">
+          All Electric Dirt Bikes, E-Bikes, Batteries &amp; Parts
+        </h2>
         <ShopCatalogClient products={PRODUCTS} brands={BRANDS} categories={CATEGORIES} />
 
       </div>

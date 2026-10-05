@@ -43,7 +43,7 @@ export function TrustpilotSection() {
                   <span className="text-[10px] text-slate-600 font-medium">{rev.date}</span>
                 </div>
 
-                <h3 className="text-sm font-bold text-slate-900 leading-snug line-clamp-1">&ldquo;{rev.title}&rdquo;</h3>
+                <p className="text-sm font-bold text-slate-900 leading-snug line-clamp-1">&ldquo;{rev.title}&rdquo;</p>
                 <p className="mt-1 text-xs text-slate-700 leading-relaxed line-clamp-3 min-h-[3.6rem] mb-3">{rev.comment}</p>
 
                 <div className="mt-auto pt-2.5 border-t border-slate-200 flex items-center justify-between gap-2">
