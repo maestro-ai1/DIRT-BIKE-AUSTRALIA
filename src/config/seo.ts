@@ -19,11 +19,11 @@ export interface PageSeo {
 
 export const PAGE_SEO: Record<string, PageSeo> = {
   '/': {
-    title: 'Electric Dirt Bikes for Sale Australia | Best Sur-Ron & Electric Bikes',
-    description: 'Buy electric dirt bikes in Australia: Sur-Ron, Talaria, Stark Varg, kids and electric motorbikes. Free freight over $1,500, 12-month warranty, 10% off with crypto.',
-    ogTitle: 'Electric Dirt Bikes for Sale Australia | Best Sur-Ron & Electric Bikes',
+    title: 'Electric Dirt Bike for Sale Australia | Best Sur-Ron & Electric Bikes',
+    description: 'Electric dirt bike for sale in Australia: Sur-Ron, Talaria, Stark Varg and kids bikes. Free freight over $1,500, 12-month warranty, 10% off with crypto.',
+    ogTitle: 'Electric Dirt Bike for Sale Australia | Best Sur-Ron & Electric Bikes',
     ogDescription: 'Electric dirt bikes for sale in Australia. Sur-Ron, Talaria, Stark Varg, electric motorbikes & kids electric bikes. Genuine stock, 12-month AU warranty, free shipping over $1,500.',
-    h1: 'Electric Dirt Bikes for Sale in Australia: Shop the Best Electric Bikes',
+    h1: 'Electric Dirt Bike Australia: Shop the Best Electric Dirt Bikes for Sale',
     keywords: 'electric dirt bike for sale, electric dirt bikes for sale, electric dirt bike australia, buy electric dirt bike, electric dirt bikes australia, electric motorbike australia, kids electric bike',
     main: 'electric dirt bike for sale', // 170/mo KD13 Transactional (+ electric dirt bikes for sale 110, electric dirt bike australia for sale 70)
     primary: ['electric dirt bike australia', 'electric dirt bikes australia', 'electric dirtbike australia'], // 1,300 / 320 / 90
@@ -134,7 +134,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric bike parts australia', 'ebike battery australia', 'electric dirt bike parts'], // 110 / 40 (inferred) / 20 (inferred)
   },
   '/brands/': {
-    title: 'Electric Bike Brands Australia | Sur-Ron, Talaria, Stark Varg & More',
+    title: 'Electric Bike Brands Australia | Sur-Ron, Talaria, Stark Varg, E-Ride Pro',
     description: 'Electric bike brands in Australia: Sur-Ron, Talaria, Stark Varg, Stealth, E-Ride Pro & more. Genuine AU stock, factory warranty and parts support from NSW.',
     ogTitle: 'Electric Bike Brands Australia — Sur-Ron, Talaria, Stark Varg, E-Ride Pro',
     ogDescription: 'Sur-Ron, Talaria, Stark Varg, Stealth & E-Ride Pro. Genuine AU stock, factory warranty from Mittagong NSW 2575.',
@@ -152,7 +152,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric dirt bike', 'electric bike laws australia'],
   },
   '/faq/': {
-    title: 'Electric Dirt Bike FAQ Australia | Laws, Price, Delivery & Warranty',
+    title: 'Electric Dirt Bike FAQ Australia | E-Ride Pro, Laws, Price & Delivery',
     description: 'Where to buy an electric dirt bike, price, kids bikes, E-Ride Pro, electric bike laws, delivery to Brisbane, Sydney & Melbourne, warranty and crypto discount.',
     ogTitle: 'Electric Dirt Bike FAQ Australia — E-Ride Pro, Laws, Price & Delivery',
     ogDescription: 'Where to buy an electric dirt bike, price, kids bikes, E-Ride Pro, laws and delivery across Australia, answered by EDBA specialists.',
@@ -213,7 +213,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
   },
   // ---- Categories for demand the shop did not serve before (products supplied by Ampd Bros) ----
   '/electric-fat-tyre-bikes/': {
-    title: 'Electric Fat Tyre Bikes for Sale Australia | Fat Bikes & Beach Cruisers',
+    title: 'Electric Fat Bikes for Sale Australia | Fat Tyre E-Bikes & Beach Cruisers',
     description: 'Buy an electric fat bike in Australia: fat tyre e-bikes and beach cruisers from Ampd Bros (ACE, Stubbie, Chubbie, Riptide). Road-compliant or off-road.',
     ogTitle: 'Electric Fat Bikes & Beach Cruisers for Sale Australia — Fat Tyre E-Bikes',
     ogDescription: 'Fat tyre electric bikes and beach cruisers: ACE, Stubbie, Chubbie and Riptide from Ampd Bros. Road-compliant 250W or off-road models.',
@@ -233,7 +233,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['mini e bike', 'electric mini bike', 'mini electric bike', 'mini ebike'], // 1,000 / 590 / 590 / 590
   },
   '/electric-bikes/cheap/': {
-    title: 'Cheap Electric Bikes Australia | Affordable E-Bikes & Kids Bikes',
+    title: 'Cheap Electric Bikes for Sale Australia | Affordable E-Bikes & Kids Bikes',
     description: 'Shop cheap electric bikes in Australia: affordable e-bikes, fat tyre bikes and kids electric bikes with warranty. Pay with crypto or PayID for 10% off.',
     ogTitle: 'Cheap Electric Bikes for Sale Australia — Affordable E-Bikes & Kids Bikes',
     ogDescription: 'Affordable electric bikes, fat tyre e-bikes and kids electric bikes. Warranty included. 10% off with crypto or PayID.',
