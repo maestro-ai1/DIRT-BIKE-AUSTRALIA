@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { PRODUCTS, BRANDS, CATEGORIES, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, Filter, ArrowRight, ShieldCheck, Truck } from 'lucide-react';
 import { ShopCatalogClient } from './ShopCatalogClient';
 
+const seo = seoFor('/shop/');
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bikes for Sale Australia — Shop All Models | EDBA',
-  description: 'Browse 70+ electric dirt bikes for sale in Australia. Sur-Ron, Talaria, Stark Varg, Stealth & more. Free shipping over $1,500. Fast dispatch from NSW 2575. 12-month AU warranty. From $3,690.',
-  keywords: 'electric dirt bikes for sale, buy electric dirt bike australia, electric bikes for sale australia, electric motorbike for sale australia, dirt motorcycles for sale, electric dirt bike shop australia',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/shop/`,
   },
   openGraph: {
-    title: 'Electric Dirt Bikes for Sale Australia — Shop All Models',
-    description: 'Browse 70+ electric dirt bikes for sale. Sur-Ron, Talaria, Stark Varg, Stealth & more. Free shipping over $1,500. 12-month AU warranty. From $3,690.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/shop/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',

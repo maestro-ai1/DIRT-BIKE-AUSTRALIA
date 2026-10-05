@@ -89,10 +89,10 @@ export default function AboutPage() {
               Southern Highlands NSW 2575 Headquarters
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Australia\'s Authorised Electric Dirt Bike Dealer — Mittagong NSW 2575
+              Australia&apos;s Authorised Electric Dirt Bike Dealer — Mittagong NSW 2575
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Founded in {BRAND.foundingYear}, Electric Dirt Bike Australia is the country\'s dedicated authorised dealer for high-power electric dirt bikes, motocross and trail motorcycles. We test, crate, and dispatch Sur-Ron, Talaria, Stark Varg, and E-Ride Pro bikes across Australia from our Mittagong NSW 2575 facility.
+              Founded in {BRAND.foundingYear}, Electric Dirt Bike Australia is the country&apos;s dedicated authorised dealer for high-power electric dirt bikes, motocross and trail motorcycles. We test, crate, and dispatch Sur-Ron, Talaria, Stark Varg, and E-Ride Pro bikes across Australia from our Mittagong NSW 2575 facility.
             </p>
 
             {/* ABN strictly on About us and Footer per user instructions */}
@@ -109,7 +109,7 @@ export default function AboutPage() {
           
           <div className="lg:col-span-7 space-y-6 text-slate-700 text-sm leading-relaxed">
             <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight">
-              Our Journey: From Passion to Australia\'s Premier Electric Moto Destination
+              Our Journey: From Passion to Australia&apos;s Premier Electric Moto Destination
             </h2>
 
             <p>
@@ -137,7 +137,7 @@ export default function AboutPage() {
             </h3>
 
             <p>
-              Shipping high-powered electric dirt bikes requires specialized handling. We partner with Australia\'s premier heavy-freight carriers equipped with hydraulic tailgate trucks. Each bike is securely bolted inside a steel-reinforced transit crate, ensuring it arrives at your home or depot in immaculate, showroom condition. All bike orders over $1,500 AUD include <strong>100% FREE freight</strong> across Australian mainland metropolitan and regional centers.
+              Shipping high-powered electric dirt bikes requires specialized handling. We partner with Australia&apos;s premier heavy-freight carriers equipped with hydraulic tailgate trucks. Each bike is securely bolted inside a steel-reinforced transit crate, ensuring it arrives at your home or depot in immaculate, showroom condition. All bike orders over $1,500 AUD include <strong>100% FREE freight</strong> across Australian mainland metropolitan and regional centers.
             </p>
           </div>
 

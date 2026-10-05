@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { PRODUCTS, SITE, CONTACT } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Truck, MapPin } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/electric-motor-bikes/melbourne/');
 export const metadata: Metadata = {
-  title: 'Electric Motor Bikes Melbourne VIC — Buy Online, Free Delivery | EDBA',
-  description: 'Buy electric motor bikes in Melbourne, Victoria. Sur-Ron, Talaria, Stark Varg & more. Free insured delivery to Melbourne VIC on orders over $1,500. Same-week dispatch from Mittagong NSW. 12-month AU warranty.',
-  keywords: 'electric motor bikes melbourne, electric bikes melbourne, buy electric bike melbourne, electric dirt bike delivery melbourne, electric bikes for sale melbourne victoria',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/melbourne/`,
   },
   openGraph: {
-    title: 'Electric Motor Bikes Melbourne VIC — Free Delivery | EDBA',
-    description: 'Sur-Ron, Talaria & Stark Varg delivered free to Melbourne VIC on orders over $1,500. Same-week dispatch from NSW.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/electric-motor-bikes/melbourne/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -100,7 +102,7 @@ export default function ElectricMotorBikesMelbournePage() {
               Electric Bikes Melbourne · Same-Week VIC Delivery
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Electric Motor Bikes Melbourne — Fast Delivery to VIC
+              Electric Bikes for Sale in Melbourne — Fast Delivery to VIC
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Order electric motor bikes online for delivery anywhere in Melbourne and regional Victoria. Electric Dirt Bike Australia dispatches crate-packed bikes from Mittagong NSW — just 2–4 business days to Melbourne. From road-legal commuter e-bikes to high-performance electric dirt bikes and Stealth Australian-engineered hyper-bikes.

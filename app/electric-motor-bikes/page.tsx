@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, FileText, ArrowRight, CheckCircle, Gauge, Battery, Compass, Baby, Bike, MapPin, Star, BookOpen, Scale } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/electric-motor-bikes/');
 export const metadata: Metadata = {
-  title: 'Electric Motorbikes Australia — Dirt, Commuter & Kids Range | EDBA',
-  description: 'Browse electric motorbikes in Australia. Off-road dirt bikes, commuter mopeds, kids\' bikes — Sur-Ron, Talaria, E-Ride Pro, RTR eBike & more. Free shipping over $1,500. Nationwide delivery from Mittagong NSW.',
-  keywords: 'electric motorbike australia, electric motor bike, electric motorcycle australia, electric motocross motorcycle, electric commuter bike australia, electric motor bikes for sale australia',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/`,
   },
   openGraph: {
-    title: 'Electric Motorbikes Australia — Dirt, Commuter & Kids Range',
-    description: 'Off-road dirt bikes, commuter mopeds, kids bikes — Sur-Ron, Talaria, E-Ride Pro & more. Free shipping over $1,500. Genuine AU stock from Mittagong NSW.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/electric-motor-bikes/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -110,14 +112,22 @@ export default function ElectricMotorBikesPage() {
         </nav>
 
         {/* Sub-Category Navigation */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-3 mb-10">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-10">
           {[
-            { href: '/electric-motor-bikes/kids/', icon: Baby, label: 'Kids Bikes', tag: '12K+/mo', color: 'text-emerald-500' },
-            { href: '/electric-motor-bikes/rtr-ebike/', icon: Bike, label: 'RTR eBike', tag: 'KD 7', color: 'text-sky-500' },
+            { href: '/electric-motor-bikes/kids/', icon: Baby, label: 'Kids Bikes', tag: 'Ages 3–16', color: 'text-emerald-500' },
+            { href: '/electric-bikes/', icon: Bike, label: 'Electric Bikes', tag: 'E-Bikes & E-Motos', color: 'text-sky-500' },
+            { href: '/electric-fat-tyre-bikes/', icon: Bike, label: 'Fat Tyre E-Bikes', tag: 'Beach Cruisers', color: 'text-teal-500' },
+            { href: '/electric-mini-bikes/', icon: Bike, label: 'Mini E-Bikes', tag: 'Compact', color: 'text-pink-500' },
+            { href: '/electric-bikes/cheap/', icon: Star, label: 'Cheap E-Bikes', tag: 'Affordable', color: 'text-yellow-500' },
+            { href: '/electric-motor-bikes/rtr-ebike/', icon: Bike, label: 'RTR eBike', tag: 'No Licence', color: 'text-sky-500' },
             { href: '/electric-motor-bikes/commuter-mopeds/', icon: Zap, label: 'Commuter Mopeds', tag: 'Road Legal', color: 'text-orange-500' },
-            { href: '/electric-motor-bikes/perth/', icon: MapPin, label: 'Perth', tag: 'Easy Win', color: 'text-purple-500' },
-            { href: '/electric-motor-bikes/melbourne/', icon: MapPin, label: 'Melbourne', tag: '5K+/mo', color: 'text-pink-500' },
-            { href: '/electric-motor-bikes/best-electric-bikes-australia/', icon: Star, label: 'Best eBikes Guide', tag: 'KD 8–12', color: 'text-yellow-500' },
+            { href: '/electric-motorcycles/', icon: Gauge, label: 'Electric Motorcycles', tag: 'Road & Off-Road', color: 'text-orange-500' },
+            { href: '/electric-motocross-bikes/', icon: Zap, label: 'Electric Motocross', tag: 'Competition', color: 'text-red-500' },
+            { href: '/electric-motor-bikes/sydney/', icon: MapPin, label: 'Sydney', tag: 'NSW', color: 'text-sky-500' },
+            { href: '/electric-motor-bikes/melbourne/', icon: MapPin, label: 'Melbourne', tag: 'VIC delivery', color: 'text-pink-500' },
+            { href: '/electric-motor-bikes/brisbane/', icon: MapPin, label: 'Brisbane', tag: 'QLD delivery', color: 'text-emerald-500' },
+            { href: '/electric-motor-bikes/perth/', icon: MapPin, label: 'Perth', tag: 'WA delivery', color: 'text-purple-500' },
+            { href: '/electric-motor-bikes/best-electric-bikes-australia/', icon: Star, label: 'Best eBikes Guide', tag: 'Top 10', color: 'text-yellow-500' },
             { href: '/electric-motor-bikes/e-bike-laws-australia/', icon: Scale, label: 'AU Laws & FAQ', tag: 'All States', color: 'text-teal-500' },
           ].map(({ href, icon: Icon, label, tag, color }) => (
             <Link
@@ -139,10 +149,10 @@ export default function ElectricMotorBikesPage() {
               Top 14 Australian Platforms · Dual-Sport &amp; High-Voltage e-Motos
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Top Electric Motor Bikes in Australia
+              Electric Motorbikes &amp; Motorcycles for Sale in Australia
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Explore Australia\'s most capable electric motor bikes. From road-capable dual-sport enduro platforms like the Sur-Ron Ultra Bee to Australian-engineered Stealth hyper-bikes and street scramblers, find the ideal machine backed by local NSW workshop support and nationwide crate freight.
+              Explore Australia&apos;s most capable electric motor bikes. From road-capable dual-sport enduro platforms like the Sur-Ron Ultra Bee to Australian-engineered Stealth hyper-bikes and street scramblers, find the ideal machine backed by local NSW workshop support and nationwide crate freight.
             </p>
             <div className="flex flex-wrap gap-4 pt-2 text-xs text-slate-300">
               <span className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">

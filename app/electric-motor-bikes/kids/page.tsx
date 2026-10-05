@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Baby, Star } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/electric-motor-bikes/kids/');
 export const metadata: Metadata = {
-  title: 'Kids Electric Bikes & Motorbikes Australia — Junior Range Ages 3–16 | EDBA',
-  description: 'Shop kids electric bikes and motorbikes in Australia. Ages 3–16. Junior dirt bikes, balance bikes, childs electric motorcycle — free delivery over $1,500. 12-month AU warranty. Safe, fun, and parent-controlled.',
-  keywords: 'kids electric bike australia, kids electric motorbike australia, childs electric motorcycle australia, electric motorbike for kids, kids electric dirt bike, junior electric bike australia',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/kids/`,
   },
   openGraph: {
-    title: 'Kids Electric Bikes & Motorbikes Australia — Ages 3–16',
-    description: 'Junior electric dirt bikes, balance bikes & childs motorcycles for ages 3–16. Free delivery over $1,500. 12-month AU warranty. Safe & parent-controlled.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/electric-motor-bikes/kids/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -33,6 +35,11 @@ export default function KidsElectricMotorbikeePage() {
     'ktm-sx-e-5-youth-electric',
     'husqvarna-ee-5-youth-electric',
     'kuberg-ranger-multi-purpose',
+    'evo-racing-16-electric-bike',
+    'evo-racing-18-kids-electric-bike',
+    'evo-racing-20-electric-bike',
+    'lil-rippa-16-kids-fat-electric-bike',
+    'rfn-warrior-kids-sx-e500-electric-bike',
   ];
 
   const kidsProducts = PRODUCTS.filter((p) => kidsSlugs.includes(p.slug));
@@ -114,7 +121,7 @@ export default function KidsElectricMotorbikeePage() {
               Kids Electric Motorbikes Australia · Ages 3–16
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Kids Electric Motorbikes Australia
+              Kids Electric Bikes &amp; Motorbikes for Sale in Australia
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Shop Australia&apos;s best range of kids and children&apos;s electric motorbikes — from toddler starter models at 250W to factory competition-spec KTM SX-E 5 and OSET trials bikes. Every kids electric bike comes with 12-month Australian warranty and free nationwide freight on orders over $1,500.

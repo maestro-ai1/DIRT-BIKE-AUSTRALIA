@@ -3,6 +3,10 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowRight, ChevronLeft, ChevronRight, Zap, ShieldCheck, Truck } from 'lucide-react';
+import { PAGE_SEO } from '@/src/config/seo';
+
+// One permanent H1 (main transactional keyword + primary commercial keyword). Slide headings below it are not headings.
+const HOME_H1 = PAGE_SEO['/'].h1 as string;
 
 const SLIDES = [
   {
@@ -11,8 +15,8 @@ const SLIDES = [
     alt: 'Electric dirt bike rider tearing up Australian bush track — Sur-Ron Light Bee X electric off-road bike with instant torque delivery',
     tag: 'AUSTRALIA\'S #1 ELECTRIC DIRT BIKE DEALER',
     isH1: true,
-    title: 'Electric Dirt Bike Australia | Brand New Electric Bike | Powerful Electric Dirt bikes',
-    subtitle: 'Engineered for Australian bush tracks, steep climbs, and extreme enduro terrain. Genuine stock, factory warranty, and ready for immediate nationwide dispatch.',
+    title: HOME_H1,
+    subtitle: 'Buy an electric dirt bike online, engineered for Australian bush tracks, steep climbs, and extreme enduro terrain. Genuine stock, factory warranty, and ready for immediate nationwide dispatch.',
     ctaText: 'Explore Dirt Bikes',
     ctaLink: '/shop/',
     badge: 'Sur-Ron · Talaria · Stark Varg',
@@ -93,13 +97,12 @@ export function HeroSlider() {
             <span className="text-orange-400 font-semibold">{slide.badge}</span>
           </div>
 
-          {/* Heading — Exactly one H1 on slide 1; styled div on others */}
-          {slide.isH1 ? (
-            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight mb-5 drop-shadow-sm">
-              {slide.title}
-            </h1>
-          ) : (
-            <div className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight mb-5 drop-shadow-sm">
+          {/* Heading — the H1 is always rendered; other slides add a non-heading line beneath it */}
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight mb-5 drop-shadow-sm">
+            {HOME_H1}
+          </h1>
+          {!slide.isH1 && (
+            <div className="text-xl sm:text-2xl font-bold text-sky-300 leading-snug mb-4 drop-shadow-sm">
               {slide.title}
             </div>
           )}

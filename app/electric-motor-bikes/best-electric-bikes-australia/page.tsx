@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Star, Trophy } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/electric-motor-bikes/best-electric-bikes-australia/');
 export const metadata: Metadata = {
-  title: 'Best Electric Bikes Australia 2026 — Top 10 Expert Ranked | EDBA',
-  description: 'Australia\'s best electric bikes for 2026. Expert-ranked: Sur-Ron Light Bee X, Talaria Sting R, Stark Varg, Stealth B-52 & more. Compare by use case, budget & skill level. Buy from Australia\'s authorised dealer.',
-  keywords: 'best electric bike australia, best electric dirt bike australia 2026, best ebike australia, best electric motorbike australia, top electric bikes australia, electric bike comparison australia',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/best-electric-bikes-australia/`,
   },
   openGraph: {
-    title: 'Best Electric Bikes Australia 2026 — Top 10 Expert Ranked',
-    description: 'Expert-ranked top 10 electric bikes for Australia 2026. Sur-Ron, Talaria, Stark Varg, Stealth & more compared by use case, budget & skill level.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/electric-motor-bikes/best-electric-bikes-australia/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',

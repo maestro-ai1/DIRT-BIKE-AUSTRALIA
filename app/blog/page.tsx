@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { POSTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { BlogCatalogClient } from './BlogCatalogClient';
 import { BookOpen } from 'lucide-react';
 
+const seo = seoFor('/blog/');
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike Blog Australia — Guides, Reviews & Riding Tips | EDBA',
-  description: 'Expert electric dirt bike guides for Australian riders. Sur-Ron vs Talaria comparison, 72V battery upgrades, are electric dirt bikes legal in Australia, speed guides, and maintenance tips from our Mittagong NSW workshop.',
-  keywords: 'electric dirt bike blog australia, sur ron vs talaria sting, are electric dirt bikes legal australia, how fast does sur ron go, electric dirt bike review, 72v battery upgrade guide, electric bike laws australia',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/blog/`,
   },
   openGraph: {
-    title: 'Electric Dirt Bike Blog Australia — Guides, Reviews & Tips',
-    description: 'Sur-Ron vs Talaria, battery upgrades, legality guides & riding tips from Australia\'s electric dirt bike specialists in Mittagong NSW.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/blog/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',

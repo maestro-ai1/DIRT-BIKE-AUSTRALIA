@@ -85,7 +85,7 @@ export default function ReturnsPolicyPage() {
               3. Transit Damage Claims
             </h2>
             <p>
-              Every shipment is fully insured. If the external transport crate arrives with visible damage, please note it on the driver\'s consignment note and notify us with photos within 24 hours at {CONTACT.email}.
+              Every shipment is fully insured. If the external transport crate arrives with visible damage, please note it on the driver&apos;s consignment note and notify us with photos within 24 hours at {CONTACT.email}.
             </p>
           </section>
         </div>

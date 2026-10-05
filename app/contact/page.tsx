@@ -208,7 +208,7 @@ export default function ContactPage() {
                   Send a Message to Our Workshop
                 </h2>
                 <p className="text-xs text-slate-500">
-                  Fill in your details and we\'ll get back to you within 2–4 business hours. Email delivery activates once SMTP is configured.
+                  Fill in your details and we&apos;ll get back to you within 2–4 business hours. Email delivery activates once SMTP is configured.
                 </p>
               </div>
 

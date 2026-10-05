@@ -2,19 +2,21 @@
 import Link from 'next/link';
 import { BRANDS, SITE, PRODUCTS } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ArrowRight, ShieldCheck } from 'lucide-react';
 
+const seo = seoFor('/brands/');
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike Brands Australia — Sur-Ron, Talaria, Stark Varg & More | EDBA',
-  description: 'Australia\'s authorised dealer for the world\'s best electric dirt bike brands — Sur-Ron, Talaria, Stark Varg, Stealth, E-Ride Pro & more. Genuine AU stock, factory warranty, parts support from Mittagong NSW.',
-  keywords: 'electric dirt bike brands australia, sur ron australia, talaria bikes australia, stark varg australia, stealth electric bikes australia, e-ride pro australia, electric dirt bike brands comparison',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/brands/`,
   },
   openGraph: {
-    title: 'Electric Dirt Bike Brands Australia — Sur-Ron, Talaria, Stark Varg & More',
-    description: 'Authorised AU dealer for Sur-Ron, Talaria, Stark Varg, Stealth & E-Ride Pro. Genuine stock, factory warranty from Mittagong NSW 2575.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/brands/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -67,7 +69,7 @@ export default function BrandsPage() {
               Electric Dirt Bike Brands in Australia — Sur-Ron, Talaria, Stark Varg &amp; More
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-              Australia\'s authorised dealer for the world\'s best electric dirt bike brands. Sur-Ron, Talaria, Stark Varg, E-Ride Pro, Stealth, and Super73 — every brand certified for Australian conditions with factory spare parts stocked in Mittagong NSW 2575.
+              Australia&apos;s authorised dealer for the world&apos;s best electric dirt bike brands. Sur-Ron, Talaria, Stark Varg, E-Ride Pro, Stealth, and Super73 — every brand certified for Australian conditions with factory spare parts stocked in Mittagong NSW 2575.
             </p>
           </div>
         </div>

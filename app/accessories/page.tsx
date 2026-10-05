@@ -2,19 +2,21 @@
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { BatteryCharging, Zap, ShieldCheck, ArrowRight } from 'lucide-react';
 
+const seo = seoFor('/accessories/');
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike Accessories Australia — 72V Batteries, Fast Chargers & Parts | EDBA',
-  description: 'Shop electric dirt bike accessories in Australia. 72V Molicel lithium batteries, fast chargers, Sur-Ron & Talaria OEM parts, skid plates & performance upgrades. Free shipping over $1,500 AUD.',
-  keywords: 'electric dirt bike accessories australia, 72v battery australia, fast charger 72v, sur ron accessories, talaria accessories, electric dirt bike parts australia, 72v battery upgrade sur ron talaria',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/accessories/`,
   },
   openGraph: {
-    title: 'Electric Dirt Bike Accessories Australia — 72V Batteries & Parts',
-    description: '72V Molicel batteries, fast chargers, Sur-Ron & Talaria parts. Free shipping over $1,500 AUD. Genuine stock from Mittagong NSW.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/accessories/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',

@@ -30,6 +30,14 @@ interface Brand {
 
 const ITEMS_PER_PAGE = 9;
 
+const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+// A product matches a brand filter by name, by slug ("e-ride-pro" = "E-Ride Pro") or when the filter name extends the product brand ("RFN (Apollo)" = "RFN").
+const brandMatches = (productBrand: string, selected: string) => {
+  const p = slugify(productBrand);
+  const s = slugify(selected);
+  return p === s || s.startsWith(p + '-');
+};
+
 export function ShopCatalogClient({
   products,
   brands,
@@ -47,10 +55,27 @@ export function ShopCatalogClient({
   const [addedSlug, setAddedSlug] = useState<string | null>(null);
   const catalogTopRef = useRef<HTMLDivElement>(null);
 
+  // Nav and footer link to /shop/?category=... and /shop/?brand=...; apply them once on load (the canonical stays /shop/).
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const cat = params.get('category');
+      const brand = params.get('brand');
+      if (cat && categories.some((c) => c.slug === cat)) setSelectedCategory(cat);
+      if (brand) {
+        const b = brands.find((x) => slugify(x.slug) === slugify(brand) || slugify(x.name) === slugify(brand));
+        setSelectedBrand(b ? b.name : brand);
+      }
+    } catch {
+      /* ignore malformed query strings */
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const filteredProducts = useMemo(() => {
     return products.filter((p) => {
       if (selectedCategory !== 'all' && p.category !== selectedCategory) return false;
-      if (selectedBrand !== 'all' && p.brand.toLowerCase() !== selectedBrand.toLowerCase()) return false;
+      if (selectedBrand !== 'all' && !brandMatches(p.brand, selectedBrand)) return false;
       if (searchQuery.trim()) {
         const q = searchQuery.toLowerCase();
         const matchName = p.name.toLowerCase().includes(q);

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { POSTS, SITE, PRODUCTS } from '@/src/config/site';
 import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
+import { blogTags } from '@/src/config/blog-seo';
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2, Zap } from 'lucide-react';
 
 interface Props {
@@ -29,7 +30,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     Innovations: 'electric motocross australia, stark varg australia, electric dirt bike news',
     'Legal & Safety': 'are electric dirt bikes legal australia, electric bike laws australia, electric dirt bike registration',
   };
-  const keywords = categoryKeywords[post.category] ?? 'electric dirt bike australia, electric bike guide, sur ron talaria australia';
+  const baseKeywords = categoryKeywords[post.category] ?? 'electric dirt bike australia, electric bike guide, sur ron talaria australia';
+  const tagList = blogTags(post.slug);
+  const keywords = tagList.length ? `${tagList.join(', ')}, ${baseKeywords}` : baseKeywords;
 
   return {
     title,
@@ -233,6 +236,18 @@ export default async function BlogPostPage({ params }: Props) {
             </Link>
           </div>
         </article>
+
+        {/* Blog tags: Semrush informational keywords for this topic */}
+        {blogTags(post.slug).length > 0 && (
+          <div className="bg-white p-6 rounded-2xl border border-slate-200/90 shadow-xs space-y-3" aria-labelledby="post-tags">
+            <h2 id="post-tags" className="text-sm font-extrabold text-slate-900 uppercase tracking-wider">Related Topics</h2>
+            <ul className="flex flex-wrap gap-2">
+              {blogTags(post.slug).map((t) => (
+                <li key={t} className="px-3 py-1.5 rounded-full bg-slate-50 text-xs font-semibold text-slate-600 border border-slate-200">{t}</li>
+              ))}
+            </ul>
+          </div>
+        )}
 
         {/* Other Guides */}
         {relatedPosts.length > 0 && (

@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { PRODUCTS, SITE, CONTACT } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass, Truck, MapPin } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/electric-motor-bikes/perth/');
 export const metadata: Metadata = {
-  title: 'Electric Motor Bikes Perth WA — Buy Online, Free Delivery to Perth | EDBA',
-  description: 'Buy electric motor bikes in Perth, Western Australia. Sur-Ron, Talaria, Stark Varg & more. Free insured freight to Perth WA on orders over $1,500. Fast dispatch from Mittagong NSW. 12-month AU warranty.',
-  keywords: 'electric motor bikes perth, electric bikes perth wa, buy electric bike perth, electric dirt bike delivery perth, electric bikes for sale perth western australia',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/electric-motor-bikes/perth/`,
   },
   openGraph: {
-    title: 'Electric Motor Bikes Perth WA — Free Delivery | EDBA',
-    description: 'Sur-Ron, Talaria & Stark Varg delivered free to Perth WA on orders over $1,500. Genuine AU stock from Mittagong NSW.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/electric-motor-bikes/perth/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -98,7 +100,7 @@ export default function ElectricMotorBikesPerthPage() {
               Electric Bikes Perth · Free WA Delivery Over $1,500
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Electric Motor Bikes Perth — Delivered Free to WA
+              Electric Bikes for Sale in Perth — Delivered Free to WA
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Buy electric motor bikes online and receive free crate delivery anywhere in Perth — from Fremantle to Joondalup, Mandurah to the Hills. Electric Dirt Bike Australia dispatches from Mittagong NSW with insured heavy-freight tracking to every Perth suburb and regional Western Australia location.

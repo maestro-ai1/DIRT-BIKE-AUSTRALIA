@@ -19,7 +19,7 @@ import {
   Share2,
   HelpCircle,
 } from 'lucide-react';
-import { getProductFaqs } from '@/lib/productFaqs';
+import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
 import { FaqItem } from '@/components/FaqItem';
 
 interface Product {
@@ -35,6 +35,11 @@ interface Product {
   specs?: Record<string, string>;
   images: string[];
   inStock: boolean;
+  // Present on products supplied by Ampd Bros: their own warranty, shipping and legality wording.
+  source?: string;
+  warranty?: string;
+  shipping?: string;
+  legalNote?: string;
 }
 
 export function ProductDetailClient({
@@ -50,6 +55,9 @@ export function ProductDetailClient({
   const [copiedLink, setCopiedLink] = useState(false);
 
   const faqs = getProductFaqs(product);
+  const tags = getProductTags(product);
+  const amp = product.source === 'ampd-bros';
+  const warrantyShort = amp ? (product.warranty?.match(/^(\d+-year)/i)?.[1] ?? 'Supplier') + ' Warranty' : '12-Mo Warranty';
   const cryptoPrice = Math.round(product.price * (1 - SHOP.cryptoDiscount / 100));
   const savings = product.price - cryptoPrice;
 
@@ -131,17 +139,17 @@ export function ProductDetailClient({
             <div className="p-3 bg-slate-50 rounded-xl">
               <Truck className="w-4 h-4 text-sky-600 mx-auto mb-1" />
               <div className="font-bold text-slate-900">Aus-Wide Freight</div>
-              <div className="text-[11px] text-slate-400">Tailgate truck delivery</div>
+              <div className="text-[11px] text-slate-400">{amp ? 'Toll Ipec, signature required' : 'Tailgate truck delivery'}</div>
             </div>
             <div className="p-3 bg-slate-50 rounded-xl">
               <ShieldCheck className="w-4 h-4 text-emerald-600 mx-auto mb-1" />
-              <div className="font-bold text-slate-900">12-Mo Warranty</div>
-              <div className="text-[11px] text-slate-400">NSW factory support</div>
+              <div className="font-bold text-slate-900">{warrantyShort}</div>
+              <div className="text-[11px] text-slate-400">{amp ? 'Ampd Bros nationwide' : 'NSW factory support'}</div>
             </div>
             <div className="p-3 bg-slate-50 rounded-xl">
               <Wrench className="w-4 h-4 text-orange-600 mx-auto mb-1" />
-              <div className="font-bold text-slate-900">Pre-Delivery PDI</div>
-              <div className="text-[11px] text-slate-400">Inspected &amp; tested</div>
+              <div className="font-bold text-slate-900">{amp ? 'Local Support' : 'Pre-Delivery PDI'}</div>
+              <div className="text-[11px] text-slate-400">{amp ? 'Ask us on WhatsApp' : 'Inspected & tested'}</div>
             </div>
           </div>
         </div>
@@ -208,7 +216,7 @@ export function ProductDetailClient({
             {/* In Stock & Dispatch Status */}
             <div className="flex items-center gap-2 text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-2 rounded-xl border border-emerald-200">
               <CheckCircle className="w-4 h-4 shrink-0" />
-              <span>In Stock in Southern Highlands NSW 2575 · Ready for Crate Dispatch</span>
+              <span>{amp ? 'In Stock · Supplied by Ampd Bros from the Gold Coast, QLD' : 'In Stock in Southern Highlands NSW 2575 · Ready for Crate Dispatch'}</span>
             </div>
 
             {/* Quantity Selector */}
@@ -297,11 +305,42 @@ export function ProductDetailClient({
 
         {/* Australian Compliance Notice */}
         <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs text-slate-600 leading-relaxed">
-          <strong className="text-slate-900">Australian Off-Road Use Advisory:</strong> This bike is supplied in unrestricted high-power competition configuration for off-road closed-course tracks and private property across Australia. Riders must verify local state regulations regarding off-road trail permits and registration requirements.
+          {amp ? (
+            <>
+              <strong className="text-slate-900">Use and Compliance:</strong> {product.legalNote} Riders must verify local state regulations.{' '}
+              <strong className="text-slate-900">Shipping:</strong> {product.shipping}
+            </>
+          ) : (
+            <>
+              <strong className="text-slate-900">Australian Off-Road Use Advisory:</strong> This bike is supplied in unrestricted high-power competition configuration for off-road closed-course tracks and private property across Australia. Riders must verify local state regulations regarding off-road trail permits and registration requirements.
+            </>
+          )}
         </div>
       </div>
 
-      {/* High-Converting 5 FAQ Section with High Search-Volume Keywords */}
+      {/* Product tags: 15+ keyword tags per product (Semrush commercial + transactional terms) */}
+      <div className="bg-white p-6 sm:p-8 rounded-3xl border border-slate-200/90 shadow-sm space-y-4" aria-labelledby="product-tags">
+        <h2 id="product-tags" className="text-sm font-extrabold text-slate-900 uppercase tracking-wider">
+          Popular Searches for the {product.name.replace(/\s*\([^)]*\)\s*/g, ' ').trim()}
+        </h2>
+        <ul className="flex flex-wrap gap-2">
+          {tags.map((t) => (
+            <li key={t.label}>
+              {t.href ? (
+                <Link href={t.href} className="inline-block px-3 py-1.5 rounded-full bg-slate-100 hover:bg-sky-100 hover:text-sky-800 text-xs font-semibold text-slate-700 border border-slate-200 transition-colors">
+                  {t.label}
+                </Link>
+              ) : (
+                <span className="inline-block px-3 py-1.5 rounded-full bg-slate-50 text-xs font-semibold text-slate-600 border border-slate-200">
+                  {t.label}
+                </span>
+              )}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Product FAQ: 8+ keyword-led questions per product, answers built from the product's own specs and site policy */}
       <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-5">
           <div>
@@ -314,7 +353,7 @@ export function ProductDetailClient({
             </h2>
           </div>
           <span className="text-xs font-semibold text-slate-500 bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-200/80 self-start sm:self-auto">
-            5 Essential Questions Answered
+            {faqs.length} Questions Answered
           </span>
         </div>
 

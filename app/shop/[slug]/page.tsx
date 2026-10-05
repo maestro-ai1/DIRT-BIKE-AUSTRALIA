@@ -5,7 +5,7 @@ import { PRODUCTS, SITE, SHOP, CONTACT } from '@/src/config/site';
 import { JsonLd } from '@/components/JsonLd';
 import { Metadata } from 'next';
 import { ProductDetailClient } from './ProductDetailClient';
-import { getProductFaqs } from '@/lib/productFaqs';
+import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -24,12 +24,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const candidateTitle = `Buy ${product.name} in Australia | ${priceStr} | EDBA`;
   const title = candidateTitle.length <= 60 ? candidateTitle : `${product.name} Australia | ${priceStr} | EDBA`;
 
-  const descRaw = `${product.shortDescription} Genuine AU stock, 12-month factory warranty. Free delivery Australia-wide from Mittagong NSW 2575.`;
+  const ampProduct = (product as { source?: string; warranty?: string }).source === 'ampd-bros';
+  const ampWarranty = (product as { warranty?: string }).warranty?.match(/^(\d+-year(?: or [\d,]+ km)?)/i)?.[1];
+  const descRaw = ampProduct
+    ? `${product.shortDescription} ${ampWarranty ? `${ampWarranty.trim()} warranty. ` : ''}Ships Australia-wide from the Gold Coast, QLD.`
+    : `${product.shortDescription} Genuine AU stock, 12-month factory warranty. Free delivery Australia-wide from Mittagong NSW 2575.`;
   const description = descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw;
 
   const brandLower = product.brand.toLowerCase();
   const nameLower = product.name.toLowerCase();
-  const keywords = `${nameLower} australia, buy ${nameLower} australia, ${nameLower} for sale, ${brandLower} australia, ${nameLower} price australia, electric dirt bike for sale australia`;
+  const tagKeywords = getProductTags(product).map((t) => t.label.toLowerCase()).slice(0, 12).join(', ');
+  const keywords = `${nameLower} australia, buy ${nameLower} australia, ${nameLower} for sale, ${brandLower} australia, ${nameLower} price australia, ${tagKeywords}`;
 
   return {
     title,

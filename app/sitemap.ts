@@ -20,6 +20,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Category pages
     { url: `${BASE}/electric-dirt-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
     { url: `${BASE}/electric-motor-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/electric-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/electric-motorcycles/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-fat-tyre-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-mini-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-bikes/cheap/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-motocross-bikes/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/accessories/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
     // Electric motor bike sub-pages
     { url: `${BASE}/electric-motor-bikes/kids/`, lastModified: now, changeFrequency: 'weekly', priority: 0.8 },
@@ -29,6 +35,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/electric-motor-bikes/e-bike-laws-australia/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${BASE}/electric-motor-bikes/melbourne/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${BASE}/electric-motor-bikes/perth/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/electric-motor-bikes/sydney/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/electric-motor-bikes/brisbane/`, lastModified: now, changeFrequency: 'monthly', priority: 0.75 },
   ];
 
   const productPages: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({

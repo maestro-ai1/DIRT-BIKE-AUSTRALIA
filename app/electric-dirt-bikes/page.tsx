@@ -2,20 +2,22 @@
 import Link from 'next/link';
 import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/electric-dirt-bikes/');
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bikes Australia — Off-Road Trail & Enduro Performance | EDBA',
-  description: 'Shop electric dirt bikes in Australia. Sur-Ron Light Bee X, Talaria Sting R, Stark Varg, E-Ride Pro & more. Off-road performance, free delivery over $1,500 AUD. 12-month AU warranty. From $3,990.',
-  keywords: 'electric dirt bike, electric dirt bikes australia, off road electric bike, electric enduro bike, electric motocross bike, buy electric dirt bike, electric dirt bike for adults australia',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/electric-dirt-bikes/`,
   },
   openGraph: {
-    title: 'Electric Dirt Bikes Australia — Off-Road Trail & Enduro Performance',
-    description: 'Sur-Ron Light Bee X, Talaria Sting R, Stark Varg & more. Free delivery over $1,500. 12-month AU warranty. Genuine stock from Mittagong NSW 2575.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/electric-dirt-bikes/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -118,10 +120,10 @@ export default function ElectricDirtBikesPage() {
               AU Genuine Stock · Sur-Ron, Talaria, Stark &amp; More
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Electric Dirt Bikes in Australia
+              Electric Dirt Bikes for Sale in Australia
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Australia\'s most capable off-road electric dirt bikes — from the lightweight Sur-Ron Light Bee X to the championship-grade Stark Varg EX 80HP. Every bike is genuine Australian stock, pre-delivery inspected at our Mittagong NSW 2575 facility, and dispatched with nationwide insured crate freight.
+              Australia&apos;s most capable off-road electric dirt bikes — from the lightweight Sur-Ron Light Bee X to the championship-grade Stark Varg EX 80HP. Every bike is genuine Australian stock, pre-delivery inspected at our Mittagong NSW 2575 facility, and dispatched with nationwide insured crate freight.
             </p>
             <div className="flex flex-wrap gap-4 pt-2 text-xs text-slate-300">
               <span className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
@@ -255,7 +257,7 @@ export default function ElectricDirtBikesPage() {
           </h2>
           <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-4">
             <p>
-              Electric dirt bikes in Australia have evolved from novelty to genuine performance machines that compete directly with 125cc–450cc petrol motocross bikes. Whether you\'re searching for an <strong>off-road electric bike for adults</strong>, a <strong>kids electric dirt bike</strong>, or a full-send <strong>electric enduro bike</strong> for Australian bush tracks — EDBA stocks the complete range.
+              Electric dirt bikes in Australia have evolved from novelty to genuine performance machines that compete directly with 125cc–450cc petrol motocross bikes. Whether you&apos;re searching for an <strong>off-road electric bike for adults</strong>, a <strong>kids electric dirt bike</strong>, or a full-send <strong>electric enduro bike</strong> for Australian bush tracks — EDBA stocks the complete range.
             </p>
             <p>
               The most popular electric dirt bikes for sale in Australia are the <Link href="/shop/sur-ron-light-bee-x/" className="text-sky-600 hover:underline font-medium">Sur-Ron Light Bee X</Link> (50 kg, 75 km/h, $6,490 AUD), the <Link href="/shop/talaria-sting-r-mx4/" className="text-sky-600 hover:underline font-medium">Talaria Sting R MX4</Link> (sealed gearbox, 85 km/h, $7,290 AUD), and the <Link href="/shop/stark-varg-ex-80hp/" className="text-sky-600 hover:underline font-medium">Stark Varg EX 80HP</Link> for motocross competition ($18,990 AUD). For pure trail riding, the <Link href="/shop/e-ride-pro-sr/" className="text-sky-600 hover:underline font-medium">E-Ride Pro SR</Link> and <Link href="/shop/stealth-b-52-bomber/" className="text-sky-600 hover:underline font-medium">Stealth B-52 Bomber</Link> offer longer-range off-road performance across Australian terrain.

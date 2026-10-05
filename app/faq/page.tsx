@@ -2,20 +2,23 @@
 import Link from 'next/link';
 import { FAQ, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
+import { seoFor, buildFaq } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { HelpCircle, ChevronRight } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/faq/');
+const FAQ_ITEMS = buildFaq(FAQ);
 export const metadata: Metadata = {
-  title: 'Electric Dirt Bike FAQ Australia — Legality, Cost, Speed & Warranty | EDBA',
-  description: 'Answers to the most common electric dirt bike questions in Australia. Are electric dirt bikes legal? How much do they cost? How fast does a Sur-Ron go? Battery life, registration, crypto discount & more.',
-  keywords: 'are electric dirt bikes legal in australia, how much does electric dirt bike cost australia, how fast does sur ron go, electric dirt bike battery life, electric bike registration australia, electric dirt bike faq',
+  title: seo.title,
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/faq/`,
   },
   openGraph: {
-    title: 'Electric Dirt Bike FAQ Australia — Legality, Cost & Speed Guide',
-    description: 'Are electric dirt bikes legal in Australia? How much do they cost? How fast does a Sur-Ron go? All answered by EDBA specialists.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/faq/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -31,7 +34,7 @@ export default function FaqPage() {
     {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: FAQ.map((item) => ({
+      mainEntity: FAQ_ITEMS.map((item) => ({
         '@type': 'Question',
         name: item.question,
         acceptedAnswer: {
@@ -77,7 +80,7 @@ export default function FaqPage() {
             <span>Direct Answers</span>
           </div>
           <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-2">
-            Frequently Asked Questions
+            Electric Dirt Bike FAQ Australia: Frequently Asked Questions
           </h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
             Answers to common questions about riding electric dirt bikes in Australia, battery care, freight timelines, and payment options.
@@ -85,7 +88,7 @@ export default function FaqPage() {
         </div>
 
         <div className="space-y-4">
-          {FAQ.map((item, idx) => (
+          {FAQ_ITEMS.map((item, idx) => (
             <FaqItem key={idx} as="h2" question={item.question}>
               {item.answer}
             </FaqItem>

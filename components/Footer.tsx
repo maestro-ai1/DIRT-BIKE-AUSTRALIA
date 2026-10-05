@@ -64,7 +64,7 @@ export function Footer() {
             <ul className="space-y-2.5 text-xs text-slate-400 font-medium">
               <li>
                 <Link href="/faq/" className="hover:text-white transition-colors">
-                  FAQ\'s
+                  FAQs
                 </Link>
               </li>
               <li>
@@ -120,6 +120,36 @@ export function Footer() {
                 {/* As requested: Electric Motor Bikes link in footer only */}
                 <Link href="/electric-motor-bikes/" className="hover:text-sky-400 font-semibold text-slate-300 transition-colors">
                   Electric Motor Bikes
+                </Link>
+              </li>
+              <li>
+                <Link href="/electric-dirt-bikes/" className="hover:text-white transition-colors">
+                  Electric Dirt Bikes for Sale
+                </Link>
+              </li>
+              <li>
+                <Link href="/electric-bikes/" className="hover:text-white transition-colors">
+                  Electric Bikes for Sale
+                </Link>
+              </li>
+              <li>
+                <Link href="/electric-fat-tyre-bikes/" className="hover:text-white transition-colors">
+                  Fat Tyre Electric Bikes
+                </Link>
+              </li>
+              <li>
+                <Link href="/electric-mini-bikes/" className="hover:text-white transition-colors">
+                  Mini Electric Bikes
+                </Link>
+              </li>
+              <li>
+                <Link href="/electric-bikes/cheap/" className="hover:text-white transition-colors">
+                  Cheap Electric Bikes
+                </Link>
+              </li>
+              <li>
+                <Link href="/electric-motor-bikes/kids/" className="hover:text-white transition-colors">
+                  Kids Electric Bikes
                 </Link>
               </li>
               <li>

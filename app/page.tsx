@@ -6,18 +6,21 @@ import { JsonLd } from '@/components/JsonLd';
 import { PRODUCTS, BRANDS, CATEGORIES, FAQ, SITE, CONTACT, BRAND, SHOP } from '@/src/config/site';
 import { Zap, ShieldCheck, Truck, ArrowRight, Award, BatteryCharging, Wrench, ChevronRight, CheckCircle, Flame } from 'lucide-react';
 import { Metadata } from 'next';
+import { seoFor, buildFaq } from '@/src/config/seo';
 
 import { FaqItem } from '@/components/FaqItem';
+const seo = seoFor('/');
+const HOME_FAQ = buildFaq(FAQ, 5);
 export const metadata: Metadata = {
-  title: { absolute: 'Buy Electric Dirt Bikes Australia | Sur-Ron, Talaria & Stark Varg' },
-  description: 'Buy electric dirt bikes in Australia — Sur-Ron, Talaria & Stark Varg. Genuine AU stock, 12-month warranty, free delivery over $1,500 from NSW.',
-  keywords: 'electric dirt bike australia, buy electric dirt bike, electric dirt bikes for sale, sur ron australia, talaria sting, stark varg australia, off road electric bike, electric enduro bike',
+  title: { absolute: seo.title },
+  description: seo.description,
+  keywords: seo.keywords,
   alternates: {
     canonical: `https://${SITE.domain}/`,
   },
   openGraph: {
-    title: 'Electric Dirt Bike Australia — Buy Sur-Ron, Talaria & Stark Varg',
-    description: 'Australia\'s electric dirt bike specialists. Sur-Ron, Talaria, Stark Varg — genuine stock, 12-month AU warranty, free shipping over $1,500.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     url: `https://${SITE.domain}/`,
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
@@ -33,8 +36,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Electric Dirt Bike Australia — Buy Sur-Ron, Talaria & Stark Varg',
-    description: 'Buy electric dirt bikes in Australia — Sur-Ron, Talaria & Stark Varg. Genuine AU stock, 12-month warranty, free delivery.',
+    title: seo.ogTitle,
+    description: seo.ogDescription,
     images: [`https://${SITE.domain}/images/theme_dirtbike_cover.jpg`],
   },
   other: {
@@ -97,7 +100,7 @@ export default function HomePage() {
     {
       '@context': 'https://schema.org',
       '@type': 'FAQPage',
-      mainEntity: FAQ.map((item) => ({
+      mainEntity: HOME_FAQ.map((item) => ({
         '@type': 'Question',
         name: item.question,
         acceptedAnswer: {
@@ -162,13 +165,55 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* 2b. Shop by category — keyword-led internal links to every category (commercial + transactional keywords) */}
+      <section className="py-12 bg-slate-50 border-b border-slate-100" aria-labelledby="home-categories">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mb-8">
+            <h2 id="home-categories" className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+              Buy an Electric Dirt Bike in Australia
+            </h2>
+            <p className="text-sm sm:text-base text-slate-600 mt-3 leading-relaxed">
+              Electric Dirt Bike Australia sells electric dirt bikes for sale online, along with electric motorbikes, kids electric bikes, e-bikes and electric mopeds. Every bike ships Australia-wide from our Mittagong NSW 2575 workshop with a 12-month Australian warranty and free freight on orders over $1,500. Choose a category to compare models and prices.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { href: '/electric-dirt-bikes/', title: 'Electric Dirt Bikes for Sale', text: 'Adult electric dirt bikes, off-road and trail bikes from Sur-Ron, Talaria, Stark Varg and E-Ride Pro.' },
+              { href: '/electric-motor-bikes/', title: 'Electric Motorbikes & Motorcycles', text: 'Off-road electric motorbikes, road-legal electric mopeds and commuter models.' },
+              { href: '/electric-motor-bikes/kids/', title: 'Kids Electric Bikes & Motorbikes', text: 'Childs electric motorcycles and childrens electric dirt bikes for ages 3–16.' },
+              { href: '/electric-bikes/', title: 'Electric Bikes for Sale', text: 'RTR eBikes, Super73 e-motos and road-legal electric mopeds in one place.' },
+              { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Electric Mopeds', text: 'Road-legal, LAMS-approved electric mopeds and commuter e-bikes.' },
+              { href: '/electric-motor-bikes/rtr-ebike/', title: 'RTR eBike', text: 'Road-legal 250W RTR e bike commuters. No licence or registration needed.' },
+              { href: '/electric-motocross-bikes/', title: 'Electric Motocross Bikes', text: 'Competition electric motocross bikes including the Stark Varg and Sur-Ron Storm Bee MX.' },
+              { href: '/electric-fat-tyre-bikes/', title: 'Electric Fat Tyre Bikes', text: 'Fat tyre e-bikes and electric beach cruisers: ACE, Stubbie, Chubbie and Riptide.' },
+              { href: '/electric-mini-bikes/', title: 'Mini Electric Bikes', text: 'Compact mini e bikes with 16-inch wheels and a 48V 15Ah battery.' },
+              { href: '/electric-bikes/cheap/', title: 'Cheap Electric Bikes', text: 'Affordable e-bikes and kids electric bikes with published specifications and warranty.' },
+              { href: '/electric-motorcycles/', title: 'Electric Motorcycles', text: 'Road-registered electric motorcycles and mopeds plus off-road models.' },
+              { href: '/accessories/', title: 'E Bike Parts & Batteries', text: '72V lithium batteries, fast chargers and performance parts with Australian plugs.' },
+            ].map((c) => (
+              <Link
+                key={c.href}
+                href={c.href}
+                className="group p-5 bg-white border border-slate-200/90 hover:border-sky-500/80 rounded-2xl transition-all hover:shadow-md"
+              >
+                <h3 className="text-base font-extrabold text-slate-900 group-hover:text-sky-700 transition-colors mb-1.5">{c.title}</h3>
+                <p className="text-xs text-slate-600 leading-relaxed">{c.text}</p>
+                <span className="inline-flex items-center gap-1 mt-3 text-xs font-bold text-sky-700">
+                  Shop now <ArrowRight className="w-3.5 h-3.5" />
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* 3. Trending Brands Bar */}
       <section className="py-8 bg-white border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
             <div>
               <div className="text-xs font-bold uppercase tracking-wider text-sky-700 mb-1">
-                Australia\'s Most Purchased
+                Australia&apos;s Most Purchased
               </div>
               <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
                 Trending Electric Dirt Bike Brands
@@ -520,7 +565,7 @@ export default function HomePage() {
           </div>
 
           <div className="space-y-3">
-            {FAQ.map((item, idx) => (
+            {HOME_FAQ.map((item, idx) => (
               <FaqItem key={idx} question={item.question}>
                 {item.answer}
               </FaqItem>

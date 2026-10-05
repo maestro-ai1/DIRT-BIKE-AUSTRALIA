@@ -1,0 +1,172 @@
+[
+  {
+    "handle": "ace-adventure-fat-tyre-electric-bike",
+    "status": "ok",
+    "name": "ACE Adventure Electric Bike (48V 20Ah / 250W)",
+    "price": 3290,
+    "cmp": 3490,
+    "images": 4,
+    "specFields": 16,
+    "config": true
+  },
+  {
+    "handle": "ace-pro-dual-suspension-fat-tyre-electric-bike",
+    "status": "ok",
+    "name": "ACE PRO Electric Bike (48V 25Ah / 250W)",
+    "price": 3990,
+    "cmp": 4190,
+    "images": 4,
+    "specFields": 16,
+    "config": true
+  },
+  {
+    "handle": "ace-x-demon-dual-motor-fat-electric-bike",
+    "status": "ok",
+    "name": "ACE-X Demon S5 Dual Electric Bike (52V 25Ah / 1,000W)",
+    "price": 4990,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": false
+  },
+  {
+    "handle": "ace-mini-electric-fat-bike",
+    "status": "ok",
+    "name": "ACE Mini Electric Bike (48V 15Ah / 250W)",
+    "price": 2390,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": true
+  },
+  {
+    "handle": "ace-x-mini-pro-electric-bike",
+    "status": "ok",
+    "name": "ACE-X Mini PRO Electric Bike (48V 15Ah / 250W)",
+    "price": 2990,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 16,
+    "config": true
+  },
+  {
+    "handle": "chubbie-v3-electric-beach-cruiser",
+    "status": "ok",
+    "name": "CHUBBIE 3 Electric Bike (48V 20Ah / 250W)",
+    "price": 3490,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": true
+  },
+  {
+    "handle": "chubbie-s-v3-electric-beach-cruiser",
+    "status": "ok",
+    "name": "CHUBBIE-S 3 Electric Bike (48V 20Ah / 250W)",
+    "price": 3490,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": true
+  },
+  {
+    "handle": "the-original-stubbie-fat-tyre-electric-bike",
+    "status": "ok",
+    "name": "Stubbie S3 Electric Bike (48V 15Ah / 250W)",
+    "price": 2590,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": true
+  },
+  {
+    "handle": "the-original-stubbie-s-electric-bike",
+    "status": "ok",
+    "name": "Stubbie-S S3 Electric Bike (48V 15Ah / 250W)",
+    "price": 2590,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": true
+  },
+  {
+    "handle": "riptide-electric-beach-cruiser-bike",
+    "status": "ok",
+    "name": "RIPTIDE 3 Electric Bike (48V 15Ah / 250W)",
+    "price": 2190,
+    "cmp": 2690,
+    "images": 4,
+    "specFields": 15,
+    "config": true
+  },
+  {
+    "handle": "riptide-s-electric-beach-cruiser-bike",
+    "status": "ok",
+    "name": "RIPTIDE-S 3 Electric Bike (48V 15Ah / 250W)",
+    "price": 2690,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": true
+  },
+  {
+    "handle": "evo-racing-16-electric-bike",
+    "status": "ok",
+    "name": "EVO Racing 16\" Electric Bike (24V 5Ah / 350W)",
+    "price": 1599,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": false
+  },
+  {
+    "handle": "evo-racing-18-kids-electric-bike",
+    "status": "ok",
+    "name": "EVO Racing 18\" Electric Bike (36V 5Ah / 500W)",
+    "price": 1999,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": false
+  },
+  {
+    "handle": "evo-racing-20-electric-bike",
+    "status": "ok",
+    "name": "EVO Racing 20\" Electric Bike (36V 10Ah / 750W)",
+    "price": 2399,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 15,
+    "config": false
+  },
+  {
+    "handle": "lil-rippa-16-kids-fat-electric-bike",
+    "status": "ok",
+    "name": "Lil Rippa 16\" Kids Electric Bike (36V 13Ah)",
+    "price": 1999,
+    "cmp": 0,
+    "images": 4,
+    "specFields": 13,
+    "config": false
+  },
+  {
+    "handle": "rfn-warrior-kids-sx-e500-electric-bike",
+    "status": "ok",
+    "name": "WARRIOR KIDS SX-E500 Electric Bike (36V 7.5Ah)",
+    "price": 1899,
+    "cmp": 2299,
+    "images": 4,
+    "specFields": 8,
+    "config": false
+  },
+  {
+    "handle": "ares-rally-endurance-road-electric-dirt-bike",
+    "status": "ok",
+    "name": "ARES Endurance Road Electric Dirt Bike (74V 43Ah)",
+    "price": 6990,
+    "cmp": 7490,
+    "images": 4,
+    "specFields": 9,
+    "config": false
+  }
+]
