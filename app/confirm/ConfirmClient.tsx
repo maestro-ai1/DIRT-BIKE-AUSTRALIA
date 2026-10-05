@@ -75,7 +75,7 @@ export function ConfirmClient() {
         <div>
           <h1 className="text-xl font-extrabold text-slate-900">Upload Payment Proof</h1>
           {orderRef && (
-            <p className="text-xs text-slate-500 mt-1">
+            <p className="text-xs text-slate-600 mt-1">
               Order: <span className="font-mono font-bold text-sky-700">{orderRef}</span>
             </p>
           )}

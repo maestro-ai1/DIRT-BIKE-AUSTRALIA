@@ -49,11 +49,11 @@ export default function BlogIndexPage() {
   };
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">Blog &amp; Technical Guides</span>

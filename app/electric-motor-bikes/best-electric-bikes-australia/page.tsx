@@ -7,6 +7,8 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Star, Trophy } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { ProductPager } from '@/components/ProductPager';
 const seo = seoFor('/electric-motor-bikes/best-electric-bikes-australia/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -98,11 +100,11 @@ export default function BestElectricBikesAustraliaPage() {
   ];
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-6 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <Link href="/electric-motor-bikes/" className="hover:text-sky-600">Electric Motor Bikes</Link>
@@ -136,7 +138,7 @@ export default function BestElectricBikesAustraliaPage() {
         <div className="space-y-6 mb-12">
           <div className="border-b border-slate-200 pb-4">
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Best Electric Bikes by Category — 2026</h2>
-            <p className="text-xs sm:text-sm text-slate-500 mt-0.5">Expert picks for each riding category from our team at Electric Dirt Bike Australia.</p>
+            <p className="text-xs sm:text-sm text-slate-600 mt-0.5">Expert picks for each riding category from our team at Electric Dirt Bike Australia.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {categories.map((cat) => {
@@ -144,8 +146,8 @@ export default function BestElectricBikesAustraliaPage() {
               if (!product) return null;
               return (
                 <div key={cat.slug} className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs hover:shadow-lg transition-all group">
-                  <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
-                    <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+                  <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-white border-b border-slate-200 overflow-hidden">
+                    <img src={product.images[0]} alt={product.name} className="w-full h-full object-contain p-3 group-hover:scale-105 transition-transform duration-300" />
                     <div className="absolute top-3 left-3">
                       <span className="flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] font-bold bg-yellow-500 text-slate-900 shadow">
                         <Trophy className="w-3 h-3" />{cat.award}
@@ -157,7 +159,7 @@ export default function BestElectricBikesAustraliaPage() {
                     <h3 className="font-bold text-sm text-slate-900 leading-snug group-hover:text-sky-600">
                       <Link href={`/shop/${product.slug}/`}>{product.name}</Link>
                     </h3>
-                    <p className="text-xs text-slate-500 leading-relaxed">{cat.why}</p>
+                    <p className="text-xs text-slate-600 leading-relaxed">{cat.why}</p>
                     <div className="flex items-center justify-between pt-2 border-t border-slate-100">
                       <div className="text-base font-mono font-extrabold text-slate-900">${product.price.toLocaleString()} AUD</div>
                       <Link href={`/shop/${product.slug}/`} className="px-3 py-1.5 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
@@ -190,44 +192,21 @@ export default function BestElectricBikesAustraliaPage() {
           </div>
         </div>
 
-        {/* All Top Picks */}
-        <div className="space-y-6 mb-16">
-          <div className="border-b border-slate-200 pb-4">
-            <h2 className="text-2xl font-extrabold text-slate-900 tracking-tight">All Top Picks — Best E-Bikes in Stock</h2>
-            <p className="text-xs sm:text-sm text-slate-500 mt-0.5">Every model in stock at our Mittagong NSW warehouse with 12-month Australian warranty.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            {topProducts.map((product) => (
-              <div key={product.slug} className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group">
-                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
-                  <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                  <div className="absolute top-3 left-3">
-                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-white">{product.brand}</span>
-                  </div>
-                </Link>
-                <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
-                  <h3 className="text-xs font-bold text-slate-900 group-hover:text-sky-600 transition-colors leading-snug line-clamp-2">
-                    <Link href={`/shop/${product.slug}/`}>{product.name}</Link>
-                  </h3>
-                  {product.specs?.topSpeed && (
-                    <div className="flex items-center gap-1.5 text-[11px] text-slate-500"><Gauge className="w-3.5 h-3.5 text-sky-500" /><span>{product.specs.topSpeed}</span></div>
-                  )}
-                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
-                    <div className="text-sm font-mono font-extrabold text-slate-900">${product.price.toLocaleString()}</div>
-                    <Link href={`/shop/${product.slug}/`} className="px-3 py-1.5 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-                      View<ArrowRight className="w-3 h-3" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+        {/* All Top Picks, 9 products per page */}
+        <div className="mb-16">
+          <ProductPager
+            groups={[
+              { id: 'top-picks', heading: 'All Top Picks — Best E-Bikes in Stock', blurb: 'Every model in stock at our Mittagong NSW warehouse with 12-month Australian warranty.', items: topProducts },
+            ]}
+          />
         </div>
 
+        <AuthorityLinks path="/electric-motor-bikes/best-electric-bikes-australia/" />
+
         {/* FAQ */}
-        <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
+        <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm space-y-4">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">Best Electric Bikes Australia — FAQ</h2>
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
               { q: 'What is the best electric bike in Australia in 2026?', a: 'The best electric bike depends on your use case. For off-road trail riding: Sur-Ron Light Bee X ($6,490). For commuting: RTR eBike Pro ($3,490, no licence needed). For competition: Talaria Sting R MX4 ($8,990). For kids: KTM SX-E 5 ($7,990 for ages 4–10). For road use: NIU NQi GT electric moped ($5,990, LAMS approved).' },
               { q: 'What is the best e-bike for commuting in Australia?', a: 'The RTR eBike Pro is the best commuter e-bike in Australia for most riders — 250W road-legal, 80 km range, Shimano 7-speed, no licence, no registration required. For speed above 25 km/h on roads, the NIU NQi GT delivers 70 km/h and requires a motorcycle learner permit under LAMS.' },

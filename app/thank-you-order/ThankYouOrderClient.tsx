@@ -43,7 +43,7 @@ export function ThankYouOrderClient() {
               <p className="text-[10px] font-bold uppercase tracking-widest text-slate-400 mb-1">
                 Electric Dirt Bike Australia
               </p>
-              <p className="text-[10px] text-slate-500">ABN {REPLY.bizNumber.value}</p>
+              <p className="text-[10px] text-slate-600">ABN {REPLY.bizNumber.value}</p>
             </div>
             <div className="flex items-center gap-1.5 bg-emerald-500/15 border border-emerald-400/30 text-emerald-400 text-[11px] font-bold px-3 py-1 rounded-full">
               <CheckCircle className="w-3.5 h-3.5" />
@@ -54,7 +54,7 @@ export function ThankYouOrderClient() {
           {/* Order Ref + Amount */}
           <div className="flex items-end justify-between">
             <div>
-              <p className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider mb-1">
+              <p className="text-[10px] font-semibold text-slate-600 uppercase tracking-wider mb-1">
                 Order Reference
               </p>
               <p className="font-mono font-extrabold text-3xl text-white tracking-wider">
@@ -62,7 +62,7 @@ export function ThankYouOrderClient() {
               </p>
             </div>
             <div className="text-right">
-              <p className="text-[10px] font-semibold text-slate-500 uppercase tracking-wider mb-1">
+              <p className="text-[10px] font-semibold text-slate-600 uppercase tracking-wider mb-1">
                 Amount Due
               </p>
               <p className="font-mono font-extrabold text-2xl text-sky-400">
@@ -85,7 +85,7 @@ export function ThankYouOrderClient() {
           <ul className="space-y-2.5">
             {terms.map((t, i) => (
               <li key={i} className="flex items-start gap-2.5 text-[13px] text-slate-700">
-                <span className="mt-0.5 w-4 h-4 rounded-full bg-slate-100 flex items-center justify-center shrink-0 text-[10px] font-extrabold text-slate-500">
+                <span className="mt-0.5 w-4 h-4 rounded-full bg-slate-100 flex items-center justify-center shrink-0 text-[10px] font-extrabold text-slate-600">
                   {i + 1}
                 </span>
                 <span className={i === 1 ? 'font-semibold text-slate-900' : ''}>{t}</span>
@@ -96,7 +96,7 @@ export function ThankYouOrderClient() {
           {/* Footer note */}
           {customerEmail && (
             <p className="text-[11px] text-slate-400 text-center">
-              Confirmation sent to&nbsp;<span className="font-semibold text-slate-500">{customerEmail}</span>
+              Confirmation sent to&nbsp;<span className="font-semibold text-slate-600">{customerEmail}</span>
             </p>
           )}
         </div>
@@ -104,7 +104,7 @@ export function ThankYouOrderClient() {
 
       {/* Back link */}
       <div className="text-center mt-5">
-        <Link href="/shop/" className="text-xs text-slate-500 hover:text-slate-700 font-semibold underline underline-offset-2">
+        <Link href="/shop/" className="text-xs text-slate-600 hover:text-slate-700 font-semibold underline underline-offset-2">
           Continue browsing →
         </Link>
       </div>

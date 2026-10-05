@@ -1,16 +1,30 @@
-﻿import React from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { HeroSlider } from '@/components/HeroSlider';
 import { TrustpilotSection } from '@/components/TrustpilotSection';
 import { JsonLd } from '@/components/JsonLd';
-import { PRODUCTS, BRANDS, CATEGORIES, FAQ, SITE, CONTACT, BRAND, SHOP } from '@/src/config/site';
-import { Zap, ShieldCheck, Truck, ArrowRight, Award, BatteryCharging, Wrench, ChevronRight, CheckCircle, Flame } from 'lucide-react';
+import { PRODUCTS, BRANDS, FAQ, SITE, BRAND } from '@/src/config/site';
+import { Zap, ShieldCheck, Truck, ArrowRight, Award, Wrench, ChevronRight, CheckCircle } from 'lucide-react';
 import { Metadata } from 'next';
 import { seoFor, buildFaq } from '@/src/config/seo';
 
 import { FaqItem } from '@/components/FaqItem';
+import { ProductCard } from '@/components/ProductCard';
+import { SlideShow } from '@/components/SlideShow';
+import { BrandMark } from '@/components/BrandMark';
+import { PRODUCT_GRID_4, toCard, isDarkPhoto } from '@/lib/productCard';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
 const seo = seoFor('/');
-const HOME_FAQ = buildFaq(FAQ, 5);
+// Home shows five questions only (the full list stays on /faq/). The FAQPage schema below uses these same five so it matches the visible page.
+const HOME_FAQ_QUESTIONS = [
+  'Where can I buy an electric dirt bike for sale in Australia?',
+  'Do you sell electric motorbikes and electric motorcycles for sale in Australia?',
+  'Do you sell kids electric bikes and childs electric motorcycles?',
+  'Are electric dirt bikes legal to ride in Australia?',
+  'How are electric dirt bikes shipped across Australia?',
+];
+const ALL_FAQ = buildFaq(FAQ);
+const HOME_FAQ = HOME_FAQ_QUESTIONS.map((q) => ALL_FAQ.find((f) => f.question === q)).filter((f): f is NonNullable<typeof f> => Boolean(f));
 export const metadata: Metadata = {
   title: { absolute: seo.title },
   description: seo.description,
@@ -44,6 +58,22 @@ export const metadata: Metadata = {
     'og:updated_time': new Date().toISOString(),
   },
 };
+
+// Home category tiles: every category page, each with a preview picture. Titles and links are unchanged from the previous layout.
+const HOME_CATEGORIES = [
+  { href: '/electric-dirt-bikes/', title: 'Electric Dirt Bikes for Sale', text: 'Adult electric dirt bikes, off-road and trail bikes from Sur-Ron, Talaria, Stark Varg and E-Ride Pro.', img: '/images/product-sur-ron-ultra-bee.jpg' },
+  { href: '/electric-motor-bikes/', title: 'Electric Motorbikes & Motorcycles', text: 'Off-road electric motorbikes, road-legal electric mopeds and commuter models.', img: '/images/product-super-soco-cpx.jpg' },
+  { href: '/electric-motor-bikes/kids/', title: 'Kids Electric Bikes & Motorbikes', text: 'Childs electric motorcycles and childrens electric dirt bikes for ages 3–16.', img: '/images/product-ktm-sx-e-youth.jpg' },
+  { href: '/electric-bikes/', title: 'Electric Bikes for Sale', text: 'RTR eBikes, Super73 e-motos and road-legal electric mopeds in one place.', img: '/images/product-rtr-ebike-pro.jpg' },
+  { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Electric Mopeds', text: 'Road-legal, LAMS-approved electric mopeds and commuter e-bikes.', img: '/images/product-niu-nqi-gt.webp' },
+  { href: '/electric-motor-bikes/rtr-ebike/', title: 'RTR eBike', text: 'Road-legal 250W RTR e bike commuters. No licence or registration needed.', img: '/images/product-rtr-ebike-s-classic.webp' },
+  { href: '/electric-motocross-bikes/', title: 'Electric Motocross Bikes', text: 'Competition electric motocross bikes including the Stark Varg and Sur-Ron Storm Bee MX.', img: '/images/product-stark-varg-mx.jpg' },
+  { href: '/electric-fat-tyre-bikes/', title: 'Electric Fat Tyre Bikes', text: 'Fat tyre e-bikes and electric beach cruisers: ACE, Stubbie, Chubbie and Riptide.', img: '/images/ampd/the-original-stubbie-fat-tyre-electric-bike-1.jpg' },
+  { href: '/electric-mini-bikes/', title: 'Mini Electric Bikes', text: 'Compact mini e bikes with 16-inch wheels and a 48V 15Ah battery.', img: '/images/ampd/ace-mini-electric-fat-bike-1.jpg' },
+  { href: '/electric-bikes/cheap/', title: 'Cheap Electric Bikes', text: 'Affordable e-bikes and kids electric bikes with published specifications and warranty.', img: '/images/ampd/chubbie-v3-electric-beach-cruiser-1.jpg' },
+  { href: '/electric-motorcycles/', title: 'Electric Motorcycles', text: 'Road-registered electric motorcycles and mopeds plus off-road models.', img: '/images/product-vmoto-tc-max.jpg' },
+  { href: '/accessories/', title: 'E Bike Parts & Batteries', text: '72V lithium batteries, fast chargers and performance parts with Australian plugs.', img: '/images/product-72v-40ah-battery.jpg' },
+];
 
 export default function HomePage() {
   const featuredBikes = PRODUCTS.filter((p) => p.category === 'dirt-bikes' || p.category === 'motocross').slice(0, 4);
@@ -118,466 +148,253 @@ export default function HomePage() {
       {/* 1. Hero Slideshow (3 Slides, Single H1 on slide 1) */}
       <HeroSlider />
 
-      {/* 2. Trust Bar (4 Value Propositions) */}
-      <section className="bg-slate-900 text-white py-6 border-b border-slate-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 text-xs sm:text-sm">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center shrink-0 border border-sky-400/20">
-                <Truck className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="font-bold text-white">Free Nationwide Freight</div>
-                <div className="text-slate-400 text-xs">On all bike orders over $1,500 AUD</div>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 border border-emerald-400/20">
-                <ShieldCheck className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="font-bold text-white">12-Mo Factory Warranty</div>
-                <div className="text-slate-400 text-xs">Genuine stock &amp; statutory backing</div>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-orange-500/20 text-orange-400 flex items-center justify-center shrink-0 border border-orange-400/20">
-                <Zap className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="font-bold text-white">10% Crypto &amp; PayID Discount</div>
-                <div className="text-slate-400 text-xs">Instant checkout discount on BTC/USDT</div>
-              </div>
-            </div>
-
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-purple-500/20 text-purple-400 flex items-center justify-center shrink-0 border border-purple-400/20">
-                <Wrench className="w-5 h-5" />
-              </div>
-              <div>
-                <div className="font-bold text-white">Mittagong NSW Workshop</div>
-                <div className="text-slate-400 text-xs">Real technicians, parts &amp; support</div>
-              </div>
-            </div>
-          </div>
+      {/* 2. Compact trust strip */}
+      <section className="bg-slate-300/70 border-y border-slate-400/50" aria-label="Why buy from Electric Dirt Bike Australia">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+          <ul className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-2 text-xs text-slate-800">
+            {[
+              { icon: Truck, title: 'Free Nationwide Freight', note: 'Bike orders over $1,500 AUD' },
+              { icon: ShieldCheck, title: '12-Mo Factory Warranty', note: 'Genuine stock & statutory backing' },
+              { icon: Zap, title: '10% Crypto & PayID Discount', note: 'Instant checkout discount on BTC/USDT' },
+              { icon: Wrench, title: 'Mittagong NSW Workshop', note: 'Real technicians, parts & support' },
+            ].map(({ icon: Icon, title, note }) => (
+              <li key={title} className="flex items-center gap-2.5">
+                <span className="w-8 h-8 rounded-lg bg-white text-sky-800 flex items-center justify-center shrink-0 border border-slate-300">
+                  <Icon className="w-4 h-4" />
+                </span>
+                <span className="leading-tight">
+                  <span className="block font-bold text-slate-900">{title}</span>
+                  <span className="hidden sm:block text-[11px] text-slate-700">{note}</span>
+                </span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
-      {/* 2b. Shop by category — keyword-led internal links to every category (commercial + transactional keywords) */}
-      <section className="py-12 bg-slate-50 border-b border-slate-100" aria-labelledby="home-categories">
+      {/* 3. Shop by category: keyword-led internal links to every category, as a 3-up preview-picture slideshow */}
+      <section className="py-8" aria-labelledby="home-categories">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mb-8">
-            <h2 id="home-categories" className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          <div className="mb-5 max-w-4xl">
+            <h2 id="home-categories" className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
               Buy an Electric Dirt Bike in Australia
             </h2>
-            <p className="text-sm sm:text-base text-slate-600 mt-3 leading-relaxed">
+            <p className="text-xs sm:text-sm text-slate-700 mt-1.5 leading-relaxed">
               Electric Dirt Bike Australia sells electric dirt bikes for sale online, along with electric motorbikes, kids electric bikes, e-bikes and electric mopeds. Every bike ships Australia-wide from our Mittagong NSW 2575 workshop with a 12-month Australian warranty and free freight on orders over $1,500. Choose a category to compare models and prices.
             </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {[
-              { href: '/electric-dirt-bikes/', title: 'Electric Dirt Bikes for Sale', text: 'Adult electric dirt bikes, off-road and trail bikes from Sur-Ron, Talaria, Stark Varg and E-Ride Pro.' },
-              { href: '/electric-motor-bikes/', title: 'Electric Motorbikes & Motorcycles', text: 'Off-road electric motorbikes, road-legal electric mopeds and commuter models.' },
-              { href: '/electric-motor-bikes/kids/', title: 'Kids Electric Bikes & Motorbikes', text: 'Childs electric motorcycles and childrens electric dirt bikes for ages 3–16.' },
-              { href: '/electric-bikes/', title: 'Electric Bikes for Sale', text: 'RTR eBikes, Super73 e-motos and road-legal electric mopeds in one place.' },
-              { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Electric Mopeds', text: 'Road-legal, LAMS-approved electric mopeds and commuter e-bikes.' },
-              { href: '/electric-motor-bikes/rtr-ebike/', title: 'RTR eBike', text: 'Road-legal 250W RTR e bike commuters. No licence or registration needed.' },
-              { href: '/electric-motocross-bikes/', title: 'Electric Motocross Bikes', text: 'Competition electric motocross bikes including the Stark Varg and Sur-Ron Storm Bee MX.' },
-              { href: '/electric-fat-tyre-bikes/', title: 'Electric Fat Tyre Bikes', text: 'Fat tyre e-bikes and electric beach cruisers: ACE, Stubbie, Chubbie and Riptide.' },
-              { href: '/electric-mini-bikes/', title: 'Mini Electric Bikes', text: 'Compact mini e bikes with 16-inch wheels and a 48V 15Ah battery.' },
-              { href: '/electric-bikes/cheap/', title: 'Cheap Electric Bikes', text: 'Affordable e-bikes and kids electric bikes with published specifications and warranty.' },
-              { href: '/electric-motorcycles/', title: 'Electric Motorcycles', text: 'Road-registered electric motorcycles and mopeds plus off-road models.' },
-              { href: '/accessories/', title: 'E Bike Parts & Batteries', text: '72V lithium batteries, fast chargers and performance parts with Australian plugs.' },
-            ].map((c) => (
-              <Link
-                key={c.href}
-                href={c.href}
-                className="group p-5 bg-white border border-slate-200/90 hover:border-sky-500/80 rounded-2xl transition-all hover:shadow-md"
-              >
-                <h3 className="text-base font-extrabold text-slate-900 group-hover:text-sky-700 transition-colors mb-1.5">{c.title}</h3>
-                <p className="text-xs text-slate-600 leading-relaxed">{c.text}</p>
-                <span className="inline-flex items-center gap-1 mt-3 text-xs font-bold text-sky-700">
-                  Shop now <ArrowRight className="w-3.5 h-3.5" />
-                </span>
-              </Link>
+          <SlideShow label="Bike categories slideshow" intervalMs={4500}>
+            {HOME_CATEGORIES.map((c) => (
+              <li key={c.href} className="snap-start shrink-0 basis-[calc(50%-0.375rem)] sm:basis-[calc(33.333%-0.5rem)]">
+                <Link
+                  href={c.href}
+                  title={c.text}
+                  className="group flex flex-col h-full bg-white border border-slate-300 hover:border-sky-500 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all"
+                >
+                  <span className={`block aspect-[4/3] sm:aspect-[2/1] border-b border-slate-200 overflow-hidden ${isDarkPhoto(c.img) ? 'bg-black' : 'bg-white'}`}>
+                    <img
+                      src={c.img}
+                      alt={c.title}
+                      width={400}
+                      height={300}
+                      loading="lazy"
+                      decoding="async"
+                      className={`w-full h-full object-contain group-hover:scale-105 transition-transform duration-300 ${isDarkPhoto(c.img) ? '' : 'p-2'}`}
+                    />
+                  </span>
+                  <span className="flex-1 flex items-center justify-center px-3 py-2.5 text-center text-xs sm:text-sm font-bold text-slate-900 leading-snug group-hover:text-sky-800 transition-colors min-h-[2.75rem]">
+                    {c.title}
+                  </span>
+                </Link>
+              </li>
             ))}
-          </div>
+          </SlideShow>
         </div>
       </section>
 
-      {/* 3. Trending Brands Bar */}
-      <section className="py-8 bg-white border-b border-slate-100">
+      {/* 4. Trending brands: logo / brand icon tiles (the category tiles above already carry the pictures) */}
+      <section className="pb-8" aria-labelledby="home-brands">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
+          <div className="flex items-end justify-between gap-4 mb-4">
             <div>
-              <div className="text-xs font-bold uppercase tracking-wider text-sky-700 mb-1">
-                Australia&apos;s Most Purchased
-              </div>
-              <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
+              <div className="text-[11px] font-bold uppercase tracking-wider text-sky-800">Australia&apos;s Most Purchased</div>
+              <h2 id="home-brands" className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight">
                 Trending Electric Dirt Bike Brands
               </h2>
             </div>
-            <Link
-              href="/brands/"
-              className="text-xs font-bold text-sky-700 hover:text-sky-800 flex items-center gap-1 group"
-            >
+            <Link href="/brands/" className="text-xs font-bold text-sky-800 hover:text-sky-900 flex items-center gap-1 group shrink-0">
               <span>Explore All Brands</span>
               <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
-            {BRANDS.map((b) => (
-              <Link
-                key={b.slug}
-                href={`/shop/?brand=${b.slug}`}
-                className="group p-4 bg-slate-50 hover:bg-white border border-slate-200/80 hover:border-sky-500/80 rounded-xl text-center transition-all hover:shadow-md"
-              >
-                <div className="text-[10px] font-bold text-orange-700 uppercase tracking-widest mb-1">
-                  {b.badge}
-                </div>
-                <div className="font-extrabold text-slate-900 group-hover:text-sky-600 text-sm mb-1 transition-colors">
-                  {b.name}
-                </div>
-                <div className="text-[11px] text-slate-600 truncate">
-                  {b.popularModels[0]}
-                </div>
-              </Link>
+          <ul className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-9 gap-3">
+            {BRANDS.map((b, i) => (
+              <li key={b.slug}>
+                <Link
+                  href={`/shop/?brand=${b.slug}`}
+                  className="group flex flex-col items-center justify-center gap-2 h-full bg-white border border-slate-300 hover:border-sky-500 rounded-xl px-2 py-3 shadow-sm hover:shadow-md transition-all"
+                >
+                  <BrandMark name={b.name} slug={b.slug} index={i} />
+                  <span className="text-center text-[11px] sm:text-xs font-extrabold text-slate-900 leading-tight group-hover:text-sky-800 transition-colors min-h-[2rem] flex items-center">
+                    {b.name}
+                  </span>
+                </Link>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
-      {/* 4. Featured Electric Dirt Bikes Grid */}
-      <section className="py-14 bg-slate-50">
+      {/* 5. Featured Electric Dirt Bikes */}
+      <section className="pb-10" aria-labelledby="home-featured">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-5">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-sky-700">
-                High-Performance Lineup
-              </span>
-              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-sky-800">High-Performance Lineup</span>
+              <h2 id="home-featured" className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
                 Featured Electric Dirt Bikes &amp; Motocross
               </h2>
-              <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-xl">
-                Ready for aggressive singletrack, farm work, and motocross tracks. Dispatched crated with pre-delivery inspection.
+              <p className="text-xs sm:text-sm text-slate-700 mt-1 max-w-xl">
+                Ready for singletrack, farm work and motocross tracks. Dispatched crated with pre-delivery inspection.
               </p>
             </div>
-
             <Link
               href="/shop/"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs transition-colors shrink-0 shadow-sm"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 hover:bg-slate-900 text-white font-bold text-xs transition-colors shrink-0"
             >
               <span>View All Bikes ({PRODUCTS.length})</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>
-
-          {/* Product Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className={PRODUCT_GRID_4}>
             {featuredBikes.map((product) => (
-              <div
-                key={product.slug}
-                className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col group"
-              >
-                {/* Image Container with 4:3 Aspect Ratio and Badges */}
-                <Link href={`/shop/${product.slug}/`} className="block relative aspect-[4/3] bg-slate-100 overflow-hidden">
-                  <img
-                    src={product.images[0]}
-                    alt={product.name}
-                    width={800}
-                    height={600}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute top-3 left-3 flex flex-col gap-1">
-                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-orange-700 text-white shadow-xs">
-                      {product.badge}
-                    </span>
-                    <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-slate-900/80 text-white backdrop-blur-xs">
-                      {product.brand}
-                    </span>
-                  </div>
-                  {product.compareAtPrice && (
-                    <div className="absolute top-3 right-3 px-2 py-0.5 rounded bg-emerald-700 text-white text-[10px] font-bold">
-                      Save ${(product.compareAtPrice - product.price).toLocaleString()}
-                    </div>
-                  )}
-                </Link>
-
-                {/* Details */}
-                <div className="p-5 flex-1 flex flex-col justify-between">
-                  <div>
-                    <h3 className="text-base font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-1 mb-1">
-                      <Link href={`/shop/${product.slug}/`}>
-                        {product.name}
-                      </Link>
-                    </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-4">
-                      {product.shortDescription}
-                    </p>
-
-                    {/* Key Specs Row */}
-                    <div className="grid grid-cols-2 gap-2 text-[11px] bg-slate-50 p-2.5 rounded-lg border border-slate-100 mb-4 text-slate-600">
-                      <div>
-                        <span className="text-slate-600 block text-[10px] uppercase font-bold">Power</span>
-                        <span className="font-bold text-slate-900">{product.specs.motorPeak || 'High Torque'}</span>
-                      </div>
-                      <div>
-                        <span className="text-slate-600 block text-[10px] uppercase font-bold">Battery</span>
-                        <span className="font-bold text-slate-900">{product.specs.battery?.split(' ')[0] || 'Lithium'}</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Price & Action */}
-                  <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
-                    <div>
-                      <div className="text-base sm:text-lg font-mono font-extrabold text-slate-900">
-                        ${product.price.toLocaleString()} <span className="text-xs font-normal text-slate-500">AUD</span>
-                      </div>
-                      <div className="text-[10px] text-orange-700 font-semibold">
-                        ${Math.round(product.price * 0.9).toLocaleString()} with Crypto (-10%)
-                      </div>
-                    </div>
-
-                    <Link
-                      href={`/shop/${product.slug}/`}
-                      aria-label={`View specs for ${product.name}`}
-                      className="px-3.5 py-2 bg-sky-700 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors shadow-xs"
-                    >
-                      View Specs
-                    </Link>
-                  </div>
-                </div>
-
-              </div>
+              <ProductCard key={product.slug} product={toCard(product)} />
             ))}
           </div>
-
         </div>
       </section>
 
-      {/* 5. Accessories & Batteries Section */}
-      <section className="py-14 bg-white">
+      {/* 6. Accessories & Batteries */}
+      <section className="pb-10" aria-labelledby="home-accessories">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 mb-5">
             <div>
-              <span className="text-xs font-bold uppercase tracking-wider text-orange-700">
-                Power Upgrades &amp; Protection
-              </span>
-              <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-orange-800">Power Upgrades &amp; Protection</span>
+              <h2 id="home-accessories" className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
                 Batteries, Fast Chargers &amp; Bush Armor
               </h2>
-              <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-xl">
+              <p className="text-xs sm:text-sm text-slate-700 mt-1 max-w-xl">
                 High-discharge 72V Molicel lithium battery packs, 15A smart fast chargers with Australian plugs, and heavy-duty 5mm alloy skid plates.
               </p>
             </div>
-
             <Link
               href="/accessories/"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-orange-700 hover:bg-orange-600 text-white font-bold text-xs transition-colors shrink-0 shadow-sm"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-orange-700 hover:bg-orange-800 text-white font-bold text-xs transition-colors shrink-0"
             >
               <span>All Accessories →</span>
             </Link>
           </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className={PRODUCT_GRID_4}>
             {featuredAccessories.map((product) => (
-              <div
-                key={product.slug}
-                className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all flex flex-col group"
-              >
-                <Link href={`/shop/${product.slug}/`} className="block relative aspect-[4/3] bg-slate-50 overflow-hidden">
-                  <img
-                    src={product.images[0]}
-                    alt={product.name}
-                    width={800}
-                    height={600}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute top-3 left-3">
-                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-sky-700 text-white">
-                      {product.badge}
-                    </span>
-                  </div>
-                </Link>
-
-                <div className="p-5 flex-1 flex flex-col justify-between">
-                  <div>
-                    <h3 className="text-sm font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-2 mb-1.5">
-                      <Link href={`/shop/${product.slug}/`}>
-                        {product.name}
-                      </Link>
-                    </h3>
-                    <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed mb-4">
-                      {product.shortDescription}
-                    </p>
-                  </div>
-
-                  <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
-                    <div>
-                      <div className="text-base font-mono font-extrabold text-slate-900">
-                        ${product.price.toLocaleString()} AUD
-                      </div>
-                      <div className="text-[10px] text-orange-700 font-semibold">
-                        -${Math.round(product.price * 0.1).toLocaleString()} on Crypto
-                      </div>
-                    </div>
-
-                    <Link
-                      href={`/shop/${product.slug}/`}
-                      aria-label={`View details for ${product.name}`}
-                      className="px-3 py-1.5 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors"
-                    >
-                      Details
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              <ProductCard key={product.slug} product={toCard(product)} />
             ))}
           </div>
-
         </div>
       </section>
 
-      {/* 6. Brand Authority & Mittagong NSW 2575 Facility Section */}
-      <section className="py-14 bg-slate-900 text-white relative overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            
-            <div className="space-y-6">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/20 text-sky-400 text-xs font-bold border border-sky-400/30">
-                <Award className="w-4 h-4" />
+      {/* 7. Brand authority and operational statistics, one compact band */}
+      <section className="pb-10" aria-labelledby="home-authority">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-white border border-slate-300 rounded-2xl shadow-sm p-5 sm:p-6 grid grid-cols-1 lg:grid-cols-5 gap-6 items-center">
+            <div className="lg:col-span-3 space-y-3">
+              <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-sky-100 text-sky-900 text-[11px] font-bold border border-sky-200">
+                <Award className="w-3.5 h-3.5" />
                 <span>Authorised Australian Dealer · Founded {BRAND.foundingYear}</span>
               </div>
-
-              <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
+              <h2 id="home-authority" className="text-xl sm:text-2xl font-extrabold tracking-tight text-slate-900 leading-tight">
                 Authentic Australian Stock, Workshop Backed &amp; Built for Local Dirt
               </h2>
-
-              <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-                Operating out of our dedicated warehouse and prep facility in <strong>Mittagong, Southern Highlands NSW 2575</strong>, we test and crate each bike with complete pre-delivery checks. Unlike drop-shippers, we stock genuine replacement parts, controllers, batteries, and performance sprockets right here in New South Wales.
+              <p className="text-xs sm:text-sm text-slate-700 leading-relaxed">
+                Operating out of our dedicated warehouse and prep facility in <strong>Mittagong, Southern Highlands NSW 2575</strong>, we test and crate each bike with complete pre-delivery checks. Unlike drop-shippers, we stock genuine replacement parts, controllers, batteries and performance sprockets right here in New South Wales.
               </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                <div className="p-4 bg-slate-800/80 rounded-xl border border-slate-700">
-                  <div className="font-bold text-white text-sm flex items-center gap-2 mb-1">
-                    <CheckCircle className="w-4 h-4 text-emerald-400" />
-                    <span>Real PDI Inspection</span>
-                  </div>
-                  <p className="text-xs text-slate-400">
-                    Brake bleeding, bolt torque inspection, and battery health verification prior to crate dispatch.
-                  </p>
-                </div>
-
-                <div className="p-4 bg-slate-800/80 rounded-xl border border-slate-700">
-                  <div className="font-bold text-white text-sm flex items-center gap-2 mb-1">
-                    <CheckCircle className="w-4 h-4 text-sky-400" />
-                    <span>Express Tailgate Freight</span>
-                  </div>
-                  <p className="text-xs text-slate-400">
-                    Insured heavy-freight delivery to metro and regional residential addresses across all states.
-                  </p>
-                </div>
-              </div>
-
-              <div className="pt-2 flex flex-wrap items-center gap-4">
-                <Link
-                  href="/about/"
-                  className="px-6 py-3 bg-sky-700 hover:bg-sky-600 text-white font-bold text-xs rounded-xl transition-colors"
-                >
+              <ul className="flex flex-wrap gap-2 text-[11px] font-semibold text-slate-800">
+                <li className="flex items-center gap-1.5 bg-slate-100 border border-slate-300 rounded-md px-2.5 py-1">
+                  <CheckCircle className="w-3.5 h-3.5 text-emerald-700" />Real PDI Inspection
+                </li>
+                <li className="flex items-center gap-1.5 bg-slate-100 border border-slate-300 rounded-md px-2.5 py-1">
+                  <CheckCircle className="w-3.5 h-3.5 text-sky-700" />Express Tailgate Freight
+                </li>
+              </ul>
+              <div className="flex flex-wrap items-center gap-3 pt-1">
+                <Link href="/about/" className="px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white font-bold text-xs rounded-lg transition-colors">
                   Our Mittagong Facility &amp; Location Map →
                 </Link>
-                <Link
-                  href="/contact/"
-                  className="px-5 py-3 border border-slate-700 hover:border-slate-500 text-slate-300 hover:text-white font-semibold text-xs rounded-xl transition-colors"
-                >
+                <Link href="/contact/" className="px-4 py-2 border border-slate-400 hover:border-slate-600 text-slate-800 font-semibold text-xs rounded-lg transition-colors">
                   Book Workshop Pickup Consultation
                 </Link>
               </div>
             </div>
 
-            {/* Right: Technical Stats Card */}
-            <div className="bg-slate-950 border border-slate-800 rounded-3xl p-6 sm:p-8 space-y-6">
-              <div className="text-xs font-bold uppercase tracking-wider text-orange-400">
-                Operational Statistics
-              </div>
-              <div className="grid grid-cols-2 gap-4">
-                <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-                  <div className="text-2xl sm:text-3xl font-mono font-extrabold text-sky-400">
-                    1,200+
+            <div className="lg:col-span-2">
+              <div className="text-[11px] font-bold uppercase tracking-wider text-orange-800 mb-2">Operational Statistics</div>
+              <dl className="grid grid-cols-2 gap-2">
+                {[
+                  { v: '1,200+', l: 'Bikes Dispatched Aus-Wide', c: 'text-sky-800' },
+                  { v: '4.9 / 5', l: 'Trustpilot Verified Rating', c: 'text-emerald-800' },
+                  { v: '10%', l: 'Instant Crypto Discount', c: 'text-orange-800' },
+                  { v: 'NSW 2575', l: 'Southern Highlands HQ', c: 'text-purple-800' },
+                ].map((s) => (
+                  <div key={s.l} className="bg-slate-100 border border-slate-300 rounded-xl px-3 py-2.5">
+                    <dd className={`text-lg sm:text-xl font-mono font-extrabold leading-none ${s.c}`}>{s.v}</dd>
+                    <dt className="text-[11px] text-slate-700 mt-1 leading-tight">{s.l}</dt>
                   </div>
-                  <div className="text-xs text-slate-400 mt-1">Bikes Dispatched Aus-Wide</div>
-                </div>
-                <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-                  <div className="text-2xl sm:text-3xl font-mono font-extrabold text-[#00b67a]">
-                    4.9 / 5
-                  </div>
-                  <div className="text-xs text-slate-400 mt-1">Trustpilot Verified Rating</div>
-                </div>
-                <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-                  <div className="text-2xl sm:text-3xl font-mono font-extrabold text-orange-400">
-                    10%
-                  </div>
-                  <div className="text-xs text-slate-400 mt-1">Instant Crypto Discount</div>
-                </div>
-                <div className="p-4 bg-slate-900 rounded-2xl border border-slate-800">
-                  <div className="text-2xl sm:text-3xl font-mono font-extrabold text-purple-400">
-                    NSW 2575
-                  </div>
-                  <div className="text-xs text-slate-400 mt-1">Southern Highlands HQ</div>
-                </div>
-              </div>
-
-              <div className="p-4 bg-slate-900/60 rounded-xl border border-slate-800 text-xs text-slate-400 leading-relaxed">
-                <strong>Australian Entity Registration:</strong> Fully registered business operated in New South Wales under official Australian statutory oversight.
-              </div>
+                ))}
+              </dl>
+              <p className="mt-2 text-[11px] text-slate-700 leading-snug">
+                <strong>Australian Entity Registration:</strong> fully registered business operated in New South Wales under official Australian statutory oversight.
+              </p>
             </div>
-
           </div>
         </div>
       </section>
 
-      {/* 7. Trustpilot Reviews Section (Placed directly after products per brief) */}
+      {/* 8. Trustpilot reviews: 3-up sliding carousel */}
       <TrustpilotSection />
 
-      {/* 8. FAQ Section */}
-      <section className="py-14 bg-white" id="faq">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <span className="text-xs font-bold uppercase tracking-wider text-sky-700">
-              Clear Answers
-            </span>
-            <h2 className="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mt-1">
+      {/* 9. FAQ: five questions, compact two-column */}
+      <section className="py-8" id="faq" aria-labelledby="home-faq">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-4">
+            <span className="text-[11px] font-bold uppercase tracking-wider text-sky-800">Clear Answers</span>
+            <h2 id="home-faq" className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
               Frequently Asked Questions
             </h2>
-            <p className="text-xs sm:text-sm text-slate-600 mt-2">
-              Everything you need to know about off-road electric bike legality, shipping, crypto discounts, and battery maintenance in Australia.
+            <p className="text-xs text-slate-700 mt-1">
+              Off-road electric bike legality, shipping, crypto discounts and battery maintenance in Australia.
             </p>
           </div>
 
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {HOME_FAQ.map((item, idx) => (
-              <FaqItem key={idx} question={item.question}>
+              <FaqItem key={idx} question={item.question} compact>
                 {item.answer}
               </FaqItem>
             ))}
           </div>
 
-          <div className="mt-8 text-center text-xs text-slate-500">
+          <div className="mt-4 text-center text-xs text-slate-700">
             Have a question not listed here?{' '}
-            <Link href="/contact/" className="text-sky-700 font-bold hover:underline">
+            <Link href="/contact/" className="text-sky-800 font-bold hover:underline">
               Contact our Mittagong sales &amp; service team
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* 10. Official guides: followed outbound links to government and regulator sources */}
+      <section className="pb-10">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <AuthorityLinks path="/" className="mb-0" />
         </div>
       </section>
     </>

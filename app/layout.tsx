@@ -70,23 +70,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <script src="/js/webmcp.js" defer></script>
       </head>
-      <body className="min-h-screen flex flex-col bg-white text-slate-900 antialiased selection:bg-sky-500 selection:text-white relative" suppressHydrationWarning>
-        {/* Ambient Electric Dirt Bike Theme Cover Backdrop */}
-        <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
-          <img
-            src="/images/theme_dirtbike_cover.webp"
-            alt="Electric dirt bike Australia — off-road trail riding background"
-            width={1920}
-            height={1080}
-            loading="eager"
-            decoding="async"
-            className="w-full h-full object-cover object-center opacity-[0.15] sm:opacity-[0.18] scale-105 transition-opacity"
-          />
-          {/* Sky-Blue and White Blending Overlays for Optimal Content Contrast */}
-          <div className="absolute inset-0 bg-gradient-to-b from-white/85 via-sky-50/35 to-white/90" />
-          <div className="absolute inset-0 bg-gradient-to-tr from-sky-100/30 via-transparent to-white/60" />
-        </div>
-
+      <body className="min-h-screen flex flex-col bg-slate-200 text-slate-800 antialiased selection:bg-sky-500 selection:text-white relative" suppressHydrationWarning>
         <CartProvider>
           <div className="relative z-10 flex flex-col min-h-screen">
             <AnnouncementBar />

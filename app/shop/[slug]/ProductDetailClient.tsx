@@ -21,6 +21,8 @@ import {
 } from 'lucide-react';
 import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
 import { FaqItem } from '@/components/FaqItem';
+import { ProductCard } from '@/components/ProductCard';
+import { PRODUCT_GRID, toCard } from '@/lib/productCard';
 
 interface Product {
   slug: string;
@@ -189,7 +191,7 @@ export function ProductDetailClient({
                   <span className="text-2xl sm:text-3xl font-mono font-extrabold text-slate-900">
                     ${product.price.toLocaleString()}
                   </span>
-                  <span className="text-xs font-semibold text-slate-500 ml-1.5">AUD</span>
+                  <span className="text-xs font-semibold text-slate-600 ml-1.5">AUD</span>
                 </div>
                 {product.compareAtPrice && (
                   <span className="text-sm font-mono text-slate-400 line-through">
@@ -292,7 +294,7 @@ export function ProductDetailClient({
                 key={key}
                 className="flex items-center justify-between p-3.5 bg-slate-50 border border-slate-200/80 rounded-xl text-xs sm:text-sm"
               >
-                <span className="font-semibold text-slate-500 capitalize">
+                <span className="font-semibold text-slate-600 capitalize">
                   {key.replace(/([A-Z])/g, ' $1')}
                 </span>
                 <span className="font-bold text-slate-900 text-right">
@@ -340,32 +342,25 @@ export function ProductDetailClient({
         </ul>
       </div>
 
-      {/* Product FAQ: 8+ keyword-led questions per product, answers built from the product's own specs and site policy */}
-      <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-100 pb-5">
-          <div>
-            <div className="flex items-center gap-2 text-sky-600 font-bold text-xs uppercase tracking-wider mb-1">
-              <HelpCircle className="w-4 h-4" />
-              <span>Frequently Asked Questions</span>
-            </div>
-            <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-              {product.name} — Rider FAQs &amp; Key Info
-            </h2>
-          </div>
-          <span className="text-xs font-semibold text-slate-500 bg-slate-50 px-3 py-1.5 rounded-lg border border-slate-200/80 self-start sm:self-auto">
-            {faqs.length} Questions Answered
-          </span>
+      {/* Product FAQ: five keyword-led questions per product, answers built from the product's own specs and site policy */}
+      <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm space-y-4">
+        <div className="flex items-center gap-2 text-sky-800 font-bold text-[11px] uppercase tracking-wider">
+          <HelpCircle className="w-4 h-4" />
+          <span>Frequently Asked Questions</span>
         </div>
+        <h2 className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight -mt-2">
+          {product.name} — Rider FAQs &amp; Key Info
+        </h2>
 
-        <div className="space-y-3">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
           {faqs.map((faq, idx) => (
-            <FaqItem key={idx} question={`${idx + 1}. ${faq.question}`} defaultOpen={idx === 0}>
+            <FaqItem key={idx} question={faq.question}>
               {faq.answer}
             </FaqItem>
           ))}
         </div>
 
-        <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
+        <div className="pt-3 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate-600">
           <span>Have an unanswered technical question about the {product.name}?</span>
           <button
             type="button"
@@ -390,54 +385,9 @@ export function ProductDetailClient({
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className={PRODUCT_GRID}>
             {related.map((item) => (
-              <div
-                key={item.slug}
-                className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-md transition-all flex flex-col justify-between group"
-              >
-                <div className="relative aspect-4/3 bg-slate-100 overflow-hidden">
-                  <img
-                    src={item.images[0]}
-                    alt={item.name}
-                    width={800}
-                    height={600}
-                    loading="lazy"
-                    decoding="async"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                  />
-                  <div className="absolute top-3 left-3">
-                    <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-orange-600 text-white">
-                      {item.badge}
-                    </span>
-                  </div>
-                </div>
-
-                <div className="p-4 flex-1 flex flex-col justify-between">
-                  <div>
-                    <h4 className="text-sm font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-1 mb-1">
-                      <Link href={`/shop/${item.slug}/`}>
-                        {item.name}
-                      </Link>
-                    </h4>
-                    <p className="text-xs text-slate-500 line-clamp-2">
-                      {item.shortDescription}
-                    </p>
-                  </div>
-
-                  <div className="pt-3 mt-3 border-t border-slate-100 flex items-center justify-between">
-                    <span className="font-mono font-bold text-sm text-slate-900">
-                      ${item.price.toLocaleString()} AUD
-                    </span>
-                    <Link
-                      href={`/shop/${item.slug}/`}
-                      className="px-3 py-1.5 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors"
-                    >
-                      View Specs
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              <ProductCard key={item.slug} product={toCard(item)} />
             ))}
           </div>
         </div>

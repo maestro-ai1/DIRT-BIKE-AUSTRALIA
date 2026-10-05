@@ -70,13 +70,13 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
         
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-xs text-slate-500 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">About Us</span>
@@ -167,7 +167,7 @@ export default function AboutPage() {
                   <div className="mt-3 bg-white/95 backdrop-blur-sm px-3.5 py-1.5 rounded-lg border border-slate-200 text-xs font-bold text-slate-900 shadow-sm">
                     {CONTACT.address}
                   </div>
-                  <div className="text-[10px] text-slate-500 font-mono mt-1">
+                  <div className="text-[10px] text-slate-600 font-mono mt-1">
                     Coordinates: 34.4533° S, 150.4485° E
                   </div>
                 </div>
@@ -191,7 +191,7 @@ export default function AboutPage() {
                   <Mail className="w-4 h-4 text-sky-600 shrink-0" />
                   <span><strong>General Inquiries:</strong> {CONTACT.email}</span>
                 </div>
-                <div className="pt-2 text-[11px] text-slate-500 font-mono">
+                <div className="pt-2 text-[11px] text-slate-600 font-mono">
                   <strong>Registered Business ABN:</strong> {CONTACT.abn}
                 </div>
               </div>

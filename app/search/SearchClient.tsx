@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { Search, ArrowRight, Zap, BookOpen } from 'lucide-react';
+import { PaginatedProducts } from '@/components/PaginatedProducts';
+import { toCard } from '@/lib/productCard';
 
 interface Product {
   slug: string;
@@ -85,50 +87,11 @@ export function SearchClient({
           </h2>
 
           {matchingProducts.length === 0 ? (
-            <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-slate-500 text-sm">
+            <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center text-slate-600 text-sm">
               No products found matching &ldquo;{query}&rdquo;.
             </div>
           ) : (
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {matchingProducts.map((p) => (
-                <div
-                  key={p.slug}
-                  className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-lg transition-all flex flex-col justify-between group"
-                >
-                  <Link href={`/shop/${p.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
-                    <img src={p.images[0]} alt={p.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
-                    <div className="absolute top-3 left-3">
-                      <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-orange-600 text-white">
-                        {p.badge}
-                      </span>
-                    </div>
-                  </Link>
-
-                  <div className="p-4 flex-1 flex flex-col justify-between">
-                    <div>
-                      <h3 className="text-sm font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-1 mb-1">
-                        <Link href={`/shop/${p.slug}/`}>{p.name}</Link>
-                      </h3>
-                      <p className="text-xs text-slate-500 line-clamp-2 mb-3">
-                        {p.shortDescription}
-                      </p>
-                    </div>
-
-                    <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
-                      <span className="font-mono font-bold text-sm text-slate-900">
-                        ${p.price.toLocaleString()} AUD
-                      </span>
-                      <Link
-                        href={`/shop/${p.slug}/`}
-                        className="px-3 py-1.5 bg-sky-600 hover:bg-sky-500 text-white rounded-lg text-xs font-bold transition-colors"
-                      >
-                        View
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <PaginatedProducts key={query} items={matchingProducts.map((p) => ({ key: p.slug, product: toCard(p) }))} />
           )}
         </div>
 
@@ -152,7 +115,7 @@ export function SearchClient({
                 <h3 className="font-bold text-slate-900 group-hover:text-sky-600 text-sm mb-1 transition-colors">
                   {post.title}
                 </h3>
-                <p className="text-xs text-slate-500 line-clamp-2">
+                <p className="text-xs text-slate-600 line-clamp-2">
                   {post.excerpt}
                 </p>
               </Link>

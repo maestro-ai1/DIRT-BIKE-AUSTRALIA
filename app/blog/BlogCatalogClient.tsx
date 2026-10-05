@@ -118,7 +118,7 @@ export function BlogCatalogClient({ posts }: { posts: BlogPost[] }) {
       </div>
 
       {/* Results Header */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between text-xs text-slate-500 px-1 gap-2">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between text-xs text-slate-600 px-1 gap-2">
         <span>
           {filteredPosts.length > 0 ? (
             <>
@@ -199,7 +199,7 @@ export function BlogCatalogClient({ posts }: { posts: BlogPost[] }) {
                       </Link>
                     </h2>
 
-                    <p className="text-xs text-slate-500 line-clamp-2 leading-relaxed">
+                    <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
                       {post.excerpt}
                     </p>
                   </div>
@@ -221,7 +221,7 @@ export function BlogCatalogClient({ posts }: { posts: BlogPost[] }) {
           {/* 9 Articles Per Page Pagination Bar */}
           {totalPages > 1 && (
             <div className="pt-8 pb-2 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-              <div className="text-xs text-slate-500 font-medium">
+              <div className="text-xs text-slate-600 font-medium">
                 Page <span className="font-bold text-slate-900">{currentPage}</span> of{' '}
                 <span className="font-bold text-slate-900">{totalPages}</span>
               </div>

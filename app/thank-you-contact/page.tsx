@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function ThankYouContactPage() {
   return (
-    <div className="py-20 bg-slate-50 min-h-[75vh] flex items-center justify-center">
+    <div className="py-20 min-h-[75vh] flex items-center justify-center">
       <div className="max-w-md mx-auto px-4 w-full bg-white p-8 sm:p-12 rounded-3xl border border-slate-200/90 shadow-xl text-center space-y-6">
         <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto">
           <CheckCircle className="w-10 h-10" />

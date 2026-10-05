@@ -38,11 +38,11 @@ export default function ShippingDeliveryPage() {
   };
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">Shipping &amp; Delivery</span>
@@ -83,19 +83,19 @@ export default function ShippingDeliveryPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
               <div className="p-3 bg-slate-50 border border-slate-200/80 rounded-xl">
                 <span className="font-bold text-slate-900 block">Sydney, Newcastle, Wollongong, ACT</span>
-                <span className="text-slate-500">1 to 3 Business Days</span>
+                <span className="text-slate-600">1 to 3 Business Days</span>
               </div>
               <div className="p-3 bg-slate-50 border border-slate-200/80 rounded-xl">
                 <span className="font-bold text-slate-900 block">Melbourne, Brisbane, Gold Coast</span>
-                <span className="text-slate-500">2 to 4 Business Days</span>
+                <span className="text-slate-600">2 to 4 Business Days</span>
               </div>
               <div className="p-3 bg-slate-50 border border-slate-200/80 rounded-xl">
                 <span className="font-bold text-slate-900 block">Adelaide, Perth, Regional VIC/NSW/QLD</span>
-                <span className="text-slate-500">3 to 6 Business Days</span>
+                <span className="text-slate-600">3 to 6 Business Days</span>
               </div>
               <div className="p-3 bg-slate-50 border border-slate-200/80 rounded-xl">
                 <span className="font-bold text-slate-900 block">Tasmania, NT &amp; Remote WA/QLD</span>
-                <span className="text-slate-500">5 to 8 Business Days</span>
+                <span className="text-slate-600">5 to 8 Business Days</span>
               </div>
             </div>
           </section>

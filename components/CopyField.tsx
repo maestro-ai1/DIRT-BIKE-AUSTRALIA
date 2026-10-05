@@ -43,7 +43,7 @@ export function CopyField({ label, value, className = '', mono = true }: CopyFie
       } ${className}`}
     >
       <div className="flex flex-col min-w-0">
-        <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-500">
+        <span className="text-[11px] font-semibold uppercase tracking-wider text-slate-600">
           {label}
         </span>
         <span className={`text-sm font-semibold truncate ${mono ? 'font-mono' : ''}`}>

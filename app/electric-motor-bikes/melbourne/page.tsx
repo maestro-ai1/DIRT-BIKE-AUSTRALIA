@@ -7,6 +7,8 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Truck, MapPin } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { ProductPager } from '@/components/ProductPager';
 const seo = seoFor('/electric-motor-bikes/melbourne/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -84,11 +86,11 @@ export default function ElectricMotorBikesMelbournePage() {
   const melSuburbs = ['CBD', 'Richmond', 'St Kilda', 'Fitzroy', 'South Yarra', 'Footscray', 'Frankston', 'Dandenong', 'Ringwood', 'Werribee', 'Epping', 'Sunshine', 'Preston', 'Moorabbin'];
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-6 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <Link href="/electric-motor-bikes/" className="hover:text-sky-600">Electric Motor Bikes</Link>
@@ -146,7 +148,7 @@ export default function ElectricMotorBikesMelbournePage() {
             {melSuburbs.map((s) => (
               <span key={s} className="text-[10px] font-medium px-2 py-1 bg-slate-100 rounded-full text-slate-600">{s}</span>
             ))}
-            <span className="text-[10px] font-medium px-2 py-1 bg-slate-100 rounded-full text-slate-500">+ all other suburbs</span>
+            <span className="text-[10px] font-medium px-2 py-1 bg-slate-100 rounded-full text-slate-600">+ all other suburbs</span>
           </div>
           <div className="mt-4 p-4 bg-sky-50 rounded-xl border border-sky-100 text-xs text-sky-800">
             <strong>Contact before ordering:</strong> Message on WhatsApp <strong>{CONTACT.whatsappDisplay}</strong> to confirm delivery ETAs for your Melbourne suburb.
@@ -159,37 +161,9 @@ export default function ElectricMotorBikesMelbournePage() {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               Top Electric Bikes for Melbourne Riders ({products.length} Models)
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500 mt-0.5">Free freight to Melbourne on all orders over $1,500. Dispatched insured with real-time tracking.</p>
+            <p className="text-xs sm:text-sm text-slate-600 mt-0.5">Free freight to Melbourne on all orders over $1,500. Dispatched insured with real-time tracking.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            {products.map((product) => (
-              <div key={product.slug} className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group">
-                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
-                  <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                  <div className="absolute top-3 left-3">
-                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-white">{product.brand}</span>
-                  </div>
-                  {product.badge === 'Australian Engineered' && (
-                    <div className="absolute top-3 right-3 px-2 py-0.5 rounded bg-emerald-600 text-white text-[10px] font-bold">🇦🇺 AU Made</div>
-                  )}
-                </Link>
-                <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
-                  <h3 className="text-xs font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-2">
-                    <Link href={`/shop/${product.slug}/`}>{product.name}</Link>
-                  </h3>
-                  {product.specs?.topSpeed && (
-                    <div className="flex items-center gap-1.5 text-[11px] text-slate-500"><Gauge className="w-3.5 h-3.5 text-sky-500" /><span>{product.specs.topSpeed}</span></div>
-                  )}
-                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
-                    <div className="text-sm font-mono font-extrabold text-slate-900">${product.price.toLocaleString()}</div>
-                    <Link href={`/shop/${product.slug}/`} className="px-3 py-1.5 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-                      View<ArrowRight className="w-3 h-3" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProductPager groups={[{ items: products }]} />
         </div>
 
         {/* E-bike laws VIC box */}
@@ -205,10 +179,12 @@ export default function ElectricMotorBikesMelbournePage() {
           </Link>
         </div>
 
+        <AuthorityLinks path="/electric-motor-bikes/melbourne/" />
+
         {/* FAQ */}
-        <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
+        <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm space-y-4">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">Electric Bikes Melbourne — FAQ</h2>
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
               { q: 'Do you deliver electric bikes to Melbourne?', a: 'Yes. We deliver to all Melbourne suburbs and regional Victoria in 2–4 business days from Mittagong NSW. All orders over $1,500 ship free with insured crate freight and real-time tracking.' },
               { q: 'Are electric bikes legal in Melbourne and Victoria?', a: 'Pedal-assist e-bikes under 250W and 25 km/h are legal on Melbourne roads, bike lanes, and shared paths without registration or a licence. Electric motorcycles over 250W require VicRoads registration and a motorcycle licence.' },

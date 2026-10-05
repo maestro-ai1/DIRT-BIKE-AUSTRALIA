@@ -167,7 +167,7 @@ export function RecentSalesPopup() {
             {currentNotification.product}
           </Link>
 
-          <div className="flex items-center justify-between mt-1 text-[11px] text-slate-500">
+          <div className="flex items-center justify-between mt-1 text-[11px] text-slate-600">
             <span className="flex items-center gap-1 text-emerald-600 font-semibold">
               <CheckCircle className="w-3 h-3" />
               Verified Purchase

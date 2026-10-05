@@ -7,6 +7,8 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass, Truck, MapPin } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { ProductPager } from '@/components/ProductPager';
 const seo = seoFor('/electric-motor-bikes/perth/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -82,11 +84,11 @@ export default function ElectricMotorBikesPerthPage() {
   ];
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-6 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <Link href="/electric-motor-bikes/" className="hover:text-sky-600">Electric Motor Bikes</Link>
@@ -151,40 +153,17 @@ export default function ElectricMotorBikesPerthPage() {
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
               Top Electric Bikes for Perth Riders ({products.length} Models)
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500 mt-0.5">Every model ships free to Perth on orders over $1,500 with insured tracking.</p>
+            <p className="text-xs sm:text-sm text-slate-600 mt-0.5">Every model ships free to Perth on orders over $1,500 with insured tracking.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-            {products.map((product) => (
-              <div key={product.slug} className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group">
-                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
-                  <img src={product.images[0]} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
-                  <div className="absolute top-3 left-3">
-                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-white">{product.brand}</span>
-                  </div>
-                </Link>
-                <div className="p-4 flex-1 flex flex-col justify-between space-y-3">
-                  <h3 className="text-xs font-bold text-slate-900 group-hover:text-sky-600 transition-colors leading-snug line-clamp-2">
-                    <Link href={`/shop/${product.slug}/`}>{product.name}</Link>
-                  </h3>
-                  {product.specs?.topSpeed && (
-                    <div className="flex items-center gap-1.5 text-[11px] text-slate-500"><Gauge className="w-3.5 h-3.5 text-sky-500" /><span>{product.specs.topSpeed}</span></div>
-                  )}
-                  <div className="pt-2 border-t border-slate-100 flex items-center justify-between">
-                    <div className="text-sm font-mono font-extrabold text-slate-900">${product.price.toLocaleString()}</div>
-                    <Link href={`/shop/${product.slug}/`} className="px-3 py-1.5 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors inline-flex items-center gap-1">
-                      View<ArrowRight className="w-3 h-3" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProductPager groups={[{ items: products }]} />
         </div>
 
+        <AuthorityLinks path="/electric-motor-bikes/perth/" />
+
         {/* FAQ */}
-        <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
+        <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm space-y-4">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">Electric Bikes Perth — FAQ</h2>
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
               { q: 'Do you ship electric motor bikes to Perth and Western Australia?', a: 'Yes. We ship to all Perth suburbs and regional WA. All orders over $1,500 ship free with insured heavy-vehicle freight and real-time tracking. Standard delivery time to Perth metro is 5–8 business days.' },
               { q: 'Are electric bikes legal in Perth and Western Australia?', a: 'Pedal-assist e-bikes under 250W and 25 km/h are legal on WA roads and shared paths with no registration or licence required. Electric mopeds and motorcycles over 250W require registration under WA DoT rules. Off-road electric dirt bikes are for private property and designated off-road venues.' },

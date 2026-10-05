@@ -409,6 +409,8 @@ export function getProductFaqs(p: P): ProductFaq[] {
     if (spec(p, 'installation')) q(`How hard is it to install the ${short}?`, `${spec(p, 'installation')}. Our team can help with installation questions on WhatsApp.`);
   }
 
+  const typeEnd = out.length; // everything before this index is where-to-buy, price and the product-specific questions
+
   // Common closing set (payment, delivery, warranty, returns)
   q(`Can I pay for the ${short} with crypto or PayID?`, `Yes. Choose crypto or PayID at checkout and ${SHOP.cryptoDiscount}% comes off the price, so the ${short} is ${crypto} AUD instead of ${price} AUD.`);
   if (amp) q(`Do you deliver the ${short} Australia-wide?`, `Yes. ${p.shipping}`);
@@ -419,6 +421,20 @@ export function getProductFaqs(p: P): ProductFaq[] {
     if (amp) q(`What warranty comes with the ${short}?`, `The ${short} is covered by the ${p.warranty}. The supplier warranty covers manufacturer faults and defects for the original purchaser with a receipt, and excludes wear items such as tyres, tubes, brake pads and seats.`);
     else q(`What warranty comes with the ${short}?`, `Your purchase includes a 12-Month Comprehensive Australian Factory Warranty covering the frame, motor, controller, battery and electrical harness against manufacturer defects. Genuine replacement parts are stocked at our Mittagong NSW workshop.`);
   }
+  // Every product page shows five questions: where to buy, price, two product-specific questions (the first one, plus the legal/licence/age one when present),
+  // then delivery. Warranty and payment are covered on the page itself and in the price answer, so they only fill any gap.
+  const MAX_FAQS = 5;
+  const specific = out.slice(2, typeEnd);
+  const closing = out.slice(typeEnd);
+  const pickSpecific: ProductFaq[] = [];
+  if (specific[0]) pickSpecific.push(specific[0]);
+  const legalQ = specific.slice(1).find((f) => /road legal|licence|registration|age|ride the .* on the road/i.test(f.question));
+  const second = legalQ ?? specific[1];
+  if (second && !pickSpecific.includes(second)) pickSpecific.push(second);
+  const delivery = closing.find((f) => /deliver/i.test(f.question));
+  const rest = closing.filter((f) => f !== delivery);
+  const chosen = [...out.slice(0, 2), ...pickSpecific, ...(delivery ? [delivery] : []), ...rest, ...specific.filter((f) => !pickSpecific.includes(f))];
+  const unique = chosen.filter((f, i) => chosen.indexOf(f) === i).slice(0, MAX_FAQS);
   // Keep copy tidy
-  return out.map((f) => ({ question: f.question, answer: f.answer.replace(/\s+/g, ' ').replace(/ \./g, '.').replace(/\.\./g, '.').trim() }));
+  return unique.map((f) => ({ question: f.question, answer: f.answer.replace(/\s+/g, ' ').replace(/ \./g, '.').replace(/\.\./g, '.').trim() }));
 }

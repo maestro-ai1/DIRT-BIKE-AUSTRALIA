@@ -114,17 +114,16 @@ export function Nav() {
               onMouseEnter={() => setBrandsDropdownOpen(true)}
               onMouseLeave={() => setBrandsDropdownOpen(false)}
             >
-              <button
-                type="button"
-                onClick={() => setBrandsDropdownOpen((prev) => !prev)}
+              <Link
+                href="/brands/"
+                onClick={() => setBrandsDropdownOpen(false)}
                 className={`flex items-center gap-1 transition-colors hover:text-sky-700 py-2 ${
                   isActive('/brands/') ? 'text-sky-700 font-bold' : ''
                 }`}
-                aria-expanded={brandsDropdownOpen}
               >
                 <span>Brands</span>
                 <ChevronDown className={`w-4 h-4 transition-transform ${brandsDropdownOpen ? 'rotate-180 text-sky-600' : ''}`} />
-              </button>
+              </Link>
 
               {/* Mega/Dropdown Panel */}
               {brandsDropdownOpen && (
@@ -141,7 +140,7 @@ export function Nav() {
                         className="flex items-center justify-between px-3 py-2 text-sm text-slate-700 hover:text-sky-600 hover:bg-sky-50 rounded-lg transition-colors"
                       >
                         <span className="font-semibold">{b.name}</span>
-                        <span className="text-[10px] bg-slate-100 text-slate-500 font-medium px-1.5 py-0.5 rounded">
+                        <span className="text-[10px] bg-slate-100 text-slate-600 font-medium px-1.5 py-0.5 rounded">
                           {b.badge}
                         </span>
                       </Link>

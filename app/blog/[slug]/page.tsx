@@ -127,11 +127,11 @@ export default async function BlogPostPage({ params }: Props) {
   ];
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <Link href="/blog/" className="hover:text-sky-600">Blog</Link>
@@ -145,7 +145,7 @@ export default async function BlogPostPage({ params }: Props) {
             <span className="px-3 py-1 bg-sky-100 text-sky-800 font-bold text-xs rounded-full uppercase tracking-wider">
               {post.category}
             </span>
-            <div className="flex items-center gap-3 text-xs text-slate-500">
+            <div className="flex items-center gap-3 text-xs text-slate-600">
               <span className="flex items-center gap-1">
                 <Calendar className="w-3.5 h-3.5" />
                 {post.date}
@@ -276,7 +276,7 @@ export default async function BlogPostPage({ params }: Props) {
                   <h4 className="font-bold text-slate-900 group-hover:text-sky-600 text-sm leading-snug mb-2 transition-colors">
                     {r.title}
                   </h4>
-                  <p className="text-xs text-slate-500 line-clamp-2">
+                  <p className="text-xs text-slate-600 line-clamp-2">
                     {r.excerpt}
                   </p>
                 </Link>

@@ -48,12 +48,12 @@ export default function BrandsPage() {
   };
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-6 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">Brands</span>
@@ -116,7 +116,7 @@ export default function BrandsPage() {
                 </div>
 
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                  <span className="text-xs font-mono font-semibold text-slate-500">
+                  <span className="text-xs font-mono font-semibold text-slate-600">
                     {brandProducts.length} in stock
                   </span>
                   <Link

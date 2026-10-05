@@ -397,7 +397,7 @@ function CheckoutForm({
         <button
           type="button"
           onClick={onBack}
-          className="w-full py-2 text-slate-500 hover:text-slate-700 text-xs font-semibold text-center"
+          className="w-full py-2 text-slate-600 hover:text-slate-700 text-xs font-semibold text-center"
         >
           ← Back to Cart
         </button>
@@ -493,7 +493,7 @@ export function CartDrawer() {
                 <Zap className="w-7 h-7" />
               </div>
               <h3 className="text-base font-bold text-slate-800 mb-1">Your cart is empty</h3>
-              <p className="text-xs text-slate-500 mb-5 max-w-xs">
+              <p className="text-xs text-slate-600 mb-5 max-w-xs">
                 Browse our lineup of high-performance electric dirt bikes and accessories.
               </p>
               <button
@@ -606,7 +606,7 @@ export function CartDrawer() {
                 <span>Total Due</span>
                 <span className="font-mono text-sky-600">
                   ${totalWithCrypto.toLocaleString()} AUD
-                  <span className="text-[11px] font-normal text-slate-500 ml-1">(Crypto)</span>
+                  <span className="text-[11px] font-normal text-slate-600 ml-1">(Crypto)</span>
                 </span>
               </div>
             </div>

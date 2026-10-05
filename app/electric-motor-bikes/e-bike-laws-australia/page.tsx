@@ -7,6 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { ArrowRight, CheckCircle, AlertTriangle, Scale, MapPin, ShieldCheck } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
 const seo = seoFor('/electric-motor-bikes/e-bike-laws-australia/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -148,11 +149,11 @@ export default function EBikeLawsAustraliaPage() {
   ];
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-6 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <Link href="/electric-motor-bikes/" className="hover:text-sky-600">Electric Motor Bikes</Link>
@@ -221,14 +222,14 @@ export default function EBikeLawsAustraliaPage() {
               <div key={rule.state} className={`p-5 rounded-xl border ${rule.color} space-y-3`}>
                 <div className="flex items-center justify-between">
                   <span className="font-extrabold text-slate-900 text-lg">{rule.state}</span>
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-white/70 px-2 py-1 rounded-md">{rule.authority}</span>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-600 bg-white/70 px-2 py-1 rounded-md">{rule.authority}</span>
                 </div>
                 <div className="space-y-1.5 text-xs text-slate-700">
                   <div className="flex items-start gap-2"><CheckCircle className="w-3.5 h-3.5 text-emerald-600 mt-0.5 shrink-0" /><span><strong>Road-legal:</strong> {rule.roadLegal}</span></div>
                   <div className="flex items-start gap-2"><CheckCircle className="w-3.5 h-3.5 text-emerald-600 mt-0.5 shrink-0" /><span><strong>Licence:</strong> {rule.licence}</span></div>
                   <div className="flex items-start gap-2"><CheckCircle className="w-3.5 h-3.5 text-emerald-600 mt-0.5 shrink-0" /><span><strong>Registration:</strong> {rule.registration}</span></div>
                   <div className="flex items-start gap-2"><AlertTriangle className="w-3.5 h-3.5 text-amber-600 mt-0.5 shrink-0" /><span><strong>Throttle-only:</strong> {rule.throttle}</span></div>
-                  <div className="flex items-start gap-2"><ShieldCheck className="w-3.5 h-3.5 text-slate-500 mt-0.5 shrink-0" /><span><strong>Helmet:</strong> {rule.minAge}</span></div>
+                  <div className="flex items-start gap-2"><ShieldCheck className="w-3.5 h-3.5 text-slate-600 mt-0.5 shrink-0" /><span><strong>Helmet:</strong> {rule.minAge}</span></div>
                 </div>
               </div>
             ))}
@@ -266,17 +267,19 @@ export default function EBikeLawsAustraliaPage() {
               <Icon className={`w-5 h-5 ${color} mt-0.5 shrink-0`} />
               <div className="space-y-0.5">
                 <div className="font-bold text-sm text-slate-900">{title}</div>
-                <p className="text-xs text-slate-500">{desc}</p>
+                <p className="text-xs text-slate-600">{desc}</p>
               </div>
               <ArrowRight className="w-4 h-4 text-slate-400 ml-auto mt-0.5 shrink-0" />
             </Link>
           ))}
         </div>
 
+        <AuthorityLinks path="/electric-motor-bikes/e-bike-laws-australia/" />
+
         {/* FAQ */}
-        <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
+        <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm space-y-4">
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">E-Bike Laws Australia 2026 — FAQ</h2>
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
               { q: 'Are electric bikes legal in Australia?', a: 'Yes. Pedal-assist e-bikes with ≤250W continuous motor output that only assist to 25 km/h are legal in all Australian states as bicycles — requiring no licence, registration, or number plate. Higher-powered electric bikes are classified as motorcycles and require registration and a licence.' },
               { q: 'Do electric bikes need registration in Australia?', a: 'No, for road-legal e-bikes. Compliant pedal-assist e-bikes (≤250W, ≤25 km/h) require no registration in any Australian state. Electric motorcycles, mopeds, and throttle-only e-bikes exceeding these limits require registration with your state roads authority.' },

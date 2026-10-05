@@ -5,6 +5,8 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { BatteryCharging, Zap, ShieldCheck, ArrowRight } from 'lucide-react';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { ProductPager } from '@/components/ProductPager';
 
 const seo = seoFor('/accessories/');
 export const metadata: Metadata = {
@@ -50,11 +52,11 @@ export default function AccessoriesPage() {
   };
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-6 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">Accessories &amp; Power</span>
@@ -76,58 +78,9 @@ export default function AccessoriesPage() {
         </div>
 
         {/* Product Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {accessories.map((p) => (
-            <div
-              key={p.slug}
-              className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group"
-            >
-              <div>
-                <Link href={`/shop/${p.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
-                  <img
-                    src={p.images[0]}
-                    alt={p.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform"
-                  />
-                  <div className="absolute top-3 left-3">
-                    <span className="px-2.5 py-1 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-orange-600 text-white">
-                      {p.badge}
-                    </span>
-                  </div>
-                </Link>
+        <ProductPager groups={[{ items: accessories }]} topUp={false} />
 
-                <div className="p-5">
-                  <h3 className="text-base font-bold text-slate-900 group-hover:text-sky-600 transition-colors line-clamp-1 mb-2">
-                    <Link href={`/shop/${p.slug}/`}>{p.name}</Link>
-                  </h3>
-                  <p className="text-xs text-slate-500 line-clamp-3 leading-relaxed mb-4">
-                    {p.description}
-                  </p>
-                </div>
-              </div>
-
-              <div className="p-5 pt-0">
-                <div className="pt-3 border-t border-slate-100 flex items-center justify-between mb-3">
-                  <div>
-                    <div className="text-lg font-mono font-extrabold text-slate-900">
-                      ${p.price.toLocaleString()} AUD
-                    </div>
-                    <div className="text-[10px] text-orange-600 font-semibold">
-                      ${Math.round(p.price * 0.9).toLocaleString()} on Crypto (-10%)
-                    </div>
-                  </div>
-                  <Link
-                    href={`/shop/${p.slug}/`}
-                    className="px-4 py-2 bg-slate-900 hover:bg-sky-600 text-white rounded-lg text-xs font-bold transition-colors"
-                  >
-                    View Details
-                  </Link>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-
+        <AuthorityLinks path="/accessories/" className="mt-12" />
       </div>
     </div>
   );

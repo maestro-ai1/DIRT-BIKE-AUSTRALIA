@@ -4,9 +4,11 @@ import { PRODUCTS, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
-import { Zap, ShieldCheck, FileText, ArrowRight, CheckCircle, Gauge, Battery, Compass, Baby, Bike, MapPin, Star, BookOpen, Scale } from 'lucide-react';
+import { Zap, ShieldCheck, FileText, CheckCircle } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { ProductPager } from '@/components/ProductPager';
 const seo = seoFor('/electric-motor-bikes/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -101,46 +103,15 @@ export default function ElectricMotorBikesPage() {
   ];
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-6 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-6 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">Electric Motor Bikes</span>
         </nav>
-
-        {/* Sub-Category Navigation */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-10">
-          {[
-            { href: '/electric-motor-bikes/kids/', icon: Baby, label: 'Kids Bikes', tag: 'Ages 3–16', color: 'text-emerald-500' },
-            { href: '/electric-bikes/', icon: Bike, label: 'Electric Bikes', tag: 'E-Bikes & E-Motos', color: 'text-sky-500' },
-            { href: '/electric-fat-tyre-bikes/', icon: Bike, label: 'Fat Tyre E-Bikes', tag: 'Beach Cruisers', color: 'text-teal-500' },
-            { href: '/electric-mini-bikes/', icon: Bike, label: 'Mini E-Bikes', tag: 'Compact', color: 'text-pink-500' },
-            { href: '/electric-bikes/cheap/', icon: Star, label: 'Cheap E-Bikes', tag: 'Affordable', color: 'text-yellow-500' },
-            { href: '/electric-motor-bikes/rtr-ebike/', icon: Bike, label: 'RTR eBike', tag: 'No Licence', color: 'text-sky-500' },
-            { href: '/electric-motor-bikes/commuter-mopeds/', icon: Zap, label: 'Commuter Mopeds', tag: 'Road Legal', color: 'text-orange-500' },
-            { href: '/electric-motorcycles/', icon: Gauge, label: 'Electric Motorcycles', tag: 'Road & Off-Road', color: 'text-orange-500' },
-            { href: '/electric-motocross-bikes/', icon: Zap, label: 'Electric Motocross', tag: 'Competition', color: 'text-red-500' },
-            { href: '/electric-motor-bikes/sydney/', icon: MapPin, label: 'Sydney', tag: 'NSW', color: 'text-sky-500' },
-            { href: '/electric-motor-bikes/melbourne/', icon: MapPin, label: 'Melbourne', tag: 'VIC delivery', color: 'text-pink-500' },
-            { href: '/electric-motor-bikes/brisbane/', icon: MapPin, label: 'Brisbane', tag: 'QLD delivery', color: 'text-emerald-500' },
-            { href: '/electric-motor-bikes/perth/', icon: MapPin, label: 'Perth', tag: 'WA delivery', color: 'text-purple-500' },
-            { href: '/electric-motor-bikes/best-electric-bikes-australia/', icon: Star, label: 'Best eBikes Guide', tag: 'Top 10', color: 'text-yellow-500' },
-            { href: '/electric-motor-bikes/e-bike-laws-australia/', icon: Scale, label: 'AU Laws & FAQ', tag: 'All States', color: 'text-teal-500' },
-          ].map(({ href, icon: Icon, label, tag, color }) => (
-            <Link
-              key={href}
-              href={href}
-              className="bg-white border border-slate-200 rounded-xl p-3 flex flex-col items-center gap-1.5 text-center hover:border-sky-400 hover:shadow-sm transition-all group"
-            >
-              <Icon className={`w-5 h-5 ${color} group-hover:scale-110 transition-transform`} />
-              <span className="text-[11px] font-bold text-slate-800 leading-tight">{label}</span>
-              <span className="text-[9.5px] font-semibold text-slate-400 bg-slate-50 px-2 py-0.5 rounded-full">{tag}</span>
-            </Link>
-          ))}
-        </div>
 
         {/* Hero Banner */}
         <div className="bg-slate-900 text-white rounded-3xl p-6 sm:p-12 mb-12 border border-slate-800 shadow-xl relative overflow-hidden">
@@ -197,6 +168,14 @@ export default function ElectricMotorBikesPage() {
               </p>
             </div>
           </div>
+          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            Delivery guides: <Link href="/electric-motor-bikes/sydney/" className="text-sky-700 font-semibold hover:underline">Sydney</Link>,{' '}
+            <Link href="/electric-motor-bikes/melbourne/" className="text-sky-700 font-semibold hover:underline">Melbourne</Link>,{' '}
+            <Link href="/electric-motor-bikes/brisbane/" className="text-sky-700 font-semibold hover:underline">Brisbane</Link> and{' '}
+            <Link href="/electric-motor-bikes/perth/" className="text-sky-700 font-semibold hover:underline">Perth</Link>. Also read the{' '}
+            <Link href="/electric-motor-bikes/e-bike-laws-australia/" className="text-sky-700 font-semibold hover:underline">Australian e-bike laws guide</Link> and{' '}
+            <Link href="/electric-motor-bikes/best-electric-bikes-australia/" className="text-sky-700 font-semibold hover:underline">best electric bikes 2026</Link>.
+          </p>
         </div>
 
         {/* Grid of Top 14 Electric Motor Bikes */}
@@ -206,7 +185,7 @@ export default function ElectricMotorBikesPage() {
               <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
                 Featured Electric Motor Bikes ({motorBikes.length} Models)
               </h2>
-              <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
+              <p className="text-xs sm:text-sm text-slate-600 mt-0.5">
                 Every bike is factory pre-inspected, crate-packaged, and dispatched with real-time tracking from Mittagong NSW 2575.
               </p>
             </div>
@@ -215,112 +194,23 @@ export default function ElectricMotorBikesPage() {
             </span>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {motorBikes.map((product) => (
-              <div
-                key={product.slug}
-                className="bg-white rounded-2xl border border-slate-200/90 overflow-hidden shadow-xs hover:shadow-xl transition-all flex flex-col justify-between group"
-              >
-                {/* Image Frame */}
-                <Link href={`/shop/${product.slug}/`} className="block relative aspect-4/3 bg-slate-100 overflow-hidden">
-                  <img
-                    src={product.images[0]}
-                    alt={product.name}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute top-3 left-3 flex flex-col gap-1">
-                    <span className="px-2.5 py-1 rounded-md text-[11px] font-bold bg-slate-900 text-white shadow-xs">
-                      {product.brand}
-                    </span>
-                    <span className="px-2.5 py-0.5 rounded-md text-[10px] font-bold bg-orange-600 text-white shadow-xs">
-                      {product.badge}
-                    </span>
-                  </div>
-                  {product.compareAtPrice && (
-                    <div className="absolute top-3 right-3 px-2 py-0.5 rounded bg-emerald-600 text-white text-[10px] font-bold shadow-xs">
-                      Save ${(product.compareAtPrice - product.price).toLocaleString()}
-                    </div>
-                  )}
-                </Link>
-
-                {/* Content */}
-                <div className="p-5 flex-1 flex flex-col justify-between space-y-4">
-                  <div>
-                    <h3 className="text-base font-bold text-slate-900 group-hover:text-sky-600 transition-colors leading-snug mb-1.5">
-                      <Link href={`/shop/${product.slug}/`}>{product.name}</Link>
-                    </h3>
-                    <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
-                      {product.shortDescription}
-                    </p>
-                  </div>
-
-                  {/* Quick Specs Pill Row */}
-                  {product.specs && (
-                    <div className="grid grid-cols-2 gap-2 text-[11px] bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-slate-600 font-medium">
-                      {product.specs.motorPeak && (
-                        <div className="flex items-center gap-1.5 truncate">
-                          <Zap className="w-3.5 h-3.5 text-orange-500 shrink-0" />
-                          <span className="truncate">{product.specs.motorPeak}</span>
-                        </div>
-                      )}
-                      {product.specs.battery && (
-                        <div className="flex items-center gap-1.5 truncate">
-                          <Battery className="w-3.5 h-3.5 text-sky-500 shrink-0" />
-                          <span className="truncate">{product.specs.battery}</span>
-                        </div>
-                      )}
-                      {product.specs.topSpeed && (
-                        <div className="flex items-center gap-1.5 truncate">
-                          <Gauge className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
-                          <span className="truncate">{product.specs.topSpeed}</span>
-                        </div>
-                      )}
-                      {product.specs.range && (
-                        <div className="flex items-center gap-1.5 truncate">
-                          <Compass className="w-3.5 h-3.5 text-indigo-500 shrink-0" />
-                          <span className="truncate">{product.specs.range}</span>
-                        </div>
-                      )}
-                    </div>
-                  )}
-
-                  {/* Pricing and Action */}
-                  <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
-                    <div>
-                      <div className="text-lg font-mono font-extrabold text-slate-900">
-                        ${product.price.toLocaleString()} AUD
-                      </div>
-                      <div className="text-[11px] text-orange-600 font-bold">
-                        ${Math.round(product.price * 0.9).toLocaleString()} with Crypto (-10%)
-                      </div>
-                    </div>
-
-                    <Link
-                      href={`/shop/${product.slug}/`}
-                      className="px-3.5 py-2 bg-slate-900 hover:bg-sky-600 text-white rounded-xl text-xs font-bold transition-colors shadow-xs inline-flex items-center gap-1"
-                    >
-                      <span>View Bike</span>
-                      <ArrowRight className="w-3 h-3" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+          <ProductPager groups={[{ items: motorBikes }]} />
         </div>
 
+        <AuthorityLinks path="/electric-motor-bikes/" />
+
         {/* Electric Motor Bikes Dedicated FAQ Section */}
-        <div className="bg-white p-6 sm:p-10 rounded-3xl border border-slate-200/90 shadow-sm space-y-6">
+        <div className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm space-y-4">
           <div className="border-b border-slate-100 pb-4">
             <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
               Electric Motor Bikes in Australia — Frequently Asked Questions
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500 mt-1">
+            <p className="text-xs sm:text-sm text-slate-600 mt-1">
               Key considerations when choosing, riding, and registering electric motor bikes across Australian states.
             </p>
           </div>
 
-          <div className="space-y-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             <FaqItem question="1. What is the difference between an electric dirt bike and an electric motor bike in Australia?">
                 Electric dirt bikes (such as the Light Bee X or Talaria Sting R) are purpose-built for closed-circuit trail riding, motocross tracks, and private bush tracks. Electric motor bikes include dual-sport and street-homologated platforms (like the Sur-Ron Ultra Bee ADR and Storm Bee) that feature complete lighting harnesses, mirrors, horns, and VIN tags for public road registration under state motorcycle licensing.
               </FaqItem>

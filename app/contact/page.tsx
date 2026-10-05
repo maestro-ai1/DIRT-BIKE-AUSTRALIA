@@ -56,11 +56,11 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="py-12 bg-slate-50 min-h-screen">
+    <div className="py-12 min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
         
         {/* Breadcrumb */}
-        <nav className="flex items-center gap-2 text-xs text-slate-500 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <span className="text-slate-900 font-bold">Contact Us</span>
@@ -101,7 +101,7 @@ export default function ContactPage() {
                     <div className="font-bold text-slate-900 group-hover:text-sky-600 transition-colors">
                       Sales &amp; Technical Helpline
                     </div>
-                    <div className="font-mono text-xs text-slate-500 mt-0.5">
+                    <div className="font-mono text-xs text-slate-600 mt-0.5">
                       {CONTACT.phoneDisplay}
                     </div>
                   </div>
@@ -130,7 +130,7 @@ export default function ContactPage() {
                     <div className="font-bold text-slate-900">
                       Email Inquiries
                     </div>
-                    <div className="font-mono text-xs text-slate-500 mt-0.5">
+                    <div className="font-mono text-xs text-slate-600 mt-0.5">
                       {CONTACT.email}
                     </div>
                   </div>
@@ -142,7 +142,7 @@ export default function ContactPage() {
                     <div className="font-bold text-slate-900">
                       Southern Highlands Warehouse
                     </div>
-                    <div className="text-xs text-slate-500 mt-0.5">
+                    <div className="text-xs text-slate-600 mt-0.5">
                       {CONTACT.address}
                     </div>
                   </div>
@@ -154,7 +154,7 @@ export default function ContactPage() {
                     <div className="font-bold text-slate-900">
                       Dispatch &amp; Support Hours
                     </div>
-                    <div className="text-xs text-slate-500 mt-0.5">
+                    <div className="text-xs text-slate-600 mt-0.5">
                       {CONTACT.hours}
                     </div>
                   </div>
@@ -207,7 +207,7 @@ export default function ContactPage() {
                 <h2 className="text-xl font-extrabold text-slate-900 tracking-tight mb-1">
                   Send a Message to Our Workshop
                 </h2>
-                <p className="text-xs text-slate-500">
+                <p className="text-xs text-slate-600">
                   Fill in your details and we&apos;ll get back to you within 2–4 business hours. Email delivery activates once SMTP is configured.
                 </p>
               </div>

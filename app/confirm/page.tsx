@@ -11,7 +11,7 @@ export default function ConfirmPage() {
   return (
     <div className="min-h-screen bg-slate-100 py-12 px-4">
       <div className="max-w-lg mx-auto">
-        <Suspense fallback={<div className="p-8 text-center text-slate-500 text-sm">Loading...</div>}>
+        <Suspense fallback={<div className="p-8 text-center text-slate-600 text-sm">Loading...</div>}>
           <ConfirmClient />
         </Suspense>
       </div>

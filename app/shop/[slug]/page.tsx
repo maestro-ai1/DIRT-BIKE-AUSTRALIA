@@ -141,12 +141,12 @@ export default async function ProductDetailPage({ params }: Props) {
   ];
 
   return (
-    <div className="py-10 bg-slate-50 min-h-screen">
+    <div className="py-10 min-h-screen">
       <JsonLd data={schemaData} />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb Navigation */}
-        <nav className="flex items-center gap-2 text-xs text-slate-500 mb-8 font-medium">
+        <nav className="flex items-center gap-2 text-xs text-slate-600 mb-8 font-medium">
           <Link href="/" className="hover:text-sky-600">Home</Link>
           <span>/</span>
           <Link href="/shop/" className="hover:text-sky-600">Shop</Link>
