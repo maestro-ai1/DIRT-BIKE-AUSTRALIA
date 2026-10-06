@@ -1635,7 +1635,7 @@ export const PRODUCTS: ProductItem[] = [
       "suspension": "KTM WP Xact Front & Rear"
     },
     "images": [
-      "/images/product-ktm-sx-e-youth.jpg"],
+      "/images/product-ktm-sx-e-5-side.jpg"],
     "inStock": true
   },
   {
@@ -3188,7 +3188,7 @@ Road-legal electric motorcycles and mopeds (>250W) require a minimum Rider licen
     category: "Buyers Guide",
     date: "2026-03-27",
     readTime: "7 min read",
-    image: "/images/product-ktm-sx-e-youth.jpg",
+    image: "/images/product-ktm-sx-e-5-side.jpg",
     content: `Choosing a kids electric motorbike in Australia involves balancing performance, safety, and value at each developmental stage. Unlike pedal bicycles, electric motorbikes require proper safety gear, supervised riding environments, and power settings matched to a child\'s physical and cognitive development. This guide provides age-specific recommendations from Australia\'s leading electric motorbike retailer.
 
 ### What Makes a Kids Electric Motorbike Safe?
@@ -4299,7 +4299,7 @@ Read the [Queensland Government e-bike page](https://streetsmarts.initiatives.ql
     category: "Buyers Guide",
     date: "2026-10-06",
     readTime: "7 min read",
-    image: "/images/product-ktm-sx-e-youth.jpg",
+    image: "/images/product-ktm-sx-e-5-side.jpg",
     imageAlt: "KTM SX-E 5 youth electric dirt bike, a childs dirt bike for ages 4 to 10 sold in Australia",
     content: `A childs dirt bike should match the rider's age, height and experience, and an electric dirt bike for kids has advantages: it is quiet, there is no clutch or gear shifting, and many models let a parent limit the top speed. This guide compares the kids and youth electric dirt bikes in our range by age, power and price. All specifications are the figures in our product listings, and every bike should be used under adult supervision on private property or a suitable off-road area.
 

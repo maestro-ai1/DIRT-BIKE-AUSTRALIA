@@ -92,7 +92,7 @@ export function ProductDetailClient({
         
         {/* Left Column: Image Showcase (Span 7) */}
         <div className="lg:col-span-7 space-y-4">
-          <div className="relative aspect-[4/3] bg-slate-100 rounded-2xl overflow-hidden border border-slate-200">
+          <div className="relative aspect-[4/3] bg-white rounded-2xl overflow-hidden border border-slate-200">
             <img
               src={product.images[selectedImage] || product.images[0]}
               alt={product.name}
@@ -101,7 +101,8 @@ export function ProductDetailClient({
               fetchPriority="high"
               loading="eager"
               decoding="async"
-              className="w-full h-full object-cover object-center"
+              style={{ height: '100%' }}
+              className="absolute inset-0 w-full h-full object-contain object-center"
             />
             <div className="absolute top-4 left-4 flex flex-col gap-1.5">
               <span className="px-3 py-1 rounded-md text-xs font-extrabold uppercase tracking-wider bg-orange-600 text-white shadow-md">

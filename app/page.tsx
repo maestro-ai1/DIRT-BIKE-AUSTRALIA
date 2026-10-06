@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 const HOME_CATEGORIES = [
   { href: '/electric-dirt-bikes/', title: 'Electric Dirt Bikes for Sale', text: 'Adult electric dirt bikes, off-road and trail bikes from Sur-Ron, Talaria, Stark Varg and E-Ride Pro.', img: '/images/product-sur-ron-ultra-bee.jpg' },
   { href: '/electric-motor-bikes/', title: 'Electric Motorbikes & Motorcycles', text: 'Off-road electric motorbikes, road-legal electric mopeds and commuter models.', img: '/images/product-super-soco-cpx.jpg' },
-  { href: '/electric-motor-bikes/kids/', title: 'Kids Electric Bikes & Motorbikes', text: 'Childs electric motorcycles and childrens electric dirt bikes for ages 3–16.', img: '/images/product-ktm-sx-e-youth.jpg' },
+  { href: '/electric-motor-bikes/kids/', title: 'Kids Electric Bikes & Motorbikes', text: 'Childs electric motorcycles and childrens electric dirt bikes for ages 3–16.', img: '/images/product-ktm-sx-e-5-side.jpg' },
   { href: '/electric-bikes/', title: 'Electric Bikes for Sale', text: 'RTR eBikes, Super73 e-motos and road-legal electric mopeds in one place.', img: '/images/product-rtr-ebike-pro.jpg' },
   { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Electric Mopeds', text: 'Road-legal, LAMS-approved electric mopeds and commuter e-bikes.', img: '/images/product-niu-nqi-gt.webp' },
   { href: '/electric-motor-bikes/rtr-ebike/', title: 'RTR eBike', text: 'Road-legal 250W RTR e bike commuters. No licence or registration needed.', img: '/images/product-rtr-ebike-s-classic.webp' },
