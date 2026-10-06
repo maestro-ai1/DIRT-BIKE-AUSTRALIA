@@ -9,6 +9,7 @@ import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Baby, Star }
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 const seo = seoFor('/electric-motor-bikes/kids/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -197,6 +198,9 @@ export default function KidsElectricMotorbikeePage() {
 
           <ProductPager groups={[{ items: kidsProducts }]} />
         </div>
+
+        <RelatedGuides path="/electric-motor-bikes/kids/" />
+
 
         <AuthorityLinks path="/electric-motor-bikes/kids/" />
 

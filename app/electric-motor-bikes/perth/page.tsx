@@ -9,6 +9,7 @@ import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass, Tru
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 const seo = seoFor('/electric-motor-bikes/perth/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -157,6 +158,9 @@ export default function ElectricMotorBikesPerthPage() {
           </div>
           <ProductPager groups={[{ items: products }]} />
         </div>
+
+        <RelatedGuides path="/electric-motor-bikes/perth/" />
+
 
         <AuthorityLinks path="/electric-motor-bikes/perth/" />
 

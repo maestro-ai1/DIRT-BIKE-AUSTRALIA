@@ -5,6 +5,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ArrowRight, ShieldCheck } from 'lucide-react';
+import { RelatedGuides } from '@/components/RelatedGuides';
 
 const seo = seoFor('/brands/');
 export const metadata: Metadata = {
@@ -131,6 +132,9 @@ export default function BrandsPage() {
             );
           })}
         </div>
+
+
+        <RelatedGuides path="/brands/" className="mt-12" />
 
       </div>
     </div>

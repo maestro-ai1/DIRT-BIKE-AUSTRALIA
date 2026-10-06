@@ -9,6 +9,7 @@ import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Star, Trophy
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 const seo = seoFor('/electric-motor-bikes/best-electric-bikes-australia/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -200,6 +201,9 @@ export default function BestElectricBikesAustraliaPage() {
             ]}
           />
         </div>
+
+        <RelatedGuides path="/electric-motor-bikes/best-electric-bikes-australia/" />
+
 
         <AuthorityLinks path="/electric-motor-bikes/best-electric-bikes-australia/" />
 

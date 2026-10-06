@@ -9,6 +9,7 @@ import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Truck, MapPin } from 
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 const seo = seoFor('/electric-motor-bikes/melbourne/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -178,6 +179,9 @@ export default function ElectricMotorBikesMelbournePage() {
             Read full Australia-wide e-bike laws guide <ArrowRight className="w-3 h-3" />
           </Link>
         </div>
+
+        <RelatedGuides path="/electric-motor-bikes/melbourne/" />
+
 
         <AuthorityLinks path="/electric-motor-bikes/melbourne/" />
 

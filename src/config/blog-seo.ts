@@ -63,6 +63,18 @@ export const BLOG_TAGS: Record<string, string[]> = {
   "talaria-sting-battery-upgrade-guide": ["electric dirt bikes","electric bike australia","electric dirt bike","electric dirt bike australia"],
   "crypto-discount-electric-bike-australia": ["electric bikes australia","electric dirt bike","electric dirt bike australia","electric dirt bikes","electric bike australia"],
   "electric-dirt-bike-payid-australia": ["electric bikes australia","electric dirt bike","electric dirt bike australia","electric dirt bikes","electric bike australia"],
+  "electric-bike-laws-qld-2026": ["electric bike laws qld","electric bike laws australia","new electric bike laws","new ebike laws","electric bikes australia","e-bikes for sale","electric bikes on sale","electric bikes for sale brisbane"],
+  "electric-bike-regulations-nsw-2026": ["electric bike regulations nsw","e bike regulations nsw","nsw e bike certification laws","legal e bikes nsw","electric bikes nsw laws","new ebike laws nsw","electric bike laws australia","e bikes for sale sydney","e bike price in australia","electric bike for sale sydney"],
+  "australian-electric-motorcycle-guide-2026": ["australian electric motorcycle","australia electric motorcycle","electric motorcycle australia","e motorcycles","electric motorbike australia","electric motorcycle for sale","electric motorbikes for sale","electric motorbike for sale"],
+  "e-ride-pro-australia-buyers-guide": ["e ride pro","e ride pro australia","e ride bike","e-ride pro ss","electric dirt bike australia","electric dirt bike for sale","electric dirt bikes for sale","dirtbike sales"],
+  "e-ride-pro-ss-2-0-vs-sr-specs-price": ["e-ride pro ss","e ride pro ss","e ride pro ss australia","eride pro ss australia","e ride pro","electric motorcycles for sale","dirtbike sale","electric dirt bike australia for sale"],
+  "e-bike-safety-australia-guide": ["e bike safety australia","electric bike laws australia","electric bikes australia","e bike parts australia","electric bikes for sale melbourne","e bikes for sale melbourne"],
+  "childs-dirt-bike-australia-electric-options": ["childs dirt bike","dirt bike for kids","electric dirt bike for kids","childrens electric dirt bike","kids electric dirt bike","affordable dirt bikes for sale","dirt cheap dirt bikes for sale","cheap dirt bikes for sale under $1000"],
+  "adult-electric-dirt-bike-australia-best-models": ["adult electric dirt bike","electric dirt bike adults","electric dirt bike for adults","electric motorbike for adults","adult electric bike","electric motor bikes for sale","electric bikes for sale perth","e bikes for sale perth"],
+  "high-performance-electric-dirt-bike-australia": ["high performance electric dirt bike","electric motor cross bikes","electric motocross bike","electric dirt bike","best electric dirt bike","dirt motorcycles for sale","motorcycle dirt bike for sale","dirt bike motorcycles for sale"],
+  "125cc-dirt-bike-australia-electric-alternatives": ["125cc dirt bike","250cc dirt bikes","150cc dirt bike","dirt bike 125cc","125cc dirtbike","250 dirt bike","electric dirt bike","250 dirt bike for sale","road registered dirt bikes","motorcycle dirt bikes for sale"],
+  "kids-ebike-australia-evo-racing-lil-rippa-compared": ["kids ebike","childs electric bike","electric bike kids","childs e bike","electric kids bike","kids e bike","mini bike dirt bike","cheap electric bikes for sale","electric bike for sale melbourne"],
+  "electric-moped-vs-e-scooter-australia-lams-guide": ["moped e scooter","electric motorcycles and scooters","electric motorcycle scooter","electric moped","electric motorcycle moped","moped prices","road registered electric bike","electric road bikes for sale"],
 };
 
 export function blogTags(slug: string): string[] {

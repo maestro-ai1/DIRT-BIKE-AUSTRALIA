@@ -9,6 +9,7 @@ import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, Compass } fr
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 const seo = seoFor('/electric-dirt-bikes/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -189,6 +190,9 @@ export default function ElectricDirtBikesPage() {
             </div>
           </div>
         </div>
+
+        <RelatedGuides path="/electric-dirt-bikes/" />
+
 
         <AuthorityLinks path="/electric-dirt-bikes/" />
 

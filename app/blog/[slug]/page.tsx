@@ -53,7 +53,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
           url: `https://${SITE.domain}${post.image}`,
           width: 1200,
           height: 675,
-          alt: post.title,
+          alt: (post as { imageAlt?: string }).imageAlt ?? post.title,
         },
       ],
     },
@@ -74,6 +74,40 @@ export default async function BlogPostPage({ params }: Props) {
   const relatedPosts = POSTS.filter((p) => p.slug !== post.slug);
   const featuredBike = PRODUCTS[0];
 
+  // Table of contents: every "### " section becomes an H2 with an anchor id, listed in "In this guide" near the top.
+  const slugifyHeading = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  // Post content is "### Heading" lines and paragraphs. A heading is often followed by its paragraph on the very next line (no blank line),
+  // so parse line by line: each "### " line is an H2 on its own and the lines after it form the paragraph.
+  type Block = { kind: 'h' | 'p'; text: string };
+  const blocks: Block[] = [];
+  for (const raw of post.content.split('\n\n')) {
+    let buf: string[] = [];
+    const flush = () => {
+      if (buf.length) blocks.push({ kind: 'p', text: buf.join(' ') });
+      buf = [];
+    };
+    for (const line of raw.split('\n')) {
+      if (line.startsWith('### ')) {
+        flush();
+        blocks.push({ kind: 'h', text: line.slice(4) });
+      } else if (line.trim()) {
+        buf.push(line);
+      }
+    }
+    flush();
+  }
+  const headings = blocks.filter((b) => b.kind === 'h').map((b) => b.text);
+  const headingIndexAt: number[] = [];
+  blocks.reduce((n, b) => {
+    const next = b.kind === 'h' ? n + 1 : n;
+    headingIndexAt.push(next);
+    return next;
+  }, -1);
+  const headingIds = headings.map((h, i) => `${slugifyHeading(h)}${headings.indexOf(h) !== i ? `-${i + 1}` : ''}`);
+  const wordCount = post.content.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1').split(/\s+/).filter(Boolean).length;
+  const imageAlt = (post as { imageAlt?: string }).imageAlt ?? post.title;
+  const articleKeywords = blogTags(post.slug);
+
   const schemaData = [
     {
       '@context': 'https://schema.org',
@@ -81,6 +115,10 @@ export default async function BlogPostPage({ params }: Props) {
       headline: post.title,
       description: post.excerpt,
       image: `https://${SITE.domain}${post.image}`,
+      inLanguage: 'en-AU',
+      wordCount,
+      ...(articleKeywords.length ? { keywords: articleKeywords.join(', ') } : {}),
+      articleSection: post.category,
       datePublished: post.date,
       dateModified: post.date,
       author: {
@@ -171,18 +209,37 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="relative aspect-16/9 rounded-3xl overflow-hidden border border-slate-200 shadow-md">
           <img
             src={post.image}
-            alt={post.title}
+            alt={imageAlt}
+            width={1280}
+            height={720}
             className="w-full h-full object-cover"
           />
         </div>
 
+        {/* Table of contents */}
+        {headings.length >= 3 && (
+          <nav aria-label="Table of contents" className="bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm">
+            <p className="text-sm font-extrabold text-slate-900 uppercase tracking-wider mb-3">In this guide</p>
+            <ol className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 list-decimal list-inside text-sm text-slate-700">
+              {headings.map((h, i) => (
+                <li key={headingIds[i]} className="leading-snug">
+                  <a href={`#${headingIds[i]}`} className="text-sky-800 hover:underline font-medium">
+                    {h}
+                  </a>
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )}
+
         {/* Article Content */}
         <article className="bg-white p-6 sm:p-12 rounded-3xl border border-slate-200/90 shadow-sm text-slate-800 text-sm sm:text-base leading-relaxed space-y-6">
-          {post.content.split('\n\n').map((paragraph, index) => {
-            if (paragraph.startsWith('### ')) {
+          {blocks.map((block, index) => {
+            const paragraph = block.text;
+            if (block.kind === 'h') {
               return (
-                <h2 key={index} className="text-xl sm:text-2xl font-bold text-slate-900 pt-4 tracking-tight">
-                  {paragraph.replace('### ', '')}
+                <h2 key={index} id={headingIds[headingIndexAt[index]]} className="text-xl sm:text-2xl font-bold text-slate-900 pt-4 tracking-tight scroll-mt-28">
+                  {paragraph}
                 </h2>
               );
             }

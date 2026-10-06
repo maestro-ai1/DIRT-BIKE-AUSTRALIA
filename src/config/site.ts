@@ -3815,6 +3815,987 @@ Once you place an order, our Mittagong sales team sends your PayID payment detai
 ### Secure and Warranty-Backed
 Regardless of payment method, every bike ordered through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) is genuine Australian stock with a 12-month factory warranty, dispatched from our Mittagong NSW facility.`,
   },
+  {
+    slug: "electric-bike-laws-qld-2026",
+    title: "Electric Bike Laws QLD 2026: Power Limits, Age, Licence & Fines",
+    excerpt: "Queensland e-bike rules from 31 August 2026: the 250W limit, 25 km/h assist cut-off, EN 15194 labels, rider age, licence, helmets and path speed limits.",
+    category: "Legal & Safety",
+    date: "2026-10-06",
+    readTime: "8 min read",
+    image: "/images/hero_surron_trail_1790338185425.jpg",
+    imageAlt: "Rider on an electric bike on a Queensland trail, illustrating the 250W e-bike rules that apply from 31 August 2026",
+    content: `Electric bike laws in Queensland changed on 31 August 2026. If you ride, buy or sell an e-bike in QLD, the power limit, the label on the frame, the rider's age and the licence requirement all matter now. This guide summarises the Queensland Government's Street Smarts e-bike page as checked on 6 October 2026. Rules and fines can change, so always confirm on the [official Queensland e-bike page](https://streetsmarts.initiatives.qld.gov.au/e-bikes-e-scooters/e-bikes/) before you ride or buy.
+
+### What counts as a legal e-bike in Queensland
+A legal e-bike has a maximum continuous motor output of 250 watts, and the motor only assists up to 25 km/h. Above 25 km/h the motor cuts off and any further speed has to come from the rider pedalling. Pedals must be the primary source of power, so pedalling is required.
+
+### The EN 15194 label
+Queensland requires e-bikes to carry a label showing they comply with the European standard for electrically power-assisted cycles, EN 15194. The Queensland Government says riders have until 28 February 2027 to make sure their e-bike is correctly labelled. If you are buying a new e-bike, check for the EN 15194 label on the frame before you pay.
+
+### Throttle rules
+A throttle is treated strictly. According to the Queensland page, devices that can be ridden by throttle alone above 6 km/h, with no pedalling, are illegal. A walk-assist or start-assist throttle that only works at very low speed is the safe design to look for.
+
+### Rider age and licence
+Riders must be 16 or older, and must hold a valid driver licence, which can be as low as a Learner licence. The page lists a $518 fine for each of these offences. It also mentions exemptions, including supervised riders aged 12 to 17 and designated recreational areas, so read the exact conditions on the official page rather than relying on a summary.
+
+### Helmets and where you can ride
+A helmet must be properly fastened under the chin, and the page lists a $518 fine. Both bicycle and motorbike helmets are approved. On footpaths there is a 12 km/h speed limit at all times, and 12 km/h when passing pedestrians on shared paths. E-bikes cannot be ridden on motorways or where riding is prohibited.
+
+### What about off-road electric dirt bikes?
+Higher-powered off-road bikes such as a Sur-Ron or Talaria are not 250W e-bikes. They are supplied for private property and designated off-road areas, and they are not covered by the e-bike rules above. Read our guide on whether [electric dirt bikes are legal in Australia](https://electricdirtbikeaustralia.com.au/blog/are-electric-dirt-bikes-legal-in-australia/) and browse the [electric dirt bikes for sale](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/) range with that use in mind.
+
+### Buying an e-bike in Queensland
+Look for a 250W motor, a 25 km/h assist limit and the EN 15194 label. Our [electric bikes for sale](https://electricdirtbikeaustralia.com.au/electric-bikes/) page lists 250W commuter models, and our [Brisbane delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/brisbane/) explains freight to Queensland. For the national picture, see our [Australian e-bike laws guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/) and the NSW equivalent, [electric bike regulations NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/).
+
+### Safety links
+For battery charging and storage advice, see the Queensland Fire Department's [lithium-ion battery safety page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety).
+
+### Who can ride: exemptions in detail
+The 16-and-licensed rule has listed exceptions. The Queensland page says supervised riders aged 12 to 17 can ride under parental supervision, as long as the supervisor stays close enough to give instructions. It lists medical exemptions for riders aged 16 and over who cannot hold a licence because of a disability. It also says designated recreational areas, such as rail trails, mountain bike trails and private off-road facilities, allow riders who are unlicensed or under 16. These are conditions, not blanket permission, so read the wording on the official page if a child or a rider without a licence will be using the bike.
+
+### Fines listed by Queensland
+The Queensland page lists a $518 fine for riding under 16, a $518 fine for riding without a valid driver licence and a $518 fine for an unfastened helmet. Riding faster than 12 km/h on a footpath, or when passing pedestrians on a shared path, carries a fine in a range from $345 to $1,986. Holding a mobile phone while riding is listed at $1,295, carrying a passenger on a bike not designed for one is $518, and exceeding the 0.05 breath alcohol limit is listed in a range from $518 to $6,908. Parking so that you block a path or crossing is listed at $172. Fines and amounts change, so use the official page as the authority.
+
+### Equipment and behaviour rules
+Riders must obey traffic lights and stop and give-way signs and keep left. The page tells riders to ring a bell to warn pedestrians as they approach and to slow down to pass. It says a rider must stop and assist after a crash and exchange details with others involved. Drivers must leave a minimum passing distance of 1 metre in zones of 60 km/h or less. A phone in a cradle mount is treated differently from a phone held in the hand, but check the page for the exact wording.
+
+### Illegal devices and modifications
+Internal combustion engines are not allowed on a legal e-bike. Devices that can be ridden solely by throttle above 6 km/h, with no pedalling, are illegal, and so are unregistered dirt bikes ridden on the road. The page says police can seize and destroy clearly illegal devices. Any modification that lifts the motor above 250 watts, removes the 25 km/h cut-off or adds a throttle that works at speed turns a legal e-bike into an illegal device, and the label and the real behaviour of the bike have to match.
+
+### The EN 15194 assurance scheme
+The Queensland page says a new assurance scheme will certify devices that meet the 250 watt and 25 km/h specifications, and that riders have until 28 February 2027 to make sure their bike carries the correct EN 15194 label. For a buyer the practical step is simple: ask the seller where the label is on the frame, check that it says EN 15194, and keep a copy of the specification sheet and the receipt.
+
+### How Queensland compares with other states
+Queensland is not alone in moving to 250 watts. The Victoria Police e-bike page lists a 250 watt maximum, a motor that cuts off at 25 km/h, functioning pedals, at least one working brake and a bell or warning device, and says people of any age can ride an e-bike in Victoria without a licence and that you cannot register an e-bike. Western Australia lists 250 watts for a bike that complies with EN 15194 (a Pedalec) and 200 watts for others, and says riders must be 16 or older. NSW currently allows e-bikes up to 500 watts but has announced a move to 250 watts and EN 15194; see our [NSW e-bike regulations guide](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/). If you ride across state lines, follow the rules of the state you are in. The official pages are the [Victoria Police e-bike safety page](https://www.police.vic.gov.au/e-bike-safety) and the [WA Road Safety Commission bicycle riders page](https://www.wa.gov.au/organisation/road-safety-commission/bicycle-riders).
+
+### A buyer's checklist for Queensland
+Before you pay for an e-bike in Queensland, check the motor rating is 250 watts continuous, check the assist stops at 25 km/h, confirm the throttle, if there is one, cannot drive the bike above 6 km/h without pedalling, find the EN 15194 label and confirm that the person who will ride it is 16 or older with a licence, or fits one of the listed exemptions. Then budget for a helmet that fastens properly under the chin and a bell.
+
+### Battery safety for Queensland riders
+The Queensland Fire Department publishes advice on charging and storing lithium-ion batteries at its [lithium-ion battery safety page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety). The Queensland e-bike page also tells riders to use the correct charger, remove the device from charge when it is full, and watch for swelling, discolouration or odours after a crash. Our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/) collects the main points.
+
+### Quick compliance steps for Queensland riders
+If you already own an e-bike, check three things this week: the power rating printed on the motor or in the manual, whether the frame carries an EN 15194 label, and whether the throttle drives the bike above 6 km/h without pedalling. If any answer is no or unknown, ask the seller or manufacturer for written confirmation. The Queensland page gives riders until 28 February 2027 to sort out labelling, so there is time to fix a missing label, but not to ignore it.
+
+### Where to buy: e-bikes for sale in Brisbane and Queensland
+Looking for e-bikes for sale in Queensland? Electric Dirt Bike Australia ships to every Queensland postcode. Our [electric bikes for sale](https://electricdirtbikeaustralia.com.au/electric-bikes/) page lists 250 watt commuters, fat tyre e-bikes and kids bikes with their published specifications, and several electric bikes on sale show the saving against the original price. For electric bikes for sale Brisbane shoppers, our [Brisbane delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/brisbane/) explains freight. Free freight applies on orders over $1,500 AUD and a 10% discount applies when you pay with crypto or PayID. Bikes supplied by Ampd Bros ship from the Gold Coast, and the supplier lists QLD delivery at 2 to 6 days. Whichever bike you choose, check it against the Queensland rules above, especially the EN 15194 label, before you ride it on public paths and roads.
+
+### Quick answers
+
+What is the e-bike power limit in Queensland? The Queensland Government lists a maximum continuous motor output of 250 watts, with motor assistance only up to 25 km/h.
+
+How old do you have to be to ride an e-bike in Queensland? The rules in effect from 31 August 2026 say riders must be 16 or older and hold a valid driver licence, which can be a Learner licence. The page lists exemptions, so read the exact conditions on the official page.
+
+Does an e-bike need an EN 15194 label in Queensland? Yes. Queensland requires a label showing compliance with EN 15194, and riders have until 28 February 2027 to make sure their e-bike is correctly labelled.
+
+### Official sources and further reading
+The primary source for this guide is the [Queensland Government Street Smarts e-bike page](https://streetsmarts.initiatives.qld.gov.au/e-bikes-e-scooters/e-bikes/). For battery safety see the [Queensland Fire Department lithium-ion battery safety page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety) and the [ACCC Product Safety page on e-micromobility devices](https://www.productsafety.gov.au/business/e-bikes-e-scooters-and-other-e-micromobility-devices). For how e-bike power and speed limits are defined in different countries, the [Wikipedia article on electric bicycle laws](https://en.wikipedia.org/wiki/Electric_bicycle_laws) gives background.`,
+  },
+  {
+    slug: "electric-bike-regulations-nsw-2026",
+    title: "Electric Bike Regulations NSW 2026: Certification, 250W Cap & Rules",
+    excerpt: "NSW e-bike regulations explained: the current 500W limit, the planned 250W cap, EN 15194 certification, helmets, licences and where e-bikes can be ridden.",
+    category: "Legal & Safety",
+    date: "2026-10-06",
+    readTime: "8 min read",
+    image: "/images/hero_talaria_ridge_1790338208529.jpg",
+    imageAlt: "Commuter e-bike parked beside a Sydney shared path, illustrating NSW e-bike regulations and the planned 250W limit",
+    content: `Electric bike regulations in NSW are in transition. E-bikes up to a set power limit can be ridden like bicycles, but the Government has announced a lower power cap and a certification requirement that is being phased in. This guide summarises the NSW Government's e-bike FAQ as checked on 6 October 2026. Rules change, so confirm on the [official NSW e-bike page](https://www.nsw.gov.au/driving-boating-and-transport/bikes-e-bikes-e-scooters) before you buy or ride.
+
+### What is a legal e-bike in NSW today
+The NSW Government says e-bikes powered up to 500 watts are currently legal. A legal e-bike has a motor that cuts out when it reaches 25 km/h or when pedalling stops. Any throttle, or walk-assist feature, must cut out at 6 km/h.
+
+### The planned 250W cap
+In December 2025 the NSW Government announced plans to cap the continuous rated power of e-bikes at 250 watts. The page describes the change as being phased in over the coming years, so an e-bike that is legal today may not be legal in future. If you are choosing a new commuter, a 250W bike with an EN 15194 mark is the safest long-term choice.
+
+### NSW e-bike certification laws
+Two separate dates matter. The NSW page says that from 1 March 2029 e-bikes used on NSW roads must comply with the EN 15194 standard, and to look for the EN 15194 EPAC mark. It also says that from 1 February 2026 e-micromobility products must be tested and certified and carry an approval mark. Ask the seller to show you the certification before you buy.
+
+### Registration, licence and helmets
+Like a regular bicycle, a legal e-bike does not need to be registered, and the rider does not need a driver licence. The page lists a fine for riding without a helmet, from $423, so wear an approved helmet. It does not state a minimum rider age, so check the page and the road rules for the latest position.
+
+### Where you can ride a legal e-bike
+Legal e-bikes can be used on roads, including bicycle lanes, on shared paths and on bicycle paths. They cannot be used where signs say no bicycles, and adult riders are not allowed to ride on the footpath.
+
+### Off-road electric dirt bikes and electric motorcycles
+High-powered bikes such as the Sur-Ron, Talaria and Stark Varg are not e-bikes under these rules. They are for private property and off-road areas, and any road-registered electric motorcycle follows motorcycle registration and licence rules, not the e-bike rules. Our guides to [electric bike registration in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-registration-nsw-guide/) and [electric dirt bike licence requirements](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-licence-requirements-australia/) cover that side.
+
+### Shopping for a compliant e-bike in NSW
+Browse our [electric bikes for sale](https://electricdirtbikeaustralia.com.au/electric-bikes/) and the RTR eBike range, which is listed as 250W with a 25 km/h assist limit. For Sydney buyers, our [Sydney delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/sydney/) explains freight. See the [Queensland rules](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and our [Australian e-bike laws guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/) for how the states compare. For battery safety, read the [NSW Government lithium-ion battery safety page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).
+
+### The NSW timeline at a glance
+The NSW Government page sets out a transition. Today, e-bikes up to 500 watts are legal on NSW roads. The Government announced in December 2025 that it plans to cap the continuous rated power of e-bikes at 250 watts. The page describes a transition period from 2026 to 2029 and says that from 1 March 2029 e-bikes must be 250 watts or less and comply with the European Standard EN 15194, which means bikes between 251 and 500 watts that are legal today will become illegal. Separately, from 1 February 2026 the page says e-micromobility products must be tested and certified and carry an approval mark.
+
+### What the 25 km/h and 6 km/h rules mean
+A legal e-bike has a motor that stops providing power at 25 km/h or when you stop pedalling. Any throttle or walk-assist feature must cut out at 6 km/h. In practice that means a throttle can help you start from a standstill or walk the bike, but the bike cannot be ridden by throttle alone at speed. A bike that can is not a legal e-bike in NSW.
+
+### Modifications make a bike illegal
+The NSW page says modifying an e-bike so that it exceeds the power limit, can be ridden on throttle alone or goes faster than 25 km/h makes it illegal. A modified bike is then treated as a motor vehicle, with registration and licensing requirements. Do not buy a bike that has been "unlocked" or advertised as derestrictable if you want to ride it on the road or on shared paths.
+
+### Fines listed for NSW riders
+The NSW page lists a fine from $423 for riding without a helmet, $562 for reckless riding and $140 for adults riding on a footpath. It also notes that people under 16 and others with specific exemptions can ride on the footpath. The page does not state a minimum rider age or specific penalties for riding an illegal e-bike beyond the general motor vehicle penalties, so check the road rules or the page itself for the latest position.
+
+### What the page does not say
+The NSW e-bike FAQ does not describe the look of the EN 15194 mark, does not set rules on carrying passengers or mandatory lights and bells, and does not give insurance details. For lights, bells and general bicycle rules, check the NSW road rules for bicycle riders.
+
+### NSW compared with Queensland, Victoria and Western Australia
+Queensland already requires 250 watts, a 25 km/h assist limit and an EN 15194 label, and has set a minimum rider age of 16 with a licence from 31 August 2026; see our [Queensland e-bike laws guide](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/). Victoria lists 250 watts, any age, no licence and no registration on the [Victoria Police e-bike safety page](https://www.police.vic.gov.au/e-bike-safety). Western Australia lists 250 watts for EN 15194 bikes and a minimum age of 16 on the [WA Road Safety Commission page](https://www.wa.gov.au/organisation/road-safety-commission/bicycle-riders). The direction across the states is similar: a bicycle with a small assistive motor, not a motorbike.
+
+### Buying an e-bike that will stay legal
+Because the NSW cap is moving to 250 watts and EN 15194, the lowest-risk purchase today is a bike that already meets both. Ask the seller for the EN 15194 mark and the continuous power rating, not just a peak figure. A 500 watt bike that is legal today is a bike you may not be able to ride on NSW roads from 2029.
+
+### Off-road bikes and registered motorcycles
+Electric dirt bikes and electric motorcycles are covered by different rules. An off-road bike such as a Sur-Ron or Talaria is for private property and designated off-road areas. A road-registered electric motorcycle or moped follows motorcycle registration and licence rules; see our [electric moped and LAMS guide](https://electricdirtbikeaustralia.com.au/blog/electric-moped-vs-e-scooter-australia-lams-guide/) and the [Australian electric motorcycle guide](https://electricdirtbikeaustralia.com.au/blog/australian-electric-motorcycle-guide-2026/).
+
+### Battery safety rules in NSW
+The [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) advises looking for an electrical safety approval mark on the vehicle, battery and charger, buying a battery recommended by the manufacturer, never using a second-hand battery and never charging while asleep. It also says to charge on hard non-flammable surfaces, store batteries in a cool dry place away from sunlight and living areas, and stop using a battery that swells, leaks, overheats or smokes.
+
+### Quick compliance steps for NSW riders
+Check the continuous power rating, not the peak figure, and confirm whether the bike is 250 watts or between 251 and 500 watts. Check that any throttle or walk-assist cuts out at 6 km/h. Ask whether the bike carries an EN 15194 mark, because that becomes a requirement for NSW roads from 1 March 2029. Keep the manual and receipt, and do not modify the bike to exceed the limits.
+
+### Common NSW questions answered
+Can I convert my e-bike to go faster? The NSW page says modifying an e-bike to exceed the power limit, enable throttle-only riding or go faster than 25 km/h makes it illegal, and a modified bike is treated as a motor vehicle. What if I buy online from overseas? The bike still has to meet NSW rules on power, speed cut-off and throttle, so ask for the continuous power rating and the specification before you pay, and be cautious about listings that only quote peak power. What if my 500 watt e-bike is legal today? It is legal now, but the planned 250 watt cap and the EN 15194 requirement from 1 March 2029 mean it may not be legal on NSW roads in future, so plan ahead before you invest in a high-power bike for commuting.
+
+### Where to buy: e bikes for sale Sydney
+Searching for e bikes for sale Sydney? Electric Dirt Bike Australia dispatches from Mittagong NSW 2575 and ships Australia-wide, and our [Sydney delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/sydney/) explains freight. If you are comparing e bike price in Australia, our [electric bikes for sale](https://electricdirtbikeaustralia.com.au/electric-bikes/) page lists published prices, for example the RTR eBike Pro at $3,490 AUD and the RTR eBike S Classic at $2,790 AUD, both described as 250 watt commuters. Anyone who wants an electric bike for sale Sydney buyers can order online should check the continuous power rating and the EN 15194 mark in the specification before paying. Free freight applies on orders over $1,500 AUD and crypto or PayID payments receive 10% off at checkout.
+
+### Quick answers
+
+Is the NSW e-bike limit 250W or 500W? The NSW Government says e-bikes powered up to 500 watts are currently legal, and it announced in December 2025 plans to cap continuous rated power at 250 watts.
+
+Do I need to register an e-bike in NSW? No. According to the NSW page, a legal e-bike does not need to be registered and the rider does not need a driver licence.
+
+When does EN 15194 certification become required in NSW? The NSW page says that from 1 March 2029 e-bikes used on NSW roads must comply with EN 15194.
+
+### Official sources and further reading
+The primary source is the [NSW Government e-bike FAQ and rules page](https://www.nsw.gov.au/driving-boating-and-transport/bikes-e-bikes-e-scooters/bicycles-electric-bikes/e-bike-faqs). Battery guidance is on the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices), national product safety work is described on the [ACCC Product Safety page](https://www.productsafety.gov.au/business/e-bikes-e-scooters-and-other-e-micromobility-devices) and the [Wikipedia article on electric bicycles](https://en.wikipedia.org/wiki/Electric_bicycle) explains how pedal assist works.`,
+  },
+  {
+    slug: "australian-electric-motorcycle-guide-2026",
+    title: "Australian Electric Motorcycle Guide 2026: Models, LAMS & Prices",
+    excerpt: "An Australian electric motorcycle guide: road-legal models with LAMS approval, Australian-engineered bikes, what the range and price figures mean, and how registration works.",
+    category: "Guides",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/product-niu-nqi-gt.webp",
+    imageAlt: "NIU NQi GT electric moped, a LAMS-approved road-legal electric motorcycle sold in Australia",
+    content: `If you are searching for an Australian electric motorcycle, you usually want one of two things: an electric motorcycle you can buy and register in Australia, or a bike that is designed or built here. This guide covers both, using the models and specifications in our range, and explains the basics of LAMS and registration. For current registration rules, always check your state transport authority.
+
+### Road-registered electric motorcycles and mopeds
+The [NIU NQi GT electric moped](https://electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) is listed as LAMS approved, with a 3,000 watt motor, a 72V 26Ah dual removable battery, a 70 km/h top speed and up to 100 km of range on dual batteries, at $5,990 AUD. The [Super Soco CPx](https://electricdirtbikeaustralia.com.au/shop/super-soco-cpx-electric-moped/) is listed at 3kW, 65 km/h and 90 km of range for $5,490 AUD. The [Vmoto Soco TC-Max](https://electricdirtbikeaustralia.com.au/shop/vmoto-soco-tc-max-electric/) is a 5kW road-legal electric motorcycle listed at 95 km/h and 120 km of range with WP adjustable suspension, for $8,990 AUD, and is described as LAMS compliant for road registration.
+
+### What LAMS means
+LAMS is the Learner Approved Motorcycle Scheme. A LAMS-approved bike can be ridden by a learner or provisional motorcycle licence holder. The NIU NQi GT is listed as LAMS approved and legal for L and P-plate riders in all states, but you still need the correct licence and registration for your state.
+
+### Australian-engineered electric bikes
+Stealth Electric Bikes is listed in our range as an Australian engineered brand based in Melbourne. The [Stealth B-52 Bomber](https://electricdirtbikeaustralia.com.au/shop/stealth-b-52-bomber/) is listed at 5.2kW, 80 km/h and up to 100 km of range, weighing 53 kg, at $12,990 AUD. The Stealth bikes are sold as off-road electric bikes for private property and tracks, so check before you assume any model can be registered.
+
+### Off-road electric motorcycles
+The [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) at 12.5kW and 90 km/h, the [Talaria Dragon](https://electricdirtbikeaustralia.com.au/shop/talaria-dragon-enduro/) at 28kW and 110 km/h and the [Stark Varg EX 80HP](https://electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) are high-performance off-road machines. They are supplied for private property and designated off-road areas. Browse them in our [electric motorcycles for sale](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) category.
+
+### How to read range and power figures
+Range figures in our listings are manufacturer figures such as "up to" 100 km, and real range depends on speed, rider weight, terrain and temperature. Power is given in watts or kilowatts, and peak output is higher than continuous output.
+
+### Registration and licence
+Road registration, licence class and insurance depend on your state. Our guides to [road legal electric motorcycles in Australia](https://electricdirtbikeaustralia.com.au/blog/road-legal-electric-motorcycle-australia-guide/) and [electric motorbikes vs petrol](https://electricdirtbikeaustralia.com.au/blog/electric-motorbike-vs-petrol-australia-2026/) explain more. For basics on electric motorcycle technology, see the [Wikipedia overview of electric motorcycles and scooters](https://en.wikipedia.org/wiki/Electric_motorcycles_and_scooters).
+
+### Three kinds of Australian electric motorcycle
+The phrase covers three different buyers. The first wants a road-registered electric motorcycle or moped that is sold in Australia and can be registered in their state. The second wants a bike designed or built in Australia. The third wants a high-power off-road electric motorcycle for trails, tracks and private property. Each group needs different information, so this guide keeps them separate.
+
+### Road electric motorcycles and mopeds in detail
+The [NIU NQi GT](https://electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) has a 3,000 watt motor, a 72V 26Ah dual removable lithium battery, a 70 km/h top speed, up to 100 km of range on dual batteries and a 98 kg weight. The [Super Soco CPx](https://electricdirtbikeaustralia.com.au/shop/super-soco-cpx-electric-moped/) has a 3kW motor, a 60V 30Ah removable battery, a 65 km/h top speed, 90 km of range, an 85 kg weight, keyless Bluetooth start and regenerative braking. The [Vmoto Soco TC-Max](https://electricdirtbikeaustralia.com.au/shop/vmoto-soco-tc-max-electric/) steps up to 5kW with a dual removable 4.8kWh battery, a 95 km/h top speed, 120 km of range, WP adjustable suspension and a 117 kg weight. Removable batteries let you charge at home or in an office without wheeling the bike inside.
+
+### How much does an electric motorcycle cost
+In our range the road models run from $5,490 AUD for the Super Soco CPx to $5,990 AUD for the NIU NQi GT and $8,990 AUD for the Vmoto Soco TC-Max. Divide the price by the listed range to compare value: the NIU works out at about $60 per listed kilometre, the Super Soco at about $61 and the Vmoto at about $75, though each range figure is a manufacturer "up to" number and depends on how you ride. The Vmoto costs more per kilometre but adds power, top speed and suspension.
+
+### Registration, licence and insurance
+Road registration, the licence class needed and insurance are set by each state. A LAMS-approved bike such as the NIU NQi GT can be ridden by a learner or provisional motorcycle licence holder, but you still need the right licence, registration and a roadworthy bike. Compulsory third-party insurance is arranged differently in each state, so check your state authority. Our guides to [electric bike registration in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-registration-nsw-guide/) and [road legal electric motorcycles](https://electricdirtbikeaustralia.com.au/blog/road-legal-electric-motorcycle-australia-guide/) cover the process.
+
+### Australian-engineered bikes
+Stealth Electric Bikes is an Australian brand based in Melbourne, listed in our range as Australian engineered. Our product listings describe the [Stealth B-52 Bomber](https://electricdirtbikeaustralia.com.au/shop/stealth-b-52-bomber/) as designed and engineered in Melbourne, with a chromoly steel monocoque frame, a 9-speed sequential gearbox and inverted front suspension, producing 5.2kW from a 2.5kWh battery for an 80 km/h top speed and up to 100 km of trail range at 53 kg. The [Stealth H-52 competition bike](https://electricdirtbikeaustralia.com.au/shop/stealth-h-52-competition/) is a 5.2kW track machine at 49 kg. These are off-road bikes, and a buyer who wants an Australian-engineered bike should check how the model can legally be used.
+
+### High-power off-road electric motorcycles
+For trail and enduro riding, the [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) is 12.5kW with 440 Nm of rear-wheel torque and a 4,070Wh battery, the [Talaria Dragon](https://electricdirtbikeaustralia.com.au/shop/talaria-dragon-enduro/) is 28kW with a 5,100Wh battery and the [Stark Varg EX 80HP](https://electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) is 80 horsepower with 938 Nm of torque. They are supplied for private property and designated off-road areas, not for the road. See our [high-performance electric dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/high-performance-electric-dirt-bike-australia/) for a full comparison.
+
+### Electric motorcycle vs petrol motorcycle
+An electric motorcycle has no gearbox to shift on most models, runs quietly and has no oil changes, spark plugs or fuel stops. The trade-offs are range, which is limited by battery size, and charging time. Our guide to [electric motorbikes vs petrol](https://electricdirtbikeaustralia.com.au/blog/electric-motorbike-vs-petrol-australia-2026/) compares costs in detail, and our [running cost comparison](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-vs-petrol-motocross-running-costs/) covers off-road bikes.
+
+### What to check before you buy
+Check the legal status of the exact model in your state, the licence class you hold, the battery warranty and what happens to range as the battery ages, and whether the battery is removable for charging. Confirm delivery, the warranty and spare parts availability. Our 12-month Australian warranty and local parts support are listed on the [warranty and service](https://electricdirtbikeaustralia.com.au/warranty-and-service/) page.
+
+### Charging an electric motorcycle at home
+The road models in this guide use removable batteries or large packs, so plan where you will charge. Removable batteries can be carried indoors, but should still be charged on a hard non-flammable surface and not left charging unattended. Use the charger that came with the bike, keep the connector clean and follow the storage advice on the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).
+
+### Test ride checklist for an electric motorcycle
+When you test ride, check how the throttle responds at low speed, how strongly the regenerative braking slows the bike, how the seat and bars fit your body, how heavy the bike feels when you push it, and how the display shows battery level. Ask how the removable battery is released and how heavy each pack is. For a LAMS-approved bike, ask the seller to confirm in writing that the exact model and year is LAMS approved in your state.
+
+### Costs beyond the purchase price
+The price of the bike is only part of owning an electric motorcycle. Budget for registration and the compulsory insurance your state requires, a certified helmet and riding gear, a good lock, and the time and space to charge at home. Over time you will also pay for tyres, brake pads and servicing, and eventually a battery replacement. Ask the seller what the battery warranty covers and what a replacement battery costs, because that is the largest single running cost on any electric motorcycle. Our guide to [electric dirt bike battery lifespan and replacement cost](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-battery-lifespan-replacement-cost/) explains how to think about it.
+
+### Where to buy: electric motorcycle for sale in Australia
+If you are looking for an electric motorcycle for sale, Electric Dirt Bike Australia stocks road-legal mopeds and motorcycles alongside off-road models, and ships from Mittagong NSW to every state. Shoppers comparing electric motorbikes for sale can browse our [electric motorcycles](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) and [electric motor bikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/) categories, and anyone ready to order an electric motorbike for sale can add the NIU NQi GT, Super Soco CPx or Vmoto Soco TC-Max to the cart on its product page. Free freight applies to orders over $1,500 AUD, crypto and PayID payments receive 10% off, and each bike carries a 12-month Australian warranty.
+
+### Quick answers
+
+Which electric motorcycles in your range are LAMS approved? The NIU NQi GT is listed as LAMS approved, and the Vmoto Soco TC-Max is listed as LAMS compliant for road registration.
+
+Is there an Australian-engineered electric motorcycle? Stealth Electric Bikes is listed as an Australian engineered brand based in Melbourne. Its bikes in our range, such as the B-52 Bomber, are off-road bikes.
+
+How far can a road-legal electric motorcycle go? Our listings give "up to" figures: 100 km for the NIU NQi GT on its dual battery and 120 km for the Vmoto Soco TC-Max. Real range depends on speed, load and conditions.
+
+### Official sources and further reading
+For background on electric motorcycle technology see the [Wikipedia overview of electric motorcycles and scooters](https://en.wikipedia.org/wiki/Electric_motorcycles_and_scooters). For battery safety see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) and the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety).`,
+  },
+  {
+    slug: "e-ride-pro-australia-buyers-guide",
+    title: "E-Ride Pro Australia: Buyer's Guide to the Range, Prices & Delivery",
+    excerpt: "Looking for E-Ride Pro in Australia? Compare the E-Ride Pro-SS 2.0 and Pro-SR by power, battery, range and price, and see how delivery and warranty work.",
+    category: "Guides",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/product-e-ride-pro-s17.webp",
+    imageAlt: "E-Ride Pro electric dirt bike with 72V battery, sold in Australia with delivery from Mittagong NSW",
+    content: `If you searched for E-Ride Pro, you are probably looking for the electric dirt bikes sold under the E-Ride Pro name. Electric Dirt Bike Australia stocks two E-Ride Pro models, the Pro-SS 2.0 and the Pro-SR, and this page explains what each one offers, what it costs and how to buy. All specifications below are the figures in our product listings.
+
+### E-Ride Pro-SS 2.0
+The [E-Ride Pro-SS 2.0](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-ss-2-0/) is a 72V 40Ah bike with 12kW of peak power, a 2,880Wh battery using Samsung 50E / Molicel cells, a 95 km/h top speed and up to 105 km of range, at 64 kg. Suspension is Fastace dual-air tuned inverted forks. It is priced at $8,690 AUD, down from $9,190.
+
+### E-Ride Pro-SR
+The [E-Ride Pro-SR](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-sr/) steps up to 15kW of peak power with a 72V 45Ah, 3,240Wh high-discharge battery. It is listed at 100+ km/h with up to 120 km of range and a weight of 67 kg, and it is priced at $9,990 AUD, down from $10,590.
+
+### SS 2.0 or SR?
+The SR has more power and a larger battery, so it suits heavier riders, steeper terrain and riders who want the highest top speed. The SS 2.0 has less peak power but is lighter and less expensive. Our direct comparison, [E-Ride Pro SS 2.0 vs SR](https://electricdirtbikeaustralia.com.au/blog/e-ride-pro-ss-2-0-vs-sr-specs-price/), sets the numbers out side by side.
+
+### More E-Ride Pro reading
+Read our long-form [E-Ride Pro Australia review](https://electricdirtbikeaustralia.com.au/blog/e-ride-pro-australia-review/), then compare against the [Sur-Ron Light Bee X](https://electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) and the [Talaria Sting R MX4](https://electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/). To see every high-power model, browse all [electric dirt bikes for sale](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/).
+
+### What E-Ride Pro offers
+E-Ride Pro is listed in our range as a 72V platform that delivers 12kW to 15kW of factory power without aftermarket upgrades. The two models we stock, the Pro-SS 2.0 and the Pro-SR, are full-size electric dirt bikes aimed at trail, enduro and open fire-trail riding. The brand data in our catalogue describes native 72V high-voltage platforms, which is the reason the bikes are marketed on out-of-the-box power.
+
+### Specifications compared with other 72V bikes
+The Pro-SS 2.0 has 12kW and a 2,880Wh battery. That is the same peak power class as the [RFN Ares Rally Pro](https://electricdirtbikeaustralia.com.au/shop/rfn-ares-rally-pro/) at 12.5kW and the [Velimotor VMX12](https://electricdirtbikeaustralia.com.au/shop/velimotor-vmx12-motocross/) at 12kW, and a similar class to the [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) at 12.5kW. The Pro-SR has 15kW, the same peak power as the Arctic Leopard E-XE 880. Weight is similar across the group, with the Pro-SS 2.0 at 64 kg and the Pro-SR at 67 kg, against 68 kg for the RFN Ares and 85 kg for the Ultra Bee.
+
+### Value per dollar
+Using listed prices and peak power, the Pro-SS 2.0 delivers about 1.38 kW of peak power per $1,000 and the Pro-SR about 1.50 kW per $1,000. In battery terms, the Pro-SS 2.0 has about 331 Wh per $1,000 and the Pro-SR about 324 Wh per $1,000. These are simple ratios from the published specifications, not a measure of ride quality, but they show that the two bikes sit close together on value, so choose on power and range needs.
+
+### Suspension and handling
+The Pro-SS 2.0 uses Fastace dual-air tuned inverted forks. The listings describe the SS 2.0 as a hyper-trail bike with a turbo boost button and inverted high-travel suspension, and the SR as the pinnacle of the factory 72V range with upgraded 4-piston calipers. Take a test ride or ask our team about suspension setup for your weight before you buy.
+
+### Charging and battery
+The listed battery sizes are 2,880Wh for the Pro-SS 2.0 and 3,240Wh for the Pro-SR. Use the charger made for a 72V pack, charge on a hard non-flammable surface, and follow the battery safety advice in our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/). Our [accessories](https://electricdirtbikeaustralia.com.au/accessories/) page lists chargers and replacement packs.
+
+### Warranty, parts and service
+Every bike from Electric Dirt Bike Australia carries a 12-month Australian warranty, and genuine parts are stocked at our Mittagong NSW workshop. See the [warranty and service](https://electricdirtbikeaustralia.com.au/warranty-and-service/) page for what is covered.
+
+### Rider fit and experience level
+Both models are full-size bikes with high power. If you are new to electric dirt bikes, start in a lower power mode, wear a certified helmet and full protective gear, and build up gradually. Riders who want a lighter bike near 50 kg should look at the [Sur-Ron Light Bee X](https://electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/), and heavier riders who want more power should compare the Pro-SR with the [Talaria Dragon](https://electricdirtbikeaustralia.com.au/shop/talaria-dragon-enduro/).
+
+### Related guides
+Read the [E-Ride Pro Australia review](https://electricdirtbikeaustralia.com.au/blog/e-ride-pro-australia-review/), the direct [E-Ride Pro SS 2.0 vs SR comparison](https://electricdirtbikeaustralia.com.au/blog/e-ride-pro-ss-2-0-vs-sr-specs-price/) and the [adult electric dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/adult-electric-dirt-bike-australia-best-models/).
+
+### How E-Ride Pro compares with the Sur-Ron and Talaria
+The two lightest popular bikes in our range sit well below E-Ride Pro on power. The [Sur-Ron Light Bee X](https://electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) is 6kW with a 2,400Wh battery, 75 km/h and 50 kg at $6,490 AUD, and the [Talaria Sting R MX4](https://electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) is 8kW with a 2,700Wh battery, 85 km/h and 63 kg at $7,290 AUD. The E-Ride Pro-SS 2.0 adds 4kW to 6kW of peak power over those bikes, a 2,880Wh battery and a 95 km/h top speed for $1,400 to $2,200 more, and the Pro-SR adds more again. If you want the lightest bike and the biggest aftermarket, the Sur-Ron and Talaria suit you; if you want high factory power without modification, E-Ride Pro is the better fit.
+
+### Understanding a 72V platform
+Voltage and current together set power. A 72V pack can deliver the same power as a 60V pack at lower current, and it can deliver more power at the same current. That is why bikes marketed on 12kW to 15kW of factory output use 72V or higher. Higher power also means more heat and more load on tyres, chain and brakes, so these bikes reward careful riding and regular checks. Our [72V vs 60V guide](https://electricdirtbikeaustralia.com.au/blog/72v-vs-60v-electric-dirt-bike-battery-upgrade-guide/) explains the trade-offs in more depth.
+
+### Questions to ask before buying any imported electric dirt bike
+Ask who provides the warranty and where claims are handled, whether replacement parts are stocked in Australia, what the written specification is, who pays for freight and what the delivery terms are, and whether you can speak to a person about stock before you pay. For E-Ride Pro from Electric Dirt Bike Australia, the answers are a 12-month Australian warranty, parts stocked at our Mittagong NSW workshop, the specifications on the product page, free freight over $1,500 AUD and WhatsApp support for stock and delivery questions.
+
+### What happens before the bike ships
+Each bike is checked before dispatch. Our workshop describes real pre-delivery inspection that includes brake bleeding, bolt torque inspection and battery health verification before the bike is crated. Bikes travel as insured heavy freight with tailgate delivery to your address, so be ready to receive a crate and have someone to help unload it.
+
+### Your first 30 days
+Read the manual before the first ride. Charge the battery fully and check the tyre pressure, the brake feel and the bolts. Start in a lower power mode on a closed private area and build up gradually. After the first few rides, check that nothing has loosened, and keep a note of how far you travel on a charge so you understand your real range. Always wear a certified helmet and full protective gear, and follow our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/) for battery care.
+
+### Is an E-Ride Pro right for you?
+Choose an E-Ride Pro if you are an experienced or confident rider who wants high factory power, a 72V battery and a top speed of 95 km/h or more without modifying the bike. Choose the SS 2.0 if you want strong performance for less money and a slightly lighter bike. Choose the SR if you are a heavier rider, ride long days or steep terrain, or simply want the most power and range in the range. Look at lower-power bikes such as the Sur-Ron Light Bee X or the Talaria XXX if you are new to electric dirt bikes, want a bike near 50 kg or want to spend less. Whatever you pick, plan your charging, your transport and your protective gear before the crate arrives. Finally, think about the whole ownership picture, not only the purchase. A 72V pack stores a lot of energy, so choose a safe charging spot, keep the charger and cables in good condition and read the manual before you ride. Ask our team how you plan to ride so we can help you choose between the SS 2.0 and the SR, and so you know what to expect on delivery day.
+
+### Where to buy: electric dirt bike for sale in Australia
+Looking for an electric dirt bike for sale? The E-Ride Pro-SS 2.0 and Pro-SR are available from Electric Dirt Bike Australia, along with the rest of our electric dirt bikes for sale from Sur-Ron, Talaria, Stark Varg and more. Browse the full [electric dirt bikes](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/) range, or compare dirtbike sales by price, power and range on the [shop page](https://electricdirtbikeaustralia.com.au/shop/). Orders over $1,500 AUD ship free, crypto and PayID payments receive 10% off and every bike has a 12-month Australian warranty.
+
+### Quick answers
+
+How much is an E-Ride Pro in Australia? The E-Ride Pro-SS 2.0 is $8,690 AUD and the E-Ride Pro-SR is $9,990 AUD in our listings.
+
+Which E-Ride Pro is faster? The Pro-SR is listed at 100+ km/h and the Pro-SS 2.0 at 95 km/h.
+
+Do E-Ride Pro bikes ship Australia-wide? Yes. They are dispatched from our Mittagong NSW workshop, with free freight on orders over $1,500 AUD.
+
+### Official sources and further reading
+For manufacturer information on the other major brands we stock, see the [Sur-Ron site](https://www.surron.com/) and the [Stark Future site](https://www.starkfuture.com/). For battery safety see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices), and for background on how lithium-ion cells work see the [Wikipedia article on lithium-ion batteries](https://en.wikipedia.org/wiki/Lithium-ion_battery).`,
+  },
+  {
+    slug: "e-ride-pro-ss-2-0-vs-sr-specs-price",
+    title: "E-Ride Pro SS 2.0 vs SR: Specs, Price & Which to Buy in Australia",
+    excerpt: "E-Ride Pro SS 2.0 or SR? A side-by-side comparison of power, battery, top speed, range, weight and price for both E-Ride Pro models sold in Australia.",
+    category: "Comparisons",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/product-e-ride-pro-3-0.webp",
+    imageAlt: "E-Ride Pro SS 2.0 and E-Ride Pro SR electric dirt bikes compared by power, battery, range and price",
+    content: `Choosing between the E-Ride Pro SS 2.0 and the E-Ride Pro SR is mostly a question of power, battery size and budget. Both are 72V electric dirt bikes sold by Electric Dirt Bike Australia, and the figures below are taken from our product listings. Real-world range and speed vary with rider weight, terrain and power mode.
+
+### Power and battery
+The [E-Ride Pro-SS 2.0](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-ss-2-0/) has 12kW of peak power and a 72V 40Ah battery, which is 2,880Wh, using Samsung 50E / Molicel cells. The [E-Ride Pro-SR](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-sr/) has 15kW of peak power and a 72V 45Ah battery, which is 3,240Wh, with high-discharge cells. That is 3kW more peak output and about 360Wh more battery energy.
+
+### Speed and range
+The SS 2.0 is listed at a 95 km/h top speed and up to 105 km of range. The SR is listed at 100+ km/h and up to 120 km. The bigger battery on the SR is the reason for the range gain, and the extra power is the reason for the higher top speed.
+
+### Weight and handling
+The SS 2.0 weighs 64 kg and the SR weighs 67 kg. The 3 kg difference is small, so the choice comes down to power and range, not handling. The SS 2.0 uses Fastace dual-air tuned inverted forks.
+
+### Price
+The SS 2.0 is $8,690 AUD, down from $9,190. The SR is $9,990 AUD, down from $10,590. The SR costs $1,300 more than the SS 2.0. If you pay with crypto or PayID, a 10% discount applies at checkout, and freight is free on orders over $1,500 AUD.
+
+### Which E-Ride Pro should you buy?
+Choose the SS 2.0 if you want strong 72V performance for a lower price and a lighter bike. Choose the SR if you are a heavier rider, ride long days or steep climbs, or want the most power and range in the E-Ride Pro range. Beginners should also read our guide to [how fast electric dirt bikes go](https://electricdirtbikeaustralia.com.au/blog/how-fast-do-electric-dirt-bikes-go/) before choosing the most powerful option.
+
+### Delivery, warranty and legal use
+Both bikes ship from Mittagong NSW with a 12-month Australian warranty. They are supplied for private property and designated off-road areas, and any road use depends on your state's rules. Start with our [E-Ride Pro Australia buyer's guide](https://electricdirtbikeaustralia.com.au/blog/e-ride-pro-australia-buyers-guide/), then browse all [electric dirt bikes for sale](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/).
+
+### Side-by-side summary
+The Pro-SS 2.0 is $8,690 AUD with 12kW of peak power, a 72V 40Ah, 2,880Wh battery, a 95 km/h top speed, up to 105 km of range and a 64 kg weight. The Pro-SR is $9,990 AUD with 15kW of peak power, a 72V 45Ah, 3,240Wh battery, a 100+ km/h top speed, up to 120 km of range and a 67 kg weight. Everything else in this guide follows from those two lists.
+
+### Power per dollar and energy per dollar
+At $8,690, the SS 2.0 offers about 1.38 kW of peak power per $1,000. At $9,990, the SR offers about 1.50 kW per $1,000. For battery energy, the SS 2.0 has about 331 Wh per $1,000 and the SR about 324 Wh per $1,000. The SR gives you more power per dollar, and the two are almost level on battery energy per dollar, so the extra $1,300 mostly buys power, top speed and range rather than a better ratio of battery to price.
+
+### How much extra range does the SR give?
+Listed range is up to 120 km for the SR and up to 105 km for the SS 2.0, which is up to 15 km more. The SR battery holds about 360Wh more energy, which is about 12.5% more than the SS 2.0. Real range depends on rider weight, terrain, speed and power mode, and riding at full power uses energy faster, so treat the numbers as "up to" values.
+
+### Rider weight and terrain
+Heavier riders and riders who climb steep terrain draw more power from the battery. The SR has more peak power and a larger battery, which helps in those conditions. Lighter riders on flatter trails may never use the SR's extra headroom and will be happy with the SS 2.0.
+
+### Beginner or experienced?
+Both bikes are high power. A beginner should start in a lower mode and treat both as full-size performance machines, not entry bikes. Our guide to [how fast electric dirt bikes go](https://electricdirtbikeaustralia.com.au/blog/how-fast-do-electric-dirt-bikes-go/) explains speed and safety, and the [adult electric dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/adult-electric-dirt-bike-australia-best-models/) lists lower-power options such as the Sur-Ron Light Bee X and the Talaria XXX.
+
+### Alternatives to consider
+In the same power class, the [RFN Ares Rally Pro](https://electricdirtbikeaustralia.com.au/shop/rfn-ares-rally-pro/) is 12.5kW at $8,490 AUD, the [Velimotor VMX12](https://electricdirtbikeaustralia.com.au/shop/velimotor-vmx12-motocross/) is 12kW at $8,990 AUD and the [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) is 12.5kW at $10,990 AUD. In the same power class as the SR, the Arctic Leopard E-XE 880 is 15kW at $11,490 AUD. The lighter [Sur-Ron Light Bee X](https://electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) and [Talaria Sting R MX4](https://electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) cost less but have less power.
+
+### Delivery, payment and warranty
+Both E-Ride Pro bikes ship from Mittagong NSW 2575 to every state, with free freight over $1,500 AUD. Crypto and PayID payments receive 10% off at checkout, and each bike has a 12-month Australian warranty. Read the [E-Ride Pro Australia buyer's guide](https://electricdirtbikeaustralia.com.au/blog/e-ride-pro-australia-buyers-guide/) for the full range.
+
+### Legal use and safety
+These bikes are supplied for private property and designated off-road areas. Whether any bike can be registered for the road depends on your state. Wear a certified helmet and full protective gear, and follow the battery safety advice in our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/).
+
+### What to check on a test ride
+Check how the throttle responds from a stop, how the suspension handles a rough section at your normal speed, how the brakes feel under repeated use and how the bike feels when you stand on the pegs. Check the seat height against your leg length and the reach to the bars. Ask how the power modes are changed and whether the bike has a boost function. If you cannot test ride, ask our team about suspension setup for your weight on WhatsApp before you buy.
+
+### Power modes and throttle discipline
+High-power electric bikes deliver torque instantly, which surprises riders coming from petrol bikes. Use a lower power mode while you learn how the bike responds, keep your weight forward when accelerating and be gentle on loose ground. The extra 3kW of peak power on the Pro-SR matters most in the top of the throttle range, so a rider who never uses full power will not notice the gap on easy trails.
+
+### Charging and caring for a 72V pack
+Use the charger made for a 72V battery, charge on a hard non-flammable surface, never leave a pack charging while you sleep and let the pack cool after hard riding before charging. Store it cool and dry, away from sunlight. The [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) lists these practices, and our [battery maintenance guide](https://electricdirtbikeaustralia.com.au/blog/how-to-charge-maintain-electric-dirt-bike-batteries/) adds storage voltage and heat advice for Australian summers.
+
+### Running costs and wear
+Both bikes use electric drive, so there are no oil changes or spark plugs. They still wear tyres, chains, sprockets, brake pads and suspension seals, and the SR's extra power will use tyres and chain slightly faster in hard riding. See our [servicing cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-servicing-cost-guide-australia/) and [tyre guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-tyres-knobby-vs-trials-guide/) for typical wear items.
+
+### Decision guide by rider type
+A lighter rider on tight trails who rarely uses full power should lean to the SS 2.0 and keep the $1,300. A heavier rider, or one who climbs steep hills or rides all day, should lean to the SR for the extra power and battery. A rider who wants the highest top speed in the E-Ride Pro range should choose the SR at 100+ km/h. A budget-focused buyer comparing other 12kW bikes should also look at the RFN Ares Rally Pro at $8,490 AUD and the Velimotor VMX12 at $8,990 AUD. A first-time electric dirt bike buyer should consider a lower-power bike first and read our [adult electric dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/adult-electric-dirt-bike-australia-best-models/). If you are still undecided, list your riding in order of importance: weight, climbing, top speed, range and budget. Whichever two come first will usually point to the bike. Our team can talk through your height, weight and terrain on WhatsApp, and every order includes free freight over $1,500 AUD and a 12-month Australian warranty.
+
+### Where to buy: electric dirt bike Australia for sale
+Both E-Ride Pro models are an electric dirt bike Australia for sale from Electric Dirt Bike Australia, listed with full specifications, price and freight terms: the [E-Ride Pro-SS 2.0](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-ss-2-0/) at $8,690 AUD and the [E-Ride Pro-SR](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-sr/) at $9,990 AUD. If you are comparing electric motorcycles for sale against general dirtbike sale listings, our [electric motorcycles](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) and [electric dirt bikes](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/) categories put the models side by side. Message us on WhatsApp from the product page if you want stock or delivery confirmed for your postcode.
+
+### Quick answers
+
+Is the E-Ride Pro SR worth the extra $1,300? It adds 3kW of peak power, about 360Wh of battery energy, a higher listed top speed and up to 15 km more listed range, for 3 kg more weight.
+
+Which E-Ride Pro has more range? The SR is listed at up to 120 km and the SS 2.0 at up to 105 km. Real range depends on rider weight, terrain and power mode.
+
+Can I pay for an E-Ride Pro with crypto or PayID? Yes. Choose crypto or PayID at checkout and a 10% discount applies.
+
+### Official sources and further reading
+For battery safety see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) and the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety). For background on how electric motorcycle technology works see the [Wikipedia overview of electric motorcycles and scooters](https://en.wikipedia.org/wiki/Electric_motorcycles_and_scooters).`,
+  },
+  {
+    slug: "e-bike-safety-australia-guide",
+    title: "E-Bike Safety Australia: Helmets, Batteries, Rules & Riding Tips",
+    excerpt: "E-bike safety in Australia: wear an approved helmet, charge lithium batteries safely, buy compliant e-bikes and follow state rules. Official safety links included.",
+    category: "Legal & Safety",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/hero_surron_trail_1790338185425.jpg",
+    imageAlt: "Cyclist wearing a helmet and charging an e-bike battery on a hard surface, illustrating e-bike safety in Australia",
+    content: `E-bike safety in Australia comes down to four things: the right helmet and gear, a compliant e-bike, safe battery charging and storage, and knowing your state's rules. This guide links to the official government and fire-service pages so you can read the current advice yourself.
+
+### Helmet and protective gear
+Wear a properly fastened, approved helmet every time you ride. Queensland, for example, lists a fine for an unfastened helmet and approves both bicycle and motorbike helmets. For off-road electric dirt bikes, wear a full-face helmet, gloves, boots and body protection. Our footer notice says the same: always wear Australian standard certified helmets and full safety gear.
+
+### Buy an e-bike that is compliant
+In Queensland a legal e-bike is 250W with assistance up to 25 km/h and an EN 15194 label, and NSW has announced a move to a 250W cap and EN 15194 certification. Check each state's current rules before you buy. Our guides to [electric bike laws in QLD](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and [electric bike regulations in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/) summarise them.
+
+### Charging and storing lithium batteries
+Australian regulators and fire services warn that lithium-ion batteries can catch fire if they are faulty, damaged or used incorrectly. Their advice includes buying from a reliable manufacturer or retailer and looking for an electrical safety approval mark on the bike, battery and charger. Charge in a well-ventilated area on a non-combustible surface, let the battery cool after use before charging, and do not leave it charging unattended. Read the full advice on the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety), the [NSW Government page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) and the [ACCC Product Safety page](https://www.productsafety.gov.au/business/e-bikes-e-scooters-and-other-e-micromobility-devices).
+
+### Use the right charger
+Use the charger made for your battery voltage and keep the original connector. Our [72V battery and charger range](https://electricdirtbikeaustralia.com.au/accessories/) lists the voltage and amperage for each charger, and our guide to [charging and maintaining electric dirt bike batteries](https://electricdirtbikeaustralia.com.au/blog/how-to-charge-maintain-electric-dirt-bike-batteries/) covers storage voltage and heat.
+
+### Children and supervision
+Kids electric bikes in our range are listed for private property and supervised riding, with parental speed limiting on several models. See the [kids electric bikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/) page and our guide to [what age kids can ride electric dirt bikes](https://electricdirtbikeaustralia.com.au/blog/what-age-can-kids-ride-electric-dirt-bikes/).
+
+### Know your state's rules
+Rules on age, licence, speed on paths and where you can ride differ by state. The [Victoria Police e-bike safety page](https://www.police.vic.gov.au/e-bike-safety) and the [WA Road Safety Commission bicycle riders page](https://www.wa.gov.au/organisation/road-safety-commission/bicycle-riders) are two more official starting points. Our [Australian e-bike laws guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/) links them all.
+
+### Buying safely
+The NSW Government says to look for an electrical safety approval mark on the vehicle, battery and charger, to buy from reliable manufacturers and retailers and to buy a battery recommended by the vehicle manufacturer. It also says never to use a second-hand battery, because it could be damaged, modified or faulty, and to have a professional inspect a second-hand e-bike for modifications or damage. The page was last updated on 10 August 2026.
+
+### Charging rules that reduce risk
+The NSW page advises monitoring charging times and disconnecting once the battery is full, letting the battery cool after use before charging, and charging on hard non-flammable surfaces such as concrete or tiles. It says to charge in rooms with working smoke alarms, never to charge while asleep, never to charge on combustible or flammable materials and to avoid charging near doorways or emergency exits. Setting a timer helps prevent overcharging.
+
+### Storing batteries
+Charge and store batteries in a cool dry place away from sunlight and away from flammable materials such as bedding or carpet. For large batteries, the page recommends a garage, shed or carport away from living areas. Our [accessories](https://electricdirtbikeaustralia.com.au/accessories/) range lists 72V batteries and chargers; follow the instructions for your exact pack and keep the original charger and connector.
+
+### Warning signs of a damaged battery
+Stop using a battery that shows swelling or bulging, leaking, cracks, dents, punctures or crushing, overheating, vapour or smoke, or that has been exposed to water or fire. The NSW page says a damaged battery should be kept in a well-ventilated area at least 3 metres from structures or combustible materials, never put in household, recycling or kerbside bins, and that you should call 000 in an emergency.
+
+### Disposal and recycling
+Used e-bike and e-scooter batteries should go to B-cycle drop-off points, Community Recycling Centres or Household Chemical CleanOut events in NSW. Other states have their own programs, so check your state or council. The NSW page says damaged lithium-ion batteries must never go into household, recycling or kerbside bins.
+
+### Helmets and protective gear
+Wear an approved helmet that is properly fastened every ride. Queensland lists a fine of $518 for an unfastened helmet and approves bicycle and motorbike helmets, and NSW lists a fine from $423 for no helmet. For off-road electric dirt bikes, add a full-face helmet, gloves, boots and body protection. Our footer notice says it too: always wear Australian standard certified helmets and full safety gear.
+
+### Riding safely
+Obey the road rules for bicycle riders in your state, slow down around pedestrians, ring a bell where needed and keep to the speed limits on shared paths. Queensland lists a 12 km/h limit on footpaths and when passing pedestrians on shared paths. Do not ride after drinking, and do not hold your phone. Check your lights, brakes and tyre pressure before a ride. Victoria lists a bell or warning device, a working brake and a headlight in low light as requirements for e-bikes.
+
+### Children and supervision
+Kids electric bikes in our range are designed for private property and supervised off-road riding, and several have speed limiting. The [kids electric bikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/) page lists them, and our guides to [childs dirt bikes](https://electricdirtbikeaustralia.com.au/blog/childs-dirt-bike-australia-electric-options/) and [kids e-bikes](https://electricdirtbikeaustralia.com.au/blog/kids-ebike-australia-evo-racing-lil-rippa-compared/) compare them by age. Always supervise young riders.
+
+### Know the rules in your state
+See our guides to [Queensland e-bike laws](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and [NSW e-bike regulations](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/), and the national summary on our [Australian e-bike laws guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/).
+
+### Lights, bells and visibility
+Visibility rules vary by state. Western Australia lists a white front light and a red rear light that are clearly visible for at least 200 metres, as standard bicycle requirements, and Victoria lists a headlight in low light and a bell, horn or other warning device. Even where the law is less specific, fit working lights and a bell and wear bright or reflective clothing when you ride near dusk, at night or in poor weather.
+
+### A quick pre-ride checklist
+Before each ride check tyre pressure, the brakes, that the wheels and bars are tight, that the battery is seated and charged and that the charger is not left connected. Look at the battery for swelling, cracks or damage. If anything looks wrong, do not ride; the NSW page lists swelling, leaking, cracks, overheating, smoke and exposure to water or fire as reasons to stop using a battery.
+
+### After a crash
+After a crash, check yourself and others first. Queensland tells riders to stop, stay at the scene and assist injured people, and the Queensland e-bike page also advises watching for swelling, discolouration or odours from the battery after a crash. Do not charge a battery that has been damaged in a fall, and call 000 in an emergency.
+
+### Riding with others and sharing paths
+Keep left, give way to pedestrians and slow down to pass. Queensland lists a 12 km/h limit on footpaths and when passing pedestrians on shared paths, and Victoria says riders should keep to the left and give way to pedestrians on paths. Ride predictably, signal and avoid weaving. These habits protect everyone and reduce the risk of fines.
+
+### Common e-bike safety myths
+One myth is that an e-bike is slow, so gear is optional. A legal e-bike can still reach 25 km/h under assistance, and Queensland and NSW both list fines for riding without a proper helmet. Another is that charging overnight is fine; the NSW page says never to charge batteries while asleep. A third is that any charger that fits will do, but the correct charger for the battery voltage is part of safe charging. A fourth is that a second-hand battery is a bargain, yet the NSW page says never to use a second-hand battery because it could be damaged, modified or faulty. Treat the battery and charger as safety equipment, not accessories.
+
+### Where to buy: e bike parts Australia and bikes for Melbourne riders
+For e bike parts Australia riders need, such as 72V chargers, batteries, brakes, tyres and protection, see our [accessories and parts](https://electricdirtbikeaustralia.com.au/accessories/) range. If you are searching for electric bikes for sale Melbourne or e bikes for sale Melbourne, our [Melbourne delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/melbourne/) explains freight to Victoria, and the [electric bikes for sale](https://electricdirtbikeaustralia.com.au/electric-bikes/) page lists published prices, from kids bikes at $899 AUD to 250 watt commuters from $2,790 AUD. Free freight applies to orders over $1,500 AUD, crypto and PayID payments receive 10% off and a 12-month Australian warranty covers the bikes.
+
+### Quick answers
+
+Where should I charge an e-bike battery? Fire and regulator advice is to charge in a well-ventilated area on a non-combustible surface, let the battery cool first, and not leave it charging unattended.
+
+What should I look for when buying an e-bike? Look for an electrical safety approval mark on the bike, battery and charger, buy from a reliable manufacturer or retailer, and check the EN 15194 label where your state requires it.
+
+Do I need to wear a helmet on an e-bike? Yes, wear a properly fastened approved helmet. Queensland and NSW both list fines for riding without one.
+
+### Official sources and further reading
+Read the [Queensland Government e-bike page](https://streetsmarts.initiatives.qld.gov.au/e-bikes-e-scooters/e-bikes/), the [NSW Government e-bike page](https://www.nsw.gov.au/driving-boating-and-transport/bikes-e-bikes-e-scooters), the [Victoria Police e-bike safety page](https://www.police.vic.gov.au/e-bike-safety) and the [WA Road Safety Commission page](https://www.wa.gov.au/organisation/road-safety-commission/bicycle-riders). Battery guidance is on the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices), the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety) and the [ACCC Product Safety page](https://www.productsafety.gov.au/business/e-bikes-e-scooters-and-other-e-micromobility-devices).`,
+  },
+  {
+    slug: "childs-dirt-bike-australia-electric-options",
+    title: "Childs Dirt Bike Australia: Best Electric Options by Age & Price",
+    excerpt: "Choosing a childs dirt bike in Australia? Compare electric dirt bikes for kids by age, size, speed limits and price, from $899 to the KTM SX-E 5 and Husqvarna EE 5.",
+    category: "Buyers Guide",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/product-ktm-sx-e-youth.jpg",
+    imageAlt: "KTM SX-E 5 youth electric dirt bike, a childs dirt bike for ages 4 to 10 sold in Australia",
+    content: `A childs dirt bike should match the rider's age, height and experience, and an electric dirt bike for kids has advantages: it is quiet, there is no clutch or gear shifting, and many models let a parent limit the top speed. This guide compares the kids and youth electric dirt bikes in our range by age, power and price. All specifications are the figures in our product listings, and every bike should be used under adult supervision on private property or a suitable off-road area.
+
+### Ages 3 to 6: a first childs dirt bike
+The [EDBA Moto 50 beginner kids electric motorbike](https://electricdirtbikeaustralia.com.au/shop/edba-moto-50-kids-beginner/) is listed for ages 3 to 6, with a 250 watt motor, a 6 km/h top speed, a 14 kg weight, up to 60 minutes of ride time and a maximum rider weight of 30 kg. It has a parental remote kill switch and key lockout. It is $1,290 AUD.
+
+### Ages 4 to 10: factory youth bikes
+The [KTM SX-E 5](https://electricdirtbikeaustralia.com.au/shop/ktm-sx-e-5-youth-electric/) and the [Husqvarna EE 5](https://electricdirtbikeaustralia.com.au/shop/husqvarna-ee-5-youth-electric/) are both listed for ages 4 to 10 with a 1,100 watt motor, a 20 km/h top speed, an 80 minute charge time and a 26 kg weight. The KTM has three parent-selectable power modes (20, 50 and 100 percent). The KTM is $7,990 AUD and the Husqvarna is $7,490 AUD.
+
+### Ages 6 to 14: trials and training
+The [OSET 20.0 Racing Junior](https://electricdirtbikeaustralia.com.au/shop/oset-20-0-racing-junior/) is listed for ages 6 to 14 with a 600 watt motor, a 24V 20Ah lithium battery, up to 3 hours of ride time, a 15 km/h top speed and a 22 kg weight. A parent can adjust the maximum speed. It is $4,290 AUD. Our [OSET bikes review](https://electricdirtbikeaustralia.com.au/blog/oset-bikes-australia-review-junior-electric/) goes into detail.
+
+### Junior motocross with a parental app
+The [Torrot Motocross Two junior](https://electricdirtbikeaustralia.com.au/shop/torrot-motocross-two-junior/) has a 1,500 watt motor, a 48V 10.4Ah quick-swap battery and a 32 kg weight, with a Bluetooth parental app limiter. It is $3,690 AUD.
+
+### Teens and smaller adults
+The [Segway X160 compact youth dirt bike](https://electricdirtbikeaustralia.com.au/shop/segway-x160-compact/) has a 3,000 watt motor, a 48V 20Ah battery, a 50 km/h top speed and up to 65 km of range at 48 kg, at $4,690 AUD. The [Razor MX650](https://electricdirtbikeaustralia.com.au/shop/razor-mx650-electric-kids/) is listed for ages 13 and up with a 650 watt motor, an 18 km/h top speed and a maximum rider weight of 81 kg, at $899 AUD.
+
+### How to choose
+Start with the child's age and height, not the power figure. Pick a bike with speed limiting, so the speed can rise as skills improve. Check the weight, because a bike a child can pick up after a fall is easier to manage. Buy protective gear at the same time as the bike.
+
+### Where to ride
+These bikes are intended for private property and supervised off-road use. Rules on young riders differ by state, so read our guide on [what age kids can ride electric dirt bikes](https://electricdirtbikeaustralia.com.au/blog/what-age-can-kids-ride-electric-dirt-bikes/) and check your state authority.
+
+### Compare more kids bikes
+See every model on our [kids electric bikes and motorbikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/) page, read the full [kids electric bike buying guide](https://electricdirtbikeaustralia.com.au/blog/kids-electric-bike-buying-guide-australia/), or compare the pedal-style options in [kids e-bikes: EVO Racing, Lil Rippa and Warrior](https://electricdirtbikeaustralia.com.au/blog/kids-ebike-australia-evo-racing-lil-rippa-compared/).
+
+### How to size a childs dirt bike
+Size by the rider, not by the age printed on the box. The bikes in our range are listed for different age bands: the EDBA Moto 50 for ages 3 to 6, the KTM SX-E 5 and Husqvarna EE 5 for ages 4 to 10, the OSET 20.0 for ages 6 to 14 and the Razor MX650 for ages 13 and up. The Torrot Motocross Two is described as a junior bike for riders aged 6 to 11, and the Segway X160 is described as suiting riders roughly 150 cm to 170 cm tall. A child should be able to reach the ground comfortably, hold the bars with a relaxed bend in the elbows and reach the brake levers without stretching.
+
+### Weight matters more than power
+A lighter bike is easier for a child to pick up after a fall and easier to steer. The listed weights run from 14 kg for the EDBA Moto 50 and 22 kg for the OSET 20.0 to 26 kg for the KTM SX-E 5 and Husqvarna EE 5, 32 kg for the Torrot and Razor, and 48 kg for the Segway X160. If a child cannot comfortably hold the bike upright when stopped, it is too heavy or too tall for them yet.
+
+### Speed limits and parental control
+Control matters as much as speed. The listed top speeds are 6 km/h for the EDBA Moto 50, 15 km/h for the OSET 20.0, 18 km/h for the Razor MX650, 20 km/h for the KTM and Husqvarna and 50 km/h for the Segway X160. The KTM has three parent-selectable power modes at 20, 50 and 100 percent. The OSET has an infinitely variable speed dial and a parent-adjusted maximum speed. The Torrot Motocross Two has a Bluetooth app that lets a parent control top speed, acceleration sensitivity and engine braking. The EDBA Moto 50 has a parental remote kill switch and key lockout.
+
+### Battery, run time and charging
+Run time is a practical matter for a child's session. The EDBA Moto 50 is listed at up to 60 minutes of ride time, the OSET 20.0 at up to 3 hours, and the Razor MX650 at up to 45 minutes. The KTM SX-E 5 and Husqvarna EE 5 charge in about 80 minutes on the standard charger. The Razor MX650 uses a 36V 12Ah sealed lead-acid battery, while the OSET uses a 24V 20Ah lithium-ion battery and the factory youth bikes use 48V lithium packs.
+
+### What the price ladder buys
+The Razor MX650 at $899 AUD is the entry point for older kids. The EDBA Moto 50 at $1,290 AUD is a beginner bike for small children with the parental kill switch. The Torrot at $3,690 and the OSET at $4,290 add lithium batteries, app or dial control and more power. The Segway X160 at $4,690 is a teen and smaller-adult bike. The KTM at $7,990 and the Husqvarna at $7,490 add factory WP suspension and the brands' youth motocross design. Choose the rung that matches the child's skill, not the budget ceiling.
+
+### Electric or petrol for a child?
+An electric childs dirt bike is quiet, has no clutch or gear shifting and needs no fuel mixing or oil changes. That makes it easier for a beginner and kinder to neighbours. The trade-off is run time, because the battery limits a session, and the cost of the higher-end factory bikes. Our guide to [electric vs petrol running costs](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-vs-petrol-motocross-running-costs/) compares ownership costs for larger bikes.
+
+### Safety gear and supervision
+Buy a certified helmet, gloves, boots and body protection at the same time as the bike, and supervise every ride. Keep the speed limiter on a low setting until the child shows consistent control, then raise it step by step. Read our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/) for battery charging and storage advice.
+
+### Common mistakes to avoid
+The most common mistakes are buying a bike that is too big so the child can grow into it, ignoring weight, leaving the speed limiter off and riding without gear or supervision. Another is treating a kids bike like a toy: store the battery cool and dry, charge it on a hard surface and keep the charger that came with the bike.
+
+### Where children can ride
+These bikes are intended for private property and supervised off-road riding. Rules for young riders differ by state, so read our guide to [what age kids can ride electric dirt bikes](https://electricdirtbikeaustralia.com.au/blog/what-age-can-kids-ride-electric-dirt-bikes/) and check your state authority before riding anywhere other than private land.
+
+### Where to buy: affordable dirt bikes for sale
+If you are looking for affordable dirt bikes for sale for a child, we sell electric bikes only, and the lowest-priced options in our range start at $899 AUD for the Razor MX650 and $1,290 AUD for the EDBA Moto 50. Searching for dirt cheap dirt bikes for sale or cheap dirt bikes for sale under $1000? The Razor MX650 at $899 AUD is the only bike in this guide under $1,000, and it is listed for ages 13 and up with a maximum rider weight of 81 kg. Compare every model on our [kids electric bikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/) page. Free freight applies to orders over $1,500 AUD, crypto and PayID payments receive 10% off, and each bike has a 12-month Australian warranty, with the KTM SX-E 5 priced at $7,990 AUD for riders who want a factory youth bike.
+
+### Quick answers
+
+What is the best childs dirt bike for a 4 to 10 year old? The KTM SX-E 5 and Husqvarna EE 5 are both listed for ages 4 to 10, with a 1,100 watt motor and a 20 km/h top speed. The KTM has three parent-selectable power modes.
+
+What is the cheapest electric dirt bike for kids? The Razor MX650 is $899 AUD and is listed for ages 13 and up. For ages 3 to 6, the EDBA Moto 50 is $1,290 AUD.
+
+Can parents limit the speed of an electric dirt bike for kids? Several models can. The KTM SX-E 5 has parent-selectable modes, the OSET 20.0 has a parent-adjusted maximum speed and the Torrot Motocross Two has a Bluetooth parental app limiter.
+
+### Official sources and further reading
+For battery charging and storage advice see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) and the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety), and for national product-safety work on e-micromobility devices see the [ACCC Product Safety page](https://www.productsafety.gov.au/business/e-bikes-e-scooters-and-other-e-micromobility-devices). For the manufacturers' own information on youth bikes, see the [KTM](https://www.ktm.com/) and [Husqvarna](https://www.husqvarna-motorcycles.com/) sites.`,
+  },
+  {
+    slug: "adult-electric-dirt-bike-australia-best-models",
+    title: "Adult Electric Dirt Bike Australia: Best Models by Use & Budget",
+    excerpt: "The best adult electric dirt bike for your riding and budget: compare Sur-Ron, Talaria, E-Ride Pro and more by power, range, weight and price in Australia.",
+    category: "Buyers Guide",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/product-sur-ron-ultra-bee.jpg",
+    imageAlt: "Sur-Ron Ultra Bee adult electric dirt bike with 12.5kW motor, sold in Australia",
+    content: `The right adult electric dirt bike depends on where you ride, how experienced you are and what you want to spend. Electric dirt bikes for adults range from light trail bikes near $5,500 to full-size enduro machines above $13,000. This guide groups the models in our range by use and budget. Every figure is taken from our product listings, and real range and speed vary with rider weight, terrain and power mode.
+
+### Lightweight trail bikes from about $5,500
+The [Talaria XXX Black Edition](https://electricdirtbikeaustralia.com.au/shop/talaria-xxx-black-edition/) has a 6.5kW motor, a 60V 40Ah battery, a 75 km/h top speed and up to 80 km of range at 50 kg, for $5,490 AUD. The [Sur-Ron Light Bee X](https://electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) is 6kW with a 60V 40Ah, 2,400Wh battery, 75 km/h, up to 100 km in eco mode and 50 kg, for $6,490 AUD. The [Segway X260](https://electricdirtbikeaustralia.com.au/shop/segway-x260-dirt-ebike/) is 5kW, 75 km/h, up to 90 km and 55 kg, for $6,790 AUD.
+
+### Mid-power trail and enduro bikes
+The [Talaria Sting R MX4](https://electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) has 8kW, a 2,700Wh battery, 85 km/h and up to 110 km at 63 kg, for $7,290 AUD. The [Rawrr Mantis 72V](https://electricdirtbikeaustralia.com.au/shop/rawrr-mantis-72v/) is 10kW, 85 km/h and up to 90 km at 65 kg, for $8,190 AUD. The [E-Ride Pro-SS 2.0](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-ss-2-0/) is 12kW, 95 km/h and up to 105 km at 64 kg, for $8,690 AUD.
+
+### Full-size power
+The [E-Ride Pro-SR](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-sr/) is 15kW with up to 120 km of range at 67 kg, for $9,990 AUD. The [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) is 12.5kW with 440 Nm of rear-wheel torque, 90 km/h, up to 140 km in eco mode and 85 kg, for $10,990 AUD. The [Talaria Dragon](https://electricdirtbikeaustralia.com.au/shop/talaria-dragon-enduro/) is 28kW with a 5,100Wh battery, 110 km/h and up to 150 km at 100 kg, for $13,990 AUD.
+
+### How to choose by riding style
+For tight singletrack and lightweight handling, pick the lightest bike. For hill climbs and long days, prioritise battery size, which is listed in watt-hours. For speed and open fire trails, look at peak power and top speed. If you are new to electric dirt bikes, start with a lower-power model or a bike with selectable power modes.
+
+### Weight and rider size
+A lighter bike is easier to handle and easier to load for transport. The Sur-Ron Light Bee X and Talaria XXX weigh 50 kg, while the Ultra Bee is 85 kg and the Dragon is 100 kg. Heavier riders usually benefit from more power and a larger battery.
+
+### Legal use
+These bikes are supplied for private property and designated off-road areas. Whether any can be registered for the road depends on your state. See [electric dirt bike licence requirements](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-licence-requirements-australia/) and the [road legal electric dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-road-legal-australia/).
+
+### Next steps
+Browse all [electric dirt bikes for sale](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/), compare running costs in [electric vs petrol motocross](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-vs-petrol-motocross-running-costs/), and read the [electric dirt bike cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-cost-australia-price-guide/). Free freight applies to orders over $1,500 AUD, and a 10% discount applies when you pay with crypto or PayID.
+
+### How to read power and battery figures
+Peak power in kilowatts tells you how hard the bike can accelerate, and battery energy in watt-hours tells you how long it can keep going. Two bikes with the same peak power can behave very differently because of weight and the controller settings. When you compare, look at both numbers together with weight.
+
+### Power and battery per dollar
+Using listed prices, the Talaria XXX Black Edition offers about 1.18 kW of peak power per $1,000 and about 437 Wh of battery per $1,000, the most battery energy per dollar in this guide. The Sur-Ron Light Bee X offers about 0.92 kW and 370 Wh per $1,000, and the Talaria Sting R MX4 about 1.10 kW and 370 Wh. The Rawrr Mantis offers about 1.22 kW and 308 Wh per $1,000, the E-Ride Pro-SS 2.0 about 1.38 kW and 331 Wh and the E-Ride Pro-SR about 1.50 kW and 324 Wh. The Sur-Ron Ultra Bee offers about 1.14 kW and 370 Wh, and the Talaria Dragon about 2.00 kW and 365 Wh per $1,000, the most power per dollar of the group. These ratios use published specifications and are not a ride-quality score.
+
+### Choosing by terrain
+Singletrack and tight trails reward a lighter bike such as the 50 kg Light Bee X or Talaria XXX. Open fire trails and long climbs reward more power and battery, such as the Ultra Bee at 4,070Wh or the Dragon at 5,100Wh. If you mostly ride flat private land, a mid-power bike will do everything you need at a lower price.
+
+### Brakes and suspension
+The Light Bee X lists hydraulic 4-piston disc brakes with 203mm rotors. The Ultra Bee lists 240mm fully adjustable front and rear suspension, and the E-Ride Pro-SS 2.0 lists Fastace dual-air tuned inverted forks. Suspension and brakes matter more as speed and weight go up, so check them when you move beyond lightweight bikes.
+
+### 60V or 72V?
+The lighter bikes use 60V packs and the more powerful bikes use 72V or higher. Higher voltage supports more power from the same current, but it is not automatically better for a casual rider. Our [72V vs 60V battery guide](https://electricdirtbikeaustralia.com.au/blog/72v-vs-60v-electric-dirt-bike-battery-upgrade-guide/) explains the trade-offs.
+
+### Weight, loading and transport
+At 50 kg the Light Bee X and Talaria XXX can be loaded by one person into a ute or on a hitch rack. At 85 kg or 100 kg the Ultra Bee and Dragon usually need a ramp or a second person. Our [transport guide](https://electricdirtbikeaustralia.com.au/blog/how-to-transport-electric-dirt-bikes-car-hitch-racks/) covers racks and tie-downs, and our [folding loading ramp](https://electricdirtbikeaustralia.com.au/shop/heavy-duty-folding-loading-ramp/) is listed in accessories.
+
+### Upgrades and ownership
+Many riders upgrade tyres, controllers and batteries over time. See our guides to [aftermarket mods for the Light Bee X](https://electricdirtbikeaustralia.com.au/blog/essential-aftermarket-mods-for-surron-light-bee-x/), [battery lifespan and replacement cost](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-battery-lifespan-replacement-cost/) and [servicing costs](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-servicing-cost-guide-australia/) before you commit to a model.
+
+### Safety gear
+Wear a certified helmet, gloves, boots and body protection on every ride and start in a lower power mode if you are new to electric dirt bikes. Read our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/) for battery care.
+
+### Delivery to WA
+We ship from Mittagong NSW to every state. Our [Perth delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/perth/) explains freight to Western Australia, and the free freight threshold of $1,500 AUD applies to all of the bikes in this guide.
+
+### How to test and compare before you buy
+If you can, ride two bikes back to back. Compare the weight when you stand the bike up, the seat height and reach, how the throttle responds from a stop and how the brakes feel. Ask for the written specification, including continuous and peak power, battery energy in watt-hours and the weight. Ask about warranty coverage, parts availability and who handles service. For our bikes, the 12-month Australian warranty covers the frame, motor, controller, battery and electrical harness against manufacturer defects, and genuine replacement parts are stocked at our Mittagong NSW workshop.
+
+### Beginner pathway
+A new rider should pick a bike with selectable power modes and use the lowest mode for the first rides. Learn throttle control on flat ground, practise braking and then move to mild trails. Wear a certified helmet, gloves, boots and body protection, and ride with a friend where you can. Move up to a more powerful bike only when you outgrow the first one.
+
+### Charging at home
+Charge on a hard non-flammable surface, use the correct charger for your battery voltage and do not leave a pack charging while you sleep. Our [fast charger guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-fast-chargers-and-solar-generators/) explains charger options for 60V and 72V bikes, and the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) lists general charging safety.
+
+### Costs people forget to budget for
+Besides the bike, budget for a certified helmet and full protective gear, a way to transport the bike, a spare battery or a plan to recharge between sessions, tools, spare tyres and a chain, and storage with a safe place to charge. Heavier bikes need a ramp or a second person to load. If you plan to ride away from home, allow for the time it takes to recharge, and keep your battery stored cool and dry. Our [transport guide](https://electricdirtbikeaustralia.com.au/blog/how-to-transport-electric-dirt-bikes-car-hitch-racks/) and [servicing cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-servicing-cost-guide-australia/) cover the practical side. Finally, take your time: compare at least three bikes on weight, power, battery, price and warranty, and talk to our team about your riding. A bike that matches how and where you ride will always beat one chosen on a single number.
+
+### Where to buy: electric motor bikes for sale
+Looking for electric motor bikes for sale? Electric Dirt Bike Australia lists adult electric dirt bikes from $5,490 to $13,990 AUD, with full specifications on each product page. Browse the [electric motor bikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/) category and the [electric dirt bikes](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/) category to compare. Searching for electric bikes for sale Perth or e bikes for sale Perth? We deliver to Perth and all of Western Australia, and our [Perth delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/perth/) explains freight. Crypto and PayID payments receive 10% off at checkout, and every bike has a 12-month Australian warranty.
+
+### Quick answers
+
+How much is an adult electric dirt bike in Australia? The adult models in this guide start at $5,490 AUD for the Talaria XXX Black Edition and run to $13,990 AUD for the Talaria Dragon, with competition bikes higher.
+
+Which adult electric dirt bike has the longest range? The Talaria Dragon is listed at up to 150 km, and the Sur-Ron Ultra Bee at up to 140 km in eco mode. These are manufacturer "up to" figures.
+
+Are adult electric dirt bikes road legal? They are supplied for private property and designated off-road areas. Whether any can be registered for the road depends on your state.
+
+### Official sources and further reading
+For manufacturer information see the [Sur-Ron site](https://www.surron.com/) and the [Stark Future site](https://www.starkfuture.com/). For battery safety see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) and the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety). For background on dirt bike riding see the [Wikipedia article on motocross](https://en.wikipedia.org/wiki/Motocross).`,
+  },
+  {
+    slug: "high-performance-electric-dirt-bike-australia",
+    title: "High Performance Electric Dirt Bike Australia: 12kW to 80HP Compared",
+    excerpt: "Compare high performance electric dirt bikes in Australia by power tier: 12kW trail bikes, 22 to 28kW enduro machines and 60 to 80HP Stark Varg electric motocross bikes.",
+    category: "Comparisons",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/product-stark-varg-mx.jpg",
+    imageAlt: "Stark Varg EX 80HP electric motocross bike, a high performance electric dirt bike sold in Australia",
+    content: `A high performance electric dirt bike delivers 12kW or more of peak power, a large high-discharge battery and serious suspension. Australia now has bikes from about $8,500 up to competition motocross machines near $19,000. This guide compares the high-performance bikes in our range by power tier, using the figures in our product listings.
+
+### 12kW to 15kW: fast trail and enduro
+The [Velimotor VMX12](https://electricdirtbikeaustralia.com.au/shop/velimotor-vmx12-motocross/) is 12kW with a 72V 58Ah battery and a 105 km/h top speed at 105 kg, for $8,990 AUD. The [RFN Ares Rally Pro](https://electricdirtbikeaustralia.com.au/shop/rfn-ares-rally-pro/) is 12.5kW with a 74V 35Ah battery, 85 km/h and up to 100 km at 68 kg, for $8,490 AUD. The [E-Ride Pro-SS 2.0](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-ss-2-0/) is 12kW at 95 km/h, for $8,690 AUD, and the [E-Ride Pro-SR](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-sr/) is 15kW at 100+ km/h, for $9,990 AUD. The [Arctic Leopard E-XE 880](https://electricdirtbikeaustralia.com.au/shop/arctic-leopard-e-xe-880/) is 15kW and 95 km/h at 68 kg, for $11,490 AUD, and the [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) is 12.5kW with 440 Nm of torque, for $10,990 AUD.
+
+### 22kW to 28kW: full-size enduro
+The [Talaria Dragon](https://electricdirtbikeaustralia.com.au/shop/talaria-dragon-enduro/) is 28kW with an 88V 58Ah, 5,100Wh battery, 110 km/h and up to 150 km at 100 kg, for $13,990 AUD. The [Sur-Ron Storm Bee Enduro](https://electricdirtbikeaustralia.com.au/shop/sur-ron-storm-bee-enduro/) is 22.5kW with a 104V 55Ah, 5,720Wh battery, 110 km/h and up to 120 km at 127 kg, for $15,490 AUD.
+
+### Electric motocross bikes for the track
+For competition riders searching for electric motor cross bikes, the [Sur-Ron Storm Bee MX Track Edition](https://electricdirtbikeaustralia.com.au/shop/sur-ron-storm-bee-mx/) is 22.5kW with 520 Nm of rear-wheel torque at 122 kg, for $14,490 AUD. The [Stealth H-52](https://electricdirtbikeaustralia.com.au/shop/stealth-h-52-competition/) is a 5.2kW competition track machine at 49 kg, for $13,490 AUD.
+
+### 60HP to 80HP: Stark Varg
+The [Stark Varg Alpha 60HP](https://electricdirtbikeaustralia.com.au/shop/stark-varg-alpha-60hp/) is 60 horsepower (45kW) with 820 Nm of rear-wheel torque, a 6.0kWh battery and KYB 48mm closed-cartridge suspension with 310mm of travel, at 118 kg, for $16,990 AUD. The [Stark Varg EX 80HP](https://electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) is 80 horsepower (60kW) with 938 Nm of torque and the same 310mm KYB suspension at 118 kg ready to ride, for $18,990 AUD. Read our [Stark Varg review](https://electricdirtbikeaustralia.com.au/blog/stark-varg-review-australia-2026/) for more.
+
+### What to compare
+Compare peak power, battery energy in watt-hours, weight, suspension travel and torque. Peak power is not the same as continuous power, and range falls quickly at full throttle. Pay attention to weight: a 127 kg Storm Bee Enduro handles very differently from a 64 kg E-Ride Pro-SS 2.0.
+
+### Safety and legal use
+High-performance electric dirt bikes are for private property, closed circuit tracks and designated off-road areas. Wear a certified helmet and full protective gear, and use a lower power mode until you know the bike.
+
+### Buying
+Browse all [electric motocross bikes for sale](https://electricdirtbikeaustralia.com.au/electric-motocross-bikes/) and [electric dirt bikes for sale](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/). Free freight applies over $1,500 AUD, and a 10% discount applies to crypto and PayID payments. Also see [how fast electric dirt bikes go](https://electricdirtbikeaustralia.com.au/blog/how-fast-do-electric-dirt-bikes-go/).
+
+### Power per dollar across the tiers
+Using listed prices and peak power, the Stark Varg EX 80HP offers about 3.14 kW of peak power per $1,000 and the Stark Varg Alpha 60HP about 2.63 kW per $1,000, the most of any bike in this guide. The Talaria Dragon offers about 2.00 kW per $1,000, the Kuberg Ranger about 1.82 kW, the Storm Bee MX about 1.55 kW and the Storm Bee Enduro about 1.45 kW. The RFN Ares Rally Pro is about 1.47 kW per $1,000, the Velimotor VMX12 about 1.33 kW and the Arctic Leopard about 1.31 kW. These are simple ratios from published specifications.
+
+### Battery energy and range
+For bikes that list battery energy, the Storm Bee MX has about 395 Wh per $1,000, the Storm Bee Enduro about 369 Wh, the Talaria Dragon about 365 Wh, the Stark Varg Alpha about 353 Wh and the EX 80HP about 316 Wh. The Dragon and Storm Bee Enduro list 150 km and 120 km of range respectively. The Stark Varg is a competition bike with a 6.0kWh battery, and a motocross rider will use it hard for shorter sessions, so range is a smaller factor than power delivery and cooling.
+
+### Torque and traction
+Torque figures in the listings are 938 Nm for the Stark Varg EX 80HP, 820 Nm for the Alpha 60HP, 520 Nm for the Storm Bee MX and 440 Nm for the Sur-Ron Ultra Bee at the rear wheel. That is a lot of force through a rear tyre, so tyre choice and throttle control matter. Our [knobby vs trials tyre guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-tyres-knobby-vs-trials-guide/) covers grip.
+
+### Suspension travel
+The Stark Varg models list KYB 48mm closed-cartridge suspension with 310mm of travel, and the Sur-Ron Ultra Bee lists 240mm of fully adjustable travel. More travel suits larger jumps and rough tracks but raises the seat and the cost.
+
+### Weight spread
+The Velimotor VMX08 carbon is listed at 47.5 kg and 8kW for $7,990 AUD, while the Storm Bee Enduro is 127 kg. Light bikes feel flickable but have less battery, and heavy bikes carry larger batteries but need more rider strength. Choose a weight you can handle after a fall.
+
+### Trail, enduro or track
+The Talaria Dragon and Sur-Ron Storm Bee Enduro suit long trail and enduro days. The Storm Bee MX, Stark Varg and Stealth H-52 suit tracks. The 12kW class bikes cover both with less weight. See our [Talaria Dragon review](https://electricdirtbikeaustralia.com.au/blog/talaria-dragon-komodo-full-size-electric-enduro-review/) and [future of electric motocross in Australia](https://electricdirtbikeaustralia.com.au/blog/future-of-electric-motocross-racing-in-australia/).
+
+### Ownership costs at high power
+Larger batteries cost more to replace, and tyres, chains and brake pads wear faster at high power. Read our [battery lifespan and replacement cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-battery-lifespan-replacement-cost/) and the [servicing cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-servicing-cost-guide-australia/).
+
+### Safety and legal use
+These bikes are for private property, closed circuit tracks and designated off-road areas. Wear a certified helmet, neck and body protection, gloves and boots. Follow the battery safety advice in our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/).
+
+### Power modes and throttle safety
+High-performance electric bikes deliver torque instantly. Use a lower power mode until you know how the bike responds, keep your weight forward on acceleration, and use smooth throttle inputs on loose or wet ground. The most powerful bikes in this guide put out hundreds of newton-metres at the rear wheel, which is far more force than a typical trail bike, so a lower mode is not a sign of weakness but a sensible way to learn.
+
+### Track day checklist
+Before a track day check tyre wear and pressure, chain tension and condition, brake pads and fluid, suspension settings for your weight and that the battery is fully charged and undamaged. Bring a certified helmet, neck protection, body armour, gloves and boots, and a spare battery or a plan for charging between sessions. Warm up with a few easy laps and check the bike after the first session for loose bolts.
+
+### Wear parts at high power
+At 12kW and above, tyres, chains, sprockets and brake pads wear faster. Plan for replacement parts and keep a small kit of spares. Our [accessories and parts](https://electricdirtbikeaustralia.com.au/accessories/) range lists chains, sprockets, tyres, brakes and protection, and our [braking upgrade guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-braking-upgrades-250mm-rotors/) explains rotor and pad choices.
+
+### Warranty and parts support
+Every bike from Electric Dirt Bike Australia comes with a 12-month Australian warranty covering the frame, motor, controller, battery and electrical harness against manufacturer defects, and genuine replacement parts are stocked at our Mittagong NSW workshop. Read the [warranty and service](https://electricdirtbikeaustralia.com.au/warranty-and-service/) page for details.
+
+### Who should not buy a high performance bike yet
+A first-time rider, someone without a safe place to ride at speed, a rider with no way to transport a 100 kg or heavier bike, or anyone who expects to ride on public roads should not start with a bike in this guide. Start with a lighter, lower-power bike, learn throttle control and braking, and move up when you outgrow it. Our guide to [how fast electric dirt bikes go](https://electricdirtbikeaustralia.com.au/blog/how-fast-do-electric-dirt-bikes-go/) explains why more power is not always more fun. Before you commit, check that your riding area allows high-power bikes, that you can transport and store a bike of 100 kg or more, and that you have a safe place to charge a large battery. Ask what the warranty covers for track use, whether replacement tyres, chains and brake pads are in stock, and how long parts take to arrive. A high-performance bike rewards preparation: a spare battery or a charging plan, a basic tool kit and a routine check before every ride keep the day on track.
+
+### Where to buy: dirt motorcycles for sale, electric
+If you are searching for dirt motorcycles for sale or a motorcycle dirt bike for sale, the electric options in this guide run from $8,490 AUD to $18,990 AUD, and each product page lists power, battery, torque, weight and suspension. People comparing dirt bike motorcycles for sale in petrol and electric can start with our [electric dirt bikes](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/) and [electric motocross bikes](https://electricdirtbikeaustralia.com.au/electric-motocross-bikes/) categories. Free freight applies to orders over $1,500 AUD, crypto and PayID payments receive 10% off, and each bike carries a 12-month Australian warranty.
+
+### Quick answers
+
+What is the most powerful electric dirt bike you sell? The Stark Varg EX 80HP is listed at 80 horsepower (60kW) with 938 Nm of rear-wheel torque, at $18,990 AUD.
+
+What is the cheapest high performance electric dirt bike? In this guide the RFN Ares Rally Pro is $8,490 AUD at 12.5kW and the Velimotor VMX12 is $8,990 AUD at 12kW.
+
+Are electric motocross bikes street legal? No. High-performance electric dirt bikes are for private property, closed circuit tracks and designated off-road areas.
+
+### Official sources and further reading
+For manufacturer information see the [Stark Future site](https://www.starkfuture.com/) and the [Sur-Ron site](https://www.surron.com/). For background on motocross see the [Wikipedia article on motocross](https://en.wikipedia.org/wiki/Motocross), and for battery safety see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).`,
+  },
+  {
+    slug: "125cc-dirt-bike-australia-electric-alternatives",
+    title: "125cc Dirt Bike Australia: Electric Alternatives to 125cc & 250cc",
+    excerpt: "Shopping for a 125cc dirt bike, 150cc or 250cc dirt bikes? See which electric dirt bikes suit riders moving from petrol, and what to compare instead of engine size.",
+    category: "Buyers Guide",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/hero_talaria_ridge_1790338208529.jpg",
+    imageAlt: "Talaria electric dirt bike on an Australian trail, an electric alternative to a 125cc or 250cc petrol dirt bike",
+    content: `Riders searching for a 125cc dirt bike, a 150cc dirt bike or 250cc dirt bikes are often comparing petrol bikes by engine size. Electric dirt bikes do not have an engine size, so cc is the wrong number to compare. This guide explains what to compare instead and which electric bikes in our range suit riders coming from a 125cc, 150cc or 250cc petrol bike. We sell electric bikes only, so this is a guide to switching, not a petrol sales page.
+
+### Why cc does not apply to electric bikes
+Engine size describes a petrol engine's displacement. An electric bike is described by motor power in watts or kilowatts, battery energy in watt-hours, torque, weight and top speed. Two electric bikes with the same power can feel very different because of weight, gearing and the controller settings.
+
+### What riders switching from a 125cc dirt bike should look at
+For lighter trail and play riding, look at bikes around 50 kg with 6kW to 8kW of peak power. The [Sur-Ron Light Bee X](https://electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) is 6kW and 50 kg, the [Talaria XXX Black Edition](https://electricdirtbikeaustralia.com.au/shop/talaria-xxx-black-edition/) is 6.5kW and 50 kg, and the [Talaria Sting R MX4](https://electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) is 8kW and 63 kg. Prices run from $5,490 to $7,290 AUD.
+
+### Moving up from a 150cc dirt bike
+If you want more speed and range than a small trail bike, look at the 10kW to 12.5kW class: the [Rawrr Mantis 72V](https://electricdirtbikeaustralia.com.au/shop/rawrr-mantis-72v/) at 10kW, the [E-Ride Pro-SS 2.0](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-ss-2-0/) at 12kW and the [Sur-Ron Ultra Bee](https://electricdirtbikeaustralia.com.au/shop/sur-ron-ultra-bee/) at 12.5kW.
+
+### Riders coming from 250cc dirt bikes
+For full-size enduro and motocross riding, look at the highest-output bikes: the [E-Ride Pro-SR](https://electricdirtbikeaustralia.com.au/shop/e-ride-pro-sr/) at 15kW, the [Talaria Dragon](https://electricdirtbikeaustralia.com.au/shop/talaria-dragon-enduro/) at 28kW and the [Stark Varg](https://electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) at 60kW. Compare weight too, since the Dragon is 100 kg and the Stark Varg is 118 kg.
+
+### What changes when you go electric
+Electric dirt bikes are quiet, so you can ride where noise is a problem on private property. There are no oil changes, spark plugs or carburettor tuning, and a charge replaces a fuel stop. The trade-off is range, which is limited by battery size and listed as "up to" figures, and charging time. Our [electric vs petrol running costs](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-vs-petrol-motocross-running-costs/) guide compares the costs.
+
+### Safety and legal use
+Electric dirt bikes of this power are for private property and designated off-road areas, and you should wear a certified helmet and full gear. Whether a bike can be registered for the road depends on your state.
+
+### Next steps
+Browse all [electric dirt bikes for sale](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/), read the [electric dirt bike cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-cost-australia-price-guide/) and use our [adult electric dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/adult-electric-dirt-bike-australia-best-models/) to narrow your shortlist.
+
+### What to compare instead of cc
+Replace engine size with five numbers: peak power, battery energy, torque, weight and charge time. A bike like the Sur-Ron Light Bee X lists 6kW of peak power, a 2,400Wh battery, 50 kg and a 75 km/h top speed. The Talaria Sting R MX4 lists 8kW, 2,700Wh, 63 kg and 85 km/h. The E-Ride Pro-SR lists 15kW, 3,240Wh, 67 kg and 100+ km/h. Those numbers describe an electric bike more honestly than any cc equivalent.
+
+### A 125cc-style trail bike
+For riders who like a light, nimble trail bike, the 50 kg class is the closest feel. The Sur-Ron Light Bee X and Talaria XXX are both listed at 50 kg, 75 km/h and up to 80 to 100 km of range. They are quiet, they need no clutch and gearshifts and they can be ridden on private land where a petrol bike's noise would be a problem.
+
+### A 150cc-style all-rounder
+For riders who want more top speed and range, the 8kW to 12kW class fills the gap. The Sting R MX4 lists 85 km/h and 110 km of range, the Rawrr Mantis lists 10kW, 85 km/h and 90 km, and the E-Ride Pro-SS 2.0 lists 12kW, 95 km/h and 105 km. They are heavier at 63 kg to 65 kg, but still manageable for most adults.
+
+### A 250cc-style enduro or motocross bike
+For riders who want full-size power, the bikes with 15kW or more are the closest class: the E-Ride Pro-SR at 15kW, the Arctic Leopard at 15kW, the Talaria Dragon at 28kW and the Stark Varg at 60kW. Our [high-performance guide](https://electricdirtbikeaustralia.com.au/blog/high-performance-electric-dirt-bike-australia/) compares them.
+
+### Charging replaces refuelling
+A petrol rider fills a tank in minutes. An electric rider recharges a battery, which can take hours for a large pack, so plan for charging between sessions or buy a spare battery. Our [fast charger guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-fast-chargers-and-solar-generators/) explains charger options.
+
+### Maintenance differences
+Electric dirt bikes have no oil changes, spark plugs, air filter cleaning or carburettor tuning. They still need tyre, chain, brake and suspension care, and the battery needs proper charging and storage. See our [servicing cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-servicing-cost-guide-australia/).
+
+### Noise and where you can ride
+A quiet bike means fewer complaints on private land and a better ride experience, but it does not change the rules on where you may ride. Electric dirt bikes of this power are for private property and designated off-road areas.
+
+### Road registered options
+If you want road registered dirt bikes, an off-road electric dirt bike is not the answer. Road-registered electric bikes such as the NIU NQi GT or the Vmoto Soco TC-Max are listed as road-legal and LAMS approved, and our [electric moped and LAMS guide](https://electricdirtbikeaustralia.com.au/blog/electric-moped-vs-e-scooter-australia-lams-guide/) compares them. Rules differ by state, so check with your state transport authority.
+
+### Switching checklist
+Before you switch from a petrol dirt bike, decide where you will charge, how you will transport the bike, how much range you need per session and what you want to spend. Read the [electric dirt bike cost guide](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-cost-australia-price-guide/).
+
+### Learning to ride an electric bike if you ride petrol
+An electric dirt bike has no clutch lever and no gear shifting on most models, so the first adjustment is to use only the throttle and brakes. Torque arrives instantly, so be gentle on the throttle at low speed. Many electric bikes have regenerative braking, which slows the bike when you roll off the throttle and feels different from engine braking on a petrol bike. Spend a session on easy ground learning how the bike accelerates and brakes before you ride your usual trails.
+
+### Dealing with range and charging
+A petrol rider can carry fuel and refill in minutes, but an electric rider recharges a battery, which can take hours for a large pack. Plan sessions around the listed range, treat "up to" figures as the best case and keep a reserve. Charge on a hard non-flammable surface and follow the advice on the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).
+
+### What petrol riders gain and miss
+Riders who switch often mention the quiet running, the lack of oil changes and fuel handling, and the instant torque. What they miss is the long refuel-and-go range and the sound of the engine. Our guide to [electric vs petrol motocross running costs](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-vs-petrol-motocross-running-costs/) compares costs, and our [electric motorbike vs petrol guide](https://electricdirtbikeaustralia.com.au/blog/electric-motorbike-vs-petrol-australia-2026/) covers road bikes.
+
+### Which electric bike should a 125cc rider pick?
+If you ride light, nimble trails and want a bike near 50 kg, look at the Sur-Ron Light Bee X at $6,490 AUD or the Talaria XXX Black Edition at $5,490 AUD. If you want a bit more speed and range with a still manageable weight, look at the Talaria Sting R MX4 at $7,290 AUD or the Rawrr Mantis at $8,190 AUD. If you want a high-power bike with more battery for long days, look at the E-Ride Pro-SS 2.0 at $8,690 AUD. If you are moving from a 250cc enduro or motocross bike, look at the E-Ride Pro-SR, the Talaria Dragon or the Stark Varg. Finally, give yourself time to adapt. Most petrol riders are comfortable on an electric bike within a few sessions, but the first rides feel different because the bike is silent, there is no clutch and the torque is instant. Ride in a familiar place, use a lower power mode and enjoy the quiet.
+
+### Where to buy: 250 dirt bike for sale, electric alternative
+If you are looking at a 250 dirt bike for sale, the closest electric alternatives are the E-Ride Pro-SR at $9,990 AUD, the Talaria Dragon at $13,990 AUD and the Stark Varg models from $16,990 AUD. Shoppers who want road registered dirt bikes should look at our road-legal electric mopeds and motorcycles, and anyone comparing motorcycle dirt bikes for sale can browse every model on our [electric dirt bikes](https://electricdirtbikeaustralia.com.au/electric-dirt-bikes/) page. Free freight applies to orders over $1,500 AUD, crypto and PayID payments receive 10% off and each bike has a 12-month Australian warranty.
+
+### Quick answers
+
+What is the electric equivalent of a 125cc dirt bike? There is no exact equivalent because electric bikes have no engine size. Compare peak power, battery energy, torque and weight. Bikes like the Sur-Ron Light Bee X at 6kW and 50 kg are a common starting point.
+
+Do you sell 125cc, 150cc or 250cc petrol dirt bikes? No. We sell electric dirt bikes only, from about $5,490 AUD.
+
+What are the downsides of switching to an electric dirt bike? Range is limited by battery size and shown as "up to" figures, and recharging takes time. The upsides are quiet running and no oil changes, spark plugs or carburettor tuning.
+
+### Official sources and further reading
+For manufacturer information see the [Sur-Ron site](https://www.surron.com/) and the [Stark Future site](https://www.starkfuture.com/). For background on how electric motorcycles work see the [Wikipedia overview of electric motorcycles and scooters](https://en.wikipedia.org/wiki/Electric_motorcycles_and_scooters), and for battery safety see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).`,
+  },
+  {
+    slug: "kids-ebike-australia-evo-racing-lil-rippa-compared",
+    title: "Kids Ebike Australia: EVO Racing, Lil Rippa & Warrior Compared",
+    excerpt: "Compare kids ebike models in Australia: EVO Racing 16, 18 and 20 inch, the Lil Rippa fat tyre and the Warrior SX-E500, by motor, battery, range, speed and price.",
+    category: "Comparisons",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/ampd/evo-racing-16-electric-bike-1.jpg",
+    imageAlt: "EVO Racing 16 inch kids electric bike, one of the kids ebike models compared by motor, battery and price",
+    content: `A kids ebike is a small electric bike for children, and the right one depends on the child's height and age, the motor power and the battery. This guide compares the childs electric bike models we stock from Ampd Bros and RFN, using the specifications in our product listings. All of these are designed for private property and supervised off-road riding, not for public roads, and they should be used with a helmet and protective gear.
+
+### EVO Racing 16 inch
+The [EVO Racing 16 inch](https://electricdirtbikeaustralia.com.au/shop/evo-racing-16-electric-bike/) has a 350W brushless motor, a 24V 5Ah battery, up to 15 km of range and a 25 km/h top speed, with a 16 inch wheel, a seat height of 620 to 760 mm and a maximum load of 50 kg. It has parental controls and hydraulic disc brakes. It is $1,599 AUD.
+
+### EVO Racing 18 inch
+The [EVO Racing 18 inch](https://electricdirtbikeaustralia.com.au/shop/evo-racing-18-kids-electric-bike/) has a 500W motor, a 36V 5Ah battery, up to 15 km of range and a 30 km/h top speed, with a seat height of 660 to 760 mm and a 50 kg maximum load. It is $1,999 AUD.
+
+### EVO Racing 20 inch
+The [EVO Racing 20 inch](https://electricdirtbikeaustralia.com.au/shop/evo-racing-20-electric-bike/) has a 750W motor, a 36V 10Ah battery, up to 20 km of range and a 35 km/h top speed, with a seat height of 665 to 850 mm and a 70 kg maximum load. It is $2,399 AUD.
+
+### Lil Rippa 16 inch fat tyre
+The [Lil Rippa 16 inch kids electric bike](https://electricdirtbikeaustralia.com.au/shop/lil-rippa-16-kids-fat-electric-bike/) has a 500W hub motor and a 36V 13Ah, 468Wh removable battery, with 40 km or up to 120 minutes of range in Eco mode. The top speed is up to 35 km/h and can be limited. It weighs 20.58 kg, has 16 x 4.0 inch fat tyres and is recommended for riders 95 cm and taller, with a 100 kg maximum load. It is $1,999 AUD.
+
+### WARRIOR KIDS SX-E500
+The [Warrior Kids SX-E500](https://electricdirtbikeaustralia.com.au/shop/rfn-warrior-kids-sx-e500-electric-bike/) has a 500W motor (700W peak) with chain drive and a 36V 7.5Ah hot-swappable battery, up to 25 km or 1 hour 15 minutes of run time, a speed limit that can be adjusted up to 35 km/h, and 14 x 2.4 inch all-terrain tyres. It is $1,899 AUD, down from $2,299.
+
+### How to choose
+Pick by the child's height and the bike's seat height range first. Choose a bike with speed limiting or parental controls. Compare battery size and listed range, because a bigger battery means longer riding between charges. The Lil Rippa has the largest listed battery of the group.
+
+### Warranty and delivery
+These bikes are supplied and shipped by Ampd Bros from the Gold Coast, Queensland, with a 1-year supplier warranty (the Warrior SX-E500 is 1 year or 3,000 km under the RFN terms), and a signature is required on delivery. Supplier delivery estimates run from 2 to 6 days to QLD up to 16 days to WA and TAS.
+
+### Read next
+See the [kids electric bikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/) page and the [fat tyre electric bikes](https://electricdirtbikeaustralia.com.au/electric-fat-tyre-bikes/) page. Compare petrol-style kids bikes in our [childs dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/childs-dirt-bike-australia-electric-options/) and read the [kids electric bike buying guide](https://electricdirtbikeaustralia.com.au/blog/kids-electric-bike-buying-guide-australia/). For safety, see [e-bike safety in Australia](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/).
+
+### Battery energy and value
+Battery energy tells you how long a kids ebike can run. The EVO Racing 16 inch has a 24V 5Ah battery, about 120Wh. The EVO 18 inch has a 36V 5Ah battery, about 180Wh. The EVO 20 inch has a 36V 10Ah battery, about 360Wh. The Lil Rippa lists 468Wh, and the Warrior SX-E500 has a 36V 7.5Ah battery, about 270Wh. Dividing the price by watt-hours, the EVO 16 costs about $13.33 per Wh, the EVO 18 about $11.11, the EVO 20 about $6.66, the Warrior about $7.03 and the Lil Rippa about $4.27, so the Lil Rippa gives the most battery for the price.
+
+### Sizing a kids ebike by height
+Check the seat height range. The EVO 16 inch is 620 to 760 mm, the EVO 18 inch is 660 to 760 mm and the EVO 20 inch is 665 to 850 mm. The Lil Rippa has a 560 mm seat height and is recommended for riders 95 cm and taller. The Warrior has 14 inch wheels. A smaller child on a bike that is too big cannot reach the ground, so size down rather than up.
+
+### Maximum rider weight
+The EVO 16 and 18 inch are listed at a 50 kg maximum load, the EVO 20 inch at 70 kg and the Lil Rippa at 100 kg. Always respect the limit, because it affects brakes, frame and battery performance.
+
+### Speed control
+Most of these bikes can be limited. The EVO models have parental controls, the Lil Rippa top speed of up to 35 km/h can be limited, and the Warrior has an adjustable speed limit up to 35 km/h. Start with the limiter low and raise it as the child improves.
+
+### Fat tyres or all-terrain tyres
+The Lil Rippa has 16 x 4.0 inch fat off-road tyres, which grip softer ground such as sand and loose soil. The Warrior has 14 x 2.4 inch all-terrain tyres. The EVO bikes have 16, 18 and 20 inch wheels with hydraulic disc brakes. Match the tyre to where the child rides.
+
+### What counts as a mini bike
+Searches for a mini bike dirt bike often mean a small powered bike for children. The kids electric bikes in this guide are small, lightweight and quiet, and our [mini electric bikes](https://electricdirtbikeaustralia.com.au/electric-mini-bikes/) page lists larger compact models. For a first petrol-style feel in electric, see our [childs dirt bike guide](https://electricdirtbikeaustralia.com.au/blog/childs-dirt-bike-australia-electric-options/).
+
+### Warranty and delivery
+The EVO and Lil Rippa bikes carry a 1-year Ampd Bros nationwide warranty on kids e-bikes. The Warrior is 1 year or 3,000 km under the RFN terms. Bikes are shipped from Burleigh Heads on the Gold Coast by Toll Ipec with a signature required on delivery. Supplier estimates are 2 to 6 days to QLD, 5 to 10 days to NSW, 6 to 14 days to VIC, SA, ACT and NT and up to 16 days to WA and TAS.
+
+### Maintenance and care
+Check tyre pressure before every ride, keep the chain or drive clean, check the brakes and fasteners and store the battery cool and dry. Charge on a hard surface and never leave a battery charging unattended; our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/) explains battery safety in detail.
+
+### Where kids can ride
+These bikes are designed for private property and supervised riding, not public roads or paths. Check your state rules before riding anywhere else.
+
+### Teaching a child to ride an electric bike
+Start in an open, flat private area with the speed limiter on its lowest setting. Practise starting, stopping and turning before anything else, and teach the child to use both brakes. Stand close and supervise every ride. Raise the speed limit one step at a time only when the child is consistently in control, and never leave a child to ride alone on a bike they have not mastered.
+
+### Helmet fit and protective gear
+A helmet should sit level on the head, fit snugly without moving, and fasten under the chin. Add gloves, sturdy shoes, long sleeves and trousers, and knee and elbow guards for off-road riding. Replace a helmet after a significant impact, and buy the child's gear at the same time as the bike so it is never skipped.
+
+### A simple charging routine
+Charge on a hard non-flammable surface, use the charger supplied with the bike and do not leave the battery charging overnight in a living area or while you sleep. Let the battery cool after a ride before charging. The [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) lists the advice, and our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/) summarises it.
+
+### Fat tyre or standard kids ebike?
+Fat tyres give more grip and float on soft surfaces such as sand and loose soil, which suits a child riding on a farm, a beach or a bush track. A standard all-terrain tyre rolls more easily on hard ground and tends to suit a child who rides on a flat, firm private area. The Lil Rippa is the fat tyre option in this comparison, and the EVO Racing and Warrior bikes use more conventional tyres. Choose the tyre for where the child will actually ride, and revisit the choice as the child grows.
+
+### Where to buy: cheap electric bikes for sale for kids
+Looking for cheap electric bikes for sale for children? The kids bikes in this guide run from $1,599 AUD for the EVO Racing 16 inch to $2,399 AUD for the EVO Racing 20 inch, with the Warrior SX-E500 at $1,899 AUD, reduced from $2,299. For a mini bike dirt bike feel in electric, compare them on our [kids electric bikes](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/) and [fat tyre electric bikes](https://electricdirtbikeaustralia.com.au/electric-fat-tyre-bikes/) pages. If you want an electric bike for sale Melbourne families can order online, the supplier lists 6 to 14 days delivery to Victoria and our [Melbourne delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/melbourne/) explains freight. Crypto and PayID payments receive 10% off.
+
+### Quick answers
+
+What is the cheapest kids ebike you sell? The EVO Racing 16 inch is $1,599 AUD, with a 350W motor and a 25 km/h top speed.
+
+Which kids ebike has the longest range? The Lil Rippa 16 inch is listed at 40 km or up to 120 minutes in Eco mode, the longest range in this comparison.
+
+Are these kids ebikes road legal? No. They are designed for private property and supervised off-road riding, with a helmet and protective gear.
+
+### Official sources and further reading
+For battery and product safety see the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices), the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety) and the [ACCC Product Safety page](https://www.productsafety.gov.au/business/e-bikes-e-scooters-and-other-e-micromobility-devices). For how e-bikes work see the [Wikipedia article on electric bicycles](https://en.wikipedia.org/wiki/Electric_bicycle).`,
+  },
+  {
+    slug: "electric-moped-vs-e-scooter-australia-lams-guide",
+    title: "Moped E Scooter Australia: LAMS, Licence, Range & Prices",
+    excerpt: "Moped or e scooter? Compare electric mopeds and motorcycles in Australia by power, range, LAMS approval and price: NIU NQi GT, Super Soco CPx and Vmoto TC-Max.",
+    category: "Comparisons",
+    date: "2026-10-06",
+    readTime: "7 min read",
+    image: "/images/product-super-soco-cpx.jpg",
+    imageAlt: "Super Soco CPx electric moped, road-legal electric moped sold in Australia, compared with other mopeds and e-scooters",
+    content: `People searching for a moped e scooter are usually weighing a small electric scooter against an electric moped or motorcycle. The difference matters for the law: electric mopeds and motorcycles are road vehicles that need registration and a licence, while e-scooter rules are set separately by each state and territory. This guide compares the electric mopeds and motorcycles in our range using the specifications in our product listings. We do not sell kick scooters, so check your state's rules if you are considering one.
+
+### NIU NQi GT
+The [NIU NQi GT electric moped](https://electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) is listed as road-legal and LAMS approved, legal for L and P-plate riders in all states, with a 3,000 watt motor, a 72V 26Ah dual removable lithium battery, a 70 km/h top speed, up to 100 km of range on the dual battery and a 98 kg weight. It is $5,990 AUD, down from $6,490.
+
+### Super Soco CPx
+The [Super Soco CPx](https://electricdirtbikeaustralia.com.au/shop/super-soco-cpx-electric-moped/) has a 3kW motor, a 60V 30Ah removable battery, a 65 km/h top speed, up to 90 km of range and an 85 kg weight. It has keyless Bluetooth start and regenerative braking, and the battery can be removed to charge at home or in an office. It is $5,490 AUD.
+
+### Vmoto Soco TC-Max
+The [Vmoto Soco TC-Max](https://electricdirtbikeaustralia.com.au/shop/vmoto-soco-tc-max-electric/) is a 5kW electric motorcycle with a dual removable 4.8kWh battery, a 95 km/h top speed, up to 120 km of range, WP adjustable suspension and a 117 kg weight. It is listed as LAMS compliant for road registration, at $8,990 AUD.
+
+### Electric bike alternative: 250W commuter
+If you want something lighter that follows e-bike rules, the [RTR eBike Pro](https://electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) is a 250W commuter with a 25 km/h assist limit, up to 80 km of range, Shimano 7-speed gears and a 22 kg weight, at $3,490 AUD. E-bike rules differ by state, so read our guides to [electric bike laws in QLD](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and [electric bike regulations in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/).
+
+### LAMS, licence and registration
+LAMS lets learner and provisional motorcycle licence holders ride approved bikes. A moped or motorcycle needs registration and the correct licence class in your state, and insurance is a separate decision. Our guides to [road legal electric motorcycles](https://electricdirtbikeaustralia.com.au/blog/road-legal-electric-motorcycle-australia-guide/) and [electric bike registration in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-registration-nsw-guide/) explain more.
+
+### E-scooter rules
+E-scooters are regulated differently from e-bikes and mopeds, and private e-scooter rules vary by state and territory. The [NSW Government e-bikes and e-scooters page](https://www.nsw.gov.au/driving-boating-and-transport/bikes-e-bikes-e-scooters) is one official place to check how a state treats them.
+
+### Which should you choose?
+Choose an electric moped or motorcycle if you want road speed above 25 km/h, a longer range and a seat. Choose a 250W e-bike if you want a lighter bike under e-bike rules. See our full [electric mopeds for sale](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/commuter-mopeds/) range, the [electric motorcycles](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) page and our [Australian electric motorcycle guide](https://electricdirtbikeaustralia.com.au/blog/australian-electric-motorcycle-guide-2026/).
+
+### Moped prices and cost per kilometre
+Moped prices in our range are $5,490 AUD for the Super Soco CPx, $5,990 AUD for the NIU NQi GT and $8,990 AUD for the Vmoto Soco TC-Max. Dividing price by listed range gives about $61 per listed kilometre for the Super Soco CPx, about $60 for the NIU NQi GT and about $75 for the Vmoto, while the RTR eBike Pro at $3,490 AUD and 80 km works out at about $44 per kilometre. Range figures are "up to" values, so the comparison is a guide, not a promise.
+
+### Batteries and charging at home
+The Super Soco CPx has a 60V 30Ah removable battery, about 1,800Wh, and the Vmoto Soco TC-Max has a dual removable 4.8kWh battery. Removable batteries let you charge indoors or in an office. Follow the charging and storage advice in our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/), including charging on a hard surface, never leaving a battery charging overnight in a living area and using the right charger.
+
+### Weight and handling
+The Super Soco is listed at 85 kg, the NIU at 98 kg and the Vmoto at 117 kg, against 22 kg for the RTR eBike Pro. A moped's weight gives it stability at speed but makes it harder to move by hand, so check where you will park and store it.
+
+### City commuting or suburban riding
+For short urban trips at speeds up to 65 to 70 km/h, the NIU NQi GT and Super Soco CPx fit well. For faster suburban roads and longer trips, the Vmoto Soco TC-Max has a 95 km/h top speed and 120 km of listed range. For quiet paths and light commuting under e-bike rules, the RTR eBike Pro is lighter and cheaper.
+
+### Learner, provisional and full licences
+LAMS-approved bikes can be ridden by learner and provisional motorcycle licence holders, and our listing for the NIU NQi GT says it is legal for L and P-plate riders in all states. Moped and motorcycle licensing differs by state, so check your state authority for the licence class needed for each model and whether a moped is treated as a motorcycle in your state.
+
+### Registration and insurance
+Mopeds and motorcycles need registration, and compulsory third-party insurance is arranged differently in each state, so check your state authority. Optional insurance for theft or damage is a separate decision. For process details see [electric bike registration in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-registration-nsw-guide/).
+
+### Safety gear
+Wear an approved motorcycle helmet, gloves, a jacket and sturdy footwear. A moped is a road vehicle, and a fall at 60 km/h is more serious than a bike fall at 25 km/h.
+
+### E-scooters in more detail
+E-scooters are regulated separately, and the rules on where and how private e-scooters can be used differ by state and territory. The [NSW Government e-bikes and e-scooters page](https://www.nsw.gov.au/driving-boating-and-transport/bikes-e-bikes-e-scooters) is one official place to check, and other states have similar pages. We do not sell kick scooters, so this guide focuses on mopeds and motorcycles.
+
+### Compare more
+See the full [electric mopeds for sale](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/commuter-mopeds/) range, the [electric motorcycles](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) category and our [RTR eBike vs Super Soco CPx comparison](https://electricdirtbikeaustralia.com.au/blog/rtr-ebike-vs-super-soco-cpx-commuter-comparison/).
+
+### Test ride and ownership checklist
+When you test an electric moped, check how smoothly it pulls away, how the regenerative braking feels, how easy the removable battery is to release and carry, and how comfortable the seat and bars are. Ask about the warranty, the battery warranty and the availability of parts and service. Check where you will park and charge the bike and how you will lock it.
+
+### Security and storage
+Mopeds are a theft target, so use a strong disc lock or chain, park in a well-lit place and consider a ground anchor at home. Remove the battery if the design allows and take it indoors when you are away for a long time, and store it according to the manufacturer's advice. Follow the charging advice on the [NSW Government lithium-ion battery page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).
+
+### Daily use and range planning
+Plan trips around the real range, not the best-case figure. Cold weather, hills, a heavy rider and high speeds all reduce range. If your daily distance is close to the listed range, choose the bike with the larger battery or a dual removable battery, such as the NIU NQi GT or the Vmoto Soco TC-Max.
+
+### Moped or 250W e-bike: a quick decision guide
+Choose a moped or motorcycle if you need speeds above 25 km/h, a longer range, a seat for a longer commute and you are happy to register the bike and hold the right licence. Choose a 250 watt e-bike if you want a light bike that follows e-bike rules, can be stored easily and does not need registration. If you are on a learner or provisional motorcycle licence, ask about LAMS approval. If you commute in traffic every day, a moped's speed may matter more than an e-bike's low running costs. Read the [Queensland](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and [NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/) e-bike guides for the e-bike rules. Take time to compare insurance quotes and registration costs for your state before you buy, and ask the seller which accessories, such as a top box, a phone mount and a windscreen, are available for the model you choose. Check the service arrangements so that you know where to take the bike for servicing.
+
+### Where to buy: moped prices and road registered electric bikes
+Checking moped prices? The three road-legal models in this guide are $5,490 AUD, $5,990 AUD and $8,990 AUD. If you want a road registered electric bike, the NIU NQi GT is listed as road-legal and LAMS approved and the Vmoto Soco TC-Max is listed as LAMS compliant for road registration. For electric road bikes for sale, browse our [electric mopeds](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/commuter-mopeds/) and [electric motorcycles](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) pages. Free freight applies on orders over $1,500 AUD, crypto and PayID payments receive 10% off and each bike has a 12-month Australian warranty.
+
+### Quick answers
+
+Which electric moped is LAMS approved? The NIU NQi GT is listed as road-legal and LAMS approved, legal for L and P-plate riders in all states.
+
+How far can an electric moped go on one charge? Our listings show up to 100 km for the NIU NQi GT on its dual battery, 90 km for the Super Soco CPx and 120 km for the Vmoto Soco TC-Max.
+
+What is the difference between an electric moped and an e-scooter? Mopeds and motorcycles are road vehicles that need registration and a licence. E-scooter rules are set separately by each state and territory, so check your state authority.
+
+### Official sources and further reading
+For background on how electric motorcycles and scooters work see the [Wikipedia overview](https://en.wikipedia.org/wiki/Electric_motorcycles_and_scooters). For e-scooter and e-bike rules see the [NSW Government e-bikes and e-scooters page](https://www.nsw.gov.au/driving-boating-and-transport/bikes-e-bikes-e-scooters). For battery safety see the [Queensland Fire Department page](https://www.fire.qld.gov.au/safety-education/battery-and-charging-safety/lithium-ion-battery-safety).`,
+  },
 ];
 
 export const COMPLIANCE = {

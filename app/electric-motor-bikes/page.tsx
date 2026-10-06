@@ -9,6 +9,7 @@ import { Zap, ShieldCheck, FileText, CheckCircle } from 'lucide-react';
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 const seo = seoFor('/electric-motor-bikes/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -196,6 +197,9 @@ export default function ElectricMotorBikesPage() {
 
           <ProductPager groups={[{ items: motorBikes }]} />
         </div>
+
+        <RelatedGuides path="/electric-motor-bikes/" />
+
 
         <AuthorityLinks path="/electric-motor-bikes/" />
 

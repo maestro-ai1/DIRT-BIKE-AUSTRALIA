@@ -9,6 +9,7 @@ import { Zap, ShieldCheck, ArrowRight, CheckCircle, Gauge, Battery, MapPin } fro
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 
 // Category page for the broad "electric bike / e bike" demand (Semrush AU: electric bike 27,100, e bike 22,200,
 // electric bikes for sale 1,600). Main keyword: electric bikes for sale (transactional). Primary: electric bike, e bike, electric bikes.
@@ -180,6 +181,9 @@ export default function ElectricBikesPage() {
             <li><Link href="/electric-dirt-bikes/" className="text-sky-700 font-semibold hover:underline">Electric dirt bikes for sale</Link></li>
           </ul>
         </section>
+
+        <RelatedGuides path="/electric-bikes/" />
+
 
         <AuthorityLinks path="/electric-bikes/" />
 

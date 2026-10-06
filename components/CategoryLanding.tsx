@@ -6,6 +6,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { CheckCircle, MapPin } from 'lucide-react';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { RelatedGuides } from '@/components/RelatedGuides';
 
 // Shared landing page for keyword categories and city pages. Lists only products that exist in PRODUCTS.
 export interface LandingGroup { id: string; heading: string; blurb: string; slugs: string[]; }
@@ -100,6 +101,9 @@ export function CategoryLanding({ path, crumbs, eyebrow, h1, intro, chips = [], 
             </ul>
           </section>
         )}
+
+        <RelatedGuides path={path} />
+
 
         <AuthorityLinks path={path} />
 
