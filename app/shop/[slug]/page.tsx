@@ -100,6 +100,24 @@ export default async function ProductDetailPage({ params }: Props) {
         priceCurrency: 'AUD',
         price: product.price,
         priceValidUntil: '2027-12-31',
+        validFrom: '2026-10-07',
+        hasMerchantReturnPolicy: {
+          '@type': 'MerchantReturnPolicy',
+          applicableCountry: 'AU',
+          returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
+          merchantReturnDays: 14,
+          merchantReturnLink: `https://${SITE.domain}/returns-policy/`,
+        },
+        // Free freight applies on orders over $1,500 AUD (store policy); below that the rate is confirmed at checkout, so no rate is published.
+        ...(product.price > 1500
+          ? {
+              shippingDetails: {
+                '@type': 'OfferShippingDetails',
+                shippingRate: { '@type': 'MonetaryAmount', value: 0, currency: 'AUD' },
+                shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' },
+              },
+            }
+          : {}),
         itemCondition: 'https://schema.org/NewCondition',
         availability: product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/PreOrder',
         seller: {
