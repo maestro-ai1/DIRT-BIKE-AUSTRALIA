@@ -16,4 +16,10 @@ export const RELATED_GUIDES: Record<string, string[]> = {
   '/electric-motorcycles/': ['australian-electric-motorcycle-guide-2026', 'electric-moped-vs-e-scooter-australia-lams-guide', 'high-performance-electric-dirt-bike-australia'],
   '/brands/': ['e-ride-pro-australia-buyers-guide', 'e-ride-pro-ss-2-0-vs-sr-specs-price'],
   '/accessories/': ['e-bike-safety-australia-guide'],
+  '/electric-dirt-bikes/sur-ron/': ['sur-ron-electric-bike-price-australia', 'sur-ron-light-bee-x-price-australia-what-you-get', 'sur-ron-horsepower-power-specs-explained', 'essential-aftermarket-mods-for-surron-light-bee-x'],
+  '/electric-dirt-bikes/cheap/': ['cheapest-electric-dirt-bike-australia-price-ladder', 'electric-dirt-bike-cost-australia-price-guide', 'electric-dirt-bike-finance-payment-plans-australia'],
+  '/electric-dirt-bikes/kids/': ['childrens-dirt-bike-electric-sizing-safety-guide', 'electric-dirt-bike-for-12-year-olds-australia', 'dirt-bike-for-kids-electric-buying-checklist', 'electric-mini-dirt-bike-australia-guide'],
+  '/electric-bike-batteries/': ['e-bike-battery-guide-voltage-capacity-range', 'e-bike-battery-replacement-australia-cost-guide', 'e-bike-battery-charger-guide-australia', 'battery-for-an-electric-bike-buying-safety-checklist'],
+  '/electric-pit-bikes/': ['electric-pit-bike-australia-guide', 'electric-mini-dirt-bike-australia-guide', 'dirt-bike-for-kids-electric-buying-checklist'],
+  '/electric-balance-bikes/': ['dirt-bike-for-kids-electric-buying-checklist', 'childrens-dirt-bike-electric-sizing-safety-guide', 'what-age-can-kids-ride-electric-dirt-bikes'],
 };

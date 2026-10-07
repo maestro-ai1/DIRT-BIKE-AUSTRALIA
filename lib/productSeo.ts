@@ -1,11 +1,12 @@
 // lib/productSeo.ts
-// Product tags (15+ per product) and product Q&A (8+ per product).
+// Product tags (20 per product): product-name tags (incl. for sale / buy / price) plus Commercial-intent keywords and product Q&A (8+ per product).
 // Allocation rule: Transactional + Commercial Semrush keywords -> product tags and product Q&A.
 // Every fact in an answer comes from the product's own data (price, specs) or from site policy
 // (12-month warranty, free freight over $1,500, 10% crypto/PayID discount, Mittagong NSW dispatch). Nothing is invented.
 // Tag keyword pools below are all taken from the Semrush AU export (25 Sep 2026); volumes are in comments.
 
 import { SHOP } from '@/src/config/site';
+import { C_TAG_POOL } from './productTagPool';
 
 export interface ProductFaq { question: string; answer: string; }
 export interface ProductTag { label: string; href?: string; }
@@ -17,9 +18,13 @@ interface P {
   source?: string; warranty?: string; shipping?: string; legalNote?: string;
 }
 
-export type ProductKind = 'offroad' | 'motocross' | 'kids' | 'ebike' | 'emoto' | 'moped' | 'battery' | 'charger' | 'part' | 'fattyre' | 'cruiser' | 'mini';
+export type ProductKind = 'pit' | 'balance' | 'offroad' | 'motocross' | 'kids' | 'ebike' | 'emoto' | 'moped' | 'battery' | 'charger' | 'part' | 'fattyre' | 'cruiser' | 'mini';
 
 export function productKind(p: P): ProductKind {
+  if (p.category === 'pit-bikes') return 'pit';
+  if (p.category === 'balance-bikes') return 'balance';
+  if (p.source === 'old-site' && p.category === 'kids-ebikes') return 'kids';
+  if (p.source === 'old-site' && p.category === 'fat-tyre-ebikes') return 'fattyre';
   if (/razor|ktm-|husqvarna|oset|edba-moto|torrot|x160|evo-racing|lil-rippa|rfn-warrior/.test(p.slug)) return 'kids';
   if (/^(chubbie|riptide)/.test(p.slug)) return 'cruiser';
   if (/mini/.test(p.slug) && /^ace-/.test(p.slug)) return 'mini';
@@ -36,6 +41,8 @@ export function productKind(p: P): ProductKind {
 // ---- Keyword pools (Semrush AU). T = Transactional label, C = Commercial label, * = no label (10-49/mo, inferred) ----
 const GENERIC_EBIKE_T = ['electric bikes for sale', 'e-bikes for sale', 'electric bike price', 'buy electric bike australia']; // Transactional: 1,600 / 320 / 480 / 90
 const POOL: Record<ProductKind, string[]> = {
+  pit: ['electric pit bike', 'electric pit bikes', 'e pit bike', 'fast electric pit bike', 'electric pitbike'],
+  balance: ['electric balance bike australia'],
   fattyre: [
     'electric fat bike', // C 720
     'best fat tyre electric bike australia', // C 320
@@ -238,6 +245,7 @@ const POOL: Record<ProductKind, string[]> = {
 export const TAG_POOLS = POOL;
 
 const HREF: Record<ProductKind, string> = {
+  pit: '/electric-pit-bikes/', balance: '/electric-balance-bikes/',
   fattyre: '/electric-fat-tyre-bikes/', cruiser: '/electric-fat-tyre-bikes/', mini: '/electric-mini-bikes/',
   offroad: '/electric-dirt-bikes/', motocross: '/electric-dirt-bikes/', kids: '/electric-motor-bikes/kids/', ebike: '/electric-bikes/',
   emoto: '/electric-bikes/', moped: '/electric-motor-bikes/commuter-mopeds/', battery: '/accessories/', charger: '/accessories/', part: '/accessories/',
@@ -275,6 +283,24 @@ const NOUNS: Array<[RegExp, string[]]> = [
   [/backpack|harness/, ['battery carry bag', 'battery backpack', 'battery transport']],
 ];
 
+// Transactional keywords (SEMrush AU, full bank) used as tags; 2 to 3 per product type so turnover phrases appear on every product page.
+const T_TAGS: Record<string, string[]> = {
+  offroad: ['electric dirt bike for sale', 'electric dirt bikes for sale', 'electric bikes for sale'],
+  motocross: ['electric dirt bike for sale', 'electric dirt bikes for sale'],
+  pit: ['electric pit bike for sale', 'electric dirt bike for sale', 'electric bikes for sale'],
+  balance: ['electric balance bike for sale', 'electric bikes for sale'],
+  kids: ['electric dirt bike for sale', 'electric bikes for sale'],
+  ebike: ['electric bikes for sale', 'e-bikes for sale', 'electric bike price'],
+  emoto: ['electric bikes for sale', 'electric bike price'],
+  moped: ['electric motorcycle for sale', 'electric motorbikes for sale', 'moped prices'],
+  fattyre: ['electric bikes for sale', 'e bike price', 'cheap electric bikes for sale'],
+  cruiser: ['electric bikes for sale', 'e bike price'],
+  mini: ['electric bikes for sale', 'e bike price'],
+  battery: ['e bike parts australia', 'electric bike parts australia'],
+  charger: ['e bike parts australia', 'electric bike parts australia'],
+  part: ['e bike parts australia', 'electric bike parts australia'],
+};
+
 export function getProductTags(p: P): ProductTag[] {
   const kind = productKind(p);
   const short = shortName(p.name);
@@ -302,7 +328,7 @@ export function getProductTags(p: P): ProductTag[] {
   const wNum = power.match(/([\d,]{3,6})\s*Watts?/i)?.[1];
   const watts = kwNum ? Math.round(parseFloat(kwNum) * 1000) : wNum ? parseInt(wNum.replace(/,/g, ''), 10) : undefined;
   const powerLabel = watts ? (watts < 1000 ? watts + 'W' : (watts / 1000) + 'kW') : undefined;
-  const noun = kind === 'moped' ? 'electric moped' : kind === 'ebike' ? 'electric bike' : kind === 'kids' ? 'kids electric bike' : kind === 'emoto' || kind === 'fattyre' || kind === 'cruiser' ? 'electric bike' : kind === 'mini' ? 'mini electric bike' : kind === 'battery' ? 'lithium battery' : kind === 'offroad' || kind === 'motocross' ? 'electric dirt bike' : '';
+  const noun = kind === 'moped' ? 'electric moped' : kind === 'ebike' ? 'electric bike' : kind === 'kids' || kind === 'balance' ? 'kids electric bike' : kind === 'emoto' || kind === 'fattyre' || kind === 'cruiser' ? 'electric bike' : kind === 'mini' ? 'mini electric bike' : kind === 'battery' ? 'lithium battery' : kind === 'offroad' || kind === 'motocross' || kind === 'pit' ? 'electric dirt bike' : '';
   if (v && noun) add(`${v}V ${noun}`, HREF[kind]);
   if (powerLabel && vehicle && noun) add(`${powerLabel} ${noun}`, HREF[kind]);
   const age = spec(p, 'riderAge')?.match(/Ages?\s*([\d–\-+]+)/i)?.[1];
@@ -313,16 +339,40 @@ export function getProductTags(p: P): ProductTag[] {
     const text = `${p.shortDescription || ''} ${p.description || ''}`;
     for (const b of ['Sur-Ron', 'Talaria', 'Segway']) if (text.includes(b)) add(`${b} ${kind === 'battery' ? 'battery upgrade' : kind === 'charger' ? 'charger' : 'parts'}`, HREF[kind]);
   }
-  // 4. Semrush keyword tags: rotate through the pool so tag sets differ between products
-  const pool = POOL[kind];
-  const start = hash(p.slug) % pool.length;
+  // 3b. Transactional tags for the product type (high-volume buyer phrases), then 4. Commercial tags
+  for (const kw of T_TAGS[kind] ?? []) add(kw, kw.includes('motor') ? '/electric-motor-bikes/' : HREF[kind]);
+  // 4. Commercial-intent Semrush keyword tags (see lib/productTagPool.ts): rotate through the pool so tag sets differ between products. Always 20 tags.
+  const pool = C_TAG_POOL[kind] ?? [];
+  const start = pool.length ? hash(p.slug) % pool.length : 0;
   for (let i = 0; i < pool.length && out.length < 20; i++) {
     const kw = pool[(start + i) % pool.length];
     const special = SPECIAL_HREF.find(([re]) => re.test(kw));
     add(kw, special ? special[1] : HREF[kind]);
   }
-  // 5. Guarantee at least 15
-  for (const kw of pool) { if (out.length >= 15) break; add(kw, HREF[kind]); }
+  return out.slice(0, 20);
+}
+
+// Image alt text: product name plus the Commercial keyword for the product type (not just the bare name).
+const ALT_KEYWORD: Record<ProductKind, string> = {
+  pit: 'electric pit bike', balance: 'electric balance bike',
+  offroad: 'electric dirt bike', motocross: 'electric motocross bike', kids: 'kids electric bike', ebike: 'electric bike', emoto: 'electric off road bike',
+  moped: 'electric moped', battery: 'electric bike battery', charger: 'e bike battery charger', part: 'electric dirt bike parts',
+  fattyre: 'fat tyre electric bike', cruiser: 'e bike cruiser', mini: 'mini electric bike',
+};
+export function productImageAlt(p: { slug: string; name: string; category: string }, view?: number): string {
+  const base = `${shortName(p.name)} ${ALT_KEYWORD[productKind(p as P)]}`;
+  return view && view > 0 ? `${base} view ${view + 1}` : base;
+}
+
+// Short feature list (5 lines max) shown above the full description, in the style of a simple spec list.
+const FEATURE_KEYS: [string, string][] = [['motorPeak', 'Motor'], ['motor', 'Motor'], ['battery', 'Battery'], ['voltage', 'Voltage'], ['capacity', 'Capacity'], ['topSpeed', 'Top speed'], ['range', 'Range'], ['weight', 'Weight'], ['chargeTime', 'Charge time'], ['riderAge', 'Rider age'], ['compatibility', 'Fits']];
+export function getKeyFeatures(p: P): { label: string; value: string }[] {
+  const out: { label: string; value: string }[] = [];
+  const seen = new Set<string>();
+  for (const [k, label] of FEATURE_KEYS) {
+    const v = p.specs?.[k];
+    if (v && !seen.has(label) && out.length < 5) { seen.add(label); out.push({ label, value: v }); }
+  }
   return out;
 }
 
@@ -339,6 +389,7 @@ export function getProductFaqs(p: P): ProductFaq[] {
   const topSpeed = spec(p, 'topSpeed'), range = spec(p, 'range'), battery = spec(p, 'battery'), power = spec(p, 'motorPeak'), weight = spec(p, 'weight');
   const charge = spec(p, 'chargeTime'), torque = spec(p, 'torque'), age = spec(p, 'riderAge'), legal = spec(p, 'legal'), safety = spec(p, 'safety');
   const label: Record<ProductKind, string> = {
+    pit: 'electric pit bike', balance: 'kids electric balance bike',
     offroad: 'electric dirt bike', motocross: 'electric motocross bike', kids: 'kids electric bike', ebike: 'electric bike', emoto: 'electric bike',
     moped: 'electric moped', battery: 'electric dirt bike battery', charger: 'electric dirt bike charger', part: 'electric dirt bike part',
     fattyre: 'fat tyre electric bike', cruiser: 'electric beach cruiser', mini: 'mini electric bike',
@@ -348,6 +399,8 @@ export function getProductFaqs(p: P): ProductFaq[] {
 
   // Where to buy (transactional)
   const where: Record<ProductKind, string> = {
+    pit: `Where can I buy the ${short} electric pit bike for sale in Australia?`,
+    balance: `Where can I buy the ${short} electric balance bike in Australia?`,
     offroad: `Where can I buy the ${short} electric dirt bike for sale in Australia?`,
     motocross: `Where can I buy the ${short} electric motocross bike in Australia?`,
     kids: `Where can I buy the ${short} kids electric bike in Australia?`,
@@ -361,21 +414,24 @@ export function getProductFaqs(p: P): ProductFaq[] {
     cruiser: `Where can I buy the ${short} electric beach cruiser in Australia?`,
     mini: `Where can I buy the ${short} mini electric bike in Australia?`,
   };
-  const amp = p.source === 'ampd-bros';
-  if (amp) q(where[kind], `The ${short} is for sale at Electric Dirt Bike Australia for ${price} AUD${was}. It is supplied and shipped by Ampd Bros from the Gold Coast, QLD, with delivery Australia-wide. Add it to your cart on this page and put your frame, colour and road-compliant or off-road choice in the order note at checkout.`);
+  const ampd = p.source === 'ampd-bros';
+  const old = p.source === 'old-site';
+  const amp = ampd || old;
+  if (old) q(where[kind], `The ${short} is for sale at Electric Dirt Bike Australia for ${price} AUD${was}. ${p.shipping} Add it to your cart on this page and complete checkout, or message us on WhatsApp with questions first.`);
+  else if (ampd) q(where[kind], `The ${short} is for sale at Electric Dirt Bike Australia for ${price} AUD${was}. It is supplied and shipped by Ampd Bros from the Gold Coast, QLD, with delivery Australia-wide. Add it to your cart on this page and put your frame, colour and road-compliant or off-road choice in the order note at checkout.`);
   else q(where[kind], `The ${short} is for sale at Electric Dirt Bike Australia for ${price} AUD${was}. We dispatch Australia-wide from our Mittagong NSW 2575 workshop${free ? ', and freight is free because the order is over $1,500 AUD' : ' (free freight applies to orders over $1,500 AUD)'}. Add it to your cart on this page, or message us on WhatsApp to check stock and delivery to your postcode.`);
 
   // Price
   q(`How much is the ${short} in Australia?`, `The ${short} costs ${price} AUD including GST${was}. Pay with crypto or PayID and you save ${SHOP.cryptoDiscount}%, which brings the price to ${crypto} AUD. A full tax invoice is issued with every order.`);
 
   // Type-specific
-  if (kind === 'offroad' || kind === 'motocross') {
+  if (kind === 'offroad' || kind === 'motocross' || kind === 'pit') {
     q(`Is the ${short} a good electric dirt bike for adults?`, `${[power && `The ${short} has ${power}`, battery && `a ${battery} battery`, weight && `and weighs ${weight}`].filter(Boolean).join(', ').replace(', and', ' and')}${power || battery || weight ? '. ' : ''}Check the full specifications on this page against your riding experience and weight. Our workshop team can help you choose between models on WhatsApp.`);
     if (topSpeed) q(`How fast is the ${short}?`, `The ${short} has a listed top speed of ${topSpeed}. Real speed depends on rider weight, terrain, battery charge and the power mode selected.`);
     if (range || battery) q(`How far does the ${short} go on one charge, and how long does it take to charge?`, `${range ? `Listed range is ${range}. ` : ''}${battery ? `The battery is ${battery}. ` : ''}${charge ? `Charge time is ${charge}. ` : ''}Range varies with terrain, rider weight and riding style.`);
     q(`How much power does the ${short} produce?`, `${power ? `The listed motor output is ${power}.` : 'See the specification list on this page for the motor output.'}${torque ? ` Torque is ${torque}.` : ''}${spec(p, 'suspension') ? ` Suspension: ${spec(p, 'suspension')}.` : ''}${spec(p, 'modes') ? ` Modes: ${spec(p, 'modes')}.` : ''}`);
     q(`Is the ${short} road legal in Australia?`, amp && p.legalNote ? p.legalNote : `The ${short} is supplied as an off-road recreational electric bike for private property and designated off-road parks. Whether any bike can be registered for road use depends on your state's rules, so check with your state transport authority (for example TfNSW, VicRoads or Queensland TMR) before riding on public roads.`);
-  } else if (kind === 'kids') {
+  } else if (kind === 'kids' || kind === 'balance') {
     q(`What age is the ${short} suitable for?`, `${age ? `The listed rider range is ${age}.` : `See the specifications on this page for the recommended rider age and weight.`} Always supervise young riders and check the rider limits before you order. Our team can help you match a kids electric bike to your child's age and size on WhatsApp.`);
     if (topSpeed) q(`How fast does the ${short} go?`, `The ${short} has a listed top speed of ${topSpeed}${spec(p, 'modes') ? ` and ${spec(p, 'modes')}` : ''}.`);
     if (safety) q(`What safety features does the ${short} have?`, `Listed safety features: ${safety}. Always supervise children and use proper protective gear.`);
@@ -386,7 +442,7 @@ export function getProductFaqs(p: P): ProductFaq[] {
     q(`Do I need a licence or registration to ride the ${short}?`, `${amp && p.legalNote ? p.legalNote : legal ? `${legal}.` : 'See the specifications on this page.'} Rules can vary by state, so check with your state transport authority and read our electric bike laws guide.`);
     if (range || battery) q(`How far can the ${short} go on a charge?`, `${range ? `Listed range is ${range}. ` : ''}${battery ? `The battery is ${battery}. ` : ''}Real-world range depends on assist level, rider weight and terrain.`);
     q(`What are the key specifications of the ${short} e bike?`, `${[power && `Motor: ${power}`, topSpeed && `Speed: ${topSpeed}`, spec(p, 'gears') && `Gears: ${spec(p, 'gears')}`, weight && `Weight: ${weight}`].filter(Boolean).join('. ')}.`);
-    q(`Can I buy the ${short} in Sydney, Melbourne, Brisbane or Perth?`, amp ? `Yes. We deliver to every state, including Sydney, Melbourne, Brisbane, Perth and Adelaide. Supplier delivery estimates for bikes run from 2-6 days (QLD) to up to 16 days (WA/TAS).` : `Yes. We deliver electric bikes to every state from Mittagong NSW, including Sydney, Melbourne, Brisbane, Perth and Adelaide. ${free ? 'Freight is free on this order.' : 'Free freight applies to orders over $1,500 AUD.'}`);
+    q(`Can I buy the ${short} in Sydney, Melbourne, Brisbane or Perth?`, amp ? old ? `Yes. We deliver to every state, including Sydney, Melbourne, Brisbane, Perth and Adelaide. ${p.shipping}` : `Yes. We deliver to every state, including Sydney, Melbourne, Brisbane, Perth and Adelaide. Supplier delivery estimates for bikes run from 2-6 days (QLD) to up to 16 days (WA/TAS).` : `Yes. We deliver electric bikes to every state from Mittagong NSW, including Sydney, Melbourne, Brisbane, Perth and Adelaide. ${free ? 'Freight is free on this order.' : 'Free freight applies to orders over $1,500 AUD.'}`);
     if (amp && spec(p, 'options')) q(`What frame and colour options does the ${short} come in?`, `${spec(p, 'options')} Add your choice in the order note at checkout.`);
     if (amp && spec(p, 'maxLoading')) q(`What is the maximum rider weight for the ${short}?`, `The listed maximum load is ${spec(p, 'maxLoading')}.${spec(p, 'seatHeight') ? ` Seat height is ${spec(p, 'seatHeight')}.` : ''}`);
   } else if (kind === 'moped') {
@@ -418,7 +474,8 @@ export function getProductFaqs(p: P): ProductFaq[] {
   if (kind === 'battery' || kind === 'charger' || kind === 'part') {
     q(`What are the returns and warranty terms for the ${short}?`, `Our returns policy offers 7-day returns under Australian Consumer Law. Warranty details are on the Warranty & Service page.`);
   } else {
-    if (amp) q(`What warranty comes with the ${short}?`, `The ${short} is covered by the ${p.warranty}. The supplier warranty covers manufacturer faults and defects for the original purchaser with a receipt, and excludes wear items such as tyres, tubes, brake pads and seats.`);
+    if (old) q(`What warranty comes with the ${short}?`, `The ${short} is covered by the ${p.warranty}. Terms apply to the original purchaser; see the warranty and service page for details.`);
+    else if (amp) q(`What warranty comes with the ${short}?`, `The ${short} is covered by the ${p.warranty}. The supplier warranty covers manufacturer faults and defects for the original purchaser with a receipt, and excludes wear items such as tyres, tubes, brake pads and seats.`);
     else q(`What warranty comes with the ${short}?`, `Your purchase includes a 12-Month Comprehensive Australian Factory Warranty covering the frame, motor, controller, battery and electrical harness against manufacturer defects. Genuine replacement parts are stocked at our Mittagong NSW workshop.`);
   }
   // Every product page shows five questions: where to buy, price, two product-specific questions (the first one, plus the legal/licence/age one when present),

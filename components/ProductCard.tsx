@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ShoppingBag, Check } from 'lucide-react';
 import { useCart } from '@/lib/cartContext';
 import type { CardProduct } from '@/lib/productCard';
+import { productImageAlt } from '@/lib/productSeo';
 
 // The one product card used on every listing: white 4:3 image well, fixed-height text rows, price and buttons pinned to the bottom.
 export function ProductCard({ product, alt, as: Heading = 'h3' }: { product: CardProduct; alt?: string; as?: 'h2' | 'h3' | 'h4' }) {
@@ -23,7 +24,7 @@ export function ProductCard({ product, alt, as: Heading = 'h3' }: { product: Car
       <Link href={href} className={`relative block aspect-[4/3] border-b border-slate-200 overflow-hidden ${product.darkImage ? 'bg-black' : 'bg-white'}`} tabIndex={-1} aria-hidden="true">
         <img
           src={product.image}
-          alt={alt ?? product.name}
+          alt={alt ?? productImageAlt(product)}
           width={800}
           height={600}
           loading="lazy"

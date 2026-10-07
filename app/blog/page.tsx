@@ -77,7 +77,7 @@ export default function BlogIndexPage() {
         </div>
 
         {/* Interactive Blog Catalog (9 Articles Per Page) */}
-        <BlogCatalogClient posts={POSTS} />
+        <BlogCatalogClient posts={POSTS.map((p) => ({ slug: p.slug, title: p.title, excerpt: p.excerpt, category: p.category, date: p.date, readTime: p.readTime, image: p.image, content: '' }))} />
 
       </div>
     </div>

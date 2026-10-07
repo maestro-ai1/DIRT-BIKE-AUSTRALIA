@@ -5,6 +5,8 @@ import { POSTS, SITE, PRODUCTS } from '@/src/config/site';
 import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
 import { blogTags } from '@/src/config/blog-seo';
+import type { NewPost } from '@/src/config/posts-2026-10';
+import { RichPostArticle } from '@/components/RichPostArticle';
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2, Zap } from 'lucide-react';
 
 interface Props {
@@ -21,8 +23,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!post) return {};
 
   const title = post.title.length + 11 <= 70 ? `${post.title} | EDBA Blog` : post.title;
+  const meta = (post as Partial<NewPost>).metaDescription;
   const descRaw = `${post.excerpt} Expert electric dirt bike guides from Electric Dirt Bike Australia — Mittagong NSW.`;
-  const description = descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw;
+  const description = meta ?? (descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw);
 
   const categoryKeywords: Record<string, string> = {
     Comparisons: 'electric dirt bike comparison australia, sur ron vs talaria, best electric dirt bike australia',
@@ -70,6 +73,8 @@ export default async function BlogPostPage({ params }: Props) {
   if (!post) {
     notFound();
   }
+
+  if ((post as Partial<NewPost>).rich) return <RichPostArticle post={post as unknown as NewPost} />;
 
   const relatedPosts = POSTS.filter((p) => p.slug !== post.slug);
   const featuredBike = PRODUCTS[0];

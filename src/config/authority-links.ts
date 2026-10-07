@@ -84,6 +84,12 @@ export const AUTH: Record<string, AuthLink> = {
     source: 'Wikipedia',
     note: 'How lithium-ion cells work and their safety considerations.',
   },
+  wikiPitBike: {
+    label: 'Pit bike',
+    url: 'https://en.wikipedia.org/wiki/Pit_bike',
+    source: 'Wikipedia',
+    note: 'Pit bike overview.',
+  },
   wikiFatbike: {
     label: 'Fatbike',
     url: 'https://en.wikipedia.org/wiki/Fatbike',
@@ -99,6 +105,12 @@ const BATTERY = ['nswLiIon', 'qldFire', 'accc', 'wikiLiIon'];
 const SETS: Record<string, string[]> = {
   '/': ['nswEbikes', 'vicEbikes', 'qldEbikes', 'waBikes', 'accc', 'nswLiIon'],
   '/accessories/': BATTERY,
+  '/electric-pit-bikes/': ['wikiPitBike', 'nswLiIon', 'accc'],
+  '/electric-balance-bikes/': ['nswEbikes', 'nswLiIon', 'accc'],
+  '/electric-bike-batteries/': BATTERY,
+  '/electric-dirt-bikes/sur-ron/': ['wikiMotocross', 'wikiEMoto', 'nswLiIon', 'accc'],
+  '/electric-dirt-bikes/cheap/': ['wikiEMoto', 'nswLiIon', 'accc'],
+  '/electric-dirt-bikes/kids/': ['nswEbikes', 'qldEbikes', 'nswLiIon', 'accc'],
   '/electric-dirt-bikes/': ['wikiMotocross', 'wikiEMoto', 'nswLiIon', 'accc'],
   '/electric-motor-bikes/': ['wikiEMoto', 'nswEbikes', 'accc', 'qldFire'],
   '/electric-motor-bikes/kids/': ['accc', 'nswLiIon', 'qldFire', 'wikiEMoto'],

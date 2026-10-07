@@ -1,11 +1,13 @@
 import { MetadataRoute } from 'next';
 import { SITE, PRODUCTS, POSTS } from '@/src/config/site';
+import { indexableTags } from '@/src/config/blog-seo';
 
 const BASE = `https://${SITE.domain}`;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // lastmod must only change when a page's content really changes. A build-time timestamp makes every URL look
   // freshly modified on every deploy, and Bing and Google then stop trusting lastmod. Bump UPDATED when content changes.
+  const NEW_PAGES = '2026-10-07'; // pages and posts first published on this date
   const UPDATED = '2026-10-06'; // titles, descriptions, headings and layout changed on every indexed page on this date
 
   const staticPages: MetadataRoute.Sitemap = [
@@ -29,6 +31,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/electric-bikes/cheap/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/electric-motocross-bikes/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/accessories/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 0.8 },
+    // New category pages (2026-10-07)
+    { url: `${BASE}/electric-dirt-bikes/sur-ron/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/electric-dirt-bikes/cheap/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-dirt-bikes/kids/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-pit-bikes/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.85 },
+    { url: `${BASE}/electric-balance-bikes/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/electric-bike-batteries/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.8 },
     // Electric motor bike sub-pages
     { url: `${BASE}/electric-motor-bikes/kids/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/electric-motor-bikes/rtr-ebike/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 0.8 },
@@ -56,5 +65,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...productPages, ...blogPages];
+  // Tag pages exist only for tags used by two or more posts (single-post tags are not linked, so they are not in the sitemap).
+  const tagPages: MetadataRoute.Sitemap = indexableTags(POSTS.map((p) => p.slug))
+    .map(([k]) => ({ url: `${BASE}/blog/tag/${k}/`, lastModified: NEW_PAGES, changeFrequency: 'monthly' as const, priority: 0.5 }));
+
+  return [...staticPages, ...productPages, ...blogPages, ...tagPages];
 }

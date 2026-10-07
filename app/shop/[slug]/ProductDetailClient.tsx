@@ -20,6 +20,7 @@ import {
   HelpCircle,
 } from 'lucide-react';
 import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
+import { productImageAlt, getKeyFeatures } from '@/lib/productSeo';
 import { FaqItem } from '@/components/FaqItem';
 import { ProductCard } from '@/components/ProductCard';
 import { PRODUCT_GRID, toCard } from '@/lib/productCard';
@@ -59,7 +60,8 @@ export function ProductDetailClient({
   const faqs = getProductFaqs(product);
   const tags = getProductTags(product);
   const amp = product.source === 'ampd-bros';
-  const warrantyShort = amp ? (product.warranty?.match(/^(\d+-year)/i)?.[1] ?? 'Supplier') + ' Warranty' : '12-Mo Warranty';
+  const old = product.source === 'old-site';
+  const warrantyShort = old ? (product.warranty?.match(/^(\d+)-(month|year)/i) ? product.warranty.match(/^(\d+)-(month|year)/i)![1] + (product.warranty.match(/month/i) ? '-Mo' : '-Yr') + ' Warranty' : 'Mfr Warranty') : amp ? (product.warranty?.match(/^(\d+-year)/i)?.[1] ?? 'Supplier') + ' Warranty' : '12-Mo Warranty';
   const cryptoPrice = Math.round(product.price * (1 - SHOP.cryptoDiscount / 100));
   const savings = product.price - cryptoPrice;
 
@@ -95,7 +97,7 @@ export function ProductDetailClient({
           <div className="relative aspect-[4/3] bg-white rounded-2xl overflow-hidden border border-slate-200">
             <img
               src={product.images[selectedImage] || product.images[0]}
-              alt={product.name}
+              alt={productImageAlt(product)}
               width={1200}
               height={900}
               fetchPriority="high"
@@ -131,7 +133,7 @@ export function ProductDetailClient({
                     selectedImage === i ? 'border-sky-600 ring-2 ring-sky-600/30' : 'border-slate-200 opacity-70 hover:opacity-100'
                   }`}
                 >
-                  <img src={img} alt={`${product.name} view ${i + 1}`} width={320} height={240} loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                  <img src={img} alt={productImageAlt(product, i)} width={320} height={240} loading="lazy" decoding="async" className="w-full h-full object-contain bg-white" />
                 </button>
               ))}
             </div>
@@ -147,7 +149,7 @@ export function ProductDetailClient({
             <div className="p-3 bg-slate-50 rounded-xl">
               <ShieldCheck className="w-4 h-4 text-emerald-600 mx-auto mb-1" />
               <div className="font-bold text-slate-900">{warrantyShort}</div>
-              <div className="text-[11px] text-slate-400">{amp ? 'Ampd Bros nationwide' : 'NSW factory support'}</div>
+              <div className="text-[11px] text-slate-400">{amp ? 'Ampd Bros nationwide' : old ? 'Manufacturer warranty' : 'NSW factory support'}</div>
             </div>
             <div className="p-3 bg-slate-50 rounded-xl">
               <Wrench className="w-4 h-4 text-orange-600 mx-auto mb-1" />
@@ -219,7 +221,7 @@ export function ProductDetailClient({
             {/* In Stock & Dispatch Status */}
             <div className="flex items-center gap-2 text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-2 rounded-xl border border-emerald-200">
               <CheckCircle className="w-4 h-4 shrink-0" />
-              <span>{amp ? 'In Stock · Supplied by Ampd Bros from the Gold Coast, QLD' : 'In Stock in Southern Highlands NSW 2575 · Ready for Crate Dispatch'}</span>
+              <span>{amp ? 'In Stock · Supplied by Ampd Bros from the Gold Coast, QLD' : old ? 'In Stock · Ships Australia-wide' : 'In Stock in Southern Highlands NSW 2575 · Ready for Crate Dispatch'}</span>
             </div>
 
             {/* Quantity Selector */}
@@ -283,9 +285,17 @@ export function ProductDetailClient({
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight mb-3">
             Technical Specifications &amp; Features
           </h2>
-          <p className="text-xs sm:text-sm text-slate-600 leading-relaxed max-w-3xl">
-            {product.description}
-          </p>
+          {getKeyFeatures(product).length > 0 && (
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1.5 text-sm text-slate-800 mb-3 max-w-3xl">
+              {getKeyFeatures(product).map((f) => (
+                <li key={f.label}><span className="font-bold">{f.label}:</span> {f.value}</li>
+              ))}
+            </ul>
+          )}
+          <details className="max-w-3xl">
+            <summary className="cursor-pointer text-xs font-bold text-sky-800 hover:underline">Read the full description</summary>
+            <p className="mt-2 text-xs sm:text-sm text-slate-600 leading-relaxed">{product.description}</p>
+          </details>
         </div>
 
         {product.specs && (
@@ -308,7 +318,7 @@ export function ProductDetailClient({
 
         {/* Australian Compliance Notice */}
         <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 text-xs text-slate-600 leading-relaxed">
-          {amp ? (
+          {amp || old ? (
             <>
               <strong className="text-slate-900">Use and Compliance:</strong> {product.legalNote} Riders must verify local state regulations.{' '}
               <strong className="text-slate-900">Shipping:</strong> {product.shipping}

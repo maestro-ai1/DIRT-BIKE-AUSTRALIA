@@ -242,6 +242,66 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     main: 'cheap electric bikes for sale', // 110/mo KD19 Transactional
     primary: ['cheap electric bikes', 'cheap electric bikes australia', 'electric bike cheap', 'cheapest electric bike australia', 'cheap e bikes australia', 'electric cheap bikes'], // 720 / 390 / 320 / 210 / 170 / 2,900
   },
+  '/electric-dirt-bikes/sur-ron/': {
+    title: 'Surron for Sale Australia | Sur-Ron Electric Bike Prices',
+    description: 'Surron for sale in Australia: Light Bee X, Ultra Bee and Storm Bee with prices shown. 12-month warranty, free freight over $1,500, 10% off with crypto.',
+    ogTitle: 'Surron for Sale Australia | Sur-Ron Electric Bike Prices',
+    ogDescription: 'Sur-Ron electric bikes for sale in Australia with prices shown. Genuine stock, 12-month warranty, free freight over $1,500.',
+    h1: 'Surron for Sale in Australia: Sur-Ron Electric Bike Prices',
+    keywords: 'surron for sale, sur ron ebike for sale, surrons for sale, surron electric bike for sale',
+    main: 'surron for sale', // 260/mo KD14 Transactional (+ sur ron ebike for sale 140, sur ron electric bike price 140, surrons for sale 110, surron ebike price 70, surron light bee x price australia 70, surron electric bike for sale 50)
+    primary: ['sur ron ebike for sale', 'surron electric bike for sale', 'surrons for sale'],
+  },
+  '/electric-dirt-bikes/cheap/': {
+    title: 'Cheap Electric Dirt Bikes Australia | Prices From $899',
+    description: 'Cheap electric dirt bikes in Australia: youth bikes from $899 and adult bikes from $3,200. Real specs, 12-month warranty, free freight over $1,500.',
+    ogTitle: 'Cheap Electric Dirt Bikes Australia | Prices From $899',
+    ogDescription: 'Cheap electric dirt bikes for kids and adults with real specifications and prices shown. 12-month warranty. Free freight over $1,500.',
+    h1: 'Cheap Electric Dirt Bikes for Sale in Australia',
+    keywords: 'cheap electric dirt bikes, cheap electric dirt bike, cheap e dirt bike, electric dirt bike cheap, affordable electric dirt bike',
+    main: 'cheap electric dirt bikes', // 260/mo KD13 Commercial (no Transactional label for this theme)
+    primary: ['cheap electric dirt bike', 'cheap e dirt bike', 'electric dirt bike cheap', 'affordable electric dirt bike'],
+  },
+  '/electric-dirt-bikes/kids/': {
+    title: 'Electric Dirt Bike for Kids Australia | Youth Bikes from $899',
+    description: 'Electric dirt bike for kids in Australia: 14 youth bikes from $899 including Razor, Torrot, OSET, KTM, Husqvarna, Crossfire and DHZ. 12-month warranty, free freight over $1,500.',
+    ogTitle: 'Electric Dirt Bike for Kids Australia | Youth Bikes from $899',
+    ogDescription: 'Youth electric dirt bikes with power, battery and top speed shown. 12-month warranty. Free freight over $1,500.',
+    h1: 'Electric Dirt Bikes for Kids: Youth Bikes for Sale in Australia',
+    keywords: 'electric dirt bike for kids, electric dirt bike kids, electric kids dirt bike, electric dirt bikes for kids, kids electric dirtbike',
+    main: 'electric dirt bike for kids', // 320/mo KD18 Commercial
+    primary: ['electric dirt bike kids', 'electric kids dirt bike', 'electric dirt bikes for kids', 'kids electric dirtbike'],
+  },
+  '/electric-bike-batteries/': {
+    title: 'Electric Bike Batteries Australia | 60V-84V Lithium Packs',
+    description: 'Buy electric bike batteries in Australia: 60V, 72V and 84V lithium packs from $1,790, plus fast chargers. Capacity in Wh shown, free freight over $1,500.',
+    ogTitle: 'Electric Bike Batteries Australia | 60V-84V Lithium Packs and Chargers',
+    ogDescription: 'Lithium battery packs and chargers for electric dirt bikes and e-motos. Capacity and compatibility shown. Free freight over $1,500.',
+    h1: 'Electric Bike Batteries Australia: Lithium Packs & Chargers',
+    keywords: 'electric bike batteries australia, ebike batteries australia, lithium bike battery',
+    main: 'electric bike batteries australia', // 90/mo KD8 Commercial
+    primary: ['ebike batteries australia', 'lithium bike battery'],
+  },
+  '/electric-pit-bikes/': {
+    title: 'Electric Pit Bike for Sale Australia | Ebox, Dragster & ETM',
+    description: 'Electric pit bike for sale in Australia from $1,850: Ebox, Dragster, ETM RTR and Rizzler. Prices and specs shown, free freight over $1,500, 10% off with crypto.',
+    ogTitle: 'Electric Pit Bike for Sale Australia | Ebox, Dragster & ETM',
+    ogDescription: 'Electric pit bikes with prices, motor power and battery shown. Ebox, Dragster, ETM RTR and more. Free freight over $1,500.',
+    h1: 'Electric Pit Bikes for Sale in Australia',
+    keywords: 'electric pit bike for sale, electric pit bike, electric pit bikes, e pit bike, fast electric pit bike, electric pit bike australia',
+    main: 'electric pit bike for sale', // 40/mo KD? Transactional (full bank)
+    primary: ['electric pit bike', 'electric pit bikes', 'e pit bike', 'fast electric pit bike', 'electric pit bike australia'], // 830 / 110 / 110 / 110 / 90
+  },
+  '/electric-balance-bikes/': {
+    title: 'Electric Balance Bike for Sale Australia | Kids E-Bikes From $749',
+    description: 'Electric balance bike for sale in Australia from $749: Apollo, GoBike, Flight Risk, YCF, DHZ and Wired. 12 to 24 inch kids e-bikes, free freight over $1,500.',
+    ogTitle: 'Electric Balance Bike for Sale Australia | Kids E-Bikes From $749',
+    ogDescription: 'Kids electric balance bikes and e-BMX bikes with price and specs shown. Free freight over $1,500. 10% off with crypto or PayID.',
+    h1: 'Electric Balance Bikes for Kids: For Sale in Australia',
+    keywords: 'electric balance bike for sale, electric balance bike australia',
+    main: 'electric balance bike for sale', // 20/mo Transactional (full bank)
+    primary: ['electric balance bike australia'], // 70
+  },
 };
 
 // Extra FAQ entries. Navigational keywords (brand / city) and transactional questions.

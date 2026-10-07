@@ -6,6 +6,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { CheckCircle, MapPin } from 'lucide-react';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
+import { productImageAlt } from '@/lib/productSeo';
 import { RelatedGuides } from '@/components/RelatedGuides';
 
 // Shared landing page for keyword categories and city pages. Lists only products that exist in PRODUCTS.
@@ -85,7 +86,7 @@ export function CategoryLanding({ path, crumbs, eyebrow, h1, intro, chips = [], 
 
         <div className="mb-12">
           <ProductPager
-            groups={resolved.map((g) => ({ id: `grp-${g.id}`, heading: g.heading, blurb: g.blurb, items: g.items, alt: (p) => `${p.name} for sale Australia` }))}
+            groups={resolved.map((g) => ({ id: `grp-${g.id}`, heading: g.heading, blurb: g.blurb, items: g.items, alt: (p) => productImageAlt(p) }))}
           />
         </div>
 

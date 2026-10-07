@@ -77,6 +77,58 @@ export const BLOG_TAGS: Record<string, string[]> = {
   "electric-moped-vs-e-scooter-australia-lams-guide": ["moped e scooter","electric motorcycles and scooters","electric motorcycle scooter","electric moped","electric motorcycle moped","moped prices","road registered electric bike","electric road bikes for sale"],
 };
 
+import { NEW_POSTS } from './posts-2026-10';
+
+// New posts carry their own 20 Commercial-intent tags (see posts-2026-10.ts); older posts use BLOG_TAGS above.
 export function blogTags(slug: string): string[] {
-  return BLOG_TAGS[slug] ?? [];
+  const fresh = NEW_POSTS.find((p) => p.slug === slug);
+  return fresh ? fresh.tags : BLOG_TAGS[slug] ?? [];
+}
+
+export const tagSlug = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+
+// Tags used by two or more posts get their own indexable tag page (/blog/tag/<slug>/). Single-post tags stay plain text to avoid thin pages.
+export function allTagCounts(allSlugs: string[]): Map<string, { label: string; slugs: string[] }> {
+  const m = new Map<string, { label: string; slugs: string[] }>();
+  for (const slug of allSlugs) {
+    for (const t of blogTags(slug)) {
+      const k = tagSlug(t);
+      const e = m.get(k) ?? { label: t, slugs: [] };
+      e.slugs.push(slug);
+      m.set(k, e);
+    }
+  }
+  return m;
+}
+
+import { PAGE_SEO } from './seo';
+
+// Where a tag sends the reader: the category page that best matches the tag's topic (used when the tag has no tag page of its own).
+export function tagTarget(label: string): { href: string; name: string } {
+  const l = label.toLowerCase();
+  if (/(sur ?ron)/.test(l)) return { href: '/electric-dirt-bikes/sur-ron/', name: 'Sur-Ron electric bikes' };
+  if (/(batter|charger)/.test(l)) return { href: '/electric-bike-batteries/', name: 'electric bike batteries and chargers' };
+  if (/(fat|cruiser|beach)/.test(l)) return { href: '/electric-fat-tyre-bikes/', name: 'fat tyre electric bikes' };
+  if (/(kid|child|youth|mini|teen|12 year)/.test(l)) return { href: '/electric-dirt-bikes/kids/', name: 'kids electric dirt bikes' };
+  if (/(cheap|afford|low cost|price|cost|how much)/.test(l)) return { href: /dirt/.test(l) ? '/electric-dirt-bikes/cheap/' : '/electric-bikes/cheap/', name: 'affordable electric bikes' };
+  if (/(motocross|mx)/.test(l)) return { href: '/electric-motocross-bikes/', name: 'electric motocross bikes' };
+  if (/(moped)/.test(l)) return { href: '/electric-motor-bikes/commuter-mopeds/', name: 'electric mopeds' };
+  if (/(motorbike|motorcycle|motor bike|moto)/.test(l)) return { href: '/electric-motorcycles/', name: 'electric motorcycles' };
+  if (/(dirt|off ?road|trail|enduro)/.test(l)) return { href: '/electric-dirt-bikes/', name: 'electric dirt bikes' };
+  return { href: '/electric-bikes/', name: 'electric bikes' };
+}
+
+// Keywords already targeted by a category page (main + primary + meta keywords). A tag page for one of these would compete with that category, so those tags link to the category instead.
+const CATEGORY_KEYWORDS = new Set(
+  Object.values(PAGE_SEO).flatMap((p) => [p.main, ...p.primary, ...p.keywords.split(',')]).map((k) => tagSlug(k.trim())),
+);
+
+// Indexable tag pages: tags used by 4 or more posts (at least one a new keyword-led post) that are not a category keyword.
+// Smaller tags would be thin pages, so they are not created, not linked to a tag page and not in the sitemap.
+export const MIN_POSTS_PER_TAG_PAGE = 4;
+export function indexableTags(allSlugs: string[]): [string, { label: string; slugs: string[] }][] {
+  const fresh = new Set(NEW_POSTS.map((p) => p.slug));
+  return [...allTagCounts(allSlugs).entries()].filter(
+    ([k, v]) => v.slugs.length >= MIN_POSTS_PER_TAG_PAGE && v.slugs.some((s) => fresh.has(s)) && !CATEGORY_KEYWORDS.has(k),
+  );
 }

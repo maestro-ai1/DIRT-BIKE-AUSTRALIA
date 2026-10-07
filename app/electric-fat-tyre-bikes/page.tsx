@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 
 const ACE = ['ace-adventure-fat-tyre-electric-bike', 'ace-pro-dual-suspension-fat-tyre-electric-bike', 'ace-x-demon-dual-motor-fat-electric-bike'];
 const STUBBIE = ['the-original-stubbie-fat-tyre-electric-bike', 'the-original-stubbie-s-electric-bike'];
+const FATBOY = PRODUCTS.filter((p) => p.brand === 'Fatboy').sort((a, b) => a.price - b.price).map((p) => p.slug);
 const CRUISERS = ['chubbie-v3-electric-beach-cruiser', 'chubbie-s-v3-electric-beach-cruiser', 'riptide-electric-beach-cruiser-bike', 'riptide-s-electric-beach-cruiser-bike'];
 
 export default function ElectricFatTyreBikesPage() {
@@ -37,6 +38,7 @@ export default function ElectricFatTyreBikesPage() {
       groups={[
         { id: 'ace', heading: 'ACE Fat Tyre Electric Bikes', blurb: '20-inch fat tyre ACE e-bikes in step-through and step-over frames. The ACE-X Demon is a dual-motor off-road model.', slugs: ACE },
         { id: 'stubbie', heading: 'Stubbie Fat Tyre Electric Bikes', blurb: 'The Original Stubbie: a 20-inch fat tyre e-bike with a 48V 15Ah battery and 7-speed gearing.', slugs: STUBBIE },
+        { id: 'fatboy', heading: 'Fatboy Fat Tyre Electric Bikes', blurb: 'Fatboy e-bikes in Scrambler, Bagus, Harlem and DNA styles, including EN15194 certified models. Check each product page for the exact configuration.', slugs: FATBOY },
         { id: 'cruisers', heading: 'Electric Beach Cruisers (Chubbie & Riptide)', blurb: '26-inch electric beach cruisers with 48V batteries and up to 80 km listed range.', slugs: CRUISERS },
       ]}
       links={[

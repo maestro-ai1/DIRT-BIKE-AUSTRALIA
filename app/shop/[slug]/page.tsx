@@ -6,6 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Metadata } from 'next';
 import { ProductDetailClient } from './ProductDetailClient';
 import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
+import { ProductGuide } from '@/components/ProductGuide';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -28,7 +29,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const ampProduct = (product as { source?: string; warranty?: string }).source === 'ampd-bros';
   const ampWarranty = (product as { warranty?: string }).warranty?.match(/^(\d+-year(?: or [\d,]+ km)?)/i)?.[1];
-  const descRaw = ampProduct
+  const oldProduct = (product as { source?: string }).source === 'old-site';
+  const descRaw = oldProduct
+    ? `${product.shortDescription} ${(product as { warranty?: string }).warranty ?? ''}. Ships Australia-wide.`
+    : ampProduct
     ? `${product.shortDescription} ${ampWarranty ? `${ampWarranty.trim()} warranty. ` : ''}Ships Australia-wide from the Gold Coast, QLD.`
     : `${product.shortDescription} Genuine AU stock, 12-month factory warranty. Free delivery Australia-wide from Mittagong NSW 2575.`;
   const description = descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw;
@@ -158,6 +162,8 @@ export default async function ProductDetailPage({ params }: Props) {
 
         {/* Client Product View */}
         <ProductDetailClient product={product} related={related} />
+
+        <ProductGuide product={product} />
       </div>
     </div>
   );
