@@ -7,6 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { blogTags } from '@/src/config/blog-seo';
 import type { NewPost } from '@/src/config/posts-2026-10';
 import { RichPostArticle } from '@/components/RichPostArticle';
+import { BlogBuyBlock } from '@/components/BlogBuyBlock';
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2, Zap } from 'lucide-react';
 
 interface Props {
@@ -297,6 +298,7 @@ export default async function BlogPostPage({ params }: Props) {
               View Model Specs →
             </Link>
           </div>
+          <BlogBuyBlock slug={post.slug} />
         </article>
 
         {/* Blog tags: Semrush informational keywords for this topic */}

@@ -10,6 +10,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 const seo = seoFor('/electric-motor-bikes/kids/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -198,6 +199,8 @@ export default function KidsElectricMotorbikeePage() {
 
           <ProductPager groups={[{ items: kidsProducts }]} />
         </div>
+
+        <KeywordGuide path="/electric-motor-bikes/kids/" />
 
         <RelatedGuides path="/electric-motor-bikes/kids/" />
 

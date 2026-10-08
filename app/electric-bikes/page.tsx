@@ -10,6 +10,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 
 // Category page for the broad "electric bike / e bike" demand (Semrush AU: electric bike 27,100, e bike 22,200,
 // electric bikes for sale 1,600). Main keyword: electric bikes for sale (transactional). Primary: electric bike, e bike, electric bikes.
@@ -181,6 +182,8 @@ export default function ElectricBikesPage() {
             <li><Link href="/electric-dirt-bikes/" className="text-sky-700 font-semibold hover:underline">Electric dirt bikes for sale</Link></li>
           </ul>
         </section>
+
+        <KeywordGuide path="/electric-bikes/" />
 
         <RelatedGuides path="/electric-bikes/" />
 

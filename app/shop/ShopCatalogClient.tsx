@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { ProductCard } from '@/components/ProductCard';
 import { PRODUCT_GRID, toCard } from '@/lib/productCard';
 import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -53,22 +54,21 @@ export function ShopCatalogClient({
   const [currentPage, setCurrentPage] = useState<number>(1);
   const catalogTopRef = useRef<HTMLDivElement>(null);
 
-  // Nav and footer link to /shop/?category=... and /shop/?brand=...; apply them once on load (the canonical stays /shop/).
+  // Nav and footer link to /shop/?category=... and /shop/?brand=...; re-apply whenever the query changes
+  // (clicking a brand while already on /shop/ keeps this component mounted). The canonical stays /shop/.
+  const searchParams = useSearchParams();
   useEffect(() => {
-    try {
-      const params = new URLSearchParams(window.location.search);
-      const cat = params.get('category');
-      const brand = params.get('brand');
-      if (cat && categories.some((c) => c.slug === cat)) setSelectedCategory(cat);
-      if (brand) {
-        const b = brands.find((x) => slugify(x.slug) === slugify(brand) || slugify(x.name) === slugify(brand));
-        setSelectedBrand(b ? b.name : brand);
-      }
-    } catch {
-      /* ignore malformed query strings */
+    const cat = searchParams.get('category');
+    const brand = searchParams.get('brand');
+    setSelectedCategory(cat && categories.some((c) => c.slug === cat) ? cat : 'all');
+    if (brand) {
+      const b = brands.find((x) => slugify(x.slug) === slugify(brand) || slugify(x.name) === slugify(brand));
+      setSelectedBrand(b ? b.name : brand);
+    } else {
+      setSelectedBrand('all');
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [searchParams]);
 
   const filteredProducts = useMemo(() => {
     return products.filter((p) => {

@@ -4,7 +4,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ShoppingBag, Search, ChevronDown, Menu, X } from 'lucide-react';
-import { SITE, BRANDS, CATEGORIES } from '@/src/config/site';
+import { BRANDS } from '@/src/config/site';
+import { NAV_CATEGORY_LINKS } from '@/lib/navLinks';
 import { useCart } from '@/lib/cartContext';
 
 export function Nav() {
@@ -75,34 +76,38 @@ export function Nav() {
               </Link>
 
               {shopDropdownOpen && (
-                <div className="absolute top-full left-0 w-72 bg-white border border-slate-200 rounded-xl shadow-xl shadow-slate-900/10 p-2 animate-in fade-in slide-in-from-top-1 duration-150 z-50">
-                  <div className="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1">
-                    Shop by Category
-                  </div>
-                  {CATEGORIES.map((cat) => (
-                    <Link
-                      key={cat.slug}
-                      href={`/shop/?category=${cat.slug}`}
-                      onClick={() => setShopDropdownOpen(false)}
-                      className="flex items-center gap-3 px-3 py-2.5 rounded-lg hover:bg-sky-50 transition-colors group"
-                    >
-                      <div className="w-10 h-10 rounded-lg overflow-hidden shrink-0 border border-slate-100">
-                        <img src={cat.image} alt={cat.name} className="w-full h-full object-cover object-center" />
-                      </div>
-                      <div>
-                        <div className="text-sm font-bold text-slate-800 group-hover:text-sky-600 transition-colors">{cat.name}</div>
-                        <div className="text-[11px] text-slate-400 line-clamp-1">{cat.title}</div>
-                      </div>
-                    </Link>
-                  ))}
-                  <div className="border-t border-slate-100 pt-1 mt-1">
-                    <Link
-                      href="/shop/"
-                      onClick={() => setShopDropdownOpen(false)}
-                      className="block px-3 py-2 text-xs font-bold text-sky-700 hover:bg-sky-50 rounded-lg text-center"
-                    >
-                      View All {CATEGORIES.reduce((n, _) => n, 0) > 0 ? '' : ''}Products →
-                    </Link>
+                <div className="absolute top-full left-0 pt-1 z-50">
+                  <div className="w-[34rem] bg-white border border-slate-200 rounded-xl shadow-xl shadow-slate-900/10 p-2 animate-in fade-in slide-in-from-top-1 duration-150">
+                    <div className="px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-slate-400 border-b border-slate-100 mb-1">
+                      Shop by Category
+                    </div>
+                    <div className="grid grid-cols-2 gap-x-1">
+                      {NAV_CATEGORY_LINKS.map((cat) => (
+                        <Link
+                          key={cat.href}
+                          href={cat.href}
+                          onClick={() => setShopDropdownOpen(false)}
+                          className="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-sky-50 transition-colors group"
+                        >
+                          <div className="w-10 h-10 rounded-lg overflow-hidden shrink-0 border border-slate-100">
+                            <img src={cat.img} alt={cat.kw} width={40} height={40} loading="lazy" className="w-full h-full object-cover object-center" />
+                          </div>
+                          <div className="min-w-0">
+                            <div className="text-sm font-bold text-slate-800 group-hover:text-sky-600 transition-colors truncate">{cat.name}</div>
+                            <div className="text-[11px] text-slate-500 truncate">{cat.kw}</div>
+                          </div>
+                        </Link>
+                      ))}
+                    </div>
+                    <div className="border-t border-slate-100 pt-1 mt-1">
+                      <Link
+                        href="/shop/"
+                        onClick={() => setShopDropdownOpen(false)}
+                        className="block px-3 py-2 text-xs font-bold text-sky-700 hover:bg-sky-50 rounded-lg text-center"
+                      >
+                        View All Electric Dirt Bikes & Products →
+                      </Link>
+                    </div>
                   </div>
                 </div>
               )}
@@ -245,10 +250,10 @@ export function Nav() {
               Shop All Products →
             </Link>
             <div className="grid grid-cols-2 gap-2">
-              {CATEGORIES.map((cat) => (
+              {NAV_CATEGORY_LINKS.map((cat) => (
                 <Link
-                  key={cat.slug}
-                  href={`/shop/?category=${cat.slug}`}
+                  key={cat.href}
+                  href={cat.href}
                   onClick={() => setMobileMenuOpen(false)}
                   className="px-3 py-1.5 bg-slate-50 hover:bg-sky-50 text-xs font-semibold rounded-lg text-slate-700 hover:text-sky-600"
                 >

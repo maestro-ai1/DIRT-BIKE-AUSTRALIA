@@ -14,6 +14,7 @@ export const RELATED_GUIDES: Record<string, string[]> = {
   '/electric-mini-bikes/': ['kids-ebike-australia-evo-racing-lil-rippa-compared', 'childs-dirt-bike-australia-electric-options'],
   '/electric-motocross-bikes/': ['high-performance-electric-dirt-bike-australia', '125cc-dirt-bike-australia-electric-alternatives'],
   '/electric-motorcycles/': ['australian-electric-motorcycle-guide-2026', 'electric-moped-vs-e-scooter-australia-lams-guide', 'high-performance-electric-dirt-bike-australia'],
+  '/brands/e-ride-pro/': ['e-ride-pro-australia-buyers-guide', 'e-ride-pro-ss-2-0-vs-sr-specs-price', 'e-ride-pro-australia-review'],
   '/brands/': ['e-ride-pro-australia-buyers-guide', 'e-ride-pro-ss-2-0-vs-sr-specs-price'],
   '/accessories/': ['e-bike-safety-australia-guide'],
   '/electric-dirt-bikes/sur-ron/': ['sur-ron-electric-bike-price-australia', 'sur-ron-light-bee-x-price-australia-what-you-get', 'sur-ron-horsepower-power-specs-explained', 'essential-aftermarket-mods-for-surron-light-bee-x'],

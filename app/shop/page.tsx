@@ -1,4 +1,4 @@
-﻿import React from 'react';
+﻿import React, { Suspense } from 'react';
 import Link from 'next/link';
 import { PRODUCTS, BRANDS, CATEGORIES, SITE } from '@/src/config/site';
 import { Metadata } from 'next';
@@ -6,6 +6,7 @@ import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, Filter, ArrowRight, ShieldCheck, Truck } from 'lucide-react';
 import { ShopCatalogClient } from './ShopCatalogClient';
+import { KeywordGuide } from '@/components/KeywordGuide';
 
 const seo = seoFor('/shop/');
 export const metadata: Metadata = {
@@ -81,7 +82,11 @@ export default function ShopPage() {
         <h2 className="text-lg sm:text-xl font-extrabold text-slate-900 tracking-tight mb-4">
           All Electric Dirt Bikes, E-Bikes, Batteries &amp; Parts
         </h2>
-        <ShopCatalogClient products={PRODUCTS} brands={BRANDS} categories={CATEGORIES} />
+        <Suspense fallback={null}>
+          <ShopCatalogClient products={PRODUCTS} brands={BRANDS} categories={CATEGORIES} />
+        </Suspense>
+
+        <KeywordGuide path="/shop/" className="mt-12" />
 
       </div>
     </div>

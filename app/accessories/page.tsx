@@ -8,6 +8,7 @@ import { BatteryCharging, Zap, ShieldCheck, ArrowRight } from 'lucide-react';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 
 const seo = seoFor('/accessories/');
 export const metadata: Metadata = {
@@ -80,6 +81,8 @@ export default function AccessoriesPage() {
 
         {/* Product Grid */}
         <ProductPager groups={[{ id: 'accessories-list', heading: 'Electric Dirt Bike Batteries, Chargers & Performance Parts', blurb: '72V lithium batteries, fast chargers, controllers, suspension, brakes and protection with Australian plugs and local support.', items: accessories }]} topUp={false} />
+
+        <KeywordGuide path="/accessories/" />
 
         <RelatedGuides path="/accessories/" className="mt-12" />
 

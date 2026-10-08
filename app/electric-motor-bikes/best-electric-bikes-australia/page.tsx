@@ -10,6 +10,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 const seo = seoFor('/electric-motor-bikes/best-electric-bikes-australia/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -201,6 +202,8 @@ export default function BestElectricBikesAustraliaPage() {
             ]}
           />
         </div>
+
+        <KeywordGuide path="/electric-motor-bikes/best-electric-bikes-australia/" />
 
         <RelatedGuides path="/electric-motor-bikes/best-electric-bikes-australia/" />
 

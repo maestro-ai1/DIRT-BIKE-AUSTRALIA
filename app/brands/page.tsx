@@ -6,6 +6,7 @@ import { seoFor } from '@/src/config/seo';
 import { JsonLd } from '@/components/JsonLd';
 import { Zap, ArrowRight, ShieldCheck } from 'lucide-react';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 
 const seo = seoFor('/brands/');
 export const metadata: Metadata = {
@@ -26,6 +27,17 @@ export const metadata: Metadata = {
   other: {
     'og:updated_time': new Date().toISOString(),
   },
+};
+
+// Brands with their own keyword page link there; the rest use the shop's brand filter. Card headings use the buyer phrase from the Semrush bank where one exists.
+const BRAND_PAGE: Record<string, string> = { 'sur-ron': '/electric-dirt-bikes/sur-ron/', 'e-ride-pro': '/brands/e-ride-pro/' };
+const BRAND_HEADING: Record<string, string> = { 'sur-ron': 'Sur-Ron for Sale', 'e-ride-pro': 'E-Ride Pro Australia' }; // surron for sale 260 (T), e ride pro australia 170 (C)
+const slugify = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+// Same rule as the shop filter: "RFN (Apollo)" matches products branded "RFN".
+const brandMatches = (productBrand: string, brandName: string) => {
+  const p = slugify(productBrand);
+  const s = slugify(brandName);
+  return p === s || s.startsWith(p + '-');
 };
 
 export default function BrandsPage() {
@@ -67,7 +79,7 @@ export default function BrandsPage() {
               Official Partner Brands
             </span>
             <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
-              Electric Dirt Bike Brands in Australia — Sur-Ron, Talaria, Stark Varg &amp; More
+              Electric Bike Brands in Australia: Sur-Ron, Talaria, Stark Varg, E-Ride Pro &amp; More
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
               Australia&apos;s authorised dealer for the world&apos;s best electric dirt bike brands. Sur-Ron, Talaria, Stark Varg, E-Ride Pro, Stealth, and Super73 — every brand certified for Australian conditions with factory spare parts stocked in Mittagong NSW 2575.
@@ -78,7 +90,7 @@ export default function BrandsPage() {
         {/* Brands Showcase */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {BRANDS.map((brand) => {
-            const brandProducts = PRODUCTS.filter((p) => p.brand.toLowerCase() === brand.name.toLowerCase());
+            const brandProducts = PRODUCTS.filter((p) => brandMatches(p.brand, brand.name));
             return (
               <div
                 key={brand.slug}
@@ -95,7 +107,7 @@ export default function BrandsPage() {
                   </div>
 
                   <h2 className="text-2xl font-extrabold text-slate-900 group-hover:text-sky-600 transition-colors mb-2">
-                    {brand.name}
+                    {BRAND_HEADING[brand.slug] ?? brand.name}
                   </h2>
 
                   <p className="text-xs sm:text-sm text-slate-600 leading-relaxed mb-6">
@@ -121,7 +133,7 @@ export default function BrandsPage() {
                     {brandProducts.length} in stock
                   </span>
                   <Link
-                    href={`/shop/?brand=${brand.slug}`}
+                    href={BRAND_PAGE[brand.slug] ?? `/shop/?brand=${brand.slug}`}
                     className="inline-flex items-center gap-1.5 px-4 py-2 bg-slate-900 group-hover:bg-sky-600 text-white rounded-xl text-xs font-bold transition-colors"
                   >
                     <span>Shop {brand.name}</span>
@@ -133,6 +145,8 @@ export default function BrandsPage() {
           })}
         </div>
 
+
+        <KeywordGuide path="/brands/" className="mt-12" />
 
         <RelatedGuides path="/brands/" className="mt-12" />
 

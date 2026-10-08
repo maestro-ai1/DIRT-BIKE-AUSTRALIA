@@ -6,6 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Metadata } from 'next';
 import { ProductDetailClient } from './ProductDetailClient';
 import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
+import { productSeoTitle, productSeoDescription } from '@/lib/productSeo';
 import { ProductGuide } from '@/components/ProductGuide';
 
 interface Props {
@@ -21,21 +22,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = PRODUCTS.find((p) => p.slug === slug);
   if (!product) return {};
 
-  const priceStr = `AUD $${product.price.toLocaleString()}`;
-  const candidateTitle = `Buy ${product.name} in Australia | ${priceStr} | EDBA`;
-  const mid = `${product.name} Australia | ${priceStr} | EDBA`;
-  // Keep titles inside what Google shows: drop the brand tail, then the 'Australia', when the product name is long.
-  const title = candidateTitle.length <= 60 ? candidateTitle : mid.length <= 68 ? mid : `${product.name} Australia | ${priceStr}`.length <= 68 ? `${product.name} Australia | ${priceStr}` : `${product.name} | ${priceStr}`;
-
-  const ampProduct = (product as { source?: string; warranty?: string }).source === 'ampd-bros';
-  const ampWarranty = (product as { warranty?: string }).warranty?.match(/^(\d+-year(?: or [\d,]+ km)?)/i)?.[1];
+  // Title and description lead with the product's buyer-intent keyword from the Semrush bank (see productSecondary in lib/productSeo.ts).
+  const title = productSeoTitle(product);
+  const ampProduct = (product as { source?: string }).source === 'ampd-bros';
   const oldProduct = (product as { source?: string }).source === 'old-site';
-  const descRaw = oldProduct
-    ? `${product.shortDescription} ${(product as { warranty?: string }).warranty ?? ''}. Ships Australia-wide.`
-    : ampProduct
-    ? `${product.shortDescription} ${ampWarranty ? `${ampWarranty.trim()} warranty. ` : ''}Ships Australia-wide from the Gold Coast, QLD.`
-    : `${product.shortDescription} Genuine AU stock, 12-month factory warranty. Free delivery Australia-wide from Mittagong NSW 2575.`;
-  const description = descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw;
+  const offer = ampProduct || oldProduct ? 'Ships Australia-wide.' : 'Free freight over $1,500, 12-month warranty.';
+  const description = productSeoDescription(product, offer);
+  const descRaw = description;
 
   const brandLower = product.brand.toLowerCase();
   const nameLower = product.name.toLowerCase();

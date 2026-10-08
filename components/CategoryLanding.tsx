@@ -8,6 +8,7 @@ import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { productImageAlt } from '@/lib/productSeo';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 
 // Shared landing page for keyword categories and city pages. Lists only products that exist in PRODUCTS.
 export interface LandingGroup { id: string; heading: string; blurb: string; slugs: string[]; }
@@ -102,6 +103,8 @@ export function CategoryLanding({ path, crumbs, eyebrow, h1, intro, chips = [], 
             </ul>
           </section>
         )}
+
+        <KeywordGuide path={path} />
 
         <RelatedGuides path={path} />
 

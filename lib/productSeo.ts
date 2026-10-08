@@ -340,6 +340,12 @@ export function getProductTags(p: P): ProductTag[] {
     for (const b of ['Sur-Ron', 'Talaria', 'Segway']) if (text.includes(b)) add(`${b} ${kind === 'battery' ? 'battery upgrade' : kind === 'charger' ? 'charger' : 'parts'}`, HREF[kind]);
   }
   // 3b. Transactional tags for the product type (high-volume buyer phrases), then 4. Commercial tags
+  // Brand buyer phrases first (Sur-Ron, E-Ride Pro, KTM), then the product's own title keywords, so every product page shows its secondary keyword in the visible tag list.
+  const sec = productSecondary(p);
+  const brandHref = /sur-?ron/i.test(p.brand) ? '/electric-dirt-bikes/sur-ron/' : /^e-ride pro$/i.test(p.brand) ? '/brands/e-ride-pro/' : /^ktm$/i.test(p.brand) ? '/electric-dirt-bikes/kids/' : undefined;
+  if (vehicle && /sur-?ron/i.test(p.brand)) SURRON_T.forEach((kw) => add(kw, brandHref));
+  add(sec.t, brandHref ?? HREF[kind]);
+  add(sec.c, brandHref ?? HREF[kind]);
   for (const kw of T_TAGS[kind] ?? []) add(kw, kw.includes('motor') ? '/electric-motor-bikes/' : HREF[kind]);
   // 4. Commercial-intent Semrush keyword tags (see lib/productTagPool.ts): rotate through the pool so tag sets differ between products. Always 20 tags.
   const pool = C_TAG_POOL[kind] ?? [];
@@ -494,4 +500,68 @@ export function getProductFaqs(p: P): ProductFaq[] {
   const unique = chosen.filter((f, i) => chosen.indexOf(f) === i).slice(0, MAX_FAQS);
   // Keep copy tidy
   return unique.map((f) => ({ question: f.question, answer: f.answer.replace(/\s+/g, ' ').replace(/ \./g, '.').replace(/\.\./g, '.').trim() }));
+}
+
+// ---------------- Secondary keywords for title / meta description ----------------
+// One buyer-intent (T) and one commercial (C) keyword per product, all from the Semrush AU bank (volumes checked 2026-10-08).
+// T goes first in the title and meta description; C is the fallback. Sur-Ron, E-Ride Pro and KTM get their brand-name buyer phrases.
+export interface ProductSecondary { t: string; c: string; }
+const SURRON_T = ['Sur Ron Electric Bike Price', 'Sur Ron Ebike for Sale', 'Surrons for Sale', 'Surron Ebike Price']; // T 140 / 140 / 110 / 70 (surron for sale 260 belongs to the Sur-Ron category page)
+const BY_KIND: Record<ProductKind, ProductSecondary> = {
+  offroad: { t: 'Electric Dirt Bike for Sale', c: 'Electric Dirt Bike Australia' }, // T 170 / C 1,300
+  motocross: { t: 'Electric Motorcycle for Sale', c: 'Electric Motocross Bike' }, // T 260 / C 720
+  kids: { t: 'Kids Electric Dirt Bike', c: 'Kids Electric Bike' }, // C 590 / C 4,400
+  ebike: { t: 'Electric Bikes for Sale', c: 'RTR E Bike' }, // T 1,600 / C 1,600
+  emoto: { t: 'Electric Bike Price', c: 'Electric Off Road Bike' }, // T 480 / C 590
+  moped: { t: 'Electric Motorcycle for Sale', c: 'Electric Moped Australia' }, // T 260 / C 1,000
+  fattyre: { t: 'E Bike Price', c: 'Fat Tyre Electric Bike Australia' }, // T 320 / C 140
+  cruiser: { t: 'Beach Cruiser for Sale', c: 'E Bike Cruiser' }, // T 50 / C 390
+  mini: { t: 'Mini E Bike', c: 'Electric Mini Bike' }, // C 1,000 / C 590
+  pit: { t: 'Electric Pit Bike for Sale', c: 'Electric Pit Bike' }, // C 720 (for-sale form is 20/mo)
+  balance: { t: 'Electric Balance Bike Australia', c: 'Electric Balance Bike' }, // C 70
+  battery: { t: 'E Bike Battery', c: 'E Bike Batteries' }, // C 1,000 / C 480
+  charger: { t: 'E Bike Battery Charger', c: 'Charger for E Bike' }, // C 210 / C 210
+  part: { t: 'E Bike Parts Australia', c: 'Electric Bike Parts Australia' }, // T 90 / C 110
+};
+export function productSecondary(p: P): ProductSecondary {
+  const kind = productKind(p);
+  const brand = p.brand.toLowerCase();
+  const vehicle = !['battery', 'charger', 'part'].includes(kind);
+  if (vehicle && /sur-?ron/.test(brand)) return { t: SURRON_T[hash(p.slug) % SURRON_T.length], c: 'Surron Electric Bike for Sale' };
+  if (vehicle && brand === 'e-ride pro') return { t: 'E Ride Pro Australia', c: 'E Ride Pro SS' }; // C 170 / C 110
+  if (vehicle && brand === 'ktm') return { t: 'KTM Electric Dirt Bike Australia Price', c: 'KTM Electric Dirt Bike' }; // T 90 / I 210
+  if (/helmet/.test(p.slug)) return { t: 'E Bike Helmets', c: 'E Bike Parts Australia' }; // C 260
+  return BY_KIND[kind];
+}
+
+// Search-result title: product name + T keyword + price when it fits, otherwise the shorter forms; never longer than 68 characters.
+export function productSeoTitle(p: P): string {
+  const { t, c } = productSecondary(p);
+  const short = shortName(p.name);
+  const price = `$${p.price.toLocaleString('en-AU')}`;
+  const MAX = 68;
+  const tries = [`${short} | ${t} | ${price}`, `${short} | ${t}`, `${short} | ${c} | ${price}`, `${short} | ${c}`];
+  // The name already says it (e.g. "... Electric Balance Bike"): keep the whole name and add Australia.
+  const core = t.toLowerCase().replace(/ (australia|for sale)$/, '');
+  if (short.toLowerCase().includes(core)) { const tail = /for sale$/i.test(t) ? "for Sale" : "Australia"; tries.push(`${short} ${tail} | ${price}`, `${short} ${tail}`); }
+  const fit = tries.find((s) => s.length <= MAX);
+  if (fit) return fit;
+  // Long product name: drop trailing words (keeping at least three) so the keyword always stays in the title.
+  const words = short.split(' ');
+  for (let n = words.length - 1; n >= 3; n--) {
+    const name = words.slice(0, n).join(' ').replace(/[,&|-]+$/, '').trim();
+    for (const s of [`${name} | ${t} | ${price}`, `${name} | ${t}`]) if (s.length <= MAX) return s;
+  }
+  return `${short} | ${price}`;
+}
+
+// Meta description: keyword and price first (so trimming never removes them), then the product blurb, then the offer. 150-160 characters.
+export function productSeoDescription(p: P, offer: string): string {
+  const { t } = productSecondary(p);
+  const head = `${shortName(p.name)}: ${t}, AUD $${p.price.toLocaleString('en-AU')}.`;
+  const blurb = (p.shortDescription ?? '').replace(/\s+/g, ' ').trim();
+  let out = `${head} ${blurb}`.trim();
+  if (out.length > 160) out = out.slice(0, 157).replace(/\s+\S*$/, '') + '...';
+  else if (out.length + offer.length + 1 <= 160) out = `${out} ${offer}`;
+  return out;
 }

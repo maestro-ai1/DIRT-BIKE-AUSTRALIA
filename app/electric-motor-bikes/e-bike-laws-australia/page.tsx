@@ -9,6 +9,7 @@ import { ArrowRight, CheckCircle, AlertTriangle, Scale, MapPin, ShieldCheck } fr
 import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 const seo = seoFor('/electric-motor-bikes/e-bike-laws-australia/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -274,6 +275,8 @@ export default function EBikeLawsAustraliaPage() {
             </Link>
           ))}
         </div>
+
+        <KeywordGuide path="/electric-motor-bikes/e-bike-laws-australia/" />
 
         <RelatedGuides path="/electric-motor-bikes/e-bike-laws-australia/" />
 

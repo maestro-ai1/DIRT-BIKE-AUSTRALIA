@@ -10,6 +10,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 const seo = seoFor('/electric-dirt-bikes/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -190,6 +191,8 @@ export default function ElectricDirtBikesPage() {
             </div>
           </div>
         </div>
+
+        <KeywordGuide path="/electric-dirt-bikes/" />
 
         <RelatedGuides path="/electric-dirt-bikes/" />
 

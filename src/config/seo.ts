@@ -139,8 +139,8 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     ogTitle: 'Electric Bike Brands Australia — Sur-Ron, Talaria, Stark Varg, E-Ride Pro',
     ogDescription: 'Sur-Ron, Talaria, Stark Varg, Stealth & E-Ride Pro. Genuine AU stock, factory warranty from Mittagong NSW 2575.',
     keywords: 'electric bike brands australia, e ride pro, e ride pro australia, electric dirt bike brands',
-    main: 'e ride pro', // Navigational 2,900/mo KD17: brand term, answered in FAQ and brand copy
-    primary: ['electric bike brands australia', 'e ride pro australia'], // 90 / 170
+    main: 'electric bike brands australia', // 90/mo Commercial; the E-Ride Pro brand terms now live on /brands/e-ride-pro/
+    primary: ['electric dirt bike brands', 'e ride pro australia'], // e ride pro australia 170 is linked to /brands/e-ride-pro/
   },
   '/blog/': {
     title: 'Electric Dirt Bike Blog Australia | Guides, Reviews & Riding Tips',

@@ -25,6 +25,12 @@ const SHOP_LINKS = [
   { href: '/electric-mini-bikes/', label: 'Mini Electric Bikes' },
   { href: '/electric-bikes/cheap/', label: 'Cheap Electric Bikes' },
   { href: '/electric-motor-bikes/kids/', label: 'Kids Electric Bikes' },
+  { href: '/electric-pit-bikes/', label: 'Electric Pit Bikes' },
+  { href: '/electric-balance-bikes/', label: 'Electric Balance Bikes' },
+  { href: '/electric-dirt-bikes/kids/', label: 'Kids Electric Dirt Bikes' },
+  { href: '/electric-dirt-bikes/sur-ron/', label: 'Sur-Ron for Sale' },
+  { href: '/electric-dirt-bikes/cheap/', label: 'Cheap Electric Dirt Bikes' },
+  { href: '/electric-bike-batteries/', label: 'E Bike Batteries' },
   { href: '/accessories/', label: 'Batteries & Chargers' },
 ];
 

@@ -10,6 +10,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 const seo = seoFor('/electric-motor-bikes/commuter-mopeds/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -136,6 +137,8 @@ export default function CommuterMopedsPage() {
           </div>
           <ProductPager groups={[{ items: commuterProducts }]} />
         </div>
+
+        <KeywordGuide path="/electric-motor-bikes/commuter-mopeds/" />
 
         <RelatedGuides path="/electric-motor-bikes/commuter-mopeds/" />
 

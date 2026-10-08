@@ -10,6 +10,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
+import { KeywordGuide } from '@/components/KeywordGuide';
 const seo = seoFor('/electric-motor-bikes/rtr-ebike/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -130,6 +131,8 @@ export default function RtrEbikePage() {
             ]}
           />
         </div>
+
+        <KeywordGuide path="/electric-motor-bikes/rtr-ebike/" />
 
         <RelatedGuides path="/electric-motor-bikes/rtr-ebike/" />
 

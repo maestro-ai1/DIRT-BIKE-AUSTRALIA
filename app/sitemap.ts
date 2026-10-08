@@ -7,8 +7,8 @@ const BASE = `https://${SITE.domain}`;
 export default function sitemap(): MetadataRoute.Sitemap {
   // lastmod must only change when a page's content really changes. A build-time timestamp makes every URL look
   // freshly modified on every deploy, and Bing and Google then stop trusting lastmod. Bump UPDATED when content changes.
-  const NEW_PAGES = '2026-10-07'; // pages and posts first published on this date
-  const UPDATED = '2026-10-06'; // titles, descriptions, headings and layout changed on every indexed page on this date
+  const NEW_PAGES = '2026-10-08'; // 2026-10-07 pages (categories, tags) that got a buying guide, menu and footer links on 2026-10-08, plus the new E-Ride Pro page
+  const UPDATED = '2026-10-08'; // 2026-10-08: menu and footer links on every page, product titles/descriptions, category guides, brand hub, buy blocks on older guides
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 1.0 },
@@ -37,6 +37,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/electric-dirt-bikes/kids/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/electric-pit-bikes/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.85 },
     { url: `${BASE}/electric-balance-bikes/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.8 },
+    { url: `${BASE}/brands/e-ride-pro/`, lastModified: '2026-10-08', changeFrequency: 'weekly', priority: 0.75 },
     { url: `${BASE}/electric-bike-batteries/`, lastModified: NEW_PAGES, changeFrequency: 'weekly', priority: 0.8 },
     // Electric motor bike sub-pages
     { url: `${BASE}/electric-motor-bikes/kids/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 0.8 },
@@ -60,7 +61,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPages: MetadataRoute.Sitemap = POSTS.map((post) => ({
     url: `${BASE}/blog/${post.slug}/`,
     // Posts whose title tag was shortened on UPDATED (see app/blog/[slug]/page.tsx) count as modified that day.
-    lastModified: post.title.length + 11 > 70 ? UPDATED : post.date ? new Date(post.date).toISOString().slice(0, 10) : UPDATED,
+    lastModified: post.title.length + 11 > 70 || !(post as { rich?: boolean }).rich ? UPDATED : post.date ? new Date(post.date).toISOString().slice(0, 10) : UPDATED,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
