@@ -7,6 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, Filter, ArrowRight, ShieldCheck, Truck } from 'lucide-react';
 import { ShopCatalogClient } from './ShopCatalogClient';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
 
 const seo = seoFor('/shop/');
 export const metadata: Metadata = {
@@ -87,6 +88,8 @@ export default function ShopPage() {
         </Suspense>
 
         <KeywordGuide path="/shop/" className="mt-12" />
+
+        <AuthorityLinks path="/shop/" className="mt-12" />
 
       </div>
     </div>

@@ -106,7 +106,7 @@ export default function ElectricMotorBikesMelbournePage() {
               Electric Bikes Melbourne · Same-Week VIC Delivery
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Electric Bikes for Sale in Melbourne — Fast Delivery to VIC
+              Electric Bikes Melbourne: For Sale with Fast Delivery to VIC
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Order electric motor bikes online for delivery anywhere in Melbourne and regional Victoria. Electric Dirt Bike Australia dispatches crate-packed bikes from Mittagong NSW — just 2–4 business days to Melbourne. From road-legal commuter e-bikes to high-performance electric dirt bikes and Stealth Australian-engineered hyper-bikes.

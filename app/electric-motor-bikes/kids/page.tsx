@@ -125,7 +125,7 @@ export default function KidsElectricMotorbikeePage() {
               Kids Electric Motorbikes Australia · Ages 3–16
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Kids Electric Bikes &amp; Motorbikes for Sale in Australia
+              Kids Electric Bikes &amp; Childrens Electric Dirt Bikes for Sale in Australia
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Shop Australia&apos;s best range of kids and children&apos;s electric motorbikes — from toddler starter models at 250W to factory competition-spec KTM SX-E 5 and OSET trials bikes. Every kids electric bike comes with 12-month Australian warranty and free nationwide freight on orders over $1,500.

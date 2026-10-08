@@ -107,7 +107,7 @@ export const KEYWORD_GUIDES: Record<string, KeywordGuideBlock> = {
     ],
   },
   '/electric-motor-bikes/melbourne/': {
-    heading: 'Electric Bikes for Sale Melbourne: Delivery to Victoria',
+    heading: 'Electric Moped Melbourne and Electric Bikes for Sale Melbourne',
     paragraphs: [
       'Looking for electric bikes for sale Melbourne riders can order online? We ship across Victoria from Mittagong NSW, with free freight over $1,500. Choose an electric moped Melbourne commuters like, an electric motorbike Melbourne trail riders can take to private land, or a commuter e bike.',
       'Compare prices and specs on each product page and check Victorian rules for licence and registration before you ride.',
@@ -118,7 +118,7 @@ export const KEYWORD_GUIDES: Record<string, KeywordGuideBlock> = {
     ],
   },
   '/electric-motor-bikes/perth/': {
-    heading: 'Electric Bikes for Sale Perth: Delivery to Western Australia',
+    heading: 'Electric Bicycle Perth WA: Electric Bikes for Sale with Delivery',
     paragraphs: [
       'Searching for electric bikes for sale Perth wide? We deliver to Western Australia from Mittagong NSW, with free freight over $1,500. Browse an electric moped Perth commuters can use daily, an electric motorbike Perth riders can take off-road, or a commuter e bike.',
       'Check the specs and price on each product page and confirm Western Australian rules for licence and registration before you ride.',

@@ -6,6 +6,7 @@ import { indexableTags, blogTags, tagSlug, tagTarget } from '@/src/config/blog-s
 import type { NewPost } from '@/src/config/posts-2026-10';
 import { parseRich, RichContent, plainFaqAnswer, renderInline } from '@/components/BlogRichContent';
 import { Calendar, Clock } from 'lucide-react';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
 
 // Article layout for the keyword-led blog posts: H1, table of contents (H2 + H3), body with images/product cards/tables, 5 FAQs, 20 tags.
 export function RichPostArticle({ post }: { post: NewPost }) {
@@ -124,6 +125,8 @@ export function RichPostArticle({ post }: { post: NewPost }) {
             </section>
           )}
         </article>
+
+        <AuthorityLinks path={`/blog/${post.slug}/`} className="mb-0" />
 
         {post.tags.length > 0 && (
           <section className="bg-white p-6 rounded-2xl border border-slate-200/90 shadow-sm space-y-3" aria-labelledby="post-tags">

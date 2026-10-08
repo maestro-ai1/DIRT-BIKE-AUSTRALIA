@@ -2537,10 +2537,10 @@ If you prioritize lightweight flickability and maximum aftermarket modding poten
 Never plug your battery into a high-amperage fast charger immediately after an aggressive trail session. Give the cells 20-30 minutes to cool down to ambient temperature before initiating charging.
 
 ### 2. The 20% to 90% Golden Rule
-For everyday recreational rides, charging up to 90-95% rather than keeping it pinned at 100% can double the total cycle life of Samsung and Molicel lithium cells. Once every month, charge to 100% and leave on the smart charger for an extra hour to allow the BMS to balance individual cell voltages. See [Molicel cell specifications](https://www.molicel.com/product/p45b/) for rated cycle life data.
+For everyday recreational rides, charging up to 90-95% rather than keeping it pinned at 100% can double the total cycle life of Samsung and Molicel lithium cells. Once every month, charge to 100% and leave on the smart charger for an extra hour to allow the BMS to balance individual cell voltages. See [Molicel cell specifications](https://www.molicel.com/) for rated cycle life data.
 
 ### 3. Summer & Off-Season Storage
-If leaving the bike idle for more than 3 weeks, store the battery between 45% and 60% state of charge in a cool, dry area away from direct sunlight. [Battery University\'s storage guide](https://batteryuniversity.com/article/bu-702-how-to-store-lithium-based-batteries) recommends below 25°C for long-term capacity retention.`,
+If leaving the bike idle for more than 3 weeks, store the battery between 45% and 60% state of charge in a cool, dry area away from direct sunlight. [Battery University\'s storage guide](https://batteryuniversity.com/article/bu-702-how-to-store-batteries) recommends below 25°C for long-term capacity retention.`,
   },
   {
     slug: "stark-varg-motocross-revolution-australia",
@@ -2674,7 +2674,7 @@ To run a 10A 60V charger (approx. 700W draw), use a pure sine wave inverter of a
     content: `Stock suspension on entry-level electric dirt bikes is often tuned for lighter 60kg–70kg riders. If you ride aggressive downhill tracks, jump tables, or weigh over 85kg with full gear, tuning your suspension is the best way to prevent bottoming out. All suspension upgrades listed below are available with genuine Australian stock from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/).
 
 ### Setting Rider Sag
-Aim for 25% to 30% of total travel in rider sag. If the bike compresses more than 35% under your weight with riding gear, you need a stiffer coil spring (e.g., 550 lbs/in or 650 lbs/in for the rear shock). [AMCA Australia\'s suspension tuning guide](https://www.amca.net.au/) provides baseline sag settings for Australian track conditions.
+Aim for 25% to 30% of total travel in rider sag. If the bike compresses more than 35% under your weight with riding gear, you need a stiffer coil spring (e.g., 550 lbs/in or 650 lbs/in for the rear shock). the manufacturer\'s suspension tuning guide provides baseline sag settings for Australian track conditions.
 
 ### Upgraded Inverted Forks
 - Fastace ALX13RC: Budget-friendly, stiff 37mm stanchions with customised valving.
@@ -2775,7 +2775,7 @@ Apply a dab of silicone dielectric grease to main battery discharge plugs (QS8, 
     date: "2026-02-08",
     readTime: "7 min read",
     image: "/images/product-bms.webp",
-    content: `The quality of individual lithium-ion cells inside your battery pack dictates how much continuous power your bike can produce without thermal throttling. The two most popular 21700 cells in high-end electric dirt bike battery builds are the [Molicel P45B](https://www.molicel.com/product/p45b/) and Samsung 50S. Battery packs using premium cells like these ship with every [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) machine.
+    content: `The quality of individual lithium-ion cells inside your battery pack dictates how much continuous power your bike can produce without thermal throttling. The two most popular 21700 cells in high-end electric dirt bike battery builds are the [Molicel P45B](https://www.molicel.com/) and Samsung 50S. Battery packs using premium cells like these ship with every [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) machine.
 
 ### Molicel P45B: The Ultimate High-Discharge Beast
 - Capacity: 4,500mAh
@@ -2786,7 +2786,7 @@ Apply a dab of silicone dielectric grease to main battery discharge plugs (QS8, 
 ### Samsung 50S: Maximum Trail Range
 - Capacity: 5,000mAh
 - Continuous Discharge Rating: 25 Amps per cell
-- Verdict: Best for 6kW–10kW setups like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) where riders prioritise maximum kilometre range and moderate current draw. See [Samsung SDI cell data](https://www.samsungsdi.com/cylindrical-lithium-ion/) for full discharge curve specifications.`,
+- Verdict: Best for 6kW–10kW setups like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) where riders prioritise maximum kilometre range and moderate current draw. See [Samsung SDI cell data](https://www.samsungsdi.com/) for full discharge curve specifications.`,
   },
   {
     slug: "how-to-transport-electric-dirt-bikes-car-hitch-racks",
@@ -2930,7 +2930,7 @@ The current flagship Talaria Sting R MX4 features a 60V 45Ah lithium battery, 8k
 In steep Australian mountain climbs — Blue Mountains switchbacks, Snowy Mountains scree slopes, and Victorian High Country creek crossings — the Talaria\'s sealed gearbox delivers consistent torque multiplication without slipping or heat-induced belt stretch. The lower gear ratio provides tractor-like crawling speed in technical rock gardens, while the upper gear unlocks 80 km/h flat-out trail blasting.
 
 ### Battery Range in Real Australian Conditions
-Testing across mixed NSW singletrack, fireroads, and climb-heavy terrain, the 45Ah battery comfortably delivers 70–90km per charge in eco mode, dropping to 50–65km in sport/full-power mode. Charging time is 3.5–4 hours with the standard charger and 2 hours with the optional 10A fast charger available from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/fast-charger-10a/).
+Testing across mixed NSW singletrack, fireroads, and climb-heavy terrain, the 45Ah battery comfortably delivers 70–90km per charge in eco mode, dropping to 50–65km in sport/full-power mode. Charging time is 3.5–4 hours with the standard charger and 2 hours with the optional 10A fast charger available from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/10a-compact-touring-charger/).
 
 ### Comparison: Talaria Sting vs Sur-Ron Light Bee X
 The Talaria\'s gearbox edges out the Sur-Ron in wet, muddy, and rocky terrain where belt-drive bikes risk stretch and snap. The Sur-Ron wins on aftermarket parts availability and lighter weight for technical trials. For Australian riders who prioritise durability and torque over weight savings, the [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) is the stronger long-term choice. More technical specs are published on the official [Talaria product page](https://talariausa.com/).
@@ -3005,13 +3005,13 @@ Regardless of model, all children must wear an ASNZS 1698 approved motorcycle he
 The ideal electric pit bike balances compact dimensions (sub-55kg) with enough power for adult recreational use. A good pit bike should have: adjustable power modes (for young riders), a seat height under 810mm, at least 60km range per charge, and an aluminium or chromoly steel frame rated for at least 100kg rider weight.
 
 ### Top Electric Pit Bikes Available in Australia
-The [Razor MX650 Electric Dirt Rocket](https://www.electricdirtbikeaustralia.com.au/shop/razor-mx650-dirt/) is the most popular entry-level electric pit bike in Australia, retailing from $1,100 with a 650W chain-drive motor and 17-inch wheels. The [EDBA Moto 50](https://www.electricdirtbikeaustralia.com.au/shop/edba-moto-50-kids-beginner/) steps up to a 36V lithium pack with safer sealed battery design and automatic braking assist. For performance-oriented pit bike riders, the Talaria XXX Black Edition runs at 60V 40Ah in a compact trail-fighter frame.
+The [Razor MX650 Electric Dirt Rocket](https://www.electricdirtbikeaustralia.com.au/shop/razor-mx650-electric-kids/) is the most popular entry-level electric pit bike in Australia, retailing from $1,100 with a 650W chain-drive motor and 17-inch wheels. The [EDBA Moto 50](https://www.electricdirtbikeaustralia.com.au/shop/edba-moto-50-kids-beginner/) steps up to a 36V lithium pack with safer sealed battery design and automatic braking assist. For performance-oriented pit bike riders, the Talaria XXX Black Edition runs at 60V 40Ah in a compact trail-fighter frame.
 
 ### Electric Pit Bikes vs Petrol 50cc Pit Bikes
 A petrol 50cc pit bike costs $800–$1,500 but requires regular oil changes, carburettor cleaning, clutch adjustment, and produces exhaust fumes that make indoor or garage use impossible. An electric pit bike costs $1,000–$3,500 but eliminates fuel costs, fume concerns, and most scheduled maintenance, leaving only periodic brake pad and chain replacement.
 
 ### Where to Ride Electric Pit Bikes in Australia
-Electric pit bikes are suitable for private properties, farm paddocks, and designated off-road parks. Many motocross tracks run dedicated junior pit bike classes where electric models are welcome alongside petrol machines. Check with [Motorcycling Australia](https://www.motorcyclingaustralia.com.au/) for affiliated track listings near your location.`,
+Electric pit bikes are suitable for private properties, farm paddocks, and designated off-road parks. Many motocross tracks run dedicated junior pit bike classes where electric models are welcome alongside petrol machines. Check with [Motorcycling Australia](https://motorcycling.com.au/) for affiliated track listings near your location.`,
   },
 
   {
@@ -3028,7 +3028,7 @@ Electric pit bikes are suitable for private properties, farm paddocks, and desig
 Standard 2.1-inch e-bike tyres sink into soft sand, volcanic pumice, and saturated clay. A 4-inch fat tyre spreads rider weight across a contact patch three times larger, reducing ground pressure from 10 PSI to under 4 PSI. This transforms impossible beach and dune riding into smooth, controlled experiences.
 
 ### Best Electric Fat Bike Models in Australia
-The [Electric Fat Tire Bike 60V](https://www.electricdirtbikeaustralia.com.au/shop/electric-fat-tire-60v/) available at Electric Dirt Bike Australia features a 60V lithium battery, 1,500W hub motor, and 26x4-inch Kenda Juggernaut tyres. It handles beach, scrub, and hardpack with equal confidence. For lighter off-road use, the 36V mini fat bike variant provides a cost-effective entry to fat-tyre riding at under $1,500.
+The [Electric Fat Tire Bike 60V](https://www.electricdirtbikeaustralia.com.au/electric-fat-tyre-bikes/) available at Electric Dirt Bike Australia features a 60V lithium battery, 1,500W hub motor, and 26x4-inch Kenda Juggernaut tyres. It handles beach, scrub, and hardpack with equal confidence. For lighter off-road use, the 36V mini fat bike variant provides a cost-effective entry to fat-tyre riding at under $1,500.
 
 ### Electric Fat Bikes vs Standard E-MTBs
 Standard electric mountain bikes with 2.5-inch tyres deliver better efficiency on hardpack trails and sealed bike paths. Fat bikes sacrifice 5–10% efficiency on hard surfaces for almost unlimited terrain versatility off them. If your riding mix includes more than 30% soft sand, deep mud, or snow, a fat tyre bike will deliver a superior experience.
@@ -3077,13 +3077,13 @@ Unlike petrol bikes, off road electric bikes require no oil changes, valve clear
 Electrical power equals Voltage multiplied by Current (P = V × I). Delivering 12kW through a 60V system requires 200A of current — generating significant heat in wiring, connectors, and motor windings. The same 12kW through a 72V system requires only 167A. Lower current means cooler motors, less voltage sag on hills, and longer sustained high-speed performance.
 
 ### EDBA 72V 40Ah Molicel Pack
-The [72V 40Ah High Discharge Battery](https://www.electricdirtbikeaustralia.com.au/shop/72v-40ah-battery/) at Electric Dirt Bike Australia uses genuine Molicel P45B 21700 cells rated at 45A continuous discharge per cell. The pack includes a smart Bluetooth BMS for real-time cell monitoring, a QS8 discharge connector, and Anderson charge port compatible with the 72V fast chargers in EDBA\'s range. Capacity: 2,880Wh. Approximate range: 110–140km (eco mode trail riding).
+The [72V 40Ah High Discharge Battery](https://www.electricdirtbikeaustralia.com.au/electric-bike-batteries/) at Electric Dirt Bike Australia uses genuine Molicel P45B 21700 cells rated at 45A continuous discharge per cell. The pack includes a smart Bluetooth BMS for real-time cell monitoring, a QS8 discharge connector, and Anderson charge port compatible with the 72V fast chargers in EDBA\'s range. Capacity: 2,880Wh. Approximate range: 110–140km (eco mode trail riding).
 
 ### EDBA 72V 60Ah Maximum Range Pack
-For riders prioritising endurance over sprint performance, the [72V 60Ah Samsung 50S pack](https://www.electricdirtbikeaustralia.com.au/shop/72v-60ah-battery/) delivers 4,320Wh and up to 180km trail range. These Samsung 50S cells offer 5,000mAh capacity per cell versus the Molicel P45B\'s 4,500mAh, making them ideal for multi-hour bush sessions where sustained range matters more than peak discharge.
+For riders prioritising endurance over sprint performance, the [72V 60Ah Samsung 50S pack](https://www.electricdirtbikeaustralia.com.au/electric-bike-batteries/) delivers 4,320Wh and up to 180km trail range. These Samsung 50S cells offer 5,000mAh capacity per cell versus the Molicel P45B\'s 4,500mAh, making them ideal for multi-hour bush sessions where sustained range matters more than peak discharge.
 
 ### What Controller Do I Need for a 72V Upgrade?
-The stock Sur-Ron Light Bee X controller is rated for 60V operation. For a 72V battery, you must upgrade to a 72V-rated controller — the [High-Performance 72V Controller](https://www.electricdirtbikeaustralia.com.au/shop/72v-controller/) handles up to 300A peak current and includes mobile app tuning for throttle curves, regen braking, and thermal rollback protection. Never run a 60V controller on a 72V battery — overvoltage will damage the FETs and void your warranty.`,
+The stock Sur-Ron Light Bee X controller is rated for 60V operation. For a 72V battery, you must upgrade to a 72V-rated controller — the [High-Performance 72V Controller](https://www.electricdirtbikeaustralia.com.au/accessories/) handles up to 300A peak current and includes mobile app tuning for throttle curves, regen braking, and thermal rollback protection. Never run a 60V controller on a 72V battery — overvoltage will damage the FETs and void your warranty.`,
   },
 
   {
@@ -3123,7 +3123,7 @@ Match bike size to your riding. If you\'re 75kg–90kg and riding mixed singletr
 Three factors make OSET bikes the consistent choice for Australian riding families: precise power adjustment (0%–100% motor output via a dial accessible without tools), genuine trials geometry that builds exceptional balance and body position, and exceptional durability under the inevitable crashes of youth riding. OSET bikes are built for hard use, not display cabinet storage.
 
 ### OSET 12.5 Racing (Ages 3–6)
-The 12.5 Racing is the world\'s most popular first electric motorcycle for children. At 12kg dry weight, a 24V lithium pack, and adjustable power from a brisk walk to 12 km/h, three-year-olds can ride independently within an afternoon. The trials geometry provides exceptional stability over bumps and logs. Available from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/shop/oset-12-5-racing-junior/).
+The 12.5 Racing is the world\'s most popular first electric motorcycle for children. At 12kg dry weight, a 24V lithium pack, and adjustable power from a brisk walk to 12 km/h, three-year-olds can ride independently within an afternoon. The trials geometry provides exceptional stability over bumps and logs. Available from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/electric-dirt-bikes/kids/).
 
 ### OSET 16.0 Racing (Ages 6–10)
 Stepping up to a 36V pack and 500W motor, the OSET 16.0 Racing introduces proper terrain riding — navigating over obstacles, through mud, and across rocky creek beds. Adjustable power modes allow gradual progression as children build skills and confidence.
@@ -3149,10 +3149,10 @@ The 24R represents the pinnacle of junior OSET performance — 48V 20Ah battery,
 The [E-Ride Pro SS 2.0](https://www.electricdirtbikeaustralia.com.au/shop/e-ride-pro-ss-2-0/) is E-Ride\'s flagship — a 72V 35Ah full-size electric enduro bike with 12kW peak output, KYB inverted forks, 21-inch front wheel, and 270mm front disc brake. At 95kg with battery, it matches the weight and geometry of a 250cc petrol enduro bike, delivering genuine bush enduro performance without the engine maintenance overhead. Price: $9,900 with free national freight.
 
 ### E-Ride Pro S16: The Youth/Small Rider Model
-Sized with a 780mm seat height and 16-inch wheel configuration, the [E-Ride Pro S16](https://www.electricdirtbikeaustralia.com.au/shop/e-ride-pro-s16/) is calibrated for riders 145cm–165cm tall — younger teens, female riders, and adults of smaller stature who want a lightweight (72kg) bike with adult-grade performance. The 60V 32Ah pack delivers 90–110km trail range and powers a 6kW motor to 75 km/h.
+Sized with a 780mm seat height and 16-inch wheel configuration, the [E-Ride Pro S16](https://www.electricdirtbikeaustralia.com.au/brands/e-ride-pro/) is calibrated for riders 145cm–165cm tall — younger teens, female riders, and adults of smaller stature who want a lightweight (72kg) bike with adult-grade performance. The 60V 32Ah pack delivers 90–110km trail range and powers a 6kW motor to 75 km/h.
 
 ### E-Ride Pro S17: The Versatile Mid-Size
-The [S17](https://www.electricdirtbikeaustralia.com.au/shop/e-ride-pro-s17/) splits the difference between the S16 and SS 2.0 — 17-inch wheel configuration, 800mm seat height, and an 8kW motor with 60V 38Ah battery pack. This wheel size opens the largest selection of aftermarket trail and enduro tyre choices. At $7,900 it represents the best value in the E-Ride Pro range.
+The [S17](https://www.electricdirtbikeaustralia.com.au/brands/e-ride-pro/) splits the difference between the S16 and SS 2.0 — 17-inch wheel configuration, 800mm seat height, and an 8kW motor with 60V 38Ah battery pack. This wheel size opens the largest selection of aftermarket trail and enduro tyre choices. At $7,900 it represents the best value in the E-Ride Pro range.
 
 ### Australian-Made Advantage
 Buying an E-Ride Pro means your warranty claims are handled domestically without shipping delays or customs complications. Parts are stocked at the Mittagong warehouse alongside the full range of [Electric Dirt Bike Australia\'s](https://www.electricdirtbikeaustralia.com.au/) accessories and upgrade components. Service turnaround times are measured in days, not weeks. For serious Australian trail riders, this domestic service advantage is worth as much as the bike itself.`,
@@ -3195,7 +3195,7 @@ Road-legal electric motorcycles and mopeds (>250W) require a minimum Rider licen
 Key safety features include: adjustable power limits (allowing parents to cap speed and torque), automatic shutoff when the throttle is released, a low seat height that allows flat-footed confidence, lightweight construction for easy recovery after falls, and sealed battery compartments that protect cells from moisture and crash damage.
 
 ### Ages 3–5: Supervised First Riding
-The [OSET 12.5 Racing](https://www.electricdirtbikeaustralia.com.au/shop/oset-12-5-racing-junior/) at $1,290 provides the safest entry point. Weighing just 12kg with 24V power adjustable to near-zero, three-year-olds genuinely control this bike from their first session. Pair with a certified ASNZS 1698 helmet, knee guards, and elbow pads.
+The [OSET 12.5 Racing](https://www.electricdirtbikeaustralia.com.au/electric-dirt-bikes/kids/) at $1,290 provides the safest entry point. Weighing just 12kg with 24V power adjustable to near-zero, three-year-olds genuinely control this bike from their first session. Pair with a certified ASNZS 1698 helmet, knee guards, and elbow pads.
 
 ### Ages 6–9: Building Real Skills
 The [EDBA Moto 50](https://www.electricdirtbikeaustralia.com.au/shop/edba-moto-50-kids-beginner/) and OSET 16.0 Racing are the most popular choices for this bracket. Both include graduated power modes, automatic electric braking on throttle release, and appropriate geometry for riders 115cm–140cm tall. Seat heights of 570mm–680mm allow flat-footed standing and easy mounting.
@@ -3224,7 +3224,7 @@ The [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-
 Sharing the same powertrain as the Pro, the [RTR eBike S Classic](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-s-classic/) adopts classic cafe-racer styling with a lower seat height (785mm) suited to shorter riders and city commuters. It includes the same 72V battery system and ADR compliance package. Price: $5,900.
 
 ### Australian Road Registration Process
-Both RTR eBike models arrive with a VIN plate and compliance documentation pre-installed. To register in your state or territory, take the compliance certificate to your local transport authority (Service NSW, VicRoads, DoT WA, etc.) along with a passing blue slip/roadworthy certificate and standard CTP insurance. Full [registration guidance for NSW riders](https://www.transport.nsw.gov.au/roads-and-waterways/vehicles/motorcycles) is published by Transport for NSW.
+Both RTR eBike models arrive with a VIN plate and compliance documentation pre-installed. To register in your state or territory, take the compliance certificate to your local transport authority (Service NSW, VicRoads, DoT WA, etc.) along with a passing blue slip/roadworthy certificate and standard CTP insurance. Full [registration guidance for NSW riders](https://www.nsw.gov.au/driving-boating-and-transport/vehicle-registration) is published by Transport for NSW.
 
 ### Daily Commute Performance
 Over six months of Sydney suburban commuting testing, the RTR eBike Pro delivered consistent 85–95km range per charge on mixed arterial and suburban roads. Charging costs averaged $0.55 per full charge at off-peak residential rates — compared to $18–$22 in petrol for an equivalent 150cc commuter motorcycle. Home charging via a standard 10A power point completes a full charge in 5 hours overnight.`,
@@ -3300,7 +3300,7 @@ Australian Design Rules (ADR) 83/00 governs electric motorcycle safety and elect
 The Learner Approved Motorcycle Scheme (LAMS) permits learner and provisional riders to legally operate electric motorcycles on public roads. LAMS eligibility for electric motorcycles is assessed on a power-to-weight ratio of ≤150kW per tonne. The [RTR eBike Pro Commuter](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) and [NIU NQi GT](https://www.electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) both qualify for LAMS registration under this threshold in NSW, VIC, QLD, and WA.
 
 ### State-by-State Registration Guide
-**NSW**: Submit compliance documentation at Service NSW with a passing blue slip from an authorised station. Compulsory third-party (CTP) insurance is mandatory. [Full registration process at Transport for NSW](https://www.transport.nsw.gov.au/roads-and-waterways/vehicles/motorcycles).
+**NSW**: Submit compliance documentation at Service NSW with a passing blue slip from an authorised station. Compulsory third-party (CTP) insurance is mandatory. [Full registration process at Transport for NSW](https://www.nsw.gov.au/driving-boating-and-transport/vehicle-registration).
 **VIC**: Registration through VicRoads requires an Airworthiness Certificate from a Licensed Vehicle Tester and VicRoads CTP.
 **QLD**: Department of Transport and Main Roads (DTMR) registration requires a Safety Certificate from a licensed examiner.
 **WA**: Department of Transport WA accepts ADR-compliant electric motorcycles under standard motorcycle registration procedures.
@@ -3355,7 +3355,7 @@ No other electric bike in Australia matches the [Stark Varg EX](https://www.elec
 For road-legal city commuting, the [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) offers LAMS eligibility, 95 km/h performance, 100km range, and full ADR compliance at $6,900. It eliminates petrol commuting costs within 2–3 years through electricity savings alone.
 
 ### Best Electric Bike Under $3,000: Razor MX650
-For budget-conscious riders or first-time electric dirt bike buyers, the [Razor MX650](https://www.electricdirtbikeaustralia.com.au/shop/razor-mx650-dirt/) at $1,100 delivers 650W dirt bike performance for youth and lighter adult riders. Steel frame, 17-inch wheels, and hand-operated brake levers provide genuine off-road capability at entry-level pricing.
+For budget-conscious riders or first-time electric dirt bike buyers, the [Razor MX650](https://www.electricdirtbikeaustralia.com.au/shop/razor-mx650-electric-kids/) at $1,100 delivers 650W dirt bike performance for youth and lighter adult riders. Steel frame, 17-inch wheels, and hand-operated brake levers provide genuine off-road capability at entry-level pricing.
 
 ### Best Electric Bike for Kids: OSET 20.0 Racing
 For children ages 8–13, the [OSET 20.0 Racing](https://www.electricdirtbikeaustralia.com.au/shop/oset-20-0-racing-junior/) is the globally recognised junior benchmark. Used in formal competition by [OSET](https://www.osetbikes.com/) junior championship riders worldwide, it provides competition-grade performance with parent-controlled power adjustment — the gold standard in youth electric motorcycling.

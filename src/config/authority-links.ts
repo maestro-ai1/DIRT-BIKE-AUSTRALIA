@@ -90,6 +90,30 @@ export const AUTH: Record<string, AuthLink> = {
     source: 'Wikipedia',
     note: 'Pit bike overview.',
   },
+  bicycleNetwork: {
+    label: 'Bicycle Network: Australia\'s bike riding organisation',
+    url: 'https://bicyclenetwork.com.au/',
+    source: 'Bicycle Network',
+    note: 'Rider advocacy, safety and e-bike information from Australia\'s largest riding body.',
+  },
+  adrRules: {
+    label: 'Vehicle design regulation (Australian Design Rules)',
+    url: 'https://www.infrastructure.gov.au/infrastructure-transport-vehicles/vehicles/vehicle-design-regulation',
+    source: 'Australian Government (Infrastructure)',
+    note: 'The national rules a vehicle must meet to be road legal.',
+  },
+  wikiBalance: {
+    label: 'Balance bicycle',
+    url: 'https://en.wikipedia.org/wiki/Balance_bicycle',
+    source: 'Wikipedia',
+    note: 'What a balance bike is and how children learn on one.',
+  },
+  wikiMoped: {
+    label: 'Moped',
+    url: 'https://en.wikipedia.org/wiki/Moped',
+    source: 'Wikipedia',
+    note: 'Background on mopeds and how they are classified.',
+  },
   wikiFatbike: {
     label: 'Fatbike',
     url: 'https://en.wikipedia.org/wiki/Fatbike',
@@ -106,7 +130,7 @@ const SETS: Record<string, string[]> = {
   '/': ['nswEbikes', 'vicEbikes', 'qldEbikes', 'waBikes', 'accc', 'nswLiIon'],
   '/accessories/': BATTERY,
   '/electric-pit-bikes/': ['wikiPitBike', 'nswLiIon', 'accc'],
-  '/electric-balance-bikes/': ['nswEbikes', 'nswLiIon', 'accc'],
+  '/electric-balance-bikes/': ['wikiBalance', 'nswEbikes', 'nswLiIon', 'accc'],
   '/electric-bike-batteries/': BATTERY,
   '/electric-dirt-bikes/sur-ron/': ['wikiMotocross', 'wikiEMoto', 'nswLiIon', 'accc'],
   '/electric-dirt-bikes/cheap/': ['wikiEMoto', 'nswLiIon', 'accc'],
@@ -114,23 +138,50 @@ const SETS: Record<string, string[]> = {
   '/electric-dirt-bikes/': ['wikiMotocross', 'wikiEMoto', 'nswLiIon', 'accc'],
   '/electric-motor-bikes/': ['wikiEMoto', 'nswEbikes', 'accc', 'qldFire'],
   '/electric-motor-bikes/kids/': ['accc', 'nswLiIon', 'qldFire', 'wikiEMoto'],
-  '/electric-motor-bikes/commuter-mopeds/': [...STATES, 'wikiEbikeLaws'],
+  '/electric-motor-bikes/commuter-mopeds/': [...STATES, 'wikiMoped', 'adrRules'],
   '/electric-motor-bikes/rtr-ebike/': [...STATES, 'wikiEbike'],
-  '/electric-motor-bikes/best-electric-bikes-australia/': ['wikiEbike', 'wikiEbikeLaws', 'accc', 'nswLiIon'],
-  '/electric-motor-bikes/e-bike-laws-australia/': [...STATES, 'wikiEbikeLaws', 'accc'],
+  '/electric-motor-bikes/best-electric-bikes-australia/': ['bicycleNetwork', 'wikiEbike', 'wikiEbikeLaws', 'accc', 'nswLiIon'],
+  '/electric-motor-bikes/e-bike-laws-australia/': [...STATES, 'adrRules', 'bicycleNetwork', 'wikiEbikeLaws', 'accc'],
   '/electric-motor-bikes/melbourne/': ['vicEbikes', 'wikiEbikeLaws', 'accc'],
   '/electric-motor-bikes/perth/': ['waBikes', 'wikiEbikeLaws', 'accc'],
   '/electric-motor-bikes/sydney/': ['nswEbikes', 'nswLiIon', 'wikiEbikeLaws'],
   '/electric-motor-bikes/brisbane/': ['qldEbikes', 'qldFire', 'wikiEbikeLaws'],
-  '/electric-bikes/': [...STATES, 'wikiEbike'],
+  '/electric-bikes/': [...STATES, 'bicycleNetwork', 'wikiEbike'],
   '/electric-bikes/cheap/': [...STATES, 'accc'],
   '/electric-fat-tyre-bikes/': ['wikiFatbike', 'wikiEbikeLaws', 'nswEbikes', 'qldEbikes'],
   '/electric-mini-bikes/': ['wikiEbike', 'accc', 'nswLiIon', 'wikiEbikeLaws'],
   '/electric-motocross-bikes/': ['wikiMotocross', 'wikiEMoto', 'nswLiIon', 'accc'],
-  '/electric-motorcycles/': ['wikiEMoto', 'nswEbikes', 'accc', 'wikiLiIon'],
+  '/electric-motorcycles/': ['wikiEMoto', 'adrRules', 'nswEbikes', 'accc', 'wikiLiIon'],
+  '/shop/': ['accc', 'nswLiIon', 'bicycleNetwork', 'wikiEMoto'],
+  '/brands/': ['wikiEMoto', 'wikiEbike', 'accc', 'bicycleNetwork'],
+  '/brands/e-ride-pro/': ['wikiMotocross', 'wikiEMoto', 'nswLiIon', 'accc'],
 };
 const DEFAULT_SET = ['wikiEbike', 'wikiEMoto', 'nswEbikes', 'accc'];
 
+// Blog posts and product pages pick a set from their slug; everything else is looked up in SETS.
+function setFor(path: string): string[] {
+  if (SETS[path]) return SETS[path];
+  const slug = path.replace(/^\/(blog|shop)\//, '');
+  if (path.startsWith('/blog/')) {
+    if (/battery|charger|cells|72v|60v|range|torp|controller/.test(slug)) return BATTERY;
+    if (/legal|law|licence|registration|insurance|road/.test(slug)) return [...STATES, 'adrRules', 'wikiEbikeLaws'];
+    if (/kids|age|children|teen|junior|oset/.test(slug)) return ['nswEbikes', 'accc', 'nswLiIon', 'wikiBalance'];
+    if (/pit-bike/.test(slug)) return ['wikiPitBike', 'nswLiIon', 'accc'];
+    if (/fat|cruiser/.test(slug)) return ['wikiFatbike', 'nswEbikes', 'bicycleNetwork'];
+    if (/moped|scooter/.test(slug)) return ['wikiMoped', 'adrRules', 'nswEbikes'];
+    return ['wikiEbike', 'wikiEMoto', 'nswEbikes', 'accc', 'bicycleNetwork'];
+  }
+  if (path.startsWith('/shop/')) {
+    if (/battery|charger|pack|anderson|backpack/.test(slug)) return BATTERY;
+    if (/balance/.test(slug)) return ['wikiBalance', 'nswEbikes', 'accc'];
+    if (/pit-bike|ebox|dragster|etm|dhz/.test(slug)) return ['wikiPitBike', 'nswLiIon', 'accc'];
+    if (/fat|cruiser|chubbie|stubbie|riptide|ace-/.test(slug)) return ['wikiFatbike', 'nswEbikes', 'accc'];
+    if (/rtr|niu|soco|moped/.test(slug)) return ['nswEbikes', 'adrRules', 'accc'];
+    return ['wikiEMoto', 'nswLiIon', 'accc', 'bicycleNetwork'];
+  }
+  return DEFAULT_SET;
+}
+
 export function authorityLinksFor(path: string): AuthLink[] {
-  return (SETS[path] ?? DEFAULT_SET).map((k) => AUTH[k]).filter(Boolean);
+  return setFor(path).map((k) => AUTH[k]).filter(Boolean);
 }

@@ -58,11 +58,11 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric motorbike', 'electric motorbike australia', 'electric motorcycle', 'electric motorcycle australia', 'electric motor bike', 'electric motor bikes'], // 6,600 / 1,300 / 1,900 / 1,900 / 1,000 / 1,000
   },
   '/electric-motor-bikes/kids/': {
-    title: 'Kids Electric Bikes & Motorbikes for Sale Australia | Ages 3–16',
+    title: 'Kids Electric Bike & Childrens Electric Dirt Bike for Sale Australia',
     description: 'Shop kids electric bikes & motorbikes in Australia: childs electric motorcycles & childrens electric dirt bikes, ages 3–16. Free freight over $1,500.',
     ogTitle: 'Kids Electric Bikes & Motorbikes for Sale Australia — Ages 3–16',
     ogDescription: 'Kids electric bikes, childs electric motorcycles and childrens electric dirt bikes for ages 3–16. 12-month AU warranty. Free freight over $1,500.',
-    h1: 'Kids Electric Bikes & Motorbikes for Sale in Australia',
+    h1: 'Kids Electric Bikes & Childrens Electric Dirt Bikes for Sale in Australia',
     keywords: 'kids electric bike, childs electric motorcycle, childrens electric dirt bike, kids electric motorbike, childrens electric motorbike, children electric bike, kids electric dirt bike, kids dirt bike for sale',
     main: 'kids dirt bike for sale', // 20/mo (inferred) - no Semrush-labelled transactional keyword exists for kids
     primary: ['kids electric bike', 'childs electric motorcycle', 'childrens electric dirt bike', 'kids electric motorbike', 'childrens electric motorbike', 'children electric bike', 'kids electric dirt bike'], // 4,400 / 2,400 / 1,300 / 1,300 / 1,300 / 1,000 / 590
@@ -77,11 +77,11 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['rtr e bike', 'rtr ebike', 'rtr electric bike', 'rtr bike'], // 1,600 / 880 / 320 / 320, KD 5-17
   },
   '/electric-motor-bikes/commuter-mopeds/': {
-    title: 'Electric Mopeds for Sale Australia | Road-Legal, LAMS Approved',
+    title: 'Electric Moped Australia | Road-Legal, LAMS Approved Mopeds for Sale',
     description: 'Buy an electric moped in Australia: road-legal, LAMS-approved electric mopeds & commuter e-bikes. Free delivery over $1,500, 12-month warranty. Stock from NSW.',
     ogTitle: 'Electric Mopeds for Sale Australia — Road-Legal, LAMS Approved',
     ogDescription: 'Road-legal electric mopeds for Australian commuters. LAMS approved, free delivery over $1,500. Genuine AU stock from Mittagong NSW.',
-    h1: 'Electric Mopeds & Commuter E-Bikes for Sale in Australia',
+    h1: 'Electric Moped Australia: Mopeds & Commuter E-Bikes for Sale',
     keywords: 'electric moped australia, electric mopeds for sale, electric motorcycle moped, electric moped bike, moped prices, electric mopeds australia, road legal electric motorcycle',
     main: 'moped prices', // 70/mo KD18 Transactional
     primary: ['electric moped australia', 'electric motorcycle moped', 'electric moped bike', 'electric mopeds australia'], // 1,000 / 1,000 / 390 / 110
@@ -105,21 +105,21 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric bike laws australia', 'electric bike laws qld', 'electric bike regulations nsw'],
   },
   '/electric-motor-bikes/melbourne/': {
-    title: 'Electric Bikes for Sale Melbourne | Motorbikes, Mopeds, Free Delivery',
+    title: 'Electric Bikes Melbourne | Electric Bikes for Sale Melbourne, VIC',
     description: 'Buy electric bikes, motorbikes & mopeds in Melbourne VIC. Free insured delivery over $1,500 from Mittagong NSW. 12-month AU warranty. Sur-Ron, Talaria & more.',
     ogTitle: 'Electric Bikes for Sale Melbourne — Motorbikes & Mopeds, Free Delivery',
     ogDescription: 'Electric bikes, motorbikes and mopeds delivered to Melbourne VIC. Free delivery over $1,500. 12-month AU warranty.',
-    h1: 'Electric Bikes for Sale in Melbourne — Fast Delivery to VIC',
+    h1: 'Electric Bikes Melbourne: For Sale with Fast Delivery to VIC',
     keywords: 'electric bikes for sale melbourne, electric motorbike melbourne, electric moped melbourne, electric bikes melbourne, e bikes for sale melbourne',
     main: 'electric bikes for sale melbourne', // 170/mo KD13 Transactional
     primary: ['electric bikes melbourne', 'electric moped melbourne', 'electric motorbike melbourne'], // 1,900 / 1,300 / 50
   },
   '/electric-motor-bikes/perth/': {
-    title: 'Electric Bikes for Sale Perth | Motorbikes, Mopeds, Free Delivery',
+    title: 'Electric Bikes Perth | Electric Bikes for Sale Perth, WA Delivery',
     description: 'Buy electric bikes, motorbikes & mopeds in Perth WA. Free insured freight over $1,500 from Mittagong NSW. 12-month AU warranty. Sur-Ron, Talaria & more.',
     ogTitle: 'Electric Bikes for Sale Perth — Motorbikes & Mopeds, Free Delivery',
     ogDescription: 'Electric bikes, motorbikes and mopeds delivered to Perth WA. Free freight over $1,500. 12-month AU warranty.',
-    h1: 'Electric Bikes for Sale in Perth — Delivered Free to WA',
+    h1: 'Electric Bikes Perth: For Sale with Delivery to WA',
     keywords: 'electric bikes for sale perth, electric motorbike perth, electric moped perth, electric bikes perth, e bikes for sale perth',
     main: 'electric bikes for sale perth', // 140/mo KD12 Transactional
     primary: ['electric bikes perth', 'electric moped perth', 'electric motorbike perth'], // 1,900 / 590 / 170
@@ -176,7 +176,7 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     description: 'Buy an electric motocross bike in Australia: Stark Varg, Sur-Ron Storm Bee MX, Stealth H-52, Velimotor VMX12. 12-month AU warranty. Free freight over $1,500.',
     ogTitle: 'Electric Motocross Bikes for Sale Australia — Stark Varg, Sur-Ron Storm Bee',
     ogDescription: 'Competition electric motocross bikes: Stark Varg, Sur-Ron Storm Bee MX, Stealth H-52 and Velimotor VMX12. 12-month AU warranty, free freight over $1,500.',
-    h1: 'Electric Motocross Bikes for Sale in Australia',
+    h1: 'Electric Motocross Bike & Motorcycle for Sale in Australia',
     keywords: 'electric motocross bike for sale, electric motocross motorcycle, electric motocross bike, e motocross bike, electric mx bike, electric motocross bicycle',
     main: 'electric motocross bike for sale', // 20/mo (inferred): no Semrush-labelled transactional keyword for motocross
     primary: ['electric motocross motorcycle', 'electric motocross bike', 'e motocross bike', 'electric mx bike'], // 880 / 720 / 260 / 90
@@ -192,21 +192,21 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric motorcycle', 'electric motorcycle australia', 'electric motorcycles australia', 'electric motorcycles', 'e motorcycle'], // 1,900 / 1,900 / 590 / 720 / 880
   },
   '/electric-motor-bikes/sydney/': {
-    title: 'Electric Bikes for Sale Sydney | E-Bikes, Motorbikes & Mopeds',
+    title: 'E Bikes for Sale Sydney | Electric Bikes Sydney & Ebike Delivery',
     description: 'Buy electric bikes, motorbikes, mopeds & dirt bikes for Sydney NSW from our Southern Highlands workshop. Free insured freight over $1,500. 12-month AU warranty.',
     ogTitle: 'Electric Bikes for Sale Sydney — E-Bikes, Motorbikes & Mopeds',
     ogDescription: 'E-bikes, electric motorbikes, mopeds and dirt bikes for Sydney from Mittagong NSW. Free freight over $1,500. 12-month AU warranty.',
-    h1: 'Electric Bikes for Sale in Sydney',
+    h1: 'Electric Bikes Sydney: E Bikes and Ebikes for Sale',
     keywords: 'e bikes for sale sydney, electric bike for sale sydney, electric bikes for sale sydney, ebike sydney, electric bikes sydney, ebikes sydney, e bikes sydney',
     main: 'e bikes for sale sydney', // 110/mo KD19 Transactional (+ electric bike for sale sydney 90, electric bikes for sale sydney 70)
     primary: ['ebike sydney', 'electric bikes sydney', 'ebikes sydney', 'e bikes sydney'], // 1,600 / 880 / 480 / 390
   },
   '/electric-motor-bikes/brisbane/': {
-    title: 'Electric Bikes for Sale Brisbane | E-Bikes, Motorbikes & Mopeds',
+    title: 'E Bikes Brisbane | Electric Bikes for Sale Brisbane, QLD Delivery',
     description: 'Buy electric bikes, motorbikes, mopeds & dirt bikes delivered to Brisbane QLD from Mittagong NSW. Free insured freight over $1,500. 12-month AU warranty.',
     ogTitle: 'Electric Bikes for Sale Brisbane — E-Bikes, Motorbikes & Mopeds',
     ogDescription: 'E-bikes, electric motorbikes, mopeds and dirt bikes delivered to Brisbane. Free freight over $1,500. 12-month AU warranty.',
-    h1: 'Electric Bikes for Sale in Brisbane',
+    h1: 'E Bikes Brisbane: Electric Bikes for Sale with Delivery to QLD',
     keywords: 'electric bikes for sale brisbane, e bikes for sale brisbane, e bikes brisbane, brisbane electric bikes, electric bikes in brisbane, electric bicycle brisbane, electric motorbike brisbane',
     main: 'electric bikes for sale brisbane', // 90/mo KD21 Transactional (+ e bikes for sale brisbane 70)
     primary: ['e bikes brisbane', 'electric motorbike brisbane'], // 1,300 / 90. Navigational: brisbane electric bikes 480, electric bicycle brisbane 590, electric bikes in brisbane 210 (answered in FAQ)

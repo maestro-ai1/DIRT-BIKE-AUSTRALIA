@@ -39,3 +39,11 @@ img, video, iframe {
 .border-trustpilot {
   border-color: #00b67a;
 }
+
+/* Everything that can be clicked shows the pointer cursor (Tailwind's reset sets buttons to the default arrow). */
+a[href], button:not(:disabled), [role="button"]:not([aria-disabled="true"]), summary, select, label[for], input[type="submit"], input[type="checkbox"], input[type="radio"], [onclick] {
+  cursor: pointer;
+}
+button:disabled, [aria-disabled="true"] {
+  cursor: not-allowed;
+}

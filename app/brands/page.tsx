@@ -7,6 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Zap, ArrowRight, ShieldCheck } from 'lucide-react';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
 
 const seo = seoFor('/brands/');
 export const metadata: Metadata = {
@@ -149,6 +150,8 @@ export default function BrandsPage() {
         <KeywordGuide path="/brands/" className="mt-12" />
 
         <RelatedGuides path="/brands/" className="mt-12" />
+
+        <AuthorityLinks path="/brands/" className="mt-12" />
 
       </div>
     </div>

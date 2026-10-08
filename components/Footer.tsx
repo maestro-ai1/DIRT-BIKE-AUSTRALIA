@@ -55,15 +55,15 @@ export function Footer() {
             <ul className="space-y-1.5 text-slate-800">
               <li className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-sky-800 shrink-0 mt-0.5" />
-                <span>{CONTACT.address}</span>
+                <a href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(CONTACT.address)}`} target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-sky-800">{CONTACT.address}</a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-sky-800 shrink-0" />
-                <span>Phone: {CONTACT.phoneDisplay}</span>
+                <a href={`tel:${CONTACT.phone}`} className="hover:underline hover:text-sky-800">Phone: {CONTACT.phoneDisplay}</a>
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-sky-800 shrink-0" />
-                <span>Email: {CONTACT.email.replace('@', ' [at] ')}</span>
+                <Link href="/contact/" className="hover:underline hover:text-sky-800">Email: {CONTACT.email.replace('@', ' [at] ')}</Link>
               </li>
             </ul>
             {/* ABN strictly at footer per user instruction */}

@@ -8,6 +8,7 @@ import { ProductDetailClient } from './ProductDetailClient';
 import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
 import { productSeoTitle, productSeoDescription } from '@/lib/productSeo';
 import { ProductGuide } from '@/components/ProductGuide';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -175,6 +176,8 @@ export default async function ProductDetailPage({ params }: Props) {
         <ProductDetailClient product={product} related={related} />
 
         <ProductGuide product={product} />
+
+        <AuthorityLinks path={`/shop/${product.slug}/`} className="mt-12" />
       </div>
     </div>
   );

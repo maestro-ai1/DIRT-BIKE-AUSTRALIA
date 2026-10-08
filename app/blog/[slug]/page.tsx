@@ -8,6 +8,7 @@ import { blogTags } from '@/src/config/blog-seo';
 import type { NewPost } from '@/src/config/posts-2026-10';
 import { RichPostArticle } from '@/components/RichPostArticle';
 import { BlogBuyBlock } from '@/components/BlogBuyBlock';
+import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2, Zap } from 'lucide-react';
 
 interface Props {
@@ -300,6 +301,8 @@ export default async function BlogPostPage({ params }: Props) {
           </div>
           <BlogBuyBlock slug={post.slug} />
         </article>
+
+        <AuthorityLinks path={`/blog/${post.slug}/`} className="mb-0" />
 
         {/* Blog tags: Semrush informational keywords for this topic */}
         {blogTags(post.slug).length > 0 && (
