@@ -216,6 +216,28 @@ export const OLD_SITE_PRODUCTS: OldSiteProduct[] = [
     "features": []
   },
   {
+    "slug": "rfn-warrior-pro-sx-e15-electric-bike",
+    "name": "RFN Warrior Pro SX-E15 Electric Bike",
+    "brand": "RFN",
+    "price": 7990,
+    "category": "dirt-bikes",
+    "badge": "In Stock",
+    "featured": false,
+    "shortDescription": "RFN Warrior PRO SX-E15 full-size electric dirt bike. Message us for the full specification sheet, battery and range details.",
+    "description": "The RFN Warrior PRO SX-E15 is RFN's full-size electric dirt bike in the Warrior range, priced at $7,990 AUD. Specifications such as motor output, battery capacity, range and weight are supplied on request: message us on WhatsApp or use the contact page and we will send the full specification sheet before you order.",
+    "specs": {},
+    "images": [
+      "/images/catalog/rfn-warrior-pro-sx-e15-electric-bike-1.webp"
+    ],
+    "inStock": true,
+    "source": "old-site",
+    "warranty": "Manufacturer warranty, see details with your order",
+    "shipping": "Australia-wide delivery. Delivery time and freight are confirmed when you order.",
+    "legalNote": "Sold as an off-road recreational electric bike for private property and designated off-road areas. Rules vary by state, so check before riding on public roads.",
+    "supplierUrl": "",
+    "features": []
+  },
+  {
     "slug": "ycf-w50-electric-bike",
     "name": "YCF W50 Electric bike",
     "brand": "YCF",

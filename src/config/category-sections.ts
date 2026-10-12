@@ -155,7 +155,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Electric Bike Price in Australia: What Each Type Costs',
         paragraphs: [
-          'Electric bike price depends on the type. Our fat-tyre e-bikes start at $2,190 and the road-legal RTR eBike S Classic at $2,790. Kids and balance e-bikes start from $699, electric mopeds from $5,490, and electric dirt bikes and motorbikes sit above that. Prices on this page are in AUD including GST.',
+          'Electric bike price depends on the type. Our fat-tyre e-bikes start at $2,190 and the RTR eBike range at $2,790. Kids and balance e-bikes start from $699, electric mopeds from $5,490, and electric dirt bikes and motorbikes sit above that. Prices on this page are in AUD including GST.',
         ],
         links: [{ href: '/blog/e-bike-cost-australia-price-guide/', label: 'E-bike cost guide' }],
       },
@@ -180,12 +180,12 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       },
     ],
     faqs: [
-      { q: 'What is the electric bicycle price in Australia?', a: 'Adult electric bicycles start from $2,190 for our fat-tyre range and $2,790 for the RTR eBike S Classic. Kids and balance e-bikes start from $699, and electric motorbikes cost more. See the price on each product card.' },
+      { q: 'What is the electric bicycle price in Australia?', a: 'Adult electric bicycles start from $2,190 for our fat-tyre range and $2,790 for the RTR eBike range. Kids and balance e-bikes start from $699, and electric motorbikes cost more. See the price on each product card.' },
       { q: 'What is the e bike price in Australia for a good commuter?', a: 'Expect roughly $2,200 to $3,500 for a quality adult e-bike. Bikes at that level come with a proper warranty, spare parts and a local workshop.' },
       { q: 'Where can I buy an electric bike for sale in Australia?', a: `You can order online from Electric Dirt Bike Australia. We list electric bicycles for sale Australia-wide, and our e bike sales Australia customers receive free insured freight over $1,500 from Mittagong NSW.` },
-      { q: 'Do you have electric road bikes for sale?', a: 'Yes. The RTR eBike range are road-legal electric road bikes for sale with a 250W motor, and registered electric mopeds suit riders who want more speed. See the electric motorbikes and mopeds pages.' },
+      { q: 'Do you have electric road bikes for sale?', a: 'Road-registered electric mopeds are the road bikes in our range, and the road-compliant Ampd Bros e-bikes are 250W pedal-assist bikes. See the electric motorbikes and mopeds pages.' },
       { q: 'Do you have an electric bike in black?', a: 'Several Ampd Bros e-bikes, including the ACE Mini and the CHUBBIE 3, are offered in matte black. Each product page lists the colour options. Prices are shown on each listing, and the 10% crypto and PayID saving applies to all electric bikes on sale here.' },
-      { q: 'Do you have an ebike for sale in Australia that needs no licence?', a: 'Yes. Pedal-assist e-bikes that meet the Australian 250W and 25 km/h assist standard, like the RTR eBike, need no licence or registration. Higher-powered bikes must be registered or used off-road.' },
+      { q: 'Do you have an ebike for sale in Australia that needs no licence?', a: 'Yes. Pedal-assist e-bikes that meet the Australian 250W and 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, need no licence or registration. Higher-powered bikes must be registered or used off-road.' },
     ],
   },
   '/electric-bikes/cheap/': {
@@ -199,14 +199,14 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Cheapest Electric Bike Australia: Price Bands',
         paragraphs: [
-          'The cheapest electric bike Australia buyers can get from us is the kids electric balance bike range from $699. For adults, fat-tyre e-bikes start at $2,190 and the road-legal RTR eBike S Classic at $2,790.',
+          'The cheapest electric bike Australia buyers can get from us is the kids electric balance bike range from $699. For adults, fat-tyre e-bikes start at $2,190 and the RTR eBike range at $2,790.',
         ],
         links: [{ href: '/electric-balance-bikes/', label: 'Electric balance bikes' }],
       },
     ],
     faqs: [
       { q: 'Do you sell a cheap electric bike for under $500?', a: 'No. Our lowest-priced electric bikes start from $699 for kids balance bikes. Anything cheaper typically skips warranty cover and spare parts, which costs more over time.' },
-      { q: 'What are the cheapest e bikes Australia riders can buy from you?', a: 'Kids and mini models are the most affordable. For adults, the fat-tyre range from $2,190 and the RTR eBike S Classic from $2,790 are the entry points.' },
+      { q: 'What are the cheapest e bikes Australia riders can buy from you?', a: 'Kids and mini models are the most affordable. For adults, the fat-tyre range from $2,190 and the RTR eBike range from $2,790 are the entry points.' },
       { q: 'Is a cheap ebike in Australia safe to buy online?', a: 'Buy from an Australian dealer that lists the battery, motor specs and warranty. Every bike we sell has a 12-month warranty and a local workshop.' },
     ],
   },
@@ -296,7 +296,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Best E Bikes Australia: Value Picks',
         paragraphs: [
-          'The best e bikes Australia has to offer balance price, range and warranty. In our ranking the value picks are the road-legal RTR eBikes: no licence, no registration and strong warranty support. People also look for the best ebikes Australia wide or cool electric bikes for weekend rides, and the picks above cover both.',
+          'The best e bikes Australia has to offer balance price, range and warranty. In our ranking the value picks are the road-compliant Ampd Bros e-bikes: 250W, 25 km/h assist and no licence or registration in the road-compliant option. People also look for the best ebikes Australia wide or cool electric bikes for weekend rides, and the picks above cover both.',
         ],
       },
       {
@@ -309,7 +309,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
     faqs: [
       { q: 'Where to buy electric bike models in Australia?', a: `Buy from an Australian dealer with a local workshop, parts and a warranty. ${SHIP}` },
       { q: 'What are the coolest e bikes in Australia?', a: 'Super73 electric motos and our fat-tyre cruisers are the most popular style picks. For performance, the electric dirt bikes lead.' },
-      { q: 'What are the best electric bicycles Australia riders recommend?', a: 'Commuters choose the RTR eBike range, riders on rougher terrain choose fat-tyre e-bikes, and trail riders choose electric dirt bikes.' },
+      { q: 'What are the best electric bicycles Australia riders recommend?', a: 'Commuters choose the road-compliant Ampd Bros e-bikes, riders on rougher terrain choose fat-tyre e-bikes, and trail riders choose electric dirt bikes.' },
     ],
   },
   '/electric-motor-bikes/e-bike-laws-australia/': {
@@ -380,13 +380,13 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'RTR E Bike Models and Prices',
         paragraphs: [
-          'The RTR e bike range includes the S Classic from $2,790 and the Pro from $3,490. Both are road-legal pedal-assist commuters: no licence, no registration, and a 12-month Australian warranty. Whether you call it an RTR bike or an RTR electric bike, the range is the same.',
+          'The RTR e bike range includes the S Classic from $2,790 and the Pro from $3,490. They are RTR (Ready To Rip) electric bikes for off-road riding on private property and designated off-road areas, not for public roads. Whether you call it an RTR bike or an RTR electric bike, the range is the same.',
         ],
       },
     ],
     faqs: [
-      { q: 'Is the RTR electric dirt bike the same as the RTR eBike?', a: 'No. The RTR eBike range is a road-legal pedal-assist commuter. For off-road riding, see our electric dirt bikes.' },
-      { q: 'Does an RTR electric bike need registration?', a: 'No. The RTR eBike meets the Australian 250W and 25 km/h standard, so it needs no licence or registration.' },
+      { q: 'Is the RTR electric dirt bike the same as the RTR eBike?', a: 'They are the same family: RTR electric bikes are built for off-road riding. See our electric dirt bikes and electric pit bikes for the wider range.' },
+      { q: 'Is an RTR electric bike road legal?', a: 'No. RTR electric bikes are sold for off-road recreational use on private property and designated off-road areas. They are not registered for public roads, and rules vary by state.' },
     ],
   },
   '/electric-motor-bikes/sydney/': {
@@ -400,13 +400,13 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Ebike Sydney: Which Type Suits Your Commute?',
         paragraphs: [
-          'For an ebike in Sydney, the road-legal RTR eBike suits most commutes: no licence, no registration and a 250W motor that meets the NSW standard. Choose an electric moped if you want more speed and have a licence. Whether you search for ebikes Sydney or e bikes Sydney, the range on this page is the same.',
+          'For an ebike in Sydney, a road-compliant Ampd Bros e-bike suits most commutes: 250W, 25 km/h assist and no licence or registration in the road-compliant option. Choose an electric moped if you want more speed and have a licence. Whether you search for ebikes Sydney or e bikes Sydney, the range on this page is the same.',
         ],
       },
     ],
     faqs: [
       { q: 'Where can I find electric bikes for sale in Sydney?', a: 'Order online from Electric Dirt Bike Australia and we deliver ebikes for sale in Sydney from Mittagong NSW, or arrange a workshop pickup consultation first.' },
-      { q: 'Do you stock an electric bike Sydney commuters can use without a licence?', a: 'Yes. The RTR eBike meets the Australian standard for pedal-assist bikes, so no licence or registration is needed.' },
+      { q: 'Do you stock an electric bike Sydney commuters can use without a licence?', a: 'Yes. The Ampd Bros e-bikes are offered as a 250W road-compliant model that meets the Australian standard for pedal-assist bikes, so no licence or registration is needed. Choose that option when you order.' },
       { q: 'Which e bike Sydney riders choose for hills?', a: 'Look for a mid-drive or higher-torque hub motor and a 48V battery; our commuter range shows motor torque on each product page.' },
     ],
   },
@@ -415,7 +415,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Ebike Melbourne: Commuter and Off-Road Options',
         paragraphs: [
-          'An ebike in Melbourne covers commuter rides on bike paths and weekend trips to the Victorian high country. Pick the road-legal RTR eBike for commuting, or an electric dirt bike for private land and forestry trails. Whether you search for ebikes Melbourne or Melbourne ebikes, the range is the same.',
+          'An ebike in Melbourne covers commuter rides on bike paths and weekend trips to the Victorian high country. Pick a road-compliant Ampd Bros e-bike for commuting, or an electric dirt bike for private land and forestry trails. Whether you search for ebikes Melbourne or Melbourne ebikes, the range is the same.',
         ],
       },
       {
@@ -443,7 +443,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Electric Bicycle Perth WA: Road-Legal Options',
         paragraphs: [
-          'Searching for an electric bicycle in Perth WA? The RTR eBike meets the national 250W and 25 km/h standard, so it can be ridden on roads and shared paths without a licence or registration.',
+          'Searching for an electric bicycle in Perth WA? The road-compliant Ampd Bros e-bikes meet the national 250W and 25 km/h standard, so they can be ridden on roads and shared paths without a licence or registration.',
         ],
       },
       {
@@ -455,7 +455,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
     ],
     faqs: [
       { q: 'What are WA ebike laws?', a: 'Western Australia follows the national standard: 250W continuous power and a 25 km/h assist limit for bicycle-class e-bikes. See our laws guide for the detail.' },
-      { q: 'Can I buy ebikes in Perth online?', a: 'Yes. We deliver e bikes to Perth from Mittagong NSW with free freight over $1,500. The electric bike for sale Perth riders ask about most is the road-legal RTR eBike.' },
+      { q: 'Can I buy ebikes in Perth online?', a: 'Yes. We deliver e bikes to Perth from Mittagong NSW with free freight over $1,500. The electric bike for sale Perth riders ask about most is the road-compliant Ampd Bros e-bike.' },
       { q: 'Do you sell an electric motorbike in Perth?', a: 'Yes. Our electric motorbikes and mopeds ship to Perth. Road models need registration and a licence.' },
     ],
   },
@@ -485,7 +485,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Electric Bike Gold Coast: Commuter and Beach Riding',
         paragraphs: [
-          'An electric bike on the Gold Coast suits beachfront paths, canal tracks and daily commutes. Fat-tyre e-bikes handle sand and boardwalks, while the road-legal RTR eBike covers longer commutes with no licence.',
+          'An electric bike on the Gold Coast suits beachfront paths, canal tracks and daily commutes. Fat-tyre e-bikes handle sand and boardwalks, while the road-compliant Ampd Bros e-bikes cover longer commutes with no licence.',
         ],
       },
     ],

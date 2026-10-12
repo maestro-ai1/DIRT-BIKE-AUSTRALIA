@@ -1712,23 +1712,19 @@ export const PRODUCTS: ProductItem[] = [
   },
   {
     "slug": "rtr-ebike-pro-commuter",
-    "name": "RTR eBike Pro Electric Commuter (Road-Legal, 250W)",
+    "name": "RTR eBike Pro Electric Bike (Off-Road)",
     "brand": "RTR eBike",
     "price": 3490,
     "compareAtPrice": 3790,
-    "category": "electric-motorbikes",
-    "badge": "Road Legal",
+    "category": "pit-bikes",
+    "badge": "Off-Road",
     "featured": true,
-    "shortDescription": "Road-legal Australian street e-bike with 250W motor, 25 km/h speed limit compliance, and 7-speed Shimano gears — registered and ridden anywhere in Australia.",
-    "description": "The RTR eBike Pro is Australia\'s premier road-legal electric commuter — a purpose-designed electric motor bike that meets EN15194 standard at 250W continuous power and 25 km/h pedal-assist limit, making it legally rideable on all Australian roads, bike lanes, and shared paths with no registration, no licence plate, and no motorcycle licence required. This electric commuter bike eliminates the daily petrol fuel bill (average $18–$22 per full tank for 125cc equivalents) and replaces it with an electricity cost of under $0.50 per full charge — saving Australian commuters over $2,000 per year in fuel costs alone. The rigid 7075 aerospace aluminium frame, 7-speed Shimano gears, front LED headlight, rear brake light, and quality hydraulic disc brakes provide the durability and safety needed for daily Australian urban commuting. With up to 80km range, the RTR eBike Pro covers typical Sydney, Melbourne, and Brisbane suburban commuting distances easily on a single charge. Available through Electric Dirt Bike Australia\'s electric motor bikes range at electricdirtbikeaustralia.com.au with free freight.",
+    "shortDescription": "RTR (Ready To Rip) electric bike for off-road riding, with a 72V 25Ah battery and an 80 kg frame. Sold for private property and designated off-road areas.",
+    "description": "The RTR eBike Pro is an RTR (Ready To Rip) electric bike built for off-road riding on private property and designated off-road areas. It runs a 72V 25Ah battery and weighs 80 kg, with a full-size motocross-style frame, knobby tyres, disc brakes and a rear shock. It is sold as an off-road recreational vehicle and is not registered or road legal. Message us on WhatsApp for the full specification sheet before you order.",
     "specs": {
-      "motorPeak": "250 Watts (continuous, road-legal)",
-      "battery": "36V 15Ah Lithium-ion (540Wh)",
-      "topSpeed": "25 km/h (road-legal assist limit)",
-      "range": "Up to 80 km",
-      "weight": "22 kg",
-      "gears": "Shimano 7-Speed",
-      "legal": "No licence, no registration, no number plate required"
+      "battery": "72V 25Ah",
+      "weight": "80 kg",
+      "use": "Off-road recreational use only (private property and designated off-road areas)"
     },
     "images": [
       "/images/catalog/rtr-ebike-pro-electric-bike-1.webp"],
@@ -1736,23 +1732,17 @@ export const PRODUCTS: ProductItem[] = [
   },
   {
     "slug": "rtr-ebike-s-classic",
-    "name": "RTR eBike S Classic Urban E-Bike (Road-Legal)",
+    "name": "RTR eBike S Classic Electric Bike (Off-Road)",
     "brand": "RTR eBike",
     "price": 2790,
     "compareAtPrice": 2990,
-    "category": "electric-motorbikes",
-    "badge": "Urban Commuter",
+    "category": "pit-bikes",
+    "badge": "Off-Road",
     "featured": false,
-    "shortDescription": "Classic step-through electric commuter from Australian brand RTR eBike. 250W, 25 km/h road-legal assist, and lightweight 19kg frame.",
-    "description": "The RTR eBike S Classic is a road-legal electric urban bike from Australian brand RTR eBike, designed with a step-through frame for effortless mounting and dismounting in Australian city traffic — ideal for office workers, university students, and everyday commuters who want the benefits of electric transport without motorcycle-style high-seat-height barriers. The fully integrated 36V 13Ah lithium-ion battery is concealed inside the frame downtube for a clean, modern appearance that doesn\'t scream 'electric bike' to onlookers. Front suspension fork absorbs Sydney and Melbourne urban road surface imperfections and kerb drops comfortably. Hydraulic disc brakes front and rear provide confident, fade-free stopping in wet winter conditions and sudden traffic stops. At 19kg — lighter than most road-legal electric bikes with comparable battery capacity — the RTR S Classic can be carried into apartments and offices. Up to 70km urban range. Road-legal with no registration or licence required. Available from Electric Dirt Bike Australia\'s commuter range.",
+    "shortDescription": "RTR (Ready To Rip) electric bike for off-road riding. Sold for private property and designated off-road areas. Message us for the specification sheet.",
+    "description": "The RTR eBike S Classic is an RTR (Ready To Rip) electric bike for off-road riding on private property and designated off-road areas. It is sold as an off-road recreational vehicle and is not registered or road legal. Message us on WhatsApp for the full specification sheet before you order.",
     "specs": {
-      "motorPeak": "250 Watts",
-      "battery": "36V 13Ah Integrated (468Wh)",
-      "topSpeed": "25 km/h",
-      "range": "Up to 70 km",
-      "weight": "19 kg",
-      "frame": "Step-through 6061 aluminium",
-      "brakes": "Hydraulic disc front and rear"
+      "use": "Off-road recreational use only (private property and designated off-road areas)"
     },
     "images": [
       "/images/product-rtr-ebike-s-classic.webp"],
@@ -2910,7 +2900,7 @@ For motocross track riders, the [Stark Varg EX](https://www.electricdirtbikeaust
 OSET, Razor, KTM SX-E 5, Husqvarna EE 5, and EDBA Moto 50 cover ages 3–16 with adjustable power modes. Australia\'s top youth electric motocross brands are available through [Electric Dirt Bike Australia\'s kids section](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/kids/).
 
 ### Where to Buy Electric Dirt Bikes in Australia
-[Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/) is the country\'s leading authorised dealer for Sur-Ron, Talaria, Stark Varg, E-Ride Pro, OSET, and RTR eBike. All orders include 12-month Australian factory warranty, pre-delivery inspection, and free insured freight on orders over $1,500.`,
+All orders include 12-month Australian factory warranty, pre-delivery inspection, and free insured freight on orders over $1,500.`,
   },
 
   {
@@ -3169,7 +3159,7 @@ Buying an E-Ride Pro means your warranty claims are handled domestically without
     content: `The term electric motor bike covers a diverse range of vehicles in Australia — from road-registered 125cc-equivalent electric motorcycles to off-road 80HP motocross machines. Understanding the distinctions helps you choose the right category and stay compliant with Australian road and off-road regulations.
 
 ### Road-Legal Electric Motor Bikes
-Road-legal electric motor bikes must meet Australian Design Rules (ADR) and carry VIN plates, mirrors, indicators, and horn. The [RTR eBike Pro Commuter](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) and [RTR eBike S Classic](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-s-classic/) are LAMS-approved road-legal electric motor bikes delivering 72V performance with full registration eligibility. The [NIU NQi GT](https://www.electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) is a premium road-legal electric moped scooter approved under Australian moped classifications.
+Road-legal electric motor bikes must meet Australian Design Rules (ADR) and carry VIN plates, mirrors, indicators, and horn. The [NIU NQi GT](https://www.electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) is a premium road-legal electric moped scooter approved under Australian moped classifications.
 
 ### Off-Road Electric Motor Bikes
 Off-road electric motor bikes require no registration for private property and designated off-road park use. The Sur-Ron Light Bee X, Talaria Sting R MX4, E-Ride Pro SS 2.0, and Stark Varg EX are all unregistered off-road machines that deliver genuine motorcycle-grade performance. Browse the complete [electric motor bikes range](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/) at Electric Dirt Bike Australia.
@@ -3207,28 +3197,6 @@ Factory-spec junior electric motocross bikes from KTM, Husqvarna, and GasGas (al
 All electric motorbike riders — regardless of age or location — must wear an ASNZS 1698 certified motorcycle helmet in Australia. Full-face helmets with a certified visor are recommended for all off-road use. Body armour (chest protector, elbow and knee guards), gloves, and off-road boots complete a proper safety setup. Never allow children to ride without full protective gear on any electric motorbike.`,
   },
 
-  {
-    slug: "rtr-ebike-australia-review",
-    title: "RTR eBike Review: Australia\'s Best Road-Legal Electric Commuter Tested 2026",
-    excerpt: "A thorough review of the RTR eBike Pro and S Classic — performance, range, Australian LAMS compliance, and daily commuter suitability.",
-    category: "Reviews",
-    date: "2026-03-29",
-    readTime: "7 min read",
-    image: "/images/product-rtr-ebike-pro.jpg",
-    content: `The RTR eBike is Australia\'s most talked-about road-legal electric commuter motorcycle, combining the aggressive styling of a trail bike with LAMS-approved performance suited for learner and provisional licence holders. Designed specifically for the Australian market, both RTR models are road-registered, ADR-compliant, and offer commuter specifications matching European electric motorcycle benchmarks.
-
-### RTR eBike Pro Commuter: Specifications
-The [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) runs a 72V 30Ah lithium pack (2,160Wh), hub-drive motor producing 5kW continuous and 8kW peak, 17-inch cast alloy wheels, and full LED lighting. Top speed: 95 km/h. Range: 80–100km (city commuting mode). Weight: 92kg. Includes ABS disc brakes, digital dash, USB charging port, and an Australian compliance plate. Priced at $6,900 with free freight from Mittagong NSW.
-
-### RTR eBike S Classic: The Urban Choice
-Sharing the same powertrain as the Pro, the [RTR eBike S Classic](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-s-classic/) adopts classic cafe-racer styling with a lower seat height (785mm) suited to shorter riders and city commuters. It includes the same 72V battery system and ADR compliance package. Price: $5,900.
-
-### Australian Road Registration Process
-Both RTR eBike models arrive with a VIN plate and compliance documentation pre-installed. To register in your state or territory, take the compliance certificate to your local transport authority (Service NSW, VicRoads, DoT WA, etc.) along with a passing blue slip/roadworthy certificate and standard CTP insurance. Full [registration guidance for NSW riders](https://www.nsw.gov.au/driving-boating-and-transport/vehicle-registration) is published by Transport for NSW.
-
-### Daily Commute Performance
-Over six months of Sydney suburban commuting testing, the RTR eBike Pro delivered consistent 85–95km range per charge on mixed arterial and suburban roads. Charging costs averaged $0.55 per full charge at off-peak residential rates — compared to $18–$22 in petrol for an equivalent 150cc commuter motorcycle. Home charging via a standard 10A power point completes a full charge in 5 hours overnight.`,
-  },
 
   {
     slug: "best-ebike-australia-2026",
@@ -3242,9 +3210,6 @@ Over six months of Sydney suburban commuting testing, the RTR eBike Pro delivere
 
 ### Best Trail eBike Australia 2026: Sur-Ron Light Bee X
 For off-road trail riding on private property and dedicated parks, the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) is Australia\'s category winner. Its 6kW peak power, 50kg lightweight, aftermarket ecosystem, and $6,490 price make it the default choice for adult trail riders seeking genuine performance without full-motorcycle complexity.
-
-### Best Commuter eBike Australia 2026: RTR eBike Pro
-For daily road commuting, the [RTR eBike Pro Commuter](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) wins on ADR compliance, LAMS approval, 95 km/h speed, and 100km urban range. At $6,900 with full road registration eligibility, it outcompetes Honda, Yamaha, and Kawasaki LAMS models on running costs.
 
 ### Best Kids eBike Australia 2026: OSET 20.0 Racing
 For children ages 8–13, the [OSET 20.0 Racing Junior](https://www.electricdirtbikeaustralia.com.au/shop/oset-20-0-racing-junior/) is the undisputed youth champion. Factory trials competition specification, adjustable power from 5%–100%, and Australian dealer warranty support through [OSET Bikes](https://www.osetbikes.com/) make it the choice of junior competition coaches.
@@ -3297,7 +3262,7 @@ Every child riding an electric motorcycle in Australia must wear: an ASNZS 1698 
 Australian Design Rules (ADR) 83/00 governs electric motorcycle safety and electromagnetic compatibility. Compliant models must carry a Type Approval Certificate, a VIN plate matching the Australian build specifications, and component compliance stickers for braking, lighting, and noise emission. Any electric motorcycle without these documents cannot be registered for road use in Australia.
 
 ### LAMS-Eligible Electric Motorcycles
-The Learner Approved Motorcycle Scheme (LAMS) permits learner and provisional riders to legally operate electric motorcycles on public roads. LAMS eligibility for electric motorcycles is assessed on a power-to-weight ratio of ≤150kW per tonne. The [RTR eBike Pro Commuter](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) and [NIU NQi GT](https://www.electricdirtbikeaustralia.com.au/shop/niu-nqi-gt-electric-moped/) both qualify for LAMS registration under this threshold in NSW, VIC, QLD, and WA.
+The Learner Approved Motorcycle Scheme (LAMS) permits learner and provisional riders to legally operate electric motorcycles on public roads. LAMS eligibility for electric motorcycles is assessed on a power-to-weight ratio of ≤150kW per tonne.
 
 ### State-by-State Registration Guide
 **NSW**: Submit compliance documentation at Service NSW with a passing blue slip from an authorised station. Compulsory third-party (CTP) insurance is mandatory. [Full registration process at Transport for NSW](https://www.nsw.gov.au/driving-boating-and-transport/vehicle-registration).
@@ -3306,7 +3271,7 @@ The Learner Approved Motorcycle Scheme (LAMS) permits learner and provisional ri
 **WA**: Department of Transport WA accepts ADR-compliant electric motorcycles under standard motorcycle registration procedures.
 
 ### Road-Legal Electric Motorcycle Range at EDBA
-[Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/) stocks the complete commuter and road-legal electric motorbike range including RTR eBike, NIU, VMoto Soco, Super Soco, and Super73. All come with full compliance documentation, free national freight, and 12-month Australian warranty.`,
+All come with full compliance documentation, free national freight, and 12-month Australian warranty.`,
   },
 
   {
@@ -3320,7 +3285,7 @@ The Learner Approved Motorcycle Scheme (LAMS) permits learner and provisional ri
     content: `The debate between electric motorbike vs petrol in Australia has shifted decisively in 2026. With lithium battery costs dropping 40% since 2022, electric motor performance now matching petrol equivalents at comparable price points, and Australian electricity rates remaining stable, the economic case for electric motorbikes has never been stronger.
 
 ### Purchase Price Comparison
-Entry-level 125cc petrol motorbike (Honda CB125E): $3,900. Equivalent electric commuter (RTR eBike S Classic): $5,900. The electric premium remains, but narrows significantly when you factor in the five-year total cost of ownership. Full-performance comparison: 450cc motocross petrol (KTM 450 SX-F): $15,900. Equivalent electric (Stark Varg EX 80HP): $16,900. Near price parity at the high end now exists.
+Entry-level 125cc petrol motorbike (Honda CB125E): $3,900. The electric premium remains, but narrows significantly when you factor in the five-year total cost of ownership. Full-performance comparison: 450cc motocross petrol (KTM 450 SX-F): $15,900. Equivalent electric (Stark Varg EX 80HP): $16,900. Near price parity at the high end now exists.
 
 ### Five-Year Running Cost Analysis
 Operating 10,000km per year for five years:
@@ -3350,9 +3315,6 @@ The [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-
 
 ### Best Electric Bike for Motocross: Stark Varg EX
 No other electric bike in Australia matches the [Stark Varg EX](https://www.electricdirtbikeaustralia.com.au/shop/stark-varg-ex-80hp/) for track performance. 80HP, 938Nm wheel torque, KYB competition suspension, and smartphone-programmable power delivery make it a genuine championship contender. [Stark Future\'s](https://www.starkfuture.com/) ongoing software updates continuously improve the riding experience post-purchase.
-
-### Best Electric Bike for Commuting: RTR eBike Pro
-For road-legal city commuting, the [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) offers LAMS eligibility, 95 km/h performance, 100km range, and full ADR compliance at $6,900. It eliminates petrol commuting costs within 2–3 years through electricity savings alone.
 
 ### Best Electric Bike Under $3,000: Razor MX650
 For budget-conscious riders or first-time electric dirt bike buyers, the [Razor MX650](https://www.electricdirtbikeaustralia.com.au/shop/razor-mx650-electric-kids/) at $1,100 delivers 650W dirt bike performance for youth and lighter adult riders. Steel frame, 17-inch wheels, and hand-operated brake levers provide genuine off-road capability at entry-level pricing.
@@ -3467,9 +3429,6 @@ Bank transfer (EFT/OSKO) and PayID are the two most common payment methods for o
 ### The Crypto Discount
 Paying with Bitcoin, USDT, or ETH unlocks an automatic 10% discount on any bike or accessory in our range. See our [full crypto discount guide](https://www.electricdirtbikeaustralia.com.au/blog/crypto-discount-electric-bike-australia/) for how it works.
 
-### Financing an Electric Motorbike
-The same payment options apply whether you're buying an off-road model or a road-legal electric motorbike like the [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) or [Super Soco CPx](https://www.electricdirtbikeaustralia.com.au/shop/super-soco-cpx-electric-moped/) — bank transfer, PayID, or crypto at checkout, with third-party finance arranged independently for larger purchases.
-
 ### Financing Through Third-Party Providers
 While Electric Dirt Bike Australia doesn't operate an in-house finance product, many customers arrange third-party consumer finance or novated leasing independently for either an electric dirt bike or electric motorbike, then pay us directly via bank transfer once approved. Speak to our team via [WhatsApp](https://www.electricdirtbikeaustralia.com.au/contact/) if you'd like a formal quote to take to a lender.
 
@@ -3535,9 +3494,6 @@ Regardless of age, all young riders should wear a properly fitted helmet, gloves
     readTime: "5 min read",
     image: "/images/hero-1-electric-dirt-bike-australia.avif",
     content: `NSW has specific rules around what makes an electric two-wheeler road-legal, and the answer differs significantly depending on power output and whether the bike has ADR-compliant road equipment fitted.
-
-### Pedal-Assist E-Bikes: No Registration Needed
-Pedal-assist e-bikes with a continuous motor output of 250W or less that only assist up to 25km/h, such as the [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/), are legally classified as bicycles in NSW and require no registration, licence, or number plate.
 
 ### Off-Road Electric Dirt Bikes: Private Property Only
 Purpose-built off-road models like the [Sur-Ron Light Bee X](https://www.electricdirtbikeaustralia.com.au/shop/sur-ron-light-bee-x/) or [Talaria Sting R MX4](https://www.electricdirtbikeaustralia.com.au/shop/talaria-sting-r-mx4/) are not supplied with road-registration equipment and are intended for private property and designated off-road parks in NSW.
@@ -3681,28 +3637,6 @@ Because electric dirt bikes run everything off the main battery pack, a high-out
 Lighting upgrades from [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/accessories/) are genuine Australian stock designed to integrate cleanly with our range, and correct installation does not affect your bike's 12-month factory warranty. Our Mittagong team can advise on wiring and mounting for your specific model.`,
   },
   {
-    slug: "rtr-ebike-vs-super-soco-cpx-commuter-comparison",
-    title: "RTR eBike vs Super Soco CPx: Best Commuter?",
-    excerpt: "Comparing the RTR eBike Pro and Super Soco CPx for daily commuting.",
-    category: "Comparisons",
-    date: "2026-09-28",
-    readTime: "6 min read",
-    image: "/images/product-rtr-ebike-pro.jpg",
-    content: `Road-legal electric commuting has grown fast in Australia, and two of the most popular options through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/) sit at genuinely different points on the spectrum.
-
-### RTR eBike Pro: No Licence Required
-The [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) is a 250W pedal-assist e-bike, meaning it's classified as a bicycle in every Australian state — no licence, registration, or number plate needed, and it's permitted in bike lanes and on shared paths.
-
-### Super Soco CPx: A Genuine Moped
-The [Super Soco CPx Electric Moped](https://www.electricdirtbikeaustralia.com.au/shop/super-soco-cpx-electric-moped/) is a road-registered 3kW electric moped, requiring registration and at minimum a car or moped licence depending on your state, but delivering significantly higher top speed and range for longer commutes.
-
-### Which Suits Your Commute
-If your commute is under 15km on mostly flat, shared-path-friendly routes, the RTR eBike Pro's zero-licence simplicity is hard to beat. If you're commuting further, need consistent higher speeds on suburban roads, or want a genuine moped riding position, the Super Soco CPx is the better fit.
-
-### Running Costs and Warranty
-Both models carry a 12-month factory warranty and are dispatched from our Mittagong NSW facility, with electricity costs for either running a small fraction of equivalent petrol scooter fuel costs. Our [e-bike laws Australia guide](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/) covers the full legal breakdown by state.`,
-  },
-  {
     slug: "electric-dirt-bike-road-legal-australia",
     title: "Are Electric Dirt Bikes Road Legal in Australia?",
     excerpt: "Whether electric dirt bikes can be made road legal in Australia.",
@@ -3733,9 +3667,6 @@ Because ADR requirements and state-based registration rules can change, we recom
     readTime: "6 min read",
     image: "/images/product-vmoto-tc-max.jpg",
     content: `Australia's electric motorcycle market has matured significantly, with genuine options now available across commuter, road-legal, and off-road categories through [Electric Dirt Bike Australia](https://www.electricdirtbikeaustralia.com.au/electric-motor-bikes/).
-
-### Best Road-Legal Commuter: RTR eBike Pro
-For licence-free commuting, the [RTR eBike Pro](https://www.electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) is a 250W pedal-assist e-bike classified as a bicycle across Australia, needing no registration or licence.
 
 ### Best Electric Moped: Super Soco CPx
 The [Super Soco CPx](https://www.electricdirtbikeaustralia.com.au/shop/super-soco-cpx-electric-moped/) is a genuine 3kW road-registered electric moped, offering higher speed and range than a pedal-assist e-bike for riders with a moped or motorcycle licence.
@@ -3921,7 +3852,7 @@ Legal e-bikes can be used on roads, including bicycle lanes, on shared paths and
 High-powered bikes such as the Sur-Ron, Talaria and Stark Varg are not e-bikes under these rules. They are for private property and off-road areas, and any road-registered electric motorcycle follows motorcycle registration and licence rules, not the e-bike rules. Our guides to [electric bike registration in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-registration-nsw-guide/) and [electric dirt bike licence requirements](https://electricdirtbikeaustralia.com.au/blog/electric-dirt-bike-licence-requirements-australia/) cover that side.
 
 ### Shopping for a compliant e-bike in NSW
-Browse our [electric bikes for sale](https://electricdirtbikeaustralia.com.au/electric-bikes/) and the RTR eBike range, which is listed as 250W with a 25 km/h assist limit. For Sydney buyers, our [Sydney delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/sydney/) explains freight. See the [Queensland rules](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and our [Australian e-bike laws guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/) for how the states compare. For battery safety, read the [NSW Government lithium-ion battery safety page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).
+For Sydney buyers, our [Sydney delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/sydney/) explains freight. See the [Queensland rules](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and our [Australian e-bike laws guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/e-bike-laws-australia/) for how the states compare. For battery safety, read the [NSW Government lithium-ion battery safety page](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices).
 
 ### The NSW timeline at a glance
 The NSW Government page sets out a transition. Today, e-bikes up to 500 watts are legal on NSW roads. The Government announced in December 2025 that it plans to cap the continuous rated power of e-bikes at 250 watts. The page describes a transition period from 2026 to 2029 and says that from 1 March 2029 e-bikes must be 250 watts or less and comply with the European Standard EN 15194, which means bikes between 251 and 500 watts that are legal today will become illegal. Separately, from 1 February 2026 the page says e-micromobility products must be tested and certified and carry an approval mark.
@@ -3957,7 +3888,7 @@ Check the continuous power rating, not the peak figure, and confirm whether the 
 Can I convert my e-bike to go faster? The NSW page says modifying an e-bike to exceed the power limit, enable throttle-only riding or go faster than 25 km/h makes it illegal, and a modified bike is treated as a motor vehicle. What if I buy online from overseas? The bike still has to meet NSW rules on power, speed cut-off and throttle, so ask for the continuous power rating and the specification before you pay, and be cautious about listings that only quote peak power. What if my 500 watt e-bike is legal today? It is legal now, but the planned 250 watt cap and the EN 15194 requirement from 1 March 2029 mean it may not be legal on NSW roads in future, so plan ahead before you invest in a high-power bike for commuting.
 
 ### Where to buy: e bikes for sale Sydney
-Searching for e bikes for sale Sydney? Electric Dirt Bike Australia dispatches from Mittagong NSW 2575 and ships Australia-wide, and our [Sydney delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/sydney/) explains freight. If you are comparing e bike price in Australia, our [electric bikes for sale](https://electricdirtbikeaustralia.com.au/electric-bikes/) page lists published prices, for example the RTR eBike Pro at $3,490 AUD and the RTR eBike S Classic at $2,790 AUD, both described as 250 watt commuters. Anyone who wants an electric bike for sale Sydney buyers can order online should check the continuous power rating and the EN 15194 mark in the specification before paying. Free freight applies on orders over $1,500 AUD and crypto or PayID payments receive 10% off at checkout.
+Searching for e bikes for sale Sydney? Electric Dirt Bike Australia dispatches from Mittagong NSW 2575 and ships Australia-wide, and our [Sydney delivery guide](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/sydney/) explains freight. Anyone who wants an electric bike for sale Sydney buyers can order online should check the continuous power rating and the EN 15194 mark in the specification before paying. Free freight applies on orders over $1,500 AUD and crypto or PayID payments receive 10% off at checkout.
 
 ### Quick answers
 
@@ -4732,7 +4663,7 @@ The [Super Soco CPx](https://electricdirtbikeaustralia.com.au/shop/super-soco-cp
 The [Vmoto Soco TC-Max](https://electricdirtbikeaustralia.com.au/shop/vmoto-soco-tc-max-electric/) is a 5kW electric motorcycle with a dual removable 4.8kWh battery, a 95 km/h top speed, up to 120 km of range, WP adjustable suspension and a 117 kg weight. It is listed as LAMS compliant for road registration, at $8,990 AUD.
 
 ### Electric bike alternative: 250W commuter
-If you want something lighter that follows e-bike rules, the [RTR eBike Pro](https://electricdirtbikeaustralia.com.au/shop/rtr-ebike-pro-commuter/) is a 250W commuter with a 25 km/h assist limit, up to 80 km of range, Shimano 7-speed gears and a 22 kg weight, at $3,490 AUD. E-bike rules differ by state, so read our guides to [electric bike laws in QLD](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and [electric bike regulations in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/).
+E-bike rules differ by state, so read our guides to [electric bike laws in QLD](https://electricdirtbikeaustralia.com.au/blog/electric-bike-laws-qld-2026/) and [electric bike regulations in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-regulations-nsw-2026/).
 
 ### LAMS, licence and registration
 LAMS lets learner and provisional motorcycle licence holders ride approved bikes. A moped or motorcycle needs registration and the correct licence class in your state, and insurance is a separate decision. Our guides to [road legal electric motorcycles](https://electricdirtbikeaustralia.com.au/blog/road-legal-electric-motorcycle-australia-guide/) and [electric bike registration in NSW](https://electricdirtbikeaustralia.com.au/blog/electric-bike-registration-nsw-guide/) explain more.
@@ -4744,16 +4675,16 @@ E-scooters are regulated differently from e-bikes and mopeds, and private e-scoo
 Choose an electric moped or motorcycle if you want road speed above 25 km/h, a longer range and a seat. Choose a 250W e-bike if you want a lighter bike under e-bike rules. See our full [electric mopeds for sale](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/commuter-mopeds/) range, the [electric motorcycles](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) page and our [Australian electric motorcycle guide](https://electricdirtbikeaustralia.com.au/blog/australian-electric-motorcycle-guide-2026/).
 
 ### Moped prices and cost per kilometre
-Moped prices in our range are $5,490 AUD for the Super Soco CPx, $5,990 AUD for the NIU NQi GT and $8,990 AUD for the Vmoto Soco TC-Max. Dividing price by listed range gives about $61 per listed kilometre for the Super Soco CPx, about $60 for the NIU NQi GT and about $75 for the Vmoto, while the RTR eBike Pro at $3,490 AUD and 80 km works out at about $44 per kilometre. Range figures are "up to" values, so the comparison is a guide, not a promise.
+Moped prices in our range are $5,490 AUD for the Super Soco CPx, $5,990 AUD for the NIU NQi GT and $8,990 AUD for the Vmoto Soco TC-Max. Range figures are "up to" values, so the comparison is a guide, not a promise.
 
 ### Batteries and charging at home
 The Super Soco CPx has a 60V 30Ah removable battery, about 1,800Wh, and the Vmoto Soco TC-Max has a dual removable 4.8kWh battery. Removable batteries let you charge indoors or in an office. Follow the charging and storage advice in our [e-bike safety guide](https://electricdirtbikeaustralia.com.au/blog/e-bike-safety-australia-guide/), including charging on a hard surface, never leaving a battery charging overnight in a living area and using the right charger.
 
 ### Weight and handling
-The Super Soco is listed at 85 kg, the NIU at 98 kg and the Vmoto at 117 kg, against 22 kg for the RTR eBike Pro. A moped's weight gives it stability at speed but makes it harder to move by hand, so check where you will park and store it.
+A moped's weight gives it stability at speed but makes it harder to move by hand, so check where you will park and store it.
 
 ### City commuting or suburban riding
-For short urban trips at speeds up to 65 to 70 km/h, the NIU NQi GT and Super Soco CPx fit well. For faster suburban roads and longer trips, the Vmoto Soco TC-Max has a 95 km/h top speed and 120 km of listed range. For quiet paths and light commuting under e-bike rules, the RTR eBike Pro is lighter and cheaper.
+For short urban trips at speeds up to 65 to 70 km/h, the NIU NQi GT and Super Soco CPx fit well. For faster suburban roads and longer trips, the Vmoto Soco TC-Max has a 95 km/h top speed and 120 km of listed range.
 
 ### Learner, provisional and full licences
 LAMS-approved bikes can be ridden by learner and provisional motorcycle licence holders, and our listing for the NIU NQi GT says it is legal for L and P-plate riders in all states. Moped and motorcycle licensing differs by state, so check your state authority for the licence class needed for each model and whether a moped is treated as a motorcycle in your state.
@@ -4766,9 +4697,6 @@ Wear an approved motorcycle helmet, gloves, a jacket and sturdy footwear. A mope
 
 ### E-scooters in more detail
 E-scooters are regulated separately, and the rules on where and how private e-scooters can be used differ by state and territory. The [NSW Government e-bikes and e-scooters page](https://www.nsw.gov.au/driving-boating-and-transport/bikes-e-bikes-e-scooters) is one official place to check, and other states have similar pages. We do not sell kick scooters, so this guide focuses on mopeds and motorcycles.
-
-### Compare more
-See the full [electric mopeds for sale](https://electricdirtbikeaustralia.com.au/electric-motor-bikes/commuter-mopeds/) range, the [electric motorcycles](https://electricdirtbikeaustralia.com.au/electric-motorcycles/) category and our [RTR eBike vs Super Soco CPx comparison](https://electricdirtbikeaustralia.com.au/blog/rtr-ebike-vs-super-soco-cpx-commuter-comparison/).
 
 ### Test ride and ownership checklist
 When you test an electric moped, check how smoothly it pulls away, how the regenerative braking feels, how easy the removable battery is to release and carry, and how comfortable the seat and bars are. Ask about the warranty, the battery warranty and the availability of parts and service. Check where you will park and charge the bike and how you will lock it.

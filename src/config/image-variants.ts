@@ -168,57 +168,57 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
  "/images/ampd/evo-racing-16-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-16-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-16-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-16-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-16-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-16-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-18-kids-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-18-kids-electric-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-18-kids-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-18-kids-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-18-kids-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-18-kids-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-18-kids-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-18-kids-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-20-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-20-electric-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-20-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-20-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-20-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-20-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/evo-racing-20-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/evo-racing-20-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/lil-rippa-16-kids-fat-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/lil-rippa-16-kids-fat-electric-bike-1.webp",
@@ -243,17 +243,17 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
  "/images/ampd/rfn-warrior-kids-sx-e500-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/rfn-warrior-kids-sx-e500-electric-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/rfn-warrior-kids-sx-e500-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/rfn-warrior-kids-sx-e500-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/rfn-warrior-kids-sx-e500-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/rfn-warrior-kids-sx-e500-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/rfn-warrior-kids-sx-e500-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/rfn-warrior-kids-sx-e500-electric-bike-4.webp",
@@ -1532,6 +1532,11 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
  },
  "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-4.webp": {
   "v": "/images/_w/600/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-4.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/catalog/rfn-warrior-pro-sx-e15-electric-bike-1.webp": {
+  "v": "/images/_w/600/catalog/rfn-warrior-pro-sx-e15-electric-bike-1.webp",
   "vw": 600,
   "w": 1200
  },

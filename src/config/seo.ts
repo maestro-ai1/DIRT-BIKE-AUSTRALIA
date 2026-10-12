@@ -159,11 +159,11 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['childs electric motorcycle', 'kids electric motorbike', 'childrens electric motorbike', 'children electric bike', 'electric motorbike kids', 'electric bike kids'],
   },
   '/electric-motor-bikes/rtr-ebike/': {
-    title: 'RTR eBike for Sale Australia | Buy RTR E Bike, No Licence',
-    description: 'RTR eBike for sale in Australia: road-legal RTR e bike commuters, no licence needed. Free delivery over $1,500 and 12-month warranty.',
-    ogTitle: 'RTR eBike for Sale Australia | Buy RTR E Bike, No Licence',
-    ogDescription: 'RTR eBike for sale in Australia: road-legal RTR e bike commuters, no licence needed. Free delivery over $1,500 and 12-month warranty.',
-    h1: 'RTR eBike for Sale in Australia: Road-Legal Commuter Range',
+    title: 'RTR eBike for Sale Australia | Buy RTR E Bike Online',
+    description: 'RTR eBike for sale in Australia: RTR electric bikes for off-road riding with prices shown. Free freight over $1,500 and Australian support.',
+    ogTitle: 'RTR eBike for Sale Australia | Buy RTR E Bike Online',
+    ogDescription: 'RTR eBike for sale in Australia: RTR electric bikes for off-road riding with prices shown. Free freight over $1,500 and Australian support.',
+    h1: 'RTR eBike for Sale in Australia: Off-Road Electric Bikes',
     keywords: 'rtr ebike for sale, rtr e bike, rtr ebike, rtr electric bike, rtr bike',
     main: 'rtr ebike for sale',
     primary: ['rtr e bike', 'rtr ebike', 'rtr electric bike', 'rtr bike'],
@@ -342,7 +342,7 @@ export const FAQ_SEO: SeoFaq[] = [
   },
   {
     question: 'Do you sell electric motorbikes and electric motorcycles for sale in Australia?',
-    answer: 'Yes. Our electric motorbike range includes off-road bikes, road-legal commuter mopeds (NIU NQi GT, Super Soco CPx, Vmoto Soco TC-Max) and the RTR eBike commuters. Each product page lists power, battery, range and whether the model is road-legal, so you can compare electric motorbikes for sale before you buy.',
+    answer: 'Yes. Our electric motorbike range includes off-road bikes, road-legal commuter mopeds (NIU NQi GT, Super Soco CPx, Vmoto Soco TC-Max) and RTR off-road electric bikes. Each product page lists power, battery, range and whether the model is road-legal, so you can compare electric motorbikes for sale before you buy.',
     keywords: ['electric motorbikes for sale', 'electric motorcycle for sale', 'electric motorbike australia'],
   },
   {
@@ -362,7 +362,7 @@ export const FAQ_SEO: SeoFaq[] = [
   },
   {
     question: 'Do you sell RTR eBikes in Australia?',
-    answer: 'Yes. We stock the RTR eBike Pro ($3,490, 250W, 36V 15Ah, up to 80km range) and the RTR eBike S Classic ($2,790). Both are 250W road-legal e-bikes that need no licence, registration or number plate. See the RTR eBike page for the full RTR e bike range.',
+    answer: 'Yes. We stock the RTR eBike Pro ($3,490) and the RTR eBike S Classic ($2,790). They are RTR (Ready To Rip) electric bikes sold for off-road riding on private property and designated off-road areas, not for public roads. See the RTR eBike page for the full RTR e bike range.',
     keywords: ['rtr ebike', 'rtr e bike', 'rtr electric bike'],
   },
   {
@@ -372,12 +372,12 @@ export const FAQ_SEO: SeoFaq[] = [
   },
   {
     question: 'How much do electric bikes cost in Australia?',
-    answer: 'Electric bike prices at Electric Dirt Bike Australia start at $2,790 for the RTR eBike S Classic road-legal commuter and $3,490 for the RTR eBike Pro. Electric mopeds run from $5,490, adult electric dirt bikes from $5,490 up to $18,990, and kids electric bikes from $899. All prices are in AUD and include GST. Pay with crypto or PayID for 10% off.',
+    answer: 'Electric bike prices at Electric Dirt Bike Australia start at $2,190 for fat tyre e-bikes, with the RTR eBike S Classic from $2,790 and the RTR eBike Pro at $3,490. Electric mopeds run from $5,490, adult electric dirt bikes from $5,490 up to $18,990, and kids electric bikes from $899. All prices are in AUD and include GST. Pay with crypto or PayID for 10% off.',
     keywords: ['electric bike price', 'how much are electric bikes', 'electric bikes for sale'],
   },
   {
     question: 'Are electric bikes legal in NSW, Queensland and Victoria?',
-    answer: 'Rules depend on the type of bike. Pedal-assist e-bikes that meet the Australian 250W, 25 km/h assist standard, like the RTR eBike, are treated as bicycles and need no licence or registration. Higher-powered electric motorbikes are different: they are supplied for private property and off-road parks, or must be registered as motorcycles or mopeds. Rules differ by state, so check your state transport authority and read our electric bike laws guide.',
+    answer: 'Rules depend on the type of bike. Pedal-assist e-bikes that meet the Australian 250W, 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, are treated as bicycles and need no licence or registration. Higher-powered electric motorbikes are different: they are supplied for private property and off-road parks, or must be registered as motorcycles or mopeds. Rules differ by state, so check your state transport authority and read our electric bike laws guide.',
     keywords: ['electric bike laws australia', 'electric bike laws qld', 'electric bike regulations nsw'],
   },
   {

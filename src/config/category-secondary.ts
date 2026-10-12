@@ -61,8 +61,8 @@ export const KEYWORD_GUIDES: Record<string, KeywordGuideBlock> = {
   '/electric-motor-bikes/rtr-ebike/': {
     heading: `RTR Electric Bike Range`,
     paragraphs: [
-      `The RTR eBike range is built for everyday commuting: pedal assist, a 250W motor and a quiet ride that needs no licence or registration. Compare the S Classic and the Pro by battery, range and price.`,
-      `Both include a 12-month Australian warranty with local servicing. Orders over $1,500 ship free from Mittagong NSW, with a 12-month Australian warranty.`,
+      `RTR (Ready To Rip) electric bikes are built for off-road riding on private property and designated off-road areas. Compare the S Classic and the Pro by price and read each product page for specifications.`,
+      `Warranty terms are shown on each product page. Orders over $1,500 ship free from Mittagong NSW, with a 12-month Australian warranty.`,
     ],
     links: [
       { href: '/electric-bikes/', label: 'Electric bikes for sale' },

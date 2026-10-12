@@ -5,7 +5,7 @@ export const NAV_CATEGORY_LINKS = [
   { href: '/electric-motocross-bikes/', name: 'Electric Motocross Bikes', kw: 'electric motocross bike for sale', img: '/images/product-stark-varg-mx.jpg' },
   { href: '/electric-motor-bikes/', name: 'Electric Motorbikes', kw: 'electric motorbikes for sale', img: '/images/product-super-soco-cpx.jpg' },
   { href: '/electric-motorcycles/', name: 'Electric Motorcycles', kw: 'electric motorcycle for sale', img: '/images/product-vmoto-tc-max.jpg' },
-  { href: '/electric-bikes/', name: 'Electric Bikes', kw: 'electric bikes for sale', img: '/images/product-rtr-ebike-pro.jpg' },
+  { href: '/electric-bikes/', name: 'Electric Bikes', kw: 'electric bikes for sale', img: '/images/categories/electric-bikes-for-sale.webp' },
   { href: '/electric-pit-bikes/', name: 'Electric Pit Bikes', kw: 'electric pit bike for sale', img: '/images/catalog/ronster-rides-rtr-lite-60v-electric-pit-bike-1.webp' },
   { href: '/electric-balance-bikes/', name: 'Electric Balance Bikes', kw: 'electric balance bike for sale', img: '/images/catalog/apollo-rxf-sedna-12-inch-electric-balance-electric-balance-bike-1.webp' },
   { href: '/electric-dirt-bikes/kids/', name: 'Kids Electric Dirt Bikes', kw: 'electric dirt bike for kids', img: '/images/product-ktm-sx-e-5-side.jpg' },

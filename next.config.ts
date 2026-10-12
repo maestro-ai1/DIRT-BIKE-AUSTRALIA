@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   // 2026-10-12 remap: tag pages whose phrase became a category keyword are retired and 301 to the owning category (no 404s, no cannibalisation).
   async redirects() {
     return [
+      { source: '/blog/rtr-ebike-australia-review', destination: '/electric-motor-bikes/rtr-ebike/', permanent: true },
+      { source: '/blog/rtr-ebike-vs-super-soco-cpx-commuter-comparison', destination: '/electric-motor-bikes/rtr-ebike/', permanent: true },
       { source: '/blog/tag/battery-electric-bicycle', destination: '/electric-bike-batteries/', permanent: true },
       { source: '/blog/tag/best-e-bikes-australia', destination: '/electric-motor-bikes/best-electric-bikes-australia/', permanent: true },
       { source: '/blog/tag/charger-for-e-bike', destination: '/accessories/', permanent: true },

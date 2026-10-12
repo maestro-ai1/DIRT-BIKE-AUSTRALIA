@@ -37,7 +37,7 @@ export default function ElectricMotorBikesMelbournePage() {
     'stealth-b-52-bomber',
     'stealth-f-37-trail-fighter',
     'e-ride-pro-ss-2-0',
-    'rtr-ebike-pro-commuter',
+    'chubbie-v3-electric-beach-cruiser',
     'niu-nqi-gt-electric-moped',
   ];
 

@@ -42,8 +42,8 @@ const GROUPS = [
   },
   {
     id: 'road-legal',
-    heading: 'Road-Legal Electric Bikes (RTR eBike)',
-    blurb: '250W pedal-assist e-bikes for commuting and shared paths. Under the Australian e-bike rules these need no licence, registration or number plate.',
+    heading: 'RTR eBike Range (Off-Road)',
+    blurb: 'RTR (Ready To Rip) electric bikes for off-road riding on private property and designated off-road parks. Not for public roads.',
     slugs: ['rtr-ebike-pro-commuter', 'rtr-ebike-s-classic'],
   },
   {
@@ -69,15 +69,15 @@ export default function ElectricBikesPage() {
   const baseFaqs = [
     {
       q: 'Where can I buy an electric bike in Australia?',
-      a: `Electric Dirt Bike Australia sells electric bikes for sale online and delivers Australia-wide from Mittagong NSW 2575. Our electric bike range runs from $${min.toLocaleString()} to $${max.toLocaleString()} AUD and covers road-legal RTR eBikes, Super73 electric motos and road-registered electric mopeds. Orders over $1,500 AUD ship free and every bike has a 12-month Australian warranty.`,
+      a: `Electric Dirt Bike Australia sells electric bikes for sale online and delivers Australia-wide from Mittagong NSW 2575. Our electric bike range runs from $${min.toLocaleString()} to $${max.toLocaleString()} AUD and covers fat tyre e-bikes, Super73 electric motos, RTR off-road electric bikes and road-registered electric mopeds. Orders over $1,500 AUD ship free and every bike has a 12-month Australian warranty.`,
     },
     {
       q: 'How much does an electric bike cost in Australia?',
-      a: 'Electric bike price depends on the type. Our RTR eBike S Classic is $2,790 and the RTR eBike Pro is $3,490. Super73 electric motos are $4,990 and $5,490. Electric mopeds range from $5,490 to $8,990. All prices are in AUD and include GST, and you save 10% when you pay with crypto or PayID.',
+      a: 'Electric bike price depends on the type. Our fat tyre e-bikes start at $2,190 and the RTR off-road electric bikes at $2,790. Super73 electric motos are $4,990 and $5,490. Electric mopeds range from $5,490 to $8,990. All prices are in AUD and include GST, and you save 10% when you pay with crypto or PayID.',
     },
     {
       q: 'Do I need a licence or registration for an electric bike in Australia?',
-      a: 'A pedal-assist e-bike that meets the Australian 250W and 25 km/h assist standard, such as the RTR eBike, is treated as a bicycle: no licence, registration or number plate. Electric mopeds are road-registered vehicles, and the NIU NQi GT is LAMS approved for L and P-plate riders. Rules vary by state, so check your state transport authority and our electric bike laws guide.',
+      a: 'A pedal-assist e-bike that meets the Australian 250W and 25 km/h assist standard, such as the road-compliant Ampd Bros e-bikes, is treated as a bicycle: no licence, registration or number plate. Electric mopeds are road-registered vehicles, and the NIU NQi GT is LAMS approved for L and P-plate riders. Rules vary by state, so check your state transport authority and our electric bike laws guide.',
     },
     {
       q: 'Do you deliver electric bikes to Sydney, Brisbane, Melbourne and Perth?',
@@ -142,7 +142,7 @@ export default function ElectricBikesPage() {
               {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              Buy an electric bike online from Electric Dirt Bike Australia. Our e bike range covers fat tyre e-bikes and beach cruisers, road-legal RTR eBike commuters, Super73 electric motos and road-registered electric mopeds, from ${min.toLocaleString()} to ${max.toLocaleString()} AUD. Every electric bike ships Australia-wide from Mittagong NSW with a 12-month Australian warranty.
+              Buy an electric bike online from Electric Dirt Bike Australia. Our e bike range covers fat tyre e-bikes and beach cruisers, Super73 electric motos, RTR off-road electric bikes and road-registered electric mopeds, from ${min.toLocaleString()} to ${max.toLocaleString()} AUD. Every electric bike ships Australia-wide from Mittagong NSW with a 12-month Australian warranty.
             </p>
             <div className="flex flex-wrap gap-3 pt-2 text-xs text-slate-300">
               {['12-Month AU Warranty', 'Free Freight Over $1,500', '10% Crypto & PayID Discount', 'Ships Australia-Wide'].map((t) => (

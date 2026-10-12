@@ -47,7 +47,7 @@ export default function CheapElectricBikesPage() {
       faqs={[
         { q: 'What is the cheapest electric bike for sale in Australia here?', a: `Our lowest-priced adult electric bike is currently ${money(adultLo)} AUD and our lowest-priced kids electric bike is ${money(kidsLo)} AUD. Prices are in AUD including GST and can change, so check the product page for the current price.` },
         { q: 'Are cheap electric bikes any good?', a: 'Every bike listed here comes from a named brand with published specifications, including motor power, battery size, range, brakes and maximum load, plus a supplier warranty. Compare the specifications on each product page before you buy.' },
-        { q: 'Do cheap electric bikes come with a warranty?', a: 'Ampd Bros adult e-bikes carry a 2-year nationwide warranty and Ampd Bros kids e-bikes carry a 1-year warranty. RTR eBikes carry the Electric Dirt Bike Australia 12-month Australian warranty. Warranty excludes wear items such as tyres, tubes and brake pads.' },
+        { q: 'Do cheap electric bikes come with a warranty?', a: 'Ampd Bros adult e-bikes carry a 2-year nationwide warranty and Ampd Bros kids e-bikes carry a 1-year warranty. Other bikes in our range carry the Electric Dirt Bike Australia 12-month Australian warranty. Warranty excludes wear items such as tyres, tubes and brake pads.' },
         { q: 'Can I get a discount on an electric bike?', a: 'Yes. Pay with crypto or PayID at checkout and 10% comes off the price. Some bikes are also listed with a reduced sale price.' },
       ]}
       collectionName="Cheap Electric Bikes Australia"

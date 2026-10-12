@@ -36,7 +36,7 @@ export default function BestElectricBikesAustraliaPage() {
     'sur-ron-ultra-bee',
     'stealth-b-52-bomber',
     'ktm-sx-e-5-youth-electric',
-    'rtr-ebike-pro-commuter',
+    'chubbie-v3-electric-beach-cruiser',
     'niu-nqi-gt-electric-moped',
     'e-ride-pro-ss-2-0',
   ];
@@ -62,7 +62,7 @@ export default function BestElectricBikesAustraliaPage() {
           name: 'What is the best electric bike in Australia in 2026?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The best electric bike in Australia depends on your use case. For off-road trail riding, the Sur-Ron Light Bee X (6,490 AUD) is the best-selling lightweight electric dirt bike with 6,000W peak power and 75 km/h capability. For commuting, the RTR eBike Pro at $3,490 is road-legal with no registration needed. For competition off-road riding, the Talaria Sting R MX4 at $8,990 delivers the most advanced suspension and performance. For kids, the KTM SX-E 5 is the world-leading youth electric motocross bike for ages 4–10.',
+            text: 'The best electric bike in Australia depends on your use case. For off-road trail riding, the Sur-Ron Light Bee X (6,490 AUD) is the best-selling lightweight electric dirt bike with 6,000W peak power and 75 km/h capability. For commuting, the CHUBBIE 3 at $3,490 is available as a 250W road-compliant e-bike needing no registration. For competition off-road riding, the Talaria Sting R MX4 at $8,990 delivers the most advanced suspension and performance. For kids, the KTM SX-E 5 is the world-leading youth electric motocross bike for ages 4–10.',
           },
         },
         {
@@ -70,7 +70,7 @@ export default function BestElectricBikesAustraliaPage() {
           name: 'What is the best e-bike in Australia for commuting?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The RTR eBike Pro is Australia\'s best commuter e-bike — 250W road-legal, 80 km range, Shimano 7-speed gears, and no licence, registration, or number plate required. For higher-speed commuting that requires a motorcycle licence, the NIU NQi GT electric moped at $5,990 delivers 70 km/h and 100 km range.',
+            text: 'The CHUBBIE 3 ($3,490) is our pick for commuting: a 250W road-compliant model with 25 km/h pedal assist, up to 80 km range and Shimano Altus 7-speed gears. Choose the road-compliant option when you order. For higher-speed commuting that requires a motorcycle licence, the NIU NQi GT electric moped at $5,990 delivers 70 km/h and 100 km range.',
           },
         },
         {
@@ -88,7 +88,7 @@ export default function BestElectricBikesAustraliaPage() {
   const categories = [
     { title: 'Best for Off-Road Trail Riding', slug: 'sur-ron-light-bee-x', award: '#1 Trail Bike', why: 'Best power-to-weight ratio, 75 km/h, community parts support across Australia.' },
     { title: 'Best for Serious Competition', slug: 'talaria-sting-r-mx4', award: '#1 Competition', why: 'MX4 suspension, longest trail range, factory race geometry for serious off-road riders.' },
-    { title: 'Best Commuter e-Bike', slug: 'rtr-ebike-pro-commuter', award: '#1 Commuter', why: 'No licence, no rego, 80 km range, charges at any power point. Zero running costs.' },
+    { title: 'Best Commuter e-Bike', slug: 'chubbie-v3-electric-beach-cruiser', award: '#1 Commuter', why: '250W road-compliant model with 25 km/h assist and up to 80 km range. No licence or rego in the road-compliant option.' },
     { title: 'Best Kids Electric Motorbike', slug: 'ktm-sx-e-5-youth-electric', award: '#1 Youth Bike', why: 'Factory competition-spec for ages 4–10 with 3 parent power modes. KTM WP suspension.' },
     { title: 'Best Electric Moped', slug: 'niu-nqi-gt-electric-moped', award: '#1 e-Moped', why: 'LAMS approved for L and P-plates, 70 km/h, 100 km range with dual removable battery.' },
     { title: 'Best Australian-Engineered', slug: 'stealth-b-52-bomber', award: '#1 AU Made', why: 'Stealth Electric Bikes are engineered and manufactured in Melbourne, VIC. 52V hyper-power.' },
@@ -96,7 +96,7 @@ export default function BestElectricBikesAustraliaPage() {
 
   const budgetGuide = [
     { range: 'Under $2,000', desc: 'Entry-level kids bikes (Razor MX650, EDBA Moto 50) and accessory upgrades.', link: '/electric-motor-bikes/kids/' },
-    { range: '$2,000–$5,000', desc: 'RTR eBike commuters, OSET trials bikes, Segway X160. Best value beginner off-road.', link: '/electric-motor-bikes/commuter-mopeds/' },
+    { range: '$2,000–$5,000', desc: 'Ampd Bros fat tyre e-bikes, OSET trials bikes, Segway X160. Best value beginner off-road.', link: '/electric-motor-bikes/commuter-mopeds/' },
     { range: '$5,000–$10,000', desc: 'Sur-Ron Light Bee X, Talaria Sting, KTM SX-E 5, NIU NQi GT. The sweet spot for performance.', link: '/electric-motor-bikes/' },
     { range: '$10,000+', desc: 'Stealth B-52 Bomber, Sur-Ron Ultra Bee, Vmoto TC-Max. Pro-grade or full road-legal.', link: '/electric-motor-bikes/' },
   ];
@@ -215,8 +215,8 @@ export default function BestElectricBikesAustraliaPage() {
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">Best Electric Bikes Australia — FAQ</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
-              { q: 'What is the best electric bike in Australia in 2026?', a: 'The best electric bike depends on your use case. For off-road trail riding: Sur-Ron Light Bee X ($6,490). For commuting: RTR eBike Pro ($3,490, no licence needed). For competition: Talaria Sting R MX4 ($8,990). For kids: KTM SX-E 5 ($7,990 for ages 4–10). For road use: NIU NQi GT electric moped ($5,990, LAMS approved).' },
-              { q: 'What is the best e-bike for commuting in Australia?', a: 'The RTR eBike Pro is the best commuter e-bike in Australia for most riders — 250W road-legal, 80 km range, Shimano 7-speed, no licence, no registration required. For speed above 25 km/h on roads, the NIU NQi GT delivers 70 km/h and requires a motorcycle learner permit under LAMS.' },
+              { q: 'What is the best electric bike in Australia in 2026?', a: 'The best electric bike depends on your use case. For off-road trail riding: Sur-Ron Light Bee X ($6,490). For commuting: CHUBBIE 3 ($3,490, road-compliant option needs no licence). For competition: Talaria Sting R MX4 ($8,990). For kids: KTM SX-E 5 ($7,990 for ages 4–10). For road use: NIU NQi GT electric moped ($5,990, LAMS approved).' },
+              { q: 'What is the best e-bike for commuting in Australia?', a: 'The CHUBBIE 3 is our pick for commuting for most riders: 250W road-compliant option, up to 80 km range, Shimano Altus 7-speed, and no licence or registration needed in that option. For speed above 25 km/h on roads, the NIU NQi GT delivers 70 km/h and requires a motorcycle learner permit under LAMS.' },
               { q: 'What is the best electric dirt bike in Australia?', a: 'The Sur-Ron Light Bee X at $6,490 is Australia\'s best-selling electric dirt bike — 47 kg, 6,000W peak, 75 km/h, and the most supported platform with local parts availability. For competition riders, the Talaria Sting R MX4 at $8,990 offers superior suspension and range.' },
               { q: 'How do I choose the best electric bike for my needs in Australia?', a: 'Consider: (1) Road use vs off-road — 250W pedal-assist needs no licence for roads; off-road bikes require private property. (2) Rider age — dedicated youth platforms for under 16. (3) Budget — $3,000–$9,000 covers the best middle-range. (4) Use frequency — SLA batteries for occasional use, lithium for daily riding. (5) Warranty — EDBA includes 12-month AU warranty on all models.' },
             ].map((item, i) => (

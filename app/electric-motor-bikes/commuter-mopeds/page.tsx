@@ -31,8 +31,7 @@ export const metadata: Metadata = {
 
 export default function CommuterMopedsPage() {
   const commuterSlugs = [
-    'rtr-ebike-pro-commuter',
-    'rtr-ebike-s-classic',
+    'chubbie-v3-electric-beach-cruiser',
     'niu-nqi-gt-electric-moped',
     'super-soco-cpx-electric-moped',
     'vmoto-soco-tc-max-electric',
@@ -61,7 +60,7 @@ export default function CommuterMopedsPage() {
           name: 'Do electric mopeds require registration in Australia?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Electric mopeds over 250W or capable of exceeding 25 km/h without pedalling require registration as a motorcycle or moped in all Australian states. LAMS-approved models like the NIU NQi GT and Vmoto TC-Max are fully road-registerable. Pedal-assist e-bikes under 250W (such as the RTR eBike) are classified as bicycles and require no registration.',
+            text: 'Electric mopeds over 250W or capable of exceeding 25 km/h without pedalling require registration as a motorcycle or moped in all Australian states. LAMS-approved models like the NIU NQi GT and Vmoto TC-Max are fully road-registerable. Pedal-assist e-bikes under 250W (such as the road-compliant Ampd Bros models) are classified as bicycles and require no registration.',
           },
         },
         {
@@ -151,9 +150,9 @@ export default function CommuterMopedsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
               { q: 'Do electric mopeds require registration in Australia?', a: 'Electric mopeds over 250W or capable of exceeding 25 km/h require road registration as a motorcycle or moped. LAMS-approved models like the NIU NQi GT and Vmoto TC-Max can be registered in all Australian states. Pedal-assist e-bikes under 250W require no registration.' },
-              { q: 'What licence is needed for an electric moped in Australia?', a: 'LAMS-approved electric mopeds require a motorcycle learner permit or full motorcycle licence. L-plate and P-plate riders can ride LAMS-approved models in all states. RTR eBike (250W pedal-assist) models require no licence.' },
-              { q: 'Are electric mopeds allowed in bike lanes in Australia?', a: 'Pedal-assist e-bikes under 250W (like the RTR eBike range) are permitted in bike lanes and shared paths. Registered electric mopeds over 250W must use the road and follow the same road rules as petrol motorcycles.' },
-              { q: 'How far does an electric moped travel on one charge in Australia?', a: 'Range varies by model. The NIU NQi GT dual-battery model achieves 100 km. The Super Soco CPx delivers up to 90 km. The Vmoto TC-Max reaches 120 km. RTR eBike commuters deliver 70–80 km per charge.' },
+              { q: 'What licence is needed for an electric moped in Australia?', a: 'LAMS-approved electric mopeds require a motorcycle learner permit or full motorcycle licence. L-plate and P-plate riders can ride LAMS-approved models in all states. Road-compliant 250W pedal-assist e-bikes require no licence.' },
+              { q: 'Are electric mopeds allowed in bike lanes in Australia?', a: 'Pedal-assist e-bikes under 250W (like the road-compliant Ampd Bros models) are permitted in bike lanes and shared paths. Registered electric mopeds over 250W must use the road and follow the same road rules as petrol motorcycles.' },
+              { q: 'How far does an electric moped travel on one charge in Australia?', a: 'Range varies by model. The NIU NQi GT dual-battery model achieves 100 km. The Super Soco CPx delivers up to 90 km. The Vmoto TC-Max reaches 120 km. The CHUBBIE 3 road-compliant e-bike lists up to 80 km.' },
             ].map((item, i) => (
               <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}

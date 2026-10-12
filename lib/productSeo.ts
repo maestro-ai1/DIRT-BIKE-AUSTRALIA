@@ -25,7 +25,7 @@ export function productKind(p: P): ProductKind {
   if (p.category === 'balance-bikes') return 'balance';
   if (p.source === 'old-site' && p.category === 'kids-ebikes') return 'kids';
   if (p.source === 'old-site' && p.category === 'fat-tyre-ebikes') return 'fattyre';
-  if (/razor|ktm-|husqvarna|oset|edba-moto|torrot|x160|evo-racing|lil-rippa|rfn-warrior/.test(p.slug)) return 'kids';
+  if (/razor|ktm-|husqvarna|oset|edba-moto|torrot|x160|evo-racing|lil-rippa|rfn-warrior(?!-pro)/.test(p.slug)) return 'kids';
   if (/^(chubbie|riptide)/.test(p.slug)) return 'cruiser';
   if (/mini/.test(p.slug) && /^ace-/.test(p.slug)) return 'mini';
   if (/^(ace-|the-original-stubbie|stubbie|taipan)/.test(p.slug)) return 'fattyre';

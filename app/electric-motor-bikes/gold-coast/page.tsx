@@ -24,7 +24,7 @@ export default function ElectricBikesGoldCoastPage() {
       intro="Buy an electric bicycle online for the Gold Coast from Electric Dirt Bike Australia. We ship e-bikes, electric motorbikes, mopeds and electric dirt bikes from Mittagong NSW to the Gold Coast and across Queensland. Free insured freight on orders over $1,500, a 12-month Australian warranty and 10% off with crypto or PayID."
       chips={["Delivered to the Gold Coast & QLD","Free Insured Freight Over $1,500","12-Month AU Warranty","10% Crypto & PayID Discount"]}
       groups={[
-        { id: 'commuter', heading: 'E-Bikes & Mopeds for Gold Coast Riders', blurb: 'Road-legal RTR eBikes need no licence or registration. Electric mopeds are road-registered.', slugs: ['rtr-ebike-pro-commuter', 'rtr-ebike-s-classic', 'niu-nqi-gt-electric-moped', 'super-soco-cpx-electric-moped'] },
+        { id: 'commuter', heading: 'E-Bikes & Mopeds for Gold Coast Riders', blurb: 'Ampd Bros fat tyre e-bikes come as a 250W road-compliant model (25 km/h assist, no licence or registration) or an off-road model. Electric mopeds are road-registered.', slugs: ['chubbie-v3-electric-beach-cruiser', 'the-original-stubbie-fat-tyre-electric-bike', 'niu-nqi-gt-electric-moped', 'super-soco-cpx-electric-moped'] },
         { id: 'dirt', heading: 'Electric Dirt Bikes for Queensland Trails', blurb: 'Off-road electric dirt bikes for private property and designated off-road parks in South-East Queensland.', slugs: ['sur-ron-light-bee-x', 'talaria-sting-r-mx4', 'sur-ron-ultra-bee'] },
       ]}
       links={[

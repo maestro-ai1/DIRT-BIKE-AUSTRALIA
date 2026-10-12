@@ -51,18 +51,18 @@ export default function RtrEbikePage() {
       mainEntity: [
         {
           '@type': 'Question',
-          name: 'Does an RTR eBike require registration in Australia?',
+          name: 'Is an RTR eBike road legal in Australia?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'No. The RTR eBike Pro and S Classic are 250W EN15194-compliant pedal-assist e-bikes. Under Australian law, these are classified as bicycles — not motorcycles or mopeds — so no registration, no licence, and no number plate is required in any Australian state or territory.',
+            text: 'No. RTR eBikes are sold as off-road recreational electric bikes for private property and designated off-road areas. They are not registered for public roads, and rules vary by state, so check with your state transport authority before riding anywhere else.',
           },
         },
         {
           '@type': 'Question',
-          name: 'How far can an RTR eBike travel on one charge?',
+          name: 'What battery does the RTR eBike Pro have?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'The RTR eBike Pro delivers up to 80 km per charge on a 36V 15Ah battery in eco pedal-assist mode. In higher assist modes, expect 50–65 km of real-world range. The RTR eBike S Classic achieves up to 70 km on its 36V 13Ah battery.',
+            text: 'The RTR eBike Pro lists a 72V 25Ah battery and weighs 80 kg. Real-world range depends on rider weight, terrain and riding mode, so message us for the full specification sheet before you order.',
           },
         },
       ],
@@ -70,9 +70,9 @@ export default function RtrEbikePage() {
   ];
 
   const features = [
-    { icon: CheckCircle, color: 'text-emerald-500', title: 'No Licence Required', desc: '250W road-legal assist means it\'s classified as a bicycle — ride anywhere in Australia without a motorcycle licence.' },
-    { icon: ShieldCheck, color: 'text-sky-500', title: 'No Registration Needed', desc: 'EN15194 compliant at 25 km/h. No number plates, no CTP insurance, no annual rego costs.' },
-    { icon: Zap, color: 'text-orange-500', title: 'Charge at Home', desc: 'Plug into any standard Australian 240V power point. Full charge in 4–5 hours. No EV charging station needed.' },
+    { icon: CheckCircle, color: 'text-emerald-500', title: 'Off-Road Riding', desc: 'Built for private property and designated off-road areas. Not registered for public roads.' },
+    { icon: ShieldCheck, color: 'text-sky-500', title: 'Know Your State Rules', desc: 'Rules for off-road vehicles vary by state. Check land access and local rules before you ride.' },
+    { icon: Zap, color: 'text-orange-500', title: 'Charge at Home', desc: 'Charge from a standard Australian 240V power point. No fuel, oil or carburettor servicing.' },
     { icon: MapPin, color: 'text-purple-500', title: 'Nationwide Free Delivery', desc: 'Free crate freight to all mainland capital cities and most regional centres on orders over $1,500.' },
   ];
 
@@ -93,16 +93,16 @@ export default function RtrEbikePage() {
         <div className="bg-slate-900 text-white rounded-3xl p-6 sm:p-12 mb-12 border border-slate-800 shadow-xl">
           <div className="max-w-3xl space-y-4">
             <span className="px-3 py-1 rounded-full bg-sky-500/20 text-sky-400 text-xs font-bold uppercase tracking-wider border border-sky-400/30 inline-block">
-              RTR eBike Australia · Road-Legal Electric Commuter
+              RTR eBike Australia · Off-Road Electric Bikes
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
               {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              RTR eBike is Australia&apos;s leading commuter electric bike brand, delivering road-legal 250W e-bikes that require no licence, no registration, and no number plate. Ride to work, along shared paths, and through CBD streets with confidence — backed by 12-month Australian warranty from Mittagong NSW.
+              RTR (Ready To Rip) electric bikes are built for off-road riding on private property and designated off-road areas. Prices are shown up front, bikes ship Australia-wide from Mittagong NSW, and our workshop supports what we sell. Not registered for public roads.
             </p>
             <div className="flex flex-wrap gap-3 pt-2 text-xs text-slate-300">
-              {['No Licence Required', 'No Registration', 'Free AU-Wide Freight Over $1,500', '10% Crypto Discount'].map((t) => (
+              {['Off-Road Use', 'Prices Shown Up Front', 'Free AU-Wide Freight Over $1,500', '10% Crypto Discount'].map((t) => (
                 <span key={t} className="flex items-center gap-1.5 bg-slate-800/80 px-3 py-1.5 rounded-lg border border-slate-700">
                   <CheckCircle className="w-3.5 h-3.5 text-emerald-400" />{t}
                 </span>
@@ -126,8 +126,8 @@ export default function RtrEbikePage() {
         <div className="mb-12">
           <ProductPager
             groups={[
-              { id: 'rtr-range', heading: `RTR eBike Range (${rtrProducts.length} Models)`, blurb: "Australia's favourite road-legal electric commuter bikes.", items: rtrProducts },
-              { id: 'rtr-related', heading: 'Also Consider — Electric Commuter Mopeds', blurb: 'Road-registered e-mopeds for higher-speed commuting.', items: relatedProducts },
+              { id: 'rtr-range', heading: `RTR eBike Range (${rtrProducts.length} Models)`, blurb: 'RTR electric bikes for off-road riding. Check each product page for specifications.', items: rtrProducts },
+              { id: 'rtr-related', heading: 'Looking for a Road-Registered Bike?', blurb: 'Road-registered electric mopeds and e-motos for commuting.', items: relatedProducts },
             ]}
           />
         </div>
@@ -144,10 +144,10 @@ export default function RtrEbikePage() {
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight border-b border-slate-100 pb-4">RTR eBike Australia — FAQ</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
-              { q: 'Does an RTR eBike require registration in Australia?', a: 'No. RTR eBike models are 250W EN15194-compliant pedal-assist e-bikes — classified as bicycles under Australian law. No registration, licence, or number plate is required in any Australian state or territory.' },
-              { q: 'How far can an RTR eBike travel on one charge?', a: 'The RTR eBike Pro delivers up to 80 km per charge in eco mode on its 36V 15Ah battery. The RTR eBike S Classic achieves up to 70 km on its 36V 13Ah pack. Real-world range in mixed city riding with moderate assist is typically 50–65 km.' },
-              { q: 'Can I ride an RTR eBike on shared paths in Australia?', a: 'Yes. As a pedal-assist e-bike under 250W and 25 km/h, RTR eBikes are permitted on dedicated cycling paths, shared paths, and roads in all Australian states and territories under current e-bike regulations.' },
-              { q: 'What warranty is included with an RTR eBike in Australia?', a: 'All RTR eBike models purchased through Electric Dirt Bike Australia include a 12-Month Comprehensive Australian Factory Warranty covering the motor, battery, controller, and frame from our Mittagong NSW warehouse.' },
+              { q: 'Is an RTR eBike road legal in Australia?', a: 'No. RTR eBikes are sold as off-road recreational electric bikes for private property and designated off-road areas. They are not registered for public roads, and rules vary by state.' },
+              { q: 'What battery does the RTR eBike Pro have?', a: 'The RTR eBike Pro lists a 72V 25Ah battery and weighs 80 kg. Real-world range depends on rider weight, terrain and riding mode. Message us for the full specification sheet.' },
+              { q: 'Where can I ride an RTR eBike?', a: 'On private property with the owner\'s permission and in designated off-road areas. They are not intended for roads, footpaths or shared paths.' },
+              { q: 'What warranty is included with an RTR eBike in Australia?', a: 'Warranty terms are shown on each product page and confirmed with your order. Our Mittagong NSW workshop supports what we sell.' },
             ].map((item, i) => (
               <FaqItem key={i} question={`${i + 1}. ${item.q}`}>{item.a}</FaqItem>
             ))}

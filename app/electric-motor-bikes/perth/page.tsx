@@ -35,7 +35,7 @@ export default function ElectricMotorBikesPerthPage() {
     'talaria-sting-r-mx4',
     'sur-ron-ultra-bee',
     'e-ride-pro-ss-2-0',
-    'rtr-ebike-pro-commuter',
+    'chubbie-v3-electric-beach-cruiser',
     'niu-nqi-gt-electric-moped',
     'super-soco-cpx-electric-moped',
     'stealth-b-52-bomber',
