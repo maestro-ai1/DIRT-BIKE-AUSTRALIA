@@ -3,102 +3,102 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
  "/images/ampd/ace-adventure-fat-tyre-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/ace-adventure-fat-tyre-electric-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-adventure-fat-tyre-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/ace-adventure-fat-tyre-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-adventure-fat-tyre-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/ace-adventure-fat-tyre-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-adventure-fat-tyre-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/ace-adventure-fat-tyre-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-mini-electric-fat-bike-1.jpg": {
   "v": "/images/_w/600/ampd/ace-mini-electric-fat-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-mini-electric-fat-bike-2.jpg": {
   "v": "/images/_w/600/ampd/ace-mini-electric-fat-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-mini-electric-fat-bike-3.jpg": {
   "v": "/images/_w/600/ampd/ace-mini-electric-fat-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-mini-electric-fat-bike-4.jpg": {
   "v": "/images/_w/600/ampd/ace-mini-electric-fat-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/ace-pro-dual-suspension-fat-tyre-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-demon-dual-motor-fat-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/ace-x-demon-dual-motor-fat-electric-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-demon-dual-motor-fat-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/ace-x-demon-dual-motor-fat-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-demon-dual-motor-fat-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/ace-x-demon-dual-motor-fat-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-demon-dual-motor-fat-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/ace-x-demon-dual-motor-fat-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-mini-pro-electric-bike-1.jpg": {
   "v": "/images/_w/600/ampd/ace-x-mini-pro-electric-bike-1.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-mini-pro-electric-bike-2.jpg": {
   "v": "/images/_w/600/ampd/ace-x-mini-pro-electric-bike-2.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-mini-pro-electric-bike-3.jpg": {
   "v": "/images/_w/600/ampd/ace-x-mini-pro-electric-bike-3.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ace-x-mini-pro-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/ace-x-mini-pro-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/ampd/ares-rally-endurance-road-electric-dirt-bike-1.jpg": {
   "v": "/images/_w/600/ampd/ares-rally-endurance-road-electric-dirt-bike-1.webp",
@@ -1620,6 +1620,11 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
   "vw": 600,
   "w": 1200
  },
+ "/images/catalog/rtr-ebike-pro-electric-bike-1.webp": {
+  "v": "/images/_w/600/catalog/rtr-ebike-pro-electric-bike-1.webp",
+  "vw": 600,
+  "w": 1200
+ },
  "/images/catalog/strike-shadow-48v-dirt-electric-bike-1.webp": {
   "v": "/images/_w/600/catalog/strike-shadow-48v-dirt-electric-bike-1.webp",
   "vw": 600,
@@ -1702,6 +1707,71 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
  },
  "/images/catalog/ycf-w50-bike-kids-dirt-bike-3.webp": {
   "v": "/images/_w/600/catalog/ycf-w50-bike-kids-dirt-bike-3.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/cheap-electric-bikes.webp": {
+  "v": "/images/_w/600/categories/cheap-electric-bikes.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/e-bike-parts-batteries.webp": {
+  "v": "/images/_w/600/categories/e-bike-parts-batteries.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-balance-bikes.webp": {
+  "v": "/images/_w/600/categories/electric-balance-bikes.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-bikes-for-sale.webp": {
+  "v": "/images/_w/600/categories/electric-bikes-for-sale.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-dirt-bikes-for-sale.webp": {
+  "v": "/images/_w/600/categories/electric-dirt-bikes-for-sale.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-fat-tyre-bikes.webp": {
+  "v": "/images/_w/600/categories/electric-fat-tyre-bikes.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-mopeds.webp": {
+  "v": "/images/_w/600/categories/electric-mopeds.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-motocross-bikes.webp": {
+  "v": "/images/_w/600/categories/electric-motocross-bikes.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-motorbikes-motorcycles.webp": {
+  "v": "/images/_w/600/categories/electric-motorbikes-motorcycles.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/electric-motorcycles.webp": {
+  "v": "/images/_w/600/categories/electric-motorcycles.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/kids-electric-bikes-motorbikes.webp": {
+  "v": "/images/_w/600/categories/kids-electric-bikes-motorbikes.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/mini-electric-bikes.webp": {
+  "v": "/images/_w/600/categories/mini-electric-bikes.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/categories/rtr-ebike.webp": {
+  "v": "/images/_w/600/categories/rtr-ebike.webp",
   "vw": 600,
   "w": 1200
  },
@@ -1800,6 +1870,11 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
   "vw": 600,
   "w": 800
  },
+ "/images/product-handlebar-kit.webp": {
+  "v": "/images/_w/600/product-handlebar-kit.webp",
+  "vw": 600,
+  "w": 1200
+ },
  "/images/product-husqvarna-ee-5-youth.jpg": {
   "v": "/images/_w/600/product-husqvarna-ee-5-youth.webp",
   "vw": 600,
@@ -1833,7 +1908,7 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
  "/images/product-niu-nqi-gt.webp": {
   "v": "/images/_w/600/product-niu-nqi-gt.webp",
   "vw": 600,
-  "w": 1400
+  "w": 1200
  },
  "/images/product-onboard-display.webp": {
   "v": "/images/_w/600/product-onboard-display.webp",

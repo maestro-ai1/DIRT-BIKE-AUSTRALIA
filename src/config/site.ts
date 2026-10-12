@@ -1731,7 +1731,7 @@ export const PRODUCTS: ProductItem[] = [
       "legal": "No licence, no registration, no number plate required"
     },
     "images": [
-      "/images/product-rtr-ebike-pro.jpg"],
+      "/images/catalog/rtr-ebike-pro-electric-bike-1.webp"],
     "inStock": true
   },
   {
