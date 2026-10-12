@@ -11,6 +11,7 @@ import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { extraFaqs } from '@/src/config/category-sections';
 const seo = seoFor('/electric-motor-bikes/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -31,6 +32,8 @@ export const metadata: Metadata = {
     'og:updated_time': new Date().toISOString(),
   },
 };
+
+const EXTRA_FAQ_LD = extraFaqs('/electric-motor-bikes/').map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }));
 
 export default function ElectricMotorBikesPage() {
   // 14 top electronic motor bikes (more than 10)
@@ -122,7 +125,7 @@ export default function ElectricMotorBikesPage() {
               Top 14 Australian Platforms · Dual-Sport &amp; High-Voltage e-Motos
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Electric Motorbikes &amp; Motorcycles for Sale in Australia
+              {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Explore Australia&apos;s most capable electric motor bikes. From road-capable dual-sport enduro platforms like the Sur-Ron Ultra Bee to Australian-engineered Stealth hyper-bikes and street scramblers, find the ideal machine backed by local NSW workshop support and nationwide crate freight.
@@ -173,7 +176,9 @@ export default function ElectricMotorBikesPage() {
           <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
             Delivery guides: <Link href="/electric-motor-bikes/sydney/" className="text-sky-700 font-semibold hover:underline">Sydney</Link>,{' '}
             <Link href="/electric-motor-bikes/melbourne/" className="text-sky-700 font-semibold hover:underline">Melbourne</Link>,{' '}
-            <Link href="/electric-motor-bikes/brisbane/" className="text-sky-700 font-semibold hover:underline">Brisbane</Link> and{' '}
+            <Link href="/electric-motor-bikes/brisbane/" className="text-sky-700 font-semibold hover:underline">Brisbane</Link>,{' '}
+            <Link href="/electric-motor-bikes/gold-coast/" className="text-sky-700 font-semibold hover:underline">Gold Coast</Link>,{' '}
+            <Link href="/electric-motor-bikes/townsville/" className="text-sky-700 font-semibold hover:underline">Townsville</Link> and{' '}
             <Link href="/electric-motor-bikes/perth/" className="text-sky-700 font-semibold hover:underline">Perth</Link>. Also read the{' '}
             <Link href="/electric-motor-bikes/e-bike-laws-australia/" className="text-sky-700 font-semibold hover:underline">Australian e-bike laws guide</Link> and{' '}
             <Link href="/electric-motor-bikes/best-electric-bikes-australia/" className="text-sky-700 font-semibold hover:underline">best electric bikes 2026</Link>.
@@ -233,6 +238,9 @@ export default function ElectricMotorBikesPage() {
             <FaqItem question="4. What warranty and genuine replacement parts support is provided in Australia?">
                 All electric motor bikes sold by Electric Dirt Bike Australia include a 12-Month Comprehensive Australian Factory Warranty covering the motor, controller, battery, frame, and wiring harness. We stock genuine replacement parts locally in our Mittagong NSW 2575 warehouse for rapid dispatch nationwide.
               </FaqItem>
+            {extraFaqs('/electric-motor-bikes/').map((item, i) => (
+              <FaqItem key={item.q} question={`${i + 5}. ${item.q}`}>{item.a}</FaqItem>
+            ))}
           </div>
         </div>
 

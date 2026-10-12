@@ -7,6 +7,7 @@ import { PRODUCTS, BRANDS, FAQ, SITE, BRAND } from '@/src/config/site';
 import { Zap, ShieldCheck, Truck, ArrowRight, Award, Wrench, ChevronRight, CheckCircle } from 'lucide-react';
 import { Metadata } from 'next';
 import { seoFor, buildFaq } from '@/src/config/seo';
+import { KeywordGuide } from '@/components/KeywordGuide';
 
 import { FaqItem } from '@/components/FaqItem';
 import { ProductCard } from '@/components/ProductCard';
@@ -361,6 +362,10 @@ export default function HomePage() {
 
       {/* 8. Trustpilot reviews: 3-up sliding carousel */}
       <TrustpilotSection />
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+        <KeywordGuide path="/" className="mb-0" />
+      </div>
 
       {/* 9. FAQ: five questions, compact two-column */}
       <section className="py-8" id="faq" aria-labelledby="home-faq">

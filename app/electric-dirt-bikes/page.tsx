@@ -11,6 +11,7 @@ import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { extraFaqs } from '@/src/config/category-sections';
 const seo = seoFor('/electric-dirt-bikes/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -31,6 +32,8 @@ export const metadata: Metadata = {
     'og:updated_time': new Date().toISOString(),
   },
 };
+
+const EXTRA_FAQ_LD = extraFaqs('/electric-dirt-bikes/').map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } }));
 
 export default function ElectricDirtBikesPage() {
   const featuredSlugs = [
@@ -124,7 +127,7 @@ export default function ElectricDirtBikesPage() {
               AU Genuine Stock · Sur-Ron, Talaria, Stark &amp; More
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-              Electric Dirt Bikes for Sale in Australia
+              {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Australia&apos;s most capable off-road electric dirt bikes — from the lightweight Sur-Ron Light Bee X to the championship-grade Stark Varg EX 80HP. Every bike is genuine Australian stock, pre-delivery inspected at our Mittagong NSW 2575 facility, and dispatched with nationwide insured crate freight.
@@ -216,6 +219,9 @@ export default function ElectricDirtBikesPage() {
             <FaqItem question="3. How long does the battery last on an electric dirt bike?">
                 Battery range varies by riding style and terrain. Trail riding typically yields 40–90 km per charge on mid-size platforms. All bikes include a 240V Australian smart fast charger for overnight or quick top-up charging.
               </FaqItem>
+            {extraFaqs('/electric-dirt-bikes/').map((item, i) => (
+              <FaqItem key={item.q} question={`${i + 5}. ${item.q}`}>{item.a}</FaqItem>
+            ))}
           </div>
         </div>
 

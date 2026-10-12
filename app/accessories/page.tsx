@@ -71,7 +71,7 @@ export default function AccessoriesPage() {
               Power Upgrades &amp; Protection
             </span>
             <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
-              Electric Dirt Bike Accessories Australia — 72V Batteries, Fast Chargers &amp; Parts
+              {seo.h1}
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
               Upgrade your Sur-Ron or Talaria with 72V Molicel lithium battery packs, high-amperage 15A alloy fast chargers, OEM spare parts, and Aussie bush-tested bash plates. All genuine AU stock — free shipping over $1,500 AUD and 10% off with Crypto or PayID.
@@ -82,7 +82,7 @@ export default function AccessoriesPage() {
         {/* Product Grid */}
         <ProductPager groups={[{ id: 'accessories-list', heading: 'Electric Dirt Bike Batteries, Chargers & Performance Parts', blurb: '72V lithium batteries, fast chargers, controllers, suspension, brakes and protection with Australian plugs and local support.', items: accessories }]} topUp={false} />
 
-        <KeywordGuide path="/accessories/" />
+        <KeywordGuide path="/accessories/" faqs />
 
         <RelatedGuides path="/accessories/" className="mt-12" />
 

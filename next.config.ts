@@ -2,6 +2,21 @@ import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
+  // 2026-10-12 remap: tag pages whose phrase became a category keyword are retired and 301 to the owning category (no 404s, no cannibalisation).
+  async redirects() {
+    return [
+      { source: '/blog/tag/battery-electric-bicycle', destination: '/electric-bike-batteries/', permanent: true },
+      { source: '/blog/tag/best-e-bikes-australia', destination: '/electric-motor-bikes/best-electric-bikes-australia/', permanent: true },
+      { source: '/blog/tag/charger-for-e-bike', destination: '/accessories/', permanent: true },
+      { source: '/blog/tag/childs-dirt-bike', destination: '/electric-dirt-bikes/kids/', permanent: true },
+      { source: '/blog/tag/dirt-bike-for-kids', destination: '/electric-dirt-bikes/kids/', permanent: true },
+      { source: '/blog/tag/e-bike-battery', destination: '/electric-bike-batteries/', permanent: true },
+      { source: '/blog/tag/e-bike-chargers', destination: '/accessories/', permanent: true },
+      { source: '/blog/tag/e-cycle-battery', destination: '/electric-bike-batteries/', permanent: true },
+      { source: '/blog/tag/fat-tyre-electric-bike', destination: '/electric-fat-tyre-bikes/', permanent: true },
+      { source: '/blog/tag/low-cost-electric-bike', destination: '/electric-bikes/cheap/', permanent: true },
+    ];
+  },
   async headers() {
     return [
       {

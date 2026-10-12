@@ -96,7 +96,7 @@ export default function RtrEbikePage() {
               RTR eBike Australia · Road-Legal Electric Commuter
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              RTR eBike Australia<br />Road-Legal Electric Commuter Range
+              {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               RTR eBike is Australia&apos;s leading commuter electric bike brand, delivering road-legal 250W e-bikes that require no licence, no registration, and no number plate. Ride to work, along shared paths, and through CBD streets with confidence — backed by 12-month Australian warranty from Mittagong NSW.
@@ -132,7 +132,7 @@ export default function RtrEbikePage() {
           />
         </div>
 
-        <KeywordGuide path="/electric-motor-bikes/rtr-ebike/" />
+        <KeywordGuide path="/electric-motor-bikes/rtr-ebike/" faqs />
 
         <RelatedGuides path="/electric-motor-bikes/rtr-ebike/" />
 

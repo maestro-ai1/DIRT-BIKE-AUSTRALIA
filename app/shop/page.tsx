@@ -71,7 +71,7 @@ export default function ShopPage() {
               <span>Australian Authorised Stock</span>
             </div>
             <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
-              Electric Dirt Bikes for Sale in Australia
+              {seo.h1}
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl">
               Buy electric dirt bikes online with free Australia-wide delivery. Sur-Ron, Talaria, Stark Varg, E-Ride Pro, Stealth, and 72V Molicel battery upgrades — all genuine AU stock dispatched from our Southern Highlands NSW 2575 workshop with 12-month factory warranty.

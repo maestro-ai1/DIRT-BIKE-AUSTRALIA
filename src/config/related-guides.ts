@@ -8,6 +8,8 @@ export const RELATED_GUIDES: Record<string, string[]> = {
   '/electric-motor-bikes/e-bike-laws-australia/': ['electric-bike-laws-qld-2026', 'electric-bike-regulations-nsw-2026', 'e-bike-safety-australia-guide'],
   '/electric-motor-bikes/sydney/': ['electric-bike-regulations-nsw-2026', 'e-bike-safety-australia-guide'],
   '/electric-motor-bikes/brisbane/': ['electric-bike-laws-qld-2026', 'e-bike-safety-australia-guide'],
+  '/electric-motor-bikes/gold-coast/': ['electric-bike-laws-qld-2026', 'e-bike-safety-australia-guide'],
+  '/electric-motor-bikes/townsville/': ['electric-bike-laws-qld-2026', 'e-bike-safety-australia-guide'],
   '/electric-bikes/': ['electric-bike-laws-qld-2026', 'electric-bike-regulations-nsw-2026', 'kids-ebike-australia-evo-racing-lil-rippa-compared', 'e-bike-safety-australia-guide'],
   '/electric-bikes/cheap/': ['kids-ebike-australia-evo-racing-lil-rippa-compared', 'electric-bike-laws-qld-2026', 'electric-bike-regulations-nsw-2026'],
   '/electric-fat-tyre-bikes/': ['kids-ebike-australia-evo-racing-lil-rippa-compared', 'e-bike-safety-australia-guide'],

@@ -80,7 +80,7 @@ export default function BrandsPage() {
               Official Partner Brands
             </span>
             <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-3">
-              Electric Bike Brands in Australia: Sur-Ron, Talaria, Stark Varg, E-Ride Pro &amp; More
+              {seo.h1}
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
               Australia&apos;s authorised dealer for the world&apos;s best electric dirt bike brands. Sur-Ron, Talaria, Stark Varg, E-Ride Pro, Stealth, and Super73 — every brand certified for Australian conditions with factory spare parts stocked in Mittagong NSW 2575.
@@ -147,7 +147,7 @@ export default function BrandsPage() {
         </div>
 
 
-        <KeywordGuide path="/brands/" className="mt-12" />
+        <KeywordGuide path="/brands/" faqs className="mt-12" />
 
         <RelatedGuides path="/brands/" className="mt-12" />
 

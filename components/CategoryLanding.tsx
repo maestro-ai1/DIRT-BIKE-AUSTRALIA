@@ -9,6 +9,7 @@ import { ProductPager } from '@/components/ProductPager';
 import { productImageAlt } from '@/lib/productSeo';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { extraFaqs } from '@/src/config/category-sections';
 
 // Shared landing page for keyword categories and city pages. Lists only products that exist in PRODUCTS.
 export interface LandingGroup { id: string; heading: string; blurb: string; slugs: string[]; }
@@ -25,7 +26,8 @@ export interface LandingProps {
   collectionName: string;
 }
 
-export function CategoryLanding({ path, crumbs, eyebrow, h1, intro, chips = [], groups, links = [], faqs, collectionName }: LandingProps) {
+export function CategoryLanding({ path, crumbs, eyebrow, h1, intro, chips = [], groups, links = [], faqs: baseFaqs, collectionName }: LandingProps) {
+  const faqs = [...baseFaqs, ...extraFaqs(path)];
   const resolved = groups.map((g) => ({ ...g, items: g.slugs.map((s) => PRODUCTS.find((p) => p.slug === s)).filter(Boolean) as typeof PRODUCTS }));
   const all = resolved.flatMap((g) => g.items);
   const schemaData = [

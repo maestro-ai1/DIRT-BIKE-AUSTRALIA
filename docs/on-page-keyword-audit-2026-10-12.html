@@ -1,0 +1,4051 @@
+<!doctype html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>On-Page Keyword Audit</title><style>body{font:15px/1.55 system-ui,Segoe UI,sans-serif;max-width:1100px;margin:24px auto;padding:0 20px;color:#1d2330;background:#fff}h1,h2{border-bottom:2px solid #e3e6ec;padding-bottom:6px}h3,h4{margin-top:1.6em}table{border-collapse:collapse;width:100%;font-size:13px;margin:10px 0 18px;display:block;overflow-x:auto}th,td{border:1px solid #d5d9e0;padding:5px 8px;text-align:left;vertical-align:top}th{background:#f2f4f8}tr:nth-child(even) td{background:#fafbfc}code{background:#f0f2f6;padding:1px 4px;border-radius:3px;font-size:12.5px}pre{background:#10151f;color:#d7e0f0;padding:14px;border-radius:8px;overflow-x:auto;font-size:12.5px;line-height:1.35}pre code{background:none;color:inherit}blockquote{border-left:4px solid #f0a020;margin:0;padding:4px 14px;background:#fff8ea}</style><h1>On-Page SEO Keyword Structure Audit &amp; Mapping Report</h1>
+<p><strong>Site:</strong> electricdirtbikeaustralia.com.au · <strong>Audit date:</strong> 12 Oct 2026 · <strong>Crawl:</strong> live site, 347 sitemap URLs · <strong>Keyword source:</strong> the 10 SEMrush AU CSV exports in the project folder</p>
+<blockquote>
+<p>All volumes/KD/intent below come from the SEMrush exports (monthly AU searches). <code>*</code> after an intent = SEMrush gave no label (keyword under ~50 searches/mo), so the intent is inferred from wording. &quot;Not in bank&quot; = the phrase is in none of the CSVs, so no volume is quoted.</p>
+</blockquote>
+<hr>
+<h2>1. Executive Summary &amp; Architecture Overview</h2>
+<h3>1.1 Verdict</h3>
+<p>The keyword hierarchy is <strong>structurally sound and well ahead of most retail sites</strong> (one canonical URL per topic, every product has a title keyword, no duplicate product titles, no noindex or canonical errors). Weaknesses are concentrated in three places: <strong>(a)</strong> high-volume primaries that sit in body copy only, not in a title/H1/H2; <strong>(b)</strong> a cluster of overlapping assignments that split authority between the home, <code>/shop/</code>, <code>/electric-dirt-bikes/</code> and the motorbike/motorcycle pages; <strong>(c)</strong> demand the site has no page for (scooters, Gold Coast, spelling variants, &quot;dirt bicycle&quot;).</p>
+<table>
+<thead>
+<tr>
+<th>Scorecard</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Pages crawled</td>
+<td>347 (1 home, 34 category/brand/guide/utility pages, 153 products, 102 blog posts, 57 blog tag pages)</td>
+</tr>
+<tr>
+<td>Keyword bank</td>
+<td>36,895 unique keywords; 11,899 have volume; 1,139 have 50+ searches and a SEMrush intent label</td>
+</tr>
+<tr>
+<td><strong>Main</strong> keywords (30 mapped pages) in <strong>title AND H1</strong></td>
+<td><strong>7 of 30 (23%)</strong>; 13 in one of the two; <strong>10 in neither</strong></td>
+</tr>
+<tr>
+<td><strong>Primary</strong> keywords (110 mapped) in a title/H1/H2/H3</td>
+<td><strong>63 (57%)</strong> = 117,700 of 150,380 mapped monthly searches; 41 in body only; 6 not on the page at all</td>
+</tr>
+<tr>
+<td>Products with a bank Transactional/Commercial keyword in title and meta</td>
+<td>153 of 153 (100%); in H1: 77 of 153 (50%)</td>
+</tr>
+<tr>
+<td>Bank demand not found anywhere on the site</td>
+<td>Transactional: 44 keywords / 7,270 vol; Commercial: 428 / 80,040; Informational+Navigational: 83 / 12,120</td>
+</tr>
+<tr>
+<td>Titles over 60 characters (likely truncated in Google)</td>
+<td>235 of 347; 32 over 70</td>
+</tr>
+<tr>
+<td>Blog posts under 600 words</td>
+<td>29 of 102</td>
+</tr>
+</tbody></table>
+<h3>1.2 Architecture at a glance</h3>
+<pre><code>HOME  /  main: electric dirt bike for sale (170, KD13, [T])
+│
+├─ /shop/ ........................ buy electric dirt bike (40)           ← 247 words, H1 duplicates /electric-dirt-bikes/
+├─ /electric-dirt-bikes/ ......... electric dirt bikes for sale (110)
+│    ├─ /cheap/ .................. cheap electric dirt bikes (260, [I])
+│    ├─ /kids/ ................... electric dirt bike for kids (320)
+│    └─ /sur-ron/ ................ surron for sale (260, [T])
+├─ /electric-bikes/ .............. electric bikes for sale (1,600, KD36)
+│    └─ /cheap/ .................. cheap electric bikes for sale (110)
+├─ /electric-motor-bikes/ ........ electric motorbikes for sale (210)
+│    ├─ /kids/ /rtr-ebike/ /commuter-mopeds/ /best-electric-bikes-australia/ /e-bike-laws-australia/
+│    └─ /sydney/ /melbourne/ /brisbane/ /perth/   (city pages, topic is &quot;electric bikes&quot;)
+├─ /electric-motorcycles/ ........ electric motorcycle for sale (260)
+├─ /electric-motocross-bikes/  /electric-mini-bikes/  /electric-pit-bikes/  /electric-balance-bikes/  /electric-fat-tyre-bikes/
+├─ /electric-bike-batteries/  /accessories/
+├─ /brands/ → /brands/e-ride-pro/
+├─ /blog/ (102 posts, 57 tag pages)   /faq/   (+ about, contact, returns, shipping, warranty)
+└─ /shop/&lt;product&gt;/ (153)
+</code></pre>
+<h3>1.3 Cannibalisation, funnel gaps and misalignments (summary)</h3>
+<ol>
+<li><strong>Home vs <code>/shop/</code> vs <code>/electric-dirt-bikes/</code></strong> all target &quot;electric dirt bike(s) for sale Australia&quot;. Titles start with the same phrase, <code>/shop/</code> and <code>/electric-dirt-bikes/</code> share an <strong>identical H1</strong>, and &quot;electric dirt bikes&quot; (1,000) is a primary on both.</li>
+<li><strong><code>/electric-motor-bikes/</code> vs <code>/electric-motorcycles/</code></strong> are assigned the same primaries (&quot;electric motorcycle&quot; 1,900 and &quot;electric motorcycle australia&quot; 1,900).</li>
+<li><strong>Two kids pages</strong> (<code>/electric-motor-bikes/kids/</code> and <code>/electric-dirt-bikes/kids/</code>) split the &quot;kids electric dirt bike&quot; family (590 + 110 + 110 + 70 + 70).</li>
+<li><strong>Wrong owner for &quot;e ride pro&quot; (2,900, [N])</strong> in <code>seo.ts</code>: assigned to <code>/faq/</code>, while <code>/brands/e-ride-pro/</code> is the page that ranks for it and has no entry in <code>seo.ts</code>.</li>
+<li><strong>&quot;electric bike laws australia&quot; (210)</strong> is main on three pages in <code>seo.ts</code> (laws page, <code>/blog/</code>, <code>/faq/</code>) and is not present on <code>/blog/</code> or <code>/faq/</code> at all.</li>
+<li><strong>Blog vs category</strong>: 20 of 102 posts carry &quot;electric dirt bike&quot; in the title/H1 (the exact primary of <code>/electric-dirt-bikes/</code> and <code>/blog/</code>); 9 carry &quot;electric dirt bikes&quot;; the kids (9 posts), battery (12), laws (7), cost/price (13) and &quot;best&quot; (7) families each overlap internally.</li>
+<li><strong>Tag pages</strong>: 31 of 57 <code>/blog/tag/</code> titles contain a category keyword (&quot;E Bike Battery&quot;, &quot;Electric Bikes For Sale Australia&quot;, &quot;Best Electric Motorcycle&quot;), so they compete with the category pages for the same query.</li>
+<li><strong>URL tree vs keyword</strong>: city pages, &quot;best electric bikes&quot;, RTR and kids sit under <code>/electric-motor-bikes/</code> while their topic is <em>electric bikes</em>. URLs are frozen (sitemaps submitted), so this is solved with internal links, not moves.</li>
+<li><strong>Funnel gap (Awareness)</strong>: only 16 of 121 informational/navigational bank keywords (50+ searches) appear in a heading anywhere on the site; 83 (12,120 vol) are not on the site.</li>
+<li><strong>No page</strong> for: electric scooters (17 bank keywords, 6,230 vol), Gold Coast (&quot;electric bicycle gold coast&quot; 1,600), &quot;dirt bicycle for sale&quot; (1,900, [T]).</li>
+</ol>
+<hr>
+<h2>2. Keyword Structure &amp; Hierarchy Mapping (per page)</h2>
+<p>Tier rules used: <strong>Main</strong> = the page&#39;s assigned keyword in <code>src/config/seo.ts</code> (Transactional on money pages); <strong>Primary</strong> = the assigned Commercial keywords; <strong>Secondary</strong> = other bank Transactional/Commercial keywords (50+ searches) that belong to the page&#39;s topic (closest token match; <code>[+]</code> on page, <code>[-]</code> missing); <strong>Supporting</strong> = informational/low-volume (under 50) or navigational variants on the topic. Pages with no <code>seo.ts</code> entry are marked (manual).</p>
+<h3><code>/</code></h3>
+<p><em>Title:</em> Electric Dirt Bike for Sale Australia | Best Sur-Ron &amp; Electric Bikes · <em>H1:</em> Electric Dirt Bike Australia: Shop the Best Electric Dirt Bikes for Sale · <em>3748 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric dirt bike for sale (170)</li>
+<li><strong>Primary:</strong> electric dirt bike australia (1,300); electric dirt bikes australia (320); electric dirtbike australia (90)</li>
+<li><strong>Secondary:</strong> [+] dirt bike (12,100); [+] dirt bikes (3,600); [+] dirt bike australia (170); [+] dirt bike cost (110); [+] best electric dirt bikes (50); [-] dirt bikes and (6,600, missing); [-] electric bikes dirt (4,400, missing); [-] e bikes dirt (1,900, missing); [-] moto dirt bikes for sale (1,900, missing); [-] motorcycle dirt bike for sale (1,600, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] are electric dirt bikes legal (20); [+] electric dirt (20); [+] electric dirt bike cost (20); [+] electric dirt bikes for (20); [-] moto dirt bike (2,900, missing); [-] dirt bike 250cc (480, missing); [-] just dirt bikes (260, missing)</li>
+</ul>
+<h3><code>/accessories/</code></h3>
+<p><em>Title:</em> E-Bike Parts, 72V Batteries &amp; Chargers Australia | Buy Online · <em>H1:</em> Electric Dirt Bike Accessories Australia — 72V Batteries, Fast Chargers &amp; Parts · <em>1708 words, 4 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> e bike parts australia (90)</li>
+<li><strong>Primary:</strong> electric bike parts australia (110); ebike battery australia (40); electric dirt bike parts (20)</li>
+<li><strong>Secondary:</strong> [-] ebike australia (1,300, missing); [-] ebike in australia (880, missing); [-] best ebike australia (720, missing); [-] australian ebike (390, missing); [-] australia ebike (210, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] ebike (20); [-] what is the best ebike in australia (30, missing); [-] e dirt bike parts (20, missing); [-] what is the best ebike to buy in australia (20, missing)</li>
+</ul>
+<h3><code>/blog/</code></h3>
+<p><em>Title:</em> Electric Dirt Bike Blog Australia | Guides, Reviews &amp; Riding Tips · <em>H1:</em> Electric Dirt Bike Blog — Guides, Reviews &amp; Riding Tips Australia · <em>4107 words, 102 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bike laws australia (210)</li>
+<li><strong>Primary:</strong> electric dirt bike (6,600); electric bike laws australia (210)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> [-] new electric bike laws (170, missing); [-] electric bicycle law (110, missing); [-] victoria electric bike laws (70, missing)</li>
+</ul>
+<h3><code>/brands/</code></h3>
+<p><em>Title:</em> Electric Bike Brands Australia | Sur-Ron, Talaria, Stark Varg, E-Ride Pro · <em>H1:</em> Electric Bike Brands in Australia: Sur-Ron, Talaria, Stark Varg, E-Ride Pro &amp; More · <em>1242 words, 27 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bike brands australia (90)</li>
+<li><strong>Primary:</strong> electric dirt bike brands (20); e ride pro australia (170)</li>
+<li><strong>Secondary:</strong> [+] electric bike brands (480); [+] e ride pro ss (110); [-] dirt bike brand (110, missing); [-] e ride pro ss australia (50, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] e ride pro ss 2 0 (40); [+] best electric dirt bike brands (20); [+] ride pro ss (20); [+] e ride pro models (10); [-] e ride industries (480, missing); [-] e ride pro aus (40, missing); [-] e ride shop (40, missing)</li>
+</ul>
+<h3><code>/brands/e-ride-pro/</code></h3>
+<p><em>Title:</em> E Ride Pro Australia | E-Ride Pro SS Electric Dirt Bikes for Sale · <em>H1:</em> E-Ride Pro Australia: Electric Dirt Bikes for Sale · <em>1149 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> e ride pro australia (170) (manual)</li>
+<li><strong>Primary:</strong> e ride pro (2,900)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> -</li>
+</ul>
+<h3><code>/electric-balance-bikes/</code></h3>
+<p><em>Title:</em> Electric Balance Bike for Sale Australia | Kids E-Bikes From $749 · <em>H1:</em> Electric Balance Bikes for Kids: For Sale in Australia · <em>1392 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric balance bike for sale (20)</li>
+<li><strong>Primary:</strong> electric balance bike australia (70)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> [+] 12 electric balance bike (20); [-] best electric balance bike (30, missing); [-] best electric balance bike australia (30, missing); [-] electric balance bike 12 inch (30, missing)</li>
+</ul>
+<h3><code>/electric-bike-batteries/</code></h3>
+<p><em>Title:</em> Electric Bike Batteries Australia | 60V-84V Lithium Packs · <em>H1:</em> Electric Bike Batteries Australia: Lithium Packs &amp; Chargers · <em>1136 words, 9 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bike batteries australia (90)</li>
+<li><strong>Primary:</strong> ebike batteries australia (50); lithium bike battery (n/a)</li>
+<li><strong>Secondary:</strong> [-] battery electric bicycle (480, missing); [-] batteries for electric bicycles (390, missing); [-] electric cycle battery (260, missing); [-] battery for a electric bike (170, missing); [-] electric battery for bicycle (140, missing)</li>
+<li><strong>Supporting / LSI:</strong> [-] electric bicycle battery replacement (210, missing); [-] battery bike for kids (30, missing); [-] kids battery bike (30, missing)</li>
+</ul>
+<h3><code>/electric-bikes/</code></h3>
+<p><em>Title:</em> Electric Bikes for Sale Australia | E-Bikes, E-Motos &amp; Mopeds · <em>H1:</em> Electric Bikes for Sale in Australia · <em>1533 words, 9 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bikes for sale (1,600)</li>
+<li><strong>Primary:</strong> electric bike (27,100); e bike (22,200); electric bikes (5,400); electric bike australia (1,900); electric bikes australia (1,900); e bike australia (1,900)</li>
+<li><strong>Secondary:</strong> [+] price e bike (590); [+] electric bike price (480); [+] electric bike cost (320); [+] australian e bike (110); [+] australia electric bike (90); [-] e bike electric (5,400, missing); [-] low cost electric bike (2,900, missing); [-] electric bike melbourne (1,000, missing); [-] e bike battery (1,000, missing); [-] electric motorcycle bikes (720, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] e bike safety australia (70); [+] e bike regulations (50); [+] e bike rules (30); [+] road legal electric bikes (30); [-] childrens electric bikes (480, missing); [-] nsw e bike certification laws (320, missing); [-] fast electric bikes (260, missing)</li>
+</ul>
+<h3><code>/electric-bikes/cheap/</code></h3>
+<p><em>Title:</em> Cheap Electric Bikes for Sale Australia | Affordable E-Bikes &amp; Kids Bikes · <em>H1:</em> Cheap Electric Bikes for Sale in Australia · <em>1394 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> cheap electric bikes for sale (110)</li>
+<li><strong>Primary:</strong> cheap electric bikes (720); cheap electric bikes australia (390); electric bike cheap (320); cheapest electric bike australia (210); cheap e bikes australia (170); electric cheap bikes (2,900)</li>
+<li><strong>Secondary:</strong> [+] e bikes (8,100); [+] e bikes australia (1,600); [-] e bikes melbourne (1,000, missing); [-] e bikes perth (1,000, missing); [-] best e bikes australia (880, missing); [-] cheap electric bikes australia under $500 (720, missing); [-] e bikes in australia (390, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] kids e bikes (40); [+] rules for e bikes (10); [-] laws for e bikes (140, missing); [-] legal e bikes nsw (140, missing); [-] e bikes laws (110, missing)</li>
+</ul>
+<h3><code>/electric-dirt-bikes/</code></h3>
+<p><em>Title:</em> Electric Dirt Bikes for Sale Australia | Off-Road, Trail &amp; Enduro · <em>H1:</em> Electric Dirt Bikes for Sale in Australia · <em>2655 words, 6 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric dirt bikes for sale (110)</li>
+<li><strong>Primary:</strong> electric dirt bike (6,600); electric dirt bikes (1,000); electric dirtbike (1,000); e dirt bike (1,000); electric dirt bike for adults (320); electric off road bike (590)</li>
+<li><strong>Secondary:</strong> [+] adult electric dirt bike (260); [+] off road electric bike (210); [+] dirt bike for adults (90); [-] off road electric bikes (480, missing); [-] e bike off road (320, missing); [-] adult electric bike (320, missing); [-] electric dirt bike adults (210, missing); [-] electric bike for adults australia (210, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] best adult electric dirt bike (20); [+] off road electric dirt bike (20); [+] road electric bike for adults (10); [-] e bike dirt (1,600, missing); [-] kids e dirt bike (40, missing); [-] off road ebike australia (40, missing)</li>
+</ul>
+<h3><code>/electric-dirt-bikes/cheap/</code></h3>
+<p><em>Title:</em> Cheap Electric Dirt Bikes Australia | Prices From $899 · <em>H1:</em> Cheap Electric Dirt Bikes for Sale in Australia · <em>1230 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> cheap electric dirt bikes (260)</li>
+<li><strong>Primary:</strong> cheap electric dirt bike (140); cheap e dirt bike (140); electric dirt bike cheap (90); affordable electric dirt bike (50)</li>
+<li><strong>Secondary:</strong> [+] dirt bike cheap (70); [-] affordable dirt bike (140, missing); [-] electric dirt bike australia cheap (90, missing); [-] cheap dirt bikes for sale under $1000 (70, missing); [-] cheap dirt bikes for sale under 200 (70, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] dirt bikes cheap (30); [+] cheap electric dirt bikes for sale (20); [+] a cheap electric dirt bike (10); [+] cheap electric dirt bikes for kids (10); [-] cheap e bike australia (40, missing); [-] cheap electric dirt bikes for adults (30, missing); [-] e dirt bike cheap (30, missing)</li>
+</ul>
+<h3><code>/electric-dirt-bikes/kids/</code></h3>
+<p><em>Title:</em> Electric Dirt Bike for Kids Australia | Youth Bikes from $899 · <em>H1:</em> Electric Dirt Bikes for Kids: Youth Bikes for Sale in Australia · <em>1383 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric dirt bike for kids (320)</li>
+<li><strong>Primary:</strong> electric dirt bike kids (110); electric kids dirt bike (110); electric dirt bikes for kids (70); kids electric dirtbike (70)</li>
+<li><strong>Secondary:</strong> [+] dirt bikes for kids (320); [+] kids electric bikes (170); [-] kids dirt bikes (260, missing); [-] electric bikes for kids (110, missing); [-] kids electric dirt bikes (50, missing); [-] electric kids bikes (50, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] electric kids (30); [+] best electric dirt bike for kids (20); [+] dirt bike kids electric (10); [-] electric bikes kids (40, missing); [-] kid dirt bikes (30, missing); [-] dirt bikes kids (30, missing)</li>
+</ul>
+<h3><code>/electric-dirt-bikes/sur-ron/</code></h3>
+<p><em>Title:</em> Surron for Sale Australia | Sur-Ron Electric Bike Prices · <em>H1:</em> Surron for Sale in Australia: Sur-Ron Electric Bike Prices · <em>1155 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> surron for sale (260)</li>
+<li><strong>Primary:</strong> sur ron ebike for sale (140); surron electric bike for sale (50); surrons for sale (110)</li>
+<li><strong>Secondary:</strong> [-] sur ron shop near me (90, missing)</li>
+<li><strong>Supporting / LSI:</strong> -</li>
+</ul>
+<h3><code>/electric-fat-tyre-bikes/</code></h3>
+<p><em>Title:</em> Electric Fat Bikes for Sale Australia | Fat Tyre E-Bikes &amp; Beach Cruisers · <em>H1:</em> Electric Fat Bikes &amp; Beach Cruisers for Sale in Australia · <em>1653 words, 9 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> beach cruiser for sale (50)</li>
+<li><strong>Primary:</strong> electric fat bike (720); best fat tyre electric bike australia (320); fat bike australia (210); electric fat tyre bike (210); fat tyre electric bike australia (140); e bike cruiser (390)</li>
+<li><strong>Secondary:</strong> [+] fat tyre electric bike (1,000); [+] fat tyre (320); [+] electric fat tyre bikes (90); [+] fat tyre e bike (50); [-] bicyclette fat bike (260, missing); [-] electric fat bike australia (90, missing); [-] cruiser e bike (90, missing); [-] fat bike tyres australia (90, missing); [-] fat tyre electric bikes australia (70, missing)</li>
+<li><strong>Supporting / LSI:</strong> [-] beach cruiser retro (70, missing); [-] fat tyre folding electric bike australia (40, missing); [-] fat wheel electric bike australia (40, missing)</li>
+</ul>
+<h3><code>/electric-mini-bikes/</code></h3>
+<p><em>Title:</em> Mini Electric Bikes for Sale Australia | Mini E-Bikes &amp; Fat Bikes · <em>H1:</em> Mini Electric Bikes for Sale in Australia · <em>1040 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric mini bikes for sale (20)</li>
+<li><strong>Primary:</strong> mini e bike (1,000); electric mini bike (590); mini electric bike (590); mini ebike (590)</li>
+<li><strong>Secondary:</strong> [+] electric mini bikes (110); [+] mini electric bikes (90); [-] electric mini bike motorcycle (480, missing); [-] bike electric mini (480, missing); [-] electric mini motocross bike (110, missing); [-] mini bike electric (70, missing); [-] mini e bike australia (70, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] mini electric bikes for sale (20); [-] electric mini bike australia (40, missing); [-] mini ebike australia (40, missing); [-] mini ebike for kids (30, missing)</li>
+</ul>
+<h3><code>/electric-motocross-bikes/</code></h3>
+<p><em>Title:</em> Electric Motocross Bikes for Sale Australia | Stark Varg &amp; Sur-Ron · <em>H1:</em> Electric Motocross Bike &amp; Motorcycle for Sale in Australia · <em>1060 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric motocross bike for sale (20)</li>
+<li><strong>Primary:</strong> electric motocross motorcycle (880); electric motocross bike (720); e motocross bike (260); electric mx bike (90)</li>
+<li><strong>Secondary:</strong> [+] motocross bike (320); [-] electric motocross bicycle (260, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] motocross bike for sale (30); [+] electric motocross (20); [+] motocross electric (20); [-] electric ktm motocross bike (170, missing); [-] childs electric motocross bike (30, missing); [-] motocross bike electric (30, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/</code></h3>
+<p><em>Title:</em> Electric Motorbikes for Sale Australia | Dirt, Commuter &amp; Kids · <em>H1:</em> Electric Motorbikes &amp; Motorcycles for Sale in Australia · <em>1483 words, 6 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric motorbikes for sale (210)</li>
+<li><strong>Primary:</strong> electric motorbike (6,600); electric motorbike australia (1,300); electric motorcycle (1,900); electric motorcycle australia (1,900); electric motor bike (1,000); electric motor bikes (1,000)</li>
+<li><strong>Secondary:</strong> [+] electric motorbikes (1,000); [+] kids electric motorbikes (170); [-] electric motor scooter australia (720, missing); [-] childrens electric motor bike (590, missing); [-] electric motorbikes australia (480, missing); [-] australia electric motorcycle (390, missing); [-] electric motor scooters australia (390, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] australian electric motorcycle (1,300); [+] electric enduro motorcycle (30); [+] electric motorbikes for sale in australia (20); [+] top electric motor bikes (10); [-] electric motor ebike (170, missing); [-] electric sportbike motorcycle (70, missing); [-] offroad electric motorbike (40, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/best-electric-bikes-australia/</code></h3>
+<p><em>Title:</em> Best Electric Bikes Australia 2026 — Top 10 Expert Ranked | EDBA · <em>H1:</em> Best Electric Bikes Australia 2026 — Expert Buyer&#39;s Guide · <em>1276 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> buy electric bike australia (90)</li>
+<li><strong>Primary:</strong> best electric bike australia (1,300); best electric bikes australia (590)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> -</li>
+</ul>
+<h3><code>/electric-motor-bikes/brisbane/</code></h3>
+<p><em>Title:</em> E Bikes Brisbane | Electric Bikes for Sale Brisbane, QLD Delivery · <em>H1:</em> E Bikes Brisbane: Electric Bikes for Sale with Delivery to QLD · <em>1035 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bikes for sale brisbane (90)</li>
+<li><strong>Primary:</strong> e bikes brisbane (1,300); electric motorbike brisbane (90)</li>
+<li><strong>Secondary:</strong> [-] electric scooter brisbane (880, missing); [-] used electric bikes brisbane (90, missing); [-] e bikes for sale brisbane (70, missing); [-] electric bikes brisbane milton (50, missing)</li>
+<li><strong>Supporting / LSI:</strong> [-] electric bicycle brisbane (590, missing); [-] e scooter shops brisbane (40, missing); [-] electric bicycles brisbane (40, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/commuter-mopeds/</code></h3>
+<p><em>Title:</em> Electric Moped Australia | Road-Legal, LAMS Approved Mopeds for Sale · <em>H1:</em> Electric Moped Australia: Mopeds &amp; Commuter E-Bikes for Sale · <em>1103 words, 6 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> moped prices (70)</li>
+<li><strong>Primary:</strong> electric moped australia (1,000); electric motorcycle moped (1,000); electric moped bike (390); electric mopeds australia (110)</li>
+<li><strong>Secondary:</strong> [-] electric moped bicycle (140, missing); [-] best electric moped australia (110, missing); [-] cheap electric mopeds (90, missing); [-] electric mopeds cheap (90, missing); [-] electric moped cycle (70, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] electric moped road legal (40); [-] motorcycle scooter moped (140, missing); [-] buy moped (40, missing); [-] electric moped law (40, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/e-bike-laws-australia/</code></h3>
+<p><em>Title:</em> Electric Bike Laws Australia 2026 | Are Electric Dirt Bikes Legal? · <em>H1:</em> Are E-Bikes Legal in Australia? NSW, VIC, QLD &amp; WA Laws 2026 · <em>1412 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bike laws australia (210)</li>
+<li><strong>Primary:</strong> electric bike laws australia (210); electric bike laws qld (880); electric bike regulations nsw (480)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> [+] electric bike regulations (70); [-] e bike regulations nsw (260, missing); [-] legal electric bike nsw (70, missing); [-] electric bike legal nsw (50, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/kids/</code></h3>
+<p><em>Title:</em> Kids Electric Bike &amp; Childrens Electric Dirt Bike for Sale Australia · <em>H1:</em> Kids Electric Bikes &amp; Childrens Electric Dirt Bikes for Sale in Australia · <em>1509 words, 6 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> kids dirt bike for sale (20)</li>
+<li><strong>Primary:</strong> kids electric bike (4,400); childs electric motorcycle (2,400); childrens electric dirt bike (1,300); kids electric motorbike (1,300); childrens electric motorbike (1,300); children electric bike (1,000); kids electric dirt bike (590)</li>
+<li><strong>Secondary:</strong> [-] childrens dirt bike (1,000, missing); [-] dirt bike for kids (720, missing); [-] electric motorbike kids (590, missing); [-] electric bike kids (590, missing); [-] electric kids bike (480, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] childrens electric (20); [-] kids petrol dirt bike (40, missing); [-] childrens electric mountain bike (40, missing); [-] kids e motorbike (40, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/melbourne/</code></h3>
+<p><em>Title:</em> Electric Bikes Melbourne | Electric Bikes for Sale Melbourne, VIC · <em>H1:</em> Electric Bikes Melbourne: For Sale with Fast Delivery to VIC · <em>1067 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bikes for sale melbourne (170)</li>
+<li><strong>Primary:</strong> electric bikes melbourne (1,900); electric moped melbourne (1,300); electric motorbike melbourne (50)</li>
+<li><strong>Secondary:</strong> [+] melbourne electric bikes (880); [-] electric scooter melbourne (1,300, missing); [-] electric bicycle melbourne (1,000, missing); [-] electric bikes melbourne australia (720, missing); [-] melbourne electric bicycles (590, missing); [-] electric bikes melbourne victoria (390, missing)</li>
+<li><strong>Supporting / LSI:</strong> [-] electric bicycle shop melbourne (40, missing); [-] hybrid bikes melbourne (40, missing); [-] electric scooters for sale melbourne (30, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/perth/</code></h3>
+<p><em>Title:</em> Electric Bikes Perth | Electric Bikes for Sale Perth, WA Delivery · <em>H1:</em> Electric Bikes Perth: For Sale with Delivery to WA · <em>1012 words, 6 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric bikes for sale perth (140)</li>
+<li><strong>Primary:</strong> electric bikes perth (1,900); electric moped perth (590); electric motorbike perth (170)</li>
+<li><strong>Secondary:</strong> [+] electric bicycle perth (720); [-] quad bikes perth (480, missing); [-] electric bikes perth australia (390, missing); [-] best electric bikes perth (110, missing); [-] electric scooters for sale perth (70, missing)</li>
+<li><strong>Supporting / LSI:</strong> [-] chinese quad bikes perth (20, missing); [-] farm quad bikes perth (20, missing); [-] perth pit bikes review (20, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/rtr-ebike/</code></h3>
+<p><em>Title:</em> RTR eBike for Sale Australia | Buy RTR E Bike Online, No Licence · <em>H1:</em> RTR eBike Australia Road-Legal Electric Commuter Range · <em>1120 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> rtr ebike for sale (n/a)</li>
+<li><strong>Primary:</strong> rtr e bike (1,600); rtr ebike (880); rtr electric bike (320); rtr bike (320)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> [-] rtr dirt bike for sale (10, missing); [-] rtr dirt bike price (10, missing)</li>
+</ul>
+<h3><code>/electric-motor-bikes/sydney/</code></h3>
+<p><em>Title:</em> E Bikes for Sale Sydney | Electric Bikes Sydney &amp; Ebike Delivery · <em>H1:</em> Electric Bikes Sydney: E Bikes and Ebikes for Sale · <em>1059 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> e bikes for sale sydney (110)</li>
+<li><strong>Primary:</strong> ebike sydney (1,600); electric bikes sydney (880); ebikes sydney (480); e bikes sydney (390)</li>
+<li><strong>Secondary:</strong> [+] ebikes (8,100); [-] ebikes australia (1,000, missing); [-] best ebikes australia (480, missing); [-] sydney ebikes (320, missing); [-] electric cycles sydney (210, missing); [-] electric bikes for sale sydney (70, missing)</li>
+<li><strong>Supporting / LSI:</strong> [-] ebike 101 sydney (260, missing); [-] best electric bikes sydney (40, missing); [-] australia ebikes (30, missing)</li>
+</ul>
+<h3><code>/electric-motorcycles/</code></h3>
+<p><em>Title:</em> Electric Motorcycles for Sale Australia | Road-Legal &amp; Off-Road · <em>H1:</em> Electric Motorcycles for Sale in Australia · <em>1071 words, 8 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric motorcycle for sale (260)</li>
+<li><strong>Primary:</strong> electric motorcycle (1,900); electric motorcycle australia (1,900); electric motorcycles australia (590); electric motorcycles (720); e motorcycle (880)</li>
+<li><strong>Secondary:</strong> [+] electric motorcycles and scooters (480); [+] electric motorcycles for sale (90); [+] best electric motorcycles (70); [-] motorcycle e (1,000, missing); [-] children s electric motorcycles (260, missing); [-] e motorcycle australia (210, missing); [-] electric motorcycles for adults (170, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] australian electric motorcycles (20); [+] electric motorcycles for sale in australia (20); [+] electric motorcycles in australia (20); [+] are electric motorcycles (10); [-] good electric motorcycles (30, missing); [-] production electric motorcycles (30, missing); [-] are electric motorcycles worth it (20, missing)</li>
+</ul>
+<h3><code>/electric-pit-bikes/</code></h3>
+<p><em>Title:</em> Electric Pit Bike for Sale Australia | Ebox, Dragster &amp; ETM · <em>H1:</em> Electric Pit Bikes for Sale in Australia · <em>1278 words, 7 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> electric pit bike for sale (20)</li>
+<li><strong>Primary:</strong> electric pit bike (720); electric pit bikes (110); e pit bike (110); fast electric pit bike (110); electric pit bike australia (90)</li>
+<li><strong>Secondary:</strong> [+] pit bikes australia (210); [+] pit bike australia (110); [-] pit bikes au (170, missing); [-] fast bike electric (90, missing)</li>
+<li><strong>Supporting / LSI:</strong> [+] pit bike electric (30); [+] electric pit bikes for sale (10); [+] pit bikes electric (10); [-] electric pit bike for adults (40, missing); [-] eletric pit bike (40, missing); [-] fast electric bike australia (30, missing)</li>
+</ul>
+<h3><code>/faq/</code></h3>
+<p><em>Title:</em> Electric Dirt Bike FAQ Australia | E-Ride Pro, Laws, Price &amp; Delivery · <em>H1:</em> Electric Dirt Bike FAQ Australia: Frequently Asked Questions · <em>1536 words, 23 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> e ride pro (2,900)</li>
+<li><strong>Primary:</strong> brisbane electric bikes (480); electric bikes in brisbane (210); electric bike laws australia (210)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> -</li>
+</ul>
+<h3><code>/shop/</code></h3>
+<p><em>Title:</em> Electric Dirt Bikes for Sale Australia | Shop All Models, Free Freight · <em>H1:</em> Electric Dirt Bikes for Sale in Australia · <em>247 words, 3 H2s</em></p>
+<ul>
+<li><strong>Main:</strong> buy electric dirt bike (40)</li>
+<li><strong>Primary:</strong> electric dirt bikes (1,000); electric dirt bikes australia (320)</li>
+<li><strong>Secondary:</strong> -</li>
+<li><strong>Supporting / LSI:</strong> -</li>
+</ul>
+<p>Pages with no mapped keywords (utility): <code>/about/</code>, <code>/contact/</code>, <code>/returns-policy/</code>, <code>/shipping-and-delivery/</code>, <code>/warranty-and-service/</code>. Keep them out of the keyword plan; they correctly carry brand/trust terms only.</p>
+<hr>
+<h2>3. Detailed Audit Table</h2>
+<p>Alignment key: <strong>Yes</strong> = keyword is in a title, H1 or H2/H3 and the intent fits the page; <strong>Needs Optimization</strong> = only in meta/body, in title or H1 but not both (Main), or assigned to more than one page; <strong>No</strong> = not on the page. Bracket shows where it was found. Full data (same rows) in <code>on-page-keyword-audit-2026-10-12.csv</code>.</p>
+<h4><code>/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric dirt bike for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">170</td>
+<td align="right">13</td>
+<td>Needs Optimization (title + meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">17</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bikes australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">37</td>
+<td>No (not on page); also assigned to /shop/</td>
+</tr>
+<tr>
+<td>electric dirtbike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">12</td>
+<td>No (not on page)</td>
+</tr>
+<tr>
+<td>dirt bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">12,100</td>
+<td align="right">30</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>dirt bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">3,600</td>
+<td align="right">27</td>
+<td>Yes (H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>dirt bike australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">33</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>dirt bike cost</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">21</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>best electric dirt bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">14</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>dirt bikes and</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">6,600</td>
+<td align="right">30</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bikes dirt</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">4,400</td>
+<td align="right">17</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e bikes dirt</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">14</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>moto dirt bikes for sale</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">1,900</td>
+<td align="right">28</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>motorcycle dirt bike for sale</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">1,600</td>
+<td align="right">15</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>are electric dirt bikes legal</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bike cost</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bikes for</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>moto dirt bike</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">2,900</td>
+<td align="right">28</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>dirt bike 250cc</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">480</td>
+<td align="right">20</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>just dirt bikes</td>
+<td>Supporting</td>
+<td>[N] Navigational</td>
+<td align="right">260</td>
+<td align="right">24</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/accessories/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>e bike parts australia</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">90</td>
+<td align="right">5</td>
+<td>Needs Optimization (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric bike parts australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">5</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>ebike battery australia</td>
+<td>Primary</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric dirt bike parts</td>
+<td>Primary</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (meta + body)</td>
+</tr>
+<tr>
+<td>ebike australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">30</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>ebike in australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">37</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>best ebike australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">9</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>australian ebike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">27</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>australia ebike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">29</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>ebike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>what is the best ebike in australia</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>e dirt bike parts</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>what is the best ebike to buy in australia</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/blog/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bike laws australia</td>
+<td>Main</td>
+<td>[I] Informational</td>
+<td align="right">210</td>
+<td align="right">23</td>
+<td>No (not on page); also assigned to /electric-motor-bikes/e-bike-laws-australia/, /electric-motor-bikes/e-bike-laws-australia/, /faq/</td>
+</tr>
+<tr>
+<td>electric dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">6,600</td>
+<td align="right">19</td>
+<td>Needs Optimization (title + meta + H1 + H2/H3 + body); also assigned to /electric-dirt-bikes/</td>
+</tr>
+<tr>
+<td>electric bike laws australia</td>
+<td>Primary</td>
+<td>[I] Informational</td>
+<td align="right">210</td>
+<td align="right">23</td>
+<td>No (not on page); also assigned to /electric-motor-bikes/e-bike-laws-australia/, /electric-motor-bikes/e-bike-laws-australia/, /faq/</td>
+</tr>
+<tr>
+<td>new electric bike laws</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">170</td>
+<td align="right">25</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>electric bicycle law</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">110</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>victoria electric bike laws</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">70</td>
+<td align="right">17</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/brands/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bike brands australia</td>
+<td>Main</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">13</td>
+<td>Needs Optimization (title + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bike brands</td>
+<td>Primary</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e ride pro australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">10</td>
+<td>Needs Optimization (H2/H3 + body); also assigned to /brands/e-ride-pro/</td>
+</tr>
+<tr>
+<td>electric bike brands</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">31</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e ride pro ss</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">14</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>dirt bike brand</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">18</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e ride pro ss australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">6</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e ride pro ss 2 0</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>best electric dirt bike brands</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>ride pro ss</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e ride pro models</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e ride industries</td>
+<td>Supporting</td>
+<td>[N] Navigational</td>
+<td align="right">480</td>
+<td align="right">22</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>e ride pro aus</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>e ride shop</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/brands/e-ride-pro/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>e ride pro australia</td>
+<td>Main</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">10</td>
+<td>Needs Optimization (title + meta + H1 + H2/H3 + body); also assigned to /brands/</td>
+</tr>
+<tr>
+<td>e ride pro</td>
+<td>Primary</td>
+<td>[N] Navigational</td>
+<td align="right">2,900</td>
+<td align="right">17</td>
+<td>Needs Optimization (title + meta + H1 + H2/H3 + body); also assigned to /faq/</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-balance-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric balance bike for sale</td>
+<td>Main</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (title + meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric balance bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">5</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>12 electric balance bike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>best electric balance bike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>best electric balance bike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>electric balance bike 12 inch</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-bike-batteries/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bike batteries australia</td>
+<td>Main</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">8</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>ebike batteries australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">6</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>lithium bike battery</td>
+<td>Primary</td>
+<td>[C] Commercial*</td>
+<td align="right">n/a</td>
+<td align="right">n/a</td>
+<td>Yes (not in bank; H2/H3 + body)</td>
+</tr>
+<tr>
+<td>battery electric bicycle</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">17</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>batteries for electric bicycles</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">10</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric cycle battery</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">260</td>
+<td align="right">7</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>battery for a electric bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">12</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric battery for bicycle</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">140</td>
+<td align="right">6</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bicycle battery replacement</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">210</td>
+<td align="right">8</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>battery bike for kids</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>kids battery bike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bikes for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">1,600</td>
+<td align="right">36</td>
+<td>Yes (title + H1 + body)</td>
+</tr>
+<tr>
+<td>electric bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">27,100</td>
+<td align="right">35</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">22,200</td>
+<td align="right">29</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric bikes</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">5,400</td>
+<td align="right">29</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">39</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric bikes australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">28</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">45</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>price e bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">25</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric bike price</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">480</td>
+<td align="right">30</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric bike cost</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">27</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>australian e bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">24</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>australia electric bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">37</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bike electric</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">5,400</td>
+<td align="right">46</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>low cost electric bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">2,900</td>
+<td align="right">25</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bike melbourne</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">46</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e bike battery</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">10</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric motorcycle bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">24</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e bike safety australia</td>
+<td>Supporting</td>
+<td>[N] Navigational</td>
+<td align="right">70</td>
+<td align="right">15</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bike regulations</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">50</td>
+<td align="right">34</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bike rules</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>road legal electric bikes</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>childrens electric bikes</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">480</td>
+<td align="right">16</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>nsw e bike certification laws</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">320</td>
+<td align="right">20</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>fast electric bikes</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">260</td>
+<td align="right">14</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-bikes/cheap/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>cheap electric bikes for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">110</td>
+<td align="right">19</td>
+<td>Yes (title + H1 + body)</td>
+</tr>
+<tr>
+<td>cheap electric bikes</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">28</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>cheap electric bikes australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">25</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric bike cheap</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">16</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>cheapest electric bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">24</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>cheap e bikes australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">15</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric cheap bikes</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">2,900</td>
+<td align="right">20</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">8,100</td>
+<td align="right">32</td>
+<td>Yes (title + meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e bikes australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,600</td>
+<td align="right">38</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bikes melbourne</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">25</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e bikes perth</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">17</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>best e bikes australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">8</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>cheap electric bikes australia under $500</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">23</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e bikes in australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">30</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>kids e bikes</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>rules for e bikes</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>laws for e bikes</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">140</td>
+<td align="right">29</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>legal e bikes nsw</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">140</td>
+<td align="right">14</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>e bikes laws</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">110</td>
+<td align="right">38</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-dirt-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric dirt bikes for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">110</td>
+<td align="right">11</td>
+<td>Yes (title + meta + H1 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">6,600</td>
+<td align="right">19</td>
+<td>Needs Optimization (H2/H3 + body); also assigned to /blog/</td>
+</tr>
+<tr>
+<td>electric dirt bikes</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">19</td>
+<td>Needs Optimization (title + meta + H1 + H2/H3 + body); also assigned to /shop/</td>
+</tr>
+<tr>
+<td>electric dirtbike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">23</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">11</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric dirt bike for adults</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">14</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric off road bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">11</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>adult electric dirt bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">260</td>
+<td align="right">14</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>off road electric bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">6</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>dirt bike for adults</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">20</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>off road electric bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">5</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e bike off road</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">6</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>adult electric bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">17</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric dirt bike adults</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">11</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bike for adults australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">30</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>best adult electric dirt bike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>off road electric dirt bike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>road electric bike for adults</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bike dirt</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">1,600</td>
+<td align="right">12</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>kids e dirt bike</td>
+<td>Supporting</td>
+<td>[C] Commercial</td>
+<td align="right">40</td>
+<td align="right">4</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>off road ebike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-dirt-bikes/cheap/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>cheap electric dirt bikes</td>
+<td>Main</td>
+<td>[I] Informational</td>
+<td align="right">260</td>
+<td align="right">13</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>cheap electric dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">140</td>
+<td align="right">14</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>cheap e dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">140</td>
+<td align="right">14</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bike cheap</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">13</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>affordable electric dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">17</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>dirt bike cheap</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">23</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>affordable dirt bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">140</td>
+<td align="right">23</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric dirt bike australia cheap</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">10</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>cheap dirt bikes for sale under $1000</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">70</td>
+<td align="right">10</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>cheap dirt bikes for sale under 200</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">70</td>
+<td align="right">19</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>dirt bikes cheap</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>cheap electric dirt bikes for sale</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>a cheap electric dirt bike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>cheap electric dirt bikes for kids</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>cheap e bike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>cheap electric dirt bikes for adults</td>
+<td>Supporting</td>
+<td>[C] Commercial</td>
+<td align="right">30</td>
+<td align="right">11</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>e dirt bike cheap</td>
+<td>Supporting</td>
+<td>[C] Commercial</td>
+<td align="right">30</td>
+<td align="right">9</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-dirt-bikes/kids/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric dirt bike for kids</td>
+<td>Main</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">18</td>
+<td>Needs Optimization (title + meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bike kids</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">13</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric kids dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">13</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric dirt bikes for kids</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">11</td>
+<td>Yes (H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>kids electric dirtbike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">16</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>dirt bikes for kids</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">21</td>
+<td>Yes (H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>kids electric bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">8</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>kids dirt bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">260</td>
+<td align="right">24</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bikes for kids</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">9</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>kids electric dirt bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">12</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric kids bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">9</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric kids</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>best electric dirt bike for kids</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>dirt bike kids electric</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric bikes kids</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>kid dirt bikes</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>dirt bikes kids</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-dirt-bikes/sur-ron/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>surron for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">260</td>
+<td align="right">14</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>sur ron ebike for sale</td>
+<td>Primary</td>
+<td>[T] Transactional</td>
+<td align="right">140</td>
+<td align="right">8</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>surron electric bike for sale</td>
+<td>Primary</td>
+<td>[T] Transactional</td>
+<td align="right">50</td>
+<td align="right">9</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>surrons for sale</td>
+<td>Primary</td>
+<td>[T] Transactional</td>
+<td align="right">110</td>
+<td align="right">17</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>sur ron shop near me</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">90</td>
+<td align="right">36</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-fat-tyre-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>beach cruiser for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">50</td>
+<td align="right">13</td>
+<td>Needs Optimization (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric fat bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">9</td>
+<td>Yes (meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>best fat tyre electric bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">18</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>fat bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">14</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric fat tyre bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">10</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>fat tyre electric bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">140</td>
+<td align="right">16</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e bike cruiser</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">12</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>fat tyre electric bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">16</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>fat tyre</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">6</td>
+<td>Yes (title + meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric fat tyre bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">18</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>fat tyre e bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">15</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>bicyclette fat bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">260</td>
+<td align="right">12</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric fat bike australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">14</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>cruiser e bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">6</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>fat bike tyres australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">6</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>fat tyre electric bikes australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">13</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>beach cruiser retro</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">70</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>fat tyre folding electric bike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>fat wheel electric bike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-mini-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric mini bikes for sale</td>
+<td>Main</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>mini e bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">15</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric mini bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">17</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>mini electric bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">20</td>
+<td>Yes (meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>mini ebike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">17</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric mini bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">16</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>mini electric bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">14</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric mini bike motorcycle</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">15</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>bike electric mini</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">20</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric mini motocross bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">16</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>mini bike electric</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">13</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>mini e bike australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">0</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>mini electric bikes for sale</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (title + H1 + body)</td>
+</tr>
+<tr>
+<td>electric mini bike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>mini ebike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>mini ebike for kids</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motocross-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric motocross bike for sale</td>
+<td>Main</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motocross motorcycle</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">14</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motocross bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">17</td>
+<td>Yes (meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e motocross bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">260</td>
+<td align="right">17</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric mx bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">17</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>motocross bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">29</td>
+<td>Yes (meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motocross bicycle</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">260</td>
+<td align="right">27</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>motocross bike for sale</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motocross</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>motocross electric</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric ktm motocross bike</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">170</td>
+<td align="right">12</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>childs electric motocross bike</td>
+<td>Supporting</td>
+<td>[C] Commercial</td>
+<td align="right">30</td>
+<td align="right">7</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>motocross bike electric</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric motorbikes for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">210</td>
+<td align="right">17</td>
+<td>Needs Optimization (title + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorbike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">6,600</td>
+<td align="right">20</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motorbike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">26</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motorcycle</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">22</td>
+<td>Needs Optimization (body); also assigned to /electric-motorcycles/</td>
+</tr>
+<tr>
+<td>electric motorcycle australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">26</td>
+<td>Needs Optimization (body); also assigned to /electric-motorcycles/</td>
+</tr>
+<tr>
+<td>electric motor bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">19</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motor bikes</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">23</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorbikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">32</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>kids electric motorbikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">17</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motor scooter australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">31</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>childrens electric motor bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">15</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric motorbikes australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">26</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>australia electric motorcycle</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">17</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric motor scooters australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">35</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>australian electric motorcycle</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">1,300</td>
+<td align="right">17</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric enduro motorcycle</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motorbikes for sale in australia</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>top electric motor bikes</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motor ebike</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">170</td>
+<td align="right">25</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>electric sportbike motorcycle</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">70</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>offroad electric motorbike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/best-electric-bikes-australia/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>buy electric bike australia</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">90</td>
+<td align="right">33</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>best electric bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">12</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>best electric bikes australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">9</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/brisbane/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bikes for sale brisbane</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">90</td>
+<td align="right">21</td>
+<td>Needs Optimization (title + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e bikes brisbane</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">37</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorbike brisbane</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">16</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric scooter brisbane</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">18</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>used electric bikes brisbane</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">16</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e bikes for sale brisbane</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">70</td>
+<td align="right">8</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bikes brisbane milton</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">50</td>
+<td align="right">18</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bicycle brisbane</td>
+<td>Supporting</td>
+<td>[N] Navigational</td>
+<td align="right">590</td>
+<td align="right">32</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>e scooter shops brisbane</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>electric bicycles brisbane</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/commuter-mopeds/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>moped prices</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">70</td>
+<td align="right">18</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric moped australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">31</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorcycle moped</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">17</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric moped bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">12</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric mopeds australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">36</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric moped bicycle</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">140</td>
+<td align="right">6</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>best electric moped australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">16</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>cheap electric mopeds</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">0</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric mopeds cheap</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">9</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric moped cycle</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">14</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric moped road legal</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>motorcycle scooter moped</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">140</td>
+<td align="right">17</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>buy moped</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>electric moped law</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/e-bike-laws-australia/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bike laws australia</td>
+<td>Main</td>
+<td>[I] Informational</td>
+<td align="right">210</td>
+<td align="right">23</td>
+<td>Needs Optimization (title + H2/H3 + body); also assigned to /blog/, /blog/, /faq/</td>
+</tr>
+<tr>
+<td>electric bike laws australia</td>
+<td>Primary</td>
+<td>[I] Informational</td>
+<td align="right">210</td>
+<td align="right">23</td>
+<td>Needs Optimization (title + H2/H3 + body); also assigned to /blog/, /blog/, /faq/</td>
+</tr>
+<tr>
+<td>electric bike laws qld</td>
+<td>Primary</td>
+<td>[I] Informational</td>
+<td align="right">880</td>
+<td align="right">28</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric bike regulations nsw</td>
+<td>Primary</td>
+<td>[I] Informational</td>
+<td align="right">480</td>
+<td align="right">22</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric bike regulations</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">70</td>
+<td align="right">28</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bike regulations nsw</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">260</td>
+<td align="right">22</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>legal electric bike nsw</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">70</td>
+<td align="right">15</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>electric bike legal nsw</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">50</td>
+<td align="right">31</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/kids/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>kids dirt bike for sale</td>
+<td>Main</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>kids electric bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">4,400</td>
+<td align="right">16</td>
+<td>Yes (title + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>childs electric motorcycle</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">2,400</td>
+<td align="right">15</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>childrens electric dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">14</td>
+<td>Yes (title + body)</td>
+</tr>
+<tr>
+<td>kids electric motorbike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">17</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>childrens electric motorbike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">20</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>children electric bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">13</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>kids electric dirt bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">15</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>childrens dirt bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">24</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>dirt bike for kids</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">22</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric motorbike kids</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">17</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bike kids</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">12</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric kids bike</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">16</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>childrens electric</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (title + meta + H1 + body)</td>
+</tr>
+<tr>
+<td>kids petrol dirt bike</td>
+<td>Supporting</td>
+<td>[C] Commercial</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>childrens electric mountain bike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>kids e motorbike</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/melbourne/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bikes for sale melbourne</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">170</td>
+<td align="right">13</td>
+<td>Needs Optimization (title + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric bikes melbourne</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">24</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric moped melbourne</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">23</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorbike melbourne</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">50</td>
+<td align="right">30</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>melbourne electric bikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">26</td>
+<td>Yes (title + body)</td>
+</tr>
+<tr>
+<td>electric scooter melbourne</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,300</td>
+<td align="right">28</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bicycle melbourne</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">26</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bikes melbourne australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">55</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>melbourne electric bicycles</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">28</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bikes melbourne victoria</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">38</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bicycle shop melbourne</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>hybrid bikes melbourne</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>electric scooters for sale melbourne</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/perth/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric bikes for sale perth</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">140</td>
+<td align="right">12</td>
+<td>Needs Optimization (title + body)</td>
+</tr>
+<tr>
+<td>electric bikes perth</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">23</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric moped perth</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">25</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motorbike perth</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">14</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric bicycle perth</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">16</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>quad bikes perth</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">20</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bikes perth australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">16</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>best electric bikes perth</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">13</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric scooters for sale perth</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">70</td>
+<td align="right">9</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>chinese quad bikes perth</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>farm quad bikes perth</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>perth pit bikes review</td>
+<td>Supporting</td>
+<td>[I] Informational*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/rtr-ebike/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>rtr ebike for sale</td>
+<td>Main</td>
+<td>[T] Transactional*</td>
+<td align="right">n/a</td>
+<td align="right">n/a</td>
+<td>Needs Optimization (not in bank; title + body)</td>
+</tr>
+<tr>
+<td>rtr e bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,600</td>
+<td align="right">7</td>
+<td>Yes (title + meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>rtr ebike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">7</td>
+<td>Yes (title + meta + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>rtr electric bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">17</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>rtr bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">5</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>rtr dirt bike for sale</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>rtr dirt bike price</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motor-bikes/sydney/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>e bikes for sale sydney</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">110</td>
+<td align="right">19</td>
+<td>Needs Optimization (title + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>ebike sydney</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,600</td>
+<td align="right">26</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric bikes sydney</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">32</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>ebikes sydney</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">39</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>e bikes sydney</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">390</td>
+<td align="right">32</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>ebikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">8,100</td>
+<td align="right">45</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>ebikes australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">29</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>best ebikes australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">8</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>sydney ebikes</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">53</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric cycles sydney</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">50</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric bikes for sale sydney</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">70</td>
+<td align="right">28</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>ebike 101 sydney</td>
+<td>Supporting</td>
+<td>[I] Informational</td>
+<td align="right">260</td>
+<td align="right">14</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>best electric bikes sydney</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">40</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>australia ebikes</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-motorcycles/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric motorcycle for sale</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">260</td>
+<td align="right">20</td>
+<td>Needs Optimization (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorcycle</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">22</td>
+<td>Needs Optimization (meta + H2/H3 + body); also assigned to /electric-motor-bikes/</td>
+</tr>
+<tr>
+<td>electric motorcycle australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,900</td>
+<td align="right">26</td>
+<td>Needs Optimization (body); also assigned to /electric-motor-bikes/</td>
+</tr>
+<tr>
+<td>electric motorcycles australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">590</td>
+<td align="right">37</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorcycles</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">27</td>
+<td>Yes (title + H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e motorcycle</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">880</td>
+<td align="right">24</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motorcycles and scooters</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">480</td>
+<td align="right">18</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric motorcycles for sale</td>
+<td>Secondary</td>
+<td>[T] Transactional</td>
+<td align="right">90</td>
+<td align="right">23</td>
+<td>Yes (title + H1 + body)</td>
+</tr>
+<tr>
+<td>best electric motorcycles</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">70</td>
+<td align="right">22</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>motorcycle e</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">28</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>children s electric motorcycles</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">260</td>
+<td align="right">18</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>e motorcycle australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">33</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>electric motorcycles for adults</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">17</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>australian electric motorcycles</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric motorcycles for sale in australia</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>electric motorcycles in australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>are electric motorcycles</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>good electric motorcycles</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>production electric motorcycles</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>are electric motorcycles worth it</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/electric-pit-bikes/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>electric pit bike for sale</td>
+<td>Main</td>
+<td>[T] Transactional*</td>
+<td align="right">20</td>
+<td align="right">0</td>
+<td>Needs Optimization (title + meta + body)</td>
+</tr>
+<tr>
+<td>electric pit bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">720</td>
+<td align="right">16</td>
+<td>Yes (title + meta + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric pit bikes</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">17</td>
+<td>Yes (H1 + H2/H3 + body)</td>
+</tr>
+<tr>
+<td>e pit bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">13</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>fast electric pit bike</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">16</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>electric pit bike australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">19</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>pit bikes australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">210</td>
+<td align="right">24</td>
+<td>Yes (H2/H3 + body)</td>
+</tr>
+<tr>
+<td>pit bike australia</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">110</td>
+<td align="right">30</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>pit bikes au</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">170</td>
+<td align="right">19</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>fast bike electric</td>
+<td>Secondary</td>
+<td>[C] Commercial</td>
+<td align="right">90</td>
+<td align="right">0</td>
+<td>No: not on page, add to an H2/FAQ</td>
+</tr>
+<tr>
+<td>pit bike electric</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric pit bikes for sale</td>
+<td>Supporting</td>
+<td>[T] Transactional*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Yes (H1 + body)</td>
+</tr>
+<tr>
+<td>pit bikes electric</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">10</td>
+<td align="right">0</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric pit bike for adults</td>
+<td>Supporting</td>
+<td>[C] Commercial</td>
+<td align="right">40</td>
+<td align="right">26</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>eletric pit bike</td>
+<td>Supporting</td>
+<td>[C] Commercial</td>
+<td align="right">40</td>
+<td align="right">9</td>
+<td>No: not on page, add</td>
+</tr>
+<tr>
+<td>fast electric bike australia</td>
+<td>Supporting</td>
+<td>[C] Commercial*</td>
+<td align="right">30</td>
+<td align="right">0</td>
+<td>No: not on page, add</td>
+</tr>
+</tbody></table>
+<h4><code>/faq/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>e ride pro</td>
+<td>Main</td>
+<td>[N] Navigational</td>
+<td align="right">2,900</td>
+<td align="right">17</td>
+<td>Needs Optimization (title + meta + H2/H3 + body); also assigned to /brands/e-ride-pro/</td>
+</tr>
+<tr>
+<td>brisbane electric bikes</td>
+<td>Primary</td>
+<td>[N] Navigational</td>
+<td align="right">480</td>
+<td align="right">28</td>
+<td>No (not on page)</td>
+</tr>
+<tr>
+<td>electric bikes in brisbane</td>
+<td>Primary</td>
+<td>[N] Navigational</td>
+<td align="right">210</td>
+<td align="right">32</td>
+<td>No (not on page)</td>
+</tr>
+<tr>
+<td>electric bike laws australia</td>
+<td>Primary</td>
+<td>[I] Informational</td>
+<td align="right">210</td>
+<td align="right">23</td>
+<td>No (not on page); also assigned to /blog/, /blog/, /electric-motor-bikes/e-bike-laws-australia/, /electric-motor-bikes/e-bike-laws-australia/</td>
+</tr>
+</tbody></table>
+<h4><code>/shop/</code></h4>
+<table>
+<thead>
+<tr>
+<th>Keyword / Phrase</th>
+<th>Tier</th>
+<th>Intent</th>
+<th align="right">SV</th>
+<th align="right">KD</th>
+<th>Current Content Alignment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>buy electric dirt bike</td>
+<td>Main</td>
+<td>[T] Transactional</td>
+<td align="right">40</td>
+<td align="right">17</td>
+<td>Needs Optimization (body)</td>
+</tr>
+<tr>
+<td>electric dirt bikes</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">1,000</td>
+<td align="right">19</td>
+<td>Needs Optimization (title + meta + H1 + H2/H3 + body); also assigned to /electric-dirt-bikes/</td>
+</tr>
+<tr>
+<td>electric dirt bikes australia</td>
+<td>Primary</td>
+<td>[C] Commercial</td>
+<td align="right">320</td>
+<td align="right">37</td>
+<td>Needs Optimization (body); also assigned to /</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>4. Cannibalisation &amp; Misalignment Register</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Conflict</th>
+<th>Pages</th>
+<th>Keywords involved</th>
+<th>Severity</th>
+<th>Recommended fix (no URL changes)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Same H1 + near-identical titles</td>
+<td><code>/shop/</code>, <code>/electric-dirt-bikes/</code>, <code>/</code></td>
+<td>electric dirt bikes for sale (110), electric dirt bikes (1,000), electric dirt bike for sale (170)</td>
+<td>High</td>
+<td>Give <code>/shop/</code> a utility H1 (&quot;Shop All Electric Dirt Bikes, E-Bikes &amp; Parts&quot;) and drop &quot;electric dirt bikes&quot; as its primary; leave &quot;electric dirt bikes&quot; with <code>/electric-dirt-bikes/</code> only.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Shared primaries</td>
+<td><code>/electric-motor-bikes/</code>, <code>/electric-motorcycles/</code></td>
+<td>electric motorcycle (1,900), electric motorcycle australia (1,900)</td>
+<td>High</td>
+<td>Make <code>/electric-motorcycles/</code> the only owner of the motorcycle family (add H2s for each) and keep <code>/electric-motor-bikes/</code> on motorbike / motor bike / road-legal terms.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Kids split</td>
+<td><code>/electric-motor-bikes/kids/</code>, <code>/electric-dirt-bikes/kids/</code></td>
+<td>kids electric dirt bike (590), electric dirt bike kids (110), electric kids dirt bike (110), kids electric dirtbike (70)</td>
+<td>High</td>
+<td>Motor-bikes/kids owns &quot;kids electric bike / motorbike / childs motorcycle&quot;; dirt-bikes/kids owns every &quot;dirt bike&quot; kids phrase. Remove &quot;kids electric dirt bike&quot; from the first page&#39;s primary list.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Brand term owned by FAQ</td>
+<td><code>/faq/</code> vs <code>/brands/e-ride-pro/</code></td>
+<td>e ride pro (2,900, [N]), e ride pro australia (170)</td>
+<td>High</td>
+<td>Register <code>/brands/e-ride-pro/</code> in <code>seo.ts</code> with main &quot;e ride pro australia&quot; + primary &quot;e ride pro&quot;; remove &quot;e ride pro&quot; from the FAQ main and the FAQ title.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Triple-assigned informational main</td>
+<td><code>/electric-motor-bikes/e-bike-laws-australia/</code>, <code>/blog/</code>, <code>/faq/</code></td>
+<td>electric bike laws australia (210)</td>
+<td>Medium</td>
+<td>Only the laws page owns it. <code>/blog/</code> main becomes &quot;electric dirt bike blog australia&quot; (it is already in the title); FAQ keeps Navigational delivery/brand questions.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Blog index primary is a category keyword</td>
+<td><code>/blog/</code> vs <code>/electric-dirt-bikes/</code></td>
+<td>electric dirt bike (6,600)</td>
+<td>Medium</td>
+<td>Remove from <code>/blog/</code> primaries; it should rank for guides/reviews, not the head term.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Blog posts against category pages</td>
+<td>20 posts + <code>/electric-dirt-bikes/</code></td>
+<td>electric dirt bike (6,600)</td>
+<td>Medium</td>
+<td>Posts keep long-tail primaries; first link in each post to the owner category with the exact anchor.</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Brand duplication</td>
+<td><code>/brands/</code> vs <code>/brands/e-ride-pro/</code></td>
+<td>e ride pro australia (170)</td>
+<td>Low</td>
+<td><code>/brands/</code> primary should be the hub terms only (electric bike brands australia); link to the brand page for E Ride Pro.</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Tag pages competing with categories</td>
+<td>31 <code>/blog/tag/*</code> pages</td>
+<td>e bike battery (1,000), electric bikes for sale australia, best electric motorcycle, e bike cost (390)</td>
+<td>Medium</td>
+<td>Add <code>noindex,follow</code> to tags whose keyword matches a category/product keyword, or fold the tag into the category page; keep the 26 purely informational tags indexed.</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Same family across 7+ blog posts</td>
+<td>kids (9), batteries (12), laws (7), cost/price (13), &quot;best&quot; (7)</td>
+<td>kids/childs/childrens dirt bike, e bike battery, laws qld/nsw, e bike cost</td>
+<td>Medium</td>
+<td>Choose one pillar post per family; point the others to it and differentiate their primaries (age, state, battery voltage).</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Cheap pages with different intent labels</td>
+<td><code>/electric-dirt-bikes/cheap/</code></td>
+<td>cheap electric dirt bikes (260, [I])</td>
+<td>Low</td>
+<td>Main is labelled Informational by SEMrush. Add the Transactional variants from the bank (cheap dirt bikes for sale under $1000, 70) as an H2 to match the money intent.</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>5. Visual Funnel &amp; Intent Preview</h2>
+<h3>5.1 Bank demand vs on-site coverage (keywords with 50+ searches)</h3>
+<pre><code>AWARENESS      (Informational + Navigational) - 121 keywords, 26,600 combined monthly volume
+  in a title/H1/H2/H3 : ████                             16 (13%) · 10,250 vol
+  body copy only      : █████                            22 (18%) · 4,230 vol
+  not on site         : █████████████████████            83 (69%) · 12,120 vol
+
+CONSIDERATION  (Commercial) - 815 keywords, 342,090 combined monthly volume
+  in a title/H1/H2/H3 : █████████                        241 (30%) · 223,670 vol
+  body copy only      : █████                            146 (18%) · 38,380 vol
+  not on site         : ████████████████                 428 (53%) · 80,040 vol
+
+CONVERSION     (Transactional) - 99 keywords, 20,420 combined monthly volume
+  in a title/H1/H2/H3 : ███████████                      36 (36%) · 8,700 vol
+  body copy only      : ██████                           19 (19%) · 4,450 vol
+  not on site         : █████████████                    44 (44%) · 7,270 vol
+</code></pre>
+<p><em>(Volumes are the sum of each keyword&#39;s own monthly volume; related keywords overlap, so treat as relative size, not unique searches. 52 bank keywords have no intent label and are excluded.)</em></p>
+<h3>5.2 Journey map: which pages serve which stage</h3>
+<pre><code>AWARENESS ─────────────────►  CONSIDERATION ───────────────►  CONVERSION
+Informational / Navigational     Commercial                      Transactional
+
+/blog/  102 posts + 57 tags      /electric-dirt-bikes/           /shop/&lt;product&gt;/  ×153
+/faq/   (23 Q&amp;A headings)          /electric-bikes/ (+cheap)       /shop/  (main: buy electric dirt bike)
+/e-bike-laws-australia/ [I]      /electric-motor-bikes/          /electric-dirt-bikes/sur-ron/ [T ×3]
+/best-electric-bikes-aus/ [T/C]  /electric-motorcycles/          city pages: &quot;…for sale &lt;city&gt;&quot; [T]
+&quot;how fast…&quot;, &quot;what is…&quot;,         kids / mini / pit / fat / motocross   cart + checkout
+&quot;are … legal&quot;, voltage guides    /brands/  /brands/e-ride-pro/   
+
+Gap: scooters, Gold Coast, &quot;dirt bicycle&quot;, misspellings, &quot;price&quot;/&quot;cost&quot; Transactional H2s on category pages
+</code></pre>
+<h3>5.3 Main keyword intent across the 30 mapped pages</h3>
+<table>
+<thead>
+<tr>
+<th>Intent of main keyword</th>
+<th align="right">Pages</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>[T] Transactional</td>
+<td align="right">16</td>
+<td>Correct for category/city pages</td>
+</tr>
+<tr>
+<td>[C] Commercial</td>
+<td align="right">4</td>
+<td><code>/brands/</code>, <code>/brands/e-ride-pro/</code>, <code>/electric-bike-batteries/</code>, <code>/electric-dirt-bikes/kids/</code>: acceptable, but add a Transactional phrase to the title</td>
+</tr>
+<tr>
+<td>[I] Informational</td>
+<td align="right">3</td>
+<td>Laws page (correct), <code>/blog/</code> (duplicate), <code>/electric-dirt-bikes/cheap/</code> (money page: switch to a T main)</td>
+</tr>
+<tr>
+<td>[N] Navigational</td>
+<td align="right">1</td>
+<td><code>/faq/</code> main &quot;e ride pro&quot; (wrong owner, see register #4)</td>
+</tr>
+<tr>
+<td>Unlabelled (inferred, ≤20 searches)</td>
+<td align="right">6</td>
+<td>kids, mini, pit, balance, motocross, rtr: the real driver is the primary, so make sure it sits in the title</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>6. Priority Actions (ranked by search volume at stake)</h2>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Action</th>
+<th align="right">Volume at stake</th>
+<th>Effort</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>Put &quot;electric motorbike&quot; (6,600), &quot;electric motorcycle&quot; (1,900), &quot;electric motorbike australia&quot; (1,300) in H2s on <code>/electric-motor-bikes/</code>; today they are body-only</td>
+<td align="right">9,800</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Home page: add &quot;electric dirt bikes australia&quot; (320), &quot;electric dirtbike australia&quot; (90) and the T phrases below as H2/H3; they are not on the page</td>
+<td align="right">410 + T</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Resolve the three assignment clashes (#1-#3 in the register)</td>
+<td align="right">~8,650</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Add an H2 for each missing Secondary on <code>/electric-bikes/</code> (e.g. &quot;low cost electric bike&quot; 2,900, &quot;electric bike melbourne&quot; 1,000, &quot;e bike battery&quot; 1,000 linked to the battery page)</td>
+<td align="right">~11,000</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Add Gold Coast city page (&quot;electric bicycle gold coast&quot; 1,600) and decide on an electric scooter category (17 keywords, 6,230)</td>
+<td align="right">7,830</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Add the Transactional gaps: &quot;dirt bicycle for sale&quot; (1,900), &quot;moto dirt bikes for sale&quot; (1,900), &quot;motorcycle dirt bike for sale&quot; (1,600) to <code>/electric-dirt-bikes/</code> FAQ/H2 or a buying guide (check they fit electric stock)</td>
+<td align="right">5,400</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Shorten titles over 60 characters (235 of 347 sitewide; start with the 34 category pages)</td>
+<td align="right">n/a (CTR)</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Consolidate the 7 near-identical blog families to one pillar each; noindex 31 tag pages that mirror category keywords</td>
+<td align="right">n/a</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Expand 29 posts under 600 words and add keyword H2s</td>
+<td align="right">n/a</td>
+<td>High</td>
+</tr>
+</tbody></table>
+<h2>7. Method and Limits</h2>
+<ul>
+<li><strong>Bank:</strong> the 10 SEMrush AU &quot;all keywords&quot; CSVs (3 from 25 Sep 2026 in <code>electric dirt bikes/</code>, 7 from 7 Oct 2026 in <code>new keywords e bikes/</code>), merged by keyword with the highest volume kept, hyphens normalised (&quot;e-bike&quot; = &quot;e bike&quot;), and degenerate repeated-word phrases dropped.</li>
+<li><strong>Crawl:</strong> every URL in the live <code>sitemap.xml</code> on 12 Oct 2026; title, meta description, H1, H2/H3 and visible body text of <code>&lt;main&gt;</code>. A keyword counts as present only as an exact phrase (word-order variants such as &quot;electric bikes dirt&quot; are listed as missing even if the words appear).</li>
+<li><strong>Assignments</strong> (Main/Primary) are read from <code>src/config/seo.ts</code>; <code>/brands/e-ride-pro/</code> has no entry there, so its keywords were set manually.</li>
+<li><strong>Secondary/Supporting</strong> are not assigned in code: they are the bank keywords whose words overlap the page&#39;s assigned phrases by 50% (secondary) or 40% (supporting).</li>
+<li><strong>Not in bank (no volume quoted):</strong> &quot;rtr ebike for sale&quot;, &quot;lithium bike battery&quot;. Brand/model terms (Talaria, Stark Varg, Segway, Super73, Apollo, Ampd, helmets, controllers) have no usable volume in the CSVs.</li>
+<li><strong>Off-core demand deliberately not recommended:</strong> petrol bike terms (125cc, 2 stroke, &quot;vin search dirt bike&quot;: 8 keywords, 3,000 vol), quad/ATV/UTV (630 vol) and non-English phrases.</li>
+</ul>

@@ -2239,3 +2239,7 @@ export const NEW_POSTS: NewPost[] = [
     ]
   }
 ];
+
+// 2026-10-12: extra posts for the on-page remap live in posts-extra-2026-10-12.ts (kept by assemble-posts.cjs).
+import { EXTRA_POSTS } from './posts-extra-2026-10-12';
+NEW_POSTS.push(...EXTRA_POSTS);

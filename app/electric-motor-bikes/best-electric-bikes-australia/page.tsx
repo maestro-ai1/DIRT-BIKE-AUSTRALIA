@@ -121,7 +121,7 @@ export default function BestElectricBikesAustraliaPage() {
               Best Electric Bikes Australia 2026 · Expert Buyer&apos;s Guide
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Best Electric Bikes Australia 2026 — Expert Buyer&apos;s Guide
+              {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Australia&apos;s most comprehensive electric bike guide — independently reviewed by our team across off-road dirt, youth competition, road-legal commuting, and high-performance categories. Every best-pick model is in stock and dispatched from Mittagong NSW with 12-month Australian warranty.
@@ -203,7 +203,7 @@ export default function BestElectricBikesAustraliaPage() {
           />
         </div>
 
-        <KeywordGuide path="/electric-motor-bikes/best-electric-bikes-australia/" />
+        <KeywordGuide path="/electric-motor-bikes/best-electric-bikes-australia/" faqs />
 
         <RelatedGuides path="/electric-motor-bikes/best-electric-bikes-australia/" />
 

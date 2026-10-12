@@ -170,7 +170,7 @@ export default function EBikeLawsAustraliaPage() {
               E-Bike Laws Australia 2026 · All States &amp; Territories
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Are E-Bikes Legal in Australia?<br />NSW, VIC, QLD &amp; WA Laws 2026
+              {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Australia&apos;s definitive guide to electric bike regulations in 2026 — covering all states and territories. What power limit applies? Do you need a licence? Does your e-bike need registration or number plates? Find out what is legal and what is not before you ride.
@@ -276,7 +276,7 @@ export default function EBikeLawsAustraliaPage() {
           ))}
         </div>
 
-        <KeywordGuide path="/electric-motor-bikes/e-bike-laws-australia/" />
+        <KeywordGuide path="/electric-motor-bikes/e-bike-laws-australia/" faqs />
 
         <RelatedGuides path="/electric-motor-bikes/e-bike-laws-australia/" />
 

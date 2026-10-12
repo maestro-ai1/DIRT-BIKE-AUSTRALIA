@@ -101,7 +101,7 @@ export default function CommuterMopedsPage() {
               Electric Mopeds & Commuter e-Bikes Australia
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Electric Moped Australia: Mopeds &amp; Commuter E-Bikes for Sale
+              {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               From road-legal 250W commuter e-bikes requiring no licence to fully registered 5kW LAMS electric mopeds — Electric Dirt Bike Australia stocks the complete range of electric commuter motorcycle options for Australian city and suburb riders. Free nationwide freight on orders over $1,500.
@@ -138,7 +138,7 @@ export default function CommuterMopedsPage() {
           <ProductPager groups={[{ items: commuterProducts }]} />
         </div>
 
-        <KeywordGuide path="/electric-motor-bikes/commuter-mopeds/" />
+        <KeywordGuide path="/electric-motor-bikes/commuter-mopeds/" faqs />
 
         <RelatedGuides path="/electric-motor-bikes/commuter-mopeds/" />
 

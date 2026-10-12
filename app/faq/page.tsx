@@ -80,8 +80,8 @@ export default function FaqPage() {
             <span>Direct Answers</span>
           </div>
           <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white mb-2">
-            Electric Dirt Bike FAQ Australia: Frequently Asked Questions
-          </h1>
+              {seo.h1}
+            </h1>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl">
             Answers to common questions about riding electric dirt bikes in Australia, battery care, freight timelines, and payment options.
           </p>

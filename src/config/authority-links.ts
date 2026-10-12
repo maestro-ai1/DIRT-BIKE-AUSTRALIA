@@ -146,6 +146,8 @@ const SETS: Record<string, string[]> = {
   '/electric-motor-bikes/perth/': ['waBikes', 'wikiEbikeLaws', 'accc'],
   '/electric-motor-bikes/sydney/': ['nswEbikes', 'nswLiIon', 'wikiEbikeLaws'],
   '/electric-motor-bikes/brisbane/': ['qldEbikes', 'qldFire', 'wikiEbikeLaws'],
+  '/electric-motor-bikes/gold-coast/': ['qldEbikes', 'qldFire', 'wikiEbikeLaws'],
+  '/electric-motor-bikes/townsville/': ['qldEbikes', 'qldFire', 'wikiEbikeLaws'],
   '/electric-bikes/': [...STATES, 'bicycleNetwork', 'wikiEbike'],
   '/electric-bikes/cheap/': [...STATES, 'accc'],
   '/electric-fat-tyre-bikes/': ['wikiFatbike', 'wikiEbikeLaws', 'nswEbikes', 'qldEbikes'],

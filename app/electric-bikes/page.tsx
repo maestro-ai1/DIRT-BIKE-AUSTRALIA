@@ -11,6 +11,7 @@ import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { extraFaqs } from '@/src/config/category-sections';
 
 // Category page for the broad "electric bike / e bike" demand (Semrush AU: electric bike 27,100, e bike 22,200,
 // electric bikes for sale 1,600). Main keyword: electric bikes for sale (transactional). Primary: electric bike, e bike, electric bikes.
@@ -65,7 +66,7 @@ export default function ElectricBikesPage() {
   const min = Math.min(...prices);
   const max = Math.max(...prices);
 
-  const faqs = [
+  const baseFaqs = [
     {
       q: 'Where can I buy an electric bike in Australia?',
       a: `Electric Dirt Bike Australia sells electric bikes for sale online and delivers Australia-wide from Mittagong NSW 2575. Our electric bike range runs from $${min.toLocaleString()} to $${max.toLocaleString()} AUD and covers road-legal RTR eBikes, Super73 electric motos and road-registered electric mopeds. Orders over $1,500 AUD ship free and every bike has a 12-month Australian warranty.`,
@@ -87,6 +88,7 @@ export default function ElectricBikesPage() {
       a: 'An e bike is a pedal-assist bicycle limited to 250W and 25 km/h. An electric motorbike or moped has a throttle and a more powerful motor, so it is registered for the road (or supplied for off-road use only). We sell both, so you can choose the electric bike that matches how and where you ride.',
     },
   ];
+  const faqs = [...baseFaqs, ...extraFaqs('/electric-bikes/')];
 
   const schemaData = [
     {
@@ -137,7 +139,7 @@ export default function ElectricBikesPage() {
               E-Bikes · E-Motos · Electric Mopeds
             </span>
             <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Electric Bikes for Sale in Australia
+              {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
               Buy an electric bike online from Electric Dirt Bike Australia. Our e bike range covers fat tyre e-bikes and beach cruisers, road-legal RTR eBike commuters, Super73 electric motos and road-registered electric mopeds, from ${min.toLocaleString()} to ${max.toLocaleString()} AUD. Every electric bike ships Australia-wide from Mittagong NSW with a 12-month Australian warranty.

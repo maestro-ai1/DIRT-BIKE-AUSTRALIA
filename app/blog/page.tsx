@@ -68,7 +68,7 @@ export default function BlogIndexPage() {
               <span>Australian E-Moto Knowledge Base ({POSTS.length} Articles)</span>
             </div>
             <h1 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-white leading-tight">
-              Electric Dirt Bike Blog — Guides, Reviews &amp; Riding Tips Australia
+              {seo.h1}
             </h1>
             <p className="text-xs sm:text-sm text-slate-300 leading-relaxed max-w-2xl">
               In-depth comparison guides (Sur-Ron vs Talaria), 72V battery upgrade tips, Australian road &amp; trail legality regulations, speed data, and controller tuning from our dedicated testing facility in Mittagong NSW 2575.

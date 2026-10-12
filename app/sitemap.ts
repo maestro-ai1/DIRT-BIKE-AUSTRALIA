@@ -49,6 +49,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/electric-motor-bikes/perth/`, lastModified: UPDATED, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${BASE}/electric-motor-bikes/sydney/`, lastModified: UPDATED, changeFrequency: 'monthly', priority: 0.75 },
     { url: `${BASE}/electric-motor-bikes/brisbane/`, lastModified: UPDATED, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/electric-motor-bikes/gold-coast/`, lastModified: UPDATED, changeFrequency: 'monthly', priority: 0.75 },
+    { url: `${BASE}/electric-motor-bikes/townsville/`, lastModified: UPDATED, changeFrequency: 'monthly', priority: 0.75 },
   ];
 
   const productPages: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({
