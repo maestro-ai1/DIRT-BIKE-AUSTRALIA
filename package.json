@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint .",
     "clean": "next clean",
-    "indexnow": "node scripts/indexnow-ping.mjs"
+    "indexnow": "node scripts/indexnow-ping.mjs",
+    "gen:llms": "node scripts/gen-llms.cjs"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",

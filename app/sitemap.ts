@@ -8,7 +8,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // lastmod must only change when a page's content really changes. A build-time timestamp makes every URL look
   // freshly modified on every deploy, and Bing and Google then stop trusting lastmod. Bump UPDATED when content changes.
   const NEW_PAGES = '2026-10-08'; // 2026-10-07 pages (categories, tags) that got a buying guide, menu and footer links on 2026-10-08, plus the new E-Ride Pro page
-  const UPDATED = '2026-10-08'; // 2026-10-08: menu and footer links on every page, product titles/descriptions, category guides, brand hub, buy blocks on older guides
+  const UPDATED = '2026-10-12'; // 2026-10-12: on-page SEO remap (titles, H1s, H2 sections, FAQs) on home, categories, city pages, brands, blog index, FAQ
+  const STABLE = '2026-10-08'; // pages and products not touched by the 2026-10-12 remap
+  const TITLE_FIX = '2026-10-08'; // date older posts had their title tag shortened (see app/blog/[slug]/page.tsx)
+
+  // A tag page changes when a post it lists is published: use the newest member post date.
+  const tagLastMod = (slugs: string[]) => slugs.map((sl) => POSTS.find((p) => p.slug === sl)?.date).filter(Boolean).map((d) => new Date(d as string).toISOString().slice(0, 10)).sort().pop();
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${BASE}/`, lastModified: UPDATED, changeFrequency: 'weekly', priority: 1.0 },
@@ -55,7 +60,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const productPages: MetadataRoute.Sitemap = PRODUCTS.map((product) => ({
     url: `${BASE}/shop/${product.slug}/`,
-    lastModified: UPDATED,
+    lastModified: STABLE,
     changeFrequency: 'weekly' as const,
     priority: 0.8,
   }));
@@ -63,14 +68,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const blogPages: MetadataRoute.Sitemap = POSTS.map((post) => ({
     url: `${BASE}/blog/${post.slug}/`,
     // Posts whose title tag was shortened on UPDATED (see app/blog/[slug]/page.tsx) count as modified that day.
-    lastModified: post.title.length + 11 > 70 || !(post as { rich?: boolean }).rich ? UPDATED : post.date ? new Date(post.date).toISOString().slice(0, 10) : UPDATED,
+    lastModified: post.title.length + 11 > 70 || !(post as { rich?: boolean }).rich ? TITLE_FIX : post.date ? new Date(post.date).toISOString().slice(0, 10) : TITLE_FIX,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));
 
   // Tag pages exist only for tags used by two or more posts (single-post tags are not linked, so they are not in the sitemap).
   const tagPages: MetadataRoute.Sitemap = indexableTags(POSTS.map((p) => p.slug))
-    .map(([k]) => ({ url: `${BASE}/blog/tag/${k}/`, lastModified: NEW_PAGES, changeFrequency: 'monthly' as const, priority: 0.5 }));
+    .map(([k, v]) => ({ url: `${BASE}/blog/tag/${k}/`, lastModified: tagLastMod(v.slugs) || NEW_PAGES, changeFrequency: 'monthly' as const, priority: 0.5 }));
 
-  return [...staticPages, ...productPages, ...blogPages, ...tagPages];
+  // Single-language, single-region site: each URL declares itself as en-AU and x-default so hreflang is explicit and consistent with <html lang="en-AU">.
+  return [...staticPages, ...productPages, ...blogPages, ...tagPages].map((e) => ({ ...e, alternates: { languages: { 'en-AU': e.url, 'x-default': e.url } } }));
 }
