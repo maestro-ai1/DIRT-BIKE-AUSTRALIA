@@ -30,7 +30,7 @@ export function ProductCard({ product, alt, as: Heading = 'h3' }: { product: Car
           height={600}
           loading="lazy"
           decoding="async"
-          className={`w-full h-full object-contain group-hover:scale-105 transition-transform duration-300 ${product.darkImage ? '' : 'p-3'}`}
+          className={`block w-full h-full object-contain group-hover:scale-105 transition-transform duration-300 ${product.darkImage ? '' : 'p-3'}`}
         />
         <span className="absolute top-2 left-2 px-2 py-0.5 rounded-md text-[10px] font-extrabold uppercase tracking-wider bg-orange-700 text-white">
           {product.badge}

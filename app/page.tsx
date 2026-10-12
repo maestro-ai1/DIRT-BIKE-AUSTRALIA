@@ -14,7 +14,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { ProductCard } from '@/components/ProductCard';
 import { SlideShow } from '@/components/SlideShow';
 import { BrandMark } from '@/components/BrandMark';
-import { PRODUCT_GRID_4, toCard, isDarkPhoto } from '@/lib/productCard';
+import { PRODUCT_GRID_4, toCard } from '@/lib/productCard';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 const seo = seoFor('/');
 // Home shows six questions only (the full list stays on /faq/). The FAQPage schema below uses these same six so it matches the visible page.
@@ -64,18 +64,18 @@ export const metadata: Metadata = {
 
 // Home category tiles: every category page, each with a preview picture. Titles and links are unchanged from the previous layout.
 const HOME_CATEGORIES = [
-  { href: '/electric-dirt-bikes/', title: 'Electric Dirt Bikes for Sale', text: 'Adult electric dirt bikes, off-road and trail bikes from Sur-Ron, Talaria, Stark Varg and E-Ride Pro.', img: '/images/product-sur-ron-ultra-bee.jpg' },
-  { href: '/electric-motor-bikes/', title: 'Electric Motorbikes & Motorcycles', text: 'Off-road electric motorbikes, road-legal electric mopeds and commuter models.', img: '/images/product-super-soco-cpx.jpg' },
-  { href: '/electric-motor-bikes/kids/', title: 'Kids Electric Bikes & Motorbikes', text: 'Childs electric motorcycles and childrens electric dirt bikes for ages 3–16.', img: '/images/product-ktm-sx-e-5-side.jpg' },
-  { href: '/electric-bikes/', title: 'Electric Bikes for Sale', text: 'RTR eBikes, Super73 e-motos and road-legal electric mopeds in one place.', img: '/images/product-rtr-ebike-pro.jpg' },
-  { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Electric Mopeds', text: 'Road-legal, LAMS-approved electric mopeds and commuter e-bikes.', img: '/images/product-niu-nqi-gt.webp' },
-  { href: '/electric-motor-bikes/rtr-ebike/', title: 'RTR eBike', text: 'Road-legal 250W RTR e bike commuters. No licence or registration needed.', img: '/images/product-rtr-ebike-s-classic.webp' },
-  { href: '/electric-motocross-bikes/', title: 'Electric Motocross Bikes', text: 'Competition electric motocross bikes including the Stark Varg and Sur-Ron Storm Bee MX.', img: '/images/product-stark-varg-mx.jpg' },
-  { href: '/electric-fat-tyre-bikes/', title: 'Electric Fat Tyre Bikes', text: 'Fat tyre e-bikes and electric beach cruisers: ACE, Stubbie, Chubbie and Riptide.', img: '/images/ampd/the-original-stubbie-fat-tyre-electric-bike-1.jpg' },
-  { href: '/electric-mini-bikes/', title: 'Mini Electric Bikes', text: 'Compact mini e bikes with 16-inch wheels and a 48V 15Ah battery.', img: '/images/ampd/ace-mini-electric-fat-bike-1.jpg' },
-  { href: '/electric-bikes/cheap/', title: 'Cheap Electric Bikes', text: 'Affordable e-bikes and kids electric bikes with published specifications and warranty.', img: '/images/ampd/chubbie-v3-electric-beach-cruiser-1.jpg' },
-  { href: '/electric-motorcycles/', title: 'Electric Motorcycles', text: 'Road-registered electric motorcycles and mopeds plus off-road models.', img: '/images/product-vmoto-tc-max.jpg' },
-  { href: '/accessories/', title: 'E Bike Parts & Batteries', text: '72V lithium batteries, fast chargers and performance parts with Australian plugs.', img: '/images/product-72v-40ah-battery.jpg' },
+  { href: '/electric-dirt-bikes/', title: 'Electric Dirt Bikes for Sale', text: 'Adult electric dirt bikes, off-road and trail bikes from Sur-Ron, Talaria, Stark Varg and E-Ride Pro.', img: '/images/categories/electric-dirt-bikes-for-sale.webp', alt: 'Sur-Ron Ultra Bee electric dirt bikes for sale in Australia' },
+  { href: '/electric-motor-bikes/', title: 'Electric Motorbikes & Motorcycles', text: 'Off-road electric motorbikes, road-legal electric mopeds and commuter models.', img: '/images/categories/electric-motorbikes-motorcycles.webp', alt: 'Super Soco CPx electric motorbike and motorcycle range' },
+  { href: '/electric-motor-bikes/kids/', title: 'Kids Electric Bikes & Motorbikes', text: 'Childs electric motorcycles and childrens electric dirt bikes for ages 3–16.', img: '/images/categories/kids-electric-bikes-motorbikes.webp', alt: 'KTM SX-E 5 kids electric dirt bike for sale' },
+  { href: '/electric-bikes/', title: 'Electric Bikes for Sale', text: 'RTR eBikes, Super73 e-motos and road-legal electric mopeds in one place.', img: '/images/categories/electric-bikes-for-sale.webp', alt: 'Fatboy Harlem electric fat tyre bike for sale in Australia' },
+  { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Electric Mopeds', text: 'Road-legal, LAMS-approved electric mopeds and commuter e-bikes.', img: '/images/categories/electric-mopeds.webp', alt: 'NIU NQi GT road-registered electric moped' },
+  { href: '/electric-balance-bikes/', title: 'Electric Balance Bikes', text: 'Kids electric balance bikes with adjustable speed, from $699 with free freight over $1,500.', img: '/images/categories/electric-balance-bikes.webp', alt: 'Apollo RXF electric balance bike for kids' },
+  { href: '/electric-motocross-bikes/', title: 'Electric Motocross Bikes', text: 'Competition electric motocross bikes including the Stark Varg and Sur-Ron Storm Bee MX.', img: '/images/categories/electric-motocross-bikes.webp', alt: 'Stark Varg electric motocross bike for sale' },
+  { href: '/electric-fat-tyre-bikes/', title: 'Electric Fat Tyre Bikes', text: 'Fat tyre e-bikes and electric beach cruisers: ACE, Stubbie, Chubbie and Riptide.', img: '/images/categories/electric-fat-tyre-bikes.webp', alt: 'Stubbie fat tyre electric bike and beach cruiser' },
+  { href: '/electric-mini-bikes/', title: 'Mini Electric Bikes', text: 'Compact mini e bikes with 16-inch wheels and a 48V 15Ah battery.', img: '/images/categories/mini-electric-bikes.webp', alt: 'Mini electric dirt bike for teens and smaller riders' },
+  { href: '/electric-bikes/cheap/', title: 'Cheap Electric Bikes', text: 'Affordable e-bikes and kids electric bikes with published specifications and warranty.', img: '/images/categories/cheap-electric-bikes.webp', alt: 'Chubbie electric beach cruiser, an affordable e bike' },
+  { href: '/electric-motorcycles/', title: 'Electric Motorcycles', text: 'Road-registered electric motorcycles and mopeds plus off-road models.', img: '/images/categories/electric-motorcycles.webp', alt: 'Vmoto TC Max road-registered electric motorcycle' },
+  { href: '/accessories/', title: 'E Bike Parts & Batteries', text: '72V lithium batteries, fast chargers and performance parts with Australian plugs.', img: '/images/categories/e-bike-parts-batteries.webp', alt: '72V 40Ah lithium battery pack for electric bikes' },
 ];
 
 export default function HomePage() {
@@ -194,17 +194,15 @@ export default function HomePage() {
                   title={c.text}
                   className="group flex flex-col h-full bg-white border border-slate-300 hover:border-sky-500 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all"
                 >
-                  <span className={`block aspect-[4/3] sm:aspect-[2/1] border-b border-slate-200 overflow-hidden ${isDarkPhoto(c.img) ? 'bg-black' : 'bg-white'}`}>
+                  <span className="relative block aspect-[4/3] border-b border-slate-200 overflow-hidden bg-white">
                     <img
                       src={c.img}
-                      srcSet={srcSetFor(c.img)}
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 380px"
-                      alt=""
-                      width={400}
-                      height={300}
+                      alt={c.alt}
+                      width={1200}
+                      height={900}
                       loading="lazy"
                       decoding="async"
-                      className={`w-full h-full object-contain group-hover:scale-105 transition-transform duration-300 ${isDarkPhoto(c.img) ? '' : 'p-2'}`}
+                      className="absolute inset-0 block w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                     />
                   </span>
                   <span className="flex-1 flex items-center justify-center px-3 py-2.5 text-center text-xs sm:text-sm font-bold text-slate-900 leading-snug group-hover:text-sky-800 transition-colors min-h-[2.75rem]">

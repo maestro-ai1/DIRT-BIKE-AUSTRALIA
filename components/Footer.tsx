@@ -63,7 +63,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-sky-800 shrink-0" />
-                <Link href="/contact/" className="hover:underline hover:text-sky-800">Email: {CONTACT.email.replace('@', ' [at] ')}</Link>
+                <a href={`mailto:${CONTACT.email}`} className="hover:underline hover:text-sky-800">Email: {CONTACT.email}</a>
               </li>
             </ul>
             {/* ABN strictly at footer per user instruction */}

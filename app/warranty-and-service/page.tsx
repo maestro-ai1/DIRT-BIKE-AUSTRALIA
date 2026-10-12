@@ -94,7 +94,7 @@ export default function WarrantyServicePage() {
               How to Lodge a Technical Support or Warranty Claim
             </h2>
             <p>
-              Contact our Mittagong workshop with your order number and video/photos of the issue at <strong>support@electricdirtbikeaustralia.com.au</strong> or via WhatsApp at <strong>{CONTACT.whatsappDisplay}</strong>. If a component fails within warranty, replacement parts are dispatched via express courier.
+              Contact our Mittagong workshop with your order number and video/photos of the issue at <strong>{CONTACT.email}</strong> or via WhatsApp at <strong>{CONTACT.whatsappDisplay}</strong>. If a component fails within warranty, replacement parts are dispatched via express courier.
             </p>
           </section>
         </div>
