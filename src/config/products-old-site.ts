@@ -181,6 +181,41 @@ export const OLD_SITE_PRODUCTS: OldSiteProduct[] = [
     "features": []
   },
   {
+    "slug": "rfn-warrior-kids-sx-e250-electric-dirt-bike",
+    "name": "RFN Warrior Kids SX-E250 Electric Dirt Bike",
+    "brand": "RFN",
+    "price": 1599,
+    "category": "kids-ebikes",
+    "badge": "In Stock",
+    "featured": false,
+    "shortDescription": "Kids electric dirt bike with a 36V 250W brushless motor, three speed modes (8, 12 and 25 km/h), removable 5.2Ah lithium battery, 12-inch tyres and dual suspension. 22 kg.",
+    "description": "The RFN Warrior Kids SX-E250 is a lightweight electric dirt bike for young riders learning on private land. A 36V 250W brushless motor with a sine-wave controller gives a smooth start, and three speed modes (Eco 8 km/h, Low 12 km/h and Sport 25 km/h) let you set the pace as skills grow. The removable 36V 5.2Ah (187Wh) lithium battery can be swapped for a spare, gives a range of up to 18 km and recharges in 2 to 3 hours with the standard charger. Features include 12 x 2.4 inch all-terrain tyres, performance dual suspension, a steel frame and a three-level battery indicator display.",
+    "specs": {
+      "motor": "36V 250W brushless",
+      "battery": "36V 5.2Ah (187Wh) removable lithium",
+      "topSpeed": "25 km/h (Sport mode)",
+      "speedModes": "Eco 8 km/h, Low 12 km/h, Sport 25 km/h",
+      "range": "Up to 18 km",
+      "chargeTime": "2 to 3 hours (standard charger)",
+      "tyres": "12 x 2.4 inch all-terrain",
+      "suspension": "Dual suspension",
+      "weight": "22 kg"
+    },
+    "images": [
+      "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-1.webp",
+      "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-2.webp",
+      "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-3.webp",
+      "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-4.webp"
+    ],
+    "inStock": true,
+    "source": "old-site",
+    "warranty": "Manufacturer warranty, see details with your order",
+    "shipping": "Australia-wide delivery. Delivery time and freight are confirmed when you order.",
+    "legalNote": "Sold as an off-road recreational electric bike for private property and designated off-road areas. Rules vary by state, so check before riding on public roads.",
+    "supplierUrl": "https://www.penrithpitbike.com.au/product/warrior-kids-sx-e250-electric-bike/",
+    "features": []
+  },
+  {
     "slug": "ycf-w50-electric-bike",
     "name": "YCF W50 Electric bike",
     "brand": "YCF",

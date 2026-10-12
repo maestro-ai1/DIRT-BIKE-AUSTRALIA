@@ -1515,6 +1515,26 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
   "vw": 600,
   "w": 1200
  },
+ "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-1.webp": {
+  "v": "/images/_w/600/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-1.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-2.webp": {
+  "v": "/images/_w/600/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-2.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-3.webp": {
+  "v": "/images/_w/600/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-3.webp",
+  "vw": 600,
+  "w": 1200
+ },
+ "/images/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-4.webp": {
+  "v": "/images/_w/600/catalog/rfn-warrior-kids-sx-e250-electric-dirt-bike-4.webp",
+  "vw": 600,
+  "w": 1200
+ },
  "/images/catalog/rfn-warrior-youth-sx-e5-dirt-kids-dirt-bike-1.webp": {
   "v": "/images/_w/600/catalog/rfn-warrior-youth-sx-e5-dirt-kids-dirt-bike-1.webp",
   "vw": 600,

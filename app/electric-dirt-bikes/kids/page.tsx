@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-dirt-bikes/kids/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
 };
 
-const ENTRY = ['razor-mx650-electric-kids', 'edba-moto-50-kids-beginner', 'dhz-electric-kids-mini-off-road-dirt-bike-36v-350w-motor', 'crossfire-ecr1500-kids-electric-dirt-bike', 'crossfire-ecr2000-kids-electric-dirt-bike'];
+const ENTRY = ['razor-mx650-electric-kids', 'rfn-warrior-kids-sx-e250-electric-dirt-bike', 'edba-moto-50-kids-beginner', 'dhz-electric-kids-mini-off-road-dirt-bike-36v-350w-motor', 'crossfire-ecr1500-kids-electric-dirt-bike', 'crossfire-ecr2000-kids-electric-dirt-bike'];
 const PERFORMANCE = ['mxr-mxe-60v-mini-varg-electric-dirt-bike', 'ycf-w50-electric-bike', 'torrot-motocross-two-junior', 'mxr-mxe-72v-mini-varg-electric-dirt-bike', 'oset-20-0-racing-junior', 'husqvarna-ee-5-youth-electric', 'ktm-sx-e-5-youth-electric', 'rfn-warrior-youth-sx-e5-electric-dirt-bike', 'rfn-warrior-youth-sx-e8-electric-dirt-bike'];
 
 export default function KidsElectricDirtBikesPage() {
