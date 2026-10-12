@@ -338,7 +338,7 @@ export const IMAGE_VARIANTS: Record<string, { v: string; vw: number; w: number }
  "/images/ampd/the-original-stubbie-s-electric-bike-4.jpg": {
   "v": "/images/_w/600/ampd/the-original-stubbie-s-electric-bike-4.webp",
   "vw": 600,
-  "w": 1100
+  "w": 1200
  },
  "/images/blog/australian-ebike-30.webp": {
   "v": "/images/_w/600/blog/australian-ebike-30.webp",
