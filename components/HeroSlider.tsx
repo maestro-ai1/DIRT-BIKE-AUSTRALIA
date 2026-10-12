@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowRight, ChevronLeft, ChevronRight, Zap, ShieldCheck, Truck } from 'lucide-react';
 import { PAGE_SEO } from '@/src/config/seo';
+import { srcSetFor } from '@/lib/imageSrcSet';
 
 // One permanent H1 (main transactional keyword + primary commercial keyword). Slide headings below it are not headings.
 const HOME_H1 = PAGE_SEO['/'].h1 as string;

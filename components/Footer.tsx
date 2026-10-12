@@ -34,7 +34,7 @@ const SHOP_LINKS = [
   { href: '/accessories/', label: 'Batteries & Chargers' },
 ];
 
-const linkClass = 'text-slate-700 hover:text-sky-800 hover:underline transition-colors';
+const linkClass = 'inline-block py-1.5 text-slate-700 hover:text-sky-800 hover:underline transition-colors';
 
 export function Footer() {
   return (

@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { srcSetFor } from '@/lib/imageSrcSet';
 import Link from 'next/link';
 import { ShoppingBag, Check } from 'lucide-react';
 import { useCart } from '@/lib/cartContext';

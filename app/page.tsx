@@ -1,4 +1,5 @@
 import React from 'react';
+import { srcSetFor } from '@/lib/imageSrcSet';
 import Link from 'next/link';
 import { HeroSlider } from '@/components/HeroSlider';
 import { TrustpilotSection } from '@/components/TrustpilotSection';
@@ -196,7 +197,9 @@ export default function HomePage() {
                   <span className={`block aspect-[4/3] sm:aspect-[2/1] border-b border-slate-200 overflow-hidden ${isDarkPhoto(c.img) ? 'bg-black' : 'bg-white'}`}>
                     <img
                       src={c.img}
-                      alt={c.title}
+                      srcSet={srcSetFor(c.img)}
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 380px"
+                      alt=""
                       width={400}
                       height={300}
                       loading="lazy"

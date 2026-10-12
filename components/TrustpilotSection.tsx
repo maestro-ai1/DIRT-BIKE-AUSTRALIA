@@ -33,7 +33,7 @@ export function TrustpilotSection() {
             <li key={rev.id} className="snap-start shrink-0 basis-full md:basis-[calc(50%-0.375rem)] lg:basis-[calc(33.333%-0.5rem)]">
               <article className="h-full bg-white rounded-xl border border-slate-300 shadow-sm p-4 flex flex-col">
                 <div className="flex items-center justify-between mb-1.5">
-                  <div className="flex items-center gap-0.5" aria-label={`${rev.rating} out of 5 stars`}>
+                  <div className="flex items-center gap-0.5" role="img" aria-label={`${rev.rating} out of 5 stars`}>
                     {[...Array(rev.rating)].map((_, i) => (
                       <span key={i} className="w-3.5 h-3.5 bg-[#00b67a] flex items-center justify-center rounded-[2px] text-white">
                         <Star className="w-2 h-2 fill-current" />
