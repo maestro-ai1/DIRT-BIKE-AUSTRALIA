@@ -19,6 +19,8 @@ export default function AdminOrdersPage() {
 const STATUS_STYLE: Record<string, string> = {
   pending:        'bg-amber-500/10 border-amber-500/30 text-amber-400',
   'payment-sent': 'bg-sky-500/10 border-sky-500/30 text-sky-400',
+  'screenshot-received': 'bg-violet-500/10 border-violet-500/30 text-violet-300',
+  'payment-confirmed':   'bg-emerald-500/10 border-emerald-500/30 text-emerald-400',
   paid:           'bg-emerald-500/10 border-emerald-500/30 text-emerald-400',
   dispatched:     'bg-gray-500/10 border-gray-500/30 text-gray-400',
   cancelled:      'bg-red-500/10 border-red-500/30 text-red-400',
@@ -52,6 +54,22 @@ function OrdersList() {
     } catch { /* ignore */ }
   };
 
+  const [confirming, setConfirming] = useState('');
+  const confirmCrypto = async (ref: string) => {
+    if (!confirm(`Payment received for ${ref}? This emails the customer a confirmation.`)) return;
+    setConfirming(ref);
+    try {
+      const res = await fetch('/api/admin/confirm-crypto/', {
+        method: 'POST',
+        headers: { ...getAuthHeaders(), 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ref }),
+      });
+      if (res.ok) await fetchOrders();
+      else alert('Could not confirm this order.');
+    } catch { alert('Network error.'); }
+    finally { setConfirming(''); }
+  };
+
   const filtered = filter === 'all' ? orders : orders.filter((o) => o.status === filter);
 
   return (
@@ -77,7 +95,7 @@ function OrdersList() {
 
         {/* Filter pills */}
         <div className="flex flex-wrap gap-1.5">
-          {['all', 'pending', 'payment-sent', 'paid', 'dispatched'].map((s) => (
+          {['all', 'pending', 'payment-sent', 'screenshot-received', 'payment-confirmed', 'paid', 'dispatched'].map((s) => (
             <button
               key={s}
               type="button"
@@ -150,7 +168,17 @@ function OrdersList() {
                 </div>
 
                 {/* Send button */}
-                <div className="border-t border-white/5 px-4 py-3">
+                <div className="border-t border-white/5 px-4 py-3 space-y-2">
+                  {order.paymentMethod === 'crypto' && order.status !== 'payment-confirmed' && (
+                    <button
+                      type="button"
+                      disabled={confirming === order.ref}
+                      onClick={() => confirmCrypto(order.ref)}
+                      className="flex items-center justify-center gap-2 w-full py-2.5 bg-emerald-600 hover:bg-emerald-500 disabled:opacity-60 text-white font-bold text-xs rounded-xl transition-colors"
+                    >
+                      {confirming === order.ref ? 'Confirming…' : 'Payment received: email customer'}
+                    </button>
+                  )}
                   <Link
                     href={`/admin/send-payment-email/?ref=${order.ref}`}
                     className="flex items-center justify-center gap-2 w-full py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs rounded-xl transition-colors"

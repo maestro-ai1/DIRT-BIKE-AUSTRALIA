@@ -80,6 +80,9 @@ export async function POST(request: Request) {
             </div>
           </div>`;
 
+          const isCryptoOrder = paymentMethod === 'crypto';
+          const cryptoUrl = `https://${SITE.domain}/order/crypto/?id=${encodeURIComponent(orderRef)}&total=${encodeURIComponent(String(total))}`;
+
           const customerHtml = buildEmailHtml({
             title: `Order ${orderRef} — Payment Awaited`,
             preheader: `Hi ${customerName}, your order is in. Complete payment to dispatch your bike.`,
@@ -91,6 +94,9 @@ export async function POST(request: Request) {
             ],
             afterRows: termsHtml,
             ctaButtons: [
+              ...(isCryptoOrder
+                ? [{ label: 'Pay with Crypto (BTC / USDT) →', url: cryptoUrl, style: 'primary' as const }]
+                : []),
               {
                 label: "I\'ve Paid — Upload Confirmation →",
                 url: `https://${SITE.domain}/confirm/?ref=${encodeURIComponent(orderRef)}`,

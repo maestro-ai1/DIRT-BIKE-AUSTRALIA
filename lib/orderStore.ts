@@ -6,7 +6,7 @@ export interface StoredOrder {
   ref: string;
   confirmToken: string;
   channel: 'whatsapp' | 'email';
-  status: 'pending' | 'payment-sent' | 'paid' | 'dispatched' | 'cancelled';
+  status: 'pending' | 'payment-sent' | 'screenshot-received' | 'payment-confirmed' | 'paid' | 'dispatched' | 'cancelled';
   customerName: string;
   email: string;
   phone: string;

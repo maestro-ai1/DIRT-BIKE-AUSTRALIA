@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 import { sendMail } from '@/lib/mailer';
+import { buildEmailHtml, escapeHtml } from '@/lib/emailTemplate';
+import { getOrderById, updateOrderStatus } from '@/lib/orderStore';
 import { CONTACT, SITE } from '@/src/config/site';
 
 export const runtime = 'nodejs';
@@ -8,7 +10,13 @@ export async function POST(request: Request) {
   try {
     const formData = await request.formData();
     const file = formData.get('screenshot') as File | null;
-    const ref = (formData.get('ref') as string) || 'Unknown';
+    const ref = ((formData.get('ref') as string) || 'Unknown').slice(0, 20);
+    const isCrypto = formData.get('method') === 'crypto';
+    const order = isCrypto ? await getOrderById(ref).catch(() => undefined) : undefined;
+
+    if (isCrypto && !/^image\/(jpeg|png|webp|heic|heif)$/i.test(file?.type || '')) {
+      return NextResponse.json({ error: 'Please upload a JPG, PNG, WebP or HEIC image.' }, { status: 400 });
+    }
 
     if (!file || file.size === 0) {
       return NextResponse.json({ error: 'No screenshot file provided.' }, { status: 400 });
@@ -24,7 +32,7 @@ export async function POST(request: Request) {
 
     const result = await sendMail({
       to: CONTACT.email,
-      subject: `[Payment Proof] Order ${ref} — Screenshot Upload`,
+      subject: isCrypto ? `Payment screenshot for order ${ref} (crypto)` : `[Payment Proof] Order ${ref} — Screenshot Upload`,
       html: `
         <div style="font-family:sans-serif;max-width:600px;margin:0 auto;background:#fff;border:1px solid #e2e8f0;border-radius:12px;overflow:hidden;">
           <div style="background:#0f172a;padding:20px 24px;border-bottom:3px solid #0284c7;">
@@ -35,8 +43,9 @@ export async function POST(request: Request) {
             <h2 style="margin:0 0 12px;color:#0f172a;">Payment Screenshot for Order ${ref}</h2>
             <p style="color:#475569;font-size:14px;">A customer has uploaded a payment screenshot for order <strong>${ref}</strong>. Please find the image attached.</p>
             <div style="margin-top:16px;padding:12px 16px;background:#f0f9ff;border-left:4px solid #0284c7;border-radius:6px;">
-              <div style="font-size:13px;color:#0f172a;font-weight:700;">Order Reference: ${ref}</div>
-              <div style="font-size:12px;color:#475569;margin-top:4px;">Action: Log in to the admin portal and mark as Paid.</div>
+              <div style="font-size:13px;color:#0f172a;font-weight:700;">Order Reference: ${escapeHtml(ref)}</div>
+              ${isCrypto ? `<div style="font-size:12px;color:#475569;margin-top:4px;">Payment method: Crypto${order ? ` · ${escapeHtml(order.customerName)} · $${order.total.toLocaleString()} AUD` : ''}</div>` : ''}
+              <div style="font-size:12px;color:#475569;margin-top:4px;">${isCrypto ? 'Check the screenshot against your wallet, then press &quot;Payment received&quot; in the admin portal to email the customer.' : 'Action: Log in to the admin portal and mark as Paid.'}</div>
             </div>
             <a href="https://${SITE.domain}/admin/orders/" style="display:inline-block;margin-top:16px;padding:10px 20px;background:#0284c7;color:#fff;text-decoration:none;font-weight:700;font-size:13px;border-radius:8px;">Open Admin Portal</a>
           </div>
@@ -50,6 +59,24 @@ export async function POST(request: Request) {
         },
       ],
     });
+
+    if (isCrypto && order) {
+      await updateOrderStatus(order.id, 'screenshot-received').catch(() => null);
+      if (order.email.includes('@') && !order.email.endsWith('.local')) {
+        await sendMail({
+          to: order.email,
+          subject: `We received your payment screenshot: order ${ref}`,
+          html: buildEmailHtml({
+            title: 'Screenshot received',
+            preheader: `We have your payment screenshot for order ${ref}.`,
+            refBadge: ref,
+            intro: `Hi ${order.customerName.split(' ')[0]}, thank you. We have your payment screenshot for order ${ref}. We will check it against our wallet and email you as soon as your payment is confirmed.`,
+            rows: [{ label: 'Amount', value: `$${order.total.toLocaleString()} AUD`, highlight: true, mono: true }],
+          }),
+          text: `We have your payment screenshot for order ${ref}. We will email you as soon as payment is confirmed.`,
+        }).catch(() => null);
+      }
+    }
 
     if (!result.sent && result.reason === 'not-configured') {
       // SMTP not configured — still return 200 so the customer sees success

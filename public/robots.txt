@@ -6,6 +6,7 @@
 User-agent: *
 Allow: /
 Disallow: /admin/
+Disallow: /order/
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 # ---- 2. AI answer engines, citation retrievers and training crawlers: ALLOWED (citations, links and brand knowledge) ----
@@ -27,6 +28,7 @@ User-agent: anthropic-ai
 User-agent: CCBot
 Allow: /
 Disallow: /admin/
+Disallow: /order/
 
 # ---- 3. Aggressive / low-value crawlers: DISALLOWED ----
 User-agent: Bytespider

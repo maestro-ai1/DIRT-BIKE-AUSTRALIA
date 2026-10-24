@@ -153,7 +153,11 @@ function CheckoutForm({
 
     clearCart();
     setIsCartOpen(false);
-    router.push(`/thank-you-order/?ref=${orderRef}&method=${paymentMethod}&total=${currentTotal}`);
+    router.push(
+      paymentMethod === 'crypto'
+        ? `/order/crypto/?id=${orderRef}&total=${currentTotal}`
+        : `/thank-you-order/?ref=${orderRef}&method=${paymentMethod}&total=${currentTotal}`
+    );
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -200,7 +204,9 @@ function CheckoutForm({
         clearCart();
         setIsCartOpen(false);
         router.push(
-          `/thank-you-order/?ref=${orderRef}&email=${encodeURIComponent(form.email)}&method=${paymentMethod}&total=${currentTotal}`
+          paymentMethod === 'crypto'
+            ? `/order/crypto/?id=${orderRef}&total=${currentTotal}`
+            : `/thank-you-order/?ref=${orderRef}&email=${encodeURIComponent(form.email)}&method=${paymentMethod}&total=${currentTotal}`
         );
       } else {
         const data = await res.json().catch(() => ({}));
@@ -382,7 +388,11 @@ function CheckoutForm({
           disabled={isSubmitting}
           className="w-full py-3.5 px-4 bg-sky-600 hover:bg-sky-500 disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold rounded-xl text-sm transition-all shadow-md shadow-sky-600/20"
         >
-          {isSubmitting ? 'Placing Order…' : `Place Order · $${currentTotal.toLocaleString()} AUD`}
+          {isSubmitting
+            ? 'Placing Order…'
+            : paymentMethod === 'crypto'
+              ? `Continue to Crypto Payment · $${currentTotal.toLocaleString()} AUD`
+              : `Place Order · $${currentTotal.toLocaleString()} AUD`}
         </button>
 
         <button

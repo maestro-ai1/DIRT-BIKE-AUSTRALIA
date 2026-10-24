@@ -45,6 +45,13 @@ export const SHOP = {
   defaultWarranty: '12 Months Comprehensive Australian Factory Warranty',
 };
 
+// Public receive addresses only (never keys or seed phrases).
+export const CRYPTO = {
+  bitcoinAddress: 'bc1q26x7nc3r2vjzyzjvv2mzg56sudtwum4xteg3hd',
+  usdtTrc20Address: 'TXsafxfWLDFPdU8aNNec7fTZH4jkKfWYDP',
+  usdtErc20Address: '0xaF80aa1ca688A1318e1F39E273cAf5895bE12749',
+};
+
 export const FORMS = {
   provider: 'smtp',
   smtpFrom: 'sales@electricdirtbikeaustralia.com.au',
