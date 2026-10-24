@@ -32,7 +32,7 @@ export const AUTH: Record<string, AuthLink> = {
   },
   vicTransport: {
     label: 'Electric bikes: rules and safety requirements in Victoria',
-    url: 'https://transport.vic.gov.au/road-rules-and-safety/bicycles/electric-bikes',
+    url: 'https://transport.vic.gov.au/road-and-active-transport/active-transport/bicycles/electric-bikes',
     source: 'Transport Victoria',
     note: 'Which e-bikes are legal in Victoria and the EN 15194 standard.',
   },
@@ -80,6 +80,7 @@ export const AUTH: Record<string, AuthLink> = {
     url: 'https://nt.gov.au/driving/safety/electric-scooters-and-bikes',
     source: 'Northern Territory Government',
     note: 'Northern Territory power and speed limits for e-bikes.',
+    botBlocked: true,
   },
   accc: {
     label: 'E-bikes, e-scooters and other e-micromobility devices',
@@ -168,7 +169,7 @@ const BRAND_SITES: { test: RegExp; link: AuthLink }[] = [
   { test: /stark/, link: { label: 'Stark Future official website (Stark VARG)', url: 'https://starkfuture.com/', source: 'Stark Future', note: 'Manufacturer information on the Stark VARG electric motocross bike.' } },
   { test: /\bktm\b|^ktm-|-ktm-/, link: { label: 'KTM Australia (KTM SX-E electric bikes)', url: 'https://www.ktm.com/en-au.html', source: 'KTM', note: 'Official KTM Australia site, including the SX-E electric range.' } },
   { test: /husqvarna/, link: { label: 'Husqvarna Motorcycles Australia (EE 5)', url: 'https://www.husqvarna-motorcycles.com/en-au.html', source: 'Husqvarna Motorcycles', note: 'Official Husqvarna Australia site, including the EE 5 electric bike.' } },
-  { test: /kuberg/, link: { label: 'Kuberg official website', url: 'https://www.kuberg.com/', source: 'Kuberg', note: 'Manufacturer information on Kuberg electric bikes.' } },
+  { test: /kuberg/, link: { label: 'Kuberg official website', url: 'https://www.kuberg.com/en', source: 'Kuberg', note: 'Manufacturer information on Kuberg electric bikes.' } },
   { test: /razor/, link: { label: 'Razor official website', url: 'https://razor.com/', source: 'Razor', note: 'Manufacturer information on Razor ride-ons.' } },
   { test: /vmoto/, link: { label: 'Vmoto official website', url: 'https://vmoto.com/', source: 'Vmoto', note: 'Manufacturer information on Vmoto electric motorcycles.' } },
   { test: /super73/, link: { label: 'SUPER73 official website', url: 'https://super73.com/', source: 'SUPER73', note: 'Manufacturer information on SUPER73 electric motorbikes.' } },
