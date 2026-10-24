@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: cheap electric dirt bikes 260, cheap electric dirt bike 140, cheap e dirt bike 140, cheapest electric dirt bike 110, electric dirt bike cheap 90, affordable electric dirt bike 50 (Commercial).
 const seo = seoFor('/electric-dirt-bikes/cheap/');
 export const metadata: Metadata = {
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-dirt-bikes/cheap/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-dirt-bikes/cheap/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-dirt-bikes/cheap/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const YOUTH = ['razor-mx650-electric-kids', 'dhz-electric-kids-mini-off-road-dirt-bike-36v-350w-motor', 'edba-moto-50-kids-beginner', 'crossfire-ecr1500-kids-electric-dirt-bike'];

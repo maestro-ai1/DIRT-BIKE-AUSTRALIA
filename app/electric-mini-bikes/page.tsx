@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: mini e bike 1,000, electric mini bike 590, mini electric bike 590, mini ebike 590 (all Commercial).
 // Main keyword (inferred transactional, 20/mo): electric mini bikes for sale.
 const seo = seoFor('/electric-mini-bikes/');
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-mini-bikes/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-mini-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-mini-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const MINI = ['ace-mini-electric-fat-bike', 'ace-x-mini-pro-electric-bike'];

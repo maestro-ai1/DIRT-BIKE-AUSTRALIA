@@ -10,6 +10,7 @@ import { ProductCard } from '@/components/ProductCard';
 import { toCard } from '@/lib/productCard';
 import { productImageAlt } from '@/lib/productSeo';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 interface Props { params: Promise<{ tag: string }>; }
 
 // Tag pages exist only for tags used by 4+ posts that are not already a category keyword (see indexableTags). Each page lists the guides, the
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description: d.length > 160 ? d.slice(0, 157) + '...' : d,
     alternates: { canonical: `https://${SITE.domain}/blog/tag/${tag}/` },
     robots: { index: true, follow: true },
-    openGraph: { title: t, description: d, url: `https://${SITE.domain}/blog/tag/${tag}/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+    openGraph: { title: t, description: d, url: `https://${SITE.domain}/blog/tag/${tag}/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
   };
 }
 

@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: electric fat bike 720, best fat tyre electric bike australia 320, fat bike australia 210, electric fat tyre bike 210,
 // fat tyre electric bike australia 140, e bike cruiser 390 (all Commercial); beach cruiser for sale 50 (Transactional).
 const seo = seoFor('/electric-fat-tyre-bikes/');
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-fat-tyre-bikes/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-fat-tyre-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-fat-tyre-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const ACE = ['ace-adventure-fat-tyre-electric-bike', 'ace-pro-dual-suspension-fat-tyre-electric-bike', 'ace-x-demon-dual-motor-fat-electric-bike'];

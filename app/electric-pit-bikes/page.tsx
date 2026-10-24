@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU (full bank): electric pit bike for sale 40 (T); electric pit bikes 110, e pit bike 110, fast electric pit bike 110, electric pitbike 140 (C). Products imported from the old site.
 const seo = seoFor('/electric-pit-bikes/');
 export const metadata: Metadata = {
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-pit-bikes/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-pit-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-pit-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 export default function ElectricPitBikesPage() {

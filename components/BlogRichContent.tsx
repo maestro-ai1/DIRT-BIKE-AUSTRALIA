@@ -102,11 +102,13 @@ export function renderInline(text: string, keyPrefix = 'i'): React.ReactNode[] {
 }
 
 export function RichContent({ blocks }: { blocks: RichBlock[] }) {
+  let lastLevel = 1;
   return (
     <>
       {blocks.map((b, i) => {
         switch (b.kind) {
           case 'h': {
+            lastLevel = b.level;
             if (b.level === 2) return <h2 key={i} id={b.id} className="text-xl sm:text-2xl font-extrabold text-slate-900 pt-6 tracking-tight scroll-mt-28">{b.text}</h2>;
             if (b.level === 3) return <h3 key={i} id={b.id} className="text-lg sm:text-xl font-bold text-slate-900 pt-3 tracking-tight scroll-mt-28">{b.text}</h3>;
             return <h4 key={i} id={b.id} className="text-base font-bold text-slate-800 pt-2 scroll-mt-28">{b.text}</h4>;
@@ -126,7 +128,7 @@ export function RichContent({ blocks }: { blocks: RichBlock[] }) {
             if (!p) return null;
             return (
               <div key={i} className="my-2 max-w-sm mx-auto">
-                <ProductCard product={toCard(p)} alt={productImageAlt(p)} as="h4" />
+                <ProductCard product={toCard(p)} alt={productImageAlt(p)} as={lastLevel <= 2 ? 'h3' : 'h4'} />
               </div>
             );
           }

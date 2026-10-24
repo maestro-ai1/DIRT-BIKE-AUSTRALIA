@@ -9,6 +9,8 @@ import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
 import { productSeoTitle, productSeoDescription } from '@/lib/productSeo';
 import { ProductGuide } from '@/components/ProductGuide';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { relatedProducts } from '@/lib/relatedProducts';
+import { getProductGuide } from '@/lib/productGuide';
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -73,7 +75,9 @@ export default async function ProductDetailPage({ params }: Props) {
     notFound();
   }
 
-  const related = PRODUCTS.filter((p) => p.slug !== product.slug && (p.category === product.category || p.brand === product.brand)).slice(0, 3);
+  // Six related products, spread across the catalogue (price-neighbours of the same kind, then same brand), trimmed to what the card needs.
+  const related = relatedProducts(product, 6).map((p) => ({ slug: p.slug, name: p.name, brand: p.brand, price: p.price, compareAtPrice: p.compareAtPrice, category: p.category, badge: p.badge, shortDescription: p.shortDescription, images: p.images.slice(0, 1), specs: p.specs }));
+  const guideLinks = getProductGuide(product).outbound.map((o) => o.url);
   const faqs = getProductFaqs(product);
 
   // Schema.org Product, Offer, Brand, BreadcrumbList, FAQPage
@@ -177,7 +181,7 @@ export default async function ProductDetailPage({ params }: Props) {
 
         <ProductGuide product={product} />
 
-        <AuthorityLinks path={`/shop/${product.slug}/`} className="mt-12" />
+        <AuthorityLinks path={`/shop/${product.slug}/`} className="mt-12" exclude={guideLinks} />
       </div>
     </div>
   );

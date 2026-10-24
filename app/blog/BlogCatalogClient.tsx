@@ -175,7 +175,10 @@ export function BlogCatalogClient({ posts }: { posts: BlogPost[] }) {
                     <img
                       src={post.image}
                       alt={post.title}
+                      width={800}
+                      height={600}
                       loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-3 left-3">

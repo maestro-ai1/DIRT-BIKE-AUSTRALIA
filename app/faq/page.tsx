@@ -7,6 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { HelpCircle, ChevronRight } from 'lucide-react';
 
 import { FaqItem } from '@/components/FaqItem';
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 const seo = seoFor('/faq/');
 const FAQ_ITEMS = buildFaq(FAQ);
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'website',
+    images: DEFAULT_OG_IMAGES,
   },
   other: {
     'og:updated_time': new Date().toISOString(),

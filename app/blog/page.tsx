@@ -7,6 +7,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { BlogCatalogClient } from './BlogCatalogClient';
 import { BookOpen } from 'lucide-react';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 const seo = seoFor('/blog/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'website',
+    images: DEFAULT_OG_IMAGES,
   },
   other: {
     'og:updated_time': new Date().toISOString(),

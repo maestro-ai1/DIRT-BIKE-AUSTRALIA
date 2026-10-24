@@ -185,7 +185,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       { q: 'Where can I buy an electric bike for sale in Australia?', a: `You can order online from Electric Dirt Bike Australia. We list electric bicycles for sale Australia-wide, and our e bike sales Australia customers receive free insured freight over $1,500 from Mittagong NSW.` },
       { q: 'Do you have electric road bikes for sale?', a: 'Road-registered electric mopeds are the road bikes in our range, and the road-compliant Ampd Bros e-bikes are 250W pedal-assist bikes. See the electric motorbikes and mopeds pages.' },
       { q: 'Do you have an electric bike in black?', a: 'Several Ampd Bros e-bikes, including the ACE Mini and the CHUBBIE 3, are offered in matte black. Each product page lists the colour options. Prices are shown on each listing, and the 10% crypto and PayID saving applies to all electric bikes on sale here.' },
-      { q: 'Do you have an ebike for sale in Australia that needs no licence?', a: 'Yes. Pedal-assist e-bikes that meet the Australian 250W and 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, need no licence or registration. Higher-powered bikes must be registered or used off-road.' },
+      { q: 'Do you have an ebike for sale in Australia that needs no licence?', a: 'Yes, in most states. Pedal-assist e-bikes that meet the Australian 250W and 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, need no registration and no licence outside Queensland, where riders must be 16 and hold a licence from 31 August 2026. Higher-powered bikes must be registered or used off-road.' },
     ],
   },
   '/electric-bikes/cheap/': {
@@ -296,7 +296,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Best E Bikes Australia: Value Picks',
         paragraphs: [
-          'The best e bikes Australia has to offer balance price, range and warranty. In our ranking the value picks are the road-compliant Ampd Bros e-bikes: 250W, 25 km/h assist and no licence or registration in the road-compliant option. People also look for the best ebikes Australia wide or cool electric bikes for weekend rides, and the picks above cover both.',
+          'The best e bikes Australia has to offer balance price, range and warranty. In our ranking the value picks are the road-compliant Ampd Bros e-bikes: 250W, 25 km/h assist and no registration in the road-compliant option, and no licence outside Queensland. People also look for the best ebikes Australia wide or cool electric bikes for weekend rides, and the picks above cover both.',
         ],
       },
       {
@@ -470,7 +470,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Electric Motorbike Brisbane: Licence and Rego Basics',
         paragraphs: [
-          'An electric motorbike in Brisbane is treated like a petrol motorbike on the road: it needs registration and a licence. Off-road electric bikes are for private land only. Pedal-assist e-bikes under 250W need neither.',
+          'An electric motorbike in Brisbane is treated like a petrol motorbike on the road: it needs registration and a licence. Off-road electric bikes are for private land only. Pedal-assist e-bikes under 250W need no registration, but Queensland riders must be 16 and hold a licence (at least a Learner) from 31 August 2026.',
         ],
       },
     ],
@@ -485,7 +485,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
       {
         heading: 'Electric Bike Gold Coast: Commuter and Beach Riding',
         paragraphs: [
-          'An electric bike on the Gold Coast suits beachfront paths, canal tracks and daily commutes. Fat-tyre e-bikes handle sand and boardwalks, while the road-compliant Ampd Bros e-bikes cover longer commutes with no licence.',
+          'An electric bike on the Gold Coast suits beachfront paths, canal tracks and daily commutes. Fat-tyre e-bikes handle sand and boardwalks, while the road-compliant Ampd Bros e-bikes cover longer commutes with no registration (Queensland riders must be 16 and hold a licence).',
         ],
       },
     ],
@@ -573,7 +573,7 @@ export const EXTRA_BLOCKS: Record<string, ExtraBlock> = {
     ],
     faqs: [
       { q: 'What is a fat tire electric bicycle best for?', a: 'Soft ground: sand, snow and loose gravel. The wide tyre gives traction and a cushioned ride, at the cost of some weight.' },
-      { q: 'Do you have a beach cruiser for sale?', a: 'Yes. Our cruiser range includes the CHUBBIE 3 and the Stubbie S3, which suit beach paths and relaxed city riding. Prices for each cruiser electric bike Australia-wide are on the listings, and the road-compliant models need no licence or registration.' },
+      { q: 'Do you have a beach cruiser for sale?', a: 'Yes. Our cruiser range includes the CHUBBIE 3 and the Stubbie S3, which suit beach paths and relaxed city riding. Prices for each cruiser electric bike Australia-wide are on the listings, and the road-compliant models need no registration, and no licence outside Queensland.' },
       { q: 'Are fat bikes Australia road legal?', a: 'Fat-tyre e-bikes that meet the 250W standard are legal on roads and paths. Higher-powered ones are off-road only.' },
     ],
   },

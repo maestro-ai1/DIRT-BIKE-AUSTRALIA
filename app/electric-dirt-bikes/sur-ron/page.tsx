@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: surron for sale 260, sur ron ebike for sale 140, sur ron electric bike price 140, surrons for sale 110, surron ebike price 70, surron light bee x price australia 70, surron electric bike for sale 50 (all Transactional).
 const seo = seoFor('/electric-dirt-bikes/sur-ron/');
 export const metadata: Metadata = {
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-dirt-bikes/sur-ron/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-dirt-bikes/sur-ron/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-dirt-bikes/sur-ron/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const BIKES = ['sur-ron-light-bee-x', 'sur-ron-storm-bee-mx', 'sur-ron-ultra-bee', 'sur-ron-storm-bee-enduro'];

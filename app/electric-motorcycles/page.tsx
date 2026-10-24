@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: electric motorcycle 1,900, electric motorcycle australia 1,900, e motorcycle 880, electric motorcycles 720,
 // electric motorcycles australia 590 (Commercial); electric motorcycle for sale 260 (Transactional); australian electric motorcycle 1,300 (Informational, FAQ).
 const seo = seoFor('/electric-motorcycles/');
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-motorcycles/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-motorcycles/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-motorcycles/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const ROAD = ['vmoto-soco-tc-max-electric', 'niu-nqi-gt-electric-moped', 'super-soco-cpx-electric-moped'];

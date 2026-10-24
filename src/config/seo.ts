@@ -129,11 +129,11 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     primary: ['electric moped australia', 'electric motorcycle moped', 'electric moped bike', 'electric mopeds australia', 'best electric moped australia'],
   },
   '/electric-motor-bikes/best-electric-bikes-australia/': {
-    title: 'Best Electric Bikes Australia 2026 | Top 10 Ranked',
-    description: 'Best electric bikes Australia 2026: the top 10 ranked by price, range and rider type, with where to buy and what each costs.',
-    ogTitle: 'Best Electric Bikes Australia 2026 | Top 10 Ranked',
-    ogDescription: 'Best electric bikes Australia 2026: the top 10 ranked by price, range and rider type, with where to buy and what each costs.',
-    h1: 'Best Electric Bikes Australia 2026: Expert Buyer\'s Guide',
+    title: 'Best Electric Bike Australia 2026 | Top 10 Ranked',
+    description: 'Best electric bike Australia 2026: the top 10 ranked by price, range and rider type, with where to buy and what each costs.',
+    ogTitle: 'Best Electric Bike Australia 2026 | Top 10 Ranked',
+    ogDescription: 'Best electric bike Australia 2026: the top 10 ranked by price, range and rider type, with where to buy and what each costs.',
+    h1: 'Best Electric Bike Australia 2026: Expert Buyer\'s Guide',
     keywords: 'best electric bike australia, best electric bikes australia, best e bikes australia, best ebike australia',
     main: 'best electric bike australia',
     primary: ['best electric bikes australia', 'best e bikes australia', 'best ebike australia'],
@@ -377,7 +377,7 @@ export const FAQ_SEO: SeoFaq[] = [
   },
   {
     question: 'Are electric bikes legal in NSW, Queensland and Victoria?',
-    answer: 'Rules depend on the type of bike. Pedal-assist e-bikes that meet the Australian 250W, 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, are treated as bicycles and need no licence or registration. Higher-powered electric motorbikes are different: they are supplied for private property and off-road parks, or must be registered as motorcycles or mopeds. Rules differ by state, so check your state transport authority and read our electric bike laws guide.',
+    answer: 'Rules depend on the type of bike. Pedal-assist e-bikes that meet the Australian 250W, 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, are treated as bicycles and need no registration, and no licence outside Queensland. Higher-powered electric motorbikes are different: they are supplied for private property and off-road parks, or must be registered as motorcycles or mopeds. Rules differ by state, so check your state transport authority and read our electric bike laws guide.',
     keywords: ['electric bike laws australia', 'electric bike laws qld', 'electric bike regulations nsw'],
   },
   {

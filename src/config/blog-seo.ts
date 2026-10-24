@@ -130,3 +130,51 @@ export function indexableTags(allSlugs: string[]): [string, { label: string; slu
     ([k, v]) => v.slugs.length >= MIN_POSTS_PER_TAG_PAGE && v.slugs.some((s) => fresh.has(s)) && !CATEGORY_KEYWORDS.has(k),
   );
 }
+
+// Title tags (<=60 characters, keyword first) for posts whose full title is too long to display in search results.
+// Only the <title> changes: each post keeps its full H1 and content. Posts not listed here use their own title.
+export const SEO_TITLES: Record<string, string> = {
+  "sur-ron-vs-talaria-australia-buyers-guide": "Sur-Ron Light Bee X vs Talaria Sting R: Which Wins?",
+  "top-10-best-electric-dirt-bikes-australia-2026": "Top 10 Best Electric Dirt Bikes in Australia (2026)",
+  "are-electric-dirt-bikes-legal-in-australia": "Are Electric Dirt Bikes Legal in Australia? Laws Explained",
+  "supermoto-wheel-conversion-for-electric-dirt-bikes": "Supermoto Wheel Conversion Guide for Sur-Ron & Talaria",
+  "electric-dirt-bike-vs-petrol-motocross-running-costs": "Electric Dirt Bike vs Petrol Motocross: 2-Year Costs",
+  "72v-vs-60v-electric-dirt-bike-battery-upgrade-guide": "72V vs 60V Electric Dirt Bike Batteries Compared",
+  "electric-motorbike-vs-petrol-australia-2026": "Electric Motorbike vs Petrol in Australia (2026)",
+  "road-legal-electric-motorcycle-australia-guide": "Road Legal Electric Motorcycle Australia: Laws & Models",
+  "electric-dirt-bike-fast-chargers-and-solar-generators": "Fast Chargers & Solar Generators for Electric Dirt Bikes",
+  "kids-electric-motorbike-australia-buyers-guide": "Kids Electric Motorbike Australia: Safety Picks by Age",
+  "oset-bikes-australia-review-junior-electric": "OSET Bikes Australia: Junior Electric Trials Bikes Reviewed",
+  "best-electric-bike-australia-complete-guide": "Best Electric Bike Australia 2026: Expert-Ranked Guide",
+  "electric-motor-bike-australia-guide-2026": "Electric Motor Bike Australia: Road, Off-Road & Commuter",
+  "childs-electric-motorcycle-australia-complete-guide": "Child's Electric Motorcycle Australia: Age & Safety Guide",
+  "torp-tc500-vs-bac4000-controller-comparison": "Torp TC500 vs BAC4000: Electric Dirt Bike Controllers",
+  "complete-pre-ride-and-post-wash-maintenance-guide": "E-Moto Maintenance Guide: Cleaning, Chain & Bearings",
+  "electric-fat-bike-guide-australia": "Electric Fat Bike Australia: Best Wide-Tyre E-Bikes 2026",
+  "future-of-electric-motocross-racing-in-australia": "The Future of Electric Motocross Racing in Australia",
+  "molicel-p45b-vs-samsung-50s-lithium-cells": "Molicel P45B vs Samsung 50S: Lithium Cells Compared",
+  "stark-varg-review-australia-2026": "Stark Varg Review 2026: 80HP Electric Motocross Tested",
+  "suspension-upgrades-for-sur-ron-and-talaria": "Sur-Ron & Talaria Suspension Upgrades: Fork Tuning",
+  "electric-dirt-bikes-australia-buyers-guide-2026": "Electric Dirt Bikes Australia: Top Models & Prices 2026",
+  "stark-varg-motocross-revolution-australia": "Stark Varg 80HP: Electric Motocross in Australia",
+  "72v-battery-upgrade-guide-electric-dirt-bike": "72V Battery Upgrade for Electric Dirt Bikes (2026 Guide)",
+  "e-ride-pro-australia-review": "E-Ride Pro Australia Review: SS 2.0, S16 & S17 Models",
+  "electric-dirt-bike-braking-upgrades-250mm-rotors": "250mm Rotor Upgrade: Electric Dirt Bike Braking Power",
+  "best-ebike-australia-2026": "Best eBike Australia 2026: Off-Road, Commuter & Kids",
+  "extending-single-charge-range-on-rugged-bush-trails": "Electric Dirt Bike Range: How to Get 100km+ Per Charge",
+  "how-to-charge-maintain-electric-dirt-bike-batteries": "Electric Dirt Bike Battery Care: Charging Guide 60V & 72V",
+  "off-road-electric-bike-australia-guide": "Off Road Electric Bike Australia: Trails, Laws & Models",
+  "high-performance-electric-dirt-bike-australia": "High Performance Electric Dirt Bike Australia Compared",
+  "ktm-electric-dirt-bike-australia-sx-e-guide": "KTM Electric Dirt Bike Australia: SX-E 5 Price & Specs",
+  "talaria-dragon-komodo-full-size-electric-enduro-review": "Talaria Dragon & Komodo: Full-Size Electric Enduro Review",
+  "e-ride-pro-australia-buyers-guide": "E-Ride Pro Australia Buyer's Guide: Range & Prices",
+  "electric-bike-regulations-nsw-2026": "Electric Bike Regulations NSW 2026: Certification & Rules",
+  "electric-enduro-bike-australia-review": "Electric Enduro Bike Australia: Best Full-Size Models 2026",
+};
+
+// <title> for a post: the override when there is one, otherwise the post title plus the blog suffix when that stays within 70 characters.
+export function blogSeoTitle(slug: string, title: string): string {
+  const t = SEO_TITLES[slug];
+  if (t) return t;
+  return title.length + 11 <= 70 ? `${title} | EDBA Blog` : title;
+}

@@ -9,6 +9,7 @@ import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 const seo = seoFor('/brands/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -24,6 +25,7 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'website',
+    images: DEFAULT_OG_IMAGES,
   },
   other: {
     'og:updated_time': new Date().toISOString(),

@@ -1,6 +1,6 @@
 # Electric Dirt Bike Australia: full documentation
 
-> Complete Markdown reference for https://electricdirtbikeaustralia.com.au. Generated from the site's source data. Prices are in AUD including GST. Last generated 2026-10-12.
+> Complete Markdown reference for https://electricdirtbikeaustralia.com.au. Generated from the site's source data. Prices are in AUD including GST. Last generated 2026-10-24.
 
 ## Business facts
 
@@ -263,7 +263,7 @@ An e bike battery lasts several years with sensible charging. When it is time to
 
 **Do you have an electric bike in black?** Several Ampd Bros e-bikes, including the ACE Mini and the CHUBBIE 3, are offered in matte black. Each product page lists the colour options. Prices are shown on each listing, and the 10% crypto and PayID saving applies to all electric bikes on sale here.
 
-**Do you have an ebike for sale in Australia that needs no licence?** Yes. Pedal-assist e-bikes that meet the Australian 250W and 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, need no licence or registration. Higher-powered bikes must be registered or used off-road.
+**Do you have an ebike for sale in Australia that needs no licence?** Yes, in most states. Pedal-assist e-bikes that meet the Australian 250W and 25 km/h assist standard, like the road-compliant Ampd Bros e-bikes, need no registration and no licence outside Queensland, where riders must be 16 and hold a licence from 31 August 2026. Higher-powered bikes must be registered or used off-road.
 
 ### Cheap Electric Bikes for Sale in Australia
 
@@ -483,7 +483,7 @@ Cruiser electric bike prices in Australia start at the entry fat-tyre models and
 
 **What is a fat tire electric bicycle best for?** Soft ground: sand, snow and loose gravel. The wide tyre gives traction and a cushioned ride, at the cost of some weight.
 
-**Do you have a beach cruiser for sale?** Yes. Our cruiser range includes the CHUBBIE 3 and the Stubbie S3, which suit beach paths and relaxed city riding. Prices for each cruiser electric bike Australia-wide are on the listings, and the road-compliant models need no licence or registration.
+**Do you have a beach cruiser for sale?** Yes. Our cruiser range includes the CHUBBIE 3 and the Stubbie S3, which suit beach paths and relaxed city riding. Prices for each cruiser electric bike Australia-wide are on the listings, and the road-compliant models need no registration, and no licence outside Queensland.
 
 **Are fat bikes Australia road legal?** Fat-tyre e-bikes that meet the 250W standard are legal on roads and paths. Higher-powered ones are off-road only.
 
@@ -671,7 +671,7 @@ Our e bikes for sale in Brisbane include road-legal commuters, electric mopeds a
 
 #### Electric Motorbike Brisbane: Licence and Rego Basics
 
-An electric motorbike in Brisbane is treated like a petrol motorbike on the road: it needs registration and a licence. Off-road electric bikes are for private land only. Pedal-assist e-bikes under 250W need neither.
+An electric motorbike in Brisbane is treated like a petrol motorbike on the road: it needs registration and a licence. Off-road electric bikes are for private land only. Pedal-assist e-bikes under 250W need no registration, but Queensland riders must be 16 and hold a licence (at least a Learner) from 31 August 2026.
 
 **Is there an electric bike for sale in Brisbane with free delivery?** Yes. Free insured freight applies to orders over $1,500 AUD, including to Brisbane and the rest of QLD. Brisbane riders also ask for electric bikes in Milton: we deliver there too.
 
@@ -686,7 +686,7 @@ Summary: Electric bicycle Gold Coast: e bikes, mopeds and e-motos delivered to Q
 
 #### Electric Bike Gold Coast: Commuter and Beach Riding
 
-An electric bike on the Gold Coast suits beachfront paths, canal tracks and daily commutes. Fat-tyre e-bikes handle sand and boardwalks, while the road-compliant Ampd Bros e-bikes cover longer commutes with no licence.
+An electric bike on the Gold Coast suits beachfront paths, canal tracks and daily commutes. Fat-tyre e-bikes handle sand and boardwalks, while the road-compliant Ampd Bros e-bikes cover longer commutes with no registration (Queensland riders must be 16 and hold a licence).
 
 ### Electric Bikes Townsville: E Bikes for Sale with QLD Delivery
 
@@ -747,10 +747,10 @@ A street legal electric bike either meets the bicycle standard or is registered 
 
 **Can I get a road registered electric bike?** Yes, our electric mopeds and some motorcycles are road registered, which makes them a road registered electric bike in the legal sense. Check each product page for registration details.
 
-### Best Electric Bikes Australia 2026: Expert Buyer's Guide
+### Best Electric Bike Australia 2026: Expert Buyer's Guide
 
 URL: https://electricdirtbikeaustralia.com.au/electric-motor-bikes/best-electric-bikes-australia/
-Summary: Best electric bikes Australia 2026: the top 10 ranked by price, range and rider type, with where to buy and what each costs.
+Summary: Best electric bike Australia 2026: the top 10 ranked by price, range and rider type, with where to buy and what each costs.
 
 #### Best Electric Bike Australia Buyers Choose
 
@@ -760,7 +760,7 @@ Use it as a shortlist, then compare two or three bikes against your commute or r
 
 #### Best E Bikes Australia: Value Picks
 
-The best e bikes Australia has to offer balance price, range and warranty. In our ranking the value picks are the road-compliant Ampd Bros e-bikes: 250W, 25 km/h assist and no licence or registration in the road-compliant option. People also look for the best ebikes Australia wide or cool electric bikes for weekend rides, and the picks above cover both.
+The best e bikes Australia has to offer balance price, range and warranty. In our ranking the value picks are the road-compliant Ampd Bros e-bikes: 250W, 25 km/h assist and no registration in the road-compliant option, and no licence outside Queensland. People also look for the best ebikes Australia wide or cool electric bikes for weekend rides, and the picks above cover both.
 
 #### Best Ebike Australia for Commuters
 
@@ -1085,7 +1085,7 @@ Covers: What a low cost electric bike means at this end of the range; How much i
 URL: https://electricdirtbikeaustralia.com.au/blog/e-bike-cost-australia-price-guide/
 Published: 2026-10-07
 
-E bike cost in Australia runs from $1,599 for a kids bike to $4,990 for a dual-motor fat tyre, with RTR commuters in between. See real prices by bike type.
+E bike cost in Australia runs from $1,599 for a kids bike to $4,990 for a dual-motor fat tyre, with cruisers and fat tyre bikes in between. See real prices by bike type.
 
 Covers: Where e bike cost lands by bike type; Kids electric bikes: $1,599 to $2,399; Beach cruisers and fat tyre e-bikes: $2,190 to $4,990; What moves an electric bicycle price up or down; Electric bike price in Australia: the dirt bike and e-moto league; How much is an electric bike to run after you buy it?; Mistakes to avoid when you compare prices; Ways to pay less on any of these bikes; Choosing by budget: a quick guide; E-bikes for sale: where to buy and what you pay.
 
@@ -1296,9 +1296,9 @@ Published: 2026-10-07
 
 Fat tyre e-bikes or a standard commuter?
 
-Covers: The scorecard at a glance; Grip and stability: why fat tyre e-bikes float where slim tyres sink; Comfort over rough surfaces; Weight, handling and storage; Range and battery: how far an electric fat bike really goes; Price: what a fat bike Australia buyer pays against a commuter; Rules: road-compliant is available on both styles; Electric fat bike or commuter: which one should you buy?; E bikes for sale Australia: what is in stock and what you pay.
+Covers: The scorecard at a glance; Grip and stability: why fat tyre e-bikes float where slim tyres sink; Comfort over rough surfaces; Weight, handling and storage; Range and battery: how far an electric fat bike really goes; Price: what a fat bike Australia buyer pays against a cruiser; Rules: road-compliant is available on both styles; Electric fat bike or cruiser: which one should you buy?; E bikes for sale Australia: what is in stock and what you pay.
 
-**Are wide tyres harder to pedal than normal ones?** Without a motor, yes, because wide knobbly tyres need more effort on pavement. With a motor running, you notice the difference far less, but the battery drains faster. That is why a fat wheel bicycle with assist usually carries a bigger pack than a commuter model with the same claimed range.
+**Are wide tyres harder to pedal than normal ones?** Without a motor, yes, because wide knobbly tyres need more effort on pavement. With a motor running, you notice the difference far less, but the battery drains faster. That is why many fat wheel bicycles with assist carry a large pack.
 
 **What is a fair e bike price for a first wide-tyre e-bike?** Match the bike to your most common surface rather than your occasional weekend trip, and remember freight is free over $1,500.
 
@@ -1484,15 +1484,15 @@ Covers: Reading the numbers: kW, hp, torque and watt hours; Four power classes a
 URL: https://electricdirtbikeaustralia.com.au/blog/electric-motorbike-for-adults-australia-guide/
 Published: 2026-10-07
 
-Choosing an electric motorbike for adults? Compare four stocked road-going models by price, range, weight and licence class, and learn what to check first.
+Choosing an electric motorbike for adults? Compare three stocked road-going models by price, range, weight and licence class, and learn what to check first.
 
-Covers: The four adult road-going models at a glance; Match the bike to the way you ride; Licence and registration: what to check first; Range and charging in plain numbers; The pedal-assist option: an adult electric bike; Electric motorbike for sale: what you pay and what it costs to run; Choosing the right electric motorbike for adults: next steps.
+Covers: The three adult road-going models at a glance; Match the bike to the way you ride; Licence and registration: what to check first; Range and charging in plain numbers; The pedal-assist option: an adult electric bike; Electric motorbike for sale: what you pay and what it costs to run; Choosing the right electric motorbike for adults: next steps.
 
 **Where can I find an electric motorcycle for sale in Australia?** EDBA lists road-going electric motorbikes for sale, from mopeds to full-size motorcycles, in its [electric motorcycles](/electric-motorcycles/) range, with prices on each product page. Stock changes, so check the listing for current availability, and use the contact page if you want a model confirmed before you order. Free freight applies to orders over $1,500.
 
 **Can learner riders use these bikes?** Some can. The NIU NQi GT listing states it is LAMS approved and legal for L and P-plate riders in all states, and the Super Soco CPx and Vmoto TC-Max are listed as LAMS-compliant. Always confirm the licence class for your own situation with your state transport authority before you buy.
 
-**What is the best electric motorcycle for a first-time adult rider?** There is no single best choice, and prices run from $3,490 to $8,990. The Super Soco CPx is the lowest-priced motor-driven option at $5,490 and the lightest at 85 kg. The NIU NQi GT adds speed and GPS tracking at $5,990. The Vmoto TC-Max suits riders who want more speed and a bigger frame. Match the bike to your commute first.
+**What is the best electric motorcycle for a first-time adult rider?** There is no single best choice, and prices run from $5,490 to $8,990. The Super Soco CPx is the lowest-priced motor-driven option at $5,490 and the lightest at 85 kg. The NIU NQi GT adds speed and GPS tracking at $5,990. The Vmoto TC-Max suits riders who want more speed and a bigger frame. Match the bike to your commute first.
 
 **Is it okay to ride an electric motorbike on any road?** Not automatically. Registration, licence class and where a vehicle may travel depend on its classification and on your state's rules. Off-road electric dirt bikes are for private property and designated areas. For any road-going model, check the state government pages linked above and your transport authority before riding on public roads.
 

@@ -7,10 +7,10 @@ const BASE = `https://${SITE.domain}`;
 export default function sitemap(): MetadataRoute.Sitemap {
   // lastmod must only change when a page's content really changes. A build-time timestamp makes every URL look
   // freshly modified on every deploy, and Bing and Google then stop trusting lastmod. Bump UPDATED when content changes.
-  const NEW_PAGES = '2026-10-08'; // 2026-10-07 pages (categories, tags) that got a buying guide, menu and footer links on 2026-10-08, plus the new E-Ride Pro page
-  const UPDATED = '2026-10-12'; // 2026-10-12: on-page SEO remap (titles, H1s, H2 sections, FAQs) on home, categories, city pages, brands, blog index, FAQ
-  const STABLE = '2026-10-08'; // pages and products not touched by the 2026-10-12 remap
-  const TITLE_FIX = '2026-10-08'; // date older posts had their title tag shortened (see app/blog/[slug]/page.tsx)
+  const NEW_PAGES = '2026-10-24'; // 2026-10-24: Open Graph image, official outbound links and corrected Queensland licence wording added
+  const UPDATED = '2026-10-24'; // 2026-10-24: audit fixes (official outbound links, Open Graph image, corrected Queensland e-bike licence wording, best electric bike title)
+  const STABLE = '2026-10-24'; // 2026-10-24: every product page now links six related products and carries de-duplicated, brand-specific outbound links
+  const TITLE_FIX = '2026-10-24'; // 2026-10-24: every guide now links related bikes, has de-duplicated outbound links, and long title tags were shortened
 
   // A tag page changes when a post it lists is published: use the newest member post date.
   const tagLastMod = (slugs: string[]) => slugs.map((sl) => POSTS.find((p) => p.slug === sl)?.date).filter(Boolean).map((d) => new Date(d as string).toISOString().slice(0, 10)).sort().pop();
@@ -67,8 +67,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogPages: MetadataRoute.Sitemap = POSTS.map((post) => ({
     url: `${BASE}/blog/${post.slug}/`,
-    // Posts whose title tag was shortened on UPDATED (see app/blog/[slug]/page.tsx) count as modified that day.
-    lastModified: post.title.length + 11 > 70 || !(post as { rich?: boolean }).rich ? TITLE_FIX : post.date ? new Date(post.date).toISOString().slice(0, 10) : TITLE_FIX,
+    lastModified: TITLE_FIX,
     changeFrequency: 'monthly' as const,
     priority: 0.7,
   }));

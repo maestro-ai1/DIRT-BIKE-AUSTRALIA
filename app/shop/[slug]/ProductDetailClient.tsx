@@ -23,7 +23,7 @@ import { getProductFaqs, getProductTags } from '@/lib/productFaqs';
 import { productImageAlt, getKeyFeatures } from '@/lib/productSeo';
 import { FaqItem } from '@/components/FaqItem';
 import { ProductCard } from '@/components/ProductCard';
-import { PRODUCT_GRID, toCard } from '@/lib/productCard';
+import { PRODUCT_GRID, toCard, type CardSource } from '@/lib/productCard';
 
 interface Product {
   slug: string;
@@ -50,7 +50,7 @@ export function ProductDetailClient({
   related,
 }: {
   product: Product;
-  related: Product[];
+  related: CardSource[];
 }) {
   const { addToCart } = useCart();
   const [qty, setQty] = useState(1);

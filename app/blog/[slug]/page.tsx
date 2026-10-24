@@ -4,11 +4,14 @@ import { notFound } from 'next/navigation';
 import { POSTS, SITE, PRODUCTS } from '@/src/config/site';
 import { Metadata } from 'next';
 import { JsonLd } from '@/components/JsonLd';
-import { blogTags } from '@/src/config/blog-seo';
+import { blogTags, blogSeoTitle } from '@/src/config/blog-seo';
 import type { NewPost } from '@/src/config/posts-2026-10';
 import { RichPostArticle } from '@/components/RichPostArticle';
 import { BlogBuyBlock } from '@/components/BlogBuyBlock';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
+import { BlogRelatedBikes, shopSlugsIn } from '@/components/BlogRelatedBikes';
+import { productsForPost } from '@/lib/relatedProducts';
+import { externalUrlsIn } from '@/src/config/authority-links';
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2, Zap } from 'lucide-react';
 
 interface Props {
@@ -24,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = POSTS.find((p) => p.slug === slug);
   if (!post) return {};
 
-  const title = post.title.length + 11 <= 70 ? `${post.title} | EDBA Blog` : post.title;
+  const title = blogSeoTitle(post.slug, post.title);
   const meta = (post as Partial<NewPost>).metaDescription;
   const descRaw = `${post.excerpt} Expert electric dirt bike guides from Electric Dirt Bike Australia — Mittagong NSW.`;
   const description = meta ?? (descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw);
@@ -79,7 +82,8 @@ export default async function BlogPostPage({ params }: Props) {
   if ((post as Partial<NewPost>).rich) return <RichPostArticle post={post as unknown as NewPost} />;
 
   const relatedPosts = POSTS.filter((p) => p.slug !== post.slug);
-  const featuredBike = PRODUCTS[0];
+  const seenShop = shopSlugsIn(post);
+  const featuredBike = productsForPost(post.slug, 1, [], true)[0] ?? PRODUCTS[0];
 
   // Table of contents: every "### " section becomes an H2 with an anchor id, listed in "In this guide" near the top.
   const slugifyHeading = (t: string) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
@@ -302,7 +306,9 @@ export default async function BlogPostPage({ params }: Props) {
           <BlogBuyBlock slug={post.slug} />
         </article>
 
-        <AuthorityLinks path={`/blog/${post.slug}/`} className="mb-0" />
+        <BlogRelatedBikes slug={post.slug} avoid={[...seenShop, featuredBike.slug]} />
+
+        <AuthorityLinks path={`/blog/${post.slug}/`} className="mb-0" exclude={externalUrlsIn(post)} />
 
         {/* Blog tags: Semrush informational keywords for this topic */}
         {blogTags(post.slug).length > 0 && (

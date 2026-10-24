@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: electric cheap bikes 2,900, cheap electric bikes 720, cheap electric bikes australia 390, electric bike cheap 320,
 // cheapest electric bike australia 210, cheap e bikes australia 170 (Commercial); cheap electric bikes for sale 110 (Transactional).
 const seo = seoFor('/electric-bikes/cheap/');
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-bikes/cheap/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-bikes/cheap/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-bikes/cheap/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const ADULT_CAP = 2800; // adult e-bikes up to this price are listed

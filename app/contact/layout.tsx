@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import { SITE } from '@/src/config/site';
+import { JsonLd } from '@/components/JsonLd';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 export const metadata: Metadata = {
   title: 'Contact Electric Dirt Bike Australia | Mittagong NSW Sales & Service',
   description: 'Call, WhatsApp or email our Mittagong NSW 2575 workshop for expert advice on Sur-Ron, Talaria, Stark Varg, batteries and nationwide delivery.',
@@ -15,9 +17,24 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'website',
+    images: DEFAULT_OG_IMAGES,
   },
 };
 
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `https://${SITE.domain}/` },
+    { '@type': 'ListItem', position: 2, name: 'Contact', item: `https://${SITE.domain}/contact/` },
+  ],
+};
+
 export default function ContactLayout({ children }: { children: React.ReactNode }) {
-  return <>{children}</>;
+  return (
+    <>
+      <JsonLd data={breadcrumb} />
+      {children}
+    </>
+  );
 }

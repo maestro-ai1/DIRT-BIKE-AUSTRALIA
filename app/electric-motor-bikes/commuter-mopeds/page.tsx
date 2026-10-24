@@ -11,6 +11,7 @@ import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { ProductPager } from '@/components/ProductPager';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 const seo = seoFor('/electric-motor-bikes/commuter-mopeds/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -26,6 +27,7 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'website',
+    images: DEFAULT_OG_IMAGES,
   },
 };
 
@@ -68,7 +70,7 @@ export default function CommuterMopedsPage() {
           name: 'What licence do I need to ride an electric moped in Australia?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'LAMS-approved electric mopeds require a motorcycle learner licence or full motorcycle licence in all Australian states. L-plate and P-plate riders can ride LAMS-approved models. Fully road-legal pedal-assist e-bikes under 250W require no licence. Contact your state roads authority (Service NSW, VicRoads, TMR, etc.) for specific requirements.',
+            text: 'LAMS-approved electric mopeds require a motorcycle learner licence or full motorcycle licence in all Australian states. L-plate and P-plate riders can ride LAMS-approved models. Fully road-legal pedal-assist e-bikes under 250W require no licence in most states (Queensland requires riders to be 16 and licensed from 31 August 2026). Contact your state roads authority (Service NSW, VicRoads, TMR, etc.) for specific requirements.',
           },
         },
       ],
@@ -76,7 +78,7 @@ export default function CommuterMopedsPage() {
   ];
 
   const segments = [
-    { title: 'Pedal-Assist e-Bikes (250W)', desc: 'No licence, no registration. Perfect for cycling paths and roads at up to 25 km/h.', badge: 'No Licence Needed', color: 'bg-emerald-50 border-emerald-200' },
+    { title: 'Pedal-Assist e-Bikes (250W)', desc: 'No registration, and no licence in most states (Queensland riders need a licence). Perfect for cycling paths and roads at up to 25 km/h.', badge: 'No Rego Needed', color: 'bg-emerald-50 border-emerald-200' },
     { title: 'Electric Mopeds (3–5kW)', desc: 'LAMS approved. Registration required. L and P-plate legal in all states. 65–95 km/h.', badge: 'LAMS Approved', color: 'bg-sky-50 border-sky-200' },
     { title: 'Urban Scramblers', desc: 'Dual-mode street and light off-road. 25 km/h street mode + unlocked trail mode.', badge: 'Dual Mode', color: 'bg-orange-50 border-orange-200' },
   ];
@@ -103,7 +105,7 @@ export default function CommuterMopedsPage() {
               {seo.h1}
             </h1>
             <p className="text-sm sm:text-base text-slate-300 leading-relaxed">
-              From road-legal 250W commuter e-bikes requiring no licence to fully registered 5kW LAMS electric mopeds — Electric Dirt Bike Australia stocks the complete range of electric commuter motorcycle options for Australian city and suburb riders. Free nationwide freight on orders over $1,500.
+              From road-legal 250W commuter e-bikes that need no registration to fully registered 5kW LAMS electric mopeds — Electric Dirt Bike Australia stocks the complete range of electric commuter motorcycle options for Australian city and suburb riders. Free nationwide freight on orders over $1,500.
             </p>
             <div className="flex flex-wrap gap-3 pt-2 text-xs text-slate-300">
               {['LAMS Approved Models', 'Free AU-Wide Freight Over $1,500', '12-Month Warranty', '10% Crypto Discount'].map((t) => (
@@ -150,7 +152,7 @@ export default function CommuterMopedsPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
               { q: 'Do electric mopeds require registration in Australia?', a: 'Electric mopeds over 250W or capable of exceeding 25 km/h require road registration as a motorcycle or moped. LAMS-approved models like the NIU NQi GT and Vmoto TC-Max can be registered in all Australian states. Pedal-assist e-bikes under 250W require no registration.' },
-              { q: 'What licence is needed for an electric moped in Australia?', a: 'LAMS-approved electric mopeds require a motorcycle learner permit or full motorcycle licence. L-plate and P-plate riders can ride LAMS-approved models in all states. Road-compliant 250W pedal-assist e-bikes require no licence.' },
+              { q: 'What licence is needed for an electric moped in Australia?', a: 'LAMS-approved electric mopeds require a motorcycle learner permit or full motorcycle licence. L-plate and P-plate riders can ride LAMS-approved models in all states. Road-compliant 250W pedal-assist e-bikes require no licence in most states; Queensland requires riders to be 16 and hold a licence.' },
               { q: 'Are electric mopeds allowed in bike lanes in Australia?', a: 'Pedal-assist e-bikes under 250W (like the road-compliant Ampd Bros models) are permitted in bike lanes and shared paths. Registered electric mopeds over 250W must use the road and follow the same road rules as petrol motorcycles.' },
               { q: 'How far does an electric moped travel on one charge in Australia?', a: 'Range varies by model. The NIU NQi GT dual-battery model achieves 100 km. The Super Soco CPx delivers up to 90 km. The Vmoto TC-Max reaches 120 km. The CHUBBIE 3 road-compliant e-bike lists up to 80 km.' },
             ].map((item, i) => (

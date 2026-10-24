@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: electric motocross motorcycle 880, electric motocross bike 720, e motocross bike 260, electric mx bike 90 (all Commercial).
 // Main keyword (inferred transactional, 20/mo): electric motocross bike for sale.
 const seo = seoFor('/electric-motocross-bikes/');
@@ -12,7 +13,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-motocross-bikes/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-motocross-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-motocross-bikes/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const MX = ['stark-varg-ex-80hp', 'stark-varg-alpha-60hp', 'sur-ron-storm-bee-mx', 'stealth-h-52-competition', 'velimotor-vmx12-motocross'];

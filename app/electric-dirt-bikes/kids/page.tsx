@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import { seoFor } from '@/src/config/seo';
 import { CategoryLanding } from '@/components/CategoryLanding';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU: electric dirt bike for kids 320, electric dirt bike kids 110, electric kids dirt bike 110, electric mini dirt bike 90, electric dirt bikes for kids 70, electric dirt bike for 12 year olds 70 (Commercial).
 const seo = seoFor('/electric-dirt-bikes/kids/');
 export const metadata: Metadata = {
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
   description: seo.description,
   keywords: seo.keywords,
   alternates: { canonical: `https://${SITE.domain}/electric-dirt-bikes/kids/` },
-  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-dirt-bikes/kids/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website' },
+  openGraph: { title: seo.ogTitle, description: seo.ogDescription, url: `https://${SITE.domain}/electric-dirt-bikes/kids/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },
 };
 
 const ENTRY = ['razor-mx650-electric-kids', 'rfn-warrior-kids-sx-e250-electric-dirt-bike', 'edba-moto-50-kids-beginner', 'dhz-electric-kids-mini-off-road-dirt-bike-36v-350w-motor', 'crossfire-ecr1500-kids-electric-dirt-bike', 'crossfire-ecr2000-kids-electric-dirt-bike'];

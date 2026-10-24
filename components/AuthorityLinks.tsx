@@ -3,8 +3,8 @@ import { ExternalLink } from 'lucide-react';
 import { authorityLinksFor } from '@/src/config/authority-links';
 
 // "Official Guides & Resources": followed editorial links out to government, regulator, fire-service and reference sources relevant to the page.
-export function AuthorityLinks({ path, className = 'mb-12' }: { path: string; className?: string }) {
-  const links = authorityLinksFor(path);
+export function AuthorityLinks({ path, className = 'mb-12', exclude = [] }: { path: string; className?: string; exclude?: string[] }) {
+  const links = authorityLinksFor(path, exclude);
   if (links.length === 0) return null;
   return (
     <aside className={`bg-white p-5 sm:p-6 rounded-2xl border border-slate-300 shadow-sm ${className}`} aria-labelledby={`auth-${path.replace(/\W+/g, '-')}`}>

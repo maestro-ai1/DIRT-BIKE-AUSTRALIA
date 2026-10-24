@@ -10,6 +10,7 @@ import { FaqItem } from '@/components/FaqItem';
 import { AuthorityLinks } from '@/components/AuthorityLinks';
 import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 const seo = seoFor('/electric-motor-bikes/e-bike-laws-australia/');
 export const metadata: Metadata = {
   title: seo.title,
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'article',
+    images: DEFAULT_OG_IMAGES,
   },
 };
 
@@ -48,7 +50,7 @@ export default function EBikeLawsAustraliaPage() {
           name: 'Are electric bikes legal in Australia?',
           acceptedAnswer: {
             '@type': 'Answer',
-            text: 'Yes. Pedal-assist e-bikes with a maximum continuous motor output of 250W that only provide assistance up to 25 km/h are legal in all Australian states and territories. These are classified as bicycles under Australian road law and require no registration, no licence, and no number plate. Electric bikes exceeding 250W or 25 km/h are classified as motorcycles or mopeds and require registration and a motorcycle licence.',
+            text: 'Yes. Pedal-assist e-bikes with a maximum continuous motor output of 250W that only provide assistance up to 25 km/h are legal in all Australian states and territories. These are classified as bicycles under Australian road law and require no registration and no number plate. Most states also require no licence, but Queensland has required riders to be 16 and hold a licence (at least a Learner) since 31 August 2026. Electric bikes exceeding 250W or 25 km/h are classified as motorcycles or mopeds and require registration and a motorcycle licence.',
           },
         },
         {
@@ -110,12 +112,12 @@ export default function EBikeLawsAustraliaPage() {
     },
     {
       state: 'QLD',
-      authority: 'TMR Queensland',
-      roadLegal: 'Power-assisted cycles ≤200W motor, ≤25 km/h',
-      licence: 'No licence for qualifying PACs',
-      registration: 'No registration required for PACs',
-      throttle: 'Bikes over 200W classified as motor vehicles — rego required',
-      minAge: 'Helmet mandatory for all ages',
+      authority: 'Queensland Government (TMR)',
+      roadLegal: 'Pedal-assist ≤250W, assist cuts out at 25 km/h, EN 15194 label',
+      licence: 'Riders must be 16 and hold a licence (min. Learner) from 31 Aug 2026; supervision, medical and recreational-area exemptions apply',
+      registration: 'No registration or insurance needed for a legal e-bike',
+      throttle: 'Throttle only to 6 km/h; throttle-only or over-250W bikes are illegal on public roads',
+      minAge: 'Approved helmet required; 12 km/h limit on footpaths',
       color: 'bg-yellow-50 border-yellow-200',
     },
     {
@@ -247,7 +249,7 @@ export default function EBikeLawsAustraliaPage() {
               { q: 'Can I ride an e-bike on shared paths in Australia?', a: 'Yes. Road-legal pedal-assist e-bikes (≤250W, ≤25 km/h) are permitted on shared bicycle/pedestrian paths in all states. Riders must give way to pedestrians and obey path speed signs.' },
               { q: 'What is the minimum age to ride an e-bike in Australia?', a: 'There is no minimum age for road-legal e-bikes on paths and roads in most states. However, helmet use is mandatory at all ages. Some states require adults to supervise younger children on roads.' },
               { q: 'Are electric dirt bikes street legal in Australia?', a: 'Not on public roads unless registered as a motorcycle. Off-road electric dirt bikes (Sur-Ron, Talaria, Stealth etc.) are for private property and designated off-road parks only. Riding on public roads without registration is illegal.' },
-              { q: 'Can L and P-plate riders ride electric bikes in Australia?', a: 'Road-legal e-bikes (≤250W bicycles) require no licence, so any rider regardless of licence status can ride them. LAMS-approved electric mopeds (like the NIU NQi GT) can be ridden by learner and provisional motorcycle licence holders under LAMS rules.' },
+              { q: 'Can L and P-plate riders ride electric bikes in Australia?', a: 'In most states, road-legal e-bikes (≤250W bicycles) require no licence, so any rider regardless of licence status can ride them. Queensland is the exception: since 31 August 2026 riders must be 16 and hold a valid licence (minimum Learner), with exemptions for supervised riders, medical conditions and some recreational areas. LAMS-approved electric mopeds (like the NIU NQi GT) can be ridden by learner and provisional motorcycle licence holders under LAMS rules.' },
               { q: 'What does EN15194 mean for Australian e-bikes?', a: 'EN 15194 is the European e-bike standard that defines a road-legal pedal-assist cycle as ≤250W continuous and ≤25 km/h assist. Australian regulators use this standard as the benchmark for road-legal classification. Look for EN15194 compliance on any e-bike you plan to ride on Australian roads.' },
             ].map((item, i) => (
               <div key={i} className="p-4 bg-slate-50 rounded-xl border border-slate-100 space-y-1.5">
@@ -261,7 +263,7 @@ export default function EBikeLawsAustraliaPage() {
         {/* CTA to related pages */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-16">
           {[
-            { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Road-Legal Commuter e-Bikes', desc: 'Shop compliant 250W e-bikes — no licence, no rego.', icon: CheckCircle, color: 'text-emerald-600' },
+            { href: '/electric-motor-bikes/commuter-mopeds/', title: 'Road-Legal Commuter e-Bikes', desc: 'Shop compliant 250W e-bikes — no rego, and no licence in most states.', icon: CheckCircle, color: 'text-emerald-600' },
             { href: '/electric-motor-bikes/perth/', title: 'Electric Bikes Perth', desc: 'Perth WA delivery info, e-bike laws, top picks.', icon: MapPin, color: 'text-purple-600' },
             { href: '/electric-motor-bikes/melbourne/', title: 'Electric Bikes Melbourne', desc: 'VIC laws, same-week delivery, top models for Melbourne.', icon: MapPin, color: 'text-pink-600' },
           ].map(({ href, title, desc, icon: Icon, color }) => (
@@ -288,7 +290,7 @@ export default function EBikeLawsAustraliaPage() {
           <h2 className="text-xl sm:text-2xl font-extrabold text-slate-900 border-b border-slate-100 pb-4">E-Bike Laws Australia 2026 — FAQ</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 items-start">
             {[
-              { q: 'Are electric bikes legal in Australia?', a: 'Yes. Pedal-assist e-bikes with ≤250W continuous motor output that only assist to 25 km/h are legal in all Australian states as bicycles — requiring no licence, registration, or number plate. Higher-powered electric bikes are classified as motorcycles and require registration and a licence.' },
+              { q: 'Are electric bikes legal in Australia?', a: 'Yes. Pedal-assist e-bikes with ≤250W continuous motor output that only assist to 25 km/h are legal in all Australian states as bicycles, so they need no registration or number plate. Most states also need no licence; Queensland requires riders to be 16 and hold a licence (minimum Learner) from 31 August 2026. Higher-powered electric bikes are classified as motorcycles and require registration and a licence.' },
               { q: 'Do electric bikes need registration in Australia?', a: 'No, for road-legal e-bikes. Compliant pedal-assist e-bikes (≤250W, ≤25 km/h) require no registration in any Australian state. Electric motorcycles, mopeds, and throttle-only e-bikes exceeding these limits require registration with your state roads authority.' },
               { q: 'Do NSW e-bikes need number plates?', a: 'No. Road-legal pedal-assist e-bikes in NSW are classified as bicycles and do not require number plates. Only registered electric motorcycles or mopeds need plates under NSW regulations.' },
               { q: 'What are the e-bike laws in Victoria?', a: 'In Victoria, pedal-assist e-bikes (pedelecs) ≤250W that cut out at 25 km/h require no registration, no licence, and no number plates. Bikes exceeding these limits must be registered with VicRoads as mopeds or motorcycles.' },

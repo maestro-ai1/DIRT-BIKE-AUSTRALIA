@@ -13,6 +13,7 @@ import { RelatedGuides } from '@/components/RelatedGuides';
 import { KeywordGuide } from '@/components/KeywordGuide';
 import { extraFaqs } from '@/src/config/category-sections';
 
+import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Category page for the broad "electric bike / e bike" demand (Semrush AU: electric bike 27,100, e bike 22,200,
 // electric bikes for sale 1,600). Main keyword: electric bikes for sale (transactional). Primary: electric bike, e bike, electric bikes.
 const seo = seoFor('/electric-bikes/');
@@ -30,6 +31,7 @@ export const metadata: Metadata = {
     siteName: 'Electric Dirt Bike Australia',
     locale: 'en_AU',
     type: 'website',
+    images: DEFAULT_OG_IMAGES,
   },
 };
 
@@ -77,7 +79,7 @@ export default function ElectricBikesPage() {
     },
     {
       q: 'Do I need a licence or registration for an electric bike in Australia?',
-      a: 'A pedal-assist e-bike that meets the Australian 250W and 25 km/h assist standard, such as the road-compliant Ampd Bros e-bikes, is treated as a bicycle: no licence, registration or number plate. Electric mopeds are road-registered vehicles, and the NIU NQi GT is LAMS approved for L and P-plate riders. Rules vary by state, so check your state transport authority and our electric bike laws guide.',
+      a: 'A pedal-assist e-bike that meets the Australian 250W and 25 km/h assist standard, such as the road-compliant Ampd Bros e-bikes, is treated as a bicycle: no registration or number plate, and no licence in most states (Queensland requires riders to be 16 and licensed from 31 August 2026). Electric mopeds are road-registered vehicles, and the NIU NQi GT is LAMS approved for L and P-plate riders. Rules vary by state, so check your state transport authority and our electric bike laws guide.',
     },
     {
       q: 'Do you deliver electric bikes to Sydney, Brisbane, Melbourne and Perth?',
