@@ -105,17 +105,20 @@ export default async function ProductDetailPage({ params }: Props) {
           returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
           merchantReturnDays: 14,
           merchantReturnLink: `https://${SITE.domain}/returns-policy/`,
+          returnMethod: 'https://schema.org/ReturnByMail',
+          returnFees: 'https://schema.org/ReturnFeesCustomerResponsibility',
         },
-        // Free freight applies on orders over $1,500 AUD (store policy); below that the rate is confirmed at checkout, so no rate is published.
-        ...(product.price > 1500
-          ? {
-              shippingDetails: {
-                '@type': 'OfferShippingDetails',
-                shippingRate: { '@type': 'MonetaryAmount', value: 0, currency: 'AUD' },
-                shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' },
-              },
-            }
-          : {}),
+        // Published freight policy: free over $1,500 AUD, flat $200 below that. Dispatch within 2 business days, delivery 1 to 8 business days by region.
+        shippingDetails: {
+          '@type': 'OfferShippingDetails',
+          shippingRate: { '@type': 'MonetaryAmount', value: product.price > SHOP.freeShippingThreshold ? 0 : SHOP.shippingFee, currency: 'AUD' },
+          shippingDestination: { '@type': 'DefinedRegion', addressCountry: 'AU' },
+          deliveryTime: {
+            '@type': 'ShippingDeliveryTime',
+            handlingTime: { '@type': 'QuantitativeValue', minValue: 0, maxValue: 2, unitCode: 'DAY' },
+            transitTime: { '@type': 'QuantitativeValue', minValue: 1, maxValue: 8, unitCode: 'DAY' },
+          },
+        },
         itemCondition: 'https://schema.org/NewCondition',
         availability: product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/PreOrder',
         seller: {
