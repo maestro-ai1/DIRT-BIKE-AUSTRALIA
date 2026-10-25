@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   // 2026-10-12 remap: tag pages whose phrase became a category keyword are retired and 301 to the owning category (no 404s, no cannibalisation).
   async redirects() {
     return [
+      // 2026-10-25: the Melbourne and Perth moped posts were merged (their keywords belong to the city pages) into one guide.
+      { source: '/blog/electric-moped-melbourne-road-legal-guide', destination: '/blog/moped-e-scooter-electric-road-legal-guide/', permanent: true },
+      { source: '/blog/electric-moped-perth-buyers-guide', destination: '/blog/moped-e-scooter-electric-road-legal-guide/', permanent: true },
       { source: '/blog/rtr-ebike-australia-review', destination: '/electric-motor-bikes/rtr-ebike/', permanent: true },
       { source: '/blog/rtr-ebike-vs-super-soco-cpx-commuter-comparison', destination: '/electric-motor-bikes/rtr-ebike/', permanent: true },
       { source: '/blog/tag/battery-electric-bicycle', destination: '/electric-bike-batteries/', permanent: true },

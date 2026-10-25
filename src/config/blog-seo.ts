@@ -168,7 +168,7 @@ export const SEO_TITLES: Record<string, string> = {
   "150cc-dirt-bike-vs-electric-power-guide": "150cc Dirt Bike vs Electric: Power Compared",
   "moto-dirt-bikes-for-sale-australia-electric": "Moto Dirt Bikes for Sale Australia: Electric Range",
   "motorcycle-dirt-bike-for-sale-australia-electric": "Motorcycle Dirt Bike for Sale: Electric Options",
-  "electric-moped-perth-buyers-guide": "Electric Moped Perth: Models, Range and WA Delivery",
+  "moped-e-scooter-electric-road-legal-guide": "Moped E Scooter Australia: Road-Legal Electric Mopeds",
   "best-electric-dirt-bikes-for-beginners-and-teens": "Best Dirt Bike for Beginners and Teens: Electric Picks",
   "high-performance-electric-dirt-bike-australia": "High Performance Electric Dirt Bike Australia Compared",
   "ktm-electric-dirt-bike-australia-sx-e-guide": "KTM Electric Dirt Bike Australia: SX-E 5 Price & Specs",
