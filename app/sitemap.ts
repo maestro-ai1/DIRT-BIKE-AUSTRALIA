@@ -10,7 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const NEW_PAGES = '2026-10-24'; // 2026-10-24: Open Graph image, official outbound links and corrected Queensland licence wording added
   const UPDATED = '2026-10-24'; // 2026-10-24: audit fixes (official outbound links, Open Graph image, corrected Queensland e-bike licence wording, best electric bike title)
   const STABLE = '2026-10-24'; // 2026-10-24: every product page now links six related products and carries de-duplicated, brand-specific outbound links
-  const TITLE_FIX = '2026-10-25'; // 2026-10-25: 10 new keyword-led guides and 6 thin guides rewritten to 1,500+ words
+  const TITLE_FIX = '2026-10-27'; // 2026-10-27: 10 new keyword-led guides (kids ages, scrambler, trail, road legal, battery) and unique-keyword rewrites
 
   // A tag page changes when a post it lists is published: use the newest member post date.
   const tagLastMod = (slugs: string[]) => slugs.map((sl) => POSTS.find((p) => p.slug === sl)?.date).filter(Boolean).map((d) => new Date(d as string).toISOString().slice(0, 10)).sort().pop();
