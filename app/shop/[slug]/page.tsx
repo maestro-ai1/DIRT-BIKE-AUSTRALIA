@@ -88,7 +88,7 @@ export default async function ProductDetailPage({ params }: Props) {
       name: product.name,
       description: product.description,
       image: `https://${SITE.domain}${product.images[0]}`,
-      sku: `EDBA-${product.slug.toUpperCase()}`,
+      sku: `EDBA-${product.slug.toUpperCase()}`.slice(0, 50).replace(/-$/, ''),
       brand: {
         '@type': 'Brand',
         name: product.brand,

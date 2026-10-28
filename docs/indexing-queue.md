@@ -8,15 +8,9 @@ Method: GSC Overview -> search icon -> paste URL -> Enter -> wait ~12 s -> if "U
 - [x] 2026-10-27 /about/, /electric-motor-bikes/, /electric-motor-bikes/melbourne/, /electric-motor-bikes/perth/, /shipping-and-delivery/, /warranty-and-service/ (requested)
 - [x] already on Google 2026-10-27: /accessories/, /blog/, /electric-motor-bikes/kids/, Light Bee X, KTM SX-E 5, Stark Varg EX, Talaria Sting R MX4, all round-2 blog posts checked
 
+- [x] 2026-10-28 requested (all "URL is not on Google" -> Indexing requested): /blog/electric-trail-bike-australia-guide/, road-legal-electric-bike-australia-guide, electric-motorbike-for-7-year-old-australia, e-bikes-for-10-year-olds-australia, electric-scrambler-bike-australia, high-performance-e-bikes-australia, electric-motorbike-for-5-year-old-australia, battery-for-motorbike-electric-australia
+
 ## Queue (in priority order)
-- [ ] /blog/electric-trail-bike-australia-guide/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/road-legal-electric-bike-australia-guide/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/electric-motorbike-for-7-year-old-australia/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/e-bikes-for-10-year-olds-australia/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/electric-scrambler-bike-australia/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/high-performance-e-bikes-australia/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/electric-motorbike-for-5-year-old-australia/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/battery-for-motorbike-electric-australia/  (round 3, published 2026-10-27; IndexNow sent)
 - [ ] /blog/beach-cruising-electric-bikes-australia/  (round 3, published 2026-10-27; IndexNow sent)
 - [ ] /blog/electric-motorbike-for-3-year-old-australia/  (round 3, published 2026-10-27; IndexNow sent)
 - [ ] /shop/e-ride-pro-sr/
