@@ -21,9 +21,9 @@ const site = require(ROOT + '/src/config/site.ts');
 const seo = require(ROOT + '/lib/productSeo.ts');
 const BASE = (process.argv[2] && process.argv[2].startsWith('http') ? process.argv[2] : 'https://electricdirtbikeaustralia.com.au').replace(/\/$/, '');
 const only = process.argv.includes('--slug') ? process.argv[process.argv.indexOf('--slug') + 1] : null;
-const dec = (x) => x.replace(/&amp;/g, '&').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"');
+const dec = (x) => x.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/&quot;/g, '"');
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim();
-const strip = (h) => h.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#x27;|&#39;/g, "'").replace(/\s+/g, ' ');
+const strip = (h) => h.replace(/<script[\s\S]*?<\/script>/g, ' ').replace(/<style[\s\S]*?<\/style>/g, ' ').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#x27;|&#39;/g, "'").replace(/\s+/g, ' ');
 
 (async () => {
   const rows = [];

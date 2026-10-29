@@ -301,65 +301,34 @@ const T_TAGS: Record<string, string[]> = {
   part: ['e bike parts australia', 'electric bike parts australia'],
 };
 
-// Five secondary keywords per product (Master Product Optimization Rule): the product's transactional and commercial bank keyword,
-// then three more commercial bank keywords for its type, rotated by product so the tail differs between products.
+// Five secondary keywords per product (Master Product Optimization Rule). They are built from the product's own name so every product has
+// different ones: shared bank keywords belong to the category, brand and blog pages that own them, and are never repeated on product pages.
 export function productSecondaries(p: P): string[] {
-  const kind = productKind(p);
-  const { t, c } = productSecondary(p);
-  const out: string[] = [];
-  const seen = new Set<string>();
-  const add = (k: string) => { const key = k.toLowerCase(); if (k && !seen.has(key)) { seen.add(key); out.push(k); } };
-  add(t); add(c);
-  const pool = C_TAG_POOL[kind] ?? [];
-  const start = pool.length ? hash(p.slug) % pool.length : 0;
-  for (let i = 0; i < pool.length && out.length < 5; i++) add(pool[(start + i) % pool.length]);
-  for (const k of T_TAGS[kind] ?? []) if (out.length < 5) add(k);
-  return out.slice(0, 5);
+  const short = shortName(p.name);
+  return [`${short} price`, `buy ${short}`, `${short} for sale`, `${short} specs`, `${short} warranty`];
 }
 
-// Exactly 10 unique tags per product, each one a link (indexable): three product-name tags, the brand tag, the five secondary keywords and
-// one spec or noun tag. Every tag links to the category, brand or hub page that targets it.
+// Exactly 10 tags per product, all unique to the product and all links (indexable): the five secondaries plus five more name-based phrases.
+// Links go to relevant existing pages: the product's category, its brand page, the shop, warranty and delivery pages.
 export function getProductTags(p: P): ProductTag[] {
   const kind = productKind(p);
   const short = shortName(p.name);
-  const vehicle = !['battery', 'charger', 'part'].includes(kind);
-  const out: ProductTag[] = [];
-  const seen = new Set<string>();
-  const hrefFor = (label: string) => { const sp = SPECIAL_HREF.find(([re]) => re.test(label.toLowerCase())); return sp ? sp[1] : HREF[kind]; };
-  const add = (label: string, href?: string) => {
-    const key = label.toLowerCase();
-    if (!label || seen.has(key) || out.length >= 10) return;
-    seen.add(key);
-    out.push({ label, href: href ?? hrefFor(label) });
-  };
   const brandSlug = p.brand.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
   const brandHref = /sur-?ron/i.test(p.brand) ? '/electric-dirt-bikes/sur-ron/' : /^e-ride pro$/i.test(p.brand) ? '/brands/e-ride-pro/' : `/shop/?brand=${encodeURIComponent(brandSlug)}`;
-  // 1. Product-name tags (long-tail, match the product exactly)
-  add(`${short} Australia`);
-  add(`buy ${short}`);
-  add(`${short} price`);
-  add(`${p.brand} Australia`, brandHref);
-  // 2. The five secondary keywords (bank keywords)
-  const secs = productSecondaries(p);
-  secs.forEach((k) => add(k, /sur-?ron/i.test(p.brand) && /sur ?ron|surron/i.test(k) ? brandHref : undefined));
-  // 3. One spec or noun tag
-  const batt = spec(p, 'battery') || spec(p, 'voltage') || '';
-  const v = batt.match(/(\d{2,3})\s?V/i)?.[1];
-  const power = spec(p, 'motorPeak') || spec(p, 'peakPower') || '';
-  const kwNum = power.match(/(\d+(?:\.\d+)?)\s*kW/i)?.[1];
-  const wNum = power.match(/([\d,]{3,6})\s*Watts?/i)?.[1];
-  const watts = kwNum ? Math.round(parseFloat(kwNum) * 1000) : wNum ? parseInt(wNum.replace(/,/g, ''), 10) : undefined;
-  const powerLabel = watts ? (watts < 1000 ? watts + 'W' : (watts / 1000) + 'kW') : undefined;
-  const noun = kind === 'moped' ? 'electric moped' : kind === 'ebike' ? 'electric bike' : kind === 'kids' || kind === 'balance' ? 'kids electric bike' : kind === 'emoto' || kind === 'fattyre' || kind === 'offroad' || kind === 'motocross' || kind === 'pit' ? 'electric dirt bike' : '';
-  if (vehicle && noun && v) add(`${v}V ${noun}`);
-  else if (vehicle && noun && powerLabel) add(`${powerLabel} ${noun}`);
-  if (!vehicle) for (const [re, tags] of NOUNS) if (re.test(p.slug)) tags.forEach((t) => add(t));
-  // 4. Pad from the commercial pool so every product has exactly 10
-  const pool = C_TAG_POOL[kind] ?? [];
-  const start = pool.length ? hash(p.slug) % pool.length : 0;
-  for (let i = 0; i < pool.length && out.length < 10; i++) add(pool[(start + i) % pool.length]);
-  for (const k of T_TAGS[kind] ?? []) add(k);
-  return out.slice(0, 10);
+  const cat = HREF[kind];
+  const [price, buy, sale, specs, warranty] = productSecondaries(p);
+  return [
+    { label: price, href: cat },
+    { label: buy, href: cat },
+    { label: sale, href: cat },
+    { label: specs, href: cat },
+    { label: warranty, href: '/warranty-and-service/' },
+    { label: `${short} Australia`, href: cat },
+    { label: `order ${short}`, href: brandHref },
+    { label: `${short} delivery`, href: '/shipping-and-delivery/' },
+    { label: `${short} online`, href: '/shop/' },
+    { label: `${short} features`, href: cat },
+  ];
 }
 
 // Image alt text: product name plus the Commercial keyword for the product type (not just the bare name).
