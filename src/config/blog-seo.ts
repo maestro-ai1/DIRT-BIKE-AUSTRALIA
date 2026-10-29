@@ -158,7 +158,7 @@ export const SEO_TITLES: Record<string, string> = {
   "electric-dirt-bikes-australia-buyers-guide-2026": "Electric Dirt Bikes Australia: Top Models & Prices 2026",
   "stark-varg-motocross-revolution-australia": "Stark Varg 80HP: Electric Motocross in Australia",
   "72v-battery-upgrade-guide-electric-dirt-bike": "72V Battery Upgrade for Electric Dirt Bikes (2026 Guide)",
-  "e-ride-pro-australia-review": "E-Ride Pro Australia Review: SS 2.0, S16 & S17 Models",
+  "e-ride-pro-australia-review": "Eride Pro Australia: SS 2.0, SR, SE 17/17 and Mini",
   "electric-dirt-bike-braking-upgrades-250mm-rotors": "250mm Rotor Upgrade: Electric Dirt Bike Braking Power",
   "best-ebike-australia-2026": "Best Ebikes Australia 2026: Winners by Rider",
   "extending-single-charge-range-on-rugged-bush-trails": "Electric Dirt Bike Range: How to Get 100km+ Per Charge",

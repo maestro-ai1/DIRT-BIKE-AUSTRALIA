@@ -16,6 +16,7 @@ Method: GSC Overview -> search icon -> paste URL -> Enter -> wait ~12 s -> if "U
 - Product pages re-optimised 2026-10-29 (10 clickable tags, 5 secondaries); IndexNow sent (375 URLs).
 
 ## Queue (in priority order)
+- [ ] /blog/e-ride-pro-australia-review/  (REWRITTEN 2026-10-29, recrawl)
 - [ ] /blog/ebox-dragster-electric-pit-bike-australia/  (NEW 2026-10-29, Semrush gap, IndexNow sent; first in tomorrow quota)
 - [ ] /blog/surron-light-bee-x-vs-ultra-bee-vs-storm-bee/  (NEW 2026-10-29)
 - [ ] /blog/rtr-lite-electric-pit-bike-comparison-australia/  (NEW 2026-10-29)
