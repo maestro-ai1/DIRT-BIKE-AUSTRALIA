@@ -12,9 +12,14 @@ Method: GSC Overview -> search icon -> paste URL -> Enter -> wait ~12 s -> if "U
 
 - [x] 2026-10-29 requested (Indexing requested): /blog/beach-cruising-electric-bikes-australia/, /blog/electric-motorbike-for-3-year-old-australia/, /shop/e-ride-pro-sr/, /shop/segway-x260-dirt-ebike/, /shop/razor-mx650-electric-kids/, /shop/sur-ron-ultra-bee/, /shop/talaria-xxx-black-edition/, /shop/rfn-ares-rally-pro/
 - [x] 2026-10-29 recrawl requested (rewritten in place): /blog/electric-pit-bike-australia-guide/, /blog/electric-enduro-bike-australia-review/. 35 thin posts merged by 308 (IndexNow sent). Quota used: 10 today.
+- [x] 2026-10-29 recrawl requested: /blog/stark-varg-review-australia-2026/ (rewritten in place; priority page). Quota Exceeded after 11 requests today.
 - Product pages re-optimised 2026-10-29 (10 clickable tags, 5 secondaries); IndexNow sent (375 URLs).
 
 ## Queue (in priority order)
+- [ ] /blog/ebox-dragster-electric-pit-bike-australia/  (NEW 2026-10-29, Semrush gap, IndexNow sent; first in tomorrow quota)
+- [ ] /blog/surron-light-bee-x-vs-ultra-bee-vs-storm-bee/  (NEW 2026-10-29)
+- [ ] /blog/rtr-lite-electric-pit-bike-comparison-australia/  (NEW 2026-10-29)
+- [ ] /blog/dirt-bikes-for-sale-australia-electric-prices/  (NEW 2026-10-29, T keyword)
 - [ ] /shop/talaria-dragon-enduro/
 - [ ] /shop/edba-moto-50-kids-beginner/
 - [ ] /shop/10a-compact-touring-charger/
