@@ -185,7 +185,8 @@ export const SEO_TITLES: Record<string, string> = {
   "talaria-dragon-komodo-full-size-electric-enduro-review": "Talaria Dragon & Komodo: Full-Size Electric Enduro Review",
   "e-ride-pro-australia-buyers-guide": "E-Ride Pro Australia Buyer's Guide: Range & Prices",
   "electric-bike-regulations-nsw-2026": "Electric Bike Regulations NSW 2026: Certification & Rules",
-  "electric-enduro-bike-australia-review": "Electric Enduro Bike Australia: Best Full-Size Models 2026",
+  "electric-enduro-bike-australia-review": "Electric Enduro Dirt Bike Australia: 5 Models Compared",
+  "electric-pit-bike-australia-guide": "Electric Pitbike Australia: 4 Models Compared (2026)",
 };
 
 // <title> for a post: the override when there is one, otherwise the post title plus the blog suffix when that stays within 70 characters.

@@ -42,7 +42,7 @@ export default function ElectricMotorcyclesPage() {
         { href: '/electric-motor-bikes/commuter-mopeds/', label: 'Electric mopeds', note: 'road-legal, LAMS approved' },
         { href: '/electric-motor-bikes/e-bike-laws-australia/', label: 'Electric bike laws in Australia' },
         { href: '/blog/best-electric-motorcycle-australia-2026/', label: 'Best electric motorcycles in Australia (2026)' },
-        { href: '/blog/road-legal-electric-motorcycle-australia-guide/', label: 'Road-legal electric motorcycle guide' },
+        { href: '/blog/road-legal-electric-bike-australia-guide/', label: 'Road-legal electric motorcycle guide' },
       ]}
       faqs={[
         { q: 'Where can I buy an electric motorcycle in Australia?', a: `Electric Dirt Bike Australia sells electric motorcycles for sale online and ships Australia-wide from Mittagong NSW 2575. Prices run from ${money(lo)} to ${money(hi)} AUD. Orders over $1,500 AUD ship free and every bike has a 12-month Australian warranty.` },

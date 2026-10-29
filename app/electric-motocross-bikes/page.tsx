@@ -40,8 +40,8 @@ export default function ElectricMotocrossBikesPage() {
       ]}
       links={[
         { href: '/electric-dirt-bikes/', label: 'Electric dirt bikes for sale' },
-        { href: '/blog/electric-dirt-bike-vs-petrol-motocross-running-costs/', label: 'Electric vs petrol motocross', note: '2-year cost breakdown' },
-        { href: '/blog/future-of-electric-motocross-racing-in-australia/', label: 'Future of electric motocross in Australia' },
+        { href: '/blog/2-stroke-dirt-bike-vs-electric-dirt-bike/', label: 'Electric vs 2-stroke dirt bike', note: 'power, cost and upkeep' },
+        { href: '/blog/electric-dirt-motorcycle-power-classes-explained/', label: 'Electric dirt motorcycle power classes' },
         { href: '/blog/stark-varg-motocross-revolution-australia/', label: 'Stark Varg 80HP guide' },
       ]}
       faqs={[

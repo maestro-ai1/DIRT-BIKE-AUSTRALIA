@@ -44,7 +44,7 @@ export default function SurRonPage() {
         { href: '/electric-bike-batteries/', label: 'Electric bike batteries and chargers' },
         { href: '/blog/sur-ron-electric-bike-price-australia/', label: 'Sur-Ron electric bike price in Australia', note: 'models compared' },
         { href: '/blog/sur-ron-light-bee-x-price-australia-what-you-get/', label: 'Surron Light Bee X price in Australia' },
-        { href: '/blog/sur-ron-horsepower-power-specs-explained/', label: 'Sur-Ron horsepower and power specs' },
+        { href: '/blog/electric-trail-bike-australia-guide/', label: 'Electric trail bike guide' },
       ]}
       faqs={[
         { q: 'Where can I buy a Surron in Australia?', a: `Electric Dirt Bike Australia sells the Sur-Ron Light Bee X, Storm Bee MX, Ultra Bee and Storm Bee Enduro online, from ${money(lo)} to ${money(hi)} AUD. Add your bike to the cart, pay by card, crypto or PayID, and it ships Australia-wide from our Mittagong NSW base. Free freight applies on orders over $1,500.` },
