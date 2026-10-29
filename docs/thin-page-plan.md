@@ -19,3 +19,10 @@ Check Semrush FIRST (Top Pages, db=au, https://2.semrush.com.in/analytics/toppag
 Semrush gap vs penrithpitbike.com.au (AU): 1.8K missing keywords; e.g. stark varg 18.1K (we are #9), ebox 4.4K, pitster bikes 2.4K, rtr electric bikes 1.9K, etm rtr 1.6K, electric balance bike 1.6K.
 
 ## 59 tag pages are ~45 words each: add an intro or noindex (decide next session).
+
+## 2026-10-29 (later): Semrush gap build
+Keyword source: Semrush Keyword Gap vs penrithpitbike.com.au (AU), saved as `new keywords e bikes/Semrush-gap-vs-penrithpitbike_all-keywords_au_2026-10-29.csv` (loaded into the bank).
+- Rewritten in place: stark-varg-review-australia-2026 ("stark varg" 18.1K, KD 28; spellings stark bark/varge, strak varg, starkvarg, stark varg aud).
+- New: ebox-dragster-electric-pit-bike-australia ("ebox dragster" 4.4K), rtr-lite-electric-pit-bike-comparison-australia ("rtr lite" 1.3K), surron-light-bee-x-vs-ultra-bee-vs-storm-bee ("surron light bee x" 4.4K), dirt-bikes-for-sale-australia-electric-prices ("dirt bikes for sale" 1.9K T).
+- Categories: pit bikes (pit bikes, pit bike), balance bikes (flight risk electric bike), sur-ron (surron australia), rtr-ebike links.
+Still to do: rewrite talaria-sting-review (talaria 6.6K), stark-varg-motocross-revolution (stark varg australia), e-ride-pro-australia-review (eride pro 2.4K, e ride pro mini 720), ktm electric bike/e bike (880/720), supermoto (1.3K) in supermoto-wheel-conversion; remaining ranked thin posts in this file; page 2+ of the gap list (volumes below 320).

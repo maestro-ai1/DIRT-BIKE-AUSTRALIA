@@ -153,7 +153,7 @@ export const SEO_TITLES: Record<string, string> = {
   "electric-fat-bike-guide-australia": "Electric Fat Tyre Bike Australia: Best E-Bikes 2026",
   "future-of-electric-motocross-racing-in-australia": "The Future of Electric Motocross Racing in Australia",
   "molicel-p45b-vs-samsung-50s-lithium-cells": "Molicel P45B vs Samsung 50S: Lithium Cells Compared",
-  "stark-varg-review-australia-2026": "Stark Varg Review 2026: 80HP Electric Motocross Tested",
+  "stark-varg-review-australia-2026": "Stark Varg Review Australia: EX 80HP vs Alpha 60HP",
   "suspension-upgrades-for-sur-ron-and-talaria": "Sur-Ron & Talaria Suspension Upgrades: Fork Tuning",
   "electric-dirt-bikes-australia-buyers-guide-2026": "Electric Dirt Bikes Australia: Top Models & Prices 2026",
   "stark-varg-motocross-revolution-australia": "Stark Varg 80HP: Electric Motocross in Australia",
@@ -187,6 +187,10 @@ export const SEO_TITLES: Record<string, string> = {
   "electric-bike-regulations-nsw-2026": "Electric Bike Regulations NSW 2026: Certification & Rules",
   "electric-enduro-bike-australia-review": "Electric Enduro Dirt Bike Australia: 5 Models Compared",
   "electric-pit-bike-australia-guide": "Electric Pitbike Australia: 4 Models Compared (2026)",
+  "dirt-bikes-for-sale-australia-electric-prices": "Dirt Bikes for Sale Australia: Electric From $1,850",
+  "surron-light-bee-x-vs-ultra-bee-vs-storm-bee": "Surron Light Bee X vs Ultra Bee vs Storm Bee Guide",
+  "rtr-lite-electric-pit-bike-comparison-australia": "RTR Lite vs Sport vs Alpha: Electric Pit Bike Guide",
+  "ebox-dragster-electric-pit-bike-australia": "Ebox Dragster Australia: V3 Pit Bike Range Compared",
 };
 
 // <title> for a post: the override when there is one, otherwise the post title plus the blog suffix when that stays within 70 characters.

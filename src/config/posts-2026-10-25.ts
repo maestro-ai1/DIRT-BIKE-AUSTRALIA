@@ -1965,5 +1965,369 @@ export const R2_POSTS: NewPost[] = [
       "rfn-ares-rally-pro",
       "caofen-f80-dual-sport"
     ]
+  },
+  {
+    "slug": "stark-varg-review-australia-2026",
+    "title": "Stark Varg Review Australia: EX 80HP vs Alpha 60HP Price and Specs",
+    "excerpt": "Stark Varg review for Australia: compare the EX 80HP and Alpha 60HP by power, torque, battery, weight and price, plus the Mini Varg kids bikes.",
+    "category": "Reviews",
+    "date": "2026-10-29",
+    "readTime": "7 min read",
+    "image": "/images/blog/stark-varg-1.webp",
+    "imageAlt": "Stark Varg electric motocross bike with orange bodywork on a white background",
+    "content": "The Stark Varg is the electric motocross machine that made petrol riders take electric seriously. This review lays out what the two full-size models offer, how they differ and what each one costs, using only the figures on our product pages. We do not claim to have tested these bikes ourselves. Everything below comes from the listed specifications, so you can check it against the product pages before you buy.\n\nBoth bikes are for motocross tracks, private property and designated off-road areas. They are not road registered, and we cover that in the legal section below.\n\n![Stark Varg electric motocross bike on a white background](/images/blog/stark-varg-1.webp)\n\n## Stark Varg EX 80HP and Alpha 60HP at a glance\n\nThe range has two full-size bikes. The EX is the competition flagship, and the Alpha is the standard model that most club riders will find more than fast enough. Both share a 6.0 kWh battery, KYB suspension with 310 mm of travel and a ready-to-ride weight of 118 kg.\n\n| Spec | EX 80HP | Alpha 60HP |\n|---|---|---|\n| Price | $18,990 | $16,990 |\n| Peak power | 80 hp (60 kW) | 60 hp (45 kW) |\n| Torque at rear wheel | 938 Nm | 820 Nm |\n| Battery | 6.0 kWh | 6.0 kWh structural honeycomb |\n| Suspension | KYB 48 mm closed cartridge, 310 mm | KYB 48 mm closed cartridge, 310 mm |\n| Weight | 118 kg ready to ride | 118 kg |\n\nHorsepower and kilowatts are two ways of measuring the same thing. One horsepower is about 0.746 kW, so 80 hp is 60 kW and 60 hp is 45 kW.\n\n### How the two models differ in practice\n\nThe headline difference is power and torque, but the day-to-day feel depends on how you ride. Both bikes carry the same weight and the same suspension travel, so handling in the air and over rough ground is similar. The EX simply has more to give when you open the throttle fully, while the Alpha gives a more manageable top end for riders who are still improving.\n\n## EX 80HP: the competition flagship\n\nThe [EX 80HP](/shop/stark-varg-ex-80hp/) is listed at $18,990 with 80 horsepower and 938 Nm of torque at the rear wheel. The product page describes it as the most powerful motocross bike in its class. It uses a 6.0 kWh battery and lists up to six hours of trail riding or a full motocross GP heat on a charge.\n\n{{product:stark-varg-ex-80hp}}\n\n### Power curves explained\n\nThe standout feature is tuning. The bike lists more than 100 customisable power curves through a waterproof phone display, so you can soften the throttle for a wet track or open it right up for a race. That makes one bike useful for several skill levels, as long as the rider respects the power.\n\n### Who the EX suits\n\nExperienced and competitive riders who already handle a 250 or 450 and want the strongest figures available. A newer rider can run gentle power curves, but the weight and torque still demand care.\n\n## Alpha 60HP: the club rider's pick\n\nThe [Alpha 60HP](/shop/stark-varg-alpha-60hp/) is $16,990 with 60 horsepower, 820 Nm and the same 6.0 kWh class battery in a structural honeycomb design. It adds Brembo hydraulic brakes and KYB 48 mm closed cartridge suspension with 310 mm of travel.\n\n{{product:stark-varg-alpha-60hp}}\n\nFor most club riders the Alpha delivers more acceleration than they can use. It costs $2,000 less than the EX and carries the same weight and suspension travel, which is why many riders treat it as the sensible choice.\n\n### Suspension and brakes\n\nSuspension travel of 310 mm lets the bike soak up big landings and rough braking bumps, and the closed cartridge design keeps damping consistent through a long moto. Brembo hydraulic brakes on the Alpha give strong, controllable stopping, which matters as much as acceleration on a heavy bike.\n\n### Price per horsepower\n\nA rough value check divides the price by peak horsepower. The EX works out to about $237 per horsepower ($18,990 divided by 80), and the Alpha to about $283 ($16,990 divided by 60). On that measure the EX is better value per horsepower, but only if you will use the extra power. A rider who never uses full throttle gets more from the cheaper bike.\n\n## Starkvarg, strak varg and other spellings\n\nPeople search for this bike in many ways. You will see stark bark, stark varge, strak varg and starkvarg all used for the same machine. They all lead to the same two models above, so the product pages are the place to compare real specifications rather than relying on a spelling.\n\n## Price in AUD: what you pay\n\nIf you are checking stark varg aud pricing, the listed prices on our site are in Australian dollars: $18,990 for the EX and $16,990 for the Alpha. Orders over $1,500 ship free from Mittagong NSW, and paying with crypto or PayID takes 10% off at checkout. Our products carry an Australian warranty, so read the [warranty and service page](/warranty-and-service/) for the details.\n\n### What to budget on top\n\nPlan for protective gear, a transport solution and a spare charger if you ride long sessions. A bike at this level is a significant purchase, so make a full budget before you order. Include a good quality chain and sprocket set, spare brake pads and tyres for your track, because race-level power wears consumables faster than a trail bike does. Anyone comparing a stark varg electric dirt bike with a petrol 450 should also count the savings on fuel, oil and engine rebuilds.\n\n## Mini Varg: the kids bikes\n\nThe name Mini Varg appears on two children's electric dirt bikes in our range. They are separate products from the full-size machines and are not made by the maker of the EX or Alpha, so judge them on their own specifications.\n\n- **MXR MXE 72V Mini Varg, $3,499:** 2,000 W motor, 72V battery, 75 km/h top speed, 75 kg.\n- **MXR MXE 60V Mini Varg, $2,499:** 1,600 W motor, 60V 27Ah battery (1,620 Wh), 65 km/h top speed, 66 kg.\n\n{{product:mxr-mxe-72v-mini-varg-electric-dirt-bike}}\n\n{{product:mxr-mxe-60v-mini-varg-electric-dirt-bike}}\n\nThese are powerful for a kids bike, so they suit confident, supervised riders on private land. Browse the [kids electric dirt bikes](/electric-dirt-bikes/kids/) category for gentler options.\n\n![MXR Mini Varg electric dirt bike with black and blue bodywork](/images/blog/stark-varg-2.webp)\n\n## Is there a street legal Stark Varg?\n\nThe bikes we sell are for tracks, private property and designated off-road areas. We do not supply a road-registered version, so we cannot call any of these bikes street legal. Rules differ by state, so check with your state transport authority before riding anywhere other than land where you have permission, and ask the land owner or track operator about noise and insurance rules. Registration and licence requirements are set by each state, not by the bike maker, so never assume a bike can be ridden on a public road because it looks like a road bike. Our [power classes guide](/blog/electric-dirt-motorcycle-power-classes-explained/) explains how kilowatts relate to the classes riders talk about.\n\n## Charging, safety and gear\n\nCharge on a hard, dry surface away from anything flammable and never leave a battery charging unattended. The [NSW Government lithium-ion battery guidance](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) covers safe charging and storage. You can read the maker's own information on the [Stark Future website](https://starkfuture.com/).\n\nWear a motocross helmet, goggles, a chest protector, knee guards, gloves and boots every ride. At these power levels a fall at speed is the main risk. For background on the sport, see the [motocross overview on Wikipedia](https://en.wikipedia.org/wiki/Motocross).\n\n![MXR Mini Varg kids electric dirt bike from the side](/images/blog/stark-varg-3.webp)\n\n## Where to go next\n\nSee every track-ready machine in our [electric motocross bikes](/electric-motocross-bikes/) range, or compare the wider [electric dirt bikes](/electric-dirt-bikes/) and [electric motorcycles](/electric-motorcycles/) categories. If you are moving across from a petrol bike, our [250cc versus electric guide](/blog/250cc-dirt-bikes-vs-electric-power-guide/) and the [motocross guide from beginner to pro](/blog/electric-motocross-motorcycle-australia-beginner-to-pro/) help you decide. For full-size trail and off-road alternatives, read our [electric enduro guide](/blog/electric-enduro-bike-australia-review/), and see how electric compares with petrol in the [2-stroke versus electric guide](/blog/2-stroke-dirt-bike-vs-electric-dirt-bike/).",
+    "rich": true,
+    "metaDescription": "Stark Varg review for Australian riders: EX 80HP vs Alpha 60HP power, torque, battery, suspension and price, plus Mini Varg kids bikes and where you can ride.",
+    "tags": [
+      "stark varg",
+      "stark bark",
+      "stark varge",
+      "strak varg",
+      "starkvarg",
+      "stark varg aud",
+      "stark varg electric dirt bike",
+      "mini varg",
+      "street legal stark varg",
+      "stark varg mini",
+      "electric dirt bike for sale",
+      "electric dirt bikes for sale",
+      "electric motorbike for sale",
+      "electric motorcycle for sale",
+      "electric bikes for sale",
+      "surron for sale",
+      "electric motorbikes for sale",
+      "e bikes for sale",
+      "cheap electric bikes for sale",
+      "electric bike price"
+    ],
+    "faqs": [
+      {
+        "q": "How much does the EX 80HP cost in Australia?",
+        "a": "The EX 80HP is $18,990 and the Alpha 60HP is $16,990. Orders over $1,500 ship free and paying with crypto or PayID takes 10% off. Prices and specifications are on the product pages and may change, so check before you order."
+      },
+      {
+        "q": "What is the difference between the EX 80HP and the Alpha 60HP?",
+        "a": "The EX makes 80 hp and 938 Nm, while the Alpha makes 60 hp and 820 Nm. Both list a 6.0 kWh battery, KYB suspension with 310 mm of travel and a 118 kg weight. The Alpha adds Brembo brakes on the listing and costs $2,000 less."
+      },
+      {
+        "q": "Is the Mini Varg the same as the full-size bike?",
+        "a": "No. A search for a stark varg mini usually ends at these kids bikes. The Mini Varg bikes are children's electric dirt bikes from MXR, listed at $3,499 and $2,499. They are separate products with their own specifications and are not scaled-down versions of the EX or Alpha."
+      },
+      {
+        "q": "Is the EX 80HP suitable for beginners?",
+        "a": "It is a competition machine, so it is not a first bike. A beginner moving up from a small bike should start with a lighter, lower-powered model. If you do buy one, use a gentle power curve and wear full protective gear."
+      },
+      {
+        "q": "Can I ride the bike on the road?",
+        "a": "No. The bikes we sell are for private property, motocross tracks and designated off-road areas. Check with your state authority for the rules where you ride and always get permission before riding on private land."
+      }
+    ],
+    "primaryKeyword": "stark varg",
+    "secondaryKeywords": [
+      "stark bark",
+      "stark varge",
+      "strak varg",
+      "starkvarg",
+      "stark varg aud",
+      "stark varg electric dirt bike",
+      "mini varg",
+      "street legal stark varg"
+    ],
+    "products": [
+      "stark-varg-ex-80hp",
+      "stark-varg-alpha-60hp",
+      "mxr-mxe-72v-mini-varg-electric-dirt-bike",
+      "mxr-mxe-60v-mini-varg-electric-dirt-bike"
+    ]
+  },
+  {
+    "slug": "ebox-dragster-electric-pit-bike-australia",
+    "title": "Ebox Dragster Australia: Compare the V3 Pit Bike Range by Power and Price",
+    "excerpt": "Ebox Dragster pit bikes compared for Australia: V3 60, 60R and 72RS plus the Dragster 60, 60R and EBX 72RS by power, weight, battery and price from $2,400.",
+    "category": "Buyers Guide",
+    "date": "2026-10-29",
+    "readTime": "7 min read",
+    "image": "/images/blog/ebox-dragster-1.webp",
+    "imageAlt": "Ebox V3 60 pit bike side view on a white background",
+    "content": "If you have searched for an Ebox Dragster, you are looking at one of the most popular families of pit bikes in Australia. They are light, quick off the line and simple to ride, which makes them a favourite for teenagers, smaller adults and anyone who wants a quiet bike for a paddock or practice track. This guide explains the range, what the model names mean and how to choose between the 60, 60R and 72RS versions.\n\nEvery figure below comes from the product pages. Where a specification is not listed, we say so instead of guessing. All of these bikes are for private property and designated off-road areas only.\n\n![Ebox V3 60 electric pit bike on a white background](/images/blog/ebox-dragster-1.webp)\n\n## What are Ebox and Dragster pit bikes?\n\nEbox and Dragster are two brand names that appear on closely related pit bikes in our range. The Ebox V3 models and the Dragster models share the same three power tiers, 60, 60R and 72RS, so many buyers compare them side by side. The Ebox listings include fuller specifications, while the Dragster listings are shorter, so check each product page for the details you need.\n\n### Why riders like them\n\nThe appeal of an Ebox Dragster style pit bike is simple. An pit bike has no engine to warm up, no fuel mix and very little routine servicing. You charge it, twist the throttle and ride. The motor delivers torque instantly, so the bikes feel livelier than the weight suggests, and the low noise is easier on neighbours and landowners. Because there is no clutch or gearbox to learn, new riders spend their first session learning balance and throttle control instead of fighting the bike, and most people are riding confidently within an afternoon. Maintenance is mostly chain care, brake pads, tyres and keeping the battery healthy.\n\n## Ebox Dragster Australia range at a glance\n\nThe table puts the six bikes side by side. The model names carry figures such as 3,300 W, 4,500 W and 5,400 W, while the Ebox specification lists a 6.3 kW peak.\n\n| Model | Price | Key figures from the listing | Weight |\n|---|---|---|---|\n| Dragster 60 | $2,400 | 120 x 33 x 72 cm | 55 kg |\n| Ebox V3 60 | $2,400 | 6.3 kW peak, 60V 18.2Ah | 65 kg |\n| Dragster 60R | $2,800 | 60V 26Ah battery | not listed |\n| Ebox V3 60R | $2,800 | 6.3 kW peak, 60V, 85 km/h, up to 40 km | 65 kg |\n| Ebox V3 72RS | $3,200 | 6.3 kW peak | 65 kg |\n| Dragster EBX 72RS | $3,200 | no specifications listed | not listed |\n\nEach step up the ladder costs $400, from the 60 at $2,400 to the 60R at $2,800 and the 72RS at $3,200.\n\n## Ebox V3 models: 60, 60R and 72RS\n\nThe Ebox V3 range has the fullest listings, and all three bikes carry a 1-year manufacturer warranty.\n\n### Ebox V3 60: the starter\n\nThe [Ebox V3 60](/shop/ebox-v3-60-electric-pit-bike-3300w-60v/) is $2,400 with a 6.3 kW peak motor and a 60V 18.2Ah battery. That battery stores 1,092 Wh (60V x 18.2Ah). It weighs 65 kg and measures 110 x 34 x 70 cm, so it suits teens and smaller adults who want a capable first pit bike.\n\n{{product:ebox-v3-60-electric-pit-bike-3300w-60v}}\n\n### Ebox V3 60R: the performance upgrade\n\nThe [Ebox V3 60R](/shop/ebox-v3-60r-electric-pit-bike-4500w-60v/) is $2,800 with the same 6.3 kW peak, an 85 km/h listed top speed and a range of up to 40 km. For $400 more than the 60 you get the faster, longer-range version, which makes it the most popular step for riders who will outgrow the base model.\n\n{{product:ebox-v3-60r-electric-pit-bike-4500w-60v}}\n\n### Ebox V3 72RS: the top of the range\n\nThe [Ebox V3 72RS](/shop/ebox-v3-72rs-electric-pit-bike-5400w-72v/) is $3,200 on a 72V system with a 6.3 kW peak and a 65 kg weight. A higher voltage usually means stronger acceleration, so this is the pick if you want the quickest bike in the family.\n\n{{product:ebox-v3-72rs-electric-pit-bike-5400w-72v}}\n\n![Ebox V3 60 electric pit bike with red and black bodywork](/images/blog/ebox-dragster-2.webp)\n\n## Dragster ebike models: 60, 60R and EBX 72RS\n\nThe Dragster bikes mirror the three Ebox tiers. Whether you call it a dragster bike, a dragster e bike or a dragster ebike, you are comparing the same kind of machine: a compact pit bike with a high-discharge battery and a small, strong motor.\n\n### Dragster 60: the lightest\n\nThe [Dragster 60](/shop/dragster-60-electric-pit-bike-3300w-60v/) is $2,400, weighs 55 kg and measures 120 x 33 x 72 cm. It is the lightest bike in the group, which helps smaller riders and makes loading into a ute or trailer easier.\n\n{{product:dragster-60-electric-pit-bike-3300w-60v}}\n\n### Dragster 60R: the bigger battery\n\nThe Dragster 60R is $2,800 with a 60V 26Ah battery, which stores 1,560 Wh (60V x 26Ah). That is about 43% more energy than the 1,092 Wh pack in the Ebox V3 60, so it suits longer sessions.\n\n{{product:dragster-60r-electric-pit-bike-4500w-60v}}\n\n### Dragster EBX 72RS: the 72V option\n\nThe Dragster EBX 72RS is $3,200 on a 72V system. Its listing does not give detailed specifications, so contact us if you want exact power, weight or battery figures before you order.\n\n{{product:dragster-ebx-72rs-electric-pit-bike-5400w-72v}}\n\n## Ebox 2.0, Ebox V2 and Ebox 3.0: which model are you after?\n\nShoppers often search for an Ebox 2.0, an Ebox V2 or an Ebox 3.0. The models we stock are the Ebox V3 range listed above. If you are looking for a specific version, check the exact model name on the product page and ask us before you order. People also type ebox 2 v2 when they are comparing generations, so a quick message to our team is the safest way to confirm what you are buying.\n\n## Power and battery: 60V versus 72V\n\nVoltage sets how hard the motor can pull, and amp hours set how long the bike runs. Multiply them to get watt hours, the best guide to range.\n\n- **60V 18.2Ah:** 1,092 Wh (Ebox V3 60)\n- **60V 26Ah:** 1,560 Wh (Dragster 60R)\n- **72V:** higher system voltage for stronger acceleration (60R to 72RS step)\n\nHills, soft ground, rider weight and constant full throttle all use energy faster, so plan for less than any quoted range. As a simple example, a rider who gets a good session from a 1,092 Wh pack could expect roughly 40% more riding from a 1,560 Wh pack under the same conditions, because the energy is higher by that proportion. Our [battery voltage guide](/blog/dirt-bike-battery-12v-vs-60v-72v-electric/) explains the maths in more detail.\n\n## Dragster bike versus Ebox: choosing by rider\n\nUse these quick rules to narrow the list.\n\n1. **Teenagers and smaller adults:** the Dragster 60 at 55 kg is the easiest to handle.\n2. **Riders who want a balance:** the Ebox V3 60R adds speed and range for $400.\n3. **Heavier or more experienced riders:** the 72RS models offer the most power.\n4. **Long sessions:** the Dragster 60R's bigger battery gives the most energy.\n\nA good rule is to buy for the rider you are in six months, not the rider you are today. A beginner who gains confidence quickly will often want the extra speed of the 60R or 72RS within a season, so paying the extra $400 up front can be cheaper than upgrading later. If a pit bike is too large for a child, see our [electric mini dirt bike guide](/blog/electric-mini-dirt-bike-australia-guide/) and the [electric mini bikes](/electric-mini-bikes/) category.\n\n## Charging, safety and where to ride\n\nCharge on a hard, dry surface away from anything flammable and never leave a battery charging unattended. The [NSW Government lithium-ion battery guidance](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) explains safe charging and storage, and [Battery University](https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries) covers how heat and charge level affect lithium cells.\n\nPit bikes are for private property with the owner's permission, tracks and designated off-road areas. They are not registered road vehicles, so do not ride them on public roads or paths. The [pit bike overview on Wikipedia](https://en.wikipedia.org/wiki/Pit_bike) gives useful background. Wear a certified helmet, goggles, gloves, boots and knee and elbow protection, and supervise younger riders.\n\n![Ebox V3 60 electric pit bike rear three-quarter view](/images/blog/ebox-dragster-3.webp)\n\n## Delivery, warranty and next steps\n\nWe ship Australia-wide from Mittagong NSW, and orders over $1,500 ship free. Paying with crypto or PayID takes 10% off at checkout. Browse the full [electric pit bikes](/electric-pit-bikes/) range, compare the wider [electric dirt bikes](/electric-dirt-bikes/) category or shop spare packs in [electric bike batteries](/electric-bike-batteries/). For other pit bike families, read our [electric pitbike guide](/blog/electric-pit-bike-australia-guide/) and the [RTR Lite comparison](/blog/rtr-lite-electric-pit-bike-comparison-australia/), and see our [power classes explained](/blog/electric-dirt-motorcycle-power-classes-explained/) post for how kilowatts compare.",
+    "rich": true,
+    "metaDescription": "Ebox Dragster Australia guide: compare Ebox V3 60, 60R, 72RS and Dragster 60, 60R, EBX 72RS pit bikes by power, battery and price from $2,400.",
+    "tags": [
+      "ebox dragster",
+      "ebox dragster australia",
+      "ebox 2.0",
+      "ebox v2",
+      "ebox 3.0",
+      "dragster bike",
+      "dragster e bike",
+      "dragster ebike",
+      "dragster",
+      "ebox 2 v2",
+      "electric dirt bike for sale",
+      "electric dirt bikes for sale",
+      "electric motorbike for sale",
+      "electric motorcycle for sale",
+      "electric bikes for sale",
+      "surron for sale",
+      "electric motorbikes for sale",
+      "e bikes for sale",
+      "cheap electric bikes for sale",
+      "electric bike price"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the Ebox and Dragster pit bikes?",
+        "a": "They are closely related pit bikes sold in the same three tiers: 60, 60R and 72RS. The Ebox V3 listings give fuller specifications, including a 6.3 kW peak and a 1-year warranty, while the other listings are shorter. Check each product page for the figures you need before you order."
+      },
+      {
+        "q": "Which model should I buy first?",
+        "a": "For most riders the Dragster 60 at $2,400 and 55 kg is the easiest start. If you want a bigger battery for longer sessions, the 60R at $2,800 stores 1,560 Wh. The 72RS suits riders who want maximum power and are comfortable with a quick bike."
+      },
+      {
+        "q": "Is the Ebox V3 an Ebox 2 V2 or a newer model?",
+        "a": "We stock the Ebox V3 range. We cannot say how it compares with an older Ebox 2 or V2, so if you need a specific version, contact us and confirm the model name before you order. Our team can check the listing details and tell you exactly what is included."
+      },
+      {
+        "q": "How far does an Ebox pit bike go on one charge?",
+        "a": "The Ebox V3 60R lists a range of up to 40 km and an 85 km/h top speed. Real distance depends on terrain, rider weight and throttle use, so expect less on hills and soft ground."
+      },
+      {
+        "q": "Can I ride a pit bike on the road?",
+        "a": "No. These bikes are for private property, tracks and designated off-road areas, and they are not registered road vehicles. Check your state authority's rules for the area where you ride, and always get the landowner's permission before riding on private land."
+      }
+    ],
+    "primaryKeyword": "ebox dragster",
+    "secondaryKeywords": [
+      "ebox dragster australia",
+      "ebox 2.0",
+      "ebox v2",
+      "ebox 3.0",
+      "dragster bike",
+      "dragster e bike",
+      "dragster ebike"
+    ],
+    "products": [
+      "ebox-v3-60-electric-pit-bike-3300w-60v",
+      "ebox-v3-60r-electric-pit-bike-4500w-60v",
+      "ebox-v3-72rs-electric-pit-bike-5400w-72v",
+      "dragster-60-electric-pit-bike-3300w-60v",
+      "dragster-60r-electric-pit-bike-4500w-60v",
+      "dragster-ebx-72rs-electric-pit-bike-5400w-72v"
+    ]
+  },
+  {
+    "slug": "rtr-lite-electric-pit-bike-comparison-australia",
+    "title": "RTR Lite vs RTR Sport vs RTR Alpha: Electric Pit Bike Comparison Australia",
+    "excerpt": "RTR Lite vs Sport vs Alpha compared for Australia: battery, weight, warranty and price from $3,399, plus how The Rizzler fits as a lighter alternative.",
+    "category": "Comparisons",
+    "date": "2026-10-29",
+    "readTime": "7 min read",
+    "image": "/images/blog/rtr-lite-1.webp",
+    "imageAlt": "ETM RTR Lite pit bike with black and red bodywork on a white background",
+    "content": "The RTR range is one of the most talked-about families of pit bikes in Australia, and shoppers usually ask the same question first: which one should I buy? This guide compares the RTR Lite, the RTR Sport 2026 and the RTR Alpha using the figures on each product page, and it adds The Rizzler as a lighter alternative from the same family of suppliers.\n\nEvery price and specification below comes from our product pages. Where a figure is not listed, we say so instead of guessing. All of these bikes are for private property and designated off-road areas only.\n\n![ETM RTR Lite electric pit bike on a white background](/images/blog/rtr-lite-1.webp)\n\n## Why the entry model is where most riders start\n\nThe Lite is the entry point to the range. It costs $3,399, runs a 60V 20Ah battery and weighs 80 kg, which makes it a full-size pit bike rather than a small mini bike. It suits teenagers and adults who want something solid, stable and easy to ride.\n\nOur site lists it twice, once as the ETM RTR Lite and once as the Ronster Rides RTR Lite 60v, both at $3,399. The Ronster listing adds a 35 km/h top speed and slightly different dimensions, so read both pages and choose the one that matches the figures you want.\n\n## RTR Lite vs Sport vs Alpha at a glance\n\nThe table compares the three bikes and The Rizzler.\n\n| Model | Price | Battery | Weight | Warranty |\n|---|---|---|---|---|\n| ETM RTR Lite | $3,399 | 60V 20Ah (1,200 Wh) | 80 kg | see product page |\n| ETM RTR Sport 2026 | $4,499 | 72V 25Ah (1,800 Wh) | 80 kg | 6 months |\n| ETM RTR Alpha | $6,999 | not listed | 89 kg | see product page |\n| The Rizzler | $3,199 | 60V 26Ah (1,560 Wh) | 60 kg | see product page |\n\nWatt hours are volts multiplied by amp hours, so 60V x 20Ah is 1,200 Wh and 72V x 25Ah is 1,800 Wh. That makes the Sport's battery 50% bigger than the Lite's.\n\n## The $3,399 starter model\n\nThe [ETM RTR Lite](/shop/etm-rtr-lite-electric-pit-bike/) lists a 60V 20Ah battery, an 80 kg weight and dimensions of 140 x 40 x 75 cm. It is the lowest-priced bike in the RTR family and a sensible way to find out whether a larger pit bike suits you.\n\n{{product:etm-rtr-lite-electric-pit-bike}}\n\n### Dimensions and fit\n\nThe frame measures 140 x 40 x 75 cm, which is a long, narrow pit bike layout. Taller teenagers and adults will find it roomier than a mini bike, so check the dimensions against your height and the space in your vehicle or trailer before ordering.\n\n### Who it suits\n\nRiders who want a stable, full-size bike for paddocks, practice tracks and private land, and who prefer to spend less up front. If you later want more speed and range, you can sell it on and step up to the Sport.\n\n## ETM RTR Sport 2026: the mid-range\n\nThe [ETM RTR Sport 2026](/shop/etm-rtr-sport-2026-electric-pit-bike/) is $4,499 with a 72V 25Ah battery, an 80 kg frame and a 6-month manufacturer warranty. A higher-voltage system generally means stronger acceleration, and the larger pack gives you more energy per charge.\n\n{{product:etm-rtr-sport-2026-electric-pit-bike}}\n\n### Warranty on the Sport\n\nThe Sport lists a 6-month manufacturer warranty on its product page. That is shorter than the 12-month Australian warranty on many of our other bikes, so ask us what cover applies to the exact model you choose.\n\n### What the extra $1,100 buys\n\nCompared with the Lite, the Sport costs $1,100 more and adds a 72V system and a pack that stores 600 Wh more. For riders who ride often, that extra capacity is usually the reason to step up.\n\n## RTR Alpha: the flagship pit bike\n\nThe [RTR Alpha](/shop/etm-rtr-alpha-electric-pit-bike/) is $6,999 and weighs 89 kg. The supplier describes it as the fastest, most powerful and most overbuilt pit bike it has made. Those are the supplier's words, and the listing does not give a battery size, so contact us if you need the full figures before you order.\n\n{{product:etm-rtr-alpha-electric-pit-bike}}\n\n## The Rizzler electric bike: a lighter alternative\n\nIf 80 kg feels heavy, look at The Rizzler. The Rizzler electric bike is $3,199 with a 60V 26Ah battery that stores 1,560 Wh, and it weighs just 60 kg. That is 20 kg lighter than the Lite and a bigger battery for $200 less.\n\n{{product:ronster-rides-the-rizzler-electric-pit-bike}}\n\n### The Rizzler electric bike: weight and range\n\nA lighter bike is easier to pick up after a fall, easier to load and kinder on younger or smaller riders. The Rizzler electric bike suits riders who prioritise weight and range over a full-size frame. The 60 kg frame is also easier to load into a ute, and a bigger battery than the Lite means you can ride for longer between charges. You can also see the [Rizzler 72V Sport](/shop/ronster-rides-electro-co-rizzler-72v-sport/) if you want a higher-voltage version.\n\n![ETM RTR Lite electric pit bike with red graphics](/images/blog/rtr-lite-2.webp)\n\n## Battery value: price per watt hour\n\nA simple value check divides the price by battery energy. The Lite works out to about $2.83 per watt hour ($3,399 divided by 1,200), the Sport to about $2.50 ($4,499 divided by 1,800) and The Rizzler to about $2.05 ($3,199 divided by 1,560). On that measure the Rizzler gives the most stored energy per dollar. Price per watt hour is not a performance rating, so also consider weight, voltage and warranty.\n\n## Running costs and upkeep\n\nPit bikes are cheap to run. There is no fuel, engine oil, spark plug or air filter, so the regular jobs are chain and sprocket care, brake pads, tyres, wheel bearings and looking after the battery. Charging costs a small amount of household electricity per session, which is far less than petrol and two-stroke oil for a comparable petrol pit bike. Keep the chain clean and lubricated, check the bolts after the first few rides, and store the battery at a moderate charge away from heat.\n\n## Which RTR should you buy?\n\nThe right bike depends on your weight, how often you ride and your budget. Use this short list as a starting point.\n\n1. **Lowest price, full-size bike:** the Lite at $3,399.\n2. **Best balance of power and capacity:** the Sport at $4,499.\n3. **Top of the range:** the Alpha at $6,999, after checking the full figures with us.\n4. **Lightest and best energy per dollar:** The Rizzler at $3,199.\n\n## RTR electric bikes: the road-style models\n\nOur RTR range also includes road-style electric bikes sold for off-road use only. See the [RTR ebike category](/electric-motor-bikes/rtr-ebike/) for those, and the [electric pit bikes](/electric-pit-bikes/) category for the pit bike range. For other families, read our [Ebox and Dragster guide](/blog/ebox-dragster-electric-pit-bike-australia/) and the [electric pitbike guide](/blog/electric-pit-bike-australia-guide/).\n\n## Charging, safety and where to ride\n\nCharge on a hard, dry surface away from anything flammable and never leave a battery charging unattended. The [NSW Government lithium-ion battery guidance](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) explains safe charging and storage, and [Battery University](https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries) covers how heat and charge level affect lithium cells. Our [battery voltage guide](/blog/dirt-bike-battery-12v-vs-60v-72v-electric/) shows how volts and amp hours translate into range.\n\nPit bikes are for private property with the owner's permission, tracks and designated off-road areas. They are not registered road vehicles. The [pit bike overview on Wikipedia](https://en.wikipedia.org/wiki/Pit_bike) is a useful primer. Wear a certified helmet, goggles, gloves, boots and knee and elbow protection every ride.\n\n![ETM RTR Lite electric pit bike with white graphics](/images/blog/rtr-lite-3.webp)\n\n## Delivery, warranty and next steps\n\nWe ship Australia-wide from Mittagong NSW, and orders over $1,500 ship free. Paying with crypto or PayID takes 10% off at checkout. Browse the wider [electric dirt bikes](/electric-dirt-bikes/) range, spare packs in [electric bike batteries](/electric-bike-batteries/), and our [mini dirt bike guide](/blog/electric-mini-dirt-bike-australia-guide/) if you need a smaller bike. For how kilowatts compare across classes, see the [power classes guide](/blog/electric-dirt-motorcycle-power-classes-explained/).",
+    "rich": true,
+    "metaDescription": "RTR Lite vs Sport vs Alpha pit bike comparison for Australia: battery, weight, warranty and price from $3,399, plus The Rizzler as a lighter bike.",
+    "tags": [
+      "rtr lite",
+      "rtr alpha",
+      "rizzler electric bike",
+      "the rizzler electric bike",
+      "electric dirt bike for sale",
+      "electric dirt bikes for sale",
+      "electric motorbike for sale",
+      "electric motorcycle for sale",
+      "electric bikes for sale",
+      "surron for sale",
+      "electric motorbikes for sale",
+      "e bikes for sale",
+      "cheap electric bikes for sale",
+      "electric bike price",
+      "e bike price",
+      "electric dirt bike australia",
+      "electric motorbike australia",
+      "best electric bike australia",
+      "kids electric motorbike",
+      "electric mini bike"
+    ],
+    "faqs": [
+      {
+        "q": "What is the difference between the Lite, Sport and Alpha?",
+        "a": "The Lite is the $3,399 entry bike with a 60V 20Ah battery. The Sport is $4,499 with a 72V 25Ah battery and a 6-month warranty. The Alpha is $6,999, weighs 89 kg and is the flagship. The Lite and Sport both weigh 80 kg, so the main differences are price, battery and warranty rather than frame size. Contact us if you want the Alpha's full specifications."
+      },
+      {
+        "q": "Is the entry model good for beginners?",
+        "a": "It is a full-size 80 kg bike, so it suits teenagers and adults rather than small children. It has no clutch to learn and the power is easy to manage. Beginners should start gently, wear full protective gear, and ride on private land with the owner's permission."
+      },
+      {
+        "q": "How much bigger is the Sport battery?",
+        "a": "The Sport's 72V 25Ah pack stores 1,800 Wh, while the Lite's 60V 20Ah pack stores 1,200 Wh. That is 600 Wh more, or 50% more energy, and it generally means longer rides between charges, although terrain, rider weight and throttle use all change the real distance."
+      },
+      {
+        "q": "Is The Rizzler lighter than the RTR bikes?",
+        "a": "Yes. The Rizzler weighs 60 kg against 80 kg for the Lite and Sport and 89 kg for the Alpha. It also has a 60V 26Ah battery of 1,560 Wh and is listed at $3,199, which makes it the lightest and lowest-priced of the four bikes in this comparison."
+      },
+      {
+        "q": "Can I ride an RTR pit bike on the road?",
+        "a": "No. These pit bikes are for private property, tracks and designated off-road areas. They are not registered road vehicles, so check your state authority's rules for the place you plan to ride, and always get the landowner's permission before you ride on private land."
+      }
+    ],
+    "primaryKeyword": "rtr lite",
+    "secondaryKeywords": [
+      "rtr alpha",
+      "rizzler electric bike",
+      "the rizzler electric bike"
+    ],
+    "products": [
+      "etm-rtr-lite-electric-pit-bike",
+      "etm-rtr-sport-2026-electric-pit-bike",
+      "etm-rtr-alpha-electric-pit-bike",
+      "ronster-rides-the-rizzler-electric-pit-bike"
+    ]
+  },
+  {
+    "slug": "surron-light-bee-x-vs-ultra-bee-vs-storm-bee",
+    "title": "Surron Light Bee X vs Ultra Bee vs Storm Bee: Which Surron to Buy in Australia",
+    "excerpt": "Surron Light Bee X vs Ultra Bee vs Storm Bee compared for Australia by power, battery, weight, range and price, from $6,490, with a clear buying guide.",
+    "category": "Comparisons",
+    "date": "2026-10-29",
+    "readTime": "7 min read",
+    "image": "/images/blog/surron-light-bee-x-1.webp",
+    "imageAlt": "Sur-Ron Ultra Bee electric dirt bike on a white background",
+    "content": "Sur-Ron is the brand most Australians think of when they picture an electric dirt bike, and the shopping questions are always the same. Which model should I buy, how do they differ and what do they cost? This guide compares four bikes from the Electric Dirt Bike Australia range: the Light Bee X, the Ultra Bee and the two Storm Bee models. People often type the brand as one word, so you will see the Surron Light Bee X written that way in searches, but the bikes are made by Sur-Ron.\n\nAll prices and specifications come from our product pages. These bikes are for private property and designated off-road areas only.\n\n![Sur-Ron Ultra Bee electric dirt bike on a white background](/images/blog/surron-light-bee-x-1.webp)\n\n## Surron Light Bee X vs Ultra Bee vs Storm Bee at a glance\n\nThe four bikes sit on a clear ladder of power, battery size and price. The table shows the key figures side by side.\n\n| Model | Price | Peak power | Battery | Top speed | Range | Weight |\n|---|---|---|---|---|---|---|\n| Light Bee X | $6,490 | 6 kW | 60V 40Ah (2,400 Wh) | 75 km/h (off-road mode) | up to 100 km (eco) | 50 kg |\n| Ultra Bee | $10,990 | 12.5 kW | 74V 55Ah (4,070 Wh) | 90 km/h | up to 140 km (eco) | 85 kg |\n| Storm Bee MX Track Edition | $14,490 | 22.5 kW | 104V 55Ah (5,720 Wh) | not listed | not listed | 122 kg |\n| Storm Bee Enduro | $15,490 | 22.5 kW | 104V 55Ah (5,720 Wh) | 110 km/h | up to 120 km | 127 kg |\n\nWatt hours are volts multiplied by amp hours. For example, 60V x 40Ah is 2,400 Wh, which is the pack in the Light Bee X.\n\n## Surron LBX: the Light Bee X explained\n\nYou will often see the Light Bee X shortened to surron lbx in searches and conversations, and people who want the price will look up surron lbx price. The listed price is $6,490 for the 60V 40Ah model.\n\nThe Surron Light Bee X is the best-known model in Australia, and the [Sur-Ron Light Bee X](/shop/sur-ron-light-bee-x/) page has the full specification. It makes 6 kW of peak power, weighs only 50 kg and has hydraulic four-piston brakes with 203 mm rotors on a forged aluminium frame. The listing quotes up to 100 km in eco mode and a 3.5-hour charge on the standard fast charger.\n\n{{product:sur-ron-light-bee-x}}\n\n### Who the Light Bee X suits\n\nRiders who want a light, agile Surron bike for trails, bush tracks and private land, and who prefer to start at the lowest price. At 50 kg it is easy to handle, easy to pick up and a good fit for newer riders and lighter adults. Our [electric trail bike guide](/blog/electric-trail-bike-australia-guide/) compares it with other trail machines.\n\n### Surron lightbee: same bike, different spelling\n\nSome shoppers search for the surron lightbee as one word. It is the same Light Bee X model, so the product page above is the one to read.\n\n## Sur-Ron Ultra Bee: the mid-weight enduro\n\nThe [Sur-Ron Ultra Bee](/shop/sur-ron-ultra-bee/) is $10,990 with a 12.5 kW motor, 440 Nm of torque and a 74V 55Ah battery of 4,070 Wh. The listing quotes a 90 km/h top speed and up to 140 km of range in eco mode, the longest in this group. It weighs 85 kg and has 240 mm fully adjustable suspension, SRTC traction control and three riding modes plus reverse.\n\n{{product:sur-ron-ultra-bee}}\n\nMany Surron bikes share the same basic layout, but the Ultra Bee is a bigger machine. It suits riders who have outgrown the Light Bee X and want more power, more range and better suspension without jumping to the heaviest bikes.\n\n![Sur-Ron Storm Bee electric dirt bike with yellow and black bodywork](/images/blog/surron-light-bee-x-2.webp)\n\n## Surron Storm Bee: MX and Enduro models\n\nThe surron storm bee comes in two versions, both with a 22.5 kW motor and a 104V 55Ah pack of 5,720 Wh. These are the top of the Sur-Ron range, and anyone comparing surron bikes at this level should expect a heavy, very quick machine that rewards experience.\n\n### Storm Bee MX Track Edition\n\nThe [Storm Bee MX Track Edition](/shop/sur-ron-storm-bee-mx/) is $14,490, makes 520 Nm at the rear wheel and weighs 122 kg. It is a stripped-back track bike with a 21-inch front and 18-inch rear competition wheelset.\n\n{{product:sur-ron-storm-bee-mx}}\n\n### Storm Bee Enduro\n\nThe [Storm Bee Enduro](/shop/sur-ron-storm-bee-enduro/) is $15,490 with a 110 km/h top speed, up to 120 km of range and Eco, Rain, Sport and Turbo modes plus reverse. It weighs 127 kg and suits riders who want maximum power for long days off-road.\n\n{{product:sur-ron-storm-bee-enduro}}\n\n## How to choose the right model\n\nWork through these questions before you pick a bike.\n\n- How much do you weigh, and how heavy a bike can you handle?\n- Do you ride tight trails, open bush tracks or a motocross track?\n- How far is your usual ride, and can you recharge between sessions?\n- What is your total budget, including gear, a spare charger and transport?\n\n## Price per kilowatt: a rough value check\n\nDividing price by peak power gives a simple value comparison. The Light Bee X works out to about $1,082 per kW ($6,490 divided by 6), the Ultra Bee to about $879 ($10,990 divided by 12.5), and the Storm Bee MX to about $644 ($14,490 divided by 22.5). More power per dollar does not mean a better bike for you. A heavier bike needs more skill, so choose the one you can control.\n\n## Cheap Surron options: what is the lowest-priced bike?\n\nRiders looking for the cheapest surron in our range will find that the Light Bee X at $6,490 is the lowest-priced Sur-Ron we list. We sell new bikes only, so there are no used or discounted older models. If you want a cheap surron style bike at a lower price, compare the lighter electric bikes in our [electric dirt bikes](/electric-dirt-bikes/) category.\n\n## Accessories and spares\n\nBefore you buy any part, check the voltage and connector on your battery and controller so the new part matches the bike. Genuine packs and chargers matter for safety as well as performance. The most common additions are a replacement battery and protection. A Surron e bicycle style pedal bike is a different product, so make sure any part you buy matches your exact model. The [Sur-Ron OEM 60V 40Ah replacement pack](/shop/sur-ron-oem-60v-40ah-replacement/) is $1,790, and the [heavy-duty skid plate](/shop/heavy-duty-skid-plate/) is $195. Browse more in our [accessories](/accessories/) range.\n\n## Surrons for sale: delivery, warranty and next steps\n\nIf you are comparing surrons for sale, we ship Australia-wide from Mittagong NSW and orders over $1,500 ship free. Paying with crypto or PayID takes 10% off at checkout, and our bikes carry a 12-month Australian warranty. See every model in the [Sur-Ron range](/electric-dirt-bikes/sur-ron/) or the full [electric motocross bikes](/electric-motocross-bikes/) category.\n\n### Charging and safety\n\nCharge on a hard, dry surface away from anything flammable and never leave a battery charging unattended. The [lithium-ion battery article on Wikipedia](https://en.wikipedia.org/wiki/Lithium-ion_battery) explains how these packs work, and the [NSW Government lithium-ion battery guidance](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) explains safe charging and storage. You can read the maker's own details on the [Sur-Ron website](https://www.surron.com/).\n\n### Where to ride\n\nA first ride is best spent on flat, open private ground where you can learn how the throttle and brakes respond. Build up gradually, learn the riding modes before you head onto steeper or rougher tracks, and ride with a friend when you can. These bikes are for private property with the owner's permission and designated off-road areas. They are not road registered. Rules differ by state, so check with your state authority. Wear a certified helmet, goggles, gloves, boots and knee protection every ride. For more on pricing, read our [Light Bee X price guide](/blog/sur-ron-light-bee-x-price-australia-what-you-get/) and the [Sur-Ron electric bike price guide](/blog/sur-ron-electric-bike-price-australia/). For full-size options, see the [electric enduro guide](/blog/electric-enduro-bike-australia-review/) and the [power classes guide](/blog/electric-dirt-motorcycle-power-classes-explained/).",
+    "rich": true,
+    "metaDescription": "Surron Light Bee X vs Ultra Bee vs Storm Bee for Australia: compare power, battery, weight, range and price from $6,490 and pick the right Sur-Ron.",
+    "tags": [
+      "surron light bee x",
+      "surron lbx",
+      "surron bike",
+      "surron bikes",
+      "surrons",
+      "surron e bicycle",
+      "surron storm bee",
+      "surron lightbee",
+      "cheap surron",
+      "cheapest surron",
+      "surrons for sale",
+      "surron lbx price",
+      "electric dirt bike for sale",
+      "electric dirt bikes for sale",
+      "electric motorbike for sale",
+      "electric motorcycle for sale",
+      "electric bikes for sale",
+      "surron for sale",
+      "electric motorbikes for sale",
+      "e bikes for sale"
+    ],
+    "faqs": [
+      {
+        "q": "Which Sur-Ron should I buy first?",
+        "a": "For most riders the Light Bee X at $6,490 is the best first Sur-Ron. It weighs 50 kg, makes 6 kW and quotes up to 100 km in eco mode. Move up to the Ultra Bee at $10,990 only when you want more power, range and suspension."
+      },
+      {
+        "q": "What is the cheapest Surron in Australia?",
+        "a": "In our range the Light Bee X at $6,490 is the lowest-priced Sur-Ron. We sell new bikes with an Australian warranty, so we do not list used bikes. Orders over $1,500 ship free, and paying with crypto or PayID takes 10% off."
+      },
+      {
+        "q": "How far does a Sur-Ron go on one charge?",
+        "a": "Quoted ranges are up to 100 km for the Light Bee X in eco mode, up to 140 km for the Ultra Bee in eco mode and up to 120 km for the Storm Bee Enduro. Real distance depends on terrain, rider weight and throttle use, so plan for roughly two thirds of the quoted figure on hard rides and always keep some battery in reserve."
+      },
+      {
+        "q": "What is the difference between the Storm Bee MX and Enduro?",
+        "a": "Both use a 22.5 kW motor and a 5,720 Wh battery. The MX Track Edition is a stripped-back competition bike at $14,490 and 122 kg. The Enduro is $15,490, weighs 127 kg and lists a 110 km/h top speed and up to 120 km of range."
+      },
+      {
+        "q": "Can I ride a Sur-Ron on the road?",
+        "a": "No. The bikes we sell are for private property and designated off-road areas, not registered road use. Check your state authority's rules for the area where you ride, and always get the landowner's permission before riding on private land. Wear full protective gear every time."
+      }
+    ],
+    "primaryKeyword": "surron light bee x",
+    "secondaryKeywords": [
+      "surron lbx",
+      "surron bike",
+      "surron bikes",
+      "surrons",
+      "surron e bicycle",
+      "surron storm bee",
+      "surron lightbee",
+      "cheap surron"
+    ],
+    "products": [
+      "sur-ron-light-bee-x",
+      "sur-ron-ultra-bee",
+      "sur-ron-storm-bee-mx",
+      "sur-ron-storm-bee-enduro"
+    ]
+  },
+  {
+    "slug": "dirt-bikes-for-sale-australia-electric-prices",
+    "title": "Dirt Bikes for Sale Australia: Electric Models from $1,850 to $16,990",
+    "excerpt": "Dirt bikes for sale in Australia, all electric and new: a price ladder from $1,850 to $16,990 with real specs for kids, teens, adults and racers.",
+    "category": "Buyers Guide",
+    "date": "2026-10-29",
+    "readTime": "7 min read",
+    "image": "/images/blog/dirt-bikes-for-sale-1.webp",
+    "imageAlt": "DHZ 2200E electric dirt bike with black bodywork on a white background",
+    "content": "If you are searching for dirt bikes for sale in Australia, the choice is wider than it has ever been. Electric models now cover everything from a light pit bike for a teenager to a full competition motocross machine, and they come with no fuel, no clutch and very little servicing. This guide lists six new electric bikes from the Electric Dirt Bike Australia range, from $1,850 to $16,990, so you can see what each budget buys.\n\nEvery price and specification comes from our product pages. We sell new electric bikes only, with an Australian warranty, and all of these bikes are for private property and designated off-road areas.\n\n![DHZ 2200E electric dirt bike with black bodywork on a white background](/images/blog/dirt-bikes-for-sale-1.webp)\n\n## Dirt bikes for sale in Australia: the price ladder\n\nThe table lists the six bikes from lowest to highest price, with the key figures that matter when you compare them.\n\n| Bike | Price | Who it suits | Key figures |\n|---|---|---|---|\n| DHZ 2200E | $1,850 | teens, smaller adults | 2,200 W, 65 km/h, 55 kg |\n| MXR MXE 60V kids bike | $2,499 | kids and young riders | 1,600 W, 60V 27Ah, 65 km/h, 66 kg |\n| Ebox V3 72RS | $3,200 | teens and adults | 6.3 kW peak, 65 kg, 1-year warranty |\n| Sur-Ron Light Bee X | $6,490 | adults, trail riders | 6 kW, 60V 40Ah, 50 kg |\n| Talaria Sting R MX4 | $7,290 | adults, long rides | 8 kW, 60V 45Ah, up to 110 km, 63 kg |\n| Alpha 60HP | $16,990 | club racers | 60 hp, 6.0 kWh, 118 kg |\n\nOrders over $1,500 ship free from Mittagong NSW, and paying with crypto or PayID takes 10% off at checkout. Compared with petrol dirt bikes for sale elsewhere, every bike here is new, electric and covered by an Australian warranty.\n\n### How to read the numbers\n\nPower in watts or kilowatts tells you how hard the bike accelerates. Battery energy in watt hours, worked out as volts times amp hours, tells you how far it goes. Weight tells you how easy the bike is to handle and load. A bike with high power and a small battery is quick but short-lived, so look at all three.\n\n## The $1,850 starter: DHZ 2200E\n\nThe [DHZ 2200E](/shop/dhz-2200e-electric-pit-bike/) is the lowest-priced bike here. It has a 2,200 W motor, a 65 km/h top speed and a weight of 55 kg, which makes it easy to load and easy to ride.\n\n{{product:dhz-2200e-electric-pit-bike}}\n\nIt suits teenagers and smaller adults who want a simple, quiet first bike. For other pit bike families, see our [electric pit bikes](/electric-pit-bikes/) category.\n\n## Kids dirt bike options\n\nParents searching for a kids dirt bike should start with size and speed, not power. The [MXR MXE 60V kids bike](/shop/mxr-mxe-60v-mini-varg-electric-dirt-bike/) is $2,499 with a 1,600 W motor, a 60V 27Ah battery and a 65 km/h top speed. It is powerful for a child's bike, so it suits confident, supervised riders on private land.\n\n{{product:mxr-mxe-60v-mini-varg-electric-dirt-bike}}\n\n### Smaller and gentler choices\n\nIf the MXR bike is too much, browse the [kids electric dirt bikes](/electric-dirt-bikes/kids/) category for smaller, slower bikes with adjustable limits. Our [affordable dirt bikes guide](/blog/affordable-dirt-bikes-australia-electric-value/) also shows lower-priced options.\n\n## Mid-range pit bike: Ebox V3 72RS\n\nThe [Ebox V3 72RS](/shop/ebox-v3-72rs-electric-pit-bike-5400w-72v/) is $3,200 on a 72V system with a 6.3 kW peak and a 65 kg weight. It carries a 1-year manufacturer warranty. It is the pick if you want strong acceleration in a light frame.\n\n{{product:ebox-v3-72rs-electric-pit-bike-5400w-72v}}\n\n## Mini bike dirt bike or full-size: which to choose?\n\n### Match the bike to the rider\n\nRiders often compare a mini bike dirt bike with a full-size machine. A mini bike is smaller, lighter and cheaper, and suits children and smaller teens. A full-size bike has a longer frame, better suspension and a bigger battery, and suits adults. Choose by rider height and weight rather than age, and check the dimensions on each product page.\n\n### Plan for growth\n\nChildren and teenagers grow quickly, so a bike that fits today may feel small in a year. Some families buy one size up and use speed limits or gentle power modes to keep things safe, while others buy a smaller bike and resell it. Whichever you choose, supervise young riders and keep to private land.\n\n## Adult dirt bikes: Light Bee X and Sting R MX4\n\nFor adults, two bikes cover most needs. The [Sur-Ron Light Bee X](/shop/sur-ron-light-bee-x/) is $6,490 with a 6 kW motor, a 60V 40Ah battery and a 50 kg weight. It is light, agile and the best-known model in Australia.\n\n{{product:sur-ron-light-bee-x}}\n\nThe [Talaria Sting R MX4](/shop/talaria-sting-r-mx4/) is $7,290 with an 8 kW motor and a 60V 45Ah battery of 2,700 Wh. It lists up to 110 km of range, an 85 km/h unrestricted top speed and a 63 kg weight.\n\n{{product:talaria-sting-r-mx4}}\n\n### Light Bee X versus Sting R MX4\n\nThe Sting R MX4 costs $800 more ($7,290 minus $6,490) and adds 2 kW of power and 300 Wh of battery capacity. The Light Bee X is 13 kg lighter. If you prioritise range and power, choose the Talaria. If you prioritise weight and agility, choose the Sur-Ron. Both are popular because they are quiet, quick off the mark and easy to maintain, and both suit riders who want one bike for trails, bush tracks and private land.\n\n![DHZ 2200E electric dirt bike with red and white graphics](/images/blog/dirt-bikes-for-sale-2.webp)\n\n## Competition: Alpha 60HP\n\nAt the top of the ladder is the [Alpha 60HP](/shop/stark-varg-alpha-60hp/) at $16,990. It makes 60 hp from a 6.0 kWh battery and weighs 118 kg. This is a motocross competition machine, so it suits experienced riders.\n\n{{product:stark-varg-alpha-60hp}}\n\nRead our [review of the EX 80HP and Alpha 60HP](/blog/stark-varg-review-australia-2026/) for the full comparison with the EX 80HP.\n\n## Stunt bike dirt bike riding: what to know\n\nSome riders search for a stunt bike dirt bike for jumps and tricks. Any bike used this way takes more punishment, so choose a strong frame and quality suspension and wear full protective gear. Stunt-style riding belongs on private land or at a purpose-built park, not on roads or footpaths.\n\n## Dirt bike for sale checklist: before you buy\n\nA little planning avoids most buyer regret. Many people who browse dirt bikes for sale rush into a purchase and then discover the bike is too heavy, too fast or hard to transport. Use this list before you order any bike:\n\n1. Set a total budget that includes gear, a spare charger or battery and transport.\n2. Match the bike weight and seat height to the rider.\n3. Compare watt hours (volts times amp hours), not just power.\n4. Check the warranty and what it covers.\n5. Confirm where you will ride and that you have permission.\n\n## Charging, safety and legal notes\n\nCharge on a hard, dry surface away from anything flammable and never leave a battery charging unattended. The [NSW Government lithium-ion battery guidance](https://www.nsw.gov.au/housing-and-construction/safety-home/electrical-safety/lithium-ion-batteries-and-e-micromobility-devices) covers safe charging and storage, and the [ACCC guide to consumer rights](https://www.accc.gov.au/consumers/consumer-rights-guarantees) explains your guarantees when you buy. For background on bike types, see the [dirt bike overview on Wikipedia](https://en.wikipedia.org/wiki/Dirt_bike).\n\nThese bikes are for private property with the owner's permission and designated off-road areas. They are not registered road vehicles, and rules differ by state, so check with your state authority.\n\n![DHZ 2200E electric dirt bike side view with white graphics](/images/blog/dirt-bikes-for-sale-3.webp)\n\n## Where to go next\n\nCompare every model in our [electric dirt bikes](/electric-dirt-bikes/) range, or browse lower-priced bikes in the [cheap electric dirt bikes](/electric-dirt-bikes/cheap/) category. For price ladders by budget, read our [electric dirt bike price ladder](/blog/cheapest-electric-dirt-bike-australia-price-ladder/). If you want a petrol-style comparison, see our [motorcycle dirt bike guide](/blog/motorcycle-dirt-bike-for-sale-australia-electric/), the [moto dirt bike guide](/blog/moto-dirt-bikes-for-sale-australia-electric/) and our [electric pitbike guide](/blog/electric-pit-bike-australia-guide/).",
+    "rich": true,
+    "metaDescription": "Dirt bikes for sale in Australia: compare new electric models from $1,850 to $16,990 by power, battery, weight and rider size, with free freight over $1,500.",
+    "tags": [
+      "dirt bikes for sale",
+      "dirt bike for sale",
+      "kids dirt bike",
+      "mini bike dirt bike",
+      "stunt bike dirt bike",
+      "electric dirt bike for sale",
+      "electric dirt bikes for sale",
+      "electric motorbike for sale",
+      "electric motorcycle for sale",
+      "electric bikes for sale",
+      "surron for sale",
+      "electric motorbikes for sale",
+      "e bikes for sale",
+      "cheap electric bikes for sale",
+      "electric bike price",
+      "e bike price",
+      "electric dirt bike australia",
+      "electric motorbike australia",
+      "best electric bike australia",
+      "kids electric motorbike"
+    ],
+    "faqs": [
+      {
+        "q": "What is the cheapest new electric dirt bike you sell?",
+        "a": "The lowest-priced bike in this guide is the DHZ 2200E at $1,850. It has a 2,200 W motor, a 65 km/h top speed and a 55 kg weight. We sell new bikes only, with an Australian warranty and free freight on orders over $1,500, so you know exactly what you are getting and who to contact if you need help after the sale."
+      },
+      {
+        "q": "Which dirt bike is best for a teenager?",
+        "a": "Teenagers usually do well on a light pit bike or a smaller trail bike. The DHZ 2200E and the Ebox V3 72RS are the easiest to handle at 55 kg and 65 kg. Choose by rider size, start in gentle settings and wear full protective gear."
+      },
+      {
+        "q": "Are electric dirt bikes legal to ride on the road?",
+        "a": "No. The bikes in this guide are sold for private property and designated off-road areas, not registered road use. Rules differ by state, so check your state authority and always get the landowner's permission before riding on private land."
+      },
+      {
+        "q": "How far does an electric dirt bike go on one charge?",
+        "a": "It depends on battery size, terrain and rider weight. The Sur-Ron Light Bee X lists up to 100 km in eco mode and the Talaria Sting R MX4 lists up to 110 km. Plan for less on hills and soft ground and keep some battery in reserve."
+      },
+      {
+        "q": "Can I pay with crypto or PayID?",
+        "a": "Yes. Paying with crypto or PayID takes 10% off at checkout, and orders over $1,500 ship free from Mittagong NSW. See the [contact page](/contact/) if you need help choosing a bike before you order, and tell us the rider's height, weight and experience so we can point you to the right size."
+      }
+    ],
+    "primaryKeyword": "dirt bikes for sale",
+    "secondaryKeywords": [
+      "dirt bike for sale",
+      "kids dirt bike",
+      "mini bike dirt bike",
+      "stunt bike dirt bike"
+    ],
+    "products": [
+      "dhz-2200e-electric-pit-bike",
+      "mxr-mxe-60v-mini-varg-electric-dirt-bike",
+      "ebox-v3-72rs-electric-pit-bike-5400w-72v",
+      "sur-ron-light-bee-x",
+      "talaria-sting-r-mx4",
+      "stark-varg-alpha-60hp"
+    ]
   }
 ];

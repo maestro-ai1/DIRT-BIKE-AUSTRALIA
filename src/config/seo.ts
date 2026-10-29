@@ -264,9 +264,9 @@ export const PAGE_SEO: Record<string, PageSeo> = {
     ogTitle: 'Electric Pit Bike for Sale Australia | Pit Bikes AU',
     ogDescription: 'Electric pit bike for sale in Australia: fast electric pit bikes and e pit bikes with free freight over $1,500 and warranty.',
     h1: 'Electric Pit Bikes for Sale in Australia',
-    keywords: 'electric pit bike for sale, electric pit bike, electric pit bikes, e pit bike, fast electric pit bike, pit bikes australia',
+    keywords: 'electric pit bike for sale, electric pit bike, electric pit bikes, e pit bike, fast electric pit bike, pit bikes australia, pit bikes, pit bike',
     main: 'electric pit bike for sale',
-    primary: ['electric pit bike', 'electric pit bikes', 'e pit bike', 'fast electric pit bike', 'pit bikes australia'],
+    primary: ['electric pit bike', 'electric pit bikes', 'e pit bike', 'fast electric pit bike', 'pit bikes australia', 'pit bikes', 'pit bike'],
   },
   '/electric-balance-bikes/': {
     title: 'Electric Balance Bike for Sale Australia | Kids From $699',
