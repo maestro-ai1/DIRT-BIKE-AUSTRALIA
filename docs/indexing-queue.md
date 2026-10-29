@@ -10,15 +10,10 @@ Method: GSC Overview -> search icon -> paste URL -> Enter -> wait ~12 s -> if "U
 
 - [x] 2026-10-28 requested (all "URL is not on Google" -> Indexing requested): /blog/electric-trail-bike-australia-guide/, road-legal-electric-bike-australia-guide, electric-motorbike-for-7-year-old-australia, e-bikes-for-10-year-olds-australia, electric-scrambler-bike-australia, high-performance-e-bikes-australia, electric-motorbike-for-5-year-old-australia, battery-for-motorbike-electric-australia
 
+- [x] 2026-10-29 requested (Indexing requested): /blog/beach-cruising-electric-bikes-australia/, /blog/electric-motorbike-for-3-year-old-australia/, /shop/e-ride-pro-sr/, /shop/segway-x260-dirt-ebike/, /shop/razor-mx650-electric-kids/, /shop/sur-ron-ultra-bee/, /shop/talaria-xxx-black-edition/, /shop/rfn-ares-rally-pro/
+- Product pages re-optimised 2026-10-29 (10 clickable tags, 5 secondaries); IndexNow sent (375 URLs).
+
 ## Queue (in priority order)
-- [ ] /blog/beach-cruising-electric-bikes-australia/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /blog/electric-motorbike-for-3-year-old-australia/  (round 3, published 2026-10-27; IndexNow sent)
-- [ ] /shop/e-ride-pro-sr/
-- [ ] /shop/segway-x260-dirt-ebike/
-- [ ] /shop/razor-mx650-electric-kids/
-- [ ] /shop/sur-ron-ultra-bee/
-- [ ] /shop/talaria-xxx-black-edition/
-- [ ] /shop/rfn-ares-rally-pro/
 - [ ] /shop/talaria-dragon-enduro/
 - [ ] /shop/edba-moto-50-kids-beginner/
 - [ ] /shop/10a-compact-touring-charger/
