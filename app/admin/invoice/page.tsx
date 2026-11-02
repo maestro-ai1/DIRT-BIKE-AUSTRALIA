@@ -101,7 +101,7 @@ function Invoice() {
           </div>
           <div>
             <div className="text-[11px] font-extrabold uppercase tracking-widest text-slate-500 mb-1">Payment method</div>
-            <div className="font-bold">Bank transfer (Osko / PayID)</div>
+            <div className="font-bold">Bank transfer (Osko)</div>
             <div className="text-slate-700">Quote reference <b className="font-mono">{order.ref}</b></div>
           </div>
         </div>
