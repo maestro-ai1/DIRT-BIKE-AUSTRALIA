@@ -169,3 +169,20 @@ export async function deleteOrder(id: string): Promise<boolean> {
   global.__EDBA_ORDERS__ = global.__EDBA_ORDERS__.filter((o) => o.id !== id && o.ref !== id);
   return global.__EDBA_ORDERS__.length < before;
 }
+
+// ── Private admin settings (e.g. invoice bank details). Stored in Redis, never in the public repo. ──
+declare global {
+  // eslint-disable-next-line no-var
+  var __EDBA_SETTINGS__: Record<string, string> | undefined;
+}
+const SETTINGS_PREFIX = 'edba:settings:';
+
+export async function getSetting(key: string): Promise<string | null> {
+  if (hasRedis()) return ((await redis('GET', SETTINGS_PREFIX + key)) as string | null) ?? null;
+  return (global.__EDBA_SETTINGS__ || {})[key] ?? null;
+}
+
+export async function setSetting(key: string, value: string): Promise<void> {
+  if (hasRedis()) { await redis('SET', SETTINGS_PREFIX + key, value); return; }
+  global.__EDBA_SETTINGS__ = { ...(global.__EDBA_SETTINGS__ || {}), [key]: value };
+}
