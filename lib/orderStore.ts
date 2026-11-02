@@ -30,13 +30,21 @@ export interface StoredOrder {
 // ── Upstash Redis via REST pipeline ──────────────────────────────
 const ORDERS_HASH = 'edba:orders:h';
 
-function hasRedis(): boolean {
-  return !!(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN);
+// Vercel's Redis/KV integration names these KV_REST_API_URL and KV_REST_API_TOKEN; older setups use UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN.
+function redisCreds(): { url: string; token: string } {
+  return {
+    url: (process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL || '').replace(/\/$/, ''),
+    token: process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN || '',
+  };
+}
+
+export function hasRedis(): boolean {
+  const c = redisCreds();
+  return !!(c.url && c.token);
 }
 
 async function redis(cmd: string, ...args: (string | number)[]): Promise<unknown> {
-  const url = (process.env.UPSTASH_REDIS_REST_URL || '').replace(/\/$/, '');
-  const token = process.env.UPSTASH_REDIS_REST_TOKEN || '';
+  const { url, token } = redisCreds();
   const res = await fetch(`${url}/pipeline`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
@@ -54,7 +62,7 @@ declare global {
 }
 
 if (!global.__EDBA_ORDERS__) {
-  global.__EDBA_ORDERS__ = [
+  global.__EDBA_ORDERS__ = process.env.NODE_ENV === 'production' ? [] : [
     {
       id: 'ord-101',
       ref: 'EDBA-84920',

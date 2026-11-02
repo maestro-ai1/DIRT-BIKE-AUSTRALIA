@@ -195,7 +195,7 @@ function Composer() {
         {urlFallback && (
           <div className="flex items-start gap-2 p-3 bg-amber-500/10 border border-amber-500/30 rounded-xl text-amber-400 text-xs">
             <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
-            <span>Order loaded from your notification email link. To see all orders in the list, add <strong>UPSTASH_REDIS_REST_URL</strong> and <strong>UPSTASH_REDIS_REST_TOKEN</strong> to your Vercel environment variables.</span>
+            <span>Order loaded from your notification email link. To see all orders in the list, connect a Redis database (KV_REST_API_URL and KV_REST_API_TOKEN, or UPSTASH_REDIS_REST_URL and UPSTASH_REDIS_REST_TOKEN) in your Vercel environment variables.</span>
           </div>
         )}
 

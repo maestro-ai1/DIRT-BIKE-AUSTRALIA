@@ -1,4 +1,5 @@
-// lib/enquiryStore.ts — Enquiry store for contact and wholesale messages
+// lib/enquiryStore.ts — Enquiry store for contact and wholesale messages (Redis when configured, memory fallback for local dev)
+import { hasRedis, getSetting, setSetting } from './orderStore';
 
 export interface StoredEnquiry {
   id: string;
@@ -21,7 +22,7 @@ declare global {
 }
 
 if (!global.__EDBA_ENQUIRIES__) {
-  global.__EDBA_ENQUIRIES__ = [
+  global.__EDBA_ENQUIRIES__ = process.env.NODE_ENV === 'production' ? [] : [
     {
       id: 'enq-1',
       type: 'contact',
@@ -49,12 +50,27 @@ if (!global.__EDBA_ENQUIRIES__) {
   ];
 }
 
-export async function getAllEnquiries(): Promise<StoredEnquiry[]> {
+const ENQ_KEY = 'enquiries';
+
+async function load(): Promise<StoredEnquiry[]> {
+  if (hasRedis()) {
+    const raw = await getSetting(ENQ_KEY);
+    return raw ? (JSON.parse(raw) as StoredEnquiry[]) : [];
+  }
   return global.__EDBA_ENQUIRIES__ || [];
 }
 
+async function persist(list: StoredEnquiry[]): Promise<void> {
+  if (hasRedis()) await setSetting(ENQ_KEY, JSON.stringify(list));
+  else global.__EDBA_ENQUIRIES__ = list;
+}
+
+export async function getAllEnquiries(): Promise<StoredEnquiry[]> {
+  return load();
+}
+
 export async function getEnquiryById(id: string): Promise<StoredEnquiry | undefined> {
-  const list = await getAllEnquiries();
+  const list = await load();
   return list.find((e) => e.id === id);
 }
 
@@ -64,25 +80,25 @@ export async function saveEnquiry(enquiry: Omit<StoredEnquiry, 'id' | 'createdAt
     id: `enq-${Date.now()}`,
     createdAt: new Date().toISOString(),
   };
-
-  if (!global.__EDBA_ENQUIRIES__) {
-    global.__EDBA_ENQUIRIES__ = [];
-  }
-  global.__EDBA_ENQUIRIES__.unshift(newEnq);
+  const list = await load();
+  list.unshift(newEnq);
+  await persist(list);
   return newEnq;
 }
 
 export async function updateEnquiryStatus(id: string, status: StoredEnquiry['status']): Promise<StoredEnquiry | null> {
-  const list = await getAllEnquiries();
+  const list = await load();
   const item = list.find((e) => e.id === id);
   if (!item) return null;
   item.status = status;
+  await persist(list);
   return item;
 }
 
 export async function deleteEnquiry(id: string): Promise<boolean> {
-  if (!global.__EDBA_ENQUIRIES__) return false;
-  const initialLen = global.__EDBA_ENQUIRIES__.length;
-  global.__EDBA_ENQUIRIES__ = global.__EDBA_ENQUIRIES__.filter((e) => e.id !== id);
-  return global.__EDBA_ENQUIRIES__.length < initialLen;
+  const list = await load();
+  const next = list.filter((e) => e.id !== id);
+  if (next.length === list.length) return false;
+  await persist(next);
+  return true;
 }
