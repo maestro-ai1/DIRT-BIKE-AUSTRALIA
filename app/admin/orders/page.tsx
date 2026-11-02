@@ -6,7 +6,7 @@ import { PasscodeGate } from '@/components/admin/PasscodeGate';
 import { AdminNav } from '@/components/admin/AdminNav';
 import { useAdminPasscode } from '@/lib/useAdminPasscode';
 import { StoredOrder } from '@/lib/orderStore';
-import { RefreshCw, Send, Trash2, MessageSquare, Mail } from 'lucide-react';
+import { RefreshCw, Send, Trash2, MessageSquare, Mail, FileText } from 'lucide-react';
 
 export default function AdminOrdersPage() {
   return (
@@ -179,6 +179,13 @@ function OrdersList() {
                       {confirming === order.ref ? 'Confirming…' : 'Payment received: email customer'}
                     </button>
                   )}
+                  <Link
+                    href={`/admin/invoice/?ref=${order.ref}`}
+                    className="flex items-center justify-center gap-2 w-full py-2.5 bg-white/10 hover:bg-white/15 text-white font-bold text-xs rounded-xl transition-colors"
+                  >
+                    <FileText className="w-3.5 h-3.5" />
+                    Create Invoice
+                  </Link>
                   <Link
                     href={`/admin/send-payment-email/?ref=${order.ref}`}
                     className="flex items-center justify-center gap-2 w-full py-2.5 bg-sky-600 hover:bg-sky-500 text-white font-bold text-xs rounded-xl transition-colors"

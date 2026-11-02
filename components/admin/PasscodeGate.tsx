@@ -57,7 +57,7 @@ export function PasscodeGate({ children }: { children: React.ReactNode }) {
                 setInputVal(e.target.value);
                 setError(false);
               }}
-              placeholder="Enter passcode (default: edba2026)"
+              placeholder="Enter passcode"
               className="w-full px-4 py-3 bg-slate-50 border border-slate-300 rounded-xl text-center font-mono text-base tracking-widest focus:outline-none focus:ring-2 focus:ring-sky-500"
             />
           </div>
