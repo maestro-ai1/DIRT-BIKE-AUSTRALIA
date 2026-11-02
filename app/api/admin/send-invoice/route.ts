@@ -61,6 +61,7 @@ export async function POST(request: Request) {
       ],
       afterRows: `
         <div style="font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:#0284c7;margin:6px 0 4px 0;">Tax invoice from</div>
+        <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="margin:0 0 10px 0;"><tr><td style="padding-right:10px;"><img src="https://${SITE.domain}/images/logo-mark.png" width="40" height="40" alt="Electric Dirt Bike Australia logo" style="display:block;border-radius:10px;"></td><td style="font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;line-height:1.1;"><div style="font-size:15px;font-weight:800;color:#0f172a;letter-spacing:-0.2px;">ELECTRIC DIRT BIKE</div><div style="font-size:10px;font-weight:700;color:#c2410c;letter-spacing:2px;">AUSTRALIA</div></td></tr></table>
         <p style="margin:0 0 12px 0;font-size:12px;color:#475569;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">Electric Dirt Bike Australia &middot; ABN ${escapeHtml(CONTACT.abn)}<br>${escapeHtml(CONTACT.address)}</p>
         <div style="font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:#0284c7;margin:6px 0 4px 0;">Bill to</div>
         <p style="margin:0 0 12px 0;font-size:12px;color:#475569;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;">${billTo}</p>

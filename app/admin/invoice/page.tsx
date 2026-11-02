@@ -117,7 +117,7 @@ function Invoice() {
 
   return (
     <div className="min-h-screen bg-gray-200 print:bg-white py-6 print:py-0">
-      <style>{`@media print { body * { visibility: hidden !important; } #invoice-print, #invoice-print * { visibility: visible !important; } #invoice-print { position: absolute; left: 0; top: 0; width: 100%; max-width: none; } @page { size: A4; margin: 12mm; } }`}</style>
+      <style>{`@media print { body * { visibility: hidden !important; } #invoice-print, #invoice-print * { visibility: visible !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; } #invoice-print { position: absolute; left: 0; top: 0; width: 100%; max-width: none; } @page { size: A4; margin: 12mm; } }`}</style>
 
       <div className="max-w-3xl mx-auto px-4 print:px-0 mb-4 flex items-center justify-between print:hidden">
         <Link href="/admin/orders/" className="inline-flex items-center gap-1.5 text-sm font-bold text-gray-700 hover:text-black">
@@ -162,7 +162,18 @@ function Invoice() {
         {/* Header */}
         <div className="flex items-start justify-between gap-6 border-b-4 border-[#0284c7] pb-6">
           <div>
-            <div className="text-2xl font-extrabold tracking-tight text-[#0f172a]">Electric Dirt Bike Australia</div>
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-xl flex items-center justify-center shrink-0" style={{ background: 'linear-gradient(45deg,#0369a1,#0ea5e9 55%,#f97316)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                <svg viewBox="0 0 20 20" fill="none" className="w-6 h-6" aria-hidden="true">
+                  <circle cx="10" cy="10" r="7" stroke="white" strokeWidth="2.5" />
+                  <path d="M12.5 3.5L9 10L12.5 10L7.5 16.5" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
+              <div className="flex flex-col leading-none">
+                <span className="text-xl font-extrabold tracking-tight text-[#0f172a]">ELECTRIC DIRT BIKE</span>
+                <span className="text-xs font-bold tracking-widest text-orange-700 mt-1">AUSTRALIA</span>
+              </div>
+            </div>
             <div className="text-xs text-slate-600 mt-2 leading-relaxed">
               {CONTACT.address}<br />
               ABN {CONTACT.abn}<br />
