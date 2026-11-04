@@ -23,7 +23,7 @@ function EnquiryReplyComposer() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const idParam = searchParams.get('id') || '';
-  const { getAuthHeaders } = useAdminPasscode();
+  const { getAuthHeaders, isUnlocked } = useAdminPasscode();
 
   const [enquiry, setEnquiry] = useState<StoredEnquiry | null>(null);
   const [loading, setLoading] = useState(true);
@@ -32,7 +32,7 @@ function EnquiryReplyComposer() {
   const [sentSuccess, setSentSuccess] = useState(false);
 
   useEffect(() => {
-    if (!idParam) return;
+    if (!idParam || !isUnlocked) return;
     const fetchEnquiry = async () => {
       setLoading(true);
       try {
@@ -53,7 +53,7 @@ function EnquiryReplyComposer() {
       }
     };
     fetchEnquiry();
-  }, [idParam]);
+  }, [idParam, isUnlocked]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!idParam) {
     return <div className="p-12 text-center text-slate-500">Please select an enquiry to reply to.</div>;

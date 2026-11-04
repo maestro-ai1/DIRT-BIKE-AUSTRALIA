@@ -16,7 +16,7 @@ export default function AdminEnquiriesPage() {
 }
 
 function EnquiriesDashboard() {
-  const { getAuthHeaders, lock } = useAdminPasscode();
+  const { getAuthHeaders, lock, isUnlocked } = useAdminPasscode();
   const [enquiries, setEnquiries] = useState<StoredEnquiry[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -38,8 +38,8 @@ function EnquiriesDashboard() {
   };
 
   useEffect(() => {
-    fetchEnquiries();
-  }, []);
+    if (isUnlocked) fetchEnquiries();
+  }, [isUnlocked]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleDelete = async (id: string) => {
     if (!confirm('Are you sure you want to delete this enquiry?')) return;
