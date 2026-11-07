@@ -1,0 +1,7770 @@
+{
+ "sur-ron-light-bee-x": {
+  "primary": {
+   "keyword": "surron light bee x",
+   "volume": 4400,
+   "kd": 18,
+   "intent": "C",
+   "source": "bank"
+  },
+  "secondary": [
+   {
+    "keyword": "Sur-Ron Light Bee X for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Light Bee X price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Sur-Ron Light Bee X",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Light Bee X specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Light Bee X warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Sur-Ron Light Bee X range",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Light Bee X top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Light Bee X battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Light Bee X delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Light Bee X finance",
+    "source": "name"
+   }
+  ]
+ },
+ "talaria-sting-r-mx4": {
+  "primary": {
+   "keyword": "Talaria Sting R MX4",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Talaria Sting R MX4 for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Sting R MX4 price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Talaria Sting R MX4",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Sting R MX4 specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Sting R MX4 warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Talaria Sting R MX4 range",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Sting R MX4 top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Sting R MX4 battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Sting R MX4 delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Sting R MX4 finance",
+    "source": "name"
+   }
+  ]
+ },
+ "sur-ron-ultra-bee": {
+  "primary": {
+   "keyword": "Sur-Ron Ultra Bee",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Sur-Ron Ultra Bee for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Ultra Bee price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Sur-Ron Ultra Bee",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Ultra Bee specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Ultra Bee warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Sur-Ron Ultra Bee range",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Ultra Bee top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Ultra Bee battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Ultra Bee delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Ultra Bee finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rfn-ares-rally-pro": {
+  "primary": {
+   "keyword": "RFN Ares Rally Pro",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RFN Ares Rally Pro for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Ares Rally Pro price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RFN Ares Rally Pro",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Ares Rally Pro specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Ares Rally Pro warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RFN Ares Rally Pro range",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Ares Rally Pro top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Ares Rally Pro battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Ares Rally Pro delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Ares Rally Pro finance",
+    "source": "name"
+   }
+  ]
+ },
+ "talaria-xxx-black-edition": {
+  "primary": {
+   "keyword": "Talaria XXX Black Edition",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Talaria XXX Black Edition for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria XXX Black Edition price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Talaria XXX Black Edition",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria XXX Black Edition specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria XXX Black Edition warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Talaria XXX Black Edition range",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria XXX Black Edition top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria XXX Black Edition battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria XXX Black Edition delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria XXX Black Edition finance",
+    "source": "name"
+   }
+  ]
+ },
+ "e-ride-pro-ss-2-0": {
+  "primary": {
+   "keyword": "e-ride pro ss",
+   "volume": 110,
+   "kd": 14,
+   "intent": "C",
+   "source": "bank"
+  },
+  "secondary": [
+   {
+    "keyword": "E-Ride Pro-SS 2.0 for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SS 2.0 price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy E-Ride Pro-SS 2.0",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SS 2.0 specs",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SS 2.0 warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "E-Ride Pro-SS 2.0 range",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SS 2.0 top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SS 2.0 battery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SS 2.0 delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SS 2.0 finance",
+    "source": "name"
+   }
+  ]
+ },
+ "e-ride-pro-sr": {
+  "primary": {
+   "keyword": "E-Ride Pro-SR",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "E-Ride Pro-SR for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SR price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy E-Ride Pro-SR",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SR specs",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SR warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "E-Ride Pro-SR range",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SR top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SR battery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SR delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro-SR finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rawrr-mantis-72v": {
+  "primary": {
+   "keyword": "Rawrr Mantis 72V High-Output Trail Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Rawrr Mantis 72V High-Output Trail Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Rawrr Mantis 72V High-Output Trail Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "talaria-dragon-enduro": {
+  "primary": {
+   "keyword": "Talaria Dragon Full-Size Enduro",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Talaria Dragon Full-Size Enduro",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro range",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Dragon Full-Size Enduro finance",
+    "source": "name"
+   }
+  ]
+ },
+ "sur-ron-storm-bee-enduro": {
+  "primary": {
+   "keyword": "surron storm bee",
+   "volume": 880,
+   "kd": 17,
+   "intent": "I",
+   "source": "bank"
+  },
+  "secondary": [
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Sur-Ron Storm Bee Enduro",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro range",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee Enduro finance",
+    "source": "name"
+   }
+  ]
+ },
+ "segway-x260-dirt-ebike": {
+  "primary": {
+   "keyword": "Segway Powersports X260 Electric Dirt eBike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Segway Powersports X260 Electric Dirt eBike",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X260 Electric Dirt eBike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "segway-x160-compact": {
+  "primary": {
+   "keyword": "Segway Powersports X160 Compact Youth Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Segway Powersports X160 Compact Youth Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Segway Powersports X160 Compact Youth Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "caofen-f80-dual-sport": {
+  "primary": {
+   "keyword": "Caofen F80 Dual Sport Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Caofen F80 Dual Sport Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Caofen F80 Dual Sport Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "arctic-leopard-e-xe-880": {
+  "primary": {
+   "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Arctic Leopard E-XE 880 Enduro Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Arctic Leopard E-XE 880 Enduro Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "stealth-b-52-bomber": {
+  "primary": {
+   "keyword": "Stealth B-52 Bomber Australian Electric Moto",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Stealth B-52 Bomber Australian Electric Moto",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto range",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth B-52 Bomber Australian Electric Moto finance",
+    "source": "name"
+   }
+  ]
+ },
+ "stealth-f-37-trail-fighter": {
+  "primary": {
+   "keyword": "Stealth F-37 Dual-Sport Trail Fighter",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Stealth F-37 Dual-Sport Trail Fighter",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter range",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth F-37 Dual-Sport Trail Fighter finance",
+    "source": "name"
+   }
+  ]
+ },
+ "super73-rx-mojave": {
+  "primary": {
+   "keyword": "Super73-RX Mojave Scrambler Electric Moto",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Super73-RX Mojave Scrambler Electric Moto",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto range",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-RX Mojave Scrambler Electric Moto finance",
+    "source": "name"
+   }
+  ]
+ },
+ "super73-s2-adventure": {
+  "primary": {
+   "keyword": "Super73-S2 Adventure Series Moto Cruiser",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Super73-S2 Adventure Series Moto Cruiser",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser range",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Super73-S2 Adventure Series Moto Cruiser finance",
+    "source": "name"
+   }
+  ]
+ },
+ "velimotor-vmx08-carbon": {
+  "primary": {
+   "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX08 Ultra-Light Carbon Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "torrot-motocross-two-junior": {
+  "primary": {
+   "keyword": "Torrot Motocross Two Electric Junior Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Torrot Motocross Two Electric Junior Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Torrot Motocross Two Electric Junior Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "kuberg-ranger-multi-purpose": {
+  "primary": {
+   "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Kuberg Ranger Multi-Purpose Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Kuberg Ranger Multi-Purpose Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "stark-varg-ex-80hp": {
+  "primary": {
+   "keyword": "Stark Varg EX 80HP Competition Motocross",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Stark Varg EX 80HP Competition Motocross",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross range",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg EX 80HP Competition Motocross finance",
+    "source": "name"
+   }
+  ]
+ },
+ "stark-varg-alpha-60hp": {
+  "primary": {
+   "keyword": "Stark Varg Alpha 60HP Motocross",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Stark Varg Alpha 60HP Motocross",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross range",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stark Varg Alpha 60HP Motocross finance",
+    "source": "name"
+   }
+  ]
+ },
+ "sur-ron-storm-bee-mx": {
+  "primary": {
+   "keyword": "Sur-Ron Storm Bee MX Track Edition",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Sur-Ron Storm Bee MX Track Edition",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition range",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Storm Bee MX Track Edition finance",
+    "source": "name"
+   }
+  ]
+ },
+ "velimotor-vmx12-motocross": {
+  "primary": {
+   "keyword": "Velimotor VMX12 12kW High-Power Motocross",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Velimotor VMX12 12kW High-Power Motocross",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross range",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Velimotor VMX12 12kW High-Power Motocross finance",
+    "source": "name"
+   }
+  ]
+ },
+ "stealth-h-52-competition": {
+  "primary": {
+   "keyword": "Stealth H-52 Competition Track Machine",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Stealth H-52 Competition Track Machine for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth H-52 Competition Track Machine price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Stealth H-52 Competition Track Machine",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth H-52 Competition Track Machine specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth H-52 Competition Track Machine warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Stealth H-52 Competition Track Machine range",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth H-52 Competition Track Machine top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth H-52 Competition Track Machine battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth H-52 Competition Track Machine delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stealth H-52 Competition Track Machine finance",
+    "source": "name"
+   }
+  ]
+ },
+ "72v-42ah-lithium-battery-upgrade": {
+  "primary": {
+   "keyword": "72V 42Ah High-Discharge Lithium Battery Pack",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 72V 42Ah High-Discharge Lithium Battery Pack",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack specs",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack range",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack battery",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 42Ah High-Discharge Lithium Battery Pack finance",
+    "source": "name"
+   }
+  ]
+ },
+ "72v-50ah-long-range-battery": {
+  "primary": {
+   "keyword": "72V 50Ah Long-Range Touring Lithium Battery",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 72V 50Ah Long-Range Touring Lithium Battery",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery specs",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery range",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery battery",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "72V 50Ah Long-Range Touring Lithium Battery finance",
+    "source": "name"
+   }
+  ]
+ },
+ "60v-53ah-high-capacity-pack": {
+  "primary": {
+   "keyword": "60V 53Ah High-Capacity Battery Pack",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 60V 53Ah High-Capacity Battery Pack",
+    "source": "name"
+   },
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack specs",
+    "source": "name"
+   },
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack range",
+    "source": "name"
+   },
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack battery",
+    "source": "name"
+   },
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "60V 53Ah High-Capacity Battery Pack finance",
+    "source": "name"
+   }
+  ]
+ },
+ "84v-45ah-extreme-voltage-battery": {
+  "primary": {
+   "keyword": "84V 45Ah Extreme Voltage Race Battery Pack",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 84V 45Ah Extreme Voltage Race Battery Pack",
+    "source": "name"
+   },
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack specs",
+    "source": "name"
+   },
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack range",
+    "source": "name"
+   },
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack battery",
+    "source": "name"
+   },
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "84V 45Ah Extreme Voltage Race Battery Pack finance",
+    "source": "name"
+   }
+  ]
+ },
+ "sur-ron-oem-60v-40ah-replacement": {
+  "primary": {
+   "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Sur-Ron Genuine OEM 60V 40Ah Replacement Battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery range",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Sur-Ron Genuine OEM 60V 40Ah Replacement Battery finance",
+    "source": "name"
+   }
+  ]
+ },
+ "talaria-oem-60v-45ah-replacement": {
+  "primary": {
+   "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Talaria Genuine OEM 60V 45Ah Replacement Battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery range",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Talaria Genuine OEM 60V 45Ah Replacement Battery finance",
+    "source": "name"
+   }
+  ]
+ },
+ "15a-fast-charger-60v-72v": {
+  "primary": {
+   "keyword": "15A Smart Fast Charger",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "15A Smart Fast Charger for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "15A Smart Fast Charger price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 15A Smart Fast Charger",
+    "source": "name"
+   },
+   {
+    "keyword": "15A Smart Fast Charger specs",
+    "source": "name"
+   },
+   {
+    "keyword": "15A Smart Fast Charger warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "15A Smart Fast Charger range",
+    "source": "name"
+   },
+   {
+    "keyword": "15A Smart Fast Charger top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "15A Smart Fast Charger battery",
+    "source": "name"
+   },
+   {
+    "keyword": "15A Smart Fast Charger delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "15A Smart Fast Charger finance",
+    "source": "name"
+   }
+  ]
+ },
+ "20a-ultra-fast-pit-charger": {
+  "primary": {
+   "keyword": "20A Ultra Fast Pit Charger with Variable Amperage",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 20A Ultra Fast Pit Charger with Variable Amperage",
+    "source": "name"
+   },
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage specs",
+    "source": "name"
+   },
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage range",
+    "source": "name"
+   },
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage battery",
+    "source": "name"
+   },
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "20A Ultra Fast Pit Charger with Variable Amperage finance",
+    "source": "name"
+   }
+  ]
+ },
+ "10a-compact-touring-charger": {
+  "primary": {
+   "keyword": "10A Compact Touring Fast Charger with AU Plug",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 10A Compact Touring Fast Charger with AU Plug",
+    "source": "name"
+   },
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug specs",
+    "source": "name"
+   },
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug range",
+    "source": "name"
+   },
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug battery",
+    "source": "name"
+   },
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "10A Compact Touring Fast Charger with AU Plug finance",
+    "source": "name"
+   }
+  ]
+ },
+ "battery-carry-backpack-harness": {
+  "primary": {
+   "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Heavy-Duty Waterproof Battery Carry Backpack & Harness",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness range",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy-Duty Waterproof Battery Carry Backpack & Harness finance",
+    "source": "name"
+   }
+  ]
+ },
+ "anderson-to-qs8-heavy-duty-adapter": {
+  "primary": {
+   "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy High-Current Pure Copper Anderson to QS8 Adapter Cable",
+    "source": "name"
+   },
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable specs",
+    "source": "name"
+   },
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable range",
+    "source": "name"
+   },
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable battery",
+    "source": "name"
+   },
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "High-Current Pure Copper Anderson to QS8 Adapter Cable finance",
+    "source": "name"
+   }
+  ]
+ },
+ "qs8-s-armoured-connector-kit": {
+  "primary": {
+   "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Anti-Spark QS8-S Armoured Battery Connector Kit",
+    "source": "name"
+   },
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit range",
+    "source": "name"
+   },
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Anti-Spark QS8-S Armoured Battery Connector Kit finance",
+    "source": "name"
+   }
+  ]
+ },
+ "torp-tc500-controller": {
+  "primary": {
+   "keyword": "Torp TC500 Plug-and-Play Tunable Controller",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Torp TC500 Plug-and-Play Tunable Controller",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller range",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC500 Plug-and-Play Tunable Controller finance",
+    "source": "name"
+   }
+  ]
+ },
+ "torp-tc1000-controller": {
+  "primary": {
+   "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Torp TC1000 High-Power 1000A Bluetooth Controller",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller range",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Torp TC1000 High-Power 1000A Bluetooth Controller finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ebmx-x-9000-controller": {
+  "primary": {
+   "keyword": "EBMX X-9000 Extreme Motor Controller & Display",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy EBMX X-9000 Extreme Motor Controller & Display",
+    "source": "name"
+   },
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display specs",
+    "source": "name"
+   },
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display range",
+    "source": "name"
+   },
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display battery",
+    "source": "name"
+   },
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "EBMX X-9000 Extreme Motor Controller & Display finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fastace-alx13rc-inverted-fork": {
+  "primary": {
+   "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork",
+    "source": "name"
+   },
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fastace ALX13RC 200mm Inverted Dual-Air Downhill Fork finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ext-ferro-36-inverted-fork": {
+  "primary": {
+   "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy EXT Ferro 36 Inverted Premium Enduro Fork",
+    "source": "name"
+   },
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork specs",
+    "source": "name"
+   },
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork range",
+    "source": "name"
+   },
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork battery",
+    "source": "name"
+   },
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "EXT Ferro 36 Inverted Premium Enduro Fork finance",
+    "source": "name"
+   }
+  ]
+ },
+ "formula-cura-4-brake-kit": {
+  "primary": {
+   "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit",
+    "source": "name"
+   },
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit range",
+    "source": "name"
+   },
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Formula Cura 4 Hydraulic 4-Piston Disc Brake Kit finance",
+    "source": "name"
+   }
+  ]
+ },
+ "magura-mt7-pro-brake-set": {
+  "primary": {
+   "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Magura MT7 Pro 4-Piston Hydraulic Brake Set",
+    "source": "name"
+   },
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set range",
+    "source": "name"
+   },
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Magura MT7 Pro 4-Piston Hydraulic Brake Set finance",
+    "source": "name"
+   }
+  ]
+ },
+ "220mm-floating-rotor-kit": {
+  "primary": {
+   "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy 220mm Heavy Duty 2.3mm Floating Brake Rotor Kit",
+    "source": "name"
+   },
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit specs",
+    "source": "name"
+   },
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit range",
+    "source": "name"
+   },
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit battery",
+    "source": "name"
+   },
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "220mm Heavy Duty 2.3mm Floating Brake Rotor Kit finance",
+    "source": "name"
+   }
+  ]
+ },
+ "sm-pro-platinum-16-19-wheelset": {
+  "primary": {
+   "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy SM Pro Platinum 16/19 Wheelset with HD Spokes",
+    "source": "name"
+   },
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes specs",
+    "source": "name"
+   },
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes range",
+    "source": "name"
+   },
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes battery",
+    "source": "name"
+   },
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "SM Pro Platinum 16/19 Wheelset with HD Spokes finance",
+    "source": "name"
+   }
+  ]
+ },
+ "kke-18-21-enduro-wheel-kit": {
+  "primary": {
+   "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit",
+    "source": "name"
+   },
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit specs",
+    "source": "name"
+   },
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit range",
+    "source": "name"
+   },
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit battery",
+    "source": "name"
+   },
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "KKE 18/21 Full-Size Enduro Wheel & Tyre Conversion Kit finance",
+    "source": "name"
+   }
+  ]
+ },
+ "did-420-nz3-gold-chain": {
+  "primary": {
+   "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain",
+    "source": "name"
+   },
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain range",
+    "source": "name"
+   },
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DID 420 NZ3 Gold Heavy-Duty Off-Road Racing Chain finance",
+    "source": "name"
+   }
+  ]
+ },
+ "warp9-54t-billet-sprocket": {
+  "primary": {
+   "keyword": "Warp 9 54T CNC Billet Rear Sprocket",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Warp 9 54T CNC Billet Rear Sprocket",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket range",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 54T CNC Billet Rear Sprocket finance",
+    "source": "name"
+   }
+  ]
+ },
+ "warp9-58t-extreme-sprocket": {
+  "primary": {
+   "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Warp 9 58T Extreme Climbing Rear Sprocket",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket range",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 58T Extreme Climbing Rear Sprocket finance",
+    "source": "name"
+   }
+  ]
+ },
+ "heavy-duty-skid-plate": {
+  "primary": {
+   "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Billet 5mm Heavy-Duty Aluminium Skid Plate",
+    "source": "name"
+   },
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate range",
+    "source": "name"
+   },
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Billet 5mm Heavy-Duty Aluminium Skid Plate finance",
+    "source": "name"
+   }
+  ]
+ },
+ "cnc-wide-gripper-footpegs": {
+  "primary": {
+   "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy CNC Aircraft Alloy Wide Gripper Footpegs",
+    "source": "name"
+   },
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs specs",
+    "source": "name"
+   },
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs range",
+    "source": "name"
+   },
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs battery",
+    "source": "name"
+   },
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "CNC Aircraft Alloy Wide Gripper Footpegs finance",
+    "source": "name"
+   }
+  ]
+ },
+ "warp9-direct-mount-riser": {
+  "primary": {
+   "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Warp 9 Direct-Mount Handlebar Riser & Stem Lock",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock range",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Warp 9 Direct-Mount Handlebar Riser & Stem Lock finance",
+    "source": "name"
+   }
+  ]
+ },
+ "baja-designs-squadron-headlight": {
+  "primary": {
+   "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Baja Designs Squadron Pro LED High-Output Headlight Kit",
+    "source": "name"
+   },
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit range",
+    "source": "name"
+   },
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Baja Designs Squadron Pro LED High-Output Headlight Kit finance",
+    "source": "name"
+   }
+  ]
+ },
+ "acerbis-x-factory-handguards": {
+  "primary": {
+   "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Acerbis X-Factory Heavy Duty Aluminium Handguards",
+    "source": "name"
+   },
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards range",
+    "source": "name"
+   },
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Acerbis X-Factory Heavy Duty Aluminium Handguards finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dunlop-geomax-dirt-tyre-set": {
+  "primary": {
+   "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo",
+    "source": "name"
+   },
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo range",
+    "source": "name"
+   },
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dunlop Geomax MX33 Off-Road Tyre & HD Tube Combo finance",
+    "source": "name"
+   }
+  ]
+ },
+ "maxxis-maxxcross-tyre-combo": {
+  "primary": {
+   "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Maxxis Maxxcross IT Desert & Hardpack Tyre Combo",
+    "source": "name"
+   },
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo range",
+    "source": "name"
+   },
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Maxxis Maxxcross IT Desert & Hardpack Tyre Combo finance",
+    "source": "name"
+   }
+  ]
+ },
+ "heavy-duty-folding-loading-ramp": {
+  "primary": {
+   "keyword": "Heavy Duty Folding Aluminium Loading Ramp",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Heavy Duty Folding Aluminium Loading Ramp",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp range",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Heavy Duty Folding Aluminium Loading Ramp finance",
+    "source": "name"
+   }
+  ]
+ },
+ "pro-taper-pillow-top-grips": {
+  "primary": {
+   "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs",
+    "source": "name"
+   },
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs range",
+    "source": "name"
+   },
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Pro Taper 7/8 Pillow Top Moto Grips & Bar End Plugs finance",
+    "source": "name"
+   }
+  ]
+ },
+ "razor-mx650-electric-kids": {
+  "primary": {
+   "keyword": "Razor MX650 Electric Kids Dirt Rocket",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Razor MX650 Electric Kids Dirt Rocket",
+    "source": "name"
+   },
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket range",
+    "source": "name"
+   },
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Razor MX650 Electric Kids Dirt Rocket finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ktm-sx-e-5-youth-electric": {
+  "primary": {
+   "keyword": "KTM SX-E 5 Youth Electric Motocross",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy KTM SX-E 5 Youth Electric Motocross",
+    "source": "name"
+   },
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross specs",
+    "source": "name"
+   },
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross range",
+    "source": "name"
+   },
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross battery",
+    "source": "name"
+   },
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "KTM SX-E 5 Youth Electric Motocross finance",
+    "source": "name"
+   }
+  ]
+ },
+ "husqvarna-ee-5-youth-electric": {
+  "primary": {
+   "keyword": "Husqvarna EE 5 Youth Electric Motocross",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Husqvarna EE 5 Youth Electric Motocross",
+    "source": "name"
+   },
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross range",
+    "source": "name"
+   },
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Husqvarna EE 5 Youth Electric Motocross finance",
+    "source": "name"
+   }
+  ]
+ },
+ "oset-20-0-racing-junior": {
+  "primary": {
+   "keyword": "OSET 20.0 Racing Junior Electric Trials Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy OSET 20.0 Racing Junior Electric Trials Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "OSET 20.0 Racing Junior Electric Trials Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "edba-moto-50-kids-beginner": {
+  "primary": {
+   "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy EDBA Moto 50 Beginner Kids Electric Motorbike",
+    "source": "name"
+   },
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike range",
+    "source": "name"
+   },
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "EDBA Moto 50 Beginner Kids Electric Motorbike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rtr-ebike-pro-commuter": {
+  "primary": {
+   "keyword": "RTR eBike Pro Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RTR eBike Pro Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike Pro Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RTR eBike Pro Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike Pro Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike Pro Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RTR eBike Pro Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike Pro Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike Pro Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike Pro Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike Pro Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rtr-ebike-s-classic": {
+  "primary": {
+   "keyword": "RTR eBike S Classic Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RTR eBike S Classic Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike S Classic Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RTR eBike S Classic Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike S Classic Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike S Classic Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RTR eBike S Classic Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike S Classic Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike S Classic Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike S Classic Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RTR eBike S Classic Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "niu-nqi-gt-electric-moped": {
+  "primary": {
+   "keyword": "NIU NQi GT Electric Moped",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "NIU NQi GT Electric Moped for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "NIU NQi GT Electric Moped price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy NIU NQi GT Electric Moped",
+    "source": "name"
+   },
+   {
+    "keyword": "NIU NQi GT Electric Moped specs",
+    "source": "name"
+   },
+   {
+    "keyword": "NIU NQi GT Electric Moped warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "NIU NQi GT Electric Moped range",
+    "source": "name"
+   },
+   {
+    "keyword": "NIU NQi GT Electric Moped top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "NIU NQi GT Electric Moped battery",
+    "source": "name"
+   },
+   {
+    "keyword": "NIU NQi GT Electric Moped delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "NIU NQi GT Electric Moped finance",
+    "source": "name"
+   }
+  ]
+ },
+ "super-soco-cpx-electric-moped": {
+  "primary": {
+   "keyword": "Super Soco CPx Electric Moped",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Super Soco CPx Electric Moped for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Super Soco CPx Electric Moped price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Super Soco CPx Electric Moped",
+    "source": "name"
+   },
+   {
+    "keyword": "Super Soco CPx Electric Moped specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Super Soco CPx Electric Moped warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Super Soco CPx Electric Moped range",
+    "source": "name"
+   },
+   {
+    "keyword": "Super Soco CPx Electric Moped top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Super Soco CPx Electric Moped battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Super Soco CPx Electric Moped delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Super Soco CPx Electric Moped finance",
+    "source": "name"
+   }
+  ]
+ },
+ "vmoto-soco-tc-max-electric": {
+  "primary": {
+   "keyword": "Vmoto Soco TC-Max Electric Motorcycle",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Vmoto Soco TC-Max Electric Motorcycle",
+    "source": "name"
+   },
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle range",
+    "source": "name"
+   },
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Vmoto Soco TC-Max Electric Motorcycle finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ace-adventure-fat-tyre-electric-bike": {
+  "primary": {
+   "keyword": "ACE Adventure Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ACE Adventure Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Adventure Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ACE Adventure Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Adventure Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Adventure Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ACE Adventure Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Adventure Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Adventure Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Adventure Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Adventure Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ace-pro-dual-suspension-fat-tyre-electric-bike": {
+  "primary": {
+   "keyword": "ACE PRO Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ACE PRO Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE PRO Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ACE PRO Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE PRO Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE PRO Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ACE PRO Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE PRO Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE PRO Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE PRO Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE PRO Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ace-x-demon-dual-motor-fat-electric-bike": {
+  "primary": {
+   "keyword": "ACE-X Demon S5 Dual Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ACE-X Demon S5 Dual Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Demon S5 Dual Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ace-mini-electric-fat-bike": {
+  "primary": {
+   "keyword": "ACE Mini Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ACE Mini Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Mini Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ACE Mini Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Mini Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Mini Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ACE Mini Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Mini Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Mini Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Mini Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE Mini Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ace-x-mini-pro-electric-bike": {
+  "primary": {
+   "keyword": "ACE-X Mini PRO Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ACE-X Mini PRO Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ACE-X Mini PRO Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "chubbie-v3-electric-beach-cruiser": {
+  "primary": {
+   "keyword": "CHUBBIE 3 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "CHUBBIE 3 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE 3 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy CHUBBIE 3 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE 3 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE 3 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "CHUBBIE 3 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE 3 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE 3 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE 3 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE 3 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "chubbie-s-v3-electric-beach-cruiser": {
+  "primary": {
+   "keyword": "CHUBBIE-S 3 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy CHUBBIE-S 3 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "CHUBBIE-S 3 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "the-original-stubbie-fat-tyre-electric-bike": {
+  "primary": {
+   "keyword": "Stubbie S3 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Stubbie S3 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie S3 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Stubbie S3 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie S3 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie S3 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Stubbie S3 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie S3 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie S3 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie S3 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie S3 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "the-original-stubbie-s-electric-bike": {
+  "primary": {
+   "keyword": "Stubbie-S S3 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Stubbie-S S3 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie-S S3 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Stubbie-S S3 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie-S S3 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie-S S3 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Stubbie-S S3 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie-S S3 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie-S S3 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie-S S3 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Stubbie-S S3 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "riptide-electric-beach-cruiser-bike": {
+  "primary": {
+   "keyword": "RIPTIDE 3 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RIPTIDE 3 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE 3 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RIPTIDE 3 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE 3 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE 3 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RIPTIDE 3 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE 3 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE 3 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE 3 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE 3 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "riptide-s-electric-beach-cruiser-bike": {
+  "primary": {
+   "keyword": "RIPTIDE-S 3 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RIPTIDE-S 3 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RIPTIDE-S 3 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "evo-racing-16-electric-bike": {
+  "primary": {
+   "keyword": "EVO Racing 16\" Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "EVO Racing 16\" Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 16\" Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy EVO Racing 16\" Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 16\" Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 16\" Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "EVO Racing 16\" Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 16\" Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 16\" Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 16\" Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 16\" Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "evo-racing-18-kids-electric-bike": {
+  "primary": {
+   "keyword": "EVO Racing 18\" Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "EVO Racing 18\" Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 18\" Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy EVO Racing 18\" Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 18\" Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 18\" Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "EVO Racing 18\" Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 18\" Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 18\" Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 18\" Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 18\" Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "evo-racing-20-electric-bike": {
+  "primary": {
+   "keyword": "EVO Racing 20\" Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "EVO Racing 20\" Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 20\" Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy EVO Racing 20\" Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 20\" Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 20\" Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "EVO Racing 20\" Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 20\" Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 20\" Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 20\" Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "EVO Racing 20\" Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "lil-rippa-16-kids-fat-electric-bike": {
+  "primary": {
+   "keyword": "Lil Rippa 16\" Kids Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Lil Rippa 16\" Kids Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Lil Rippa 16\" Kids Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rfn-warrior-kids-sx-e500-electric-bike": {
+  "primary": {
+   "keyword": "WARRIOR KIDS SX-E500 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy WARRIOR KIDS SX-E500 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "WARRIOR KIDS SX-E500 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ares-rally-endurance-road-electric-dirt-bike": {
+  "primary": {
+   "keyword": "ARES Endurance Road Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ARES Endurance Road Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ARES Endurance Road Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "apollo-rxf-sedna-12-inch-electric-balance-bike": {
+  "primary": {
+   "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Apollo RXF Sedna 12 Inch Electric Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF Sedna 12 Inch Electric Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "apollo-rxf-evo18-blue-e-bmx": {
+  "primary": {
+   "keyword": "Apollo RXF EVO18 Blue E-BMX",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Apollo RXF EVO18 Blue E-BMX",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX range",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO18 Blue E-BMX finance",
+    "source": "name"
+   }
+  ]
+ },
+ "apollo-rxf-evo-16-kids-e-bmx": {
+  "primary": {
+   "keyword": "Apollo RXF EVO 16 Kids E-BMX",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Apollo RXF EVO 16 Kids E-BMX",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX range",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 16 Kids E-BMX finance",
+    "source": "name"
+   }
+  ]
+ },
+ "mxr-mxe-72v-mini-varg-electric-dirt-bike": {
+  "primary": {
+   "keyword": "mini varg",
+   "volume": 320,
+   "kd": 14,
+   "intent": "I",
+   "source": "bank"
+  },
+  "secondary": [
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy MXR MXE 72V Mini Varg Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 72V Mini Varg Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rfn-warrior-youth-sx-e5-electric-dirt-bike": {
+  "primary": {
+   "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RFN Warrior Youth SX-E5 Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E5 Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rfn-warrior-kids-sx-e250-electric-dirt-bike": {
+  "primary": {
+   "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RFN Warrior Kids SX-E250 Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Kids SX-E250 Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rfn-warrior-pro-sx-e15-electric-bike": {
+  "primary": {
+   "keyword": "RFN Warrior Pro SX-E15 Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RFN Warrior Pro SX-E15 Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Pro SX-E15 Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ycf-w50-electric-bike": {
+  "primary": {
+   "keyword": "YCF W50 Electric bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "YCF W50 Electric bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF W50 Electric bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy YCF W50 Electric bike",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF W50 Electric bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF W50 Electric bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "YCF W50 Electric bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF W50 Electric bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF W50 Electric bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF W50 Electric bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF W50 Electric bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "gobike-16-inch-electric-bike-for-kids-ages-5": {
+  "primary": {
+   "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy GoBike 16 Inch Electric Bike for Kids Ages 5",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 specs",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 range",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 battery",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 16 Inch Electric Bike for Kids Ages 5 finance",
+    "source": "name"
+   }
+  ]
+ },
+ "gobike-24-inch-electric-bike-for-teens-ages-12": {
+  "primary": {
+   "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy GoBike 24 Inch Electric Bike for Teens Ages 12+",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ specs",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ range",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ battery",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 24 Inch Electric Bike for Teens Ages 12+ finance",
+    "source": "name"
+   }
+  ]
+ },
+ "gobike-20-inch-electric-bike-ages-9": {
+  "primary": {
+   "keyword": "GoBike 20 Inch Electric Bike Ages 9",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy GoBike 20 Inch Electric Bike Ages 9",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 specs",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 range",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 battery",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "GoBike 20 Inch Electric Bike Ages 9 finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ronster-rides-rtr-lite-60v": {
+  "primary": {
+   "keyword": "Ronster Rides RTR Lite 60v",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Ronster Rides RTR Lite 60v for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Lite 60v price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Ronster Rides RTR Lite 60v",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Lite 60v specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Lite 60v warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Ronster Rides RTR Lite 60v range",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Lite 60v top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Lite 60v battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Lite 60v delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Lite 60v finance",
+    "source": "name"
+   }
+  ]
+ },
+ "etm-rtr-sport-2026-electric-pit-bike": {
+  "primary": {
+   "keyword": "ETM RTR Sport 2026 Electric Pit Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ETM RTR Sport 2026 Electric Pit Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Sport 2026 Electric Pit Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "flight-risk-fr777": {
+  "primary": {
+   "keyword": "Flight Risk - FR777",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Flight Risk - FR777 for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR777 price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Flight Risk - FR777",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR777 specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR777 warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Flight Risk - FR777 range",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR777 top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR777 battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR777 delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR777 finance",
+    "source": "name"
+   }
+  ]
+ },
+ "flight-risk-fr666": {
+  "primary": {
+   "keyword": "Flight Risk -FR666",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Flight Risk -FR666 for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk -FR666 price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Flight Risk -FR666",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk -FR666 specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk -FR666 warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Flight Risk -FR666 range",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk -FR666 top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk -FR666 battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk -FR666 delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk -FR666 finance",
+    "source": "name"
+   }
+  ]
+ },
+ "flight-risk-fr101-ages-4-7-yrs": {
+  "primary": {
+   "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Flight Risk - FR101 - Ages 4-7 Yrs",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs range",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk - FR101 - Ages 4-7 Yrs finance",
+    "source": "name"
+   }
+  ]
+ },
+ "flight-risk-fr555-fat-tyre-electric-bike": {
+  "primary": {
+   "keyword": "Flight Risk FR555 Fat Tyre Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Flight Risk FR555 Fat Tyre Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Flight Risk FR555 Fat Tyre Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "apollo-rxf-evo-20-kids-electric-bike": {
+  "primary": {
+   "keyword": "Apollo RXF EVO 20 Kids Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Apollo RXF EVO 20 Kids Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF EVO 20 Kids Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ronster-rides-the-rizzler-electric-pit-bike": {
+  "primary": {
+   "keyword": "Ronster Rides The Rizzler Electric Pit Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Ronster Rides The Rizzler Electric Pit Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides The Rizzler Electric Pit Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ycf-12-electric-balance-bike": {
+  "primary": {
+   "keyword": "YCF 12\" Electric Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "YCF 12\" Electric Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 12\" Electric Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy YCF 12\" Electric Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 12\" Electric Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 12\" Electric Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "YCF 12\" Electric Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 12\" Electric Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 12\" Electric Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 12\" Electric Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 12\" Electric Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ycf-16-electric-balance-bike": {
+  "primary": {
+   "keyword": "YCF 16\" Electric Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "YCF 16\" Electric Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 16\" Electric Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy YCF 16\" Electric Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 16\" Electric Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 16\" Electric Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "YCF 16\" Electric Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 16\" Electric Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 16\" Electric Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 16\" Electric Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "YCF 16\" Electric Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ebox-v3-60r-electric-pit-bike-4500w-60v-purple-gold": {
+  "primary": {
+   "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold range",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V Purple & Gold finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ebox-v3-60-electric-pit-bike-3300w-60v": {
+  "primary": {
+   "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Ebox V3 60 Electric Pit Bike 3300W 60V",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V range",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60 Electric Pit Bike 3300W 60V finance",
+    "source": "name"
+   }
+  ]
+ },
+ "crossfire-ecr2000-kids-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Crossfire ECR2000 Kids Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR2000 Kids Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dragster-60-electric-pit-bike-3300w-60v": {
+  "primary": {
+   "keyword": "Dragster 60 Electric Pit Bike 3300W 60V",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Dragster 60 Electric Pit Bike 3300W 60V",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V range",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60 Electric Pit Bike 3300W 60V finance",
+    "source": "name"
+   }
+  ]
+ },
+ "rfn-warrior-youth-sx-e8-electric-dirt-bike": {
+  "primary": {
+   "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RFN Warrior Youth SX-E8 Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RFN Warrior Youth SX-E8 Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dhz-5000e-5000w-electric-dirt-bike": {
+  "primary": {
+   "keyword": "DHZ 5000E 5000W Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DHZ 5000E 5000W Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 5000E 5000W Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dhz-7500e-7500w-electric-dirt-bike-19-front-16-rear-off-road": {
+  "primary": {
+   "keyword": "DHZ 7500E 7500W Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DHZ 7500E 7500W Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 7500E 7500W Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dhz-16-800w-electric-balance-bike": {
+  "primary": {
+   "keyword": "DHZ 16\" 800W Electric Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DHZ 16\" 800W Electric Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 800W Electric Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "wired-bikes-electric-balance-bike-mk-ii": {
+  "primary": {
+   "keyword": "Wired Bikes Electric Balance Bike - Mk II",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Wired Bikes Electric Balance Bike - Mk II",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II range",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II finance",
+    "source": "name"
+   }
+  ]
+ },
+ "wired-bikes-electric-balance-bike-mk-ii-16-pearl-white": {
+  "primary": {
+   "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White range",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Wired Bikes Electric Balance Bike - Mk II 16\"Pearl White finance",
+    "source": "name"
+   }
+  ]
+ },
+ "e-ride-pro-se-17-17-electric-dirt-bike": {
+  "primary": {
+   "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy E-Ride Pro SE 17/17 Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro SE 17/17 Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "etm-rtr-alpha-electric-pit-bike": {
+  "primary": {
+   "keyword": "rtr alpha",
+   "volume": 90,
+   "kd": 7,
+   "intent": "C",
+   "source": "bank"
+  },
+  "secondary": [
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ETM RTR Alpha Electric Pit Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Alpha Electric Pit Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dhz-6000-evader-off-road-electric-dirt-bike": {
+  "primary": {
+   "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DHZ 6000 Evader Off-Road Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 6000 Evader Off-Road Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "falcon-pro-electric-dirt-bike-72v-35ah-lg-lithium": {
+  "primary": {
+   "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM",
+    "source": "name"
+   },
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM range",
+    "source": "name"
+   },
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Falcon Pro Electric Dirt Bike 72V 35AH LG LITHIUM finance",
+    "source": "name"
+   }
+  ]
+ },
+ "crossfire-ecr1500-kids-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Crossfire ECR1500 Kids Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR1500 Kids Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "crossfire-ecr-3000hpu-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Crossfire ECR 3000HPU Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR 3000HPU Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "mxr-mxe-60v-mini-varg-electric-dirt-bike": {
+  "primary": {
+   "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy MXR MXE 60V Mini Varg Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "MXR MXE 60V Mini Varg Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "bonnell-775-mx-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Bonnell 775 MX Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Bonnell 775 MX Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 775 MX Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ronster-rides-rtr-sport-electric-pit-bike": {
+  "primary": {
+   "keyword": "Ronster Rides RTR Sport Electric Pit Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Ronster Rides RTR Sport Electric Pit Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ronster Rides RTR Sport Electric Pit Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ronster-rides-electro-co-rizzler-72v-sport": {
+  "primary": {
+   "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RONSTER RIDES Electro & Co Rizzler 72V Sport",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport range",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co Rizzler 72V Sport finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ronster-rides-electro-co-the-rizzler-60v-5000w": {
+  "primary": {
+   "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy RONSTER RIDES Electro & Co The Rizzler 60v 5000W",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W specs",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W range",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W battery",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "RONSTER RIDES Electro & Co The Rizzler 60v 5000W finance",
+    "source": "name"
+   }
+  ]
+ },
+ "e-ride-pro-mini": {
+  "primary": {
+   "keyword": "e ride pro mini",
+   "volume": 720,
+   "kd": 16,
+   "intent": "C",
+   "source": "bank"
+  },
+  "secondary": [
+   {
+    "keyword": "E-Ride Pro Mini for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro Mini price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy E-Ride Pro Mini",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro Mini specs",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro Mini warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "E-Ride Pro Mini range",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro Mini top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro Mini battery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro Mini delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "E-Ride Pro Mini finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-scrambler-v3-ultra-electric-bike-52v-20ah": {
+  "primary": {
+   "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 Ultra Electric Bike 52V 20Ah finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-bagus-v3-ultra-e-bike": {
+  "primary": {
+   "keyword": "Fatboy - The Bagus V3 Ultra E- Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy - The Bagus V3 Ultra E- Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 Ultra E- Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "strike-shadow-48v-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Strike Shadow 48V Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Strike Shadow 48V Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 48V Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "crossfire-ecr6500-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Crossfire ECR6500 Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Crossfire ECR6500 Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Crossfire ECR6500 Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "strike-shadow-72v-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Strike Shadow 72V Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Strike Shadow 72V Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Strike Shadow 72V Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-scrambler-v2-e-bike-52v-20ah": {
+  "primary": {
+   "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy - The Scrambler V2 E Bike - 52v 20ah",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Scrambler V2 E Bike - 52v 20ah finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-scrambler-v3-en15194-certified-ebike": {
+  "primary": {
+   "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy The Scrambler V3 - EN15194 Certified EBike",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Scrambler V3 - EN15194 Certified EBike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-bagus-v3-en15194-certified-ebike": {
+  "primary": {
+   "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy - The Bagus V3 EN15194 Certified EBike",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Bagus V3 EN15194 Certified EBike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-harlem-v2-e-bike-52v-20ah": {
+  "primary": {
+   "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy - The Harlem V2 E Bike -52v 20ah",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V2 E Bike -52v 20ah finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-harlem-v3-ultra-ebike-52v-20ah-battery": {
+  "primary": {
+   "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy - The Harlem V3 Ultra eBike -52V 20AH Battery finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-dna-v3-en15194-certified-electric-bike": {
+  "primary": {
+   "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy The DNA V3 EN15194 Certified Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The DNA V3 EN15194 Certified Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-harlem-v3-en15194-certified-electric-bike": {
+  "primary": {
+   "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy The Harlem V3 EN15194 Certified Electric Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Harlem V3 EN15194 Certified Electric Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "fatboy-the-bagus-v2-electric-bike-52v-20ah": {
+  "primary": {
+   "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Fatboy The Bagus V2 Electric Bike 52V 20Ah",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah range",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Fatboy The Bagus V2 Electric Bike 52V 20Ah finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dragster-60r-electric-pit-bike-4500w-60v": {
+  "primary": {
+   "keyword": "Dragster 60R Electric Pit Bike 4500W 60V",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Dragster 60R Electric Pit Bike 4500W 60V",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V range",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster 60R Electric Pit Bike 4500W 60V finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ebox-v3-72rs-electric-pit-bike-5400w-72v": {
+  "primary": {
+   "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Ebox V3 72RS Electric Pit Bike 5400W 72V",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V range",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 72RS Electric Pit Bike 5400W 72V finance",
+    "source": "name"
+   }
+  ]
+ },
+ "ebox-v3-60r-electric-pit-bike-4500w-60v": {
+  "primary": {
+   "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Ebox V3 60R Electric Pit Bike 4500W 60V",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V range",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Ebox V3 60R Electric Pit Bike 4500W 60V finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dhz-electric-kids-mini-off-road-dirt-bike-36v-350w-motor": {
+  "primary": {
+   "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DHZ Electric Kids Mini Off-Road Dirt Bike - 36V",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V range",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ Electric Kids Mini Off-Road Dirt Bike - 36V finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dhz-16-400w-electric-balance-bike": {
+  "primary": {
+   "keyword": "DHZ 16\" 400W Electric Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DHZ 16\" 400W Electric Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 16\" 400W Electric Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "apollo-rxf-dna-16-inch-pro-balance-bike": {
+  "primary": {
+   "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Apollo RXF DNA 16 Inch Pro Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch Pro Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "apollo-rxf-dna-12-inch-pro-balance-bike": {
+  "primary": {
+   "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Apollo RXF DNA 12 Inch Pro Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 12 Inch Pro Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "apollo-rxf-dna-16-inch-170w-balance-bike": {
+  "primary": {
+   "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Apollo RXF DNA 16 Inch 170W Balance Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Apollo RXF DNA 16 Inch 170W Balance Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dragster-ebx-72rs-electric-pit-bike-5400w-72v": {
+  "primary": {
+   "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Dragster EBX 72RS Electric Pit Bike 5400W 72V",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V range",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Dragster EBX 72RS Electric Pit Bike 5400W 72V finance",
+    "source": "name"
+   }
+  ]
+ },
+ "etm-rtr-lite-electric-pit-bike": {
+  "primary": {
+   "keyword": "ETM RTR Lite Electric Pit Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy ETM RTR Lite Electric Pit Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "ETM RTR Lite Electric Pit Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "dhz-2200e-electric-pit-bike": {
+  "primary": {
+   "keyword": "DHZ 2200E Electric Pit Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy DHZ 2200E Electric Pit Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "DHZ 2200E Electric Pit Bike finance",
+    "source": "name"
+   }
+  ]
+ },
+ "bonnell-805-rx-electric-dirt-bike": {
+  "primary": {
+   "keyword": "Bonnell 805 RX Electric Dirt Bike",
+   "source": "name"
+  },
+  "secondary": [
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike for sale",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike price",
+    "source": "name"
+   },
+   {
+    "keyword": "buy Bonnell 805 RX Electric Dirt Bike",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike specs",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike warranty",
+    "source": "name"
+   }
+  ],
+  "faq": [
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike range",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike top speed",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike battery",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike delivery",
+    "source": "name"
+   },
+   {
+    "keyword": "Bonnell 805 RX Electric Dirt Bike finance",
+    "source": "name"
+   }
+  ]
+ }
+}

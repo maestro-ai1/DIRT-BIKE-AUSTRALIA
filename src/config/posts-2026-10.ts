@@ -74,17 +74,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "On price alone, the RIPTIDE 3 at $2,190 is the entry point, followed by the ACE Mini at $2,390."
       }
     ],
-    "primaryKeyword": "low cost electric bike",
+    "primaryKeyword": "e bike cost",
     "secondaryKeywords": [
-      "cheap electric bikes",
       "price e bike",
       "electric bicycle cost",
-      "e bike cost",
       "electric bicycle price",
       "electric bike price in australia",
-      "cheapest ebike australia",
-      "affordable e-bike australia",
-      "how much is an electric bike"
+      "cheapest ebike australia"
     ],
     "products": [
       "riptide-electric-beach-cruiser-bike",
@@ -148,15 +144,10 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Every model has a product page with its current price, battery specification and warranty details. Start on the [electric bikes](/electric-bikes/) page or filter by budget on the [budget electric bikes](/electric-bikes/cheap/) page. Free freight applies on orders over $1,500."
       }
     ],
-    "primaryKeyword": "e bike cost",
+    "primaryKeyword": "electric bike cost",
     "secondaryKeywords": [
-      "low cost electric bike",
-      "price e bike",
-      "electric bicycle cost",
-      "electric bicycle price",
-      "electric bike price in australia",
       "how much is an electric bike",
-      "electric cycle price in australia"
+      "dirt bike cost"
     ],
     "products": [
       "ace-adventure-fat-tyre-electric-bike",
@@ -220,15 +211,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Not always, but check the specification. A smaller battery means more frequent charging, and the warranty may leave out wear items like pads and tyres. Ask about warranty terms and spare parts before you buy, and compare the full ownership picture rather than the price alone."
       }
     ],
-    "primaryKeyword": "electric bicycle cost",
+    "primaryKeyword": "electric bicycle ebike",
     "secondaryKeywords": [
-      "low cost electric bike",
-      "price e bike",
-      "e bike cost",
-      "electric bicycle price",
-      "electric bike price in australia",
-      "electric cycle price in australia",
-      "e bike australia"
+      "best electric bicycle australia",
+      "dirt bicycle for sale",
+      "surron e bicycle",
+      "fast e bicycle",
+      "electric bicycle perth"
     ],
     "products": [
       "ace-pro-dual-suspension-fat-tyre-electric-bike",
@@ -291,17 +280,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Browse our [electric bikes](/electric-bikes/) page, where each model lists its price, battery size and warranty. Longer battery life comes from watt hours, cell brand, BMS features and sensible charging, not the headline range. Freight is free on orders over $1,500. For e-motos, our [adult electric dirt bike guide](/blog/adult-electric-dirt-bike-australia-best-models/) compares models by use and budget."
       }
     ],
-    "primaryKeyword": "e bike battery",
+    "primaryKeyword": "battery for a electric bike",
     "secondaryKeywords": [
-      "e cycle battery",
-      "battery electric bicycle",
-      "electric bicycle battery replacement",
       "e bike battery charger",
       "e bike battery replacement",
-      "battery for a electric bike",
-      "battery for an electric bike",
       "electric battery for bicycle",
-      "bicycle battery"
+      "bicycle battery",
+      "battery ebike"
     ],
     "products": [
       "the-original-stubbie-fat-tyre-electric-bike",
@@ -365,17 +350,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Browse the [electric bikes](/electric-bikes/) page for e-bikes for sale with prices listed. Bikes with removable, widely available packs and clear model information are the easiest to re-battery. Before you buy, ask whether an e-bike battery replacement will still be available in a few years and what it will cost. That question matters more than headline range when you plan to keep a bike long term."
       }
     ],
-    "primaryKeyword": "e bike battery replacement",
+    "primaryKeyword": "battery electric bike",
     "secondaryKeywords": [
-      "e cycle battery",
-      "e bike battery",
-      "battery electric bicycle",
-      "electric bicycle battery replacement",
-      "e bike battery charger",
-      "battery for a electric bike",
-      "battery for an electric bike",
-      "electric battery for bicycle",
-      "bicycle battery"
+      "electric bike battery replacement",
+      "72v battery",
+      "electric cycle battery",
+      "battery for motorbike",
+      "battery charger ebike"
     ],
     "products": [
       "sur-ron-oem-60v-40ah-replacement",
@@ -439,16 +420,8 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Not safely. A pedal-assist pack at 48V needs a charger designed for that voltage and cell count, and our 60V and 72V models are not intended for it. Use the supplied charger or ask the maker which replacement matches, and never try to adapt plugs to make a unit fit. A wrong match can damage the pack and may be a fire risk."
       }
     ],
-    "primaryKeyword": "e bike battery charger",
-    "secondaryKeywords": [
-      "charger for e bike",
-      "e bike chargers",
-      "e cycle battery",
-      "e bike battery",
-      "battery electric bicycle",
-      "electric bicycle battery replacement",
-      "e bike battery replacement"
-    ],
+    "primaryKeyword": "",
+    "secondaryKeywords": [],
     "products": [
       "15a-fast-charger-60v-72v",
       "20a-ultra-fast-pit-charger",
@@ -511,17 +484,10 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Every complete bike we list includes its battery in the price. For example, the ACE Adventure is $3,290 with a 48V 20Ah pack, and the Sur-Ron Light Bee X is $6,490 with a 60V 40Ah pack. Compare bikes by total price and watt hours rather than frame price alone, since a replacement pack alone can cost $1,790 or more."
       }
     ],
-    "primaryKeyword": "battery for an electric bike",
+    "primaryKeyword": "e bike safety australia",
     "secondaryKeywords": [
-      "electric bike batteries australia",
-      "e cycle battery",
-      "battery electric bicycle",
-      "electric bicycle battery replacement",
-      "e bike battery charger",
-      "e bike battery replacement",
-      "battery for a electric bike",
-      "electric battery for bicycle",
-      "bicycle battery"
+      "motorcycle bike battery",
+      "12v bike battery"
     ],
     "products": [
       "72v-50ah-long-range-battery",
@@ -585,17 +551,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Yes. The term usually means an e-moto with a throttle and a high-voltage traction pack, built for off-road use, whereas a pedal-assist e-bike has a smaller motor and a lower-voltage battery. The batteries are not interchangeable. See our [e-bike battery guide](/blog/e-bike-battery-guide-voltage-capacity-range/) for the pedal-assist side."
       }
     ],
-    "primaryKeyword": "lithium battery motorcycle",
+    "primaryKeyword": "electric electric motorcycle",
     "secondaryKeywords": [
-      "electric motorbike",
-      "electric motorcycle",
-      "motorcycle battery",
       "electric motorcycle bikes",
-      "electric motor bikes",
-      "motorbike battery",
-      "battery motorcycle battery",
-      "battery of motorcycle",
-      "electric motorcycle moped"
+      "motorcycle electric motorcycle",
+      "motorcycle e",
+      "australia electric motorcycle",
+      "electric motorcycle australia price"
     ],
     "products": [
       "60v-53ah-high-capacity-pack",
@@ -658,17 +620,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Among our listed packs, the 84V 45Ah has the most energy at 3,780Wh, then the 72V 50Ah at 3,600Wh. For most trail riders the 72V 50Ah touring pack is the sensible long-range pick, listed at 130km or more on medium assist. Real range always depends on terrain, weight and throttle use."
       }
     ],
-    "primaryKeyword": "dirt bike battery",
+    "primaryKeyword": "dirt bikes dirt bikes",
     "secondaryKeywords": [
-      "e cycle battery",
-      "motorcycle battery",
-      "e bike battery",
-      "motorbike battery",
-      "battery motorcycle battery",
-      "battery of motorcycle",
-      "battery electric bicycle",
-      "electric bicycle battery replacement",
-      "e bike battery charger"
+      "bike dirt bike dirt bike",
+      "electric bikes dirt",
+      "dirt bikes electric dirt bikes",
+      "dirt dirt bikes",
+      "dirt bike dirt"
     ],
     "products": [
       "sur-ron-oem-60v-40ah-replacement",
@@ -732,16 +690,8 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Not much compared with petrol. There is no engine oil, no spark plug and no carburettor. You still need to look after tyres, chain, brakes and suspension, and keep the battery charged and stored sensibly. Our [pre-ride and post-wash maintenance guide](/blog/complete-pre-ride-and-post-wash-maintenance-guide/) covers the routine step by step."
       }
     ],
-    "primaryKeyword": "sur ron electric bike price",
-    "secondaryKeywords": [
-      "surron for sale",
-      "sur ron ebike for sale",
-      "surrons for sale",
-      "surron ebike price",
-      "surron electric bike for sale",
-      "electric dirt bike for sale",
-      "electric motocross bike"
-    ],
+    "primaryKeyword": "",
+    "secondaryKeywords": [],
     "products": [
       "sur-ron-light-bee-x",
       "sur-ron-ultra-bee",
@@ -807,13 +757,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "surron light bee x price australia",
     "secondaryKeywords": [
-      "sur ron electric bike price",
-      "surron ebike price",
-      "surron for sale",
-      "sur ron ebike for sale",
       "electric trail bike",
-      "electric off road bike",
-      "electric dirt bikes australia"
+      "surron bike",
+      "surron lbx",
+      "cheap surron",
+      "surron ebike price"
     ],
     "products": [
       "sur-ron-light-bee-x",
@@ -878,13 +826,9 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Yes. Ampd Bros e-bikes are delivered nationwide by Toll Ipec with a signature required, and adult models carry a 2-year nationwide warranty for manufacturer faults. Tyres, tubes, brake pads and seats are wear items and are excluded. Freight is free over $1,500, and the [warranty and service page](/warranty-and-service/) explains how claims work."
       }
     ],
-    "primaryKeyword": "fat tyre electric bike",
+    "primaryKeyword": "fat tyre",
     "secondaryKeywords": [
-      "electric fat bike",
       "cycle fat tyre",
-      "fat tyre",
-      "fat bike australia",
-      "best fat tyre electric bike australia",
       "fat tyre bicycle",
       "bicyclette fat bike",
       "fat tyre bikes australia",
@@ -955,15 +899,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "fat tyre e bikes",
     "secondaryKeywords": [
-      "electric fat bike",
-      "cycle fat tyre",
-      "fat tyre",
-      "fat bike australia",
-      "best fat tyre electric bike australia",
-      "fat tyre bicycle",
-      "bicyclette fat bike",
-      "fat tyre bikes australia",
-      "fat tire electric bicycles"
+      "electric fat tyre bike",
+      "fat tyre electric bike australia",
+      "fat tyre ebike australia",
+      "electric fat bike australia",
+      "best fat tyre ebike australia"
     ],
     "products": [
       "ace-adventure-fat-tyre-electric-bike",
@@ -1027,17 +967,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "It depends on the state, the council and the beach. Many councils restrict wheeled vehicles in some zones or seasons, so check the council page or call them. Off-road-only models such as the ACE-X Demon are for private property, so always confirm land access before you ride."
       }
     ],
-    "primaryKeyword": "fat tyre bikes australia",
+    "primaryKeyword": "electric trail bike australia",
     "secondaryKeywords": [
-      "fat tyre electric bike",
-      "electric fat bike",
-      "cycle fat tyre",
-      "fat tyre",
-      "fat bike australia",
-      "best fat tyre electric bike australia",
-      "fat tyre bicycle",
-      "bicyclette fat bike",
-      "fat tire electric bicycles"
+      "fat ebike australia",
+      "electric bike beach",
+      "fat bikes electric",
+      "motorized trail bike",
+      "fat bike tyres australia"
     ],
     "products": [
       "ace-x-demon-dual-motor-fat-electric-bike",
@@ -1101,15 +1037,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "The cruisers are 250W bikes with a 25 km/h assist limit on road-compliant versions. If you want more power, look at the ACE-X Demon, a 1,000W off-road-only model, or browse our [electric dirt bikes](/electric-dirt-bikes/) for private-property riding. Either way, check your state rules before riding anywhere public."
       }
     ],
-    "primaryKeyword": "cruiser e-bike",
+    "primaryKeyword": "electric cruiser bike australia",
     "secondaryKeywords": [
-      "e bike cruiser",
       "cruiser electric bicycle",
       "cruiser style electric bikes",
-      "electric bike beach",
-      "e bike australia",
-      "e bike electric",
-      "best e bikes australia"
+      "cruiser electric bikes",
+      "cruiser e bikes australia",
+      "cruiser e-bike"
     ],
     "products": [
       "chubbie-v3-electric-beach-cruiser",
@@ -1176,15 +1110,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "childrens dirt bike",
     "secondaryKeywords": [
-      "childrens electric dirt bike",
-      "kids electric bike",
-      "children electric bike",
-      "dirt bike for kids",
-      "childs dirt bike",
-      "kids electric dirt bike",
-      "electric dirt bike for kids",
       "childs e bike",
-      "childs electric bicycle"
+      "childs electric bicycle",
+      "dirt bikes",
+      "e bikes dirt",
+      "dirt bikes for sale"
     ],
     "products": [
       "razor-mx650-electric-kids",
@@ -1251,15 +1181,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric dirt bike for 12 year olds",
     "secondaryKeywords": [
-      "kids electric bike",
-      "childrens electric dirt bike",
-      "children electric bike",
-      "dirt bike for kids",
-      "childs dirt bike",
-      "childrens dirt bike",
-      "kids electric dirt bike",
-      "electric dirt bike for kids",
-      "childs e bike"
+      "dirt bike dirt bike dirt bike",
+      "and dirt bikes",
+      "dirt bike bikes",
+      "electric dirt bike electric",
+      "bikes dirt bike"
     ],
     "products": [
       "torrot-motocross-two-junior",
@@ -1328,11 +1254,9 @@ export const NEW_POSTS: NewPost[] = [
     "secondaryKeywords": [
       "miniature electric bike",
       "electric minibikes",
-      "kids electric bike",
-      "childrens electric dirt bike",
-      "children electric bike",
-      "dirt bike for kids",
-      "childs dirt bike"
+      "mini bike dirt bike",
+      "mini bikes",
+      "bike electric mini"
     ],
     "products": [
       "ace-mini-electric-fat-bike",
@@ -1397,17 +1321,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Electric bikes are quieter and simpler to ride, with no clutch or gears to manage, though instant torque still demands care. Neither fuel makes a bike safe on its own. Fit, speed limits, gear and supervision matter far more."
       }
     ],
-    "primaryKeyword": "dirt bike for kids",
+    "primaryKeyword": "kids dirt bike",
     "secondaryKeywords": [
-      "kids electric dirt bike",
-      "kids electric bike",
-      "childrens electric dirt bike",
-      "children electric bike",
-      "childs dirt bike",
-      "childrens dirt bike",
-      "electric dirt bike for kids",
-      "childs e bike",
-      "childs electric bicycle"
+      "electric kids bike",
+      "kids ebike",
+      "electric bike for kids",
+      "best dirt bike",
+      "e bike dirt bike"
     ],
     "products": [
       "razor-mx650-electric-kids",
@@ -1474,15 +1394,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "cheapest electric dirt bike",
     "secondaryKeywords": [
-      "low cost electric bike",
-      "cheap electric bikes",
-      "price e bike",
-      "electric bicycle cost",
-      "e bike cost",
-      "electric bicycle price",
-      "cheap electric dirt bikes",
-      "electric bike price in australia",
-      "cheapest ebike australia"
+      "e dirt bike australia",
+      "best electric dirt bike",
+      "electric bike dirt bike",
+      "dirt bike electric",
+      "dirt bike price"
     ],
     "products": [
       "razor-mx650-electric-kids",
@@ -1547,17 +1463,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Browse our [shop](/shop/) and the category pages above. Freight is free on orders over $1,500, and our [shipping and delivery page](/shipping-and-delivery/) explains how orders travel. Ampd Bros e-bikes ship by Toll Ipec with a signature required, so someone needs to be home to receive them."
       }
     ],
-    "primaryKeyword": "e bike dirt bike",
+    "primaryKeyword": "off road electric bikes",
     "secondaryKeywords": [
-      "electric dirt bike",
-      "e bike australia",
-      "e bike electric",
-      "best e bikes australia",
-      "electric bicycle ebike",
-      "e-bike dirt",
-      "electric dirtbike",
-      "electric off road bike",
-      "electric dirt bike for adults"
+      "e bike off road",
+      "off road ebikes",
+      "electric road bike australia",
+      "electric bike off road",
+      "best electric dirt bike australia"
     ],
     "products": [
       "ace-x-demon-dual-motor-fat-electric-bike",
@@ -1624,15 +1536,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric dirt motorcycle",
     "secondaryKeywords": [
-      "electric motorbike",
-      "electric dirt bike",
-      "electric motorcycle",
       "electric dirt bike motorcycle",
-      "e-bike dirt",
-      "electric motorcycle bikes",
-      "electric dirtbike",
-      "electric motorcycle moped",
-      "electric motocross motorcycle"
+      "motorcycle dirt bike for sale",
+      "motorcycle dirt bike",
+      "electric motorcycle au",
+      "ebike motorcycle"
     ],
     "products": [
       "segway-x160-compact",
@@ -1699,15 +1607,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric motorbike for adults",
     "secondaryKeywords": [
-      "electric motorbike",
-      "electric motorcycle",
-      "electric motorcycle bikes",
-      "electric motorcycle moped",
-      "electric motorcycle for adults",
       "adult electric bike",
-      "e bike motorbike",
-      "electric motorcycle australia price",
-      "electric bike for adults australia"
+      "electric bike motorbike",
+      "motorbike electric",
+      "australia electric motorbike",
+      "ebike motorbike"
     ],
     "products": [
       "niu-nqi-gt-electric-moped",
@@ -1771,17 +1675,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Not quite. A moped is a smaller motor-driven machine, such as the NIU NQi GT at 70 km/h, while a full-size model like the Vmoto Soco TC-Max has a full-size frame and a 95 km/h top speed. Both are motor-driven and need no pedalling, but they differ in power and weight."
       }
     ],
-    "primaryKeyword": "e motorbike",
+    "primaryKeyword": "best electric motorbike",
     "secondaryKeywords": [
-      "e bike australia",
-      "e bike electric",
-      "best e bikes australia",
-      "electric motorcycle",
-      "electric motorcycle bikes",
-      "electric moped australia",
-      "electric motorcycle moped",
-      "price e bike",
-      "electric motorbike for adults"
+      "moped e scooter",
+      "motorbike dirt",
+      "crossfire motorbike",
+      "motorbike dirt bike",
+      "electric kids motorbike"
     ],
     "products": [
       "niu-nqi-gt-electric-moped",
@@ -1844,18 +1744,10 @@ export const NEW_POSTS: NewPost[] = [
         "a": "Not exactly. People use the term loosely for anything electric with two wheels. An electric moped is motor-driven with no pedalling, such as the Super Soco CPx at 65 km/h. A pedal-assist e-bike is a bicycle with a small motor. The class affects licence, registration and price, so check what you are buying."
       }
     ],
-    "primaryKeyword": "electric motorbikes australia",
+    "primaryKeyword": "",
     "secondaryKeywords": [
-      "buy electric motorbike",
-      "electric motorbike",
-      "electric motorcycle",
-      "electric motorcycle bikes",
-      "electric motorcycle moped",
-      "price e bike",
-      "electric motorbike for adults",
-      "electric bicycle price",
-      "electric motorcycle for adults",
-      "electric bike price in australia"
+      "cheap electric motorbikes",
+      "fast electric motorbikes"
     ],
     "products": [
       "vmoto-soco-tc-max-electric",
@@ -1921,15 +1813,7 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric bike motors",
     "secondaryKeywords": [
-      "electric motorbike",
-      "electric motorcycle",
-      "electric dirt bike motorcycle",
-      "electric motorcycle bikes",
-      "electric motorcycle moped",
-      "electric motocross motorcycle",
-      "electric motorbike for adults",
-      "electric motorcycle for adults",
-      "electric dirt motorcycle"
+      "dirt bike motors"
     ],
     "products": [
       "ace-x-demon-dual-motor-fat-electric-bike",
@@ -1994,13 +1878,11 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric mx motorcycle",
     "secondaryKeywords": [
-      "electric motocross motorcycle",
-      "electric motocross bike",
       "electric motocross bicycle",
       "electric motor cross bikes",
-      "electric mx bike",
       "electric motocross dirt bikes",
-      "electric dirt bike"
+      "electric motorcycle electric",
+      "electric motorcycle electric motorcycle"
     ],
     "products": [
       "velimotor-vmx08-carbon",
@@ -2067,13 +1949,10 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric offroad bike",
     "secondaryKeywords": [
-      "electric trail bike",
-      "electric off road bike",
       "best electric off road bike",
       "enduro bikes australia",
-      "electric dirt bike",
-      "e-bike dirt",
-      "electric dirtbike"
+      "offroad ebike",
+      "electric motorbike offroad"
     ],
     "products": [
       "talaria-xxx-black-edition",
@@ -2138,17 +2017,13 @@ export const NEW_POSTS: NewPost[] = [
         "a": "It depends on the bike. At the top, the Stark Varg motocross bikes start at $16,990. Compare the class and use first, then price, because the two serve different riding."
       }
     ],
-    "primaryKeyword": "electric motorcycle australia price",
+    "primaryKeyword": "best electric motorcycle australia",
     "secondaryKeywords": [
-      "low cost electric bike",
-      "price e bike",
-      "electric bicycle cost",
-      "e bike cost",
-      "electric bicycle price",
-      "electric bike price in australia",
-      "how much is an electric bike",
-      "electric cycle price in australia",
-      "moped prices"
+      "motorcycle electronic",
+      "electric motorcycle scooter",
+      "enduro bikes motorcycle",
+      "electric motorcycle perth",
+      "motorcycle dirt"
     ],
     "products": [
       "super-soco-cpx-electric-moped",
@@ -2215,15 +2090,9 @@ export const NEW_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "australian ebike",
     "secondaryKeywords": [
-      "e bike electric",
-      "best e bikes australia",
-      "electric bicycle ebike",
-      "kids ebike",
-      "price e bike",
-      "e bike cruiser",
-      "electric bicycle australia",
       "high performance e bike",
-      "childs e bike"
+      "australian electric bike",
+      "ebike brands australia"
     ],
     "products": [
       "ace-pro-dual-suspension-fat-tyre-electric-bike",

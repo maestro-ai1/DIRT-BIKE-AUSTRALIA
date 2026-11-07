@@ -6,7 +6,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { Truck, ShieldCheck, Clock, MapPin, PackageCheck } from 'lucide-react';
 
 export const metadata: Metadata = {
-  title: 'Free Shipping Australia-Wide | Electric Dirt Bike Delivery Times',
+  title: 'Free Shipping Australia-Wide | Electric Bike Delivery',
   description: 'Free insured freight on electric dirt bike orders over $1,500. Tailgate delivery Australia-wide from Mittagong NSW to Sydney, Melbourne, Brisbane and Perth.',
   keywords: 'electric dirt bike free shipping australia, electric bike delivery australia, free freight electric bike australia, electric dirt bike delivery time australia',
   alternates: {

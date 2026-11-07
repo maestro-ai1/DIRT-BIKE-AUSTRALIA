@@ -4772,3 +4772,17 @@ PRODUCTS.push(...OLD_SITE_PRODUCTS);
 // Skip brands already listed (rfn, e-ride-pro): their products still match through the shop's brand filter, and duplicate slugs repeat items in the menu.
 BRANDS.push(...OLD_SITE_BRANDS.filter((b) => !BRANDS.some((x) => x.slug === b.slug)));
 CATEGORIES.push(...OLD_SITE_CATEGORIES);
+
+// 2026-11-07 legacy post upgrades: full rewrites (content) or additions (append) plus 5 FAQs for older posts, kept in one file.
+import { LEGACY_UPGRADES } from './legacy-upgrades';
+import { LEGACY_META } from './legacy-meta';
+for (const p of POSTS as unknown as Array<{ slug: string; title: string; excerpt: string; content: string; faqs?: { q: string; a: string }[] }>) {
+  const m = LEGACY_META[p.slug];
+  if (m?.title) p.title = m.title;
+  if (m?.excerpt) p.excerpt = m.excerpt;
+  const u = LEGACY_UPGRADES[p.slug];
+  if (!u) continue;
+  if (u.content) p.content = u.content;
+  if (u.append) p.content = `${p.content}\n\n${u.append}`;
+  p.faqs = u.faqs;
+}

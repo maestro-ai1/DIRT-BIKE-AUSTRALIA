@@ -7,6 +7,16 @@
 
 import { SHOP } from '@/src/config/site';
 import { C_TAG_POOL } from './productTagPool';
+import PRODUCT_KEYWORDS from '@/src/config/product-keywords.json';
+
+interface KwEntry { primary: { keyword: string; source: string }; secondary: { keyword: string; source: string }[]; faq: { keyword: string; source: string }[]; }
+const PK = PRODUCT_KEYWORDS as unknown as Record<string, KwEntry>;
+/** The product's own primary keyword from src/config/product-keywords.json (bank keyword when one names the model, otherwise the product name). */
+export function productPrimary(p: { slug: string; name: string }): string {
+  const e = PK[p.slug]?.primary;
+  if (!e) return shortName(p.name);
+  return e.source === 'bank' ? e.keyword.replace(/\b[a-z]/g, (c) => c.toUpperCase()).replace(/\b(Rtr|Ss|Sr|Mxr|Etm|Ktm)\b/g, (m) => m.toUpperCase()).replace(/\bSurron\b/, 'Sur-Ron') : e.keyword;
+}
 
 export interface ProductFaq { question: string; answer: string; }
 export interface ProductTag { label: string; href?: string; }
@@ -304,6 +314,8 @@ const T_TAGS: Record<string, string[]> = {
 // Five secondary keywords per product (Master Product Optimization Rule). They are built from the product's own name so every product has
 // different ones: shared bank keywords belong to the category, brand and blog pages that own them, and are never repeated on product pages.
 export function productSecondaries(p: P): string[] {
+  const e = PK[p.slug];
+  if (e) return e.secondary.map((k) => k.keyword);
   const short = shortName(p.name);
   return [`${short} price`, `buy ${short}`, `${short} for sale`, `${short} specs`, `${short} warranty`];
 }
@@ -509,38 +521,33 @@ export function productSecondary(p: P): ProductSecondary {
   return BY_KIND[kind];
 }
 
-// Search-result title: product name + T keyword + price when it fits, otherwise the shorter forms; never longer than 68 characters.
+// Search-result title: starts with the product's primary keyword, 60 characters or fewer.
 export function productSeoTitle(p: P): string {
-  const { t, c } = productSecondary(p);
-  const short = shortName(p.name);
+  const MAX = 60;
   const price = `$${p.price.toLocaleString('en-AU')}`;
-  const MAX = 68;
-  const tries = [`${short} | ${t} | ${price}`, `${short} | ${t}`, `${short} | ${c} | ${price}`, `${short} | ${c}`];
-  // The name already says it (e.g. "... Electric Balance Bike"): keep the whole name and add Australia.
-  const core = t.toLowerCase().replace(/ (australia|for sale)$/, '');
-  if (short.toLowerCase().includes(core)) { const tail = /for sale$/i.test(t) ? "for Sale" : "Australia"; tries.push(`${short} ${tail} | ${price}`, `${short} ${tail}`); }
+  const primary = productPrimary(p).replace(/\s+/g, ' ').trim();
+  const tries =[`${primary} for Sale | ${price}`, `${primary} | ${price}`, `${primary} for Sale`, primary];
   const fit = tries.find((s) => s.length <= MAX);
   if (fit) return fit;
-  // Long product name: drop trailing words (keeping at least three) so the keyword always stays in the title.
-  const words = short.split(' ');
+  // Long name: keep the leading words of the primary (at least three) so the title still starts with the keyword.
+  const words = primary.split(' ');
   for (let n = words.length - 1; n >= 3; n--) {
     const name = words.slice(0, n).join(' ').replace(/[,&|-]+$/, '').trim();
-    for (const s of [`${name} | ${t} | ${price}`, `${name} | ${t}`]) if (s.length <= MAX) return s;
+    for (const s of [`${name} | ${price}`, name]) if (s.length <= MAX) return s;
   }
-  const bare = `${short} | ${price}`;
-  if (bare.length <= MAX) return bare;
-  const w = short.split(' ');
-  while (w.length > 2 && `${w.join(' ')} | ${price}`.length > MAX) w.pop();
-  return `${w.join(' ').replace(/[,&|-]+$/, '').trim()} | ${price}`;
+  return primary.slice(0, MAX).replace(/\s+\S*$/, '');
 }
 
-// Meta description: keyword and price first (so trimming never removes them), then the product blurb, then the offer. 150-160 characters.
+// Meta description 110-158 characters: primary first, price, then the product blurb, then the offer line.
 export function productSeoDescription(p: P, offer: string): string {
-  const { t } = productSecondary(p);
-  const head = `${shortName(p.name)}: ${t}, AUD $${p.price.toLocaleString('en-AU')}.`;
+  const MAX = 156;
+  const primary = productPrimary(p).replace(/\s+/g, ' ').trim();
+  const head = `${primary} for sale in Australia, AUD $${p.price.toLocaleString('en-AU')}.`;
   const blurb = (p.shortDescription ?? '').replace(/\s+/g, ' ').trim();
   let out = `${head} ${blurb}`.trim();
-  if (out.length > 160) out = out.slice(0, 157).replace(/\s+\S*$/, '') + '...';
-  else if (out.length + offer.length + 1 <= 160) out = `${out} ${offer}`;
+  if (out.length > MAX) out = out.slice(0, MAX - 1).replace(/[\s,;:-]+\S*$/, '').replace(/[\s,;:.-]+$/, '') + '.';
+  else if (out.length + offer.length + 1 <= MAX) out = `${out} ${offer}`;
+  const pad = ' Free freight over $1,500, 12-month warranty.';
+  if (out.length < 110 && out.length + pad.length <= MAX) out += pad;
   return out;
 }

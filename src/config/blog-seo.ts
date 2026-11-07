@@ -191,11 +191,24 @@ export const SEO_TITLES: Record<string, string> = {
   "surron-light-bee-x-vs-ultra-bee-vs-storm-bee": "Surron Light Bee X vs Ultra Bee vs Storm Bee Guide",
   "rtr-lite-electric-pit-bike-comparison-australia": "RTR Lite vs Sport vs Alpha: Electric Pit Bike Guide",
   "ebox-dragster-electric-pit-bike-australia": "Ebox Dragster Australia: V3 Pit Bike Range Compared",
+  "talaria-sting-review-australia": "Talaria Sting Review Australia: Power, Range & Price",
+  "electric-bike-laws-qld-2026": "Electric Bike Laws QLD 2026: Power, Age, Licence, Fines",
+  "australian-electric-motorcycle-guide-2026": "Australian Electric Motorcycle Guide 2026: Models & Prices",
+  "e-ride-pro-ss-2-0-vs-sr-specs-price": "E-Ride Pro SS 2.0 vs SR: Specs, Price & Which to Buy",
+  "e-bike-safety-australia-guide": "E-Bike Safety Australia: Helmets, Batteries & Riding Tips",
+  "childs-dirt-bike-australia-electric-options": "Childs Dirt Bike Australia: Best Electric Options by Age",
+  "adult-electric-dirt-bike-australia-best-models": "Adult Electric Dirt Bike Australia: Best Models by Use",
+  "125cc-dirt-bike-australia-electric-alternatives": "125cc Dirt Bike Australia: Electric Alternatives Compared",
+  "kids-ebike-australia-evo-racing-lil-rippa-compared": "Kids Ebike Australia: EVO Racing, Lil Rippa, Warrior",
+  "cheapest-electric-dirt-bike-australia-price-ladder": "Cheapest Electric Dirt Bike Australia: Price Ladder",
+  "2-stroke-dirt-bike-vs-electric-dirt-bike": "2 Stroke Dirt Bike vs Electric Dirt Bike: Cost & Power",
+  "affordable-dirt-bikes-australia-electric-value": "Affordable Dirt Bikes Australia: Electric Options by Budget",
+  "e-bikes-victoria-buying-guide": "E Bikes Victoria: Buying Guide for Melbourne Riders",
 };
 
 // <title> for a post: the override when there is one, otherwise the post title plus the blog suffix when that stays within 70 characters.
 export function blogSeoTitle(slug: string, title: string): string {
   const t = SEO_TITLES[slug];
   if (t) return t;
-  return title.length + 11 <= 70 ? `${title} | EDBA Blog` : title;
+  return title.length + 12 <= 60 ? `${title} | EDBA Blog` : title;
 }

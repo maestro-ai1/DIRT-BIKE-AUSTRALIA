@@ -33,8 +33,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const t = `${title(label)}: ${n} Guides, Prices & Models | EDBA`;
   const d = `${n} Electric Dirt Bike Australia guides on ${label}: prices, models, safety and buying advice, plus the matching bikes and parts in stock.`;
   return {
-    title: t.length > 65 ? `${title(label)} Guides & Models | EDBA` : t,
-    description: d.length > 160 ? d.slice(0, 157) + '...' : d,
+    title: [t, `${title(label)} Guides & Models | EDBA`, `${title(label)} Guides | EDBA`, title(label)].find((x) => x.length <= 60) ?? title(label),
+    description: d.length > 156 ? d.slice(0, 155).replace(/[\s,;:-]+\S*$/, '').replace(/[\s,;:.-]+$/, '') + '.' : d,
     alternates: { canonical: `https://${SITE.domain}/blog/tag/${tag}/` },
     robots: { index: true, follow: true },
     openGraph: { title: t, description: d, url: `https://${SITE.domain}/blog/tag/${tag}/`, siteName: 'Electric Dirt Bike Australia', locale: 'en_AU', type: 'website', images: DEFAULT_OG_IMAGES },

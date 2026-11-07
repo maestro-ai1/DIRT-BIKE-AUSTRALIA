@@ -50,10 +50,11 @@ export const EXTRA_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "ktm electric dirt bike",
     "secondaryKeywords": [
-      "electric ktm motocross bike",
-      "ktm electric bike australia",
       "ktm electric dirt bike australia price",
-      "electric dirt bike for kids"
+      "ktm electric bike",
+      "electric dirt bike australia for sale",
+      "dirt ebike",
+      "dirt bike vs e bike"
     ],
     "products": [
       "ktm-sx-e-5-youth-electric"
@@ -106,7 +107,8 @@ export const EXTRA_POSTS: NewPost[] = [
       "fastest electric bike australia",
       "fastest e bike australia",
       "fast electric dirt bike",
-      "fast electric pit bike"
+      "e bikes fast",
+      "electric bikes fastest"
     ],
     "products": [
       "e-ride-pro-ss-2-0",
@@ -164,8 +166,7 @@ export const EXTRA_POSTS: NewPost[] = [
     "secondaryKeywords": [
       "small e bike",
       "small electric bicycle",
-      "small electric bikes",
-      "mini electric bike"
+      "electric small bike"
     ],
     "products": [
       "ace-mini-electric-fat-bike",
@@ -221,9 +222,10 @@ export const EXTRA_POSTS: NewPost[] = [
     "primaryKeyword": "dirtbike bicycle",
     "secondaryKeywords": [
       "electric dirt bicycle",
-      "dirt bicycle for sale",
-      "cheap electric dirt bike",
-      "electric dirt bike for kids"
+      "electric dirt bike best",
+      "dirt cheap dirt bikes",
+      "dirt cheap dirt bikes for sale",
+      "moto dirt bikes for sale"
     ],
     "products": [
       "razor-mx650-electric-kids",
@@ -276,12 +278,9 @@ export const EXTRA_POSTS: NewPost[] = [
         "a": "Western Australia follows the same national standard for bicycle-class e-bikes. See the [WA Road Safety Commission](https://www.wa.gov.au/organisation/road-safety-commission/bicycle-riders) for current rules."
       }
     ],
-    "primaryKeyword": "e bike laws victoria age limit",
+    "primaryKeyword": "e bikes victoria",
     "secondaryKeywords": [
-      "victoria electric bike laws",
-      "wa ebike laws",
-      "street legal electric bike",
-      "new electric bike laws"
+      "electric bikes victoria"
     ],
     "products": []
   }

@@ -7,7 +7,7 @@ import { MapPin, ShieldCheck, Wrench, Truck, Award, CheckCircle, Navigation, Pho
 
 import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 export const metadata: Metadata = {
-  title: 'About Electric Dirt Bike Australia | Authorised Dealer, Mittagong NSW',
+  title: 'About Electric Dirt Bike Australia | Dealer, Mittagong NSW',
   description: 'Authorised dealer for Sur-Ron, Talaria and Stark Varg in Mittagong NSW 2575. ABN 98 611 685 977. Genuine AU stock, 12-month warranty, nationwide delivery.',
   keywords: 'electric dirt bike australia dealer, authorised electric dirt bike dealer australia, electric dirt bike australia reviews, electric bikes australia, sur ron authorised dealer australia',
   alternates: {

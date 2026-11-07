@@ -4,7 +4,7 @@ import { JsonLd } from '@/components/JsonLd';
 
 import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 export const metadata: Metadata = {
-  title: 'Contact Electric Dirt Bike Australia | Mittagong NSW Sales & Service',
+  title: 'Contact Electric Dirt Bike Australia | Mittagong NSW',
   description: 'Call, WhatsApp or email our Mittagong NSW 2575 workshop for expert advice on Sur-Ron, Talaria, Stark Varg, batteries and nationwide delivery.',
   keywords: 'contact electric dirt bike australia, electric dirt bike dealer contact, electric bike shop australia phone, sur ron dealer contact nsw, electric dirt bike enquiry australia',
   alternates: {

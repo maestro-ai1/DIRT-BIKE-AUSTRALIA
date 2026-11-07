@@ -97,7 +97,7 @@ export function ProductDetailClient({
           <div className="relative aspect-[4/3] bg-white rounded-2xl overflow-hidden border border-slate-200">
             <img
               src={product.images[selectedImage] || product.images[0]}
-              alt={productImageAlt(product)}
+              alt={productImageAlt(product, selectedImage)}
               width={1200}
               height={900}
               fetchPriority="high"
@@ -133,7 +133,7 @@ export function ProductDetailClient({
                     selectedImage === i ? 'border-sky-600 ring-2 ring-sky-600/30' : 'border-slate-200 opacity-70 hover:opacity-100'
                   }`}
                 >
-                  <img src={img} alt={productImageAlt(product, i)} width={320} height={240} loading="lazy" decoding="async" className="w-full h-full object-contain bg-white" />
+                  <img src={img} alt={`${productImageAlt(product, i)} thumbnail`} width={320} height={240} loading="lazy" decoding="async" className="w-full h-full object-contain bg-white" />
                 </button>
               ))}
             </div>

@@ -14,6 +14,18 @@ import { productsForPost } from '@/lib/relatedProducts';
 import { externalUrlsIn } from '@/src/config/authority-links';
 import { Calendar, Clock, ArrowLeft, ArrowRight, Share2, Zap } from 'lucide-react';
 
+/** Meta description 110-158 characters: the stored text when it fits, otherwise trimmed at a word boundary or extended with the site line. */
+function fitMeta(text: string): string {
+  const MAX = 156, MIN = 112;
+  let out = text.replace(/\s+/g, ' ').trim();
+  if (out.length > MAX) out = out.slice(0, MAX - 1).replace(/[\s,;:-]+\S*$/, '').replace(/[\s,;:.-]+$/, '') + '.';
+  for (const tail of [' Updated guide from Electric Dirt Bike Australia.', ' Shop genuine Australian stock.']) {
+    if (out.length >= MIN) break;
+    if (out.length + tail.length <= MAX) out += tail;
+  }
+  return out;
+}
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -30,7 +42,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = blogSeoTitle(post.slug, post.title);
   const meta = (post as Partial<NewPost>).metaDescription;
   const descRaw = `${post.excerpt} Expert electric dirt bike guides from Electric Dirt Bike Australia — Mittagong NSW.`;
-  const description = meta ?? (descRaw.length > 160 ? descRaw.slice(0, 157) + '...' : descRaw);
+  const description = fitMeta(meta ?? post.excerpt);
+  void descRaw;
 
   const categoryKeywords: Record<string, string> = {
     Comparisons: 'electric dirt bike comparison australia, sur ron vs talaria, best electric dirt bike australia',
@@ -119,6 +132,8 @@ export default async function BlogPostPage({ params }: Props) {
   const imageAlt = (post as { imageAlt?: string }).imageAlt ?? post.title;
   const articleKeywords = blogTags(post.slug);
 
+  const legacyFaqs = ((post as { faqs?: { q: string; a: string }[] }).faqs ?? []);
+  const stripLinks = (s: string) => s.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
   const schemaData = [
     {
       '@context': 'https://schema.org',
@@ -173,6 +188,13 @@ export default async function BlogPostPage({ params }: Props) {
         },
       ],
     },
+    ...(legacyFaqs.length
+      ? [{
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: legacyFaqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: stripLinks(f.a) } })),
+        }]
+      : []),
   ];
 
   return (
@@ -282,6 +304,25 @@ export default async function BlogPostPage({ params }: Props) {
               </p>
             );
           })}
+
+          {legacyFaqs.length > 0 && (
+            <section aria-labelledby="frequently-asked-questions" className="space-y-4 pt-4">
+              <h2 id="frequently-asked-questions" className="text-xl sm:text-2xl font-bold text-slate-900 pt-4 tracking-tight scroll-mt-28">Frequently Asked Questions</h2>
+              {legacyFaqs.map((f, i) => (
+                <div key={i} className="border-t border-slate-200 pt-3">
+                  <h3 className="text-base sm:text-lg font-bold text-slate-900">{f.q}</h3>
+                  <p className="mt-1 text-slate-700 leading-relaxed">
+                    {f.a.split(/(\[[^\]]+\]\([^)]+\))/g).map((part, k) => {
+                      const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                      if (!m) return part;
+                      const internal = m[2].startsWith('/') || m[2].includes(SITE.domain);
+                      return <a key={k} href={m[2]} {...(internal ? {} : { target: '_blank', rel: 'noopener noreferrer' })} className="text-sky-600 underline hover:text-sky-800 font-medium">{m[1]}</a>;
+                    })}
+                  </p>
+                </div>
+              ))}
+            </section>
+          )}
 
           {/* Contextual Product Callout */}
           <div className="mt-8 p-6 bg-slate-900 text-white rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-4">

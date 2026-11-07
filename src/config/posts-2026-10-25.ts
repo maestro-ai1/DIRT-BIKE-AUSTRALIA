@@ -62,12 +62,10 @@ export const R2_POSTS: NewPost[] = [
     "primaryKeyword": "250cc dirt bikes",
     "secondaryKeywords": [
       "250 dirt bike",
-      "dirt bike 250cc",
       "dirt bikes 250cc",
-      "250 dirtbike",
       "enduro dirt bikes",
-      "enduro dirt bike",
-      "electric dirt bike motorcycle"
+      "dirt motorcycles",
+      "125cc dirt bike"
     ],
     "products": [
       "talaria-dragon-enduro",
@@ -134,12 +132,11 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "2 stroke dirt bike",
     "secondaryKeywords": [
-      "2 stroke dirt bikes",
       "2 stroke motocross bikes",
-      "125 two stroke dirt bike",
       "four stroke dirt bike",
       "4 stroke dirt bike",
-      "dirt motorcycles"
+      "affordable dirt bikes",
+      "150cc dirt bike"
     ],
     "products": [
       "stark-varg-alpha-60hp",
@@ -204,15 +201,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Not necessarily, but cheap bikes can be harder to repair if parts are scarce. Electric bikes have fewer moving parts than petrol bikes, so routine costs are mainly tyres, brake pads, chains and battery care. Choose a model with Australian stock and a clear parts supply, and keep your service records."
       }
     ],
-    "primaryKeyword": "affordable dirt bikes",
+    "primaryKeyword": "affordable e-bike australia",
     "secondaryKeywords": [
-      "affordable dirt bike",
       "affordable electric motorcycle",
       "low price dirt bikes",
-      "low cost dirt bike",
-      "dirt cheap dirt bikes",
-      "affordable e-bike australia",
-      "cheap dirt motorbikes"
+      "cheap dirt motorbikes",
+      "best value ebike australia",
+      "best budget electric bike australia"
     ],
     "products": [
       "razor-mx650-electric-kids",
@@ -278,15 +273,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Yes. The EVO Racing range suits children on private property, with the 20-inch model at $2,399. These bikes include parental controls, but adult supervision, helmets and protective gear are essential. See our [kids e-bike comparison](/blog/kids-ebike-australia-evo-racing-lil-rippa-compared/) before you choose."
       }
     ],
-    "primaryKeyword": "e bikes victoria",
+    "primaryKeyword": "melbourne electric bikes",
     "secondaryKeywords": [
-      "e bike victoria",
-      "electric bikes victoria",
-      "ebikes victoria",
-      "australian e bikes",
-      "australian electric bike",
-      "electric bicycle ebike",
-      "small e bike"
+      "melbourne ebike",
+      "e bikes melbourne australia",
+      "best electric bikes melbourne",
+      "electric scooter melbourne",
+      "melbourne electric bicycles"
     ],
     "products": [
       "riptide-electric-beach-cruiser-bike",
@@ -357,9 +350,7 @@ export const R2_POSTS: NewPost[] = [
       "electric dirt bike adults",
       "dirt bike for adults",
       "dirt bikes for teens",
-      "teenage electric bikes",
-      "electric bike for teens",
-      "e dirtbike"
+      "teenage electric bikes"
     ],
     "products": [
       "sur-ron-light-bee-x",
@@ -424,15 +415,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Usually, because electricity costs less than fuel and oil, and there is no engine rebuild. Your savings depend on your tariff and how much you ride. Compare total ownership over a few years rather than purchase price alone, and use our [cost guide](/blog/cheapest-electric-dirt-bike-australia-price-ladder/) for typical figures."
       }
     ],
-    "primaryKeyword": "150cc dirt bike",
+    "primaryKeyword": "electric dirt bikes electric dirt bikes",
     "secondaryKeywords": [
       "150 dirt bike",
-      "150cc dirt bikes",
-      "150cc dirtbike",
-      "electric motorbikes for adults",
-      "electric motorcycle for adults",
-      "adult electric bike",
-      "high performance e bike"
+      "dirt bike 125cc",
+      "adult electric dirt bike",
+      "eletric dirt bike",
+      "80cc dirt bike"
     ],
     "products": [
       "sur-ron-light-bee-x",
@@ -497,15 +486,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Yes. The Sur-Ron Light Bee X at $6,490 and the Sur-Ron Ultra Bee at $10,990 are both available, along with the Storm Bee models. Use our [Sur-Ron category](/electric-dirt-bikes/sur-ron/) to compare them, and read the individual product pages for the specs."
       }
     ],
-    "primaryKeyword": "moto dirt bikes for sale",
+    "primaryKeyword": "electric moto",
     "secondaryKeywords": [
       "dirt bike motorcycles for sale",
-      "motorcycle dirt bikes for sale",
-      "motorcycle dirt bikes",
-      "dirt motorbikes",
-      "electric dirt bike motorcycles",
-      "e dirt bikes",
-      "moto dirt bike"
+      "electric dirt motorbike",
+      "mini electric dirt bike",
+      "good electric dirt bike",
+      "black dirt bike"
     ],
     "products": [
       "sur-ron-light-bee-x",
@@ -570,15 +557,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "We do not run our own finance, so check our [finance and payment guide](/faq/) for the options. The 10% discount for crypto or PayID payments also lowers the effective price, and our [affordable dirt bikes guide](/blog/affordable-dirt-bikes-australia-electric-value/) shows what each budget buys."
       }
     ],
-    "primaryKeyword": "motorcycle dirt bike for sale",
+    "primaryKeyword": "electric bike motorcycle",
     "secondaryKeywords": [
-      "motorcycle dirt bike",
-      "motorcycles dirt bike",
-      "dirt motorcycle",
-      "electric dirt motorbike",
-      "motorbike dirt",
-      "motorcycles dirt bikes",
-      "dirt motorbike"
+      "dirt and road motorcycle",
+      "red dirt bike",
+      "electric dirt bike perth",
+      "electric motorcycle brisbane",
+      "electric motorcycle for kids"
     ],
     "products": [
       "segway-x160-compact",
@@ -643,15 +628,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Wide-tyre e-bikes are heavier than standard bikes, and dirt bikes are heavier again, with the Light Bee X at 50 kg and the Sting R MX4 at 63 kg. Use a ramp and a second person to load, and check the weight on each product page before you buy."
       }
     ],
-    "primaryKeyword": "off road electric bikes",
+    "primaryKeyword": "off road electric bike australia",
     "secondaryKeywords": [
-      "e bike off road",
-      "off road ebikes",
-      "off road electric bike",
-      "off road e bikes",
-      "electric off road bikes",
-      "off road electric bike australia",
-      "electric bike off road"
+      "e ride bike",
+      "road bikes electric",
+      "e road bikes australia",
+      "best off-road electric bike australia",
+      "road e-bike"
     ],
     "products": [
       "ace-adventure-fat-tyre-electric-bike",
@@ -716,15 +699,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Yes, the Razor MX650 at $899 is the only bike in our range under $1,000. It suits ages 13 and over and is best for flat private land at low speed. For younger children, the EDBA Moto 50 is $1,290 and has a remote kill switch."
       }
     ],
-    "primaryKeyword": "electric kids motorbike",
+    "primaryKeyword": "electric motorbike for kids",
     "secondaryKeywords": [
-      "electric motorbike for kids",
-      "kids electric motorbikes",
       "childs electric motorbike",
       "kids motorbike electric",
-      "childrens electric motorbikes",
-      "electric motorcycle for kids",
-      "childrens electric motor bike"
+      "childrens electric motor bike",
+      "ebikes for kids",
+      "electric motorbike perth"
     ],
     "products": [
       "edba-moto-50-kids-beginner",
@@ -789,15 +770,12 @@ export const R2_POSTS: NewPost[] = [
         "a": "Under $2,000 you can choose the EVO Racing 16 at $1,599, the EVO Racing 18 at $1,999 or the Lil Rippa at $1,999. The Lil Rippa has the largest battery and a removable pack, while the EVO bikes have dual suspension. Match the bike to your child's height and weight."
       }
     ],
-    "primaryKeyword": "electric kids bike",
+    "primaryKeyword": "e bike kids",
     "secondaryKeywords": [
-      "electric bike for kids",
-      "kids e bike",
       "electric childs bike",
       "childs electric bike",
-      "kids ebike",
-      "kids electric bikes",
-      "electric bikes for kids"
+      "electric motor bike kids",
+      "kids electric motor bike"
     ],
     "products": [
       "evo-racing-16-electric-bike",
@@ -862,14 +840,11 @@ export const R2_POSTS: NewPost[] = [
         "a": "We aim for value by combining fair prices, a 10% crypto or PayID discount, free freight over $1,500 and a two-year warranty on adult Ampd e-bikes. Compare battery size, brakes and warranty rather than price alone, and read the product pages for full specifications."
       }
     ],
-    "primaryKeyword": "best ebikes australia",
+    "primaryKeyword": "",
     "secondaryKeywords": [
-      "best e-bike australia",
-      "best electric bicycles australia",
       "best e bikes in australia",
       "best electric bikes in australia",
       "electric bike best",
-      "best value ebike australia",
       "commuter ebike australia"
     ],
     "products": [
@@ -935,14 +910,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Not usually. Very low-priced bikes can lack support, spare parts and safety features. Choose a bike from a seller with published specifications and local support, and budget for protective gear. Our [affordable dirt bikes guide](/blog/affordable-dirt-bikes-australia-electric-value/) explains what each budget buys."
       }
     ],
-    "primaryKeyword": "best dirt bike",
+    "primaryKeyword": "electric bike for teens",
     "secondaryKeywords": [
-      "best electric dirt bike",
-      "best dirt bikes",
-      "best electric dirt bike australia",
-      "best electric dirt bikes",
       "youth dirt bikes",
-      "good electric dirt bike"
+      "electric bike teens",
+      "dirt bikes for sale melbourne",
+      "dirt bikes to ride",
+      "electric dirt bike australia cheap"
     ],
     "products": [
       "sur-ron-light-bee-x",
@@ -1007,15 +981,10 @@ export const R2_POSTS: NewPost[] = [
         "a": "The ACE Adventure, ACE PRO and ACE-X Demon S5 all list a 180 kg maximum load, higher than the Stubbie S3's 120 kg. Choose by battery size and brakes as well as load, and read each product page for the full specification."
       }
     ],
-    "primaryKeyword": "electric fat tyre bike",
+    "primaryKeyword": "",
     "secondaryKeywords": [
-      "fat tyre electric bike australia",
-      "fat tyre ebike australia",
-      "fat tyre e bikes australia",
-      "fat tyre bicycle",
-      "fat bikes australia",
-      "electric fat bike australia",
-      "electric fat tyre bikes"
+      "bicycles for beach",
+      "bicycles for the beach"
     ],
     "products": [
       "ace-adventure-fat-tyre-electric-bike",
@@ -1080,15 +1049,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Yes, for most commutes. The Super Soco CPx covers up to 90 km, the NIU up to 100 km with both batteries and the Vmoto up to 120 km. Quoted range is a best case, so allow for wind, hills and a heavier rider, and read our [electric versus petrol guide](/blog/2-stroke-dirt-bike-vs-electric-dirt-bike/) for more."
       }
     ],
-    "primaryKeyword": "moped e scooter",
+    "primaryKeyword": "scooter and moped",
     "secondaryKeywords": [
-      "scooter and moped",
-      "motorcycle scooter moped",
       "electric moped bicycle",
       "cheap electric mopeds",
-      "moped bicycle",
       "electric motor scooter moped",
-      "electric moped cycle"
+      "electric moped cycle",
+      "road legal electric bike"
     ],
     "products": [
       "niu-nqi-gt-electric-moped",
@@ -1154,13 +1121,11 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric motorbike for 7 year old",
     "secondaryKeywords": [
-      "kids electric motor bike",
-      "electric motor bike kids",
-      "kids e dirt bike",
-      "youth electric dirt bike",
-      "kids electric dirt bikes",
-      "electric children's motorcycle",
-      "electric kids bikes"
+      "electric motorbike for 5 year old",
+      "electric motorbike for 3 year old",
+      "eletric motorbike",
+      "electric motorbike scooter",
+      "best electric road motorbike australia"
     ],
     "products": [
       "ktm-sx-e-5-youth-electric",
@@ -1225,15 +1190,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Many start between 3 and 6, depending on balance and confidence. There is no legal or safe age that suits every child, so judge by the child, follow the manufacturer's age and weight guidance and ask your local authority about any rules where you ride."
       }
     ],
-    "primaryKeyword": "electric motorbike for 5 year old",
+    "primaryKeyword": "mini bike electric",
     "secondaryKeywords": [
-      "electric minibike",
       "mini electric motorcycle",
       "mini electric motor bike",
       "mini e dirt bike",
-      "mini dirt bike electric",
       "electric dirt bike mini",
-      "mini bike electric"
+      "mini e bike australia"
     ],
     "products": [
       "edba-moto-50-kids-beginner",
@@ -1297,14 +1260,12 @@ export const R2_POSTS: NewPost[] = [
         "a": "In our range the options start at $699 for the Apollo Sedna balance bike and $1,290 for the EDBA Moto 50, which is the one with a remote kill switch. Paying with crypto or PayID takes 10% off, and orders over $1,500 ship free. Check the product pages for current prices and the ACCC's [e-micromobility safety page](https://www.productsafety.gov.au/business/e-bikes-e-scooters-and-other-e-micromobility-devices) for general product safety."
       }
     ],
-    "primaryKeyword": "electric motorbike for 3 year old",
+    "primaryKeyword": "",
     "secondaryKeywords": [
-      "mini e bikes",
-      "mini ebikes",
-      "electric minibikes",
-      "mini electric bikes",
-      "e bike mini",
-      "mini bicycle electric"
+      "mini bicycle electric",
+      "50cc motorbike australia",
+      "electric motorbike road",
+      "electric motorbike adults"
     ],
     "products": [
       "edba-moto-50-kids-beginner",
@@ -1371,13 +1332,10 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "e bikes for 10 year olds",
     "secondaryKeywords": [
-      "boy electric bike for 10 year old",
       "electric bikes for 11 year olds",
-      "electric dirt bikes for 10 year olds",
       "e bike for 12 year olds",
-      "childs electric bicycle",
       "childrens electric bicycle",
-      "childrens electric mountain bike"
+      "boy electric bike for 10 year old"
     ],
     "products": [
       "evo-racing-20-electric-bike",
@@ -1444,13 +1402,11 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "electric scrambler bike",
     "secondaryKeywords": [
-      "coolest e-bikes",
-      "cool e-bike",
       "cool cruiser bike",
-      "ebikes cruiser",
-      "cruiser electric bikes",
       "electric bikes cruiser",
-      "cruiser ebikes"
+      "trail bike dirt bike",
+      "trail dirt bikes",
+      "street legal e bike"
     ],
     "products": [
       "super73-rx-mojave",
@@ -1514,16 +1470,8 @@ export const R2_POSTS: NewPost[] = [
         "a": "On private property the requirements differ from public land, and many states have specific rules for young riders and for registration. Ask your state authority and the landowner before you ride, supervise inexperienced riders, keep the bike off public roads and paths and wear full protective gear every time you go out."
       }
     ],
-    "primaryKeyword": "electric trail bike",
-    "secondaryKeywords": [
-      "motorized trail bike",
-      "motorized trail bikes",
-      "electric trail bikes",
-      "electric trail bike australia",
-      "trail bike dirt bike",
-      "trail dirt bikes",
-      "electric motorbike offroad"
-    ],
+    "primaryKeyword": "",
+    "secondaryKeywords": [],
     "products": [
       "sur-ron-light-bee-x",
       "talaria-sting-r-mx4",
@@ -1587,15 +1535,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Generally yes: registered electric motorcycles and mopeds need the appropriate licence class for the vehicle, and learners may be restricted to LAMS-approved models. The exact class depends on the state and the bike, so ask your state authority before you buy."
       }
     ],
-    "primaryKeyword": "road legal electric bike",
+    "primaryKeyword": "legal electric bikes",
     "secondaryKeywords": [
       "road legal electric motorbike",
-      "electric road bike australia",
-      "electric road bikes australia",
       "road e bicycle",
-      "road e-bike",
       "road electric bikes",
-      "road bikes electric"
+      "e bikes legal",
+      "e bike road"
     ],
     "products": [
       "riptide-electric-beach-cruiser-bike",
@@ -1660,11 +1606,9 @@ export const R2_POSTS: NewPost[] = [
         "a": "Look at watt-hours, found by multiplying volts by amp hours. The Demon's 1,300 Wh pack gives up to 100 km, while the SS 2.0's 2,880 Wh pack gives up to 105 km at much higher power. Real range depends on terrain, speed and rider weight."
       }
     ],
-    "primaryKeyword": "high performance e bikes",
+    "primaryKeyword": "high performance electric bikes",
     "secondaryKeywords": [
-      "high performance ebikes",
-      "high performance electric bikes",
-      "high performance electric motorcycle"
+      "high performance electric dirt bike"
     ],
     "products": [
       "ace-x-demon-dual-motor-fat-electric-bike",
@@ -1731,13 +1675,11 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "bicycles for cruising",
     "secondaryKeywords": [
-      "bicycle for cruising",
       "cruise bikes",
       "cruise e bikes",
-      "cruise ebike",
-      "beach cruising",
       "cruising e bike",
-      "electric cruise"
+      "electric bicycles nsw",
+      "electric road bicycles"
     ],
     "products": [
       "riptide-s-electric-beach-cruiser-bike",
@@ -1802,15 +1744,9 @@ export const R2_POSTS: NewPost[] = [
         "a": "Yes. Packs ship from Mittagong NSW with delivery from 1 to 3 business days around Sydney up to 5 to 8 business days for remote areas, and paying with crypto or PayID takes 10% off. Orders over $1,500 ship free."
       }
     ],
-    "primaryKeyword": "battery for motorbike",
+    "primaryKeyword": "",
     "secondaryKeywords": [
-      "motor bicycle battery",
-      "motorcycle bike battery",
-      "12v bike battery",
-      "battery ebike",
-      "battery electric bike",
-      "electric bike battery replacement",
-      "electric battery for bicycle"
+      "motor bicycle battery"
     ],
     "products": [
       "sur-ron-oem-60v-40ah-replacement",
@@ -1878,12 +1814,7 @@ export const R2_POSTS: NewPost[] = [
     "primaryKeyword": "electric pitbike",
     "secondaryKeywords": [
       "electric pit bike australia",
-      "pit bikes au",
-      "electric pit bike for adults",
-      "pit bike electric",
-      "pitbike australia",
-      "pitbikes australia",
-      "adult electric pit bike"
+      "pit bikes au"
     ],
     "products": [
       "dhz-2200e-electric-pit-bike",
@@ -1948,15 +1879,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "You can order from Electric Dirt Bike Australia online and we ship across the country from Mittagong NSW. Orders over $1,500 ship free. Browse the [electric dirt bikes category](/electric-dirt-bikes/) or [contact us](/contact/) for help choosing."
       }
     ],
-    "primaryKeyword": "electric enduro dirt bike",
+    "primaryKeyword": "dirt bike models",
     "secondaryKeywords": [
-      "electric enduro motorbike",
-      "electric enduro motorcycle",
-      "best electric enduro bike",
-      "enduro electric dirt bike",
-      "electric enduro bike australia",
-      "enduro electric motorcycle",
-      "best electric enduro motorcycle"
+      "childrens electric dirt bike australia",
+      "dirt bikes melbourne",
+      "50cc dirt bike australia",
+      "how much are dirt bikes",
+      "road and dirt bike"
     ],
     "products": [
       "talaria-dragon-enduro",
@@ -2024,14 +1953,8 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "stark varg",
     "secondaryKeywords": [
-      "stark bark",
-      "stark varge",
-      "strak varg",
-      "starkvarg",
       "stark varg aud",
-      "stark varg electric dirt bike",
-      "mini varg",
-      "street legal stark varg"
+      "stark varg electric dirt bike"
     ],
     "products": [
       "stark-varg-ex-80hp",
@@ -2099,12 +2022,9 @@ export const R2_POSTS: NewPost[] = [
     "primaryKeyword": "ebox dragster",
     "secondaryKeywords": [
       "ebox dragster australia",
-      "ebox 2.0",
       "ebox v2",
-      "ebox 3.0",
-      "dragster bike",
       "dragster e bike",
-      "dragster ebike"
+      "ebox electric dirt bike"
     ],
     "products": [
       "ebox-v3-60-electric-pit-bike-3300w-60v",
@@ -2173,9 +2093,9 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "rtr lite",
     "secondaryKeywords": [
-      "rtr alpha",
       "rizzler electric bike",
-      "the rizzler electric bike"
+      "the rizzler electric bike",
+      "rtr electric dirt bike"
     ],
     "products": [
       "etm-rtr-lite-electric-pit-bike",
@@ -2240,16 +2160,10 @@ export const R2_POSTS: NewPost[] = [
         "a": "No. The bikes we sell are for private property and designated off-road areas, not registered road use. Check your state authority's rules for the area where you ride, and always get the landowner's permission before riding on private land. Wear full protective gear every time."
       }
     ],
-    "primaryKeyword": "surron light bee x",
+    "primaryKeyword": "surron australia",
     "secondaryKeywords": [
-      "surron lbx",
-      "surron bike",
-      "surron bikes",
-      "surrons",
-      "surron e bicycle",
-      "surron storm bee",
-      "surron lightbee",
-      "cheap surron"
+      "surron pricing",
+      "surron lbx price"
     ],
     "products": [
       "sur-ron-light-bee-x",
@@ -2314,12 +2228,13 @@ export const R2_POSTS: NewPost[] = [
         "a": "Yes. Paying with crypto or PayID takes 10% off at checkout, and orders over $1,500 ship free from Mittagong NSW. See the [contact page](/contact/) if you need help choosing a bike before you order, and tell us the rider's height, weight and experience so we can point you to the right size."
       }
     ],
-    "primaryKeyword": "dirt bikes for sale",
+    "primaryKeyword": "16 electric bike",
     "secondaryKeywords": [
-      "dirt bike for sale",
-      "kids dirt bike",
-      "mini bike dirt bike",
-      "stunt bike dirt bike"
+      "250 dirt bike for sale",
+      "dirt bikes that are electric",
+      "dirt bike for road",
+      "dirt bike used",
+      "dirt bike motorbikes"
     ],
     "products": [
       "dhz-2200e-electric-pit-bike",
@@ -2388,9 +2303,11 @@ export const R2_POSTS: NewPost[] = [
     ],
     "primaryKeyword": "eride pro",
     "secondaryKeywords": [
-      "e ride pro mini",
-      "eride pro mini",
-      "e ride pro australia"
+      "e ride pro australia",
+      "e ride pro ss australia",
+      "eride pro ss australia",
+      "e bike mini",
+      "e bike pro"
     ],
     "products": [
       "e-ride-pro-ss-2-0",

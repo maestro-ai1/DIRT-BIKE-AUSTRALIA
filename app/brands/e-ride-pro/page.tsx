@@ -7,7 +7,7 @@ import { DEFAULT_OG_IMAGES } from '@/lib/ogDefaults';
 // Semrush AU (full bank): e ride pro 2,900 (navigational); e ride pro australia 170 (C); e-ride pro ss 110 (C); e ride bike 90 (C); e ride pro ss australia 50 (C).
 // This page owns the brand terms; the /brands/ hub links here and keeps only "electric bike brands australia".
 const PATH = '/brands/e-ride-pro/';
-const title = 'E Ride Pro Australia | E-Ride Pro SS Electric Dirt Bikes for Sale';
+const title = 'E Ride Pro Australia | E-Ride Pro Electric Bikes for Sale';
 const description = 'E Ride Pro Australia: buy the E-Ride Pro SS 2.0, SR, SE 17/17 and Mini with prices and specs shown. Free freight over $1,500, 10% off with crypto.';
 export const metadata: Metadata = {
   title,
